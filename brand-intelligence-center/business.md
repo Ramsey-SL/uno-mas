@@ -3,7 +3,7 @@
 ## Identity
 - **Name:** Uno Más Tacos & Tequila
 - **Website:** unomastacoshop.com
-- **Location:** 2020 N Monroe St, Suite C, Spokane, WA 99201
+- **Location:** 2020 N Monroe St, Suite C, Spokane, WA 99205 (behind Indaba Coffee, corner of Knox Ave & N Monroe)
 - **Business Type:** Latin-inspired restaurant / taco bar / tequila bar / private event venue
 - **Year Founded:** 2022
 - **Format:** Full-service dine-in (primary), takeout, private events & venue rental (The Mezzanine), Uno Mas Rewards: The Cantina Club loyalty/subscription

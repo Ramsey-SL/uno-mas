@@ -6,7 +6,7 @@
 
 ## WHO WE ARE
 
-Uno Más Tacos & Tequila — a modern Mexican restaurant and tequila bar in Spokane, WA. Three distinct venues at one address: The Cantina (main floor, converted mechanic's garage), The Mezzanine (upstairs speakeasy and private event space), and The Patio (outdoor bar + street food kitchen). Founded 2022. Located at 2020 N Monroe St, Spokane WA 99201.
+Uno Más Tacos & Tequila — a modern Mexican restaurant and tequila bar in Spokane, WA. Three distinct venues at one address: The Cantina (main floor, converted mechanic's garage), The Mezzanine (upstairs speakeasy and private event space), and The Patio (outdoor bar + street food kitchen). Founded 2022. Located at 2020 N Monroe St, Spokane WA 99205.
 
 **Tagline:** Get a little lost.
 **Tone:** Confident, playful, self-aware. Short sentences. Never corporate.
@@ -98,7 +98,7 @@ Uno Más Tacos & Tequila — a modern Mexican restaurant and tequila bar in Spok
 | Instagram | @unomastacoshop |
 | TikTok | @unomastacosandtequila |
 | Private Events | karissa@unomastacoshop.com |
-| Address | 2020 N Monroe St, Suite C, Spokane WA 99201 |
+| Address | 2020 N Monroe St, Suite C, Spokane WA 99205 |
 | Phone | (509) 960-7989 |
 | Hours | Tue–Thu 11am–9pm · Fri–Sat 11am–10pm |
 | Brunch | Sundays 10am–4pm (launching Mother's Day 2026) |

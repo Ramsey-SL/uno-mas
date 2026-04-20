@@ -52,4 +52,4 @@ No third-party delivery. Dine-in and takeout only.
 ## Contact
 - **General:** tacos@unomastacoshop.com
 - **Events / Mezzanine / Catering:** karissa@unomastacoshop.com
-- **Location:** 2020 N Monroe St, Suite C, Spokane, WA 99201
+- **Location:** 2020 N Monroe St, Suite C, Spokane, WA 99205 (behind Indaba Coffee, corner of Knox Ave & N Monroe)

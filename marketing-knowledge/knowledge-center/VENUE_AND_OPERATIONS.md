@@ -31,6 +31,7 @@
 |---|---|
 | **Name** | Uno Más Tacos & Tequila |
 | **Address** | 2020 N Monroe St, Suite C, Spokane, WA 99205 |
+| **Landmark** | Behind Indaba Coffee, on the corner of Knox Ave & N Monroe |
 | **Phone** | (509) 960-7989 |
 | **Website** | unomastacoshop.com |
 | **Instagram** | https://www.instagram.com/unomastacoshop |
@@ -64,8 +65,9 @@
 | Saturday | 11am – 10pm |
 | Sunday | Closed *(Sunday Brunch launching Mother's Day, May 2026 — 10am–4pm)* |
 
-### Special Hours / Recurring Programming
-- **Lunch Service:** 11am–close, Tuesday–Saturday
+### Service Windows
+- **Lunch:** 11am–5pm, Tuesday–Saturday (lunch menu)
+- **Dinner:** 5pm–9pm Tue–Thu · 5pm–10pm Fri–Sat (dinner menu)
 - **Sunday Brunch:** 10am–4pm (launching Mother's Day, May 2026)
 - **Live DJ:** Friday & Saturday nights
 - **Rotating Specials:** Promotions change regularly — reference active campaign files for current offers. Do not reference happy hour or Taco Tuesday.

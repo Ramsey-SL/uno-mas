@@ -1,6 +1,6 @@
 # Uno Más — Brand & Marketing Knowledge Base
 
-> Modern Mexican restaurant and tequila bar · 2020 N Monroe St, Spokane WA 99201  
+> Modern Mexican restaurant and tequila bar · 2020 N Monroe St, Spokane WA 99205  
 > Founded 2022 · Owner: Ramsey Pruchnic
 
 This repository is the single source of truth for all Uno Más brand knowledge, marketing guidelines, and campaign assets. Every AI tool, marketing agent, and team member should reference these files before creating any brand content.
@@ -41,8 +41,8 @@ uno-mas/
 │       ├── BRAND_VOICE_CHEATSHEET.md
 │       └── ...
 │
-└── campaigns/                     ← Campaign briefs and copy by date
-    └── 2026-04-dinner-launch/
+└── campaigns/                     ← Live campaign briefs and copy by date (one folder per campaign)
+    └── YYYY-MM-campaign-slug/
         ├── briefs/                ← Campaign brief, creative brief, KPIs, timeline
         └── copy/                  ← Email, SMS, social, ads, Google copy
 ```
@@ -70,7 +70,7 @@ Ready-to-use copy for every channel, format, and daypart.
 | **Positioning** | Modern Mexican restaurant and tequila bar |
 | **Tagline** | Get a little lost. |
 | **Primary Color** | Hot Pink `#E22690` |
-| **Address** | 2020 N Monroe St, Suite C, Spokane WA 99201 |
+| **Address** | 2020 N Monroe St, Suite C, Spokane WA 99205 |
 | **Instagram** | @unomastacoshop |
 | **TikTok** | @unomastacosandtequila |
 | **Reservations** | resy.com/cities/spokane-wa/venues/uno-mas-tacos-and-tequila |

@@ -1,20 +1,33 @@
 # UNO MÁS — KNOWLEDGE CENTER AUDIT REPORT
-**Date:** April 9, 2026
+**Date:** April 9, 2026 · **Issues Resolved:** April 20, 2026
 **Auditor:** Claude / Cowork
 **Scope:** All Knowledge Center MD files + 14 website templates + `_CHANNEL_READY/Website/` photo library
-**Status:** Needs Ramsey Review
+**Status:** ✅ Issues 1–4 resolved by Ramsey on 2026-04-20. Photo library reference below retained for ongoing use.
 
 ---
 
 ## SUMMARY
 
-The Knowledge Center is in strong shape overall. Copy is sharp, on-brand, and consistent in the `UnoMas_BrandVoice_April2026.md` and `UnoMas_CopyBank_April2026.md` files — these should be treated as the master references. However, there are **4 factual discrepancies** that need resolution before any new content is produced, plus **1 outdated document** that should be archived.
+All 4 factual discrepancies identified in the original audit have been resolved. Canonical values below under "KEY FACTS LOCKED IN." The Knowledge Center is now internally consistent on hours, address, ZIP, menu offerings, and reservation phrasing.
 
 ---
 
-## ISSUES REQUIRING RAMSEY INPUT
+## RESOLUTION RECORD (2026-04-20)
 
-### 🔴 ISSUE 1 — Opening Hours Conflict (Critical)
+| Issue | Resolution |
+|---|---|
+| **1. Opening time** | Open 11am Tue–Sat. Lunch 11am–5pm, Dinner 5pm–9pm Tue–Thu / 5pm–10pm Fri–Sat. |
+| **2. Sunday hours** | Currently closed Sun & Mon. Sunday Brunch launches Mother's Day 2026, Sundays 10am–4pm going forward. |
+| **3. ZIP code** | Confirmed **99205**. Fixed across `business.md`, `digital-ecosystem.md`, `system-prompt.md`, `CLAUDE_DESIGN_SYSTEM_BRIEF.md`, `README.md`. |
+| **4. Reservation phrasing** | Canonical copy: "Reservations not required but recommended. Walk-ins welcomed." |
+| **Bonus: Lunch Special** | Removed. Lunch and Dinner now operate as separate menus — there is no $12 2-taco deal. `MENU_AND_OFFERS.md` section removed and sections renumbered. |
+| **Bonus: Address landmark** | Added to `VENUE_AND_OPERATIONS.md` Business Essentials: "Behind Indaba Coffee, corner of Knox Ave & N Monroe." |
+
+---
+
+## ORIGINAL ISSUES (for historical reference)
+
+### 🔴 ISSUE 1 — Opening Hours Conflict (Critical) — ✅ RESOLVED
 
 Three documents disagree on what time the restaurant opens Tuesday–Saturday:
 
@@ -31,7 +44,7 @@ Three documents disagree on what time the restaurant opens Tuesday–Saturday:
 
 ---
 
-### 🔴 ISSUE 2 — Sunday Hours Missing in CopyBank (Critical)
+### 🔴 ISSUE 2 — Sunday Hours Missing in CopyBank (Critical) — ✅ RESOLVED
 
 The `UnoMas_CopyBank_April2026.md` header lists:
 > "Hours: Tue–Thu 11am–9pm | Fri–Sat 11am–10pm | **Sun–Mon Closed**"
@@ -46,7 +59,7 @@ The homepage template correctly shows Sunday open. The CopyBank header is wrong 
 
 ---
 
-### 🟡 ISSUE 3 — ZIP Code in VENUE_AND_OPERATIONS.md (Minor)
+### 🟡 ISSUE 3 — ZIP Code (Minor) — ✅ RESOLVED
 
 `VENUE_AND_OPERATIONS.md` lists the address as:
 > 2020 N Monroe St, Suite C, Spokane, WA **99201**
@@ -57,7 +70,7 @@ All other documents and the homepage template use **99205**, which is the correc
 
 ---
 
-### 🟡 ISSUE 4 — Homepage Template Copy Phrasing (Minor)
+### 🟡 ISSUE 4 — Homepage Template Copy Phrasing (Minor) — ✅ RESOLVED
 
 The current `web_page_homepage_v1.html` has this in the info section:
 > "No reservations for main floor walk-ins welcome."
@@ -113,9 +126,9 @@ These are consistent and correct — use with confidence:
 - **Website:** unomastacoshop.com
 - **Email:** tacos@unomastacoshop.com | Events: karissa@unomastacoshop.com
 - **Instagram:** @unomastacoshop
-- **Hours:** Mon & Sun closed. Tue–Thu 11am–9pm. Fri–Sat 11am–10pm. *(Sunday Brunch launching May 2026 — do not reference yet)*
-- **Happy Hour:** 3–5pm daily + all day Tuesday
-- **Taco Tuesday:** 3/$10 or 5/$15, all day, every Tuesday
+- **Hours:** Mon & Sun closed. Tue–Thu 11am–9pm (Lunch 11am–5pm / Dinner 5pm–9pm). Fri–Sat 11am–10pm (Lunch 11am–5pm / Dinner 5pm–10pm). *(Sunday Brunch launching Mother's Day 2026, Sundays 10am–4pm — do not reference publicly until launch week)*
+- **Lunch Special:** ❌ REMOVED (2026-04-20). No $12 2-taco deal. Lunch and dinner are separate menus now.
+- **Taco Tuesday:** ❌ NOT ACTIVE — do not reference
 - **No delivery. Dine-in only.**
 - **Loyalty Program:** Uno Mas Rewards: The Cantina Club
 - **Primary Tagline:** "Get a little lost at Uno Más."

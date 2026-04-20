@@ -7,7 +7,7 @@
 **Source:** Current printed menus — April 2026 (UnoMas_Menu_Monroe_April2026.pdf in 07_MENU_ASSETS/Menus/)
 **Status:** Active — Cross-reference before writing any product copy
 
-> **AI AGENT NOTE:** Always use this file for accurate item names, prices, and descriptions. Do not guess or use outdated pricing. If an item isn't listed here, ask for clarification before writing about it. Version 2.2 confirms physical menu (April 2026) — Taco Tuesday removed, Beer section expanded with full Michelada/Cheleda/Buckets detail.
+> **AI AGENT NOTE:** Always use this file for accurate item names, prices, and descriptions. Do not guess or use outdated pricing. If an item isn't listed here, ask for clarification before writing about it. Version 2.3 (April 2026) — Lunch Special ($12 2-taco deal) removed. Lunch and Dinner now operate as separate menus (Lunch 11am–5pm, Dinner 5pm–close). Taco Tuesday previously removed. Beer section expanded with full Michelada/Cheleda/Buckets detail.
 
 ---
 
@@ -24,10 +24,9 @@
 9. Cocktails
 10. Pitchers
 11. Beer & Non-Alcoholic
-12. Lunch Special
-13. Happy Hour
-14. Mezzanine Private Event Packages
-15. Writing Guidelines Per Category
+12. Happy Hour
+13. Mezzanine Private Event Packages
+14. Writing Guidelines Per Category
 
 ---
 
@@ -40,8 +39,6 @@
 | Big A** ¼lb Taco | $10 each |
 | 2 Big A** ¼lb Tacos + Side | $23 |
 | Birria Tacos | $14 (standalone — not included in taco plates) |
-| Lunch Special (Tue–Sat 11am–5pm) | 2 Street Tacos + Side $12 |
-| House Margarita (Lunch) | $10 |
 | Happy Hour | 3–5pm daily |
 | Burrito range | $16–$23 |
 | Bowl range | $13–$20 |
@@ -282,29 +279,14 @@ Three churros dusted in cinnamon sugar, served with house whipped cream, fresh s
 
 ---
 
-## 12. LUNCH SPECIAL
-
-**When:** Tuesday–Saturday, 11am–5pm
-**Deal:** 2 Street Tacos + Side: **$12**
-**Protein Options:** Carne Asada, Al Pastor Chicken, Carnitas, Barbacoa, Camaron, Batata *(vegetarian)*
-**Add:** House Margarita: **$10**
-
-### Copywriting Notes for Lunch Special
-- Strong value play — lead with the $12 price
-- "Lunch on Monroe" framing works well
-- $10 margarita add-on is a compelling upsell — include it
-- Post timing: 9–10am for best lunch traffic response
-
----
-
-## 13. HAPPY HOUR
+## 12. HAPPY HOUR
 
 **When:** 3–5pm daily (every day we're open)
 **What's included:** Drink specials (confirm current specials before writing)
 
 ---
 
-## 14. MEZZANINE PRIVATE EVENT PACKAGES
+## 13. MEZZANINE PRIVATE EVENT PACKAGES
 
 *The upstairs speakeasy. Fireplace. Leather lounges. Dramatic lighting. Private bar. Monroe flagship.*
 *Online ordering for the Fiesta Pack only — see VENUE_AND_OPERATIONS.md for link.*
@@ -372,7 +354,7 @@ Three churros dusted in cinnamon sugar, served with house whipped cream, fresh s
 
 ---
 
-## 16. WRITING GUIDELINES PER CATEGORY
+## 14. WRITING GUIDELINES PER CATEGORY
 
 | Category | Lead With | Always Include | Never Say |
 |---|---|---|---|
