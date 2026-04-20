@@ -87,10 +87,10 @@ Ready-to-use copy for every channel, format, and daypart.
 
 1. **system-prompt.md is the master file** — all other files feed into it. Update source files, then regenerate system-prompt.md.
 2. **Never mix Uno Más and Mezzanine brand elements** — they are separate visual identities.
-3. **Never say:** taco shop, authentic Mexican, mouthwatering, artisanal, mixology, happy hour (not currently active), Taco Tuesday (not currently active).
+3. **Never say:** taco shop, authentic Mexican, mouthwatering, artisanal, mixology, Taco Tuesday (not currently active).
 4. **Always say:** modern Mexican, house-smoked, craft cocktails, Get a little lost.
 5. **Brunch hours:** 10am–4pm, launching Mother's Day 2026.
-6. **Loyalty program:** Neon Tacos (Toast POS) — not "Cantina Club" or "Square."
+6. **Loyalty program:** Uno Más Rewards: The Cantina Club (Toast POS).
 
 ---
 

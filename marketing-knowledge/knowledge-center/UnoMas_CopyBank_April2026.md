@@ -752,7 +752,7 @@ The experience is the product as much as the food is. Uno Más transports people
 
 `#UnoMas #SpokaneEats #Monroe #CraftCocktails #GetALittleLost`
 
-*Note: Happy hour is not currently active. Do not use this post template with happy hour language unless it has been reinstated. Fill in the actual current promotion.*
+*Note: Happy hour is 3–5pm daily — active. Confirm current drink specials against the live menu before publishing.*
 
 ---
 
@@ -994,7 +994,7 @@ We'll hold your spot.
 
 ### Cocktails / Bar
 
-9. *[Promo SMS — fill in active offer details. Happy hour is not currently active — do not use this template with happy hour language unless reinstated.]*
+9. *[Promo SMS — fill in active offer details. Happy hour (3–5pm daily) is active — confirm current drink specials before sending.]*
    Example format: [Promo at Uno Más. [Details]. Come find us at 2020 N Monroe 🍹 Reply STOP to opt out]
 
 10. Espresso Margarita. Tequila, cold brew, Baileys. Make a decision. Uno Más, 2020 N Monroe 🍹 Reply STOP to opt out *(113 chars)*

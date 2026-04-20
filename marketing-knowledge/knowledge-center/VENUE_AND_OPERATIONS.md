@@ -70,7 +70,8 @@
 - **Dinner:** 5pm–9pm Tue–Thu · 5pm–10pm Fri–Sat (dinner menu)
 - **Sunday Brunch:** 10am–4pm (launching Mother's Day, May 2026)
 - **Live DJ:** Friday & Saturday nights
-- **Rotating Specials:** Promotions change regularly — reference active campaign files for current offers. Do not reference happy hour or Taco Tuesday.
+- **Happy Hour:** 3–5pm daily — active. Confirm current drink specials against the live menu before writing.
+- **Rotating Specials:** Promotions change regularly — reference active campaign files for current offers. Do not reference Taco Tuesday (not currently active).
 
 > **Note:** Weekly programming (Trivia, Comedy, Bingo) is NOT currently active. Do not reference in content until reinstated.
 
