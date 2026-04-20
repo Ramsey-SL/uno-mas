@@ -1,0 +1,26 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Financial / sensitive documents
+*SBA*
+*financial-statements*
+*tax*
+*payroll*
+
+# Large binary assets (use Google Drive or DAM instead)
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.mp4
+*.mov
+*.psd
+*.ai
+*.pdf
+*.xlsx
+*.docx
+
+# Temp files
+*.tmp
+*~
