@@ -60,6 +60,18 @@ Create campaign
 - Apply annotation changes to structured `output_json`
 - Save final concepts as reusable frameworks
 
+### MVP Export Formats
+
+The MVP should support practical export formats that let the team use generated creative immediately while preserving editable design data for later regeneration.
+
+MVP export options:
+
+- PNG
+- JPG
+- PDF
+- Editable HTML
+- JSON design data
+
 ## MVP Annotation Editing Requirements
 
 Annotation-based editing is included in the MVP.
@@ -338,6 +350,18 @@ These are intentionally not required for the MVP, but should be preserved for la
 
 ### Advanced Export Workflows
 
+Advanced export workflows and file/package options to revisit after the MVP:
+
+- SVG
+- MP4
+- GIF
+- Canva editable design
+- Figma file
+- Google Drive export folder
+- Meta ad package
+- ZIP package
+- Print-ready PDF with bleed
+- Email template HTML
 - Canva export/edit integration
 - Figma export/edit integration
 - Multi-size campaign resizing
