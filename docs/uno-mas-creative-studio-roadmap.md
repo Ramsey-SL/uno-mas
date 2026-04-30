@@ -348,6 +348,60 @@ These are intentionally not required for the MVP, but should be preserved for la
 - Figma import/export
 - Dropbox/Box import
 
+### Future Phase: Multi-Brand Mode / Brand Toggle
+
+Add support for switching the full creative environment between Uno Más and The Mezzanine.
+
+The app should allow authorized users to toggle active brand mode:
+
+- Uno Más
+- The Mezzanine
+
+When brand mode changes, the app should switch:
+
+- Brand colors
+- Typography
+- Logo rules
+- Voice/tone guidelines
+- Approved asset library
+- Style boards
+- Inspiration boards
+- Templates/frameworks
+- Creative generation prompts
+- Export defaults
+
+Brand separation rules:
+
+- Do not mix Uno Más and The Mezzanine colors, fonts, or logo systems.
+- Uno Más content should use Uno Más brand_guidelines, assets, style boards, and templates.
+- The Mezzanine content should use Mezzanine brand_guidelines, assets, style boards, and templates.
+- Users should see which brand mode they are working in at all times.
+- Generated creative should store the selected brand_mode in the database.
+
+Possible implementation:
+
+- Add `brand_id` or `brand_mode` fields to core tables:
+  - brand_guidelines
+  - assets
+  - style_boards
+  - inspiration_boards
+  - templates
+  - campaigns
+  - creative_outputs
+  - frameworks
+- Add a `brands` table with:
+  - id
+  - name
+  - slug
+  - primary_color
+  - secondary_color
+  - accent_color
+  - headline_font
+  - body_font
+  - logo_url
+  - tone_summary
+  - is_active
+
 ### Advanced Export Workflows
 
 Advanced export workflows and file/package options to revisit after the MVP:
