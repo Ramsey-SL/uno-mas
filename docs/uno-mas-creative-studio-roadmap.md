@@ -58,6 +58,25 @@ Create campaign
 - Save annotations
 - Apply annotation changes to structured `output_json`
 - Save final concepts as reusable frameworks
+- Locked HTML Template Builder
+
+### MVP/Core Feature: Locked HTML Template Builder
+
+Convert approved HTML/PNG design templates into locked, form-driven templates.
+
+Goals:
+
+- Preserve design quality
+- Prevent freeform layout editing
+- Define editable fields
+- Enforce field limits
+- Populate templates manually or from campaign briefs
+- Generate copy within template field constraints
+- Swap only approved assets
+- Save final output as creative_outputs
+- Export final designs
+
+This is not a drag-and-drop design editor. Templates are controlled layouts with editable fields.
 
 ### MVP Export Formats
 
