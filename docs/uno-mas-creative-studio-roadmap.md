@@ -14,7 +14,6 @@ Campaign details
 + Approved assets
 + Style board
 + Inspiration board
-+ Template/framework
 = On-brand creative concepts
 ```
 
@@ -401,6 +400,52 @@ Possible implementation:
   - logo_url
   - tone_summary
   - is_active
+
+### Future Phase: Social, Reviews, and Publishing Integrations
+
+Add integrations that connect Uno Más Creative Studio to social publishing tools, social accounts, and review platforms.
+
+Potential integrations:
+
+- Vista Social
+- Google Business Profile
+- Yelp
+- Tripadvisor
+- Facebook
+- Instagram
+- TikTok
+- Meta Ads comments
+
+Capabilities:
+
+- Pull recent posts, captions, comments, and engagement signals
+- Pull reviews and customer feedback
+- Summarize common themes, sentiment, complaints, and praise
+- Use social/review insights to inform campaign ideas and content generation
+- Build an internal social content calendar
+- Schedule approved content
+- Push approved creative and captions into Vista Social
+- Sync scheduled/published post status back into the tool
+- Draft comment and review responses
+- Require human approval before posting replies
+- Track which creative outputs were used in published posts
+- Use performance and engagement data to improve future creative recommendations
+
+Content calendar statuses:
+
+- Draft
+- Needs Review
+- Approved
+- Scheduled
+- Published
+- Archived
+
+Recommended guardrails:
+
+- Never auto-post customer replies without human approval
+- Flag sensitive reviews/comments for manual handling
+- Keep brand voice rules applied to all response drafts
+- Store source platform, source URL, post ID, and response history
 
 ### Advanced Export Workflows
 
