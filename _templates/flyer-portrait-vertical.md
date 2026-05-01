@@ -68,4 +68,4 @@ Standard print/digital flyer template. Portrait, 4:5 aspect ratio.
 
 ## Render reference
 
-This is the flyer the existing POC renders. See `/Users/scott/dev/playground/remotion/og-flyer-poc/app/components/FlyerTemplate.tsx`. The auto-shrink behavior (`fitText` helper) is part of the locked template.
+The auto-shrink behavior (`fitText` helper that computes font size from string length) is part of the locked template. A standalone POC demonstrates this rendering pipeline outside this repo — ask Scott for the link if you need to see it working.

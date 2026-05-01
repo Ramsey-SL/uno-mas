@@ -57,4 +57,4 @@ The default Uno Más Instagram feed post template. Square 1:1.
 
 ## Render reference
 
-In the V1 app, this template will be a React component using `@vercel/og`. The render POC at `/Users/scott/dev/playground/remotion/og-flyer-poc/app/components/FlyerTemplate.tsx` demonstrates the auto-shrink + brand-token enforcement.
+In the V1 app, this template will be a React component using `@vercel/og` with auto-shrink (font size computed from string length) and brand-token enforcement (palette restricted to brand hex codes only). A standalone POC of this rendering pipeline lives outside this repo — ask Scott for the link if you need to see it working.

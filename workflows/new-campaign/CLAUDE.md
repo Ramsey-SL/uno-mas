@@ -86,4 +86,4 @@ Optionally run `retro the last campaign` to capture what worked. Retros aggregat
 
 ## Smoke test reference
 
-A working example campaign lives at `campaigns/2026-04-30-smoke-test-cinco-de-mayo/` (created during Phase 0 setup). Reference it when teaching someone the workflow.
+> TODO: After the first staff member runs a campaign end-to-end, the resulting `campaigns/{YYYY-MM}-{slug}/` folder becomes the reference example for teaching the workflow to others. Until then, this section is a placeholder.
