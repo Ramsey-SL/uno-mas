@@ -104,5 +104,50 @@ Ready-to-use copy for every channel, format, and daypart.
 
 ---
 
+## Phase 0 Campaign Workflow
+
+This repository now hosts a guided campaign generation workflow at `workflows/new-campaign/`. Used by Ramsey + 1-2 staff via Claude Code to generate on-brand campaigns end-to-end.
+
+### Quick start
+
+```bash
+cd /path/to/uno-mas
+claude
+```
+
+In Claude Code, type:
+
+```
+I want to start a new campaign
+```
+
+Claude reads `workflows/new-campaign/CLAUDE.md` and walks you through 5 stages: Brief → Style → Assets → Concepts → Refine & Export.
+
+### Outputs
+
+Each campaign creates `campaigns/{YYYY-MM}-{slug}/` with:
+- `brief.md` — campaign brief
+- `decisions.md` — style + assets + final concept choice
+- `concepts/` — 3-4 concept variations with optional AI-rendered visuals
+- `final/` — locked final recipe ready for designer or V1 app render
+- `retro.md` — what worked, what didn't
+
+### What this validates (Phase 0)
+
+This is a learning instrument running for 2-4 weeks. Each campaign produces a retro that aggregates into the V1 app spec. Track:
+- Which workflow stages add value vs. feel like overhead
+- Which Ramsey docs the AI loads consistently vs. ignores
+- What's missing from brand context that surfaces in real campaigns
+- What staff want that the workflow doesn't support
+
+### What this is NOT
+
+- Not a hosted app (V1 of Uno Más Creative Studio comes after)
+- Not auto-rendering final-print PNGs (concepts are recipes + optional Nano Banana visuals; locked-template render is V1)
+- Not multi-user real-time
+- Not connected to Klaviyo / Vista Social / Resy yet (final recipes get handed off manually)
+
+---
+
 *Private repository — Strategy Labs / Uno Más Tacos & Tequila*  
 *Questions: ramsey@strategylabs.us*
