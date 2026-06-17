@@ -152,14 +152,14 @@ Go to https://app.netlify.com/projects/uno-mas-template-hub/deploys and drag the
 ---
 
 ## GEMINI API
-- **Key:** `AIzaSyCFHoqgLu5-rGMWpV_hp-WYbrdPEoysH9o`
+- **Key:** stored in `$GEMINI_API_KEY` (shell env / `~/.zshrc`) — **never commit the literal key**
 - **Model:** `imagen-4.0-generate-001`
 - **Endpoint:** `https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-generate-001:predict`
 - **Config file:** `~/.gemini-creative-config.json` (on session machine)
 
 **Quick generate:**
 ```bash
-curl -s -X POST "https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-generate-001:predict?key=AIzaSyCFHoqgLu5-rGMWpV_hp-WYbrdPEoysH9o" \
+curl -s -X POST "https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-generate-001:predict?key=${GEMINI_API_KEY}" \
   -H "Content-Type: application/json" \
   -d '{"instances": [{"prompt": "YOUR PROMPT"}], "parameters": {"sampleCount": 1, "aspectRatio": "1:1"}}' \
   | python3 -c "import sys,json,base64; d=json.load(sys.stdin); open('output.png','wb').write(base64.b64decode(d['predictions'][0]['bytesBase64Encoded']))"
