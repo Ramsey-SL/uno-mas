@@ -118,3 +118,28 @@ house-smoked char, real hands).
 | Legible in-image text / instruction-heavy comps | ChatGPT GPT-Image-1 |
 | Vector / code-based layout / SVG | Claude (direct) |
 | Production layout with real type + brand kit | Canva (not raw AI) |
+
+---
+
+## Test findings (June 2026)
+
+Ran two head-to-head rounds (Gemini vs ChatGPT, same prompt, same 6 base images).
+
+**Round 1 — photoreal hero (food/venue):**
+- **Gemini Imagen 4** wins *atmosphere & sense of place* — pulled in the TACOS neon, brick-garage,
+  papel picado, real people. Best for website hero / About / brand storytelling.
+- **ChatGPT GPT-Image** wins *clean food-hero* — tighter, more product-forward, added the drink.
+  Best for menu & social product shots.
+
+**Round 2 — text + graphics + icon overlay (Happy Hour promo):**
+- **ChatGPT GPT-Image is the clear winner.** Best at integrated, *designed-poster* compositions:
+  strong hierarchy, characterful display type, hand-drawn icon, on-brand playful energy. Both
+  models got the "Más" accent right this round.
+- **⚠️ Caveats that still require finishing in Canva:** the "Uno Más" wordmark GPT renders is an
+  *invented script*, NOT the real logo; the display font is not Antonio; output is baked pixels
+  (not editable). Looks on-brand but isn't brand-*system* exact.
+
+**Working rule:** ChatGPT = fast concept + designed social posters → **finish by compositing the
+real logo + (ideally) retyping the headline in Antonio in Canva** before brand-critical use.
+Use Claude/SVG for editable, exactly-repeatable templates (e.g. a weekly Happy Hour post where
+only the text changes). Use Gemini for photoreal atmosphere/website imagery.
