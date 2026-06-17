@@ -1,4 +1,7 @@
-# UNO MÁS · MERCH & MENU PROJECT · START HERE
+# UNO MÁS · MERCH & MENU PROJECT LOG (historical)
+> **Not the repo entry point** — see `/CLAUDE.md`. This is the April 2026 merch/menu project
+> session log (some links, e.g. template-hub, are deprecated). Kept for history.
+
 **Last updated:** April 22, 2026  
 
 > **Session 7 Consolidation (April 24, 2026):** Two Netlify sites (asset-hub + template-hub) previously served identical content. They were consolidated into a single Brand Hub at https://uno-mas-asset-hub.netlify.app. The `uno-mas-template-hub` site is deprecated. See `Template-Hub/CONSOLIDATION.md` for details.

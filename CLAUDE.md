@@ -143,15 +143,26 @@ Highest-margin channels: dinner, private events, catering — prioritize these.
 
 ## Where to find depth
 
-| Need | File |
+This file is the **entry point**. The repo's canonical content structure:
+
+| Need | Location |
 |---|---|
-| Full brand brain (assembled) | `brand-intelligence-center/system-prompt.md` |
-| Business / customer / differentiation | `brand-intelligence-center/{business,customer,differentiation}.md` |
-| Voice & identity (full) | `brand-intelligence-center/voice-identity.md` |
+| Operational cheat sheet (house info, menu, configs, stack, SEO) | `marketing/master-reference.md` |
+| Deep brand strategy (business, customer, differentiation, financial, proof) | `brand-intelligence-center/*.md` |
+| Full brand brain (assembled) · voice (full) | `brand-intelligence-center/system-prompt.md` · `voice-identity.md` |
 | Messaging framework (StoryBrand, taglines) | `brand-intelligence-center/messaging-framework.md` |
-| Proof & goals | `brand-intelligence-center/proof-goals.md` |
-| Marketing knowledge / quick-reference | `marketing-knowledge/` |
-| Drive warehouse map (what's in Uno_Mas_HQ) | see `MIGRATION-PLAN.md` |
+| Marketing execution (personas, copy bank, campaign templates, performance) | `marketing/knowledge-center/` |
+| Brand & design guidelines (colors, type, logo, layout, photography) | `marketing/brand-guidelines/` |
+| Quick-reference playbooks (email/SMS, social, AI marketing, cheatsheets) | `marketing/quick-reference/` |
+| Brand assets reference | `marketing/brand-assets/` |
+| Campaigns (briefs, copy, creative) | `marketing/campaigns/` |
+| Website (Lovable prompts, rebuild plan, messaging, backlog) | `website/` + `marketing/website-*.md` |
+| Drive warehouse map (what's in Uno_Mas_HQ) | `MIGRATION-PLAN.md` |
+
+> **Doc hierarchy:** `CLAUDE.md` (you are here — orientation) → `marketing/master-reference.md`
+> (operational cheat sheet) → `brand-intelligence-center/` (deep strategy) → topic folders above.
+> Superseded duplicate trees (`claude-project/`, old `marketing-knowledge/`) are archived under
+> `_archive/2026-06-16-reconciliation/`.
 
 ---
 

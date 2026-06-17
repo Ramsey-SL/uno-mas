@@ -28,10 +28,30 @@ Stop the "scattered context layers" problem. Establish one clear home for each k
 | 0 | Safety: pushed backup branch `pre-consolidation-backup-2026-06-16`; gitignore hardened; secrets flagged | ✅ done |
 | 1 | Merge 4 competing master docs → one `CLAUDE.md`; archive originals | ✅ done |
 | 2 | Collapse 3 brand-intelligence-center copies → 1 canonical (repo) | ✅ done |
+| 2.5 | **Reconcile parallel migration:** a separate session pushed 18k+ lines (marketing/, claude-project/, website/). Deduped overlapping trees → canonical `marketing/`; archived `claude-project/` + old `marketing-knowledge/`; rescued unique playbooks/brand-assets; CLAUDE.md = entry point | ✅ done (branch `reconcile-content-trees-2026-06-16`) |
 | 3 | Move code apps → `Ramsey-HQ/Plugins-and-Apps/` (plain files, no git) | ⬜ pending |
-| 4 | Migrate marketing/ops/financial **text** (.md) into repo; assets stay on Drive | ⬜ pending |
+| 4 | Migrate marketing/ops/financial **text** (.md) into repo; assets stay on Drive | 🟢 mostly done by parallel session (marketing/ tree); ops/financial text still pending |
 | 5 | Drive cleanup: `_TO_BE_DELETED`, cleanup HTMLs, `._`/AppleDouble junk, trailing-space folder renames | ⬜ pending |
 | — | Cloudinary DAM: Ramsey-driven, curated subset, resume at `mezzanine/venue` | 🔄 ongoing (separate sessions) |
+
+### Canonical repo structure (after reconciliation)
+
+```
+CLAUDE.md              ← entry point / orientation
+MIGRATION-PLAN.md      ← this file
+marketing/             ← CANONICAL marketing content
+  master-reference.md  ← operational cheat sheet
+  knowledge-center/    ← personas, copy bank, campaign templates, performance, menu, venue
+  brand-guidelines/    ← colors, type, logo, layout, photography
+  quick-reference/     ← email/SMS, social, AI-marketing playbooks, cheatsheets
+  brand-assets/        ← brand asset reference, design system brief
+  campaigns/           ← dinner-launch, cinco-weekend
+  website-*.md         ← rebuild plan, messaging, backlog, image slots, status
+brand-intelligence-center/  ← deep brand strategy (business/customer/differentiation/voice/messaging)
+website/               ← Lovable prompts, content-studio
+docs/                  ← roadmaps
+_archive/2026-06-16-reconciliation/  ← retired duplicate trees (claude-project, old marketing-knowledge)
+```
 
 ---
 
