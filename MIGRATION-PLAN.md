@@ -1,6 +1,6 @@
 # Uno Más — Storage Consolidation & Migration Plan
 
-**Owner:** Ramsey Pruchnic · **Started:** 2026-06-16 · **Status:** in progress (Phases 0–2 done)
+**Owner:** Ramsey Pruchnic · **Started:** 2026-06-16 · **Status:** ✅ COMPLETE (Phases 0–5; Cloudinary DAM ongoing, Ramsey-driven)
 
 The durable record of how Uno Más files are being reorganized. Replaces the role of the old
 `HANDOFF-PROMPT.md` / `_INDEX.md`. Update the status table as phases complete.
@@ -30,8 +30,8 @@ Stop the "scattered context layers" problem. Establish one clear home for each k
 | 2 | Collapse 3 brand-intelligence-center copies → 1 canonical (repo) | ✅ done |
 | 2.5 | **Reconcile parallel migration:** a separate session pushed 18k+ lines (marketing/, claude-project/, website/). Deduped overlapping trees → canonical `marketing/`; archived `claude-project/` + old `marketing-knowledge/`; rescued unique playbooks/brand-assets; CLAUDE.md = entry point | ✅ done (branch `reconcile-content-trees-2026-06-16`) |
 | 3 | Move code apps → `Ramsey-HQ/Plugins-and-Apps/` (plain files, no git) | ✅ done — `food-cost-analysis/` (31M, same-vol move) + `the-great-pnw/` (from ~, md5-verified); home cleaned |
-| 4 | Migrate marketing/ops/financial **text** (.md) into repo; assets stay on Drive | 🟢 mostly done by parallel session (marketing/ tree); ops/financial text still pending |
-| 5 | Drive cleanup: `_TO_BE_DELETED`, cleanup HTMLs, `._`/AppleDouble junk, trailing-space folder renames | ⬜ pending |
+| 4 | Migrate marketing/ops/financial **text** into repo | ✅ done — marketing text migrated by parallel session; **ops/financial had no migratable text** (Operations = 3 text files: 1 PII-excluded resume + 2 menu data-dumps left with assets; SOPs/training/process all live as Google Docs/PDFs that stay on Drive; 11 Financials `.md` excluded as sensitive per policy) |
+| 5 | Drive cleanup (safe): removed `_TO_BE_DELETED/` (verified no real content; canonical SBA intact), 2 stale cleanup HTMLs, 4,197 AppleDouble `._` files | ✅ done — **trailing-space renames intentionally SKIPPED** (plugins/apps/memories depend on those exact paths; leave as-is) |
 | — | Cloudinary DAM: Ramsey-driven, curated subset, resume at `mezzanine/venue` | 🔄 ongoing (separate sessions) |
 
 ### Canonical repo structure (after reconciliation)
