@@ -1,11 +1,12 @@
 # Custom GPT Action — Cloudinary Library Search
 
-> ⚠️ **STATUS (2026-06-17): NOT usable in the current ChatGPT GPT builder.** Newer ChatGPT replaced
-> the classic "Actions" (paste-OpenAPI-schema) editor with a catalog-only **Apps & Connectors**
-> model, and Cloudinary isn't in the catalog — so this Action can't be added. Kept for reference in
-> case custom Actions/Apps-SDK return. **Fallback for DAM lookups:** ask Claude (live Cloudinary MCP
-> access) or use Cloudinary's Media Library search directly. The GPT still has brand pack + logos +
-> live GitHub, which is the core value.
+> ✅ **UPDATE (2026-06-17): use the official Cloudinary ChatGPT app instead of this custom Action.**
+> ChatGPT has a built-in **Cloudinary connector** (added via account-level Connectors, then enabled
+> on the GPT under Apps → Add). It OAuths to your Cloudinary account, so **no OpenAPI schema, base64,
+> or API key is needed** — just ask in natural language ("search my Cloudinary library for …").
+> The custom-Action steps below are obsolete/kept for reference only. Note: the official connector
+> searches the whole account; since the account is entirely uno-mas + mezzanine (154 assets), that's
+> effectively the same scope. It surfaces/returns assets — it still doesn't pixel-ground generation.
 
 Lets the "Uno Más Art Director" GPT search your full Cloudinary library — the **`uno-mas`** and
 **`mezzanine`** namespaces (all subfolders). Returns links/metadata — it does NOT feed generation;
