@@ -1,5 +1,8 @@
 # Uno Más — Master Brand & Operations Reference
 
+> **Entry point is `/CLAUDE.md` at the repo root.** This is the operational cheat sheet it points
+> to — facts, configs, voice rules. Read CLAUDE.md first for orientation and repo structure.
+
 **Owner:** Ramsey Pruchnic
 **Last updated:** 2026-05-25
 **Purpose:** Single source of truth for the brand. House info, menu, social, technical stack, SEO, voice. Reference this file in any new Claude session, brief, or vendor handoff — it's the canonical doc.
