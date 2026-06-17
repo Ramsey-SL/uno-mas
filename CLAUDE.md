@@ -57,7 +57,7 @@ Modern Mexican restaurant and tequila bar in Spokane where the food is serious, 
 is alive, and the only thing we take lightly is ourselves. Started as a taco shop; grew into
 more. Tacos are something we do exceptionally well — not the entirety of what we are.
 
-**Three venues, one address — 2020 N Monroe St, Suite C, Spokane, WA** *(see open data note re: zip)*:
+**Three venues, one address — 2020 N Monroe St, Suite C, Spokane, WA 99205:**
 - **The Cantina** — ground floor, converted mechanic's garage. Full lunch + dinner, craft cocktails, full bar.
 - **The Mezzanine** — upstairs speakeasy + private event space (20–60 guests). Leather lounges, fireplace.
 - **The Patio** — outdoor bar + street-food kitchen. Casual dining, watch parties, large groups.
@@ -96,7 +96,7 @@ stacked adjectives ("fresh, delicious, flavorful, hearty").
 ## Always Get Right
 
 - Brand name: **Uno Más** (accent) · Tagline: **Get a little lost.**
-- Address: **2020 N Monroe St, Suite C, Spokane, WA** *(zip: see open data note)*
+- Address: **2020 N Monroe St, Suite C, Spokane, WA 99205**
 - Founded **2022** (originally Spokane Valley / Wonder Building, now closed) · Monroe location opened **Dec 27, 2024**
 - Loyalty: **Uno Más Rewards: The Cantina Club** — never just "loyalty program"
 - Upstairs is **The Mezzanine** — never "the event space" / "upstairs bar"
@@ -157,7 +157,7 @@ Highest-margin channels: dinner, private events, catering — prioritize these.
 
 ## Open data notes (resolve when convenient)
 
-- **Zip code conflict:** brand-intel says **99205**, old project instructions said **99201**.
-  Confirm the correct USPS zip for 2020 N Monroe St, Suite C and update everywhere.
 - The old `HANDOFF-PROMPT.md` contained a plaintext Gemini API key (April 2026) — **rotate that
   key**; it is intentionally NOT carried into this file.
+
+*(Resolved 2026-06-16: zip code is **99205** — confirmed correct for 2020 N Monroe St, Suite C.)*

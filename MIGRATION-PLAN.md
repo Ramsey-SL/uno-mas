@@ -75,7 +75,7 @@ Plugins-and-Apps, Finance, Strategy Labs, Investment Fund, R&M HQ, the-great-pnw
 
 ## Known issues to resolve
 
-1. **Zip code conflict** — brand-intel `99205` vs old instructions `99201`. Confirm and fix everywhere.
+1. ~~Zip code conflict~~ — **RESOLVED 2026-06-16: 99205 confirmed correct** (2020 N Monroe St, Suite C).
 2. **Rotate the Gemini API key** that was exposed in the old `HANDOFF-PROMPT.md`.
 3. **`credentials.json` + `email_mcp_setup.py`** sit loose in `~/` — keep out of any repo (gitignore now covers them).
 4. **Trailing-space folder names** on Drive — rename in Phase 5.
