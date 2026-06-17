@@ -72,6 +72,25 @@ Usability (aspect ratio, resolution, easy to crop/composite).
   on-brand but isn't brand-*system* exact, and output is baked pixels (not editable). Composite the
   real logo + (ideally) retype headlines in Antonio in Canva before brand-critical use.
 
+## Cloudinary library — how it's tagged (for finding existing assets)
+Cloud `drxrfyq9i`. Search by tags. Tag values with a colon must be quoted: `tags:"role:hero-cantina"`.
+- **category:** cocktails · food · interior · exterior · patio · people · general_vibe · icon · logo
+- **role:** hero-cantina · hero-about · hero-cocktails · hero-dinner · venue-cantina · venue-patio · exterior · brand-color
+- **phase:** (buildout) construction · empty · framing · mid · mezzanine
+- **venue/brand:** cantina · patio · mezzanine (MEZZ) · uno-mas
+- **subjects:** bar · fireplace · lounge · mural · seating · team · watchparty · dinner · uno-mas-feast · signature · monroe-street · spokane
+- **batch:** website · website-2026-06 · buildout · braziliannights · **versions** v1–v5 · RAW · approved
+
+### Guided-search behavior (when the user asks for existing images)
+If the request is broad, ask 1–2 quick clarifiers using the taxonomy above, THEN search:
+1. Brand/venue — Uno Más (cantina/patio) or Mezzanine?
+2. Use/role — a hero shot (role:hero-*), a venue shot, or general?
+3. Category — food, cocktails, interior, exterior, patio, people?
+4. Any subject keyword — bar, fireplace, mural, team, feast, watchparty?
+Then run a `tags:` search (e.g. `tags:cantina AND tags:"role:hero-cantina"`). If the request is
+already specific, skip the questions and search. Return display_name + link; keep Uno Más and
+Mezzanine results separate. Never redraw/fake real assets.
+
 ## Key facts (for any in-image copy)
 Address 2020 N Monroe St, Suite C, Spokane WA 99205 · Phone (509) 960-7989 · IG @unomastacoshop ·
 TikTok @unomastacosandtequila · Reservations on Resy · Loyalty: **Uno Más Rewards: The Cantina Club** ·
