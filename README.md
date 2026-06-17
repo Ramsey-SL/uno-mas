@@ -1,9 +1,17 @@
 # Uno Más — Brand & Marketing Knowledge Base
 
-> Modern Mexican restaurant and tequila bar · 2020 N Monroe St, Spokane WA 99205  
+> Modern Mexican restaurant and tequila bar · 2020 N Monroe St, Suite C, Spokane WA 99205
 > Founded 2022 · Owner: Ramsey Pruchnic
 
-This repository is the single source of truth for all Uno Más brand knowledge, marketing guidelines, and campaign assets. Every AI tool, marketing agent, and team member should reference these files before creating any brand content.
+This repository is the single source of truth for Uno Más brand knowledge, marketing
+guidelines, and campaign assets. Every AI tool, agent, and team member references these files
+before creating brand content.
+
+## 👉 Start here: [`CLAUDE.md`](CLAUDE.md)
+
+`CLAUDE.md` is the **entry point** — orientation, how-to-work, brand essentials, and the storage
+model (GitHub = brain · Cloudinary = DAM · Drive = warehouse). Read it first, then follow its
+pointers to depth.
 
 ---
 
@@ -11,54 +19,36 @@ This repository is the single source of truth for all Uno Más brand knowledge, 
 
 ```
 uno-mas/
-├── brand-intelligence-center/     ← MASTER brand context — read this first
-│   ├── system-prompt.md           ← Auto-assembled master brief (AI agent starting point)
-│   ├── business.md                ← Who we are, venues, team, one-liners
-│   ├── customer.md                ← Audience, personas, JTBD
-│   ├── voice-identity.md          ← Brand voice, tone rules, visual identity
-│   ├── differentiation.md         ← Competitive position, differentiators
-│   ├── digital-ecosystem.md       ← All platforms, links, tech stack
-│   ├── proof-goals.md             ← Proof points, conversion goals
-│   └── financial.md               ← Revenue context, growth levers
+├── CLAUDE.md                       ← ENTRY POINT — read first
+├── MIGRATION-PLAN.md               ← storage consolidation record + Drive warehouse map
 │
-├── marketing-knowledge/
-│   ├── brand-assets/              ← Design system, brand colors/fonts, Canva kits
-│   │   ├── BRAND_ASSETS.md
-│   │   ├── CLAUDE_DESIGN_SYSTEM_BRIEF.md   ← Prompts for Claude Design tool
-│   │   └── COWORK_CONTEXT.md
-│   ├── knowledge-center/          ← Detailed operational reference docs
-│   │   ├── VENUE_AND_OPERATIONS.md
-│   │   ├── MENU_AND_OFFERS.md
-│   │   ├── AUDIENCE_PERSONAS.md
-│   │   ├── HASHTAG_AND_SEO.md
-│   │   ├── PERFORMANCE_DATA.md
-│   │   ├── UnoMas_BrandVoice_April2026.md
-│   │   ├── UnoMas_CopyBank_April2026.md
-│   │   └── ...
-│   └── quick-reference/           ← Playbooks for each channel
-│       ├── SOCIAL_MEDIA_PLAYBOOK.md
-│       ├── EMAIL_SMS_PLAYBOOK.md
-│       ├── BRAND_VOICE_CHEATSHEET.md
-│       └── ...
+├── marketing/                      ← CANONICAL marketing content
+│   ├── master-reference.md         ← operational cheat sheet (facts, configs, voice)
+│   ├── knowledge-center/           ← personas, copy bank, campaign templates, performance, menu, venue
+│   ├── brand-guidelines/           ← colors, type, logo, layout, photography
+│   ├── quick-reference/            ← email/SMS, social, AI-marketing playbooks, cheatsheets
+│   ├── brand-assets/               ← brand asset reference, Claude design-system brief
+│   ├── campaigns/                  ← live campaign briefs + copy by date
+│   └── website-*.md                ← rebuild plan, messaging, backlog, image slots, status
 │
-└── campaigns/                     ← Live campaign briefs and copy by date (one folder per campaign)
-    └── YYYY-MM-campaign-slug/
-        ├── briefs/                ← Campaign brief, creative brief, KPIs, timeline
-        └── copy/                  ← Email, SMS, social, ads, Google copy
+├── brand-intelligence-center/      ← deep brand strategy (business, customer, differentiation,
+│   │                                 voice-identity, messaging-framework, proof-goals, financial)
+│   └── system-prompt.md            ← assembled master brief for AI agents
+│
+├── website/                        ← Lovable prompts, content-studio
+├── docs/                           ← roadmaps
+└── _archive/                       ← retired duplicate trees (kept for history)
 ```
 
 ---
 
 ## Quick Start for AI Agents
 
-**Always start with:** `brand-intelligence-center/system-prompt.md`  
-This is the auto-assembled master brief that contains all brand context in one file.
+**Always start with:** [`CLAUDE.md`](CLAUDE.md) → then `marketing/master-reference.md` for the cheat sheet.
 
-**For design work:** `marketing-knowledge/brand-assets/CLAUDE_DESIGN_SYSTEM_BRIEF.md`  
-Contains exact hex codes, fonts, Canva kit IDs, and ready-to-paste prompts for Claude Design.
-
-**For copy:** `marketing-knowledge/knowledge-center/UnoMas_CopyBank_April2026.md`  
-Ready-to-use copy for every channel, format, and daypart.
+- **Deep brand context:** `brand-intelligence-center/system-prompt.md`
+- **Design work:** `marketing/brand-assets/CLAUDE_DESIGN_SYSTEM_BRIEF.md` (hex codes, fonts, Canva kit IDs)
+- **Copy:** `marketing/knowledge-center/copy-bank.md` (ready-to-use copy by channel/daypart)
 
 ---
 
@@ -71,38 +61,27 @@ Ready-to-use copy for every channel, format, and daypart.
 | **Tagline** | Get a little lost. |
 | **Primary Color** | Hot Pink `#E22690` |
 | **Address** | 2020 N Monroe St, Suite C, Spokane WA 99205 |
-| **Instagram** | @unomastacoshop |
-| **TikTok** | @unomastacosandtequila |
+| **Instagram** | @unomastacoshop · **TikTok** @unomastacosandtequila |
 | **Reservations** | resy.com/cities/spokane-wa/venues/uno-mas-tacos-and-tequila |
 | **Events** | karissa@unomastacoshop.com |
 
 ### Three Venues
-- **The Cantina** — Main floor, converted mechanic's garage. Full lunch + dinner.
-- **The Mezzanine** — Upstairs speakeasy + private event space. Separate brand identity.
-- **The Patio** — Outdoor bar + street food kitchen. Seasonal.
+- **The Cantina** — main floor, converted mechanic's garage. Full lunch + dinner.
+- **The Mezzanine** — upstairs speakeasy + private event space. Separate brand identity.
+- **The Patio** — outdoor bar + street-food kitchen. Seasonal.
 
 ---
 
 ## Key Rules for Contributors
 
-1. **system-prompt.md is the master file** — all other files feed into it. Update source files, then regenerate system-prompt.md.
-2. **Never mix Uno Más and Mezzanine brand elements** — they are separate visual identities.
-3. **Never say:** taco shop, authentic Mexican, mouthwatering, artisanal, mixology, Taco Tuesday (not currently active).
+1. **`CLAUDE.md` is the entry point;** `marketing/` is canonical for marketing content,
+   `brand-intelligence-center/` for deep strategy. Don't create competing "master" or
+   "start-here" docs — extend the canonical ones.
+2. **Never mix Uno Más and Mezzanine brand elements** — separate visual identities.
+3. **Never say:** taco shop (in brand copy), authentic Mexican, mouthwatering, artisanal, mixology, Taco Tuesday (not active).
 4. **Always say:** modern Mexican, house-smoked, craft cocktails, Get a little lost.
-5. **Brunch hours:** 10am–4pm, launching Mother's Day 2026.
-6. **Loyalty program:** Uno Más Rewards: The Cantina Club (Toast POS).
+5. **Loyalty program:** Uno Más Rewards: The Cantina Club (Toast POS).
 
 ---
 
-## Update Log
-
-| Date | What Changed | Who |
-|---|---|---|
-| April 2026 | Full brand intelligence rebuild — 7-area review, all files updated | Ramsey / Claude |
-| April 2026 | Added financial context, Mezzanine sub-brand rules, competitor analysis | Ramsey / Claude |
-| April 2026 | Consistency pass — all marketing MD files aligned to brand intelligence | Ramsey / Claude |
-
----
-
-*Private repository — Strategy Labs / Uno Más Tacos & Tequila*  
-*Questions: ramsey@strategylabs.us*
+*Private repository — Strategy Labs / Uno Más Tacos & Tequila · ramsey@strategylabs.us*
