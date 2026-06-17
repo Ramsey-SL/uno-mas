@@ -6,7 +6,7 @@ you still attach a returned image as a reference if you want to generate from it
 
 - **Cloud name:** `drxrfyq9i`
 - **Endpoint:** Cloudinary Admin Search API — `POST /resources/search` (Basic auth)
-- **Scope guard:** every search must include `asset_folder:uno-mas/approved-assets/*`
+- **Scope guard:** every search must include `public_id:uno-mas/approved-assets/*`
 
 ---
 
@@ -39,8 +39,8 @@ paths:
       summary: Search approved Uno Más assets by keyword.
       description: >
         Search the Cloudinary library for APPROVED assets only. The expression MUST always
-        include "asset_folder:uno-mas/approved-assets/*" combined with the user's keywords.
-        Example: "asset_folder:uno-mas/approved-assets/* AND (taco OR carne)". Return each
+        include "public_id:uno-mas/approved-assets/*" combined with the user's keywords.
+        Example: "public_id:uno-mas/approved-assets/* AND (taco OR carne)". Return each
         result's display_name and secure_url; offer to attach one as a reference for generation.
       requestBody:
         required: true
@@ -54,7 +54,7 @@ paths:
                   type: string
                   description: >
                     Cloudinary search expression. ALWAYS start with
-                    "asset_folder:uno-mas/approved-assets/*" then AND the keywords.
+                    "public_id:uno-mas/approved-assets/*" then AND the keywords.
                 max_results:
                   type: integer
                   default: 20
@@ -92,7 +92,7 @@ In the Action's **Authentication** panel:
 ## Step 5 — Add this to the GPT Instructions
 ```
 When the user asks for an existing/approved photo, call searchApprovedAssets. ALWAYS scope the
-expression with "asset_folder:uno-mas/approved-assets/*". Never search outside approved-assets.
+expression with "public_id:uno-mas/approved-assets/*". Never search outside approved-assets.
 Return display_name + a clickable secure_url for each hit, and offer to attach one as a reference
 for a new generation. These are real approved assets — never redraw or fake them.
 ```
