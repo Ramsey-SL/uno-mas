@@ -29,7 +29,7 @@ Stop the "scattered context layers" problem. Establish one clear home for each k
 | 1 | Merge 4 competing master docs → one `CLAUDE.md`; archive originals | ✅ done |
 | 2 | Collapse 3 brand-intelligence-center copies → 1 canonical (repo) | ✅ done |
 | 2.5 | **Reconcile parallel migration:** a separate session pushed 18k+ lines (marketing/, claude-project/, website/). Deduped overlapping trees → canonical `marketing/`; archived `claude-project/` + old `marketing-knowledge/`; rescued unique playbooks/brand-assets; CLAUDE.md = entry point | ✅ done (branch `reconcile-content-trees-2026-06-16`) |
-| 3 | Move code apps → `Ramsey-HQ/Plugins-and-Apps/` (plain files, no git) | ⬜ pending |
+| 3 | Move code apps → `Ramsey-HQ/Plugins-and-Apps/` (plain files, no git) | ✅ done — `food-cost-analysis/` (31M, same-vol move) + `the-great-pnw/` (from ~, md5-verified); home cleaned |
 | 4 | Migrate marketing/ops/financial **text** (.md) into repo; assets stay on Drive | 🟢 mostly done by parallel session (marketing/ tree); ops/financial text still pending |
 | 5 | Drive cleanup: `_TO_BE_DELETED`, cleanup HTMLs, `._`/AppleDouble junk, trailing-space folder renames | ⬜ pending |
 | — | Cloudinary DAM: Ramsey-driven, curated subset, resume at `mezzanine/venue` | 🔄 ongoing (separate sessions) |
