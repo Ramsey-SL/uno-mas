@@ -38,7 +38,7 @@
 **Primary action we want people to take:**
 1. Walk in and dine (primary — no reservation required)
 2. Make a dinner reservation / plan a dinner visit ← active campaign focus
-3. Loyalty sign-up at POS via Uno Mas Rewards: The Cantina Club / Klaviyo
+3. Loyalty sign-up at POS via Uno Más Rewards: The Cantina Club / Klaviyo
 4. Private event or catering inquiry → karissa@unomastacoshop.com
 5. Sunday brunch visit (launching Mother's Day, Sundays 10am–4pm)
 

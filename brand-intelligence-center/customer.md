@@ -52,7 +52,7 @@ When a customer chooses Uno Más, they're really hiring us to:
 - "Spokane's taco game just leveled up"
 - "There's a brand-new family-friendly cantina in town…it's a whole experience" *(52K views)*
 
-**Words/phrases to use:** Quarter-pound tacos, house-smoked, get a little lost, Latin-inspired, 2020 N Monroe, Uno Mas Rewards: The Cantina Club, The Mezzanine, speakeasy, so we did a thing, hit different, your move, make good choices, craft cocktails, birria
+**Words/phrases to use:** Quarter-pound tacos, house-smoked, get a little lost, Latin-inspired, 2020 N Monroe, Uno Más Rewards: The Cantina Club, The Mezzanine, speakeasy, so we did a thing, hit different, your move, make good choices, craft cocktails, birria
 
 **Words/phrases to avoid:** Street tacos ❌, authentic Mexican ❌, mouthwatering ❌, culinary journey ❌, leverage/utilize ❌, artisanal ❌, mixology ❌, amazing (generic) ❌, we apologize for ❌, adjective stacking ❌
 

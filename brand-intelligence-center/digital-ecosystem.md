@@ -23,14 +23,14 @@
 No third-party delivery. Dine-in and takeout only.
 
 ## Marketing & Communication
-- **Email / SMS:** Klaviyo — connected to Toast loyalty data (Uno Mas Rewards: The Cantina Club segments)
-- **Loyalty / CRM:** Toast + Uno Mas Rewards: The Cantina Club rewards (10% value return; segmented lists in Klaviyo)
+- **Email / SMS:** Klaviyo — connected to Toast loyalty data (Uno Más Rewards: The Cantina Club segments)
+- **Loyalty / CRM:** Toast + Uno Más Rewards: The Cantina Club rewards (10% value return; segmented lists in Klaviyo)
 - **Paid Ads:** Meta Ads Manager + Google Ads — managed in-house
 - **Analytics:** GA4 — confirmed active
 
 ## POS
 - **System:** Toast POS
-- **Loyalty Integration:** Uno Mas Rewards: The Cantina Club rewards → Klaviyo segments
+- **Loyalty Integration:** Uno Más Rewards: The Cantina Club rewards → Klaviyo segments
 
 ## Key Integrations
 - **Klaviyo ↔ Toast:** Loyalty data flows into email/SMS audience segments
@@ -52,4 +52,4 @@ No third-party delivery. Dine-in and takeout only.
 ## Contact
 - **General:** tacos@unomastacoshop.com
 - **Events / Mezzanine / Catering:** karissa@unomastacoshop.com
-- **Location:** 2020 N Monroe St, Suite C, Spokane, WA 99205 (behind Indaba Coffee, corner of Knox Ave & N Monroe)
+- **Location:** 2020 N Monroe St, Suite C, Spokane, WA 99205

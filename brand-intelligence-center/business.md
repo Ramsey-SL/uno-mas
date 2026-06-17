@@ -1,12 +1,30 @@
 # Business Foundation — Uno Más Tacos & Tequila
+---
+
+## BRAND NAME RULE — CRITICAL · APPLY EVERYWHERE
+
+**The brand is always written "Uno Más" — with the accent on the "a".**
+
+- **Always:** Uno Más · UNO MÁS · uno más
+- **Never:** Uno Mas · UNO MAS · uno mas · UnoMas · Uno-Mas (in any human-readable surface)
+
+This applies to **every** surface the brand name appears on: prose, headlines, ad copy, email, SMS, social captions, menus, merch, signage, web pages, artifact titles, SVGs, Canva designs, image alt text, review responses, reports, dashboards, and AI-generated drafts. No exceptions.
+
+**When copying/generating text:** type `Más` — never `Mas`. On Mac, Option+E then A. On Windows, Alt+0225 (á) or Alt+0193 (Á).
+
+**File paths and URLs** may keep ASCII `Uno-Mas` / `uno-mas` for technical compatibility (e.g. `uno-mas-template-hub.netlify.app`) — but any name that displays to humans must use `Más`.
+
+**When reviewing any draft:** if you see `Uno Mas` or `UNO MAS` without the accent, it's wrong. Fix it.
+
+---
 
 ## Identity
 - **Name:** Uno Más Tacos & Tequila
 - **Website:** unomastacoshop.com
-- **Location:** 2020 N Monroe St, Suite C, Spokane, WA 99205 (behind Indaba Coffee, corner of Knox Ave & N Monroe)
+- **Location:** 2020 N Monroe St, Suite C, Spokane, WA 99205
 - **Business Type:** Latin-inspired restaurant / taco bar / tequila bar / private event venue
 - **Year Founded:** 2022
-- **Format:** Full-service dine-in (primary), takeout, private events & venue rental (The Mezzanine), Uno Mas Rewards: The Cantina Club loyalty/subscription
+- **Format:** Full-service dine-in (primary), takeout, private events & venue rental (The Mezzanine), Uno Más Rewards: The Cantina Club loyalty/subscription
 
 ## Concept
 Uno Más is a modern Mexican restaurant and tequila bar at 2020 N Monroe in Spokane. We run a lunch program and an elevated dinner program. We have a full craft cocktail menu. We have The Mezzanine — a speakeasy and private event space upstairs. We are a gathering place. We are a destination.

@@ -69,13 +69,31 @@ The friend who starts every story with "so we did a thing…" and somehow always
 | Latin-inspired | Authentic Mexican |
 | The Mezzanine | Upstairs / event space |
 | Speakeasy | Lounge / bar area |
-| Uno Mas Rewards: The Cantina Club | Loyalty program / rewards |
+| Uno Más Rewards: The Cantina Club | Loyalty program / rewards |
 | So we did a thing… | We're excited to announce |
 | Hit different | Unique / special |
 | Your move | Book now / make a reservation |
 | Make good choices | Choose wisely / decide carefully |
 | Birria | Braised beef tacos |
 | 2020 N Monroe | Our location / the restaurant |
+
+---
+---
+
+## BRAND NAME RULE — CRITICAL · APPLY EVERYWHERE
+
+**The brand is always written "Uno Más" — with the accent on the "a".**
+
+- **Always:** Uno Más · UNO MÁS · uno más
+- **Never:** Uno Mas · UNO MAS · uno mas · UnoMas · Uno-Mas (in any human-readable surface)
+
+This applies to **every** surface the brand name appears on: prose, headlines, ad copy, email, SMS, social captions, menus, merch, signage, web pages, artifact titles, SVGs, Canva designs, image alt text, review responses, reports, dashboards, and AI-generated drafts. No exceptions.
+
+**When copying/generating text:** type `Más` — never `Mas`. On Mac, Option+E then A. On Windows, Alt+0225 (á) or Alt+0193 (Á).
+
+**File paths and URLs** may keep ASCII `Uno-Mas` / `uno-mas` for technical compatibility (e.g. `uno-mas-template-hub.netlify.app`) — but any name that displays to humans must use `Más`.
+
+**When reviewing any draft:** if you see `Uno Mas` or `UNO MAS` without the accent, it's wrong. Fix it.
 
 ---
 
@@ -99,23 +117,37 @@ The Mezzanine is the cool older sibling. It shares Uno Más DNA but has its own 
 
 ## Visual Identity — Uno Más
 
+*Source of truth: Uno Más Brand Guide 2024 (see `brand-intelligence-center/Uno-Mas-Brand-Guide-2024.pdf`)*
+
 ### Color Palette
+
+#### Primary Colors
 | Name | Hex | Use For |
 |------|-----|---------|
-| **Pink** | `#E22690` | Primary brand color — logo, key highlights, hero moments |
-| **Blue** | `#18BCDC` | Headlines, accents, CTAs |
-| **Navy** | `#003366` | Dark backgrounds, text on light |
+| **Navy** | `#003366` | Dark backgrounds, primary text on light, logo frame |
+| **Blue** | `#18BCDC` | Headlines, accents, primary CTAs |
+| **Teal** | `#27F3DE` | Bright accent, agave icon highlight, logo typography |
+| **Green** | `#25E9B9` | Complementary to teal, secondary digital accents |
+| **Pink** | `#E22690` | Primary brand color — logo, hero highlights, key CTAs |
 | **Yellow** | `#FFEC00` | Accents, callouts, energy moments |
-| **White** | `#FFFFFF` | Backgrounds, reversed text |
-| **Black** | `#000000` | Body text, dark UI |
 
-**Note:** Pink is the hero color — don't let Navy or Blue dominate. Pink is the primary brand color in the logo and key highlights.
+#### Neutrals
+| Name | Hex | Use For |
+|------|-----|---------|
+| **Dark Grey** | `#212121` | Body text on light backgrounds, near-black UI |
+| **Light Grey** | `#BFBFBF` | Dividers, muted text, disabled states |
+| **Sand / Tan** | `#E8DECE` | Menu backgrounds, warm paper feel, print use |
+| **White** | `#FFFFFF` | Backgrounds, reversed text |
+| **Black** | `#000000` | Absolute dark, print use |
+
+**Note:** Pink is the hero color — don't let Navy or Blue dominate. Teal and Blue form the logo's electric accent system. Sand is the preferred warm background for print menus.
 
 ### Typography
 | Role | Font | Use For |
 |------|------|---------|
-| **Headlines / Display** | Antonio (Bold, Regular) | All primary headlines, display text, menu category titles |
-| **Body / UI** | Montserrat (Light, Regular, Medium, Bold) | Body copy, captions, UI labels, descriptions |
+| **Decorative / Accent** | Thirsty Rough | Sparingly only — decorative accent moments, never near the logo |
+| **Headlines / Display** | Antonio (Bold, Regular) | All primary headlines, display text, menu category titles, section headers |
+| **Body / UI** | Montserrat (Thin through Extra-Bold) | Body copy, captions, UI labels, descriptions, prices |
 
 ### Logo
 - **Primary:** "Uno Más" script + agave icon + "TACOS & TEQUILA" bar

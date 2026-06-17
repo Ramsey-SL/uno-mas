@@ -26,7 +26,7 @@
 - **Events contact:** karissa@unomastacoshop.com
 
 ### Loyalty & Retention
-- **Uno Mas Rewards: The Cantina Club loyalty program** — members spend 107% more; visit 2x as often; 10% value return
+- **Uno Más Rewards: The Cantina Club loyalty program** — members spend 107% more; visit 2x as often; 10% value return
 - **21+ after 9pm** — intentional atmosphere preservation; not a policy, a design choice
 - **Rotating specials and promotions** — recurring reasons to return; see active campaigns for current offers
 - **Events calendar** — updated as programming is confirmed; add event details to populate

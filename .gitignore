@@ -8,6 +8,18 @@ Thumbs.db
 *tax*
 *payroll*
 
+# Secrets / credentials — NEVER commit
+credentials.json
+*credentials*
+.env
+.env.*
+*.key
+*.pem
+*-config.json
+*.gemini*
+secrets.*
+**/Logins/**
+
 # Large binary assets (use Google Drive or DAM instead)
 *.jpg
 *.jpeg
