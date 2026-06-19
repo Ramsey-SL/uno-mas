@@ -6,8 +6,8 @@ Knowledge file: **`marketing/brand-context-pack.md`** (also on Desktop at `uno-m
 
 ## Differences from the ChatGPT version
 - **Image generation is native** (Imagen / "Nano Banana") — the Gem can generate directly.
-- **No GitHub connector** — Gemini can't read the repo. Use the uploaded knowledge file; for a
-  live copy, keep the pack in **Google Drive** and @-reference it in chats.
+- **GitHub IS connected** (confirmed 2026-06-17) — Gemini can read `Ramsey-SL/uno-mas` live, so the
+  static knowledge upload is optional. Point it at `marketing/brand-context-pack.md`.
 - **No Cloudinary app** — the Gem can't search the DAM. It should hand off (give the tag query;
   user pulls from Cloudinary or asks Claude). Don't let it invent asset links.
 
