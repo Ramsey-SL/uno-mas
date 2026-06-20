@@ -158,6 +158,7 @@ This file is the **entry point**. The repo's canonical content structure:
 | Campaigns (briefs, copy, creative) | `marketing/campaigns/` |
 | Website (Lovable prompts, rebuild plan, messaging, backlog) | `website/` + `marketing/website-*.md` |
 | AI image generation (Gemini/ChatGPT testing, prompts, rubric) | `marketing/image-generation-playbook.md` |
+| DAM workflow (Cloudinary upload/sort pipeline, "website" convention) | `marketing/dam-workflow.md` |
 | Drive warehouse map (what's in Uno_Mas_HQ) | `MIGRATION-PLAN.md` |
 
 > **Doc hierarchy:** `CLAUDE.md` (you are here — orientation) → `marketing/master-reference.md`
