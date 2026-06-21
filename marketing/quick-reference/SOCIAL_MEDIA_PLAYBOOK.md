@@ -138,7 +138,7 @@ Conversion-focused content — never more than ~15% or it feels salesy.
 
 ## Quick Wins (Do These Consistently)
 
-- Post a food photo on Tuesday — lunch special reminder performs well
+- Post a food photo on Tuesday — Taco Tuesday reminder ($6 margs, BOGO street tacos) performs well
 - Story poll every Thursday or Friday ("tacos or tequila tonight?")
 - Repost at least 1 piece of UGC per week
 - One Reel/TikTok per week minimum — behind the scenes or food prep always performs

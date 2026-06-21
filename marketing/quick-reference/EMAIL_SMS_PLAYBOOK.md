@@ -49,7 +49,7 @@
 - **Under 50 characters** — most clients truncate longer
 - Test 3 types every send:
   - **Curiosity:** "You're going to want to see this."
-  - **Direct:** "Lunch special is live — today only."
+  - **Direct:** "Taco Tuesday — $6 margs, BOGO street tacos."
   - **Personal:** "Ramsey, we saved you something."
 - Avoid: ALL CAPS, excessive punctuation, spam-trigger words ("FREE!!!", "Act now")
 
@@ -80,7 +80,7 @@
 - **160 characters max** per segment (avoid going to 2 segments when possible)
 - Always include: offer/info, short link, opt-out reminder on first message of new campaign
 - Structure: Hook → Value → Link
-  - "Lunch special is live — 2 tacos + side, $12. Order: [link]"
+  - "Burrito Thursday: $15 burritos & bowls. Come get a little lost. [link]"
 
 ### Tone
 - Write like a text, not a broadcast

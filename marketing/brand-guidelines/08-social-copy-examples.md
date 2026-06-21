@@ -78,31 +78,22 @@ Local by design.
 
 ---
 
-## Theme 2: Lunch Specials
+## Theme 2: Weekly Specials (Tue / Wed / Thu)
 
 ```
-Lunch hits different at Uno Más.
-2 street tacos + a side. $12. Tuesday through Saturday, 11am–5pm.
-Add a house margarita for $10. We're not going to talk you out of it.
-On Monroe. Come find us. 🌮
-```
-
-```
-The lunch move: 2 street tacos, a side, and a house margarita.
-$22 total. Tuesday through Saturday, 11am–5pm.
-Make good choices.
+Taco Tuesday hits different at 2020 N Monroe.
+BOGO lunch street tacos. $6 margs. $30 marg pitchers.
+Grab your people. Make good choices. 🌮
 ```
 
 ```
-The 11am–5pm window exists. Two tacos. A side. Twelve dollars.
-Tuesday through Saturday.
-You've been eating at the same place every week. Time to fix that.
+$5 Wednesday. $5 pints. $5 street tacos.
+Math we can get behind. Monroe's got you.
 ```
 
 ```
-Quick lunch that doesn't feel like a quick lunch.
-2 tacos + side, $12. Monroe's got you.
-See you at noon.
+Burrito Thursday: $15 burritos & bowls.
+Your Thursday just got a plan. Come get a little lost.
 ```
 
 ---
@@ -264,7 +255,7 @@ See you at the bar.
 
 **Fiesta Packs / Catering:** `#spokane #spokaneeats #spokanefood #catering #spokaneevents #unomas`
 
-**Lunch Special:** `#spokane #spokaneeats #spokanefood #spokanelunch #happyhour #unomas`
+**Weekly Specials (Taco Tue / $5 Wed / Burrito Thu):** `#spokane #spokaneeats #spokanefood #tacotuesday #spokanelunch #unomas`
 
 **Patio (seasonal):** `#spokane #spokaneeats #spokanewa #spokanepatio #patioszn #unomas`
 
@@ -275,7 +266,7 @@ See you at the bar.
 | Content Type | Best Day | Best Time |
 |---|---|---|
 | Menu item highlight | Wednesday or Thursday | 12pm or 6pm |
-| Lunch special | Tuesday–Saturday | 10–11am |
+| Weekly special (Taco Tue/$5 Wed/Burrito Thu) | day-of | 10–11am |
 | Fiesta Packs | Thursday or Friday | 12pm |
 | The Mezzanine | Thursday or Friday | 6pm |
 | Catering and Events | Monday or Tuesday | 12pm |

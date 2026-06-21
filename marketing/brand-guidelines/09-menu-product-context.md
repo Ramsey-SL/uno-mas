@@ -141,13 +141,12 @@ This document covers all menu items, cocktails, and product offerings for use in
 
 ---
 
-## Lunch Special
+## Weekly Specials (replaced the old $12 lunch special)
 
-- **Offer:** 2 Street Tacos + Side = $12
-- **Add-on:** House Margarita for $10
-- **Available:** Tuesday–Saturday, 11am–5pm
-- **Best post time:** 10–11am on operating days
-- **Copy note:** Always include the specific price and time window — vague "lunch deals" does nothing.
+- **Taco Tuesday:** BOGO lunch street tacos · $6 margs · $30 marg pitchers
+- **$5 Wednesday:** $5 pints · $5 street tacos
+- **Burrito Thursday:** $15 burritos & bowls
+- **Copy note:** Always include the day + the specific offer/price. Frame as a midweek ritual, not a discount fire-sale.
 
 ---
 

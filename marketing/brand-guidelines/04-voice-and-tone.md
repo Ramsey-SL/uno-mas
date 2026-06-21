@@ -38,7 +38,7 @@ The voice stays consistent, but the **tone** shifts depending on what we're writ
 | Mezzanine | Atmospheric, mysterious, less-is-more | "Most people don't know the Mezzanine exists. That's kind of the point." |
 | Events / catering | Warm, professional, clear | "Three packages. One very good room. DM us to start planning." |
 | Review responses | Personal, genuine, warm | "Maria, this one made the whole team smile." |
-| Email subject lines | Direct or curiosity-forward | "Lunch for $12. Tuesday through Saturday." |
+| Email subject lines | Direct or curiosity-forward | "Burrito Thursday. $15 burritos & bowls." |
 | SMS | Urgent, specific, no fluff | "Happy Hour starts at 3. Come in. 🍹" |
 
 ---

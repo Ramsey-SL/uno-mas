@@ -102,7 +102,6 @@ stacked adjectives ("fresh, delicious, flavorful, hearty").
 - Upstairs is **The Mezzanine** — never "the event space" / "upstairs bar"
 - No delivery apps — dine-in and takeout only
 - 21+ after 9pm — intentional atmosphere, not a restriction
-- Lunch Special: 2 Street Tacos + side, $12, Tue–Sat 11am–5pm
 - Happy Hour: 3–5pm daily
 - **Weekly specials (live 2026-06):** Taco Tuesday (BOGO lunch street tacos · $6 margs · $30 marg pitchers) · $5 Wednesday ($5 pints · $5 street tacos) · Burrito Thursday ($15 burritos & bowls). *(Taco Tuesday IS now running — the old "don't reference Taco Tuesday" rule is retired.)*
 - Phone: (509) 960-7989

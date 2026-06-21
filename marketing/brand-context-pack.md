@@ -94,7 +94,7 @@ Mezzanine results separate. Never redraw/fake real assets.
 ## Key facts (for any in-image copy)
 Address 2020 N Monroe St, Suite C, Spokane WA 99205 · Phone (509) 960-7989 · IG @unomastacoshop ·
 TikTok @unomastacosandtequila · Reservations on Resy · Loyalty: **Uno Más Rewards: The Cantina Club** ·
-Happy Hour 3–5pm daily · Lunch Special 2 street tacos + side $12 Tue–Sat 11am–5pm · 21+ after 9pm ·
+Happy Hour 3–5pm daily · lunch service Tue–Sat 11am–5pm · 21+ after 9pm ·
 dine-in & takeout only (no delivery apps).
 **Weekly specials (live 2026-06):** Taco Tuesday (BOGO lunch street tacos · $6 margs · $30 marg pitchers) ·
 $5 Wednesday ($5 pints · $5 street tacos) · Burrito Thursday ($15 burritos & bowls). Taco Tuesday IS now
