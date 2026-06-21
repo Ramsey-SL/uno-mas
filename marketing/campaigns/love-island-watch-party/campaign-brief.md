@@ -1,8 +1,8 @@
 # Campaign Brief — Love Island Watch Party
 
-**Type:** event (recurring)   **Status:** draft (awaiting specifics)   **Owner:** Ramsey
-**Dates:** Thursdays, <SEASON RUN — start–end> · <START TIME>   **Venue:** The Mezzanine
-**Last updated:** 2026-06-19
+**Type:** event (recurring)   **Status:** 🟢 building (poster done)   **Owner:** Ramsey
+**Dates:** Thursdays **Jun 26 · Jul 3 · Jul 10** · **Season Finale Sun Jul 12** · Doors **5PM** / Show **6PM**   **Venue:** The Mezzanine
+**Last updated:** 2026-06-20
 
 ## 1. Objective
 Drive midweek (Thursday) traffic into **The Mezzanine** by owning "where Spokane watches Love Island" —
@@ -10,8 +10,10 @@ a recurring social viewing party that fills the upstairs on an otherwise quiet n
 returning weekly crowd. Primary action: show up Thursday (RSVP/walk-in) + order drinks.
 
 ## 2. The offer / hook
-Weekly Love Island watch party in the speakeasy upstairs — big screens, craft cocktails, a room full of
-people yelling at the TV together. *[OPEN: cover charge or free? drink/food specials for the night?]*
+Weekly Love Island watch party in the speakeasy upstairs — big screens, **signature cocktails**, **tacos &
+shareables**, a room full of people yelling at the TV together. Doors 5PM, show 6PM. **Reservations highly
+recommended.** Hook line: *"All tacos. All tequila. All drama. Bring your villa crew."*
+Season runs 3 Thursdays (Jun 26 / Jul 3 / Jul 10) + a **Season Finale watch party Sun Jul 12.**
 
 ## 3. Audience
 - **Primary:** adults 21–35, social, reality-TV fans, the "where are we going Thursday?" group-chat crowd — skews friend-groups and date-duos who want a *plan*, not just a bar.
@@ -46,10 +48,16 @@ people yelling at the TV together. *[OPEN: cover charge or free? drink/food spec
 Thursday Mezzanine covers + bar sales (Toast), watch-party headcount week-over-week (returning crowd),
 social engagement on the reels, email/SMS click→visit, new Cantina Club signups at the event.
 
-## 9. Open inputs needed (to finalize + build collateral)
-1. **Season run** — first & last Thursday (Love Island season dates).
-2. **Start time** (and does it run each episode night = Thursdays only?).
-3. **Cover charge or minimum?** (free entry / reservation / table min?).
-4. **Food + drink specials** for the night (themed cocktail? happy-hour extension? snack deal?).
-5. **RSVP mechanism** — walk-in, Resy, Toast, or DM/booking for groups + Mezzanine capacity for the party.
-6. Any **partner/sponsor** (e.g., a tequila brand) tied to it?
+## 9. Open inputs (mostly resolved via the poster — remaining)
+✅ Dates: Thu Jun 26 / Jul 3 / Jul 10 + Finale Sun Jul 12 · ✅ Doors 5 / Show 6 · ✅ Reservations recommended
+· ✅ Food/drink: signature cocktails + tacos & shareables.
+Still needed:
+1. **Reservation channel** — Resy? Toast? DM/booking link? (drives the CTA on every asset + website)
+2. **Cover/minimum?** (poster says reservations recommended — is entry free, or table min for the party?)
+3. **Signature cocktail name/price** (the featured Love Island drink — for social + menu).
+4. **Mezzanine capacity** for the party (RSVP cap?).
+5. Any **sponsor** (tequila brand) tie-in?
+
+## Assets status
+- ✅ **Event poster** (hot-pink/black, Mezzanine palette, dates/times) — done. *To finish: composite the real logo; decide villa-fantasy vs real-Mezzanine imagery.*
+- ⬜ Social (announcement reel + weekly reminder + story countdown + recaps), email/SMS, in-store table tent, website event card.
