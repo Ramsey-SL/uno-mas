@@ -58,6 +58,17 @@ Still needed:
 4. **Mezzanine capacity** for the party (RSVP cap?).
 5. Any **sponsor** (tequila brand) tie-in?
 
+## Creative direction (canonical — see `video-creative-brief.md`)
+Summer **rooftop social event**, not passive TV. KEEP: packed-house friend-groups, elevated cocktails,
+interactive energy (the drink-tower stacking game), rooftop summer ambiance. AVOID: generic luxury-resort/
+pool-party visuals, empty lounge, dark-nightclub. BETTER: the real Mezzanine **filled with crews holding
+cocktails, cheering, watching on a big screen** — social experience over the show. Keywords: villa crew,
+girls/date night, Thursday tradition, friendly competition.
+
 ## Assets status
-- ✅ **Event poster** (hot-pink/black, Mezzanine palette, dates/times) — done. *To finish: composite the real logo; decide villa-fantasy vs real-Mezzanine imagery.*
-- ⬜ Social (announcement reel + weekly reminder + story countdown + recaps), email/SMS, in-store table tent, website event card.
+- ✅ **Collateral copy** (social, email, SMS, table tent, web card) — `creative-copy.md`.
+- 🎬 **Promo video** — in production per `video-creative-brief.md` (rooftop, drink-tower game, villa crew).
+- ⚠️ **Event poster** — needs **realignment**: current mock uses a generic AI pool-villa, which the video
+  brief explicitly says to AVOID. Revise to a packed-Mezzanine-rooftop scene (friend-groups + cocktails +
+  big screen). Also composite the real logo.
+- ⬜ Website event card live on site · in-store table-tent print · social reel cut from the promo video.

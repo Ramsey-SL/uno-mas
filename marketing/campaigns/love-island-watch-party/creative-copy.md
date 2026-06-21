@@ -9,8 +9,9 @@ Voice: Mezzanine = cool/in-the-know, but watch-party energy leans playful. 21+. 
 
 ### Announcement post (pin this)
 > Spokane, grab your villa crew. 🌴
-> **LOVE ISLAND WATCH PARTY** — every Thursday upstairs in The Mezzanine.
-> All tacos. All tequila. All drama.
+> **LOVE ISLAND WATCH PARTY** — every Thursday on The Mezzanine rooftop.
+> All tacos. All tequila. All drama. Cocktails, a little friendly competition, and your people.
+> *It's not just watching — it's a night out.*
 > Doors 5 / show 6 · Jun 26, Jul 3, Jul 10 · Season Finale Sun Jul 12.
 > Reservations highly recommended — link in bio. 💗
 > #spokane #spokaneeats #loveisland #theMezzanine #unomas #spokanenightlife
