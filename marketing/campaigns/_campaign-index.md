@@ -4,7 +4,7 @@
 
 | # | Campaign | Type | Folder | Brief | Key inputs needed |
 |---|---|---|---|---|---|
-| 1 | Daily Specials (Tue/Wed/Thu) | promotion (recurring) | `daily-specials/` | ⬜ | the actual specials + prices per day |
+| 1 | Daily Specials (Tue/Wed/Thu) | promotion (recurring) | `daily-specials/` | 🟡 | the actual specials + prices per day |
 | 2 | Love Island Watch Party | event (Thu, Mezzanine) | `love-island-watch-party/` | 🟡 | season run dates, start time, cover/min, food-drink specials |
 | 3 | Crave | event (external participation) | `crave/` | ⬜ | what Crave is, date/location, what we're serving, booth/ticket details |
 | 4 | Fiesta To-Go Boxes | product push | `fiesta-box/` | ⬜ | box contents, price, order link (Toast), occasions |
