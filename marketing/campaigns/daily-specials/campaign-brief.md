@@ -12,7 +12,7 @@ Build standing midweek rituals that drive Tue–Thu covers (the slower nights) a
 |---|---|
 | **Taco Tuesday** | BOGO lunch street tacos · $6 margs · $30 marg pitchers |
 | **$5 Wednesday** | $5 pints · $5 street tacos |
-| **Burrito Thursday** | $15 burritos & bowls |
+| **Burrito Thursday** | $15 House Burrito or Bowl |
 
 *[OPEN: time windows — is Taco Tuesday BOGO lunch-only (11–5)? Are Wed/Thu all-day or dinner? Dine-in only or takeout too? How does this interact with Happy Hour 3–5 daily?]*  (Note: the old $12 lunch special is retired — these day-specials replace it.)
 
