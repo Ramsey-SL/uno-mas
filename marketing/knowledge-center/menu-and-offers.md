@@ -24,7 +24,7 @@
 9. Cocktails
 10. Pitchers
 11. Beer & Non-Alcoholic
-12. Happy Hour
+12. Weekly Specials
 13. Mezzanine Private Event Packages
 14. Writing Guidelines Per Category
 
@@ -40,7 +40,7 @@
 | 2 Big A** ¼lb Tacos + Side | $23 |
 | Birria Tacos | $14 (standalone — not included in taco plates) |
 | House Margarita (Lunch) | $10 |
-| Happy Hour | 3–5pm daily |
+| Weekly Specials | Taco Tue · $5 Wed · Burrito Thu |
 | Burrito range | $16–$23 |
 | Bowl range | $13–$20 |
 | Sides | $6–$9 |
@@ -280,10 +280,16 @@ Three churros dusted in cinnamon sugar, served with house whipped cream, fresh s
 
 ---
 
-## 12. HAPPY HOUR
+## 12. WEEKLY SPECIALS (replaced Happy Hour + the old lunch special)
 
-**When:** 3–5pm daily (every day we're open)
-**What's included:** Drink specials (confirm current specials before writing)
+| Day | Special |
+|---|---|
+| **Taco Tuesday** | BOGO Lunch Street Tacos · $6 Margs · $30 Marg Pitchers |
+| **$5 Wednesday** | $5 Pints · $5 Street Tacos |
+| **Burrito Thursday** | $15 House Burrito or Bowl |
+
+*Happy Hour (3–5pm) and the $12 lunch special are retired — do not reference them. These ongoing
+day-specials are the current promotions. Frame as a midweek ritual, not a discount fire-sale.*
 
 ---
 
@@ -366,7 +372,7 @@ Three churros dusted in cinnamon sugar, served with house whipped cream, fresh s
 | Shareables | The item name + hook copy | Price, protein add-on option | Sanitized descriptions |
 | Cocktails | Drink name | Price, key spirit | "Refreshing" without specifics |
 | Mezzanine Events | Package name + group size | Price tier, what's included | "Starting at" without specifics |
-| Happy Hour | Time (3–5pm) | Days, specials | "While supplies last" filler |
+| Weekly Specials | The day + the offer | Exact price/deal, dine-in | Discount-coupon framing |
 
 ---
 

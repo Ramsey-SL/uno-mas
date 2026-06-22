@@ -214,7 +214,7 @@ This pillar shows up whenever we describe the space, the occasion, or the vibe �
 |---|---|---|
 | Lunch / Tacos | Casual, energetic, playful | Full personality. Closest to original brand voice. |
 | Dinner plates | Confident, considered, quiet | Let the food speak. Reservation CTA always. |
-| Happy Hour / Cocktails | Flirty, self-aware | Lead with the drink, anchor to the experience |
+| Cocktails / Weekly Specials | Flirty, self-aware | Lead with the drink, anchor to the experience |
 | The Mezzanine | Cool, minimal, moody | Separate register — see Mezzanine section |
 | Paid ads | Hook-driven, value-first | 60% clever max — clarity over cleverness in paid |
 | Email / SMS | Friend texting good news | Personal, always include logistics |

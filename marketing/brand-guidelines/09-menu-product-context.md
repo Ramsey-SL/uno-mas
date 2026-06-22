@@ -93,7 +93,7 @@ This document covers all menu items, cocktails, and product offerings for use in
 
 ### House Margarita
 - **Price:** $12
-- **Key note:** The entry-level margarita. Works for happy hour angle and lunch add-on.
+- **Key note:** The entry-level margarita. Works for the Taco Tuesday $6-marg angle.
 
 ### Espresso Margarita
 - **Price:** $15
@@ -108,7 +108,7 @@ This document covers all menu items, cocktails, and product offerings for use in
 
 ### Paloma
 - **Price:** $14
-- **Copy note:** Works well in happy hour context.
+- **Copy note:** Works well for weekly-specials posts.
 
 ### Tepache Bevvy
 - **Price:** $12
@@ -133,10 +133,12 @@ This document covers all menu items, cocktails, and product offerings for use in
 
 ---
 
-## Happy Hour
+## Weekly Specials (replaced Happy Hour)
 
-- **Hours:** 3–5pm daily (all operating days)
-- **Featured drink:** House Margarita at happy hour — always relevant in 3pm posts
+- **Taco Tuesday:** BOGO lunch street tacos · $6 margs · $30 marg pitchers
+- **$5 Wednesday:** $5 pints · $5 street tacos
+- **Burrito Thursday:** $15 House Burrito or Bowl
+- **Copy note:** lead with the day + the offer (Happy Hour is retired)
 - **Best content angle:** Time-specific urgency. "Get here at 3."
 
 ---

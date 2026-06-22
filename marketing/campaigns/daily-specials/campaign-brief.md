@@ -14,7 +14,7 @@ Build standing midweek rituals that drive Tue–Thu covers (the slower nights) a
 | **$5 Wednesday** | $5 pints · $5 street tacos |
 | **Burrito Thursday** | $15 House Burrito or Bowl |
 
-*[OPEN: time windows — is Taco Tuesday BOGO lunch-only (11–5)? Are Wed/Thu all-day or dinner? Dine-in only or takeout too? How does this interact with Happy Hour 3–5 daily?]*  (Note: the old $12 lunch special is retired — these day-specials replace it.)
+*[OPEN: time windows — is Taco Tuesday BOGO lunch-only (11–5)? Are Wed/Thu all-day or dinner? Dine-in only or takeout too?]*  (These day-specials REPLACE the old $12 lunch special AND Happy Hour — both retired.)
 
 ## 3. Audience
 - **Primary:** Spokane locals + after-work crowd looking for a midweek go-to; groups and friend-duos.
@@ -52,6 +52,6 @@ midweek traffic lift, social engagement, email/SMS → visit.
 
 ## 9. Open inputs needed
 1. **Time windows** per day (lunch-only vs all-day vs dinner) + dine-in/takeout.
-2. **Relationship** to Happy Hour 3–5 daily (do the day-specials stack with HH or run separately?).
+2. (resolved) Happy Hour is retired — the day-specials replace it; no overlap to manage.
 3. **Start date** / is this live now?
 4. Pint brands for $5 Wed (any featured)? Marg flavors for Taco Tue?

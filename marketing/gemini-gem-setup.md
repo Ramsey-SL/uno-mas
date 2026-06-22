@@ -48,5 +48,5 @@ fact, say so.
 
 ## Test prompts
 - `Write a website-hero prompt for our Carne Asada plate.` (expect structured prompt, no faked logo)
-- `Generate a Happy Hour social image, 4:5.` (expect generation; logo space left clear)
+- `Generate a Taco Tuesday social image, 4:5.` (expect generation; logo space left clear)
 - `What's the tag query to find the Mezzanine fireplace shot?` (expect a tags: query, no invented link)

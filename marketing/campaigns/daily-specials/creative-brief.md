@@ -41,7 +41,7 @@ Combined poster: all three days as a stacked "Midweek Lineup" with the tagline a
 
 ## 2) Table tent / tabletop (2-sided, ~5×7in)
 - **Front:** "MIDWEEK AT UNO MÁS" + the 3 days as a clean stacked list (day → offer), pink/navy, food photo strip.
-- **Back:** the featured day or a margarita hero + "Happy Hour 3–5 daily."
+- **Back:** the featured day or a margarita hero + "Tue / Wed / Thu — your midweek lineup."
 - Print spec: 5×7in (or 4×6), 300dpi, bleed. *Claude can build this as print-ready HTML/SVG — just ask.*
 
 ## 3) Social posts (per day — caption + image direction)

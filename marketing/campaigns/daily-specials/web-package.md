@@ -18,7 +18,7 @@
    - **Taco Tuesday** — "BOGO street tacos. $6 margs. $30 marg pitchers." → imgs `…/v1782019842/20260125_UM_FOOD_TacoCloseUpV10_FINAL.jpg` + `…/v1782019423/20260207_UM_DRINK_MargWithLime_FINAL.jpg`
    - **$5 Wednesday** — "$5 pints. $5 street tacos. Math we can get behind." → `…/v1782019842/20260125_UM_FOOD_TacoCloseUpV10_FINAL.jpg` *(pull a pint/beer shot — see gap)*
    - **Burrito Thursday** — "$15 House Burrito or Bowl. Your Thursday just got a plan." → `…/v1781926386/uno-mas/photos/food/20260619_UM_FOOD_BurritoBeanRiceCloseup.png`
-3. **Hours strip** — Tue–Thu (+ time windows once confirmed) · Happy Hour 3–5 daily.
+3. **Hours strip** — Specials run Tue / Wed / Thu (+ time windows once confirmed).
 4. **CTA band** — "Midweek just got better." → Reserve / Directions / See Menu.
 
 ## Homepage banner (rotates by day)
@@ -39,7 +39,7 @@ Yellow #FFEC00; Antonio headlines, Montserrat body. Sections:
      img: …/v1782019842/20260125_UM_FOOD_TacoCloseUpV10_FINAL.jpg
    • BURRITO THURSDAY — "$15 House Burrito or Bowl"
      img: https://res.cloudinary.com/drxrfyq9i/image/upload/v1781926386/uno-mas/photos/food/20260619_UM_FOOD_BurritoBeanRiceCloseup.png
-3) Hours strip: "Specials run Tue–Thu · Happy Hour 3–5pm daily."
+3) Hours strip: "Specials run Tue / Wed / Thu."
 4) Closing CTA band "Midweek just got better." with buttons Reserve (Resy), Get Directions, See Menu.
 Mobile-first, scroll-reveal. Homepage: add a pink banner that displays today's special and links to /specials.
 SEO title "Weekly Specials — Taco Tuesday, $5 Wednesday, Burrito Thursday | Uno Más Spokane".

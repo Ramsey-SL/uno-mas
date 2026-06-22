@@ -40,7 +40,7 @@ Warm, candid, approachable. Like a photo a friend took at dinner — but a frien
 **What works:**
 - **Hero cocktail shot:** Glass centered, clean background — the drink is the subject, nothing competes
 - **The pour:** Action shot — liquid in motion, condensation on glass, citrus being squeezed
-- **Happy hour setup:** Two drinks on a bar or table together, relaxed setting, real atmosphere
+- **Cocktail / specials setup:** Two drinks on a bar or table together, relaxed setting, real atmosphere
 - **Frozen Margarita close-up:** Color and texture if a rotating flavor is featured
 
 **Lighting:** Same warm tone as food. Cocktails look best in warm ambient light — avoid neon-adjacent color casts unless it's a specific creative choice.
@@ -53,7 +53,7 @@ Warm, candid, approachable. Like a photo a friend took at dinner — but a frien
 
 **What works:**
 - Main floor during active service — candid energy, not posed or empty
-- Bar area during happy hour — the vibe, not a product shot
+- Bar area during service — the vibe, not a product shot
 - The patio (seasonal) — table setup, string lights in background, the feel of being there
 - Behind the bar — hands working, action framing, not a face shot
 - The TACOS neon sign — always works as a background element or focal point
@@ -135,12 +135,12 @@ Images can lean darker and slightly desaturated in post — Electric Pink accent
 ### Drinks (shoot 1–2 per week)
 - [ ] Hero cocktail shot — glass center frame, clean background
 - [ ] The pour — action shot of cocktail being built or poured
-- [ ] Happy hour setup — two drinks on the bar, relaxed setting
+- [ ] Cocktail / specials setup — two drinks on the bar, relaxed setting
 - [ ] Frozen Margarita (if rotating flavor)
 
 ### Venue / Atmosphere (shoot 1 per week)
 - [ ] Main floor during service — candid energy, not posed
-- [ ] Bar during happy hour
+- [ ] Bar during service
 - [ ] Patio (seasonal)
 - [ ] Behind the bar
 

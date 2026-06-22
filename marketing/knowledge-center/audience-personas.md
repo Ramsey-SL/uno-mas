@@ -175,7 +175,7 @@ Ages 28–45. Cares as much about what's in their glass as what's on their plate
 - Vibe without substance on the drinks side
 
 ### How to Reach Them
-- Instagram (cocktail feature content, happy hour)
+- Instagram (cocktail feature content, weekly specials)
 - In-venue — the menu itself and server recommendations
 
 ### What Moves Them to Action

@@ -313,7 +313,7 @@ Tequila flights available — ask your server.
 *Source: Supabase `site_events` table (currently empty — `is_recurring` flag distinguishes weekly vs. one-off).*
 
 ### Recurring (weekly / standing offers)
-- [TODO: list weekly specials — e.g., Taco Tuesday pricing, happy hour windows, late-night menu]
+- Weekly specials (ongoing): Taco Tuesday (BOGO lunch tacos, $6 margs, $30 pitchers), $5 Wednesday ($5 pints/tacos), Burrito Thursday ($15 House Burrito or Bowl). Happy Hour + $12 lunch special RETIRED.
 - [TODO: any standing dinner-night programming, Sunday brunch promo, etc.]
 
 ### Upcoming one-offs
@@ -355,7 +355,7 @@ The friend who starts every story with "so we did a thing…" and somehow always
 |---|---|---|
 | Lunch / casual | Energetic, playful | 3–5 |
 | Dinner / elevated plates | Confident, considered | 1–2 max |
-| Cocktails / happy hour | Flirty, self-aware | 2–3 |
+| Cocktails / weekly specials | Flirty, self-aware | 2–3 |
 | Patio / outdoor | Casual, inviting | 3–5 |
 | **The Mezzanine** | Cool, minimal, moody | 0–1 |
 | Paid ads | Hook-driven, clarity first | 1–2 |
@@ -1001,7 +1001,7 @@ The GTM container ID, GA4 Measurement ID, Meta Pixel ID, and Klaviyo Public API 
 8. ~~**Lunch menu items**~~ ✅ documented in master MD (per April 2026 menu PDF). Still needs Supabase reconciliation — see `MENU-RECONCILIATION-SQL.md` once generated.
 9. **Brunch menu items** — finalize ahead of Mother's Day 2026 launch
 10. ~~**Cocktail items**~~ ✅ documented in master MD (9 cocktails + pitchers + beer + non-alc). Needs Supabase reconciliation.
-11. **Recurring specials** (Taco Tuesday, happy hour, late-night, etc.) — seed into `site_events`
+11. **Recurring specials** (Taco Tuesday, $5 Wednesday, Burrito Thursday, etc.) — seed into `site_events`
 12. **Upcoming one-off events** — seed into `site_events`
 13. **Google Business Profile + Apple Business Connect** — confirm verified, photo upload cadence
 14. **Award / press list** — finalize what's quotable

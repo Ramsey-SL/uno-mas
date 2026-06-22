@@ -42,7 +42,7 @@ These are evergreen, tested, on-brand. Use them. They work.
 |---|---|
 | "Get a little lost at Uno Más" | Brand tagline, atmospheric posts, Mezzanine |
 | "So we did a thing…" | New item launches, WTF Menu drops, changes |
-| "Get here before your friends do" | Urgency posts, new item, happy hour |
+| "Get here before your friends do" | Urgency posts, new item, weekly specials |
 | "Maybe just one more?" | Cocktail posts, end-of-night energy |
 | "Hit different." | Short punchy caption ending |
 | "Make good choices." | Playful CTA, cocktail context |

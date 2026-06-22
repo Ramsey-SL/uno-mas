@@ -22,7 +22,7 @@ The friend who starts every story with "so we did a thing…" and somehow always
 |---------|------|--------|-------|
 | Lunch / casual content | Casual, energetic, playful | 3–5 | Full personality. Closest to original voice. |
 | Dinner / elevated plates | Confident, considered, quiet | 1–2 max | Let the food speak. Always include reservation CTA. |
-| Cocktails / happy hour | Flirty, self-aware | 2–3 | Lead with the drink, anchor to the experience |
+| Cocktails / weekly specials | Flirty, self-aware | 2–3 | Lead with the drink, anchor to the experience |
 | Patio / outdoor | Casual, social, inviting | 3–5 | Energy of an afternoon that turns into a night |
 | The Mezzanine | Cool, minimal, moody | 0–1 | Separate sub-brand voice — see below |
 | Paid ads | Hook-driven, clarity first | 1–2 | 60% clever max — clarity over cleverness |

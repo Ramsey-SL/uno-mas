@@ -82,7 +82,7 @@ The kind of thing you think about on the drive home.
 [Cocktail name].
 [Key ingredients — specific, no filler words]
 [One line about what it does / why it's worth ordering]
-[Optional: "Happy Hour 3–5pm" if relevant]
+[Optional: today's special if relevant]
 ```
 
 **Example:**
@@ -90,7 +90,7 @@ The kind of thing you think about on the drive home.
 Espresso Margarita.
 Tequila blanco, Indaba cold brew, Baileys, agave.
 The cocktail that finally ends the coffee vs. drinks debate.
-Happy Hour 3–5pm. 🍹
+Taco Tuesday: $6 margs. 🍹
 ```
 
 **Example (no emoji):**
@@ -273,20 +273,20 @@ DM us to book. Or find the link in bio.
 
 ---
 
-### 3A. PROMOTIONAL EMAIL — HAPPY HOUR / SPECIAL
+### 3A. PROMOTIONAL EMAIL — WEEKLY SPECIAL
 **When to use:** Time-sensitive promotional push.
 **Subject line options:** Test both emoji and no-emoji versions.
 
 ```
-SUBJECT (with emoji test): Happy Hour starts at 3. 🍹
-SUBJECT (no emoji test): Happy Hour starts at 3.
+SUBJECT (with emoji test): Taco Tuesday is here. 🌮
+SUBJECT (no emoji test): Taco Tuesday is here.
 PREVIEW: Every day. The details are below.
 
 ---
 
 Hey [first name or "Taco Fam"],
 
-Happy Hour runs 3–5pm every day we're open.
+Taco Tuesday: BOGO street tacos, $6 margs, $30 pitchers.
 
 [One specific cocktail or deal callout if applicable]
 
@@ -372,9 +372,9 @@ PREVIEW: [Specific reward or inside detail]
 
 ---
 
-### 4A. HAPPY HOUR PUSH
+### 4A. WEEKLY SPECIAL PUSH
 ```
-Uno Más: Happy Hour runs 3–5pm today. [Optional: specific cocktail]. Come in. Reply STOP to opt out.
+Uno Más: Taco Tuesday today — $6 margs, BOGO street tacos. Come in. Reply STOP to opt out.
 ```
 *Count before sending — confirm under 160 chars.*
 
@@ -496,21 +496,21 @@ We'd love to make it right — reach out to us directly at [phone/email] and we'
 - 1–2 experience/atmosphere posts
 - 1 cocktail or tequila bar feature
 - 1 community or engagement post (question, share prompt)
-- 1 promotional post (happy hour, current special)
+- 1 promotional post (current weekly special)
 
 **Instagram Stories (Daily if possible):**
 - Behind-the-scenes moments
-- Daily specials or happy hour reminder
+- Daily specials reminder
 - Polls / engagement (what should we add to the WTF Menu?)
 - Event or patio teasers
 - User-generated content reshares
 
 **Email (1–2x/week):**
-- 1 promotional (happy hour, seasonal item, specific deal)
+- 1 promotional (weekly special, seasonal item, specific deal)
 - 1 content/community (new item story, brand moment, loyalty)
 
 **SMS (2–4x/month):**
-- Time-sensitive only — happy hour push, limited item alert, patio open
+- Time-sensitive only — weekly special push, limited item alert, patio open
 - Never more than once a week unless there's a genuine reason
 
 ### Monthly Content Calendar Rhythm

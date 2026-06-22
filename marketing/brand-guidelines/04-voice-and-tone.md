@@ -34,12 +34,12 @@ The voice stays consistent, but the **tone** shifts depending on what we're writ
 | Context | Tone | Example |
 |---|---|---|
 | Food posts | Specific, confident, dry | "Braised chuck. Melted Monterey Jack. Consomé for dipping." |
-| Happy hour / deals | Direct, time-aware, slightly playful | "Happy Hour 3–5pm. The Paloma is $14. Get here." |
+| Weekly specials | Direct, time-aware, slightly playful | "Burrito Thursday — $15 House Burrito or Bowl. Get here." |
 | Mezzanine | Atmospheric, mysterious, less-is-more | "Most people don't know the Mezzanine exists. That's kind of the point." |
 | Events / catering | Warm, professional, clear | "Three packages. One very good room. DM us to start planning." |
 | Review responses | Personal, genuine, warm | "Maria, this one made the whole team smile." |
 | Email subject lines | Direct or curiosity-forward | "Burrito Thursday. $15 burritos & bowls." |
-| SMS | Urgent, specific, no fluff | "Happy Hour starts at 3. Come in. 🍹" |
+| SMS | Urgent, specific, no fluff | "Taco Tuesday: $6 margs. Come in. 🍹" |
 
 ---
 
@@ -52,7 +52,7 @@ The Mezzanine uses the same core voice but leans harder on **atmosphere over act
 - One detail does more work than a feature list
 - The secret-handshake energy is part of the brand
 
-**Uno Más:** "The Espresso Margarita is waiting. Happy Hour 3–5pm today."  
+**Uno Más:** "The Espresso Margarita is waiting. Come get a little lost tonight."  
 **Mezzanine:** "Fireplace. Private bar. Most people don't know it's up there."
 
 ---

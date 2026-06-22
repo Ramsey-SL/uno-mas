@@ -173,7 +173,7 @@ Darker, more mysterious, elevated. DIN Condensed is authoritative but not stiff.
 | Content Type | Brand to Use |
 |---|---|
 | Tacos, burritos, bowls, street food | Uno Más |
-| Cocktails / happy hour (main floor) | Uno Más |
+| Cocktails / weekly specials (main floor) | Uno Más |
 | Sunday Brunch | Uno Más |
 | Patio content | Uno Más |
 | General restaurant/community content | Uno Más |

@@ -205,11 +205,11 @@ We're the answer to "where should we go that isn't another hotel conference room
 Espresso Margarita.
 Tequila blanco, Indaba cold brew, Baileys, agave.
 The cocktail that finally ends the coffee vs. drinks debate.
-Happy Hour 3–5pm. 🍹
+Taco Tuesday: $6 margs. 🍹
 ```
 
 ```
-Happy Hour runs 3–5pm every day we're open.
+Taco Tuesday, $5 Wednesday, Burrito Thursday — your midweek lineup.
 The Paloma is $14. Get here.
 ```
 
@@ -249,7 +249,7 @@ See you at the bar.
 
 **Taco-specific:** `#spokane #spokaneeats #spokanetacos #spokanefood #tacos #unomas #getlittlelost`
 
-**Cocktail / Happy Hour:** `#spokane #spokaneeats #spokanecocktails #happyhour #margarita #tequilabar #unomas`
+**Cocktails / Specials:** `#spokane #spokaneeats #spokanecocktails #tacotuesday #margarita #tequilabar #unomas`
 
 **Mezzanine / Events:** `#spokane #spokaneevents #spokanenightlife #spokanespeakeasy #theMezzanine #unomas`
 
@@ -270,4 +270,4 @@ See you at the bar.
 | Fiesta Packs | Thursday or Friday | 12pm |
 | The Mezzanine | Thursday or Friday | 6pm |
 | Catering and Events | Monday or Tuesday | 12pm |
-| Cocktails / Happy Hour | Wednesday or Thursday | 2–3pm |
+| Cocktails / Weekly Specials | Tue–Thu | day-of |

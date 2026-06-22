@@ -68,7 +68,7 @@
 - **Lunch Service:** 11am–close, Tuesday–Saturday
 - **Sunday Brunch:** 10am–4pm (launching Mother's Day, May 2026)
 - **Live DJ:** Friday & Saturday nights
-- **Rotating Specials:** Promotions change regularly — reference active campaign files for current offers. Do not reference happy hour or Taco Tuesday.
+- **Weekly Specials (ongoing):** Taco Tuesday (BOGO lunch street tacos · $6 margs · $30 marg pitchers) · $5 Wednesday ($5 pints · $5 street tacos) · Burrito Thursday ($15 House Burrito or Bowl). These REPLACED Happy Hour and the old $12 lunch special — do NOT reference Happy Hour or the lunch special (retired).
 
 > **Note:** Weekly programming (Trivia, Comedy, Bingo) is NOT currently active. Do not reference in content until reinstated.
 

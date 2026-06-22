@@ -63,5 +63,5 @@ If you're unsure of a fact (price, hours, menu item), say so — don't invent it
 ## Conversation starters
 - `Write a website-hero prompt for our Carne Asada plate.`
 - `Score these generated images against the brand. [attach]`
-- `Make a Happy Hour social post (3–5pm daily).`
+- `Make a Taco Tuesday social post.`
 - `Turn this campaign brief into prompts for website, social, merch, and menu.`

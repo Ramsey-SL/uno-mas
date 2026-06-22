@@ -22,6 +22,11 @@
 
 ## Current state of the site (all DONE + published)
 
+**🆕 2026-06-22 — New homepage hero + DAM complete**
+- **DAM finished.** Cloudinary `uno-mas/approved-assets/` now holds the full curated set — ~527 photos + 26 videos + logos(129)/icons(83), 805 total. Drive `02_PHOTO_LIBRARY` (412) and `03_VIDEO_LIBRARY` (26) hold only approved masters; everything else archived to `_ARCHIVE/*-2026-06-21`. Upload mechanic: signed Cloudinary REST API from a local script with a **Master** key (the claude.ai Cloudinary MCP can't read local files); always set `asset_folder` so assets don't land in "Home". Cloud = `drxrfyq9i`.
+- **Homepage hero redesigned** → `src/components/HomeHero.tsx` (replaced the old Ken-Burns cantina photo hero). Light, full-bleed, Apple-style: white bg + subtle **navy brand line-art icon-scatter** (`icons-pattern-forramsey-02`, ~7%, 560px). Existing copy/CTAs UNCHANGED — "GET A LITTLE LOST." + "Modern Mexican. Craft cocktails. A speakeasy upstairs." + Reserve a table (Resy) / See The Menu / Plan an Event →. Three scattered 9:16 autoplay video tiles with pink/blue/yellow brand frames + drop shadows: **drone aerial**, **food** (`UM_-_Videos_-_Food_-34`), **Mezzanine watch party** (`Mezz_Watch_Party_V5`). Vivid Cloudinary grade (`e_auto_color,e_vibrance:40,e_saturation:18,e_contrast:16,e_sharpen:35,q_auto:best`). Published.
+- **Mezzanine slots wired** into Supabase `assets`: `role:hero-mezzanine` → MezzSeatingAndBar, `role:venue-mezzanine` → MezzFireplace (both from `mezzanine/venue`). The /mezzanine hero + homepage venue card no longer fall back to the cantina shot.
+
 **Foundation & SEO**
 - GTM installed site-wide with conversion events: `reserve_table_click`, `phone_click`, `directions_click`, `event_inquiry_view`, `cantina_club_signup`, `social_follow_click` (split phone_header / below_phone), `reel_play`, `reel_unmute`.
 - Footer rebuilt with correct hours (Sun–Mon closed · Tue–Thu 11–9 · Fri–Sat 11–10), address+map, click-to-call, both emails, socials, all nav links.
@@ -65,14 +70,14 @@
 
 ## 🔴 OPEN / NEXT UP (what's NOT done)
 
-1. **Interior construction "buildout" photos — IN FLIGHT, not yet uploaded.** Owner flagged ~67 files (named with "website") in `02_PHOTO_LIBRARY/.../UM - Photos - Monroe Buildout - Interior Construction/`. Identified but NOT processed. Mix of .jpeg/.jpg/.HEIC — **HEIC files need conversion** before upload. Decide where they go (a "buildout/our story" gallery? the About page?) then optimize → Cloudinary → tag → Supabase. *(This was the last thing in progress when the prior chat capped.)*
-2. **Mezzanine photos — TOP PRIORITY, still zero.** The /mezzanine page uses the cantina shot as a branded fallback. The album had no clean Mezzanine room shot. Needs a dedicated shoot or a dig through other libraries for the leather-lounge/fireplace/bar.
+1. **Buildout photos — ✅ UPLOADED to DAM (2026-06-21), gallery NOT yet built.** 73 interior/exterior construction shots are now in `uno-mas/approved-assets/photos/building` (HEIC converted, web-optimized). Still TODO: build the "buildout / our story" gallery on /about and wire these in (Supabase rows / a gallery component).
+2. **Mezzanine photos — ✅ DONE (2026-06-22).** Wired `role:hero-mezzanine` (MezzSeatingAndBar) + `role:venue-mezzanine` (MezzFireplace) into Supabase from `mezzanine/venue`. Fallback no longer used. (14 mezz photos + 6 mezz videos available in the DAM for more slots.)
 3. **Team headshots.** Team section was deleted from /about. If it returns, it needs real photos. (3 unidentified candid portraits already sit in Cloudinary `uno-mas/team-uploads` — could be tagged if identified.)
 4. **Cantina Club copy guidelines.** Interim copy is live (107% stat removed). Owner to finalize club voice/rules, then a focused copy pass.
 5. **GTM verification.** Confirm the conversion events fire in GTM Preview mode (can't be verified from outside the container).
 6. **Test the Toast form + Klaviyo capture** end-to-end once.
 7. **Hero-video slot** is wired and empty — drop one short ambient clip (tag `role:hero-video`) from the 340 album videos (untouched) and the homepage goes to video.
-8. **Birria** has no photo bound to its menu slug.
+8. **Birria** has no photo bound to its menu slug — **still true (2026-06-22).** The only birria-named asset in the DAM is `20260619_UM_FOOD_BirriaWingsTowerFiesta` (a tower of saucy *wings*, not birria tacos), so it's not a fit. Needs a dedicated birria-tacos beauty shot from the next shoot.
 9. **DNS cutover** Squarespace → Lovable/Netlify hosting at unomastacoshop.com — still pending; see `LAUNCH-READINESS-CHECKLIST.md`.
 
 ---

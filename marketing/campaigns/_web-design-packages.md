@@ -25,7 +25,7 @@ Each campaign gets a **web design package**: everything needed to build its site
 | Campaign | Brief | Web package |
 |---|---|---|
 | Love Island | ✅ | 🟢 built (`web-package.md`) |
-| Daily Specials | 🟡 (timing open) | ⬜ |
+| Daily Specials | 🟡 (timing open) | 🟢 built (`web-package.md`) |
 | Crave / Fiesta / Rentals / Catering / Loyalty | ⬜ (need inputs) | ⬜ |
 
 **Build path:** Love Island + Daily Specials are ready now. The other five need their brief inputs first

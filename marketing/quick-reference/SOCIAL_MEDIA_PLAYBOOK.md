@@ -54,8 +54,7 @@ Conversion-focused content — never more than ~15% or it feels salesy.
 - Rotating specials, loyalty rewards (Uno Mas Rewards: The Cantina Club)
 - Catering promos, Fiesta Pack announcements
 - Email/SMS signup pushes
-- ✅ Happy hour (3–5pm daily) is active — confirm current drink specials before writing
-- ⚠️ Do NOT reference Taco Tuesday — not currently active
+- ✅ Weekly specials active: Taco Tuesday / $5 Wednesday / Burrito Thursday — confirm the day's offer before writing. (Happy Hour retired.)
 
 ---
 

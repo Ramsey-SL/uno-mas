@@ -198,7 +198,7 @@ Font files located in: `01_Brand_Assets/Fonts/`
 - **Instagram:** @unomastacoshop | **TikTok:** @unomastacosandtequila
 - **Events Contact:** karissa@unomastacoshop.com | **General:** tacos@unomastacoshop.com
 - **Phone:** (509) 960-7989
-- **SEO Priority:** "taco restaurant spokane", "taco bar spokane", "happy hour monroe street spokane", "private event venue spokane", "speakeasy spokane"
+- **SEO Priority:** "taco restaurant spokane", "taco bar spokane", "taco tuesday spokane", "private event venue spokane", "speakeasy spokane"
 - **Accessibility:** WCAG 2.1 AA compliance minimum
 
 ---

@@ -78,7 +78,7 @@ uno-mas/
    `brand-intelligence-center/` for deep strategy. Don't create competing "master" or
    "start-here" docs — extend the canonical ones.
 2. **Never mix Uno Más and Mezzanine brand elements** — separate visual identities.
-3. **Never say:** taco shop (in brand copy), authentic Mexican, mouthwatering, artisanal, mixology, Taco Tuesday (not active).
+3. **Never say:** taco shop (in brand copy), authentic Mexican, mouthwatering, artisanal, mixology.
 4. **Always say:** modern Mexican, house-smoked, craft cocktails, Get a little lost.
 5. **Loyalty program:** Uno Más Rewards: The Cantina Club (Toast POS).
 

@@ -33,7 +33,7 @@ The heart of Uno Más. This is the primary dining room — where most guests eat
 ### Content Strategy for the Cantina
 - Food photography is primary — the Cantina is where the food lives
 - Atmosphere shots during dinner service show the space at its best
-- Bar shots work for cocktail/happy hour content
+- Bar shots work for cocktail / weekly-specials content
 - The TACOS sign is always a good backdrop
 - Never: Empty room shots. The Cantina looks best alive.
 
