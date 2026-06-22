@@ -1,6 +1,8 @@
 # Creative / Design Brief — Daily Specials (Tue / Wed / Thu)
 
-Use this to **generate options** across posters, table tents, social, icons, and the web section.
+> ✅ **Claude-built, ready-to-use versions exist** (no AI-gen needed): posters `poster-*.html`, `table-tent.html`, `icons.html`, `specials-page-preview.html`. The prompts below remain for generating photo-real variants in Gemini/ChatGPT.
+
+ across posters, table tents, social, icons, and the web section.
 Brand: **Uno Más warm** — Hot Pink `#E22690`, Navy `#003366`, Yellow `#FFEC00`, Blue `#18BCDC`.
 Fonts: **Antonio** (headlines) / **Montserrat** (body). Voice: confident, playful, Spokane-proud, price-confident.
 

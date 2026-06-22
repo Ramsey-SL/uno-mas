@@ -1,6 +1,6 @@
 # Campaign Brief — Daily Specials (Tue / Wed / Thu)
 
-**Type:** promotion (recurring weekly)   **Status:** draft (awaiting timing specifics)   **Owner:** Ramsey
+**Type:** promotion (recurring weekly)   **Status:** 🟢 collateral built (posters · table tent · icons · social · /specials page) — awaiting time windows + pint photo   **Owner:** Ramsey
 **Cadence:** every Tue / Wed / Thu   **Last updated:** 2026-06-20
 
 ## 1. Objective
@@ -55,3 +55,11 @@ midweek traffic lift, social engagement, email/SMS → visit.
 2. (resolved) Happy Hour is retired — the day-specials replace it; no overlap to manage.
 3. **Start date** / is this live now?
 4. Pint brands for $5 Wed (any featured)? Marg flavors for Taco Tue?
+
+## Assets built (2026-06-22)
+- ✅ **Posters (print-ready 4:5):** `poster-taco-tuesday.html` · `poster-5-wednesday.html` · `poster-burrito-thursday.html` · `poster-midweek-lineup.html` (+ `.png` previews). Real DAM food/drink photos + white Uno Más logo, warm palette, Antonio headlines.
+- ✅ **Table tent (2-sided 5×7):** `table-tent.html`.
+- ✅ **Icon & badge set (SVG):** `icons.html` — taco/marg/pitcher/pint/burrito/bowl + BOGO/$5/$15 badges + 3 day stamps (recolorable).
+- ✅ **Social / email / SMS copy:** `creative-copy.md`.
+- ✅ **Webpage:** `specials-page-preview.html` (live preview) + `web-package.md` (Lovable build prompt for `/specials`).
+- ⚠️ Open: time windows per day · a real **pint/beer photo** for $5 Wed (using the taco shot for now) · push `/specials` live to Lovable.
