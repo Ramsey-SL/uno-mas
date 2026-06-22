@@ -1,6 +1,6 @@
 # Campaign Brief — Love Island Watch Party
 
-**Type:** event (recurring)   **Status:** 🟢 building (poster done)   **Owner:** Ramsey
+**Type:** event (recurring)   **Status:** 🟢 building (poster finalized · Resy wired · FB event drafted)   **Owner:** Ramsey
 **Dates:** Thursdays **Jun 26 · Jul 3 · Jul 10** · **Season Finale Sun Jul 12** · Doors **5PM** / Show **6PM**   **Venue:** The Mezzanine
 **Last updated:** 2026-06-20
 
@@ -32,6 +32,7 @@ Season runs 3 Thursdays (Jun 26 / Jul 3 / Jul 10) + a **Season Finale watch part
 - **Klaviyo email + SMS:** weekly Thursday "tonight!" nudge to the 21+/Cantina Club segment.
 - **In-store:** table tents + a Mezzanine sign during the week.
 - **Website:** events listing + homepage event callout (see §7).
+- **Facebook:** recurring FB Event (Thursdays) + Finale event — see `facebook-event.md`.
 
 ## 6. Collateral needed
 - Social: 1 announcement reel + weekly reminder post template + story countdown + 2–3 recap clips. *(Footage exists — DAM `tags:mezzanine AND tags:watchparty` = the MezzWatchParty set.)*
@@ -42,7 +43,7 @@ Season runs 3 Thursdays (Jun 26 / Jul 3 / Jul 10) + a **Season Finale watch part
 ## 7. Website integration
 - Add a recurring event to the **Mezzanine / Events** page: "Love Island Watch Party — Thursdays."
 - Homepage **event callout** (the site already supports event-forward Mezzanine framing).
-- CTA: *[OPEN — RSVP via ? / reserve the Mezzanine / just walk in]*.
+- CTA: **Reserve a table on Resy** (same as every Uno Más reservation) → https://resy.com/cities/spokane-wa/venues/uno-mas-tacos-and-tequila · walk-ins welcome.
 
 ## 8. KPIs
 Thursday Mezzanine covers + bar sales (Toast), watch-party headcount week-over-week (returning crowd),
@@ -52,7 +53,7 @@ social engagement on the reels, email/SMS click→visit, new Cantina Club signup
 ✅ Dates: Thu Jun 26 / Jul 3 / Jul 10 + Finale Sun Jul 12 · ✅ Doors 5 / Show 6 · ✅ Reservations recommended
 · ✅ Food/drink: signature cocktails + tacos & shareables.
 Still needed:
-1. **Reservation channel** — Resy? Toast? DM/booking link? (drives the CTA on every asset + website)
+1. ✅ **Reservation channel — Resy.** Reservations are taken through Resy exactly like every other Uno Más reservation (book the venue; no separate event ticketing). Wired on every asset + the poster QR. → https://resy.com/cities/spokane-wa/venues/uno-mas-tacos-and-tequila
 2. **Cover/minimum?** (poster says reservations recommended — is entry free, or table min for the party?)
 3. **Signature cocktail name/price** (the featured Love Island drink — for social + menu).
 4. **Mezzanine capacity** for the party (RSVP cap?).
@@ -68,7 +69,8 @@ girls/date night, Thursday tradition, friendly competition.
 ## Assets status
 - ✅ **Collateral copy** (social, email, SMS, table tent, web card) — `creative-copy.md`.
 - 🎬 **Promo video** — in production per `video-creative-brief.md` (rooftop, drink-tower game, villa crew).
-- ⚠️ **Event poster** — needs **realignment**: current mock uses a generic AI pool-villa, which the video
-  brief explicitly says to AVOID. Revise to a packed-Mezzanine-rooftop scene (friend-groups + cocktails +
-  big screen). Also composite the real logo.
+- ✅ **Event poster** — **finalized:** `poster-final.html` — composited over the real DAM watch-party
+  photo (MezzWatchParty_v5), real white Mezzanine logo, Mezzanine palette, live Resy QR. No AI pool-villa.
+  Preview: `poster-final.png`. Export to print via Cmd+P → Save as PDF.
+- 📘 **Facebook Event** — drafted & paste-ready: `facebook-event.md` (recurring Thursdays + Sun Jul 12 finale; Resy as the event ticket/booking URL).
 - ⬜ Website event card live on site · in-store table-tent print · social reel cut from the promo video.

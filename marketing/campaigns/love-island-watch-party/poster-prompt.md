@@ -1,5 +1,7 @@
 # Love Island Poster — Revised (aligned to video brief)
 
+> ✅ **FINAL poster built:** `poster-final.html` — real DAM photo composite + real white Mezzanine logo + live Resy QR, Mezzanine palette, no AI villa. Preview `poster-final.png`. The directions below remain for regenerating or making variants (story 9:16, table tent).
+
 Replaces the AI pool-villa mock. Direction: **packed, social, real Mezzanine watch party** — friend-groups
 with cocktails, cheering, a big screen, summer-evening energy. Mezzanine palette (electric pink/black).
 
