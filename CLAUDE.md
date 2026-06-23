@@ -105,7 +105,7 @@ stacked adjectives ("fresh, delicious, flavorful, hearty").
 - **Weekly specials (live 2026-06) — these REPLACE Happy Hour AND the old lunch special (both retired):** Taco Tuesday (BOGO lunch street tacos · $6 margs · $30 marg pitchers) · $5 Wednesday ($5 pints · $5 street tacos) · Burrito Thursday ($15 House Burrito or Bowl). *(Taco Tuesday IS now running — old "don't reference Taco Tuesday" rule retired. Do NOT reference Happy Hour — no longer running.)*
 - Phone: (509) 960-7989
 
-**Current focus:** dinner covers (primary), Sunday brunch (launched Mother's Day 2026),
+**Current focus:** dinner covers (primary), Sunday brunch (ON HOLD — relaunch TBD),
 Mezzanine + Patio private events/catering, loyalty growth, social scaling, Klaviyo, SEO.
 Highest-margin channels: dinner, private events, catering — prioritize these.
 

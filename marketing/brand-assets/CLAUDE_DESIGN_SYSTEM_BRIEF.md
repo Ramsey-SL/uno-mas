@@ -101,7 +101,7 @@ Uno Más Tacos & Tequila — a modern Mexican restaurant and tequila bar in Spok
 | Address | 2020 N Monroe St, Suite C, Spokane WA 99205 |
 | Phone | (509) 960-7989 |
 | Hours | Tue–Thu 11am–9pm · Fri–Sat 11am–10pm |
-| Brunch | Sundays 10am–4pm (launching Mother's Day 2026) |
+| Brunch | Sundays 10am–4pm (ON HOLD — relaunch TBD) |
 
 ---
 

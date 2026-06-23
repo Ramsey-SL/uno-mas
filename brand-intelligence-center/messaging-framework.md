@@ -33,7 +33,7 @@ We believe a night out should feel like a discovery, not a transaction. Spokane 
 - 21+ after 9pm — intentional curation of atmosphere, not exclusion
 
 ### WHAT — What We Offer
-Latin-inspired tacos, house-smoked meats, craft cocktails, a rooftop speakeasy (The Mezzanine), Sunday brunch, an elevated dinner menu with a Raw Bar, and private event hosting — all at 2020 N Monroe, Spokane.
+Latin-inspired tacos, house-smoked meats, craft cocktails, a rooftop speakeasy (The Mezzanine), an elevated dinner menu with a Raw Bar, and private event hosting — all at 2020 N Monroe, Spokane.
 
 ---
 

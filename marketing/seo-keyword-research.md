@@ -113,7 +113,7 @@ Sun-Mon: Closed
 - Speakeasy upstairs (The Mezzanine — 35-75 capacity, private events)
 - Outdoor patio bar + street food kitchen
 - Off-site catering
-- Sunday brunch (launching 2026)
+- Sunday brunch (ON HOLD — relaunch TBD)
 
 ## What we are NOT
 - A traditional taqueria (we started as one but grew into more)

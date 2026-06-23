@@ -170,7 +170,7 @@ Based on categorized post analysis:
 | Thursday | 12pm or 6pm | Same as Wednesday |
 | Friday | 12pm | Catch the "what are we doing tonight" planning window |
 | Saturday | 10am or 6pm | Morning reach or pre-evening |
-| Sunday | 9am | Brunch content — launching Mother's Day, Sundays 10am–4pm |
+| Sunday | 9am | Brunch content — ON HOLD — relaunch TBD (Sundays 10am–4pm planned) |
 
 ### General Rules
 - **Food content:** 12pm (lunch) or 6pm (dinner) windows

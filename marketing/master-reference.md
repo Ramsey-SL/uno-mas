@@ -121,12 +121,6 @@ Not currently active. Mother's Day 2026 launch was deferred. Update when re-sche
 ### The Mezzanine
 By appointment / private event bookings only. Contact karissa@unomastacoshop.com.
 
-### Brunch (Sundays, launching Mother's Day 2026)
-Sundays 10am–4pm.
-
-### The Mezzanine
-By appointment / private event bookings only. Contact karissa@unomastacoshop.com.
-
 ---
 
 ## MENU
@@ -300,7 +294,7 @@ By appointment / private event bookings only. Contact karissa@unomastacoshop.com
 
 Tequila flights available — ask your server.
 
-### Brunch *(Sundays starting Mother's Day 2026, 10am–4pm)*
+### Brunch *(Sundays 10am–4pm planned — ON HOLD, relaunch TBD)*
 
 *[TODO: finalize and document brunch menu]*
 
@@ -471,7 +465,7 @@ The friend who starts every story with "so we did a thing…" and somehow always
 |---|---|---|
 | Food, cocktails, main floor | ✅ | — |
 | Patio | ✅ | — |
-| Sunday Brunch | ✅ | — |
+| Sunday Brunch (ON HOLD) | ✅ | — |
 | Mezzanine atmosphere / late night | — | ✅ |
 | Private events in Mezzanine | — | ✅ |
 | Mezzanine event packages | — | ✅ |
@@ -703,7 +697,7 @@ Allow all. Point to sitemap.
 2. **Dinner reservation via Resy** — active campaign focus.
 3. **Cantina Club loyalty signup** — at POS via Toast / Klaviyo segment.
 4. **Private event or catering inquiry** → karissa@unomastacoshop.com.
-5. **Sunday brunch visit** — launching Mother's Day 2026.
+5. **Sunday brunch visit** — ON HOLD — relaunch TBD.
 
 ---
 
@@ -999,7 +993,7 @@ The GTM container ID, GA4 Measurement ID, Meta Pixel ID, and Klaviyo Public API 
 6. ~~**Exact lat/long**~~ ✅ 47.6764702, -117.4263699
 7. **Email addresses** for Thomas Schulke + Maraya Lindo
 8. ~~**Lunch menu items**~~ ✅ documented in master MD (per April 2026 menu PDF). Still needs Supabase reconciliation — see `MENU-RECONCILIATION-SQL.md` once generated.
-9. **Brunch menu items** — finalize ahead of Mother's Day 2026 launch
+9. **Brunch menu items** — finalize ahead of relaunch (TBD; on hold)
 10. ~~**Cocktail items**~~ ✅ documented in master MD (9 cocktails + pitchers + beer + non-alc). Needs Supabase reconciliation.
 11. **Recurring specials** (Taco Tuesday, $5 Wednesday, Burrito Thursday, etc.) — seed into `site_events`
 12. **Upcoming one-off events** — seed into `site_events`

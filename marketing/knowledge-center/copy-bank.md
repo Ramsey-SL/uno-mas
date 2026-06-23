@@ -5,7 +5,7 @@
 **General Contact:** tacos@unomastacoshop.com
 **Private Events:** karissa@unomastacoshop.com
 **Phone:** (509) 960-7989
-**Hours:** Tue–Thu 11am–9pm | Fri–Sat 11am–10pm | Closed Sun & Mon *(Sunday Brunch launching Mother's Day — Sundays 10am–4pm)*
+**Hours:** Tue–Thu 11am–9pm | Fri–Sat 11am–10pm | Closed Sun & Mon *(Sunday brunch ON HOLD — relaunch TBD)*
 **Lunch:** 11am–5pm | **Dinner:** 5pm–Close
 **Instagram:** @unomastacoshop
 **Facebook:** https://www.facebook.com/UnoMasTacoShop/

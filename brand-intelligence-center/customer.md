@@ -5,7 +5,7 @@
 - **Secondary Audiences:**
   - Corporate event planners and hosts booking The Mezzanine
   - Date-night couples seeking something impressive without full fine-dining commitment
-  - Brunch crowd (Sundays starting May)
+  - Brunch crowd (ON HOLD — relaunch TBD)
   - Late-night 21+ crowd
   - **Travelers and visitors to Spokane** — consistently report Uno Más as the best Mexican food they've had in a long time. Discover us via Google search, word of mouth, and local recommendations. Need: strong Google presence, social proof, and copy that signals we're worth planning around.
 - **Decision-Maker:** Individuals, couples, friend groups, and "experience planners" — the one who curates the night out
@@ -14,7 +14,7 @@
 **Primary occasions:**
 - Weeknight dinner — spontaneous or planned, looking for somewhere worth it
 - Weekend date night or group dinner
-- Sunday brunch — launching Mother's Day, Sundays 10am–4pm
+- Sunday brunch — ON HOLD — relaunch TBD (Sundays 10am–4pm planned)
 - Late-night Friday/Saturday (21+ after 9pm)
 - Rotating specials and promotions — see active campaigns for current offers
 - Private events: birthday parties, corporate gatherings, rehearsal dinners
