@@ -6,13 +6,18 @@
  *
  * Load fonts once in the app head:
  *   https://fonts.googleapis.com/css2?family=Antonio:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap
+ * (Thirsty Rough is the brand's decorative font — licensed, not on Google Fonts —
+ *  use sparingly and never competing with the logo.)
+ *
+ * Palette + fonts per the Uno Más Brand Guide (2024). Pink is the hero color.
  */
 import React, { useEffect, useRef, useState } from "react";
 
 export const tokens = {
-  navy: "#06243F", navy2: "#0C3D72", pink: "#E22690", blue: "#18BCDC",
-  yellow: "#FFEC00", magenta: "#BF28BF", orange: "#E8761B",
-  ink: "#0A1F33", muted: "#5A6B7B", line: "#E6E9EE", paper: "#FAF8F4", white: "#FFFFFF",
+  navy: "#003366", navyDeep: "#00223F", pink: "#E22690", blue: "#18BCDC",
+  lightBlue: "#1DBCDC", teal: "#27F3DE", green: "#25E9B9", yellow: "#FFEC00",
+  darkGrey: "#212121", lightGrey: "#BFBFBF",
+  ink: "#212121", muted: "#5D6B73", line: "#E6E9EE", sand: "#F8F5EF", white: "#FFFFFF",
   display: '"Antonio","Helvetica Neue",Arial,sans-serif',
   body: '"Montserrat",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif',
   iconPattern: "https://res.cloudinary.com/drxrfyq9i/image/upload/w_2200/uno-mas/website/icons/icons-pattern-forramsey-02-1.png",
@@ -77,7 +82,7 @@ export function TicketCard({ icon, title, body, tag }: { icon?: React.ReactNode;
 export const SECTION_PAD = "clamp(40px,5.5vw,96px)";
 
 // Light section with subtle navy brand-icon scatter (seamless cover, slight rotation)
-export function ScatterSection({ children, tint = "06243F" }: { children: React.ReactNode; tint?: string }) {
+export function ScatterSection({ children, tint = "003366" }: { children: React.ReactNode; tint?: string }) {
   return (
     <section style={{ position: "relative", overflow: "hidden", background: "#fff", padding: `${SECTION_PAD}` }}>
       <div aria-hidden style={{ position: "absolute", inset: "-26%", backgroundImage: `url(https://res.cloudinary.com/drxrfyq9i/image/upload/w_2200/e_colorize,co_rgb:${tint}/uno-mas/website/icons/icons-pattern-forramsey-02-1.png)`, backgroundSize: "cover", backgroundPosition: "center", opacity: .06, transform: "rotate(-8deg)", pointerEvents: "none" }} />
