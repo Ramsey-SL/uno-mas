@@ -1,0 +1,72 @@
+/* Uno Más — Web Design System tokens
+   Source of truth for color, type, spacing, radius, shadow, motion.
+   Mirrors the live Lovable site (homepage hero, /about, Fiesta Box).
+   Brand fonts (load via Google Fonts): Antonio (display), Montserrat (body). */
+
+:root {
+  /* ---- Brand palette ---- */
+  --um-navy:    #06243F; /* primary dark / navy sections, headlines on light */
+  --um-navy-2:  #0C3D72; /* brighter navy (gradient top) */
+  --um-pink:    #E22690; /* primary accent / primary CTA */
+  --um-blue:    #18BCDC; /* cyan secondary accent */
+  --um-yellow:  #FFEC00; /* highlight / sun button / eyebrow on dark */
+  --um-magenta: #BF28BF; /* Mezzanine-adjacent accent, gradients */
+  --um-orange:  #E8761B; /* warm accent (steps, churro) */
+
+  /* ---- Neutrals ---- */
+  --um-ink:     #0A1F33; /* body text on light */
+  --um-muted:   #5A6B7B; /* secondary text */
+  --um-line:    #E6E9EE; /* hairlines / borders on light */
+  --um-paper:   #FAF8F4; /* warm off-white surface */
+  --um-white:   #FFFFFF;
+
+  /* ---- Typography ---- */
+  --um-font-display: "Antonio", "Helvetica Neue", Arial, sans-serif; /* condensed, uppercase headlines */
+  --um-font-body:    "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  --um-display-weight: 600;        /* 600–700; avoid heavier — it reads blocky */
+  --um-display-transform: uppercase;
+  --um-display-tracking: 0.01em;
+  --um-display-leading: 0.95;
+
+  /* type scale (fluid) */
+  --um-fs-hero:   clamp(2.6rem, 6vw, 4.8rem);
+  --um-fs-h2:     clamp(2.0rem, 4.6vw, 3.4rem);
+  --um-fs-h3:     clamp(1.3rem, 2.4vw, 1.9rem);
+  --um-fs-lead:   clamp(1.05rem, 1.5vw, 1.28rem);
+  --um-fs-body:   1rem;
+  --um-fs-eyebrow:12px;             /* uppercase, letter-spacing .26em, weight 700 */
+
+  /* ---- Spacing & layout ---- */
+  --um-section-pad: clamp(40px, 5.5vw, 96px);
+  --um-gap:         clamp(20px, 3vw, 48px);
+  --um-maxw:        1200px;
+
+  /* ---- Radius ---- */
+  --um-r-sm: 10px;
+  --um-r-md: 14px;
+  --um-r-lg: 18px;
+  --um-r-pill: 999px;
+
+  /* ---- Shadows ---- */
+  --um-shadow-card:  0 18px 40px rgba(6,36,63,.16);
+  --um-shadow-pop:   0 24px 50px rgba(0,0,0,.55);
+  --um-shadow-3d:    0 8px 0 #9c1163;       /* pink button bottom */
+  --um-shadow-3d-sun:0 8px 0 #b8a800;       /* yellow button bottom */
+
+  /* ---- Motion ---- */
+  --um-ease: cubic-bezier(.2,.7,.2,1);
+  --um-dur:  .42s;
+}
+
+/* Brand gradients */
+:root {
+  --um-grad-fiesta: linear-gradient(135deg,#E22690 0%,#BF28BF 45%,#FF8A3D 100%);
+  --um-grad-cta:    linear-gradient(135deg,#18BCDC,#E22690);
+  --um-grad-navy:   radial-gradient(95% 130% at 84% -15%,rgba(24,188,220,.22),transparent 60%),
+                    radial-gradient(80% 100% at 0 115%,rgba(226,38,144,.18),transparent 60%),
+                    linear-gradient(160deg,#0C3D72 0%,#0A2C4F 100%);
+}
+
+@media (prefers-reduced-motion: reduce){
+  :root{ --um-dur: 0s; }
+}
