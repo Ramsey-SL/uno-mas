@@ -1,0 +1,150 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Uno Más — Homepage Redesign Options</title>
+<style>
+:root{--pk:#E22690;--nv:#003366;--yl:#FFEC00;--tl:#18BCDC}
+*{margin:0;box-sizing:border-box}
+body{background:#0e0f17;color:#e8e8ea;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;line-height:1.5}
+.bar{position:sticky;top:0;z-index:30;background:#15161f;border-bottom:1px solid #282a3a;padding:12px 20px;display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+.bar b{font-size:15px}.bar a{color:#9a9aa6;text-decoration:none;font-size:12.5px;font-weight:600}
+.bar a:hover{color:#fff}.bar .live{margin-left:auto;color:var(--tl)}
+.wrap{max-width:1280px;margin:0 auto;padding:26px}
+.lead{background:#161823;border:1px solid #282a3a;border-radius:12px;padding:16px 20px;font-size:14px;color:#c3c3cc;margin-bottom:30px}
+.lead b{color:var(--yl)}
+h2.sec{font-size:22px;margin:38px 0 4px;padding-top:10px}
+.sub{color:#8a8a96;font-size:13px;margin-bottom:18px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:18px}
+.opt{background:#161823;border:1px solid #282a3a;border-radius:12px;overflow:hidden}
+.opt.rec{border-color:var(--pk);box-shadow:0 0 0 1px var(--pk) inset}
+.oname{padding:10px 14px 2px;font-weight:700;font-size:14px;display:flex;justify-content:space-between;align-items:center;gap:6px}
+.star{color:var(--pk);font-size:11px;font-weight:800;white-space:nowrap}
+.odesc{padding:2px 14px 14px;font-size:12.5px;color:#aeaeb8}
+.sch{height:150px;margin:10px 14px 6px;background:#0b0c13;border:1px solid #2a2b3a;border-radius:8px;padding:7px;display:flex;gap:6px;overflow:hidden;position:relative}
+.col{display:flex;flex-direction:column;gap:5px;flex:1;min-width:0}
+.ph{background:linear-gradient(135deg,#3a3d52,#23252f);border-radius:4px;flex:1;display:flex;align-items:center;justify-content:center;color:#777;font-size:9px;letter-spacing:.05em;text-align:center}
+.pk{background:var(--pk)}.nv{background:var(--nv)}.yl{background:var(--yl);color:#003366}.tl{background:var(--tl);color:#022}.dk{background:#15161d;border:1px solid #2a2b3a}
+.bar2{height:9px;background:#3a3d52;border-radius:3px}.bar2.s{width:55%}.bar2.xs{width:35%}.bar2.w{width:80%}
+.h{height:15px;background:#cfd2e6;border-radius:3px;width:70%}
+.btn{height:13px;width:46px;border-radius:7px;background:var(--pk)}
+.btn.o{background:transparent;border:1.5px solid var(--tl)}
+.row{display:flex;gap:6px;flex:1}.center{align-items:center;justify-content:center}.pad{padding:6px}
+.lbl{font-size:9px;color:#8a8a96;letter-spacing:.04em;text-align:center;align-self:center}
+.tag{position:absolute;top:6px;left:6px;font-size:8px;background:#000a;padding:2px 6px;border-radius:4px;color:#ddd}
+.tabs{display:flex;gap:4px}.tab{height:12px;flex:1;border-radius:6px;background:#2a2b3a}.tab.on{background:var(--pk)}
+.note{font-size:12px;color:#8a8a96;margin-top:8px}
+.btnsys{display:flex;gap:10px;flex-wrap:wrap;margin:8px 0}
+.bd{padding:11px 20px;border-radius:999px;font-weight:800;font-size:13px}
+.bd1{background:var(--pk);color:#fff;box-shadow:0 6px 18px rgba(226,38,144,.45)}
+.bd2{background:transparent;color:#cfe;border:2px solid var(--tl)}
+.bd3{background:transparent;color:var(--pk);text-decoration:underline;text-underline-offset:3px}
+</style></head><body>
+<div class="bar"><b>Uno Más — Homepage Redesign Options</b>
+<a href="index.html">← current home</a>
+<a href="#global">Global</a><a href="#dinner">Dinner</a><a href="#menu">Menu</a><a href="#whatson">What's On</a><a href="#ig">IG feed</a><a href="#mezz">Mezzanine</a><a href="#footer">Footer</a>
+<a class="live" href="https://uno-mas-site-builder.lovable.app/" target="_blank">↗ live site</a></div>
+<div class="wrap">
+<div class="lead">Pick a favorite (or mix) in each section — reply with the codes (e.g. <b>Hero H1, Dinner D2, Menu M1…</b>) and I'll build them into the live Lovable site. ★ = my recommendation. Schematics show <i>layout</i>, not final art. Cantina Club is parked this session.</div>
+
+<h2 class="sec" id="global">0 · Global fixes — hero size, transitions, buttons</h2>
+<div class="sub">Applies across the page.</div>
+<div class="grid">
+  <div class="opt rec"><div class="sch"><div class="col" style="flex:1.2"><div class="h"></div><div class="bar2 s"></div><div class="row" style="flex:0"><div class="btn"></div><div class="btn o"></div></div></div><div class="ph">PHOTO</div><div class="tag">~60vh</div></div>
+    <div class="oname">Hero H1 · Compact split <span class="star">★</span></div><div class="odesc">Cut hero to ~60vh. Headline + buttons left, tighter photo cluster right. Less scroll to reach content.</div></div>
+  <div class="opt"><div class="sch center"><div class="ph" style="position:absolute;inset:7px">WIDE HERO IMG</div><div style="position:relative;text-align:center"><div class="h" style="margin:0 auto 6px;width:120px"></div><div class="btn" style="margin:0 auto"></div></div><div class="tag">~55vh</div></div>
+    <div class="oname">Hero H2 · Tight centered</div><div class="odesc">One wide hero image, dark scrim, centered headline + single CTA. Clean, editorial.</div></div>
+  <div class="opt"><div class="sch center"><div class="dk" style="position:absolute;inset:7px;display:flex;align-items:center;justify-content:center;color:#667;font-size:9px">▶ MUTED VIDEO</div><div style="position:relative;text-align:center"><div class="h" style="margin:0 auto 6px;width:110px"></div><div class="btn" style="margin:0 auto"></div></div><div class="tag">~65vh</div></div>
+    <div class="oname">Hero H3 · Cinematic video</div><div class="odesc">Muted looping venue video behind headline (use DAM Mezz/cocktail clips). High energy, heavier load.</div></div>
+</div>
+<div class="grid" style="margin-top:18px">
+  <div class="opt"><div class="sch"><div class="col"><div class="ph"></div><div style="height:14px;background:repeating-linear-gradient(135deg,#23252f,#23252f 6px,#15161d 6px,#15161d 12px)"></div><div class="pk" style="height:30px;border-radius:4px"></div></div><div class="tag">angled</div></div>
+    <div class="oname">Transition T1 · Angled dividers</div><div class="odesc">Diagonal/slanted edges between sections. Modern, energetic.</div></div>
+  <div class="opt rec"><div class="sch"><div class="col"><div class="dk" style="flex:1"></div><div class="pk" style="height:34px;border-radius:4px"></div><div class="ph" style="flex:1"></div></div><div class="tag">alt + reveal</div></div>
+    <div class="oname">Transition T2 · Alternating blocks + scroll-reveal <span class="star">★</span></div><div class="odesc">Alternate light / dark / pink backgrounds; content fades & slides up on entry. Clear rhythm, on-brand.</div></div>
+  <div class="opt"><div class="sch center"><div class="ph" style="position:absolute;left:7px;right:7px;top:20px;height:60px"></div><div class="dk" style="position:absolute;left:30px;right:30px;top:64px;height:60px;border-radius:10px"></div><div class="tag">overlap</div></div>
+    <div class="oname">Transition T3 · Overlap & parallax</div><div class="odesc">Sections overlap with rounded tops; images parallax-scroll. Premium, more dev.</div></div>
+</div>
+<div class="opt" style="margin-top:18px;padding:16px 18px">
+  <div class="oname" style="padding:0 0 6px">Button system — fixes the off-looking "Reserve a table"</div>
+  <div class="btnsys"><span class="bd bd1">Reserve a table</span><span class="bd bd2">See the menu</span><span class="bd bd3">Plan an event →</span></div>
+  <div class="note">Primary = solid pink, soft shadow + hover-lift (every "Reserve"). Secondary = teal/navy outline. Tertiary = text + arrow. Consistent radius, padding, weight everywhere. ★ recommended.</div>
+</div>
+
+<h2 class="sec" id="dinner">1 · "Dinner is served" — 4–5 options</h2>
+<div class="sub">Currently: "The dinner Spokane didn't see coming."</div>
+<div class="grid">
+  <div class="opt rec"><div class="sch"><div class="ph" style="flex:1.3">DISH</div><div class="col nv pad" style="border-radius:4px"><div class="h" style="background:#fff"></div><div class="bar2 w" style="background:#557"></div><div class="bar2 s" style="background:#557"></div><div class="btn" style="margin-top:auto"></div></div></div>
+    <div class="oname">D1 · Split feature <span class="star">★</span></div><div class="odesc">Big dish photo + navy panel with headline, 1-liner, "See dinner menu." Clean, fast.</div></div>
+  <div class="opt"><div class="sch center"><div class="ph" style="position:absolute;inset:7px">FULL-BLEED DISH</div><div style="position:relative;text-align:center"><div class="h" style="margin:0 auto 5px;width:120px;background:#fff"></div><div class="yl" style="height:12px;width:70px;margin:0 auto 6px;border-radius:3px"></div><div class="btn" style="margin:0 auto"></div></div></div>
+    <div class="oname">D2 · Full-bleed cinematic</div><div class="odesc">Edge-to-edge dinner photo, dark gradient, centered headline + a price chip ($129 Feast) + CTA.</div></div>
+  <div class="opt"><div class="sch"><div class="col"><div class="h" style="width:60%"></div><div class="row"><div class="ph"></div><div class="ph"></div><div class="ph"></div></div><div class="btn"></div></div></div>
+    <div class="oname">D3 · Editorial dish stack</div><div class="odesc">Headline, then 3 dish cards (Skirt Steak / Tiger Prawns / Raw Bar) with prices, then CTA.</div></div>
+  <div class="opt"><div class="sch"><div class="col"><div class="h" style="width:50%"></div><div class="row" style="overflow:hidden"><div class="ph" style="min-width:46%"></div><div class="ph" style="min-width:46%"></div><div class="ph" style="min-width:20%"></div></div><div class="lbl">← swipe →</div></div></div>
+    <div class="oname">D4 · Menu-peek carousel</div><div class="odesc">Horizontal-scroll dinner dishes w/ photos + prices. Interactive taste of the menu.</div></div>
+  <div class="opt"><div class="sch center"><div class="dk" style="position:absolute;inset:7px"></div><div style="position:relative;text-align:center"><div class="yl" style="height:16px;width:130px;margin:0 auto 6px;border-radius:3px"></div><div class="bar2 xs" style="margin:0 auto 6px;background:#667"></div><div class="btn" style="margin:0 auto"></div></div><div class="tag">$129</div></div>
+    <div class="oname">D5 · The Feast hook</div><div class="odesc">Lead with the Uno Más Feast ($129, feeds 2–3) as the hero moment → dinner menu.</div></div>
+</div>
+
+<h2 class="sec" id="menu">2 · Interactive Menu — Lunch / Dinner / Cocktails in one section</h2>
+<div class="sub">Switch dayparts without leaving the homepage; deep-link to full menus.</div>
+<div class="grid">
+  <div class="opt rec"><div class="sch"><div class="col"><div class="tabs"><div class="tab on"></div><div class="tab"></div><div class="tab"></div></div><div class="row"><div class="ph"></div><div class="col" style="flex:1.2"><div class="bar2 w"></div><div class="bar2 s"></div><div class="bar2 w"></div><div class="bar2 xs"></div></div></div></div></div>
+    <div class="oname">M1 · Segmented tabs <span class="star">★</span></div><div class="odesc">Pill toggle [Lunch · Dinner · Cocktails]; items + photo swap in place. Snappy, mobile-friendly.</div></div>
+  <div class="opt"><div class="sch"><div class="col"><div class="pk" style="height:18px;border-radius:4px"></div><div class="dk" style="height:14px;border-radius:4px"></div><div class="dk" style="flex:1;border-radius:4px"></div><div class="dk" style="height:14px;border-radius:4px"></div></div></div>
+    <div class="oname">M2 · Accordion</div><div class="odesc">Stacked expandable rows per daypart. Simple, great on mobile, less visual punch.</div></div>
+  <div class="opt"><div class="sch"><div class="row"><div class="ph"></div><div class="ph"></div><div class="ph"></div></div></div>
+    <div class="oname">M3 · Card switcher</div><div class="odesc">3 image cards (Lunch/Dinner/Cocktails); click expands to full menu inline.</div></div>
+  <div class="opt"><div class="sch"><div class="col" style="flex:.6"><div class="bar2 w pk" style="height:12px"></div><div class="bar2 w"></div><div class="bar2 w"></div><div class="bar2 w"></div></div><div class="ph" style="flex:1.4">LIVE PREVIEW</div></div>
+    <div class="oname">M4 · Split list + preview</div><div class="odesc">Left vertical list (Lunch/Dinner/Cocktails + "Brunch — soon"), right live preview pane. Desktop-rich.</div></div>
+</div>
+
+<h2 class="sec" id="whatson">3 · NEW — Love Island + Daily Specials (Tue/Wed/Thu)</h2>
+<div class="sub">Surface the campaigns we built; link to /events/love-island, the FB event, and /specials.</div>
+<div class="grid">
+  <div class="opt rec"><div class="sch"><div class="col"><div class="h" style="width:55%"></div><div class="row"><div class="col pk pad" style="border-radius:5px;flex:1.1"><div class="bar2 xs" style="background:#fff7"></div><div class="bar2 s" style="background:#fff7;margin-top:auto"></div></div><div class="row" style="flex:1.4;gap:4px"><div class="nv" style="flex:1;border-radius:5px"></div><div class="yl" style="flex:1;border-radius:5px"></div><div class="tl" style="flex:1;border-radius:5px"></div></div></div></div></div>
+    <div class="oname">C1 · "What's On This Week" band <span class="star">★</span></div><div class="odesc">One bold section: Love Island tile (Mezzanine, Thursdays) + three day-special chips (Tue/Wed/Thu). One home for both.</div></div>
+  <div class="opt"><div class="sch"><div class="col"><div class="dk" style="flex:1;border-radius:5px;display:flex;align-items:center;justify-content:center;color:#a3a;font-size:9px">🌴 LOVE ISLAND</div><div class="row" style="flex:1"><div class="pk" style="flex:1;border-radius:5px"></div><div class="yl" style="flex:1;border-radius:5px"></div><div class="tl" style="flex:1;border-radius:5px"></div></div></div></div>
+    <div class="oname">C2 · Two stacked bands</div><div class="odesc">Full-width neon Love Island band, then a separate warm Daily Specials band. Max impact, more height.</div></div>
+  <div class="opt"><div class="sch"><div class="col"><div class="pk" style="height:14px;border-radius:7px;display:flex;align-items:center;justify-content:center;color:#fff;font-size:8px">◄ EVENTS TICKER ►</div><div class="row" style="flex:1"><div class="dk" style="flex:1.4;border-radius:5px"></div><div class="col" style="gap:4px"><div class="nv" style="flex:1;border-radius:4px"></div><div class="yl" style="flex:1;border-radius:4px"></div><div class="tl" style="flex:1;border-radius:4px"></div></div></div></div></div>
+    <div class="oname">C3 · Events ticker + specials</div><div class="odesc">Animated ticker for events up top, three day-special chips below. Lively, draws the eye.</div></div>
+</div>
+
+<h2 class="sec" id="ig">4 · "Spokane is talking" — IG feed background (3–4 options)</h2>
+<div class="grid">
+  <div class="opt"><div class="sch" style="background:#0b1830"><div class="row center"><div class="ph"></div><div class="ph"></div><div class="ph"></div></div></div>
+    <div class="oname">BG1 · Deep navy + taco pattern</div><div class="odesc">Current direction. Safe, brand navy, subtle line-art pattern.</div></div>
+  <div class="opt rec"><div class="sch" style="background:linear-gradient(#1a0f14,#0c0c12)"><div class="ph" style="position:absolute;inset:0;opacity:.25"></div><div class="row center" style="position:relative"><div class="ph"></div><div class="ph"></div><div class="ph"></div></div></div>
+    <div class="oname">BG2 · Blurred cantina photo + scrim <span class="star">★</span></div><div class="odesc">A real venue photo, blurred + darkened behind the feed. Warm, immersive, makes posts pop.</div></div>
+  <div class="opt"><div class="sch" style="background:linear-gradient(135deg,#E22690,#003366)"><div class="row center"><div class="ph"></div><div class="ph"></div><div class="ph"></div></div></div>
+    <div class="oname">BG3 · Pink→navy gradient</div><div class="odesc">Bold brand gradient. Energetic; can compete with the photos.</div></div>
+  <div class="opt"><div class="sch" style="background:#f3f0ea"><div class="row center"><div class="ph"></div><div class="ph"></div><div class="ph"></div></div></div>
+    <div class="oname">BG4 · Light editorial</div><div class="odesc">Flip to off-white; photos + pink accents pop, airy magazine feel. Breaks the dark run.</div></div>
+</div>
+
+<h2 class="sec" id="mezz">5 · The Mezzanine — 4–5 dynamic, scroll-stopping options</h2>
+<div class="grid">
+  <div class="opt rec"><div class="sch center"><div class="dk" style="position:absolute;inset:7px;background:linear-gradient(#1a0a1f,#0a0a10)"></div><div style="position:relative;text-align:center"><div class="h" style="margin:0 auto 6px;width:130px;background:#e9d6ef"></div><div class="btn" style="margin:0 auto;background:#93009B"></div></div><div class="tag">parallax</div></div>
+    <div class="oname">E1 · Full-bleed cinematic + parallax <span class="star">★</span></div><div class="odesc">Edge-to-edge dark Mezzanine photo, text over, slow parallax. Mysterious, premium.</div></div>
+  <div class="opt"><div class="sch"><div class="ph" style="flex:1">IMG ◄ slides</div><div class="col pad" style="flex:1"><div class="h" style="background:#e9d6ef"></div><div class="bar2 s" style="background:#634"></div><div class="btn" style="background:#93009B;margin-top:auto"></div></div></div>
+    <div class="oname">E2 · Split reveal on scroll</div><div class="odesc">Image slides in from one side, copy from the other as you scroll. Interactive, clear.</div></div>
+  <div class="opt"><div class="sch center"><div class="dk" style="position:absolute;inset:7px"></div><div class="ph" style="position:absolute;left:40px;right:40px;top:30px;bottom:30px">peek-through</div><div class="tag">"find the stairs"</div></div>
+    <div class="oname">E3 · Peek-through reveal</div><div class="odesc">"Find the stairs" — a masked door/keyhole opens to reveal the room on scroll/hover. Playful secret-energy.</div></div>
+  <div class="opt"><div class="sch"><div class="col"><div class="h" style="width:60%;background:#e9d6ef"></div><div class="row" style="overflow:hidden"><div class="ph" style="min-width:42%"></div><div class="ph" style="min-width:42%"></div><div class="ph" style="min-width:20%"></div></div><div class="lbl">auto-scroll gallery →</div></div></div>
+    <div class="oname">E4 · Gallery marquee</div><div class="odesc">Auto-scrolling strip of Mezzanine shots with an overlaid headline + "Find the stairs."</div></div>
+  <div class="opt"><div class="sch center"><div class="dk" style="position:absolute;inset:7px;display:flex;align-items:center;justify-content:center;color:#a3a;font-size:9px">▶ MEZZ VIDEO</div><div style="position:relative;text-align:center"><div class="h" style="margin:0 auto 6px;width:120px;background:#e9d6ef"></div><div class="btn" style="margin:0 auto;background:#93009B"></div></div></div>
+    <div class="oname">E5 · Muted video band</div><div class="odesc">DAM Mezz clips (bar flashing lights / watch party) loop behind copy + CTA. Alive, atmospheric.</div></div>
+</div>
+
+<h2 class="sec" id="footer">6 · Footer — 3–4 options + live Google Map</h2>
+<div class="sub">Map = embedded Google Map at 2020 N Monroe; "Get Directions" → Google Maps; link the Google Business listing.</div>
+<div class="grid">
+  <div class="opt rec"><div class="sch"><div class="col" style="gap:4px"><div class="bar2 w"></div><div class="bar2 s"></div></div><div class="col" style="gap:4px"><div class="bar2 w"></div><div class="bar2 s"></div></div><div class="ph" style="flex:1.2">🗺 MAP</div></div>
+    <div class="oname">F1 · 3-column + map tile <span class="star">★</span></div><div class="odesc">Links · hours+contact · embedded Google Map. Balanced, everything reachable.</div></div>
+  <div class="opt"><div class="sch"><div class="col"><div class="pk" style="height:38px;border-radius:5px;display:flex;align-items:center;justify-content:center;color:#fff;font-size:9px;text-align:center">"Get a little lost." + RESERVE</div><div class="row" style="flex:1"><div class="bar2 w"></div><div class="ph" style="flex:1">🗺</div></div></div></div>
+    <div class="oname">F2 · Big CTA band + slim footer</div><div class="odesc">Top: full-width reserve CTA. Below: slim links + map. Drives one last conversion.</div></div>
+  <div class="opt"><div class="sch center"><div class="ph" style="position:absolute;inset:7px">🗺 FULL-WIDTH MAP</div><div class="dk" style="position:relative;width:55%;border-radius:6px;padding:6px"><div class="bar2 w" style="background:#667"></div><div class="bar2 s" style="background:#667"></div><div class="btn" style="margin-top:6px"></div></div></div>
+    <div class="oname">F3 · Map-dominant</div><div class="odesc">Full-width Google Map background with an info/hours card floating over it. Strong "come find us."</div></div>
+  <div class="opt"><div class="sch center"><div class="col center" style="gap:5px"><div class="h" style="width:80px"></div><div class="bar2 xs"></div><div class="btn"></div><div class="lbl">📍 Directions · socials</div></div></div>
+    <div class="oname">F4 · Centered stacked (mobile-first)</div><div class="odesc">Logo, hours, big "Get Directions" button (deep-links Google listing), socials. Simplest, great on phones.</div></div>
+</div>
+<div class="note" style="margin-top:14px">All footer options include: embedded Google Map (iframe), <b>Get Directions</b> → <code>google.com/maps/dir/?…2020+N+Monroe+St</code>, and a link to the Google Business listing for reviews/hours.</div>
+
+</div></body></html>
