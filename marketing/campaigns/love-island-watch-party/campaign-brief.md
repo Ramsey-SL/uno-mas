@@ -32,7 +32,7 @@ Season runs 3 Thursdays (Jun 25 / Jul 2 / Jul 9) + a **Season Finale watch party
 - **Klaviyo email + SMS:** weekly Thursday "tonight!" nudge to the 21+/Cantina Club segment.
 - **In-store:** table tents + a Mezzanine sign during the week.
 - **Website:** events listing + homepage event callout (see §7).
-- **Facebook:** recurring FB Event (Thursdays) + Finale event — see `facebook-event.md`.
+- **Facebook:** ✅ recurring FB Event LIVE — https://www.facebook.com/events/990221547324452/ (Finale event still to add) — see `facebook-event.md`.
 
 ## 6. Collateral needed
 - Social: 1 announcement reel + weekly reminder post template + story countdown + 2–3 recap clips. *(Footage exists — DAM `tags:mezzanine AND tags:watchparty` = the MezzWatchParty set.)*

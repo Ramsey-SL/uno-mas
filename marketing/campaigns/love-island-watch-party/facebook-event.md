@@ -4,6 +4,8 @@ Create from the **Uno Más Tacos & Tequila** Page → *Events → Create new eve
 Reservations are handled by **Resy** (the event ticket/registration URL).
 **Resy link:** `https://resy.com/cities/spokane-wa/venues/uno-mas-tacos-and-tequila`
 
+**🔗 LIVE Facebook event:** https://www.facebook.com/events/990221547324452/  ← published. Share this link in posts, bios, the website, and SMS/email.
+
 ---
 
 ## 🎬 COVER MEDIA
