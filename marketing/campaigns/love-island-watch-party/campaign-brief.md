@@ -72,5 +72,7 @@ girls/date night, Thursday tradition, friendly competition.
 - ✅ **Event poster** — **finalized:** `poster-final.html` — composited over the real DAM watch-party
   photo (MezzWatchParty_v5), real white Mezzanine logo, Mezzanine palette, live Resy QR. No AI pool-villa.
   Preview: `poster-final.png`. Export to print via Cmd+P → Save as PDF.
+  **Updated 2026-06-22 → all-graphics neon version** (no photos): neon cocktail, flamingo float, palms, hearts, info rail + icon row, Resy QR. Photo composite kept as `poster-photo-v1.html`.
 - 📘 **Facebook Event** — drafted & paste-ready: `facebook-event.md` (recurring Thursdays + Sun Jul 12 finale; Resy as the event ticket/booking URL).
+- ✅ **Homepage section** built (`homepage-section.html`, neon style) + standalone `/events/love-island` preview (`love-island-page-preview.html`).
 - ⬜ Website event card live on site · in-store table-tent print · social reel cut from the promo video.

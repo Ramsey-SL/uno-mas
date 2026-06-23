@@ -1,0 +1,75 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Love Island — Homepage Section (preview)</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Kaushan+Script&family=Montserrat:wght@500;600;700;800&display=swap');
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#0b0b12;font-family:Montserrat,sans-serif;padding:24px}
+.hint{color:#bbb;font-size:13px;text-align:center;max-width:1200px;margin:0 auto 14px;line-height:1.5}
+.hint b{color:#18BCDC}
+/* ===== the section (drop into homepage) ===== */
+.li-section{position:relative;overflow:hidden;border-radius:18px;color:#fff;
+ background:radial-gradient(110% 130% at 12% 10%,#142c4d 0%,#0e1c38 38%,#1d0d34 72%,#2c0b38 100%)}
+.li-inner{position:relative;z-index:2;max-width:1200px;margin:0 auto;display:flex;align-items:center;gap:40px;
+ padding:54px 56px}
+.li-copy{flex:1.3;min-width:300px}
+.li-eyebrow{font-weight:800;letter-spacing:.18em;text-transform:uppercase;font-size:15px;color:#3fe0ff}
+.li-h{font-family:Anton,sans-serif;font-size:clamp(46px,6vw,82px);line-height:.85;margin:10px 0 4px;color:#ff2e9a;
+ text-shadow:0 0 6px #ff2e9a,0 0 26px rgba(226,38,144,.6)}
+.li-script{font-family:'Kaushan Script',cursive;font-size:clamp(30px,3.4vw,46px);color:#3fe0ff;
+ text-shadow:0 0 6px #3fe0ff,0 0 18px rgba(24,188,220,.6);margin-left:6px}
+.li-tag{font-family:Anton,sans-serif;font-size:clamp(20px,2.4vw,30px);margin:16px 0 0}
+.li-tag .t{color:#3fe0ff}.li-tag .q{color:#ffd23f}.li-tag .d{color:#ff2e9a}
+.li-chips{display:flex;flex-wrap:wrap;gap:10px;margin:22px 0 26px}
+.chip{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);border-radius:999px;
+ padding:9px 16px;font-weight:700;font-size:14px;letter-spacing:.03em}
+.chip b{color:#ffd23f}
+.li-btns{display:flex;flex-wrap:wrap;gap:14px}
+.btn{padding:15px 28px;border-radius:999px;font-weight:800;text-decoration:none;letter-spacing:.02em;font-size:15px}
+.btn.p{background:#E22690;color:#fff;box-shadow:0 8px 26px rgba(226,38,144,.5)}
+.btn.g{background:transparent;color:#fff;border:2px solid #3fe0ff;color:#bff4ff}
+.li-art{flex:1;min-width:240px;position:relative;height:300px}
+.neon{filter:drop-shadow(0 0 3px currentColor) drop-shadow(0 0 9px currentColor)}
+.li-art svg{position:absolute}
+@media(max-width:760px){.li-inner{flex-direction:column;padding:40px 28px;text-align:center}
+ .li-chips,.li-btns{justify-content:center}.li-art{display:none}}
+</style></head><body>
+<div class="hint">Homepage section preview — drop this block into the homepage above the fold; links to the standalone <b>/events/love-island</b> page. Responsive (resize to see mobile).</div>
+
+<section class="li-section">
+  <!-- background neon accents -->
+  <svg class="neon" style="position:absolute;left:-30px;top:-20px;color:#2fd0a0;z-index:1" width="220" height="220" viewBox="0 0 130 130"><g fill="none" stroke="currentColor" stroke-width="4"><path d="M65,128 C58,80 72,52 76,30"/><path d="M76,28 C54,12 30,12 12,22"/><path d="M76,28 C84,4 80,-14 70,-30"/><path d="M76,28 C98,8 122,8 138,18"/></g></svg>
+  <svg class="neon" style="position:absolute;right:30px;bottom:-10px;color:#ff2e9a;z-index:1;opacity:.8" width="70" height="64" viewBox="0 0 40 36"><path d="M20,34 C2,22 2,6 14,6 C18,6 20,10 20,12 C20,10 22,6 26,6 C38,6 38,22 20,34 Z" fill="none" stroke="currentColor" stroke-width="3"/></svg>
+
+  <div class="li-inner">
+    <div class="li-copy">
+      <div class="li-eyebrow">The Mezzanine at Uno Más · Thursdays</div>
+      <div class="li-h">LOVE ISLAND</div>
+      <div class="li-script">Watch Party</div>
+      <div class="li-tag"><span class="t">All tacos.</span> <span class="q">All tequila.</span> <span class="d">All drama.</span></div>
+      <div class="li-chips">
+        <span class="chip">Every <b>Thursday</b></span>
+        <span class="chip">Doors <b>5PM</b> · Show <b>6PM</b></span>
+        <span class="chip"><b>21+</b></span>
+        <span class="chip">Finale <b>Sun Jul 12</b></span>
+      </div>
+      <div class="li-btns">
+        <a class="btn p" href="https://resy.com/cities/spokane-wa/venues/uno-mas-tacos-and-tequila">Reserve on Resy</a>
+        <a class="btn g" href="/events/love-island">See Details →</a>
+      </div>
+    </div>
+    <div class="li-art">
+      <!-- neon cocktail -->
+      <svg class="neon" style="left:20%;top:0;color:#ff5fa8" width="200" height="300" viewBox="0 0 180 280">
+        <ellipse cx="90" cy="46" rx="52" ry="13" fill="rgba(255,120,170,.22)" stroke="currentColor" stroke-width="4"/>
+        <path d="M40,46 C42,120 72,150 90,160 C108,150 138,120 140,46 Z" fill="rgba(255,90,150,.16)" stroke="currentColor" stroke-width="4"/>
+        <path d="M90,160 L90,228" stroke="currentColor" stroke-width="5"/>
+        <ellipse cx="90" cy="236" rx="42" ry="10" fill="none" stroke="currentColor" stroke-width="4"/>
+        <circle cx="130" cy="40" r="17" fill="#bdf26a" stroke="#7bbf2a" stroke-width="3"/>
+        <path d="M70,34 C66,20 48,22 53,38 C56,48 70,60 70,60 C70,60 84,48 87,38 C92,22 74,20 70,34 Z" fill="none" stroke="#ff2e9a" stroke-width="4"/>
+        <line x1="70" y1="60" x2="66" y2="158" stroke="#ff2e9a" stroke-width="4"/>
+      </svg>
+      <svg class="neon" style="right:0;top:30px;color:#ffd23f" width="56" height="50" viewBox="0 0 40 36"><path d="M20,34 C2,22 2,6 14,6 C18,6 20,10 20,12 C20,10 22,6 26,6 C38,6 38,22 20,34 Z" fill="none" stroke="currentColor" stroke-width="3"/></svg>
+    </div>
+  </div>
+</section>
+</body></html>

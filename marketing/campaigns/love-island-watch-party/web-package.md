@@ -18,6 +18,9 @@
 5. **Reserve CTA band** — "Grab your villa crew." → Reserve button (`https://resy.com/cities/spokane-wa/venues/uno-mas-tacos-and-tequila`). 21+. Mezzanine.
 6. **FAQ (optional):** 21+, walk-ins vs reservations, finale note.
 
+## Homepage section (BUILT — `homepage-section.html`)
+Drop-in homepage block in the neon-graphic style (pink LOVE ISLAND + teal *Watch Party* script, info chips, **Reserve on Resy** + **See Details →** to `/events/love-island`). Responsive; preview in `homepage-section.html`.
+
 ## Homepage callout (links to the page)
 Card: pink, "LOVE ISLAND — Thursdays upstairs" · "All tacos. All tequila. All drama." · button "See Dates →" → `/events/love-island`.
 

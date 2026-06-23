@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Love Island Watch Party — The Mezzanine at Uno Más</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--pink:#E22790;--violet:#93009B;--off:#F5F5F5}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Poppins',sans-serif;background:#000;color:var(--off)}
+.wrap{max-width:1100px;margin:0 auto}
+h1,h2,.disp{font-family:'Anton',sans-serif;text-transform:uppercase;letter-spacing:.5px;font-weight:400}
+/* hero */
+.hero{position:relative;min-height:96vh;display:flex;flex-direction:column;justify-content:center;padding:48px;
+ background:linear-gradient(180deg,rgba(0,0,0,.45),rgba(20,0,20,.82)),
+ url('https://res.cloudinary.com/drxrfyq9i/image/upload/f_auto,q_auto,w_1600/v1781646674/20251028_MEZZ_VENUE_MezzWatchParty_v5.jpg') center/cover}
+.eyebrow{letter-spacing:4px;font-weight:600;font-size:14px;color:var(--off);opacity:.9;margin-bottom:14px}
+.hero h1{font-size:clamp(54px,11vw,150px);line-height:.86;color:#fff}
+.hero h1 .pk{color:var(--pink)}
+.hero .sub{font-size:clamp(16px,2.4vw,24px);font-weight:500;margin:22px 0 34px;color:var(--off)}
+.btns{display:flex;gap:14px;flex-wrap:wrap}
+.btn{font-weight:700;letter-spacing:.5px;padding:16px 32px;border-radius:6px;text-decoration:none;display:inline-block;font-size:15px}
+.btn-pk{background:var(--pink);color:#fff}.btn-gh{border:2px solid #fff;color:#fff}
+/* dates band */
+.band{background:var(--pink);color:#fff;text-align:center;padding:30px 24px}
+.band .days{font-family:'Anton';font-size:clamp(22px,3.5vw,34px)}
+.band .det{font-weight:600;letter-spacing:1px;margin-top:8px;opacity:.95}
+.band .fin{display:inline-block;margin-top:14px;border:1.5px solid #fff;border-radius:40px;padding:8px 20px;font-weight:700}
+/* cards */
+.sec{padding:64px 48px}
+.sec .kick{text-align:center;font-size:clamp(26px,4vw,44px);color:#fff;margin-bottom:8px}
+.sec .lead{text-align:center;opacity:.85;max-width:620px;margin:0 auto 40px}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{background:#140014;border:1px solid #2a0a2a;border-radius:14px;overflow:hidden}
+.card img{width:100%;height:180px;object-fit:cover;display:block}
+.card .body{padding:20px}
+.card h3{font-family:'Anton';font-size:24px;color:var(--pink);margin-bottom:6px}
+.card p{font-size:14px;opacity:.85}
+/* gallery */
+.gal{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;padding:0 48px 24px}
+.gal img{width:100%;height:240px;object-fit:cover;border-radius:10px}
+/* reserve */
+.res{background:linear-gradient(120deg,var(--violet),#3a0030);text-align:center;padding:72px 24px}
+.res h2{font-size:clamp(34px,6vw,64px);color:#fff}
+.res p{opacity:.85;margin:10px 0 26px}
+.foot{text-align:center;padding:26px;font-size:12px;letter-spacing:1px;opacity:.5}
+@media(max-width:760px){.cards,.gal{grid-template-columns:1fr}.hero,.sec{padding:32px 22px}}
+</style></head><body>
+<section class="hero">
+  <div class="wrap">
+    <div class="eyebrow">THE MEZZANINE AT UNO MÁS</div>
+    <h1>Love Island<br><span class="pk">Watch Party</span></h1>
+    <div class="sub">All tacos. All tequila. All drama. Spokane's Love Island HQ is upstairs.</div>
+    <div class="btns"><a class="btn btn-pk" href="#">Reserve Your Spot</a><a class="btn btn-gh" href="#dates">See Dates</a></div>
+  </div>
+</section>
+<div class="band" id="dates">
+  <div class="days">EVERY THURSDAY · JUNE 26 · JULY 3 · JULY 10</div>
+  <div class="det">DOORS 5PM · SHOW 6PM · RESERVATIONS RECOMMENDED · 21+</div>
+  <div class="fin">♥ SEASON FINALE — SUNDAY, JULY 12</div>
+</div>
+<section class="sec wrap">
+  <h2 class="kick">It's not just watching — it's a night out</h2>
+  <p class="lead">Cocktails, a little friendly competition, and your people. Bring your villa crew.</p>
+  <div class="cards">
+    <div class="card"><img src="https://res.cloudinary.com/drxrfyq9i/image/upload/f_auto,q_auto,w_700/v1781646685/20251028_MEZZ_VENUE_MezzBar_v2.jpg" alt=""><div class="body"><h3>Signature Cocktails</h3><p>Margs, palomas, and the full Mezzanine bar.</p></div></div>
+    <div class="card"><img src="https://res.cloudinary.com/drxrfyq9i/image/upload/f_auto,q_auto,w_700/v1781646594/20251028_MEZZ_VENUE_MezzTV_RAW.jpg" alt=""><div class="body"><h3>Tacos &amp; Shareables</h3><p>Watch on the big screen with a table full of food.</p></div></div>
+    <div class="card"><img src="https://res.cloudinary.com/drxrfyq9i/image/upload/f_auto,q_auto,w_700/v1781646691/20251028_MEZZ_VENUE_MezzLounge_RAW.jpg" alt=""><div class="body"><h3>Bring Your Villa Crew</h3><p>Grab your group. The upstairs is built for it.</p></div></div>
+  </div>
+</section>
+<div class="gal wrap">
+  <img src="https://res.cloudinary.com/drxrfyq9i/image/upload/f_auto,q_auto,w_700/v1781630844/20251028_MEZZ_VENUE_MezzSeatingAndBar_RAW.jpg" alt="">
+  <img src="https://res.cloudinary.com/drxrfyq9i/image/upload/f_auto,q_auto,w_700/v1781646650/20251028_MEZZ_VENUE_MezzWatchParty_v4.jpg" alt="">
+  <img src="https://res.cloudinary.com/drxrfyq9i/image/upload/f_auto,q_auto,w_700/v1781646691/20251028_MEZZ_VENUE_MezzLounge_RAW.jpg" alt="">
+</div>
+<section class="res">
+  <h2>Grab your villa crew.</h2>
+  <p>Thursdays upstairs at The Mezzanine · 21+ · Reservations highly recommended</p>
+  <a class="btn btn-pk" href="#">Reserve Your Spot</a>
+</section>
+<div class="foot">PREVIEW · The Mezzanine at Uno Más · 2020 N Monroe, Spokane · real DAM photos, placeholder reserve link</div>
+</body></html>
