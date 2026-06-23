@@ -1,109 +1,116 @@
-# Love Island Watch Party — ChatGPT Image Prompts (all graphic deliverables)
+# Love Island Watch Party — Drop-in ChatGPT Image Prompts
 
-**How to use:** paste a prompt below into the **"Uno Más Art Director" Custom GPT** (it already has the brand context loaded) or any ChatGPT with image generation. Each prompt is **self-contained** — brand + campaign facts are inline. For guaranteed-correct logo, **attach/pull the real logo PNG from the DAM** (don't let it redraw the wordmark). DAM public_ids are in `marketing/dam-asset-manifest.md`.
+**Each block below is ready to paste straight into ChatGPT (image mode) and generate.** They're self-contained — brand, exact text, palette, and rules are baked into every prompt. For best results run them inside the **"Uno Más Art Director" Custom GPT** (it can pull the real logo/photos from the DAM); otherwise ChatGPT renders the "UNO MÁS" wordmark as text and you swap the real logo after (DAM IDs in `marketing/dam-asset-manifest.md`).
 
-**Source of truth (this repo):** `marketing/campaigns/love-island-watch-party/` — `campaign-brief.md`, `creative-copy.md`, `video-creative-brief.md`, `web-package.md`.
-
----
-
-## 🔒 LOCKED FACTS — must be spelled exactly (do not change)
-- Brand: **Uno Más** (accent on the "a") · Venue: **The Mezzanine at Uno Más** (upstairs speakeasy)
-- Title: **LOVE ISLAND WATCH PARTY**
-- Tagline: **All tacos. All tequila. All drama.**
-- Hook: **Bring your villa crew.**
-- When: **Every Thursday — June 26 · July 3 · July 10** · **Doors 5PM · Show 6PM**
-- Finale: **Season Finale Watch Party — Sunday, July 12**
-- **21+** · **Reservations highly recommended → Resy** (resy.com/cities/spokane-wa/venues/uno-mas-tacos-and-tequila)
-- Address: **2020 N Monroe St, Spokane, WA**
-- Feature icons: **Big Screens · Signature Cocktails · Tacos & Shareables · Fireplace Lounge · Bring Your Villa Crew**
-
-## 🎨 LOOK & FEEL (the new direction)
-Vibrant, high-energy, **illustrated / graphic — NOT photographic.** Tropical neon "Love Island villa" night: deep navy-to-magenta gradient sky, neon glow, palm silhouettes, string lights, a flamingo pool float, a hero cocktail, glowing hearts. Think bold summer-reality-TV poster.
-**Palette:** neon hot pink `#E22690`, electric teal/cyan `#18BCDC`, gold/yellow `#FFEC00`, deep navy `#003366`, near-black night.
-**Type:** heavy condensed sans for "LOVE ISLAND" (Anton/Druk style); a glowing brush **script** for "Watch Party"; clean bold sans (Montserrat/Poppins) for details.
-
-## 🚫 NEGATIVES (every prompt)
-No misspellings; keep the **á** in "Uno Más"; do not invent prices/dates; do not render a fake/garbled logo (composite the real DAM logo); avoid stocky/photographic people; avoid empty/dark-nightclub vibe — keep it bright, fun, social.
-
-## 🖼️ DAM assets to pull (optional reference/composite)
-- Logo (white): `UM_T_T_NoOutline_White-Asset_2_qhqsgp` · stacked crown white: `uno-mas/website/logos/allcaps-stacked-dropshadow-white-black`
-- Reference the real room/energy: photos `tags:watchparty` (`20251028_MEZZ_VENUE_MezzWatchParty_v5`), video `UM_-_Vidoes_-_Events_-_Love_Island-1`
-- Cocktail reference: `20260207_UM_DRINK_MargWithLime_FINAL`
+**Tip:** to set the look once, paste the **STYLE PRIMER** first, then any prompt. Each prompt also restates the essentials so it works alone.
 
 ---
 
-## A) MAIN EVENT POSTER — vertical 2:3 (print) ⭐
+## ⭐ STYLE PRIMER (optional — paste once at the top of a chat)
 ```
-Create a vibrant, illustrated NEON event poster (vertical 2:3, print quality) for a "LOVE ISLAND WATCH PARTY"
-at The Mezzanine at Uno Más — a modern Mexican taco & tequila bar in Spokane.
-
-STYLE: fully illustrated/graphic (no photos) — tropical "Love Island villa" night scene. Deep navy-to-magenta
-gradient sky with neon glow, palm-tree silhouettes, warm string lights, a pink flamingo pool float, glowing
-neon hearts, and a big hero margarita cocktail with a heart-shaped straw and lime. Energetic, summer, fun.
-PALETTE: neon hot pink #E22690, electric teal #18BCDC, gold #FFEC00, deep navy #003366, near-black.
-TYPE: huge condensed bold "LOVE ISLAND" in neon hot pink (top); a glowing teal brush-script "Watch Party"
-just beneath it; then in clean bold caps: "ALL TACOS. ALL TEQUILA. ALL DRAMA." (color the three phrases
-teal / gold / pink).
-LAYOUT: leave a clean vertical info panel down the right side (cream or translucent) containing, stacked:
-  "EVERY THURSDAY" / "♥ JUNE 26  ♥ JULY 3  ♥ JULY 10" / "DOORS 5PM" / "SHOW 6PM" /
-  "RESERVATIONS HIGHLY RECOMMENDED" / a pink heart badge: "SEASON FINALE WATCH PARTY — SUNDAY, JULY 12".
-Across the bottom, a row of 5 small neon line-icons with labels: BIG SCREENS · SIGNATURE COCKTAILS ·
-TACOS & SHAREABLES · FIREPLACE LOUNGE · BRING YOUR VILLA CREW.
-Footer line: "THE MEZZANINE AT UNO MÁS  •  2020 N MONROE ST, SPOKANE, WA  •  21+ ONLY".
-Leave clean negative space top-left for the logo (I will composite the real Uno Más wordmark).
-Spell "Uno Más" with the accent. No other text. High resolution, crisp, print-ready.
-```
-
-## B) INSTAGRAM ANNOUNCEMENT — 4:5 (feed)
-```
-Same neon tropical "Love Island villa" illustrated style and palette as the poster. Vertical 4:5.
-Hero: glowing "LOVE ISLAND" (neon pink) + brush-script "Watch Party" (teal), flamingo float + neon hearts +
-a margarita with a heart straw. Subhead "ALL TACOS. ALL TEQUILA. ALL DRAMA." Small block:
-"EVERY THURSDAY · DOORS 5 / SHOW 6 · 21+ · THE MEZZANINE AT UNO MÁS". Keep the bottom third cleaner for caption
-legibility. Leave space top for the real logo. Spell "Uno Más" with the accent. No prices. High-res.
-```
-
-## C) INSTAGRAM/TIKTOK STORY — 9:16 (vertical full-screen)
-```
-Same neon tropical illustrated style, vertical 9:16. Centered glowing "LOVE ISLAND / Watch Party" lockup,
-flamingo + hearts + cocktail, lots of neon energy. Bottom third: "TONIGHT · DOORS 5PM" and a clear empty
-rounded button area that says "TAP TO RESERVE" (for a Resy link sticker). Leave generous safe margins top and
-bottom for story UI. Spell "Uno Más" with the accent. No other text.
-```
-
-## D) HOMEPAGE / WEB BANNER — wide 16:9 (1920×800-ish)
-```
-Wide horizontal web hero banner, same neon tropical illustrated style. Left side: glowing "LOVE ISLAND"
-(neon pink) + teal script "Watch Party" + "All tacos. All tequila. All drama." Right side: flamingo float,
-neon cocktail and hearts with open dark space for overlaid buttons. Keep a calm darker zone on the right for
-white CTA buttons. No text other than the title/tagline. Leave top-left space for the real logo. 16:9, high-res.
-```
-
-## E) TABLE TENT — 5:7 (in-store, 2 sides)
-```
-Two designs, each 5:7 portrait, same neon tropical illustrated style.
-FRONT: glowing "LOVE ISLAND / Watch Party" + flamingo + cocktail; below, "EVERY THURSDAY · DOORS 5 / SHOW 6 ·
-21+"; and "SCAN TO RESERVE" with an empty white square placeholder for a QR code.
-BACK: a single big neon margarita + "ALL TACOS. ALL TEQUILA. ALL DRAMA." + "The Mezzanine at Uno Más · 2020 N
-Monroe St". Spell "Uno Más" with the accent. Print-ready, high-res.
-```
-
-## F) WEEKLY REMINDER (reusable, swap the date) — 4:5
-```
-Same neon style, 4:5. Big "LOVE ISLAND TONIGHT" with the flamingo + cocktail. A clear date chip area that reads
-"THURSDAY · JULY 3" (leave it easy to swap). "Doors 5 / Show 6 · Reserve on Resy · 21+". The Mezzanine at Uno Más.
-```
-
-## G) FACEBOOK EVENT COVER — wide 16:9 (1920×1005)
-```
-Wide neon tropical banner optimized for a Facebook event cover (center-safe). "LOVE ISLAND WATCH PARTY" + script,
-"Every Thursday · The Mezzanine at Uno Más · 21+", flamingo + cocktail + hearts. Keep important text centered and
-away from edges (FB crops). Leave space for the real logo. Spell "Uno Más" with the accent.
+You are my graphic designer for "Uno Más" (modern Mexican taco & tequila bar, Spokane — spelled with the
+accent on the á). I'll ask for a series of Love Island Watch Party graphics. House look for this campaign:
+fully ILLUSTRATED / GRAPHIC (no photos) — a tropical neon "Love Island villa" night: deep navy-to-magenta
+gradient sky, neon glow, palm-tree silhouettes, warm string lights, a pink flamingo pool float, glowing neon
+hearts, a hero margarita with a heart-shaped straw and lime. Palette: neon hot pink #E22690, electric teal
+#18BCDC, gold #FFEC00, deep navy #003366, near-black. Type: heavy condensed sans for "LOVE ISLAND"; a glowing
+brush-script for "Watch Party"; clean bold sans for details. Always spell "Uno Más" with the accent, never
+misspell text, keep it bright/fun/social (not a dark empty nightclub). Confirm and wait for my first request.
 ```
 
 ---
-### After generating
-1. Composite the **real Uno Más logo** (white) from the DAM into the reserved space.
-2. Proof the text — fix any misspelling, confirm the **á** in "Uno Más", dates, Doors 5 / Show 6.
-3. Add the **Resy QR** to the table tent / story.
-4. Save finals to `08_CAMPAIGNS/2026-06_Love-Island-Watch-Party/` and the DAM (`tags:events,watchparty`).
+
+## A) MAIN POSTER — vertical 2:3 (print)
+```
+Generate a vertical 2:3 illustrated event poster (print quality, high resolution).
+Subject: a "LOVE ISLAND WATCH PARTY" at The Mezzanine at Uno Más (modern Mexican taco & tequila bar, Spokane).
+Style: fully illustrated neon "Love Island villa" night — deep navy-to-magenta gradient sky, neon glow, palm-tree
+silhouettes, warm string lights, a pink flamingo pool float, glowing neon hearts, and a hero margarita with a
+heart-shaped straw and lime. Bright, fun, summer-reality-TV energy. No photographs.
+Palette: neon hot pink #E22690, electric teal #18BCDC, gold #FFEC00, deep navy #003366, near-black.
+Render this exact text (spell exactly, keep the accent on "Uno Más"):
+  • Top wordmark: "UNO MÁS"  • Eyebrow: "THE MEZZANINE AT UNO MÁS"
+  • Title: "LOVE ISLAND" (huge, neon hot pink) then "Watch Party" (glowing teal brush-script just below)
+  • Subhead: "ALL TACOS. ALL TEQUILA. ALL DRAMA." (color the three phrases teal / gold / pink)
+  • Right-side info panel (cream or translucent), stacked:
+      "EVERY THURSDAY"  /  "JUNE 26  •  JULY 3  •  JULY 10"  /  "DOORS 5PM"  /  "SHOW 6PM"  /
+      "RESERVATIONS HIGHLY RECOMMENDED"  /  pink heart badge: "SEASON FINALE — SUNDAY, JULY 12"
+  • Bottom icon row (small neon line-icons + labels): "BIG SCREENS  •  SIGNATURE COCKTAILS  •  TACOS & SHAREABLES
+      •  FIREPLACE LOUNGE  •  BRING YOUR VILLA CREW"
+  • Footer: "THE MEZZANINE AT UNO MÁS  •  2020 N MONROE ST, SPOKANE, WA  •  21+ ONLY"
+Do not misspell anything; do not change the dates or times; bright and lively (not dark/empty). High resolution.
+```
+
+## A2) LEGAL-SIZE POSTER — 8.5×14 portrait (door / window / sandwich-board)
+```
+Generate a portrait poster at LEGAL size 8.5 x 14 inches (aspect ratio ~1:1.65), 300 dpi, print-ready with safe
+margins and bleed. Same fully-illustrated neon "Love Island villa" style and palette as above (navy-to-magenta
+night, neon glow, palms, string lights, pink flamingo float, glowing hearts, hero margarita with heart straw).
+Designed to read from across a room: use the tall format with big breathing room.
+Render this exact text (keep the á in "Uno Más"):
+  • "UNO MÁS" wordmark + eyebrow "THE MEZZANINE AT UNO MÁS"
+  • "LOVE ISLAND" (huge neon pink) + "Watch Party" (teal brush-script)
+  • "ALL TACOS. ALL TEQUILA. ALL DRAMA."
+  • Stacked event info: "EVERY THURSDAY  •  JUNE 26  •  JULY 3  •  JULY 10"  /  "DOORS 5PM  •  SHOW 6PM"  /
+    "21+  •  RESERVATIONS HIGHLY RECOMMENDED"  /  "SEASON FINALE — SUNDAY, JULY 12"
+  • Bottom row: "BIG SCREENS  •  SIGNATURE COCKTAILS  •  TACOS & SHAREABLES  •  FIREPLACE LOUNGE  •  BRING YOUR VILLA CREW"
+  • Footer: "2020 N MONROE ST, SPOKANE, WA  •  21+ ONLY"
+No misspellings; bright/fun; high resolution, print-ready.
+```
+
+## B) INSTAGRAM ANNOUNCEMENT — 4:5
+```
+Generate a 4:5 vertical social graphic, fully-illustrated neon "Love Island villa" style (navy-to-magenta night,
+neon glow, palms, string lights, pink flamingo float, glowing hearts, a margarita with a heart-shaped straw).
+Palette: neon hot pink #E22690, teal #18BCDC, gold #FFEC00, navy #003366.
+Render this exact text: "UNO MÁS" wordmark; "LOVE ISLAND" (neon pink) + "Watch Party" (teal brush-script);
+"ALL TACOS. ALL TEQUILA. ALL DRAMA."; small line "EVERY THURSDAY · DOORS 5 / SHOW 6 · 21+ · THE MEZZANINE AT UNO MÁS".
+Keep the bottom third cleaner for a caption. Spell "Uno Más" with the accent. No misspellings. High resolution.
+```
+
+## C) INSTAGRAM / TIKTOK STORY — 9:16
+```
+Generate a 9:16 vertical full-screen graphic, fully-illustrated neon "Love Island villa" style and palette
+(neon pink #E22690, teal #18BCDC, gold #FFEC00, navy #003366) with palms, a pink flamingo float, glowing hearts,
+and a margarita with a heart straw. Center a glowing "LOVE ISLAND" (neon pink) + "Watch Party" (teal brush-script)
+lockup. Lower third: "TONIGHT · DOORS 5PM" and a clear rounded button that says "TAP TO RESERVE". Leave generous
+safe margins at top and bottom for story UI. Spell "Uno Más" with the accent. No misspellings. High resolution.
+```
+
+## D) HOMEPAGE / WEB BANNER — wide 16:9
+```
+Generate a wide 16:9 web hero banner, fully-illustrated neon "Love Island villa" style and palette (neon pink
+#E22690, teal #18BCDC, gold #FFEC00, navy #003366). Left side: glowing "LOVE ISLAND" (neon pink) + "Watch Party"
+(teal brush-script) + "All tacos. All tequila. All drama." Right side: a pink flamingo float, a neon margarita,
+and glowing hearts, with a calmer darker zone for overlaid buttons. Include small text "EVERY THURSDAY · THE
+MEZZANINE AT UNO MÁS · 21+". Spell "Uno Más" with the accent. No misspellings. High resolution.
+```
+
+## E) TABLE TENT — 5:7 (two sides)
+```
+Generate two 5:7 portrait designs (a front and a back), fully-illustrated neon "Love Island villa" style and
+palette (neon pink #E22690, teal #18BCDC, gold #FFEC00, navy #003366).
+FRONT: glowing "LOVE ISLAND" + "Watch Party" with a pink flamingo float and a margarita; below: "EVERY THURSDAY ·
+DOORS 5 / SHOW 6 · 21+"; and "SCAN TO RESERVE" with an empty white square placeholder for a QR code.
+BACK: one big neon margarita + "ALL TACOS. ALL TEQUILA. ALL DRAMA." + "The Mezzanine at Uno Más · 2020 N Monroe St".
+Spell "Uno Más" with the accent. No misspellings. Print-ready, high resolution.
+```
+
+## F) WEEKLY REMINDER (reusable — swap the date) — 4:5
+```
+Generate a 4:5 graphic, neon "Love Island villa" style and palette, with a pink flamingo float and a neon margarita.
+Big text "LOVE ISLAND TONIGHT". A clear date chip that reads "THURSDAY · JULY 3" (easy to swap). Smaller line:
+"Doors 5 / Show 6 · Reserve on Resy · 21+ · The Mezzanine at Uno Más". Spell "Uno Más" with the accent. High-res.
+```
+
+## G) FACEBOOK EVENT COVER — wide 16:9 (center-safe)
+```
+Generate a wide 16:9 banner for a Facebook event cover, neon "Love Island villa" style and palette. Keep all text
+centered and away from the edges (Facebook crops the sides and corners). Render: "LOVE ISLAND" (neon pink) +
+"Watch Party" (teal script); "Every Thursday · The Mezzanine at Uno Más · 21+". Include a pink flamingo float, a
+neon margarita, and glowing hearts. Spell "Uno Más" with the accent. No misspellings. High resolution.
+```
+
+---
+### Finishing (optional, after ChatGPT generates)
+Swap in the **real Uno Más logo** from the DAM (`UM_T_T_NoOutline_White-Asset_2_qhqsgp`), proof the text (dates, the **á**, Doors 5 / Show 6), add the **Resy QR**, and save finals to the campaign folder + DAM (`tags:events,watchparty`).
