@@ -12,7 +12,7 @@ Voice: Mezzanine = cool/in-the-know, but watch-party energy leans playful. 21+. 
 > **LOVE ISLAND WATCH PARTY** — every Thursday on The Mezzanine rooftop.
 > All tacos. All tequila. All drama. Cocktails, a little friendly competition, and your people.
 > *It's not just watching — it's a night out.*
-> Doors 5 / show 6 · Jun 26, Jul 3, Jul 10 · Season Finale Sun Jul 12.
+> Doors 5 / show 6 · Jun 25, Jul 2, Jul 9 · Season Finale Sun Jul 12.
 > Reservations highly recommended — link in bio. 💗
 > #spokane #spokaneeats #loveisland #theMezzanine #unomas #spokanenightlife
 
@@ -40,7 +40,7 @@ Voice: Mezzanine = cool/in-the-know, but watch-party energy leans playful. 21+. 
 > You've got opinions about this season. We built the room for them.
 > **Love Island Watch Party — every Thursday at The Mezzanine.**
 > Big screens, signature cocktails, tacos & shareables, and a crowd that's just as invested as you.
-> 🗓 Jun 26 · Jul 3 · Jul 10 — plus the **Season Finale, Sun Jul 12**
+> 🗓 Jun 25 · Jul 2 · Jul 9 — plus the **Season Finale, Sun Jul 12**
 > 🕔 Doors 5pm · Show 6pm · 21+ · Reservations highly recommended
 > Grab your villa crew. → **[Reserve on Resy](https://resy.com/cities/spokane-wa/venues/uno-mas-tacos-and-tequila)**
 > — The Uno Más Team
@@ -60,7 +60,7 @@ Voice: Mezzanine = cool/in-the-know, but watch-party energy leans playful. 21+. 
 
 ## Website event card (Mezzanine / Events page + homepage callout)
 - **Title:** Love Island Watch Party
-- **When:** Thursdays 6pm (doors 5) · Jun 26 – Jul 10 · Finale Sun Jul 12
+- **When:** Thursdays 6pm (doors 5) · Jun 25 – Jul 9 · Finale Sun Jul 12
 - **Where:** The Mezzanine
 - **Blurb:** "All tacos. All tequila. All drama. Spokane's Love Island HQ is upstairs — signature cocktails, tacos & shareables, and your villa crew. 21+. Reservations recommended."
 - **CTA button:** Reserve → https://resy.com/cities/spokane-wa/venues/uno-mas-tacos-and-tequila (Resy)

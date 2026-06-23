@@ -1,7 +1,7 @@
 # Campaign Brief — Love Island Watch Party
 
 **Type:** event (recurring)   **Status:** 🟢 building (poster finalized · Resy wired · FB event drafted)   **Owner:** Ramsey
-**Dates:** Thursdays **Jun 26 · Jul 3 · Jul 10** · **Season Finale Sun Jul 12** · Doors **5PM** / Show **6PM**   **Venue:** The Mezzanine
+**Dates:** Thursdays **Jun 25 · Jul 2 · Jul 9** · **Season Finale Sun Jul 12** · Doors **5PM** / Show **6PM**   **Venue:** The Mezzanine
 **Last updated:** 2026-06-20
 
 ## 1. Objective
@@ -13,7 +13,7 @@ returning weekly crowd. Primary action: show up Thursday (RSVP/walk-in) + order 
 Weekly Love Island watch party in the speakeasy upstairs — big screens, **signature cocktails**, **tacos &
 shareables**, a room full of people yelling at the TV together. Doors 5PM, show 6PM. **Reservations highly
 recommended.** Hook line: *"All tacos. All tequila. All drama. Bring your villa crew."*
-Season runs 3 Thursdays (Jun 26 / Jul 3 / Jul 10) + a **Season Finale watch party Sun Jul 12.**
+Season runs 3 Thursdays (Jun 25 / Jul 2 / Jul 9) + a **Season Finale watch party Sun Jul 12.**
 
 ## 3. Audience
 - **Primary:** adults 21–35, social, reality-TV fans, the "where are we going Thursday?" group-chat crowd — skews friend-groups and date-duos who want a *plan*, not just a bar.
@@ -50,7 +50,7 @@ Thursday Mezzanine covers + bar sales (Toast), watch-party headcount week-over-w
 social engagement on the reels, email/SMS click→visit, new Cantina Club signups at the event.
 
 ## 9. Open inputs (mostly resolved via the poster — remaining)
-✅ Dates: Thu Jun 26 / Jul 3 / Jul 10 + Finale Sun Jul 12 · ✅ Doors 5 / Show 6 · ✅ Reservations recommended
+✅ Dates: Thu Jun 25 / Jul 2 / Jul 9 + Finale Sun Jul 12 · ✅ Doors 5 / Show 6 · ✅ Reservations recommended
 · ✅ Food/drink: signature cocktails + tacos & shareables.
 Still needed:
 1. ✅ **Reservation channel — Resy.** Reservations are taken through Resy exactly like every other Uno Más reservation (book the venue; no separate event ticketing). Wired on every asset + the poster QR. → https://resy.com/cities/spokane-wa/venues/uno-mas-tacos-and-tequila

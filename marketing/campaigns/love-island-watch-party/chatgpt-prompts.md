@@ -33,7 +33,7 @@ Render this exact text (spell exactly, keep the accent on "Uno Más"):
   • Title: "LOVE ISLAND" (huge, neon hot pink) then "Watch Party" (glowing teal brush-script just below)
   • Subhead: "ALL TACOS. ALL TEQUILA. ALL DRAMA." (color the three phrases teal / gold / pink)
   • Right-side info panel (cream or translucent), stacked:
-      "EVERY THURSDAY"  /  "JUNE 26  •  JULY 3  •  JULY 10"  /  "DOORS 5PM"  /  "SHOW 6PM"  /
+      "EVERY THURSDAY"  /  "JUNE 25  •  JULY 2  •  JULY 9"  /  "DOORS 5PM"  /  "SHOW 6PM"  /
       "RESERVATIONS HIGHLY RECOMMENDED"  /  pink heart badge: "SEASON FINALE — SUNDAY, JULY 12"
   • Bottom icon row (small neon line-icons + labels): "BIG SCREENS  •  SIGNATURE COCKTAILS  •  TACOS & SHAREABLES
       •  FIREPLACE LOUNGE  •  BRING YOUR VILLA CREW"
@@ -51,7 +51,7 @@ Render this exact text (keep the á in "Uno Más"):
   • "UNO MÁS" wordmark + eyebrow "THE MEZZANINE AT UNO MÁS"
   • "LOVE ISLAND" (huge neon pink) + "Watch Party" (teal brush-script)
   • "ALL TACOS. ALL TEQUILA. ALL DRAMA."
-  • Stacked event info: "EVERY THURSDAY  •  JUNE 26  •  JULY 3  •  JULY 10"  /  "DOORS 5PM  •  SHOW 6PM"  /
+  • Stacked event info: "EVERY THURSDAY  •  JUNE 25  •  JULY 2  •  JULY 9"  /  "DOORS 5PM  •  SHOW 6PM"  /
     "21+  •  RESERVATIONS HIGHLY RECOMMENDED"  /  "SEASON FINALE — SUNDAY, JULY 12"
   • Bottom row: "BIG SCREENS  •  SIGNATURE COCKTAILS  •  TACOS & SHAREABLES  •  FIREPLACE LOUNGE  •  BRING YOUR VILLA CREW"
   • Footer: "2020 N MONROE ST, SPOKANE, WA  •  21+ ONLY"
@@ -99,7 +99,7 @@ Spell "Uno Más" with the accent. No misspellings. Print-ready, high resolution.
 ## F) WEEKLY REMINDER (reusable — swap the date) — 4:5
 ```
 Generate a 4:5 graphic, neon "Love Island villa" style and palette, with a pink flamingo float and a neon margarita.
-Big text "LOVE ISLAND TONIGHT". A clear date chip that reads "THURSDAY · JULY 3" (easy to swap). Smaller line:
+Big text "LOVE ISLAND TONIGHT". A clear date chip that reads "THURSDAY · JULY 2" (easy to swap). Smaller line:
 "Doors 5 / Show 6 · Reserve on Resy · 21+ · The Mezzanine at Uno Más". Spell "Uno Más" with the accent. High-res.
 ```
 

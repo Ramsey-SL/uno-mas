@@ -24,7 +24,7 @@ Reservations are handled by **Resy** (the event ticket/registration URL).
 | **Name** | Love Island Watch Party — The Mezzanine at Uno Más |
 | **Host** | Uno Más Tacos & Tequila |
 | **Frequency** | Recurring → Weekly → Thursdays |
-| **Dates** | June 26 · July 3 · July 10, 2026 |
+| **Dates** | June 25 · July 2 · July 9, 2026 |
 | **Time** | Doors 5:00 PM · Show 6:00 PM · ends 9:00 PM (Pacific) |
 | **Location** | The Mezzanine (upstairs) at Uno Más, 2020 N Monroe St, Suite C, Spokane, WA 99205 |
 | **Category** | Nightlife / Party |
@@ -49,7 +49,7 @@ Same as above except: **Name:** Love Island Season Finale Watch Party — The Me
 > our own — big screens, signature cocktails, tacos & shareables, a little friendly competition, and a crowd
 > that's just as invested as you. It's not just watching — it's a night out.
 >
-> 🗓 **Thursdays — June 26 · July 3 · July 10** (plus the Season Finale, Sunday July 12)
+> 🗓 **Thursdays — June 25 · July 2 · July 9** (plus the Season Finale, Sunday July 12)
 > 🕔 **Doors 5PM · Show 6PM**
 > 🍸 Signature cocktails · 🌮 tacos & shareables · 💗 bring your villa crew
 > 🔞 21+ · The Mezzanine at Uno Más

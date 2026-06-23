@@ -5,7 +5,7 @@ Brand: **The Mezzanine** — Electric Pink `#E22790`, Black `#000`, Ultra-Violet
 Fonts: **Anton / Bebas / DIN-condensed** headlines · **Poppins** body. Voice: playful, social, "villa crew" energy (21+).
 
 ## Event facts (spell exactly)
-Every **Thursday — Jun 26 · Jul 3 · Jul 10**; **Doors 5PM / Show 6PM**; **Season Finale Sun Jul 12**; reservations recommended; 21+; **The Mezzanine at Uno Más**.
+Every **Thursday — Jun 25 · Jul 2 · Jul 9**; **Doors 5PM / Show 6PM**; **Season Finale Sun Jul 12**; reservations recommended; 21+; **The Mezzanine at Uno Más**.
 
 ## Big idea (from `video-creative-brief.md`)
 A **summer rooftop social event**, not passive TV. KEEP: packed friend-groups, cocktails, the drink-tower game, summer energy. AVOID: pool/luxury-resort/villa, empty lounge, dark nightclub. Taglines: "All tacos. All tequila. All drama." · "Bring your villa crew." · "Spokane's Love Island HQ."
@@ -23,7 +23,7 @@ Full revised, brand-locked poster prompt (real-photo composite **or** generate) 
 
 ## 2) Table tent / tabletop (~5×7in, 2-sided)
 - **Front:** "LOVE ISLAND, UPSTAIRS 💗" + Every Thursday · Doors 5 / Show 6 · "All tacos. All tequila. All drama." + QR → reserve.
-- **Back:** the date stack (Jun 26 / Jul 3 / Jul 10 + Finale Jul 12) + "Bring your villa crew · 21+."
+- **Back:** the date stack (Jun 25 / Jul 2 / Jul 9 + Finale Jul 12) + "Bring your villa crew · 21+."
 - Pink-on-black, Mezzanine. Print 5×7 @300dpi + bleed. *Claude can build print-ready HTML/SVG — ask.*
 
 ## 3) Social → captions in `creative-copy.md`

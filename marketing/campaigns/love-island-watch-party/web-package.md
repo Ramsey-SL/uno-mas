@@ -11,7 +11,7 @@
    - Sub: All tacos. All tequila. All drama.
    - Primary button: **Reserve Your Spot** → https://resy.com/cities/spokane-wa/venues/uno-mas-tacos-and-tequila · secondary: See Dates
    - Hero img: `https://res.cloudinary.com/drxrfyq9i/image/upload/v1781646674/20251028_MEZZ_VENUE_MezzWatchParty_v5.jpg`
-2. **Dates & times band** (pink) — EVERY THURSDAY · Jun 26 · Jul 3 · Jul 10 · Doors 5PM / Show 6PM · Reservations recommended · ❤ Season Finale: Sun Jul 12.
+2. **Dates & times band** (pink) — EVERY THURSDAY · Jun 25 · Jul 2 · Jul 9 · Doors 5PM / Show 6PM · Reservations recommended · ❤ Season Finale: Sun Jul 12.
 3. **"It's a night out, not just a watch party"** — 3 cards: 🍸 Signature Cocktails · 🌮 Tacos & Shareables · 💗 Bring Your Villa Crew. Body: "Cocktails, a little friendly competition, and your people — Spokane's Love Island HQ is upstairs."
    - Img: `…/v1781646685/20251028_MEZZ_VENUE_MezzBar_v2.jpg` (bar) + `…/v1781646594/20251028_MEZZ_VENUE_MezzTV_RAW.jpg` (big screen)
 4. **The room** — gallery strip of the Mezzanine: `MezzLounge_RAW`, `MezzSeatingAndBar_RAW`, `MezzWatchParty_v4`.
@@ -35,7 +35,7 @@ accents, off-white text; condensed bold headline font (Anton/Bebas), Poppins bod
    dark gradient scrim; eyebrow "THE MEZZANINE AT UNO MÁS"; H1 "LOVE ISLAND WATCH PARTY";
    subhead "All tacos. All tequila. All drama."; primary pink button "Reserve Your Spot" (link https://resy.com/cities/spokane-wa/venues/uno-mas-tacos-and-tequila);
    secondary ghost button "See Dates".
-2) Pink dates band: "EVERY THURSDAY · JUNE 26 · JULY 3 · JULY 10 · DOORS 5PM / SHOW 6PM ·
+2) Pink dates band: "EVERY THURSDAY · JUNE 25 · JULY 2 · JULY 9 · DOORS 5PM / SHOW 6PM ·
    RESERVATIONS RECOMMENDED" and a highlighted "SEASON FINALE — SUNDAY, JULY 12".
 3) Three feature cards with icons: Signature Cocktails / Tacos & Shareables / Bring Your Villa Crew,
    with intro copy "It's not just watching — it's a night out." Use images:
