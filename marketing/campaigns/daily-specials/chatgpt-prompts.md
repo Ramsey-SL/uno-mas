@@ -14,7 +14,7 @@ confident, playful — converted-garage cantina energy, warm light, NO cool/blue
 Navy #003366, Yellow #FFEC00, Blue #18BCDC. Type: condensed bold headlines (Antonio style) + clean sans body.
 Frame deals as a ritual, not a cheap coupon (price-confident). Always spell "Uno Más" with the accent and never
 misspell text. The three specials (use exact wording): Taco Tuesday — BOGO Lunch Street Tacos · $6 Margs · $30
-Marg Pitchers (accent Hot Pink); $5 Wednesday — $5 Pints · $5 Street Tacos (accent Yellow); Burrito Thursday —
+Marg Pitchers (accent Hot Pink); Beer & Bites Wednesday — $5 Pints · $10 Loaded Nachos · $10 Loaded Masa Fries (accent Yellow); Burrito Thursday —
 $15 House Burrito or Bowl (accent Blue). Confirm and wait for my first request.
 ```
 
@@ -29,13 +29,13 @@ hot pink); a hot-pink offer panel "BOGO LUNCH STREET TACOS · $6 MARGS · $30 MA
 UNO MÁS · DINE IN"; small "Get a little lost." No misspellings. Energetic, confident, print-ready.
 ```
 
-## B) $5 WEDNESDAY poster — 4:5
+## B) BEER & BITES WEDNESDAY poster — 4:5
 ```
 Generate a vertical 4:5 poster, warm "Uno Más" cantina style, high resolution. Hero: a frosty pint of beer next to
-street tacos. Render this exact text: "UNO MÁS" wordmark; headline "$5 WEDNESDAY" (the word WEDNESDAY in yellow
-#FFEC00 with navy #003366 outline/text for contrast); a yellow offer panel with navy text "$5 PINTS · $5 STREET
-TACOS"; subline "Math we can get behind."; footer "2020 N MONROE · UNO MÁS · DINE IN". Spell "Uno Más" with the
-accent. No misspellings. Print-ready.
+loaded nachos and loaded masa fries. Render this exact text: "UNO MÁS" wordmark; headline "BEER & BITES WEDNESDAY"
+(the word WEDNESDAY in yellow #FFEC00 with navy #003366 outline/text for contrast); a yellow offer panel with navy
+text "$5 PINTS · $10 LOADED NACHOS · $10 LOADED MASA FRIES"; subline "Math we can get behind."; footer "2020 N
+MONROE · UNO MÁS · DINE IN". Spell "Uno Más" with the accent. No misspellings. Print-ready.
 ```
 
 ## C) BURRITO THURSDAY poster — 4:5
@@ -53,7 +53,7 @@ scrim, high resolution. Render this exact text (keep the á): "UNO MÁS" wordmar
 (accent the Á in yellow); tie-line "Three reasons to get a little lost midweek."; then three stacked rows, each in
 its accent color:
   "TACO TUESDAY" (hot pink #E22690) — "BOGO street tacos · $6 margs · $30 pitchers"
-  "$5 WEDNESDAY" (yellow #FFEC00) — "$5 pints · $5 street tacos"
+  "BEER & BITES WEDNESDAY" (yellow #FFEC00) — "$5 pints · $10 loaded nachos · $10 loaded masa fries"
   "BURRITO THURSDAY" (blue #18BCDC) — "$15 house burrito or bowl"
 Footer "2020 N Monroe · dine in". No misspellings. Print-ready.
 ```
@@ -65,7 +65,7 @@ margins and bleed. Warm "Uno Más" cantina style, readable from across the room 
 spacing. Render this exact text (keep the á): "UNO MÁS" wordmark; headline "MIDWEEK AT UNO MÁS" (accent the Á in
 yellow); tie-line "Three reasons to get a little lost midweek."; three large well-spaced accent-colored rows:
   "TACO TUESDAY" (hot pink #E22690) — "BOGO Lunch Street Tacos · $6 Margs · $30 Marg Pitchers"
-  "$5 WEDNESDAY" (yellow #FFEC00, navy #003366 text) — "$5 Pints · $5 Street Tacos"
+  "BEER & BITES WEDNESDAY" (yellow #FFEC00, navy #003366 text) — "$5 Pints · $10 Loaded Nachos · $10 Loaded Masa Fries"
   "BURRITO THURSDAY" (blue #18BCDC) — "$15 House Burrito or Bowl"
 Warm background image with a dark scrim for legibility. Footer "2020 N MONROE ST · SPOKANE · DINE IN" + "Get a
 little lost." No misspellings. High resolution, print-ready.
@@ -83,7 +83,7 @@ accent color for a bold headline over a warm food/drink hero, the offer in one t
 the story version. Keep the bottom clean for a caption. Spell "Uno Más" with the accent. No misspellings.
 Make it for: [pick one]
   • "TACO TUESDAY" (hot pink) — "BOGO street tacos · $6 margs · $30 pitchers"
-  • "$5 WEDNESDAY" (yellow) — "$5 pints · $5 street tacos"
+  • "BEER & BITES WEDNESDAY" (yellow) — "$5 pints · $10 loaded nachos · $10 loaded masa fries"
   • "BURRITO THURSDAY" (blue) — "$15 house burrito or bowl"
 ```
 
@@ -91,8 +91,8 @@ Make it for: [pick one]
 ```
 Generate two 5:7 portrait designs (front + back), warm "Uno Más" cantina style, print-ready high resolution.
 FRONT: "UNO MÁS" wordmark + "MIDWEEK AT UNO MÁS" header + the three days as a clean accent-colored list
-(Taco Tuesday pink — BOGO street tacos · $6 margs · $30 pitchers; $5 Wednesday yellow — $5 pints · $5 street
-tacos; Burrito Thursday blue — $15 house burrito or bowl).
+(Taco Tuesday pink — BOGO street tacos · $6 margs · $30 pitchers; Beer & Bites Wednesday yellow — $5 pints · $10
+loaded nachos · $10 loaded masa fries; Burrito Thursday blue — $15 house burrito or bowl).
 BACK: a margarita hero + "Tue · Wed · Thu — your midweek lineup" + "2020 N Monroe · dine in".
 Spell "Uno Más" with the accent. No misspellings.
 ```
@@ -102,8 +102,8 @@ Spell "Uno Más" with the accent. No misspellings.
 Generate compact two-sided table-tent designs, warm "Uno Más" cantina style, print-ready 300 dpi with bleed; keep
 type large and legible at small size, minimal clutter.
 SIZE A — 4 x 6 in: FRONT "MIDWEEK AT UNO MÁS" + three days as a tight accent-colored list (Taco Tuesday pink —
-BOGO street tacos · $6 margs · $30 pitchers; $5 Wednesday yellow — $5 pints · $5 street tacos; Burrito Thursday
-blue — $15 house burrito or bowl). BACK: a margarita hero + "Tue · Wed · Thu — your midweek lineup · 2020 N Monroe".
+BOGO street tacos · $6 margs · $30 pitchers; Beer & Bites Wednesday yellow — $5 pints · $10 loaded nachos · $10
+loaded masa fries; Burrito Thursday blue — $15 house burrito or bowl). BACK: a margarita hero + "Tue · Wed · Thu — your midweek lineup · 2020 N Monroe".
 SIZE B — mini 3.5 x 5 in countertop tent: FRONT the three day names stacked in their accent colors with each offer
 in small caps underneath. BACK "Get a little lost. · unomastacoshop.com · 2020 N Monroe".
 Spell "Uno Más" with the accent. No misspellings.
@@ -115,7 +115,7 @@ Generate a wide 16:9 web banner, warm "Uno Más" cantina style, high resolution.
 accent color over a warm food/marg hero, with a calmer area for an overlaid CTA button. Spell "Uno Más" with the
 accent. No misspellings. Make it for: [pick one]
   • "TACO TUESDAY — BOGO street tacos, $6 margs, $30 pitchers" (hot pink)
-  • "$5 WEDNESDAY — $5 pints, $5 street tacos" (yellow)
+  • "BEER & BITES WEDNESDAY — $5 pints, $10 loaded nachos, $10 loaded masa fries" (yellow)
   • "BURRITO THURSDAY — $15 house burrito or bowl" (blue)
 ```
 

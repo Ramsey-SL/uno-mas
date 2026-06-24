@@ -87,7 +87,7 @@ Grab your people. Make good choices. 🌮
 ```
 
 ```
-$5 Wednesday. $5 pints. $5 street tacos.
+Beer & Bites Wednesday. $5 pints. $10 loaded nachos. $10 loaded masa fries.
 Math we can get behind. Monroe's got you.
 ```
 
@@ -209,7 +209,7 @@ Taco Tuesday: $6 margs. 🍹
 ```
 
 ```
-Taco Tuesday, $5 Wednesday, Burrito Thursday — your midweek lineup.
+Taco Tuesday, Beer & Bites Wednesday, Burrito Thursday — your midweek lineup.
 The Paloma is $14. Get here.
 ```
 

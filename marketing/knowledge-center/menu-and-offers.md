@@ -1,13 +1,13 @@
 # MENU_AND_OFFERS.md
 ## Uno Más Tacos & Tequila — Complete Menu Reference for AI Agents
 
-**Version:** 2.2
-**Last Updated:** 2026-04-10
+**Version:** 2.3
+**Last Updated:** 2026-06-24
 **Owner:** Ramsey
 **Source:** Current printed menus — April 2026 (UnoMas_Menu_Monroe_April2026.pdf in 07_MENU_ASSETS/Menus/)
 **Status:** Active — Cross-reference before writing any product copy
 
-> **AI AGENT NOTE:** Always use this file for accurate item names, prices, and descriptions. Do not guess or use outdated pricing. If an item isn't listed here, ask for clarification before writing about it. Version 2.2 confirms physical menu (April 2026) — Taco Tuesday removed, Beer section expanded with full Michelada/Cheleda/Buckets detail.
+> **AI AGENT NOTE:** Always use this file for accurate item names, prices, and descriptions. Do not guess or use outdated pricing. If an item isn't listed here, ask for clarification before writing about it. Weekly specials are ACTIVE as of June 2026 — Taco Tuesday, Beer & Bites Wednesday, and Burrito Thursday are all currently running (see section 12). Beer section includes full Michelada/Cheleda/Buckets detail.
 
 ---
 
@@ -285,7 +285,7 @@ Three churros dusted in cinnamon sugar, served with house whipped cream, fresh s
 | Day | Special |
 |---|---|
 | **Taco Tuesday** | BOGO Lunch Street Tacos · $6 Margs · $30 Marg Pitchers |
-| **$5 Wednesday** | $5 Pints · $5 Street Tacos |
+| **Beer & Bites Wednesday** | $5 Pints · $10 Loaded Nachos · $10 Loaded Masa Fries |
 | **Burrito Thursday** | $15 House Burrito or Bowl |
 
 *Happy Hour (3–5pm) and the $12 lunch special are retired — do not reference them. These ongoing
@@ -377,8 +377,9 @@ day-specials are the current promotions. Frame as a midweek ritual, not a discou
 ---
 
 *MENU_AND_OFFERS.md — Uno Más Tacos & Tequila*
-*Version 2.2 | Updated: 2026-04-10 | Owner: Ramsey*
+*Version 2.3 | Updated: 2026-06-24 | Owner: Ramsey*
 *Source: UnoMas_Menu_Monroe_April2026.pdf in 07_MENU_ASSETS/Menus/*
-*Changes in v2.2: Taco Tuesday removed · Beer section expanded (Michelada, Cheleda, Buckets detail) · Source PDF filed to 07_MENU_ASSETS/Menus/*
+*Changes in v2.3: Weekly specials confirmed ACTIVE (June 2026) — Taco Tuesday · Beer & Bites Wednesday ($5 pints · $10 loaded nachos · $10 loaded masa fries — Wednesday special rebranded from the former pints-and-tacos deal) · Burrito Thursday; corrected stale v2.2 note that said Taco Tuesday was removed.*
+*Changes in v2.2: Beer section expanded (Michelada, Cheleda, Buckets detail) · Source PDF filed to 07_MENU_ASSETS/Menus/*
 *Update this file immediately when menu prices or items change.*
 *Companion files: UnoMas_BrandVoice_April2026.md | VENUE_AND_OPERATIONS.md*

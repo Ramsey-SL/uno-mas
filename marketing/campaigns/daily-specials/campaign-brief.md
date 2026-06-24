@@ -11,7 +11,7 @@ Build standing midweek rituals that drive Tue–Thu covers (the slower nights) a
 | Day | Special |
 |---|---|
 | **Taco Tuesday** | BOGO lunch street tacos · $6 margs · $30 marg pitchers |
-| **$5 Wednesday** | $5 pints · $5 street tacos |
+| **Beer & Bites Wednesday** | $5 pints · $10 loaded nachos · $10 loaded masa fries |
 | **Burrito Thursday** | $15 House Burrito or Bowl |
 
 *[OPEN: time windows — is Taco Tuesday BOGO lunch-only (11–5)? Are Wed/Thu all-day or dinner? Dine-in only or takeout too?]*  (These day-specials REPLACE the old $12 lunch special AND Happy Hour — both retired.)
@@ -24,7 +24,7 @@ Build standing midweek rituals that drive Tue–Thu covers (the slower nights) a
 ## 4. Key messages (on-brand)
 Frame as a **vibe/ritual**, not a discount fire-sale (brand = experience over deals, price-confident):
 - "Taco Tuesday hits different at 2020 N Monroe." (BOGO street tacos · $6 margs · $30 pitchers)
-- "$5 Wednesday: $5 pints, $5 street tacos. Math we can get behind."
+- "Beer & Bites Wednesday: $5 pints, $10 loaded nachos, $10 loaded masa fries. Math we can get behind."
 - "Burrito Thursday — $15 burritos & bowls. Your Thursday just got a plan."
 - Tie-line: "Three reasons to get a little lost midweek."
 - Voice: confident, playful; never apologetic about price; lead with the experience, prove with the food.

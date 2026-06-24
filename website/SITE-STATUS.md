@@ -27,7 +27,7 @@ Pick-up doc for resuming the Uno Más marketing-site build (Lovable) in a new se
 
 ## 4. What's built & live
 **Homepage (`/`):** hero (tilted media tiles) → "What's on this week" (agave ticker, Love Island watch-party card, 3 day-deal cards) → Fiesta Box teaser → Venues intro → **VenueShowcase** (Cantina/Mezzanine/Patio, framed tiles, auto-rotate every 3s) → **MenuCollection** (`#menu`: Lunch/Dinner/Cocktails tabs, full Monroe menu, collection rail auto-rotates 3s) → social proof → MezzanineSplit → Visit/contact → footer. Section transitions (fade/slant/wave/hill/dissolve) between color-change seams.
-- **Day-deal cards:** Big-day editorial; icons now use real DAM line-art — taco `TTAsset_2_4x_vv5mg9` (pink), pint `UM_-_Daily_Specials_-_June_2026_wtgpaz` (navy), burrito `Burrito_-_source_kn4mzk` (blue). Taco Tuesday deal = **$9 margs** (site source of truth; CLAUDE.md still says $6 — reconcile if desired).
+- **Day-deal cards:** Big-day editorial; icons now use real DAM line-art — taco `TTAsset_2_4x_vv5mg9` (pink), pint `UM_-_Daily_Specials_-_June_2026_wtgpaz` (navy), burrito `Burrito_-_source_kn4mzk` (blue). Burrito icon enlarged to match the taco/pint icon sizing and mirrored horizontally. Deals: Taco Tuesday = **$6 margs** (matches CLAUDE.md), **Beer & Bites Wednesday** ($5 pints · $10 loaded nachos · $10 loaded masa fries), Burrito Thursday ($15 House Burrito or Bowl).
 **Nav (`site-header.tsx`):** Menu (→`/#menu`) · Fiesta Boxes To Go · Catering · The Mezzanine · **Plan an Event** · About · Now Hiring + Reserve a table. Active link = pink. **Mobile = slide-in drawer** (shadcn Sheet, hamburger < 1100px).
 **The Mezzanine (`/mezzanine`):** uses the main site chrome (PageShell), Scheme-D high-contrast (black + electric-pink), video hero + tilted tiles, RoomStats, EventTypes, WhatYouGet (6 items incl. TVs + karaoke), "Inside the Mezzanine" L4 feature+thumbnail rail, mezzanine-colored footer. Inquire buttons → form popup.
 **Plan an Event (`/private-events`):** rebranded to navy/cream/pink + transitions; "Four Ways to Celebrate" = **Design A** (full-bleed photo + gradient + pink pill + Inquire popup).
@@ -40,8 +40,7 @@ Pick-up doc for resuming the Uno Más marketing-site build (Lovable) in a new se
 2. **3 JSON-LD schemas to add (no inputs needed):** `/fiesta-box` → Product, `/catering` → Service, `/now-hiring` → JobPosting.
 3. **Connect production domain** unomastacoshop.com in Lovable at launch (canonicals already target it).
 4. **Resend domain verification** for `events@unomastacoshop.com` sender (confirm done).
-5. **Reconcile pricing doc:** site says Taco Tuesday "$9 margs"; `CLAUDE.md` says $6 — update the brain doc if $9 is correct.
-6. **Nice-to-haves:** verify mobile drawer on a real device; optional tonal step on same-color section transitions; confirm day-icon look + Design-A cards on the owner's screen.
+5. **Nice-to-haves:** verify mobile drawer on a real device; optional tonal step on same-color section transitions; confirm day-icon look + Design-A cards on the owner's screen.
 
 ## 6. Quick resume prompt for the next session
 > "Resume the Uno Más Lovable site (project 78c4ac75-6325-4f38-a44b-278bb2194cf2, live at uno-mas-site-builder.lovable.app, repo Ramsey-SL/uno-mas). Read website/SITE-STATUS.md. Next up: [pixels / 3 JSON-LD schemas / domain]. Use send_message with typecheck-only, deploy, verify via curl --compressed."

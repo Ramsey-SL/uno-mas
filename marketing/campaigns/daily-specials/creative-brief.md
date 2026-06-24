@@ -10,7 +10,7 @@ Fonts: **Antonio** (headlines) / **Montserrat** (body). Voice: confident, playfu
 | Day | Offer | Accent color |
 |---|---|---|
 | **Taco Tuesday** | BOGO Lunch Street Tacos · $6 Margs · $30 Marg Pitchers | Hot Pink |
-| **$5 Wednesday** | $5 Pints · $5 Street Tacos | Yellow |
+| **Beer & Bites Wednesday** | $5 Pints · $10 Loaded Nachos · $10 Loaded Masa Fries | Yellow |
 | **Burrito Thursday** | $15 House Burrito or Bowl | Blue |
 
 ## Big idea
@@ -23,7 +23,7 @@ Tagline options: "Three reasons to get a little lost midweek." · "Midweek hits 
 - Marg **pitcher**: `…/v1782019435/20260207_UM_DRINK_PitcherAndMarg_FINAL.jpg`
 - Margs + limes: `…/v1782019427/20260207_UM_DRINK_MargsAndLimes_FINAL.jpg`
 - Burrito (close-up): `…/v1781926386/uno-mas/photos/food/20260619_UM_FOOD_BurritoBeanRiceCloseup.png`
-- ⚠️ No good **pint/beer** photo in DAM — shoot-list item (use a marg for $5 Wed for now).
+- ⚠️ No good **pint/beer** photo in DAM — shoot-list item (use a marg for Beer & Bites Wed for now).
 
 ---
 
@@ -31,8 +31,8 @@ Tagline options: "Three reasons to get a little lost midweek." · "Midweek hits 
 *Run in the Art Director GPT / Gemini / ChatGPT. Attach the day's DAM photo as reference. Generate 3–4 options each.*
 ```
 Vertical 4:5 poster for "[DAY]" at Uno Más (modern Mexican taco & tequila bar, Spokane).
-Warm, candid food photography of [Taco Tuesday: street tacos + a margarita & pitcher / $5 Wednesday: street
-tacos + a cold pint / Burrito Thursday: a loaded house burrito and a bowl], natural warm light, no blue cast,
+Warm, candid food photography of [Taco Tuesday: street tacos + a margarita & pitcher / Beer & Bites Wednesday:
+loaded nachos & loaded masa fries + a cold pint / Burrito Thursday: a loaded house burrito and a bowl], natural warm light, no blue cast,
 converted-garage cantina vibe, appetizing and real (reference the attached photo for the actual food look).
 Brand: Hot Pink #E22690 + Navy + Yellow accents; bold Antonio-style condensed headline.
 Compose for text: big day name "[DAY]" + the offer "[OFFER TEXT EXACTLY]" + small "2020 N Monroe · Uno Más"
@@ -50,7 +50,7 @@ Combined poster: all three days as a stacked "Midweek Lineup" with the tagline a
 **Image:** use the real DAM photo with a bold text overlay (generate the plate in ChatGPT/Gemini OR overlay in the tool).
 Captions (ready to post):
 - **Taco Tuesday:** "Taco Tuesday hits different at 2020 N Monroe. 🌮 BOGO street tacos. $6 margs. $30 pitchers. Grab your people."
-- **$5 Wednesday:** "$5 Wednesday. $5 pints, $5 street tacos. Math we can get behind. 🍺"
+- **Beer & Bites Wednesday:** "Beer & Bites Wednesday. $5 pints, $10 loaded nachos, $10 loaded masa fries. Math we can get behind. 🍺"
 - **Burrito Thursday:** "Burrito Thursday: $15 House Burrito or Bowl. Your Thursday just got a plan. Come get a little lost."
 Formats: 4:5 feed + 9:16 story (countdown sticker "TODAY: [offer]").
 

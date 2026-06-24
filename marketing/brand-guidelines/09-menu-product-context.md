@@ -136,7 +136,7 @@ This document covers all menu items, cocktails, and product offerings for use in
 ## Weekly Specials (replaced Happy Hour)
 
 - **Taco Tuesday:** BOGO lunch street tacos · $6 margs · $30 marg pitchers
-- **$5 Wednesday:** $5 pints · $5 street tacos
+- **Beer & Bites Wednesday:** $5 pints · $10 loaded nachos · $10 loaded masa fries
 - **Burrito Thursday:** $15 House Burrito or Bowl
 - **Copy note:** lead with the day + the offer (Happy Hour is retired)
 - **Best content angle:** Time-specific urgency. "Get here at 3."
@@ -146,7 +146,7 @@ This document covers all menu items, cocktails, and product offerings for use in
 ## Weekly Specials (replaced the old $12 lunch special)
 
 - **Taco Tuesday:** BOGO lunch street tacos · $6 margs · $30 marg pitchers
-- **$5 Wednesday:** $5 pints · $5 street tacos
+- **Beer & Bites Wednesday:** $5 pints · $10 loaded nachos · $10 loaded masa fries
 - **Burrito Thursday:** $15 burritos & bowls
 - **Copy note:** Always include the day + the specific offer/price. Frame as a midweek ritual, not a discount fire-sale.
 

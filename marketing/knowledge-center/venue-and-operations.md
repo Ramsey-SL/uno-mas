@@ -68,7 +68,7 @@
 - **Lunch Service:** 11am–close, Tuesday–Saturday
 - **Sunday Brunch:** ON HOLD — relaunch TBD (10am–4pm planned when live)
 - **Live DJ:** Friday & Saturday nights
-- **Weekly Specials (ongoing):** Taco Tuesday (BOGO lunch street tacos · $6 margs · $30 marg pitchers) · $5 Wednesday ($5 pints · $5 street tacos) · Burrito Thursday ($15 House Burrito or Bowl). These REPLACED Happy Hour and the old $12 lunch special — do NOT reference Happy Hour or the lunch special (retired).
+- **Weekly Specials (ongoing):** Taco Tuesday (BOGO lunch street tacos · $6 margs · $30 marg pitchers) · Beer & Bites Wednesday ($5 pints · $10 loaded nachos · $10 loaded masa fries) · Burrito Thursday ($15 House Burrito or Bowl). These REPLACED Happy Hour and the old $12 lunch special — do NOT reference Happy Hour or the lunch special (retired).
 
 > **Note:** Weekly programming (Trivia, Comedy, Bingo) is NOT currently active. Do not reference in content until reinstated.
 
