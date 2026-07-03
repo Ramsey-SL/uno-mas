@@ -35,7 +35,7 @@ Pick-up doc for resuming the Uno Más marketing-site build (Lovable) in a new se
 **Inquiry system:** `InquireDialog` opens the form directly → saves to `event_inquiries` + emails Karissa via Resend. Used by Mezzanine + Plan-an-Event CTAs.
 **SEO:** unique titles/descriptions/canonical/OG/Twitter on every page; 100% image alt-text; robots.txt + sitemap.xml (13 urls) + llms.txt; favicon (agave on navy) + theme-color; JSON-LD on `/` (Restaurant + Menu + Event), `/mezzanine` (Place), `/private-events` (Service), `/about` (Restaurant).
 **Time-sensitive / event content (added 2026-07-03):**
-- **Holiday closure announcement bar** — date-gated in `page-shell.tsx`: shows a navy "Closed July 3 & 4 … back July 5 🎆" bar during Jul 3–4 2026 (Pacific), auto-reverts to the pink hiring bar on Jul 5. No manual removal needed.
+- **Holiday closure announcement bar** — date-gated in `page-shell.tsx`: shows a navy "Closed July 3–4 for the holiday — back open Tuesday, July 7! 🎆" bar during Jul 3–6 2026 (Pacific, window end `2026-07-07T00:00:00-07:00`), auto-reverts to the pink hiring bar on Jul 7 (they're normally closed Sun–Mon, so reopen Tue Jul 7). No manual removal needed.
 - **Love Island Finale section** — `LoveIslandSection` on the homepage (between What's-on-this-week and Fiesta teaser): dark watch-party band, framed MezzWatchParty photo, "Sunday, July 12 · Doors 5PM · 21+", "50 tickets, $10 each → $10 back as tab credit." CTA driven by `const EVENTBRITE_URL` in `src/routes/index.tsx` — currently EMPTY → shows a "Tickets on Eventbrite — coming soon" pill. **Paste the real Eventbrite event URL into that constant to make the "Get Tickets" button live.**
 
 ## 5. REMAINING / OPEN WORK (prioritized)
