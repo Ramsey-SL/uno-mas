@@ -1,5 +1,5 @@
 # Uno Más Website — Site Status & Session Handoff
-_Last updated: 2026-06-24 · maintained by the build assistant_
+_Last updated: 2026-07-03 · maintained by the build assistant_
 
 Pick-up doc for resuming the Uno Más marketing-site build (Lovable) in a new session / another device. Read this first.
 
@@ -9,9 +9,9 @@ Pick-up doc for resuming the Uno Más marketing-site build (Lovable) in a new se
 - **Live (Lovable hosting):** https://uno-mas-site-builder.lovable.app  ·  **status: PUBLISHED**
 - **Lovable project id:** `78c4ac75-6325-4f38-a44b-278bb2194cf2`  ·  slug `uno-mas-site-builder`
 - **Editor:** https://lovable.dev/projects/78c4ac75-6325-4f38-a44b-278bb2194cf2
-- **Latest published commit:** `5a8736bf` (Four-Ways Design A + DAM day-card icons)
+- **Latest published commit:** `af5edf3b` (Love Island Finale homepage section + holiday closure announcement bar).
 - **Stack:** TanStack Start (SSR) + Tailwind + shadcn/ui. Backend = Lovable Cloud / Supabase.
-- **Production domain (target):** unomastacoshop.com — canonicals/OG/sitemap already point here; **connect the domain at launch.**
+- **Production domain: CONNECTED ✅** — https://unomastacoshop.com is live; the lovable.app URL 302-redirects to it.
 
 ## 2. Connected infrastructure
 - **Supabase project:** `coandmppuqqzcbbhcien` — menu content (menu_sections/menu_items) + **`event_inquiries`** lead table.
@@ -34,13 +34,17 @@ Pick-up doc for resuming the Uno Más marketing-site build (Lovable) in a new se
 **Fiesta Box (`/fiesta-box`), Catering (`/catering`, Toast lead form), Now Hiring (`/now-hiring`, Google form), About (`/about`).** `/reservations` 301→Resy (removed). `/menu` 301→`/#menu`.
 **Inquiry system:** `InquireDialog` opens the form directly → saves to `event_inquiries` + emails Karissa via Resend. Used by Mezzanine + Plan-an-Event CTAs.
 **SEO:** unique titles/descriptions/canonical/OG/Twitter on every page; 100% image alt-text; robots.txt + sitemap.xml (13 urls) + llms.txt; favicon (agave on navy) + theme-color; JSON-LD on `/` (Restaurant + Menu + Event), `/mezzanine` (Place), `/private-events` (Service), `/about` (Restaurant).
+**Time-sensitive / event content (added 2026-07-03):**
+- **Holiday closure announcement bar** — date-gated in `page-shell.tsx`: shows a navy "Closed July 3 & 4 … back July 5 🎆" bar during Jul 3–4 2026 (Pacific), auto-reverts to the pink hiring bar on Jul 5. No manual removal needed.
+- **Love Island Finale section** — `LoveIslandSection` on the homepage (between What's-on-this-week and Fiesta teaser): dark watch-party band, framed MezzWatchParty photo, "Sunday, July 12 · Doors 5PM · 21+", "50 tickets, $10 each → $10 back as tab credit." CTA driven by `const EVENTBRITE_URL` in `src/routes/index.tsx` — currently EMPTY → shows a "Tickets on Eventbrite — coming soon" pill. **Paste the real Eventbrite event URL into that constant to make the "Get Tickets" button live.**
 
 ## 5. REMAINING / OPEN WORK (prioritized)
 1. **Marketing pixels — NOT installed (needs IDs from owner):** Meta Pixel ID, GA4 Measurement ID (`G-…`), Klaviyo public API key (6-char). Once provided: add to root head/tracking + wire events. (GA4 may already exist elsewhere — confirm.)
 2. **3 JSON-LD schemas to add (no inputs needed):** `/fiesta-box` → Product, `/catering` → Service, `/now-hiring` → JobPosting.
-3. **Connect production domain** unomastacoshop.com in Lovable at launch (canonicals already target it).
+3. **Love Island Finale — paste the Eventbrite event URL** into `EVENTBRITE_URL` (`src/routes/index.tsx`, `LoveIslandSection`) once the owner creates the event (50 tickets · $10 · "$10 = tab credit"). Until then the CTA is a "coming soon" pill.
 4. **Resend domain verification** for `events@unomastacoshop.com` sender (confirm done).
-5. **Nice-to-haves:** verify mobile drawer on a real device; optional tonal step on same-color section transitions; confirm day-icon look + Design-A cards on the owner's screen.
+5. **Nice-to-haves:** verify mobile drawer on a real device; optional tonal step on same-color section transitions.
+   _(Done: production domain connected; margs confirmed $6; Wednesday = Beer & Bites Wednesday.)_
 
 ## 6. Quick resume prompt for the next session
 > "Resume the Uno Más Lovable site (project 78c4ac75-6325-4f38-a44b-278bb2194cf2, live at uno-mas-site-builder.lovable.app, repo Ramsey-SL/uno-mas). Read website/SITE-STATUS.md. Next up: [pixels / 3 JSON-LD schemas / domain]. Use send_message with typecheck-only, deploy, verify via curl --compressed."
