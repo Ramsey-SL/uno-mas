@@ -83,7 +83,7 @@ Priority tags:
 ### Build /menu hub page **P1** · M
 - 4 cards: Lunch, Dinner, Brunch, Cocktails
 - Each card image-driven, links to /menu/[daypart]
-- Brunch card carries "Sundays from Mother's Day 2026 • 10am–4pm" badge
+- ✅ Brunch card is LIVE — links to /menu?tab=brunch (Sundays 10am–4pm)
 
 ### Build /menu/dinner page **P1** · M
 - Hero band with Antonio "DINNER" headline
@@ -143,7 +143,7 @@ Priority tags:
 ### Add /menu/lunch + /menu/brunch + /menu/cocktails **P2** · M
 - Currently menu_sections only has dinner + cocktails seeded. Need lunch/brunch data added.
 - Then duplicate the dinner page template for each daypart
-- Brunch page can show "Launching Mother's Day 2026" until live
+- ✅ Brunch is LIVE at /menu?tab=brunch (Sundays 10am–4pm, launched July 2026)
 
 ### SEO review (Lovable's suggestion) **P2** · S
 - Run Lovable's built-in SEO audit

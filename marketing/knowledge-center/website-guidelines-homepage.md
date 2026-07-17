@@ -122,7 +122,7 @@ Font files located in: `01_Brand_Assets/Fonts/`
 - **Layout:** Single location card or split layout with map
 - **Card content:**
   - 2020 N Monroe St, Suite C, Spokane WA 99201
-  - Hours: Tue–Thu 11am–9pm · Fri–Sat 11am–10pm · Sun Closed (brunch ON HOLD — relaunch TBD)
+  - Hours: Tue–Thu 11am–9pm · Fri–Sat 11am–10pm · Sun 10am–4pm (Sunday Brunch + lunch) · Mon Closed
   - Phone: (509) 960-7989
   - "Get Directions" link
   - "Make a Reservation" CTA → Resy

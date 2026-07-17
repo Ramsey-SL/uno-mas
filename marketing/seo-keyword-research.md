@@ -105,7 +105,8 @@ Phone: (509) 960-7989
 ## Hours
 Tue-Thu: 11am-9pm
 Fri-Sat: 11am-10pm
-Sun-Mon: Closed
+Sun: 10am-4pm (Sunday Brunch + lunch)
+Mon: Closed
 
 ## What we are
 - Full lunch + elevated dinner program
@@ -113,7 +114,7 @@ Sun-Mon: Closed
 - Speakeasy upstairs (The Mezzanine — 35-75 capacity, private events)
 - Outdoor patio bar + street food kitchen
 - Off-site catering
-- Sunday brunch (ON HOLD — relaunch TBD)
+- Sunday brunch (LIVE — Sundays 10am–4pm)
 
 ## What we are NOT
 - A traditional taqueria (we started as one but grew into more)

@@ -199,7 +199,7 @@ Dark, electric, and dramatic. Leather lounges. Fireplace. Upstairs, it gets quie
 |---|---|---|
 | Food, cocktails, main floor | ✅ | ❌ |
 | Patio content | ✅ | ❌ |
-| Sunday Brunch (ON HOLD) | ✅ | ❌ |
+| Sunday Brunch (LIVE · Sundays 10am–4pm) | ✅ | ❌ |
 | General community / restaurant content | ✅ | ❌ |
 | Mezzanine atmosphere / late night | ❌ | ✅ |
 | Private events in The Mezzanine | ❌ | ✅ |

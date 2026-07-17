@@ -40,7 +40,7 @@ We started as a taco shop. We grew into something more. Tacos are something we d
 
 **Team:** Ramsey Pruchnic (Owner), Karissa Schulke (GM / Events — karissa@unomastacoshop.com), Thomas Schulke (Operations Manager), Maraya Lindo (Executive Chef).
 
-**Active menu:** Full dinner program live — Carne Asada ($37), Surf & Turf ($47), Achiote Cilantro Shrimp ($30), Raw Bar (Oysters, Ceviche), Uno Más Feast ($129, feeds 2–3). Brunch is ON HOLD — relaunch TBD (Sundays 10am–4pm planned).
+**Active menu:** Full dinner program live — Carne Asada ($37), Surf & Turf ($47), Achiote Cilantro Shrimp ($30), Raw Bar (Oysters, Ceviche), Uno Más Feast ($129, feeds 2–3). Brunch is LIVE — every Sunday 10am–4pm (launched July 2026).
 
 ### One-Liners — Use by Context
 - **Long-form / brand descriptions / press:** "Uno Más is a modern Mexican restaurant and tequila bar in Spokane where the food is serious, the atmosphere is alive, and the only thing we take lightly is ourselves."
@@ -59,7 +59,7 @@ We started as a taco shop. We grew into something more. Tacos are something we d
 **Secondary audiences:**
 - Corporate event planners and hosts booking The Mezzanine or Patio
 - Date-night couples seeking something impressive without full fine-dining commitment
-- Brunch crowd (ON HOLD — relaunch TBD)
+- Brunch crowd (Sundays 10am–4pm — LIVE)
 - Late-night 21+ crowd (21+ after 9pm)
 - Travelers and visitors — consistently report Uno Más as the best Mexican food they've had in a long time; need strong Google presence and social proof
 
@@ -184,7 +184,7 @@ We started as a taco shop. We grew into something more. Tacos are something we d
 
 **Current business focus:**
 1. Dinner menu — primary active campaign; full push across paid, email/SMS, social, earned media
-2. Brunch — ON HOLD (relaunch TBD)
+2. Brunch — LIVE (Sundays 10am–4pm)
 3. Mezzanine + Patio as private event and catering destinations
 4. Scaling social content (Instagram + TikTok)
 5. Klaviyo email + SMS tied to Toast loyalty data

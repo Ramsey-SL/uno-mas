@@ -30,7 +30,7 @@
 
 **Foundation & SEO**
 - GTM installed site-wide with conversion events: `reserve_table_click`, `phone_click`, `directions_click`, `event_inquiry_view`, `cantina_club_signup`, `social_follow_click` (split phone_header / below_phone), `reel_play`, `reel_unmute`.
-- Footer rebuilt with correct hours (Sun–Mon closed · Tue–Thu 11–9 · Fri–Sat 11–10), address+map, click-to-call, both emails, socials, all nav links.
+- Footer rebuilt with correct hours (Tue–Thu 11–9 · Fri–Sat 11–10 · Sun 10am–4pm brunch+lunch · Mon closed), address+map, click-to-call, both emails, socials, all nav links.
 - Per-page SEO titles + meta descriptions; Restaurant + Menu JSON-LD; `llms.txt`; sitemap; robots.
 - **OG/social images are now dynamic** per page (resolve from each page's hero via Cloudinary, sized 1200×630). The old broken/screenshot OG images are gone.
 - 301 redirects: `/catering → /private-events`, `/menu/lunch-dinner → /menu`.
@@ -42,7 +42,7 @@
 
 **Copy (owner-reviewed via the review board, all applied)**
 - Homepage: social-proof strip removed; venues header = "The Food Is Serious. The Vibe Is Not."; Patio card = "Soak Up Spokane Summers…"; dinner feature = "The dinner Spokane didn't see coming."; Cantina Club simplified (107% stat removed — interim copy, see Open Items).
-- Menu hub hero "The Menus"; dinner reserve CTA "Your table's waiting."; lunch supporting copy + Build-Your-Own-Taco; brunch "Sunday brunch is coming." (coming-soon + email capture).
+- Menu hub hero "The Menus"; dinner reserve CTA "Your table's waiting."; lunch supporting copy + Build-Your-Own-Taco; **Sunday Brunch tab LIVE** at /menu?tab=brunch (Sundays 10am–4pm; old /menu/brunch now 301-redirects there).
 - Reservations hero + private-events cross-sell; About hero "Started with tacos. Didn't stop there."; **team section deleted**; Contact action cards; Fiesta Box hero + order CTA.
 - Mezzanine hero "The room for the nights that matter." (events-forward).
 

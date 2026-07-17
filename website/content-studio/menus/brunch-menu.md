@@ -1,87 +1,24 @@
-# Uno Más — Brunch Menu
-**Saturday & Sunday · Hours TBD**
+# Uno Más — Sunday Brunch Menu
+
+**Every Sunday · 10am–4pm** · *Live as of July 2026*
+
+The Sunday Brunch fresh sheet runs alongside the full lunch menu. Sub **Batata** on any plate to keep it vegetarian.
+
+> Source of truth: Supabase `menu_sections` / `menu_items`, daypart `brunch` (project `coandmppuqqzcbbhcien`). Live on the website at **/menu?tab=brunch**.
 
 ---
 
-## Brunch Tacos
+## Brunch
 
-*Street Size · $6.50 each | 2 tacos + side $16*
-*Big A** ¼lb · $10 each | 2 + side $23*
+*Every Sunday · 10am–4pm · Sub Batata for vegetarian.*
 
 | Item | Description | Price |
 |------|-------------|-------|
-| **Huevos Rancheros Taco** | Scrambled eggs, roasted salsa roja, cotija cheese, pickled jalapeño, corn tortilla | — |
-| **Chorizo & Egg Taco** | House chorizo, scrambled eggs, roasted tomatillo, queso fresco, cilantro | — |
-| **Shrimp & Egg Taco** | Grilled shrimp, scrambled eggs, tajín slaw, chipotle crema, corn tortilla | — |
-| **Carne Asada Brunch Taco** | Marinated steak, over-easy egg, salsa roja, white onion, cilantro, queso fresco | — |
-| **Al Pastor Chicken Taco** | Grilled chicken, pineapple, salsa verde, cilantro — available as street or big a** | — |
-
----
-
-## From the Sea
-
-| Item | Description | Price |
-|------|-------------|-------|
-| **★ Atun Del Mar** *(Chef's Feature)* | Seared ahi tuna, crispy wontons, jalapeño crema, avocado, sesame, citrus | — |
-| **Camaron Brunch Plate** | Grilled shrimp, scrambled eggs, tajín slaw, pineapple salsa, chipotle mayo, corn tortillas | — |
-
----
-
-## Plates
-
-*Served with choice of side*
-
-| Item | Description | Price |
-|------|-------------|-------|
-| **Chilaquiles Rojos** | Fried corn tortilla chips, roasted salsa roja, two eggs your way, crema, cotija, cilantro, pickled onion | — |
-| **Chilaquiles Verdes** | Fried corn tortilla chips, salsa verde, two eggs your way, crema, cotija, cilantro, pickled onion | — |
-| **Carnitas Hash** | House smoked pork, roasted potatoes, caramelized onion, poblano, two eggs your way, salsa roja | — |
-| **Steak & Eggs** | Marinated carne asada, two eggs your way, roasted potatoes, salsa roja, corn tortillas | — |
-
----
-
-## The Classics
-
-*American Brunch Favorites — Uno Más Style*
-
-| Item | Description | Price |
-|------|-------------|-------|
-| **Pancakes** | Buttermilk stack, warm maple syrup, house butter | — |
-| **French Toast** | Thick-cut, cinnamon-sugar egg batter, whipped cream, maple syrup | — |
-| **Waffle** | Crisp Belgian waffle, warm maple syrup, house butter | — |
-| **Breakfast Burrito** | Scrambled eggs, house chorizo, roasted potatoes, Monterey Jack, salsa roja, crema | — |
-| **Avocado Toast** | Smashed avocado, tajín, crumbled cotija, pickled onion, two eggs your way | — |
-| **Hair of the Hog** | Crispy carnitas, over-easy egg, masa-coated waffle fries, chipotle crema, green onion | — |
-
----
-
-## Protein Choices
-
-*Add to any Classic or Plate*
-
-| Protein | Description | Price |
-|---------|-------------|-------|
-| **Carne Asada** | Marinated steak | — |
-| **Al Pastor Chicken** | Grilled, pineapple & salsa verde | — |
-| **Carnitas** | House smoked pork | — |
-| **Camaron** | Grilled shrimp, tajín slaw | — |
-| **Barbacoa** | Braised chuck, pickled onion | — |
-| **Batata** | Grilled sweet potato *(vegan)* | — |
-| **Birria** | Braised chuck, consomé | $14 |
-| **Hongos** | Chile roasted portabella *(vegan)* | — |
-
----
-
-## À La Carte
-
-| Item | Description | Price |
-|------|-------------|-------|
-| **Eggs (2)** | Any style | — |
-| **Toast** | With house butter | — |
-| **Bacon or Sausage** | Side portion | — |
-| **Masa Coated Fries** | Crispy, seasoned | $7 |
-| **Rice & Beans** | Classic side | — |
-| **Chips & Salsa** | House-made | — |
+| **Horchata French Toast** | Brioche soaked in our horchata batter, grilled golden and finished with powdered sugar, cinnamon butter, warm syrup, and breakfast potatoes. | $14 |
+| **Breakfast Burrito** | Cheese-crusted tortilla with scrambled eggs, roasted potatoes, salsa verde, pickled red onions, cilantro, and your choice of protein. *Steak +9 · Carnitas +7 · Bacon +3 · Chorizo +5.* | $14 |
+| **Chilaquiles** | House tortilla chips simmered in salsa verde with a fried egg, cotija, crema, cilantro, and pickled red onions. | $14 |
+| **Hair of the Hog** | Toasted brioche with fruit jam, fried egg, melted Monterey Jack, and crispy bacon. Served with breakfast potatoes. | $14 |
+| **Breakfast Potato Hash** | Crispy potatoes with queso, black beans, and your choice of protein, topped with a fried egg, crema, Cholula, pico de gallo, and cilantro. *Steak +9 · Carnitas +7 · Bacon +3 · Chorizo +5.* | $15 |
 
 ---
 
@@ -89,22 +26,16 @@
 
 | Item | Description | Price |
 |------|-------------|-------|
-| **House Mimosa** | | — |
-| **Mimosa Flight** | 3 flavors | — |
-| **Bloody Maria** | Tequila-spiked | — |
-| **Paloma Spritz** | | — |
-| **Hair of the Dog Marg** | House margarita | $12 |
+| **Mimosa** | Sparkling, citrus, and sunshine. | $8 |
+| **Bloody Mary** | Bold, savory, and the perfect start. | $9 |
+| **Coffee** | Locally roasted by Indaba. | $3 |
+| **OJ** | Fresh and squeezed. | $2 |
+| **Apple Juice** | Crisp and refreshing. | $2 |
+| **Cranberry Juice** | Tart, tasty, and timeless. | $2 |
 
 ---
 
-## ⚠️ Still Needed Before Print
+## Notes for future updates
 
-- **Most prices** are marked `—` and need to be confirmed
-- **Brunch hours** (Sat/Sun open & close times)
-- **Plate side options** — what sides come with the Plates?
-- **Protein add-on pricing** — all except Birria ($14) need pricing
-- **À la carte pricing** for Eggs, Toast, Bacon/Sausage, Rice & Beans, Chips & Salsa
-- **Drink pricing** — Mimosa, Flight, Bloody Maria, Paloma Spritz
-- **Mimosa Flight flavors** — what are the 3 flavors?
-- **Dietary icons** — confirm GF options, any additional vegan/vegetarian callouts?
-- **Starters/shareable** — any brunch apps (guac, queso, etc.) to include?
+- **Photos/video:** not yet shot. The `/menu?tab=brunch` tab launched **text-first** (no media rail). When brunch photos are shot (Horchata French Toast, Chilaquiles, Breakfast Potato Hash, a Mimosa, a Bloody Mary), populate the `brunch` collection in `MenuCollection.tsx` and tag assets `role:hero-brunch` / `brunch`.
+- This fresh sheet **replaces** the earlier aspirational brunch draft (huevos rancheros tacos, pancakes/waffles, avocado toast, etc.), which was never launched.

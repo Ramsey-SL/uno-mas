@@ -8,7 +8,7 @@ Live site: Lovable `uno-mas-site-builder` (uno-mas-site-builder.lovable.app).
    - Fix only: restyle the **"Reserve a table"** button → primary **solid pink `#E22690`**, white text, rounded-full, soft shadow + hover-lift. Make all reserve CTAs consistent; secondary = teal/navy outline; tertiary = text + arrow.
 2. **Transitions (global)** — **T3 Overlap & parallax:** sections overlap slightly with rounded tops; subtle parallax on section background images.
 3. **~~Dinner section~~** — **REMOVED** ("The dinner Spokane didn't see coming." deleted). Dinner lives inside the interactive menu now.
-4. **Interactive Menu (M1)** — NEW section: segmented pill tabs **Lunch · Dinner · Cocktails**; content (items + photo) swaps in place, pulled from Supabase menu data; each tab has "See full [daypart] menu" → `/menu/[daypart]`. *(Brunch tab omitted — on hold.)*
+4. **Interactive Menu (M1)** — NEW section: segmented pill tabs **Lunch · Dinner · Cocktails**; content (items + photo) swaps in place, pulled from Supabase menu data; each tab has "See full [daypart] menu" → `/menu/[daypart]`. *(Brunch tab is now LIVE — Sundays 10am–4pm, links to /menu?tab=brunch.)*
 5. **What's On This Week (C3)** — NEW: events ticker + day-special chips.
    - **Love Island Watch Party** — Thursdays at The Mezzanine, doors 5 / show 6, 21+. **No tickets — reservations via Resy.** CTA "Reserve on Resy" + links to `/events/love-island` and the FB event (https://www.facebook.com/events/990221547324452/).
    - **Daily specials chips** → `/specials`: Taco Tuesday (BOGO street tacos · $6 margs · $30 pitchers) · Beer & Bites Wednesday ($5 pints · $10 loaded nachos · $10 loaded masa fries) · Burrito Thursday ($15 house burrito or bowl).

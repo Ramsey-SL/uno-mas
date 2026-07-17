@@ -296,7 +296,7 @@ monroe district spokane restaurants
 Use language from the brand voice and SEO keywords naturally:
 
 *Suggested copy:*
-> "Uno Más Tacos & Tequila is Spokane's modern Mexican restaurant and tequila bar on North Monroe Street. House-smoked meats, craft margaritas, full dinner program, and a Raw Bar. Sunday brunch ON HOLD — relaunch TBD (Sundays 10am–4pm planned). The Mezzanine — our upstairs speakeasy — is available for private events. Three venues in one address: The Cantina, The Mezzanine, and The Patio. Walk-ins always welcome. No delivery — we're a dine-in experience. Get a little lost."
+> "Uno Más Tacos & Tequila is Spokane's modern Mexican restaurant and tequila bar on North Monroe Street. House-smoked meats, craft margaritas, full dinner program, and a Raw Bar. Sunday brunch is served every Sunday, 10am–4pm. The Mezzanine — our upstairs speakeasy — is available for private events. Three venues in one address: The Cantina, The Mezzanine, and The Patio. Walk-ins always welcome. No delivery — we're a dine-in experience. Get a little lost."
 
 ### Categories to Maintain
 - Primary: Mexican restaurant (closest available)

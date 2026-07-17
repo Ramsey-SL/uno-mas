@@ -5,7 +5,7 @@
 **General Contact:** tacos@unomastacoshop.com
 **Private Events:** karissa@unomastacoshop.com
 **Phone:** (509) 960-7989
-**Hours:** Tue–Thu 11am–9pm | Fri–Sat 11am–10pm | Closed Sun & Mon *(Sunday brunch ON HOLD — relaunch TBD)*
+**Hours:** Tue–Thu 11am–9pm | Fri–Sat 11am–10pm | Sun 10am–4pm (Sunday Brunch + lunch) | Mon Closed
 **Lunch:** 11am–5pm | **Dinner:** 5pm–Close
 **Instagram:** @unomastacoshop
 **Facebook:** https://www.facebook.com/UnoMasTacoShop/
@@ -298,7 +298,7 @@ The experience is the product as much as the food is. Uno Más transports people
 > 2020 N Monroe St, Suite C — Spokane, WA 99205
 > (509) 960-7989 | tacos@unomastacoshop.com
 >
-> Tue–Thu: 11am–9pm | Fri–Sat: 11am–10pm | Sun–Mon: Closed
+> Tue–Thu: 11am–9pm | Fri–Sat: 11am–10pm | Sun: 10am–4pm | Mon: Closed
 > Lunch 11am–5pm | Dinner 5pm–Close
 >
 > Private Events & The Mezzanine: karissa@unomastacoshop.com
@@ -1119,7 +1119,7 @@ We'll hold your spot.
 | Private Events | karissa@unomastacoshop.com |
 | Phone | (509) 960-7989 |
 | Address | 2020 N Monroe St, Suite C, Spokane, WA 99205 |
-| Hours | Tue–Thu 11am–9pm · Fri–Sat 11am–10pm · Sun–Mon Closed |
+| Hours | Tue–Thu 11am–9pm · Fri–Sat 11am–10pm · Sun 10am–4pm · Mon Closed |
 | Lunch | 11am–5pm |
 | Dinner | 5pm–Close |
 | Uno Más Brand Kit (Canva) | kAFqKpAzOh0 |

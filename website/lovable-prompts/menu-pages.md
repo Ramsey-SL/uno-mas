@@ -2,7 +2,7 @@
 
 **Project:** uno-mas-site-builder
 **Date:** 2026-05-26
-**Scope:** Build /menu (hub) + /menu/dinner + /menu/lunch + /menu/cocktails in one pass. Brunch deferred.
+**Scope:** Build /menu (hub) + /menu/dinner + /menu/lunch + /menu/cocktails in one pass. *(Update July 2026: Brunch is now LIVE as a tab at /menu?tab=brunch — Sundays 10am–4pm.)*
 
 ---
 
@@ -66,7 +66,7 @@ Above the fold:
 4-card grid (responsive: 2x2 on desktop, stacked on mobile):
 - **Lunch** card — image: `role:hero-lunch`, headline "LUNCH", subhead "Burritos. Bowls. Tacos.", CTA → `/menu/lunch`
 - **Dinner** card — image: `role:hero-dinner`, headline "DINNER", subhead "Plates that surprise people.", CTA → `/menu/dinner`
-- **Brunch** card — image: `role:hero-brunch` fallback to `role:hero-cantina`, headline "BRUNCH", subhead "Coming Soon.", BADGE: "Launching Soon" (top-right corner in pink), CTA disabled OR links to a "/menu/brunch" stub page with email capture
+- **Brunch** card — LIVE (July 2026): headline "BRUNCH", subhead "Sundays · 10am–4pm", CTA → `/menu?tab=brunch`. *(Photos not yet shot — tab launched text-first.)*
 - **Cocktails** card — image: `role:hero-cocktails`, headline "COCKTAILS", subhead "Modern margaritas. Serious tequila.", CTA → `/menu/cocktails`
 
 Below cards:

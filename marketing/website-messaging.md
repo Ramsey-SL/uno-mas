@@ -388,7 +388,7 @@
 
 ### Hero band
 
-**Status:** Brunch deferred. Page stub recommended for SEO.
+**Status:** Brunch is LIVE — Sundays 10am–4pm (launched July 2026), now at `/menu?tab=brunch`. The coming-soon copy below is retired; kept for reference only.
 
 **Kicker — 2 options:**
 
