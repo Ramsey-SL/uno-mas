@@ -15,10 +15,10 @@ The Sunday Brunch fresh sheet runs alongside the full lunch menu. Sub **Batata**
 | Item | Description | Price |
 |------|-------------|-------|
 | **Horchata French Toast** | Brioche soaked in our horchata batter, grilled golden and finished with powdered sugar, cinnamon butter, warm syrup, and breakfast potatoes. | $14 |
-| **Breakfast Burrito** | Cheese-crusted tortilla with scrambled eggs, roasted potatoes, salsa verde, pickled red onions, cilantro, and your choice of protein. *Steak +9 · Carnitas +7 · Bacon +3 · Chorizo +5.* | $14 |
+| **Breakfast Burrito** | Cheese-crusted tortilla with scrambled eggs, roasted potatoes, salsa verde, pickled red onions, cilantro, and your choice of protein. *Bacon +3 · Chorizo +5 · Carnitas +7.* | $14 |
 | **Chilaquiles** | House tortilla chips simmered in salsa verde with a fried egg, cotija, crema, cilantro, and pickled red onions. | $14 |
 | **Hair of the Hog** | Toasted brioche with fruit jam, fried egg, melted Monterey Jack, and crispy bacon. Served with breakfast potatoes. | $14 |
-| **Breakfast Potato Hash** | Crispy potatoes with queso, black beans, and your choice of protein, topped with a fried egg, crema, Cholula, pico de gallo, and cilantro. *Steak +9 · Carnitas +7 · Bacon +3 · Chorizo +5.* | $15 |
+| **Breakfast Potato Hash** | Crispy potatoes with queso, black beans, and your choice of protein, topped with a fried egg, crema, Cholula, pico de gallo, and cilantro. *Bacon +3 · Chorizo +5 · Carnitas +7.* | $15 |
 
 ---
 
