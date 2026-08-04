@@ -165,7 +165,7 @@ By appointment / private event bookings only. Contact karissa@unomastacoshop.com
 
 | Item | Price | Description |
 |---|---|---|
-| ~~Oysters~~ | — | **Removed from the menu (July 2026).** |
+| ~~Oysters~~ | — | **Removed from the menu (July 2026).** *(Tostilocos also confirmed removed this round — see `brand-guidelines/09-menu-product-context.md`; it was already absent from the current printed menus/Supabase, so no DB change was needed.)* |
 | Ceviche | MP | Fresh, bold, and bright. Ask your server for today's preparation. |
 
 ### The Feast
@@ -769,7 +769,7 @@ Full analysis in `brand-intelligence-center/differentiation.md`. Quick refs:
 | **Yelp** | 20 photos, 13 reviews as of Feb 2026 | [Listing](https://www.yelp.com/biz/uno-más-spokane-spokane) |
 
 ### Recent review themes (from Yahoo/Yelp aggregate, last 12 months)
-- 🟢 **Positive:** "bold flavor," Lula Wings called out specifically, Tostilocos mentioned, brunch launch ("first day Uno Más offered brunch — Boozy Barista drink"), space praised ("pretty spacious with a private event room"), location callout ("tucked behind the new Indaba on Knox")
+- 🟢 **Positive:** "bold flavor," Lula Wings called out specifically, Tostilocos mentioned *(historical review quote — item since removed from the menu, confirmed 2026-08-04)*, brunch launch ("first day Uno Más offered brunch — Boozy Barista drink"), space praised ("pretty spacious with a private event room"), location callout ("tucked behind the new Indaba on Knox")
 - 🟡 **Mixed:** "white rice in the bowl" feedback (Camino/Monroe bowls), "so/so" portions
 - 🔴 **Negative:** One review noting decline vs. original Wonder Building location ("now established, and it has only degraded")
 
