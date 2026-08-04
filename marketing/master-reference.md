@@ -4,7 +4,7 @@
 > to — facts, configs, voice rules. Read CLAUDE.md first for orientation and repo structure.
 
 **Owner:** Ramsey Pruchnic
-**Last updated:** 2026-05-25
+**Last updated:** 2026-08-04
 **Purpose:** Single source of truth for the brand. House info, menu, social, technical stack, SEO, voice. Reference this file in any new Claude session, brief, or vendor handoff — it's the canonical doc.
 
 **How this file relates to others:**
@@ -125,9 +125,11 @@ By appointment / private event bookings only. Contact karissa@unomastacoshop.com
 
 ## MENU
 
-*Source of truth: PDFs `UPDATED Menu Monroe APRIL 26.pdf` (lunch/all-day) + `Uno Mas Dinner Menu - March 2026.pdf` (dinner). Supabase `menu_sections` + `menu_items` tables should mirror these. POS-side menu lives in Toast.*
+*Source of truth: PDFs `UM Menu Lunch & Cocktails — July 2026.pdf` (lunch/cocktails) + `Uno Mas Dinner Menu — July 2026.pdf` (dinner) + Sunday Brunch menu (July 2026). Supabase `menu_sections` + `menu_items` tables should mirror these. POS-side menu lives in Toast.*
 
-*Last reconciled: 2026-05-25 — Supabase synced ✅ (18 sections, 69 items live).*
+*Last reconciled: 2026-08-04 — Supabase synced ✅ against the July 2026 printed menus. Price updates + Oysters removal + Brunch second-page expansion applied.*
+
+> ⚠️ **Print-menu inconsistency (flagged 2026-08-04, still open):** The Lunch & Cocktails PDF prices Chip & Dip Trio at $16; the Dinner PDF prices the identical item at $15. Ramsey has directed we use **$16** everywhere on the website/DB as the interim fix, but the two printed menus disagree and should be reconciled with the printer/menu designer.
 
 ### Shareables / For The Table *(available all day)*
 
@@ -135,9 +137,9 @@ By appointment / private event bookings only. Contact karissa@unomastacoshop.com
 |---|---|---|
 | **Starter Trio** | $45 | Chip & Dip Trio, Lula Wings, and Loaded Masa Fries. Start here. End happy. |
 | **Lula Wings** | $18 | 1 lb of wings tossed in housemade Lula sauce, topped with lime zest, cotija cheese & fresh cilantro. Crunchy, bright, & hitting every flavor note. |
-| Masa Coated Fries | $7 | Crispy masa-coated fries. Choice of dip: Chipotle Crema, Jalapeño Ranch, or Ketchup (if you must). |
-| Loaded Masa Coated Fries | $14 | Loaded with queso blanco, black beans, guacamole, salsa, sour cream & fresh cilantro. *Add: Skirt Steak $9 / Carnitas $7 / Grilled Chicken $6* |
-| The Big F*** Quesadilla (BFQ) | $14 | Size of a medium pizza. Loaded with melted cheese — it's exactly what it sounds like. *Add: Skirt Steak $9 / Carnitas $7 / Grilled Chicken $6* |
+| Masa Coated Fries | $8 | Crispy masa-coated fries. Choice of dip: Chipotle Crema, Jalapeño Ranch, or Ketchup (if you must). |
+| Loaded Masa Coated Fries | $15 | Loaded with queso blanco, black beans, guacamole, salsa, sour cream & fresh cilantro. *Add: Skirt Steak $9 / Carnitas $7 / Grilled Chicken $6* |
+| The Big F*** Quesadilla (BFQ) | $15 | Size of a medium pizza. Loaded with melted cheese — it's exactly what it sounds like. *Add: Skirt Steak $9 / Carnitas $7 / Grilled Chicken $6* |
 
 ### Chips & Dips *(available all day)*
 
@@ -146,24 +148,24 @@ By appointment / private event bookings only. Contact karissa@unomastacoshop.com
 | Chips & Salsa | $4 | |
 | Chips & Guacamole | $6 | |
 | Chips & Queso Blanco | $8 | |
-| **Chip & Dip Trio** | $15 | Salsa, guacamole & queso blanco — three dips, one massive pile of chips. The move for the table. |
-| Nachos | $14 | Loaded with queso blanco, black beans, guacamole, salsa, sour cream & fresh cilantro. *Add: Skirt Steak $9 / Carnitas $7 / Grilled Chicken $6* |
+| **Chip & Dip Trio** | $16 | Salsa, guacamole & queso blanco — three dips, one massive pile of chips. The move for the table. *(See print-menu inconsistency note above.)* |
+| Nachos | $15 | Loaded with queso blanco, black beans, guacamole, salsa, sour cream & fresh cilantro. *Add: Skirt Steak $9 / Carnitas $7 / Grilled Chicken $6* |
 
 ### Dinner Plates *(elevated dinner program — served with cilantro lime rice + house-made black beans)*
 
 | Item | Price | Description | Slug |
 |---|---|---|---|
-| **Carne Asada** ⭐ | $37 | Skirt steak, grilled hot and fast. Salsa roja, fresh pico, charred onion & jalapeño. Corn tortillas. The one people come back for. | `carne-asada` |
-| **Surf & Turf** ⭐ | $47 | Grilled skirt steak meets achiote cilantro tiger prawns. Everything included. Nothing held back. This is the move. | `surf-turf` |
+| **Carne Asada** ⭐ | $39 | Skirt steak, grilled hot and fast. Salsa roja, fresh pico, charred onion & jalapeño. Corn tortillas. The one people come back for. | `carne-asada` |
+| **Surf & Turf** ⭐ | $49 | Grilled skirt steak meets achiote cilantro tiger prawns. Everything included. Nothing held back. This is the move. | `surf-turf` |
 | **Achiote Cilantro Shrimp** ⭐ | $30 | Tiger prawns in achiote, cilantro & lime — bright, a little smoky, deeply good. Cabbage slaw, pineapple salsa, corn tortillas. | `achiote-shrimp` |
 | Al Pastor Chicken | **$24** | Marinated chicken thighs and pineapple, skewered and grilled over open flame. Salsa verde, corn tortillas. Old school technique. Serious results. | `al-pastor` |
-| **Birria Tacos** (dinner) ⭐ | $18 | Two braised chuck tacos on corn tortillas with melted Monterey Jack, served alongside rich consommé for dipping. Order these first. Thank us later. | `birria-tacos-dinner` |
+| **Birria Tacos** (dinner) ⭐ | $18.50 | Two braised chuck tacos on corn tortillas with melted Monterey Jack, served alongside rich consommé for dipping. Order these first. Thank us later. | `birria-tacos-dinner` |
 
 ### Raw Bar
 
 | Item | Price | Description |
 |---|---|---|
-| Oysters | MP | Ask your server for current availability. |
+| ~~Oysters~~ | — | **Removed from the menu (July 2026).** |
 | Ceviche | MP | Fresh, bold, and bright. Ask your server for today's preparation. |
 
 ### The Feast
@@ -176,7 +178,7 @@ By appointment / private event bookings only. Contact karissa@unomastacoshop.com
 
 | Item | Price | Description |
 |---|---|---|
-| **Street Tacos** (3 per order) | $18 | Mix & match proteins. Corn tortillas, cilantro, onion & salsa. Options: Carnitas, Barbacoa, Hongos (vegan), Batata (vegetarian/can be vegan). |
+| **Street Tacos** (3 per order) | $18.50 | Mix & match proteins. Corn tortillas, cilantro, onion & salsa. Options: Carnitas, Barbacoa, Hongos (vegan), Batata (vegetarian/can be vegan). |
 | **Chef's Pick** (2 tacos) | $15 | Changes weekly. Always worth ordering. |
 
 ### Lunch — Burritos
@@ -184,7 +186,7 @@ By appointment / private event bookings only. Contact karissa@unomastacoshop.com
 | Item | Price | Description |
 |---|---|---|
 | **The 509** ⭐ | $23 | Marinated skirt steak + fries + Monterey Jack cheese + salsa verde + pico de gallo + cilantro + guacamole + crema. |
-| Thicc Chic | $16 | Al pastor chicken + rice + beans + Monterey Jack cheese + cilantro + pickled red onion + aguacate + guacamole. |
+| Thicc Chic | $17 | Al pastor chicken + rice + beans + Monterey Jack cheese + cilantro + pickled red onion + aguacate + guacamole. |
 | The Notorious P.I.G | $18 | House smoked pork + rice + beans + Monterey Jack cheese + pickled red onion + cilantro + salsa verde + guacamole. |
 
 ### Lunch — Bowls
@@ -200,7 +202,7 @@ By appointment / private event bookings only. Contact karissa@unomastacoshop.com
 
 | Item | Price |
 |---|---|
-| 2 Street Tacos + side | $16 |
+| 2 Street Tacos + side | $16.50 |
 | 2 Big A** ¼ lb Tacos + side | $23 |
 
 ### Lunch — Individual Tacos
@@ -225,7 +227,7 @@ By appointment / private event bookings only. Contact karissa@unomastacoshop.com
 |---|---|---|---|
 | **Birria Tacos** (lunch) ⭐ | $14 | Braised chuck + melted Monterey Jack cheese + cilantro + white onion + consommé. | `birria-tacos-lunch` |
 
-> ⚠️ **Birria pricing note:** $14 on lunch menu, $18 on dinner menu. Confirm intent — same item or different portion?
+> ⚠️ **Birria pricing note:** $14 on lunch menu, $18.50 on dinner menu (gap widened with the July 2026 dinner price update). Confirm intent — same item or different portion?
 
 ### Sides *(available all day)*
 
@@ -246,21 +248,21 @@ By appointment / private event bookings only. Contact karissa@unomastacoshop.com
 
 | Cocktail | Price | Description | Slug |
 |---|---|---|---|
-| House Margarita | $12 | Tequila blanco + agave + Meyer lemon juice + salt rim + lemon wheel garnish. *Spicy available. Sub mezcal / Cadillac +$2* | `house-margarita` |
-| **Espresso Margarita** ⭐ | $15 | Tequila blanco + Indaba cold brew + Baileys + agave. *(Indaba Coffee collab — uniquely Spokane)* | `espresso-margarita` |
-| Frozen Margarita | $12 | Rotating flavors. Ask your server. | `frozen-margarita` |
-| Paloma | $14 | Tequila + grapefruit juice + lime juice + agave + grapefruit soda water + garnish grapefruit wedge. | `paloma` |
-| Tepache Bevvy | $12 | Choice of tequila / mezcal / rum + lemon juice + tepache. | `tepache-bevvy` |
-| Latin Candy Shot | $8 | Tequila + lime juice + agave + pineapple juice + watermelon pucker + serranos. | `latin-candy-shot` |
-| POM 75 | $14 | Gin + lemon juice + agave + pomegranate liqueur + champagne. | `pom-75` |
+| House Margarita | $12.50 | Tequila blanco + agave + Meyer lemon juice + salt rim + lemon wheel garnish. *Spicy available. Sub mezcal / Cadillac +$2* | `house-margarita` |
+| **Espresso Margarita** ⭐ | $15.50 | Tequila blanco + Indaba cold brew + Baileys + agave. *(Indaba Coffee collab — uniquely Spokane)* | `espresso-margarita` |
+| Frozen Margarita | $11 | Rotating flavors. Ask your server. | `frozen-margarita` |
+| Paloma | $14.50 | Tequila + grapefruit juice + lime juice + agave + grapefruit soda water + garnish grapefruit wedge. | `paloma` |
+| Tepache Bevvy | $12.50 | Choice of tequila / mezcal / rum + lemon juice + tepache. | `tepache-bevvy` |
+| Latin Candy Shot | $8.50 | Tequila + lime juice + agave + pineapple juice + watermelon pucker + serranos. | `latin-candy-shot` |
+| POM 75 | $14.50 | Gin + lemon juice + agave + pomegranate liqueur + champagne. | `pom-75` |
 | Jamica Spritz | $14 | Tequila + jamica syrup + lime juice + St. Germain + agave. Top with champagne. | `jamica-spritz` |
-| Dirty Horchata | $12 | Rum + house-made horchata. | `dirty-horchata` |
+| Dirty Horchata | $12.50 | Rum + house-made horchata. | `dirty-horchata` |
 
 ### Pitchers
 
 | Item | Price |
 |---|---|
-| House Margarita Pitcher | $40 |
+| House Margarita Pitcher | $50 |
 | Beer Pitcher | $25 |
 
 ### Beer
@@ -296,7 +298,19 @@ Tequila flights available — ask your server.
 
 ### Brunch *(Sundays 10am–4pm — LIVE, launched July 2026)*
 
-*Fresh sheet: Horchata French Toast $14, Breakfast Burrito $14, Chilaquiles $14, Hair of the Hog $14, Breakfast Potato Hash $15 · Mimosa $8, Bloody Mary $9, Coffee $3, OJ/Apple/Cranberry $2. Full doc: `website/content-studio/menus/brunch-menu.md`.*
+*Two-sided print menu (July 2026). Front = Breakfast + Brunch Drinks. Back = Apps + Street Tacos + House Favorites (added to the live site's Brunch tab 2026-08-04). Full doc: `website/content-studio/menus/brunch-menu.md`. Live at `/menu?tab=brunch`.*
+
+**Breakfast:** Steak & Eggs $32 (**new item**) · Breakfast Burrito $14 + protein · Chilaquiles $14 · Breakfast Potato Hash $15 + protein · Hair of the Hog $14 · Horchata French Toast $14. Protein add-ons (Burrito & Potato Hash): Carne Asada +$9, Carnitas +$7, Chorizo +$5, Bacon +$3.
+
+**Brunch Drinks:** Mimosa $8 · Bloody Mary $9 · Coffee $3 · Orange Juice $2 · Apple Juice $2 · Cranberry Juice $2.
+
+**Apps:** Lula Wings $18 · Chip & Dip Trio $16 · Masa-Coated Waffle Fries $8.
+
+**Street Tacos** *(2-taco minimum, street size only)*: Carne Asada, Batata (vegetarian), Carnitas, Barbacoa — $6.50 each ($13 for 2).
+
+**House Favorites:** BFQ $14 + protein · Loaded Waffle Fries or Nachos $15 + protein · The Notorious P.I.G. (burrito or bowl) $18 · Churros $7. Protein add-ons: Carne Asada +$9, Carnitas +$7.
+
+**Sides** *(shared with the lunch/dinner Sides section above)*: Cilantro Lime Rice $6 · Black Beans $7 · Street Corn $9 · Escabeche $3.
 
 ⭐ = signature item (lead in copy, photography, ads)
 

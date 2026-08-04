@@ -1,8 +1,8 @@
 # Uno Más — Sunday Brunch Menu
 
 **Every Sunday · 10am–4pm**  
-**Status:** Approved content source for the expanded two-sided print menu  
-**Updated:** July 2026
+**Status:** Final — matches the printed menu and is now fully live on the website (both pages, including Steak & Eggs and the Apps/Street Tacos/House Favorites block, added 2026-08-04)  
+**Updated:** 2026-08-04
 
 This document is the working source of truth for the expanded Sunday Brunch menu. It combines the approved brunch items with only the selected lunch-menu items listed below.
 
@@ -36,11 +36,10 @@ This document is the working source of truth for the expanded Sunday Brunch menu
 |---|---:|
 | **Carne Asada** | **+$9** |
 | **Carnitas** | **+$7** |
-| **Barbacoa** | **TBD** |
 | **Chorizo** | **+$5** |
 | **Bacon** | **+$3** |
 
-Protein add-ons should be displayed from highest to lowest price once the Barbacoa surcharge is confirmed.
+**Resolved 2026-08-04:** Barbacoa did not make it onto the final printed breakfast add-on list — only Carne Asada / Carnitas / Chorizo / Bacon are offered as breakfast protein add-ons. Removed from this table (was previously "TBD").
 
 ## Brunch Drinks
 
@@ -75,7 +74,8 @@ Protein add-ons should be displayed from highest to lowest price once the Barbac
 | **Batata** | Grilled sweet potato with melted Monterey Jack, pickled red onion, cilantro, and salsa aguacate. Can be made vegan. | **$6.50 each** |
 | **Carnitas** | House-smoked pork with melted Monterey Jack, pickled red onion, cilantro, and salsa verde. | **$6.50 each** |
 | **Barbacoa** | Braised chuck with salsa verde, cilantro, and pickled red onion. | **$6.50 each** |
-| **Mahi-Mahi** | Tempura-battered mahi-mahi topped with seasoned cabbage and avocado-chipotle crema. | **TBD** |
+
+**Resolved 2026-08-04:** Mahi-Mahi did not make it onto the final printed menu — the brunch Street Tacos protein lineup is Carne Asada / Batata / Carnitas / Barbacoa only. Removed from this table (was previously "TBD").
 
 ## Extras
 
@@ -92,18 +92,23 @@ Protein add-ons should be displayed from highest to lowest price once the Barbac
 |---|---:|
 | **Carne Asada** | **+$9** |
 | **Carnitas** | **+$7** |
-| **Barbacoa** | **TBD** |
+
+**Resolved 2026-08-04:** Barbacoa did not make it onto the final printed add-on list for the BFQ or Loaded Waffle Fries/Nachos — only Carne Asada / Carnitas are offered as add-ons here. Removed from this table (was previously "TBD"). BFQ and Loaded Waffle Fries/Nachos remain base-price-plus-protein (not an all-in price).
 
 ---
 
-# Pricing still requiring confirmation
+# Pricing — status
 
-1. Mahi-mahi street taco price.
-2. Barbacoa add-on price for the Breakfast Burrito.
-3. Barbacoa add-on price for the Breakfast Potato Hash.
-4. Barbacoa add-on price for the BFQ.
-5. Barbacoa add-on price for Loaded Waffle Fries or Nachos.
-6. Confirm whether BFQ and Loaded Waffle Fries/Nachos remain base-price-plus-protein or move to one all-in price.
+All items below are now confirmed and live on the website (`/menu?tab=brunch`) as of 2026-08-04:
+
+1. ~~Mahi-mahi street taco price~~ — **resolved: dropped from the menu**, not printed.
+2. ~~Barbacoa add-on price for the Breakfast Burrito~~ — **resolved: no Barbacoa add-on printed**; option removed.
+3. ~~Barbacoa add-on price for the Breakfast Potato Hash~~ — **resolved: no Barbacoa add-on printed**; option removed.
+4. ~~Barbacoa add-on price for the BFQ~~ — **resolved: no Barbacoa add-on printed**; option removed.
+5. ~~Barbacoa add-on price for Loaded Waffle Fries or Nachos~~ — **resolved: no Barbacoa add-on printed**; option removed.
+6. ~~Confirm whether BFQ and Loaded Waffle Fries/Nachos remain base-price-plus-protein or move to one all-in price~~ — **resolved: base-price-plus-protein confirmed.**
+
+No open pricing questions remain on this document.
 
 ---
 
