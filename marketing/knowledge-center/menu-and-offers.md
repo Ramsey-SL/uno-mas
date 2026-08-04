@@ -1,11 +1,13 @@
 # MENU_AND_OFFERS.md
 ## Uno Más Tacos & Tequila — Complete Menu Reference for AI Agents
 
-**Version:** 2.3
-**Last Updated:** 2026-06-24
+**Version:** 2.4
+**Last Updated:** 2026-08-04
 **Owner:** Ramsey
-**Source:** Current printed menus — April 2026 (UnoMas_Menu_Monroe_April2026.pdf in 07_MENU_ASSETS/Menus/)
+**Source:** Current printed menus — July 2026 (UM Menu Lunch & Cocktails — July 2026.pdf, Uno Mas Dinner Menu — July 2026.pdf, Sunday Brunch menu — July 2026, in 07_MENU_ASSETS/Menus/)
 **Status:** Active — Cross-reference before writing any product copy
+
+> ⚠️ **Open print-menu inconsistency:** The Lunch & Cocktails PDF prices Chip & Dip Trio at $16; the Dinner PDF prices the identical item at $15. Per owner direction, use **$16** everywhere until the printed menus are reconciled.
 
 > **AI AGENT NOTE:** Always use this file for accurate item names, prices, and descriptions. Do not guess or use outdated pricing. If an item isn't listed here, ask for clarification before writing about it. Weekly specials are ACTIVE as of June 2026 — Taco Tuesday, Beer & Bites Wednesday, and Burrito Thursday are all currently running (see section 12). Beer section includes full Michelada/Cheleda/Buckets detail.
 
@@ -15,8 +17,12 @@
 
 1. Quick-Reference Pricing Sheet
 2. Tacos
+2a. Dinner Tacos
 3. Burritos
 4. Bowls
+4a. Dinner Plates
+4b. Raw Bar
+4c. The Feast
 5. For The Table (Shareables)
 6. Chips & Dips
 7. Sides
@@ -27,6 +33,7 @@
 12. Weekly Specials
 13. Mezzanine Private Event Packages
 14. Writing Guidelines Per Category
+15. Sunday Brunch
 
 ---
 
@@ -34,27 +41,33 @@
 
 | Item | Price |
 |---|---|
-| Street Taco | $6.50 each |
-| 2 Street Tacos + Side | $16 |
+| Street Taco (lunch) | $6.50 each |
+| 2 Street Tacos + Side (lunch) | $16.50 |
 | Big A** ¼lb Taco | $10 each |
 | 2 Big A** ¼lb Tacos + Side | $23 |
-| Birria Tacos | $14 (standalone — not included in taco plates) |
-| House Margarita (Lunch) | $10 |
+| Birria Tacos (lunch, standalone) | $14 |
+| Birria Tacos (dinner) | $18.50 |
+| Dinner Street Tacos (3/order) | $18.50 |
+| Chef's Pick (2 dinner tacos) | $15 |
+| Dinner Plates range | $24–$49 (Carne Asada $39 · Surf & Turf $49 · Achiote Cilantro Shrimp $30 · Al Pastor Chicken $24) |
+| The Uno Más Feast (feeds 2–3) | $129 |
+| Raw Bar — Ceviche | MP *(Oysters removed from menu, July 2026)* |
+| House Margarita (Lunch) | $10 *(unconfirmed against July 2026 pricing — verify)* |
 | Weekly Specials | Taco Tue · $5 Wed · Burrito Thu |
-| Burrito range | $16–$23 |
+| Burrito range | $17–$23 |
 | Bowl range | $13–$20 |
 | Sides | $6–$9 |
 | Starter Trio | $45 (Chip & Dip Trio + Lula Wings + Loaded Masa Fries) |
 | Lula Wings | $18 (1 lb) |
-| Loaded Masa Coated Fries | $14 |
-| Masa Coated Fries | $7 |
-| Big F*** Quesadilla (BFQ) | $14 |
-| Nachos | $14 base |
-| Chips & Dip Trio | $15 |
-| House Margarita | $12 |
-| Cocktails | $12–$15 |
-| Shots | $8 |
-| Pitchers — House Margarita | $40 |
+| Loaded Masa Coated Fries | $15 |
+| Masa Coated Fries | $8 |
+| Big F*** Quesadilla (BFQ) | $15 |
+| Nachos | $15 base |
+| Chips & Dip Trio | $16 *(see print-menu inconsistency note above)* |
+| House Margarita | $12.50 |
+| Cocktails | $11–$15.50 |
+| Shots | $8.50 |
+| Pitchers — House Margarita | $50 |
 | Pitchers — Beer | $25 |
 | Churros | $7 |
 | Fiesta Pack (online order only) | via Toast — link in VENUE_AND_OPERATIONS.md |
@@ -64,7 +77,7 @@
 ## 2. TACOS
 
 ### Street Tacos
-**Price:** $6.50 each | 2 Street Tacos + Side: $16
+**Price:** $6.50 each | 2 Street Tacos + Side: $16.50
 The everyday hero. Most popular item. Accessible price, serious flavor.
 
 **Available Proteins:**
@@ -99,11 +112,26 @@ Same proteins as street tacos. Bigger, bolder, made for the occasion.
 
 ### Copywriting Notes for Tacos
 - Street tacos are the volume driver — lead with them in everyday content
-- Price is now $6.50 each, $16 for the 2+side plate
+- Price is now $6.50 each, $16.50 for the 2+side plate
 - Big A** ¼lb tacos are the occasion/upsell
 - Carnitas = "house smoked pork" — always flag this detail
 - Birria = premium standalone, great for content spotlights
 - Batata and Hongos = vegan options
+
+---
+
+## 2a. DINNER TACOS
+
+*Separate from the Dinner Plates program below — this is the dinner menu's tacos section.*
+
+| Item | Price | Description |
+|---|---|---|
+| **Street Tacos** (3 per order) | $18.50 | Mix & match proteins. Corn tortillas, cilantro, onion & salsa. Options: Carnitas, Barbacoa, Hongos (vegan), Batata (vegetarian/can be vegan). |
+| **Chef's Pick** (2 tacos) | $15 | Changes weekly. Always worth ordering. |
+
+### Copywriting Notes for Dinner Tacos
+- Distinct from lunch Street Tacos — dinner version is 3 per order at $18.50, not sold à la carte
+- Chef's Pick rotates weekly — good for "what's new this week" content
 
 ---
 
@@ -114,13 +142,14 @@ Same proteins as street tacos. Bigger, bolder, made for the occasion.
 | Name | Price | Ingredients |
 |---|---|---|
 | **The 509** | $23 | Marinated skirt steak + fries + melted Monterey Jack cheese + salsa verde + pico de gallo + cilantro + guacamole + crema |
-| **Thicc Chic** | $16 | Al pastor chicken + rice + beans + melted Monterey Jack cheese + cilantro + pickled red onion + aguacate + guacamole |
+| **Thicc Chic** | $17 | Al pastor chicken + rice + beans + melted Monterey Jack cheese + cilantro + pickled red onion + aguacate + guacamole |
 | **The Notorious P.I.G** | $18 | House smoked pork + rice + beans + melted Monterey Jack cheese + pickled red onion + cilantro + salsa verde + guacamole |
 
 ### Copywriting Notes for Burritos
 - The 509 = Spokane area code reference, lean into local pride. Now $23.
 - The 509 uses skirt steak (not just "steak") + fries (not waffle fries)
 - The Notorious P.I.G = house-smoked pork, always highlight
+- Thicc Chic is now $17 (was $16)
 - Use the names, not just descriptors
 
 ---
@@ -144,6 +173,42 @@ Same proteins as street tacos. Bigger, bolder, made for the occasion.
 
 ---
 
+## 4a. DINNER PLATES
+
+*Elevated dinner program — served with cilantro lime rice + house-made black beans.*
+
+| Item | Price | Description | Slug |
+|---|---|---|---|
+| **Carne Asada** ⭐ | $39 | Skirt steak, grilled hot and fast. Salsa roja, fresh pico, charred onion & jalapeño. Corn tortillas. The one people come back for. | `carne-asada` |
+| **Surf & Turf** ⭐ | $49 | Grilled skirt steak meets achiote cilantro tiger prawns. Everything included. Nothing held back. This is the move. | `surf-turf` |
+| **Achiote Cilantro Shrimp** ⭐ | $30 | Tiger prawns in achiote, cilantro & lime — bright, a little smoky, deeply good. Cabbage slaw, pineapple salsa, corn tortillas. | `achiote-shrimp` |
+| Al Pastor Chicken | $24 | Marinated chicken thighs and pineapple, skewered and grilled over open flame. Salsa verde, corn tortillas. Old school technique. Serious results. | `al-pastor` |
+| **Birria Tacos** (dinner) ⭐ | $18.50 | Two braised chuck tacos on corn tortillas with melted Monterey Jack, served alongside rich consommé for dipping. Order these first. Thank us later. | `birria-tacos-dinner` |
+
+### Copywriting Notes for Dinner Plates
+- Carne Asada is the flagship — now $39 (was $37)
+- Surf & Turf now $49 (was $47) — "everything included" framing
+- Dinner Birria ($18.50) is a different price point from lunch Birria ($14) — see Birria pricing note in section 2a/Writing Guidelines; confirm with Ramsey whether this is intentional portion difference
+
+---
+
+## 4b. RAW BAR
+
+| Item | Price | Description |
+|---|---|---|
+| ~~Oysters~~ | — | **Removed from the menu, July 2026.** Do not reference in new copy; retire from any existing content/ads. |
+| Ceviche | MP | Fresh, bold, and bright. Ask your server for today's preparation. |
+
+---
+
+## 4c. THE FEAST
+
+| Item | Price | Description | Slug |
+|---|---|---|---|
+| **The Uno Más Feast** ⭐ | $129 | A spread of signature dishes. Feeds 2–3. Includes: Carne Asada, Achiote Cilantro Shrimp, Al Pastor Chicken, cilantro lime rice, house-made black beans, salsa and tortillas. | `uno-mas-feast` |
+
+---
+
 ## 5. FOR THE TABLE (SHAREABLES)
 
 *Perfect for groups, patio sharing, Mezzanine events.*
@@ -152,10 +217,10 @@ Same proteins as street tacos. Bigger, bolder, made for the occasion.
 |---|---|---|
 | **Starter Trio** | $45 | Chip & Dip Trio + Lula Wings + Loaded Masa Fries. "Start here. End happy." |
 | **Lula Wings** | $18 | 1 lb of wings tossed in housemade Lula sauce + lime zest + cotija cheese + fresh cilantro. "Crunchy, bright, & hitting every flavor note." |
-| **Masa Coated Fries** | $7 | Basket of crispy masa-coated fries. Choose your dip: Chipotle Crema, Jalapeño Ranch, or Ketchup (if you must). |
-| **Loaded Masa Coated Fries** | $14 | Masa Coated Fries loaded with queso blanco, black beans, guacamole, salsa, sour cream & fresh cilantro. Add: Skirt Steak +$9 \| Carnitas +$7 \| Grilled Chicken +$6 |
-| **The Big F*** Quesadilla (BFQ)** | $14 | The size of a medium pizza. Loaded with melted cheese. "It's exactly what it sounds like." Add: Skirt Steak +$9 \| Carnitas +$7 \| Grilled Chicken +$6 |
-| **Nachos** | $14 | Big plate of nachos loaded with queso blanco, black beans, guacamole, salsa, sour cream & fresh cilantro. Add: Skirt Steak +$9 \| Carnitas +$7 \| Grilled Chicken +$6 |
+| **Masa Coated Fries** | $8 | Basket of crispy masa-coated fries. Choose your dip: Chipotle Crema, Jalapeño Ranch, or Ketchup (if you must). |
+| **Loaded Masa Coated Fries** | $15 | Masa Coated Fries loaded with queso blanco, black beans, guacamole, salsa, sour cream & fresh cilantro. Add: Skirt Steak +$9 \| Carnitas +$7 \| Grilled Chicken +$6 |
+| **The Big F*** Quesadilla (BFQ)** | $15 | The size of a medium pizza. Loaded with melted cheese. "It's exactly what it sounds like." Add: Skirt Steak +$9 \| Carnitas +$7 \| Grilled Chicken +$6 |
+| **Nachos** | $15 | Big plate of nachos loaded with queso blanco, black beans, guacamole, salsa, sour cream & fresh cilantro. Add: Skirt Steak +$9 \| Carnitas +$7 \| Grilled Chicken +$6 |
 
 *Additional sauces: $1.50*
 
@@ -175,9 +240,9 @@ Same proteins as street tacos. Bigger, bolder, made for the occasion.
 | **Chips & Salsa** | $4 |
 | **Chips & Guacamole** | $6 |
 | **Chips & Queso Blanco** | $8 |
-| **Chip & Dip Trio** | $15 |
+| **Chip & Dip Trio** | $16 |
 
-**Chip & Dip Trio:** Salsa + guacamole + queso blanco — three dips, one massive pile of chips. "The move for the table."
+**Chip & Dip Trio:** Salsa + guacamole + queso blanco — three dips, one massive pile of chips. "The move for the table." *(Note: the Dinner PDF still lists this at $15 — treat $16 as the current correct price per owner direction until the print menus are reconciled.)*
 
 ---
 
@@ -212,21 +277,21 @@ Three churros dusted in cinnamon sugar, served with house whipped cream, fresh s
 
 | Cocktail | Price | Ingredients |
 |---|---|---|
-| **House Margarita** | $12 | Tequila blanco + agave + Meyer lemon juice + salt rim + lemon wheel garnish. Tell us if you want spicy. Sub mezcal available. Cadillac +$2. |
-| **Espresso Margarita** | $15 | Tequila blanco + Indaba cold brew + Baileys + agave |
-| **Frozen Margarita** | $12 | Rotating flavors — ask server |
-| **Paloma** | $14 | Tequila + grapefruit juice + lime juice + agave + grapefruit soda water + grapefruit wedge |
-| **Tepache Bevvy** | $12 | Choice of tequila, mezcal, or rum + lemon juice + tepache |
-| **Latin Candy Shot** | $8 | Tequila + lime juice + agave + pineapple juice + watermelon pucker + serranos |
-| **Pom 75** | $14 | Gin + lemon juice + agave + pomegranate liqueur + champagne |
+| **House Margarita** | $12.50 | Tequila blanco + agave + Meyer lemon juice + salt rim + lemon wheel garnish. Tell us if you want spicy. Sub mezcal available. Cadillac +$2. |
+| **Espresso Margarita** | $15.50 | Tequila blanco + Indaba cold brew + Baileys + agave |
+| **Frozen Margarita** | $11 | Rotating flavors — ask server |
+| **Paloma** | $14.50 | Tequila + grapefruit juice + lime juice + agave + grapefruit soda water + grapefruit wedge |
+| **Tepache Bevvy** | $12.50 | Choice of tequila, mezcal, or rum + lemon juice + tepache |
+| **Latin Candy Shot** | $8.50 | Tequila + lime juice + agave + pineapple juice + watermelon pucker + serranos |
+| **Pom 75** | $14.50 | Gin + lemon juice + agave + pomegranate liqueur + champagne |
 | **Jamaica Spritz** | $14 | Tequila + jamaica syrup + lime juice + St. Germain + agave + champagne |
-| **Dirty Horchata** | $12 | Rum + house-made horchata |
+| **Dirty Horchata** | $12.50 | Rum + house-made horchata |
 
 *Ask about Mocktails! Ask about Tequila Flights!*
 
 ### Copywriting Notes for Cocktails
 - Espresso Margarita features Indaba cold brew — Indaba is a local Spokane roaster, always use this in community content
-- House Margarita is $10 during lunch, $12 regular
+- House Margarita is $12.50 regular (confirm current lunch price, if different — see Quick-Reference flag)
 - Tepache is house-made — call out "house-made tepache"
 - Tequila bar identity: reference agave-forward spirits, tequila flights available
 - Spicy margarita = ask about it
@@ -238,7 +303,7 @@ Three churros dusted in cinnamon sugar, served with house whipped cream, fresh s
 
 | Item | Price | Details |
 |---|---|---|
-| **House Margarita Pitcher** | $40 | Tequila blanco + agave + lime juice |
+| **House Margarita Pitcher** | $50 | Tequila blanco + agave + lime juice |
 | **Beer Pitcher** | $25 | Ask your server what's on tap |
 
 ### Copywriting Notes for Pitchers
@@ -365,7 +430,7 @@ day-specials are the current promotions. Frame as a midweek ritual, not a discou
 
 | Category | Lead With | Always Include | Never Say |
 |---|---|---|---|
-| Street Tacos | Price ($6.50 or 2+side $16) | Protein options, location | "Basic tacos" or generic "tacos" |
+| Street Tacos | Price ($6.50 or 2+side $16.50) | Protein options, location | "Basic tacos" or generic "tacos" |
 | Big A** Tacos | Size and occasion energy | Price ($10/$23), protein options | "Street tacos" (wrong tier) |
 | Burritos | The name (it's the hook) | Price, key ingredient | Generic "burrito" without the name |
 | Bowls | Name + occasion | Price, hero protein | "Healthy option" framing |
@@ -376,9 +441,84 @@ day-specials are the current promotions. Frame as a midweek ritual, not a discou
 
 ---
 
+## 15. SUNDAY BRUNCH
+
+*Every Sunday, 10am–4pm. Two-sided July 2026 print menu. Full working doc: `website/content-studio/menus/brunch-menu.md`. Live on site at `/menu?tab=brunch`.*
+
+### Breakfast
+
+| Item | Price | Description |
+|---|---|---|
+| **Steak & Eggs** *(new item, July 2026)* | $32 | 8 oz skirt steak, two eggs any style, house breakfast potatoes, choice of tortillas or toast |
+| Breakfast Burrito | $14 + protein | Cheese-crusted tortilla, scrambled eggs, house breakfast potatoes, salsa verde, pickled red onion, cilantro |
+| Chilaquiles | $14 | Tortilla chips simmered in salsa verde, fried egg, cotija, crema, cilantro, pickled red onion |
+| Breakfast Potato Hash | $15 + protein | Crispy potatoes, queso, black beans, fried egg, crema, Cholula, pico de gallo, cilantro |
+| Hair of the Hog | $14 | Toasted brioche, fruit jam, fried egg, melted Monterey Jack, crispy bacon, house breakfast potatoes |
+| Horchata French Toast | $14 | Brioche soaked in horchata batter, whipped cinnamon butter, powdered sugar, syrup, house breakfast potatoes |
+
+**Breakfast protein add-ons:** Carne Asada +$9 · Carnitas +$7 · Chorizo +$5 · Bacon +$3
+
+### Brunch Drinks
+
+| Item | Price |
+|---|---|
+| Mimosa | $8 |
+| Bloody Mary | $9 |
+| Coffee | $3 |
+| Orange Juice | $2 |
+| Apple Juice | $2 |
+| Cranberry Juice | $2 |
+
+### Apps *(added to the live site 2026-08-04 — second page of the print menu)*
+
+| Item | Price |
+|---|---|
+| Lula Wings | $18 |
+| Chip & Dip Trio | $16 |
+| Masa-Coated Waffle Fries | $8 |
+
+### Street Tacos *(2-taco minimum, street size only)*
+
+| Protein | Price |
+|---|---|
+| Carne Asada | $6.50 each ($13 for 2) |
+| Batata *(vegetarian)* | $6.50 each ($13 for 2) |
+| Carnitas | $6.50 each ($13 for 2) |
+| Barbacoa | $6.50 each ($13 for 2) |
+
+*Note: Mahi-Mahi does NOT appear on the final printed brunch menu — drop it from any draft copy referencing it.*
+
+### House Favorites
+
+| Item | Price | Description |
+|---|---|---|
+| BFQ | $14 + protein | The Big F*** Quesadilla, brunch pricing |
+| Loaded Waffle Fries or Nachos | $15 + protein | Choice of masa-coated waffle fries or tortilla chips, fully loaded |
+| The Notorious P.I.G. | $18 | Burrito or bowl, house-smoked pork |
+| Churros | $7 | Three churros, cinnamon sugar, whipped cream, strawberries, chocolate sauce |
+
+**House Favorites protein add-ons:** Carne Asada +$9 · Carnitas +$7 *(no Barbacoa add-on price made it to print — do not reference one)*
+
+### Sides *(shared with the lunch/dinner Sides section)*
+
+| Item | Price |
+|---|---|
+| Cilantro Lime Rice | $6 |
+| Black Beans | $7 |
+| Street Corn | $9 |
+| Escabeche | $3 |
+
+### Copywriting Notes for Brunch
+- Steak & Eggs is the new signature-tier item — lead with it in brunch content
+- The Apps/Street Tacos/House Favorites block is new to the *website* as of 2026-08-04 (it existed on the print menu already) — good "there's more to brunch than you thought" content angle
+- Batata substitutes as the vegetarian protein across brunch
+
+---
+
 *MENU_AND_OFFERS.md — Uno Más Tacos & Tequila*
-*Version 2.3 | Updated: 2026-06-24 | Owner: Ramsey*
-*Source: UnoMas_Menu_Monroe_April2026.pdf in 07_MENU_ASSETS/Menus/*
+*Version 2.4 | Updated: 2026-08-04 | Owner: Ramsey*
+*Source: UM Menu Lunch & Cocktails — July 2026.pdf · Uno Mas Dinner Menu — July 2026.pdf · Sunday Brunch menu — July 2026, in 07_MENU_ASSETS/Menus/*
+*Changes in v2.4: Full July 2026 menu price update across Tacos/Burritos/Shareables/Chips & Dips/Cocktails/Pitchers; added missing Dinner Tacos (2a), Dinner Plates (4a), Raw Bar (4b), The Feast (4c), and Sunday Brunch (15) sections; Oysters removed from Raw Bar; flagged open Chip & Dip Trio print-menu price inconsistency ($16 vs $15 — using $16 per owner direction).*
 *Changes in v2.3: Weekly specials confirmed ACTIVE (June 2026) — Taco Tuesday · Beer & Bites Wednesday ($5 pints · $10 loaded nachos · $10 loaded masa fries — Wednesday special rebranded from the former pints-and-tacos deal) · Burrito Thursday; corrected stale v2.2 note that said Taco Tuesday was removed.*
 *Changes in v2.2: Beer section expanded (Michelada, Cheleda, Buckets detail) · Source PDF filed to 07_MENU_ASSETS/Menus/*
 *Update this file immediately when menu prices or items change.*
