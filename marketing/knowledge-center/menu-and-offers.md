@@ -196,7 +196,7 @@ Same proteins as street tacos. Bigger, bolder, made for the occasion.
 
 | Item | Price | Description |
 |---|---|---|
-| ~~Oysters~~ | — | **Removed from the menu, July 2026.** Do not reference in new copy; retire from any existing content/ads. |
+| ~~Oysters~~ | — | **Removed from the menu, July 2026.** Do not reference in new copy; retire from any existing content/ads. *(Tostilocos was also confirmed removed in this round — see `brand-guidelines/09-menu-product-context.md`; it was already absent from the current printed menus/Supabase.)* |
 | Ceviche | MP | Fresh, bold, and bright. Ask your server for today's preparation. |
 
 ---

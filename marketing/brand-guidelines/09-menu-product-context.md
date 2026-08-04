@@ -1,5 +1,7 @@
 # Uno Más — Menu and Product Context
 
+> ⚠️ **Doc status (flagged 2026-08-04):** This file otherwise predates the July 2026 menu (prices, some items, and the Fiesta Pack/loyalty details here are stale relative to `marketing/knowledge-center/menu-and-offers.md` and `marketing/master-reference.md`, which are the current canonical menu docs). Only the Tostilocos removal was fixed here on request. Recommend a full pass to reconcile this file against the current menu next time it's touched.
+
 ## Overview
 
 This document covers all menu items, cocktails, and product offerings for use in content generation, AI-assisted copywriting, and creative studio tools. Items are organized by category with key details for accurate, specific copy.
@@ -53,11 +55,9 @@ This document covers all menu items, cocktails, and product offerings for use in
 - **Price:** $12
 - **Copy note:** The house-made Cholula sauce is the differentiator — always mention it.
 
-### Tostilocos
-- **Description:** Salsa verde chips, chamoy, cucumber, jicama, tajin, tamarindo candy, Japanese peanuts.
-- **Price:** $12
-- **Key fact:** WTF Menu energy — unexpected combination, surprising flavor.
-- **Copy note:** "You're going to have questions. The answer is: try it." Let the ingredient list do the explaining.
+### ~~Tostilocos~~ — REMOVED FROM MENU (confirmed 2026-08-04)
+- **Do not reference in new copy.** Retire from any existing content/ads/social posts still promoting it.
+- *(Former description, kept for historical reference only: Salsa verde chips, chamoy, cucumber, jicama, tajin, tamarindo candy, Japanese peanuts. $12.)*
 
 ### Street Corn
 - **Description:** Mexican street corn preparation.
@@ -155,7 +155,7 @@ This document covers all menu items, cocktails, and product offerings for use in
 ## WTF Menu
 
 - **What it is:** A rotating monthly "what the f*" menu item — unexpected, bold, doesn't always fit a category.
-- **Current recurring items:** Tostilocos, Tijuana Flatbread, and others that rotate.
+- **Current recurring items:** Tijuana Flatbread, and others that rotate. *(Tostilocos removed from the menu — confirmed 2026-08-04. Do not reference.)*
 - **Content angle:** The surprise is always the news. "So we did a thing." Lead with the name, then the ingredients, never explain it away.
 - **Never:** Pre-apologize for it. If it's on the WTF Menu, it's there because it's good and weird.
 
