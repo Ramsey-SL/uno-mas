@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>The Cantina Club · Uno Más Rewards</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Antonio:wght@400;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#003366; --navy-deep:#00223F; --pink:#E22690; --blue:#18BCDC;
+    --teal:#27F3DE; --yellow:#FFEC00; --sand:#F8F5EF; --ink:#212121; --line:#E6E9EE;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:'Montserrat',sans-serif;color:var(--navy);background:var(--sand);line-height:1.55}
+  h1,h2,h3,.display{font-family:'Antonio',sans-serif;text-transform:uppercase;font-weight:700;letter-spacing:.01em;line-height:.95}
+  .eyebrow{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.26em}
+  .wrap{max-width:1100px;margin:0 auto;padding:0 22px}
+  a{color:inherit}
+  .btn{display:inline-block;background:var(--pink);color:#fff;font-weight:700;text-transform:uppercase;letter-spacing:.05em;
+    padding:15px 30px;border-radius:999px;border:none;cursor:pointer;font-size:15px;box-shadow:0 5px 0 #9c1163;transition:.15s}
+  .btn:hover{filter:brightness(1.06)}
+  .btn.navy{background:var(--navy);box-shadow:0 5px 0 #00223F}
+  .btn.ghost{background:transparent;color:#fff;border:2px solid rgba(255,255,255,.7);box-shadow:none;padding:13px 26px}
+
+  /* header */
+  header{position:sticky;top:0;z-index:40;background:rgba(248,245,239,.9);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+  .nav{display:flex;align-items:center;justify-content:space-between;padding:14px 22px;max-width:1100px;margin:0 auto}
+  .brand{font-family:'Antonio',sans-serif;text-transform:uppercase;font-weight:700;font-size:22px;color:var(--navy)}
+  .brand small{color:var(--pink);font-size:12px;letter-spacing:.22em;margin-left:8px}
+  .nav .btn{padding:10px 20px;font-size:13px;box-shadow:0 4px 0 #9c1163}
+
+  /* hero */
+  .hero{background:linear-gradient(160deg,var(--pink),#c81f7f);color:#fff;position:relative;overflow:hidden}
+  .hero .wrap{padding:70px 22px 80px;position:relative;z-index:2;text-align:center}
+  .hero .glow{position:absolute;inset:0;z-index:1;opacity:.25;
+    background:radial-gradient(60% 60% at 85% -10%,var(--teal),transparent 60%),radial-gradient(50% 50% at -5% 110%,var(--yellow),transparent 55%)}
+  .hero h1{font-size:clamp(2.8rem,7vw,5rem);margin-top:14px}
+  .hero .lead{font-size:clamp(1.1rem,2vw,1.4rem);max-width:620px;margin:18px auto 0;opacity:.96}
+  .hero .cta{margin-top:30px;display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+  .hero .tensub{margin-top:6px;font-size:1.05rem;font-weight:600;opacity:.95}
+  .tenspot{font-family:'Antonio';font-size:clamp(3.5rem,10vw,7rem);color:var(--yellow);line-height:.9;display:block;margin-top:26px}
+
+  /* value strip */
+  .value{background:var(--navy);color:#fff}
+  .value .wrap{padding:44px 22px;display:grid;grid-template-columns:repeat(4,1fr);gap:18px;text-align:center}
+  .value .v .big{font-family:'Antonio';font-size:2.2rem;color:var(--yellow)}
+  .value .v .lbl{font-size:13px;margin-top:4px;opacity:.85}
+  @media(max-width:640px){.value .wrap{grid-template-columns:repeat(2,1fr)}}
+
+  /* sections */
+  section.pad{padding:64px 0}
+  .center{text-align:center}
+  .center .eyebrow{color:var(--pink)}
+  .center h2{font-size:clamp(2rem,4.5vw,3rem);margin-top:8px;color:var(--navy)}
+  .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:40px}
+  .step{background:#fff;border:1px solid var(--line);border-radius:18px;padding:28px;box-shadow:0 14px 34px rgba(0,51,102,.07)}
+  .step .n{font-family:'Antonio';font-size:2.4rem;color:var(--pink)}
+  .step h3{font-size:1.3rem;margin:8px 0 6px;color:var(--navy)}
+  .step p{font-size:15px;color:#43525c}
+  @media(max-width:760px){.steps{grid-template-columns:1fr}}
+
+  .perks{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-top:34px}
+  .perk{background:#fff;border:1px solid var(--line);border-radius:999px;padding:12px 20px;font-weight:600;font-size:14px}
+  .perk b{color:var(--pink)}
+
+  /* signup form */
+  .signup{background:linear-gradient(160deg,var(--navy),var(--navy-deep));color:#fff}
+  .signup .wrap{padding:64px 22px;display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:center}
+  .signup h2{font-size:clamp(2rem,4vw,2.8rem)}
+  .signup p.sub{margin-top:14px;opacity:.9;max-width:420px}
+  .form{background:#fff;color:var(--navy);border-radius:20px;padding:26px;box-shadow:0 24px 50px rgba(0,0,0,.3)}
+  .form label{display:block;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.12em;margin:14px 0 6px}
+  .form input{width:100%;padding:13px 14px;border:1.5px solid var(--line);border-radius:12px;font-size:16px;font-family:inherit}
+  .form input:focus{outline:none;border-color:var(--pink)}
+  .form .row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+  .form .consent{display:flex;gap:10px;align-items:flex-start;margin-top:16px;font-size:12px;color:#43525c}
+  .form .btn{width:100%;margin-top:18px}
+  .form .disc{font-size:11px;color:#7a8790;margin-top:10px;text-align:center}
+  @media(max-width:820px){.signup .wrap{grid-template-columns:1fr}}
+
+  .teaser{background:var(--yellow);color:var(--navy);text-align:center;padding:22px}
+  .teaser b{font-weight:700}
+
+  footer{background:var(--navy);color:#fff;text-align:center;padding:40px 22px;font-size:13px;opacity:.95}
+
+  /* modal */
+  .modal-bg{position:fixed;inset:0;background:rgba(0,34,63,.72);backdrop-filter:blur(4px);display:none;align-items:center;justify-content:center;z-index:100;padding:18px}
+  .modal-bg.open{display:flex}
+  .modal{background:var(--sand);border-radius:22px;max-width:440px;width:100%;overflow:hidden;box-shadow:0 30px 70px rgba(0,0,0,.5);position:relative}
+  .modal .top{background:var(--pink);color:#fff;text-align:center;padding:28px 24px}
+  .modal .top .tenspot{font-size:4.2rem}
+  .modal .body{padding:22px 24px 26px}
+  .modal .body label{display:block;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.12em;margin:12px 0 6px;color:var(--navy)}
+  .modal .body input{width:100%;padding:12px 13px;border:1.5px solid var(--line);border-radius:11px;font-size:16px;font-family:inherit}
+  .modal .body .btn{width:100%;margin-top:16px}
+  .modal .x{position:absolute;top:12px;right:14px;background:rgba(255,255,255,.25);border:none;color:#fff;width:34px;height:34px;border-radius:999px;font-size:18px;cursor:pointer}
+  .mockflag{position:fixed;top:10px;right:10px;background:var(--yellow);color:var(--navy);font-weight:700;font-size:10px;letter-spacing:.2em;text-transform:uppercase;padding:5px 12px;border-radius:999px;z-index:200;transform:rotate(3deg);box-shadow:0 3px 10px rgba(0,0,0,.2)}
+  .ok{background:#e7fbf2;border:1px solid #25E9B9;color:#046b4d;border-radius:12px;padding:14px;text-align:center;font-weight:600;font-size:14px}
+</style>
+</head>
+<body>
+<div class="mockflag">Mock-up</div>
+
+<header>
+  <div class="nav">
+    <div class="brand">Uno Más <small>CANTINA CLUB</small></div>
+    <button class="btn" onclick="openModal()">Join free</button>
+  </div>
+</header>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="glow"></div>
+  <div class="wrap">
+    <p class="eyebrow">Uno Más · Spokane · Rewards</p>
+    <h1>The Cantina Club</h1>
+    <p class="lead">The rewards club for regulars, marg-lovers, and anyone who's ever said <em>"uno más."</em> Every taco, every round, every visit earns you something back — because the folks who make this place feel like home ought to be treated like it.</p>
+    <span class="tenspot">$10</span>
+    <p class="tensub">on us — just for joining. Call it a welcome hug. 🌮</p>
+    <div class="cta">
+      <button class="btn navy" onclick="openModal()">Join the Club — Free</button>
+      <a class="btn ghost" href="#how">See how it works</a>
+    </div>
+  </div>
+</div>
+
+<!-- VALUE -->
+<div class="value">
+  <div class="wrap">
+    <div class="v"><div class="big">$10</div><div class="lbl">just for joining</div></div>
+    <div class="v"><div class="big">10%</div><div class="lbl">back — $10 per $100</div></div>
+    <div class="v"><div class="big">$10</div><div class="lbl">birthday reward</div></div>
+    <div class="v"><div class="big">📱</div><div class="lbl">just your phone #</div></div>
+  </div>
+</div>
+
+<!-- HOW -->
+<section class="pad" id="how">
+  <div class="wrap center">
+    <p class="eyebrow">How it works</p>
+    <h2>Three steps. That's it.</h2>
+    <div class="steps">
+      <div class="step"><div class="n">01</div><h3>Join free</h3><p>Give your phone number — online or at the table. Get <b>$10 on us</b> right away.</p></div>
+      <div class="step"><div class="n">02</div><h3>Earn as you go</h3><p>Rack up <b>1 point for every $1</b> you spend, in-shop or online. No card to carry.</p></div>
+      <div class="step"><div class="n">03</div><h3>Cash in</h3><p><b>$10 back every 100 points</b>, plus <b>$10 off</b> during your birthday month.</p></div>
+    </div>
+    <div class="perks">
+      <div class="perk"><b>💵 $10</b> to join</div>
+      <div class="perk"><b>🪙 10%</b> back</div>
+      <div class="perk"><b>🎂 $10</b> birthday</div>
+      <div class="perk"><b>📱</b> phone-number simple</div>
+    </div>
+  </div>
+</section>
+
+<!-- SIGNUP -->
+<div class="signup" id="join">
+  <div class="wrap">
+    <div>
+      <p class="eyebrow" style="color:var(--teal)">Join now</p>
+      <h2>Get your $10.<br>Become a regular.</h2>
+      <p class="sub">Sign up in ten seconds and your $10 welcome reward is waiting on your next visit. Come get a little lost at Uno Más — and get rewarded for it.</p>
+    </div>
+    <form class="form" onsubmit="return submitForm(event,'form')">
+      <div id="form-fields">
+        <div class="row">
+          <div><label>First name</label><input name="first" placeholder="Maria" /></div>
+          <div><label>Birthday</label><input name="bday" placeholder="MM/DD" /></div>
+        </div>
+        <label>Mobile number *</label><input name="phone" required placeholder="(509) 555-0123" />
+        <label>Email (optional)</label><input name="email" type="email" placeholder="maria@example.com" />
+        <div class="consent"><input type="checkbox" id="c1" checked /><label for="c1" style="margin:0;text-transform:none;letter-spacing:0;font-weight:500;font-size:12px">Text & email me Cantina Club perks and offers. Msg rates may apply, reply STOP to opt out.</label></div>
+        <button class="btn" type="submit">Join the Cantina Club</button>
+        <p class="disc">Free to join · 1 pt per $1 · $10 back every 100 pts</p>
+      </div>
+    </form>
+  </div>
+</div>
+
+<div class="teaser">🌟 <b>This is just the start.</b> Bigger perks for our regulars are on the way.</div>
+
+<footer>
+  Come get a little lost at Uno Más. 🌮<br>
+  Uno Más Tacos &amp; Tequila · Spokane, WA
+</footer>
+
+<!-- MODAL -->
+<div class="modal-bg" id="modal">
+  <div class="modal">
+    <button class="x" onclick="closeModal()">✕</button>
+    <div class="top">
+      <p class="eyebrow">Uno Más Cantina Club</p>
+      <span class="tenspot">$10</span>
+      <div class="display" style="font-size:1.6rem">Free — just for joining</div>
+    </div>
+    <div class="body">
+      <form onsubmit="return submitForm(event,'modal')">
+        <div id="modal-fields">
+          <label>First name</label><input name="first" placeholder="Maria" />
+          <label>Mobile number *</label><input name="phone" required placeholder="(509) 555-0123" />
+          <label>Email (optional)</label><input name="email" type="email" placeholder="maria@example.com" />
+          <div class="consent" style="color:#5d6b73"><input type="checkbox" id="c2" checked /><label for="c2" style="margin:0;text-transform:none;letter-spacing:0;font-weight:500;font-size:12px">Text & email me perks. Reply STOP to opt out.</label></div>
+          <button class="btn" type="submit">Claim my $10</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<script>
+  function openModal(){document.getElementById('modal').classList.add('open')}
+  function closeModal(){document.getElementById('modal').classList.remove('open')}
+  document.getElementById('modal').addEventListener('click',e=>{if(e.target.id==='modal')closeModal()});
+  // auto pop-up after 4s (once)
+  setTimeout(()=>{ if(!sessionStorage.getItem('seen')){openModal();sessionStorage.setItem('seen','1')} },4000);
+  function submitForm(e,where){
+    e.preventDefault();
+    var box=document.getElementById(where==='modal'?'modal-fields':'form-fields');
+    box.innerHTML='<div class="ok">🎉 You\'re in! (mock-up) — In the real thing, this enrolls you in the Cantina Club and your $10 is ready on your next visit.</div>';
+    return false;
+  }
+</script>
+</body>
+</html>
