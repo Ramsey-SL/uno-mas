@@ -14,10 +14,11 @@ Audited against live production HTML and the Lovable source (project `78c4ac75-6
 | Platform | ID | Status |
 |---|---|---|
 | GA4 | Measurement ID `G-YXKMDL0KF2`<br>Property ID `523092931`<br>Account ID `383242412` | ✅ live on all pages — verified 2026-08-11 as the only GA4 tag on the site. Measurement ID is the one used in code; Property/Account IDs are for GA4 Admin, the Data API and BigQuery links. |
-| Google Ads | `AW-18385019415` | ✅ built 2026-08-11 (commit `170dd687`) — base tag only. Conversion actions still need `send_to` labels (§6). |
+| Google Ads | `AW-18385019415` | ✅ **LIVE 2026-08-11** — base tag only. Conversion actions still need `send_to` labels (§6). |
 | Meta Pixel | `1737601003250529` | ✅ live on all pages (+ noscript fallback) |
-| TikTok Pixel | `D9U04BRC77UDGUKDT76G` | ✅ built 2026-08-11 (commit `60961819`) — base pixel + SPA pageviews. Event mapping still to come (§4). |
+| TikTok Pixel | `D9U04BRC77UDGUKDT76G` | ✅ **LIVE 2026-08-11** — base pixel, SPA pageviews, and full event mapping (§4). |
 | Klaviyo | ~~`UjAfaJ`~~ | ⛔ **removed 2026-08-11.** Klaviyo retired org-wide (Aug 2026); bulk email/SMS is now Toast Marketing. Script, privacy-policy entry and all references stripped. |
+| Meta Conversions API | — | ❌ not implemented (browser-only signal) |
 | Google Tag Manager | — | ⛔ **deliberately not used** (owner decision, 2026-08-11). `trackEvent()` still pushes to `window.dataLayer`; nothing consumes it. Harmless — GA4 is fed directly via `gtag` — and it leaves the door open if we ever add GTM. |
 
 **Ad + analytics accounts**
@@ -44,8 +45,8 @@ Audited against live production HTML and the Lovable source (project `78c4ac75-6
 
 | File | What it does |
 |---|---|
-| `src/routes/__root.tsx` | Deferred third-party loader — synchronous fbq/gtag/ttq stubs, then loads Meta + GA4 + Google Ads + TikTok on first interaction or the 6s fallback. Also the Meta/TikTok SPA pageview component. |
-| `src/lib/track.ts` | `trackEvent(name, params)` — the single fan-out to dataLayer, Meta (via `metaPixelMapping`), and GA4. Add TikTok mapping here. |
+| `src/routes/__root.tsx` | Deferred third-party loader — synchronous fbq/gtag/ttq stubs, loads Meta + GA4 + Google Ads + TikTok immediately for ad traffic, else on first interaction or a 2.5 s fallback. Also the Meta/TikTok SPA pageview component. |
+| `src/lib/track.ts` | `trackEvent(name, params)` — the single fan-out to dataLayer, Meta (`metaPixelMapping`), GA4, and TikTok (`tiktokMapping`). |
 
 ### Raw snippets (reference only — the site does NOT use these verbatim)
 
@@ -79,11 +80,12 @@ The site loads all four tags through the deferred loader in `__root.tsx`, **not*
   ttq.page();
 </script>
 ```
-| Meta Conversions API | — | ❌ not implemented (browser-only signal) |
 
 **How events flow:** one helper, `src/lib/track.ts` → `trackEvent(name, params)` fans out to (1) `dataLayer.push`, (2) Meta Pixel via a curated name→standard-event map, (3) GA4 via `gtag('event', name, params)`. Add a new event once, it lands everywhere.
 
-**Critical caveat — the deferred tag loader** (`src/routes/__root.tsx`): for page speed, GA4/Meta/Klaviyo only load on the **first user interaction (scroll/tap/key) or after a 6-second timeout**. A paid click that bounces in under 6 seconds without interacting fires *no* pageview and *no* pixel event on any platform. Those are precisely the clicks we pay for. **Required fix before launch:** load tags immediately when the URL carries `gclid`, `gbraid`, `wbraid`, `fbclid`, `ttclid`, `msclkid` or any `utm_*` param; keep the deferral for organic traffic. Recommend also dropping the fallback from 6s → 2.5s.
+**Ad-traffic loading (fixed 2026-08-11, commit `0786373f`):** if the URL carries `gclid`/`gbraid`/`wbraid`/`fbclid`/`ttclid`/`msclkid`/`utm_*`, all tags load **immediately** — a bouncing paid click still fires a pageview and captures the click ID. Organic traffic keeps the deferral, now with a 2.5 s fallback (was 6 s).
+
+**Historical note:** before 2026-08-11 every tag waited for the first interaction or a 6 s timeout, so a paid click that bounced early recorded nothing at all. Fixed above — keep the ad-param check in place through any future perf work.
 
 ---
 
@@ -99,7 +101,7 @@ What we optimize toward, in order of business value (highest-margin channels fir
 5. `giftcard_buy_click` — gift card purchase started
 
 **Tier 2 — Secondary conversions** (report on; use for audiences/remarketing; secondary optimization)
-- `inquiry_open`, `phone_click`, `directions_click`, `email_signup`, `tickets_click`, `application_submit`
+- `inquiry_open`, `loyalty_cta_click`, `phone_click`, `email_click`, `directions_click`, `tickets_click`, `application_submit`
 
 **Tier 3 — Engagement signals** (diagnostics + audience building only, never a bid target)
 - `menu_tile_click`, `menu_tab_click`, `menu_see_full_click`, `event_inquiry_view`, `social_follow_click`, `social_reel_click`, `brunch_cta`, `nav_click`
@@ -114,16 +116,16 @@ Legend: ✅ implemented · ⚠️ implemented with a defect · ❌ missing
 
 | Element | Event | Params | Tier | Status |
 |---|---|---|---|---|
-| Header "Reserve a table" | `reserve_table_click` | `location` | 1 | ⚠️ fires but `location: "unknown"` — `ResyButton` in `site-header.tsx` doesn't pass `location`. Should be `header`. |
+| Header "Reserve a table" | `reserve_table_click` | `location: "header"` | 1 | ✅ |
 | Mobile drawer "Reserve a table" | `reserve_table_click` | `location: "mobile-drawer"` | 1 | ✅ |
-| Header/drawer "Join Rewards" | `loyalty_signup_click` | `location: "header"`, `step: "nav"` | 1 | ❌ missing |
+| Header/drawer "Join Rewards" | `loyalty_cta_click` | `location: "header" \| "mobile-drawer"` | 2 | ✅ |
 | Sticky mobile bar — Reserve | `reserve_table_click` | `location: "sticky_mobile"` | 1 | ✅ |
 | Sticky mobile bar — Call | `phone_click` | `location: "sticky_mobile"` | 2 | ✅ |
 | Sticky mobile bar — Directions | `directions_click` | `location: "sticky_mobile"` | 2 | ✅ |
-| Sticky mobile bar — Menu | `nav_click` | `location: "sticky_mobile"` | 3 | ❌ missing |
+| Sticky mobile bar — Menu | `nav_click` | `location: "sticky_mobile"`, `label` | 3 | ✅ |
 | Footer address + phone + Get Directions | `directions_click` / `phone_click` | `location: "footer" \| "footer_button"` | 2 | ✅ |
-| Footer email links (tacos@ / karissa@) | `email_click` | `location: "footer"`, `inbox` | 2 | ❌ missing |
-| Footer Instagram / Facebook | `social_follow_click` | `network` | 3 | ❌ missing in footer (homepage version ✅) |
+| Footer email links (tacos@ / karissa@) | `email_click` | `location: "footer"`, `inbox` | 2 | ✅ |
+| Footer Instagram / Facebook | `social_follow_click` | `network`, `location: "footer"` | 3 | ✅ |
 | Email/SMS signup | `email_signup` | `source` | 2 | ⛔ n/a on-site — Klaviyo removed Aug 2026. List growth now runs through Toast (Cantina Club). If we ever add an on-site capture form, wire `email_signup` to it. |
 
 ### `/` Homepage
@@ -133,39 +135,39 @@ Legend: ✅ implemented · ⚠️ implemented with a defect · ❌ missing
 | Fiesta Box teaser → Toast | `order_click` (`location: "home_fiesta_teaser"`) | 1 | ✅ |
 | "See what's inside" | `nav_click` | 3 | ✅ |
 | Menu collection tiles | `menu_tile_click` (`tab`, `location`) | 3 | ✅ |
-| Cantina Club band → `/cantina-club` (both CTAs) | `loyalty_signup_click` (`step: "band"`) | 1 | ❌ missing |
+| Cantina Club band → `/cantina-club` (both CTAs) | `loyalty_cta_click` (`location: "home_band"`, `label`) | 2 | ✅ |
 | Instagram follow / reel clicks | `social_follow_click` / `social_reel_click` | 3 | ✅ |
 | Love Island ticket CTA | `tickets_click` | 2 | ✅ |
 | Brunch banner + feature CTAs | `brunch_cta` / `brunch_feature_cta` | 3 | ✅ |
-| Visit-section map link | `directions_click` (`location: "home_visit"`) | 2 | ❌ missing (only footer + sticky are wired) |
+| Visit-section map link | `directions_click` (`location: "home_visit"`) | 2 | ✅ |
 
 ### `/cantina-club` — loyalty (Tier 1, currently invisible)
 
 | Element | Event | Tier | Status |
 |---|---|---|---|
-| Hero "Join free — get $10" → Toast `rewardsSignup` | `loyalty_signup_click` (`location: "cantina_club_hero"`) | 1 | ❌ **missing** |
-| Closing "Join the Cantina Club" → Toast | `loyalty_signup_click` (`location: "cantina_club_closer"`) | 1 | ❌ **missing** |
-| "See how it works" anchor | `nav_click` | 3 | ❌ missing |
+| Hero "Join free — get $10" → Toast `rewardsSignup` | `loyalty_signup_click` (`location: "cantina_club_hero"`) | 1 | ✅ **live** (+ opens in new tab) |
+| Closing "Join the Cantina Club" → Toast | `loyalty_signup_click` (`location: "cantina_club_closer"`) | 1 | ✅ **live** (+ opens in new tab) |
+| "See how it works" anchor | `nav_click` | 3 | ✅ |
 
-> Both Toast links also lack `target="_blank" rel="noopener"` — worth adding so we don't lose the session on click-out.
+> ✅ Both Toast links now carry `target="_blank" rel="noopener noreferrer"`, so the session survives the click-out.
 
 ### `/private-events` — highest-margin lead path
 
 | Element | Event | Tier | Status |
 |---|---|---|---|
 | Hero "Inquire" | `inquiry_open` (`source: "/private-events"`) | 2 | ✅ |
-| 4 × room card "Inquire →" | `inquiry_open` | 2 | ⚠️ fires, but every button on the page sends the same `source` — we can't tell hero from card from packages. Add a `placement` param. |
-| Packages "Plan Your Event" | `inquiry_open` | 2 | ⚠️ same |
+| 4 × room card "Inquire →" | `inquiry_open` | 2 | ✅ now sends `placement` (`hero` / `room_card` + card title / `packages` / `inquiry_section`) |
+| Packages "Plan Your Event" | `inquiry_open` | 2 | ✅ |
 | Inquiry section scrolled into view | `event_inquiry_view` | 3 | ✅ |
 | **Form actually submitted** | `inquiry_submit` | **1** | ❌ **not measurable.** The dialog embeds a cross-domain Toast lead iframe — we cannot observe the submit. See §5. |
-| `karissa@` mailto | `email_click` | 2 | ❌ missing |
+| `karissa@` mailto | `email_click` (`location: "private_events"`) | 2 | ✅ |
 
 ### `/mezzanine`
 
 | Element | Event | Tier | Status |
 |---|---|---|---|
-| Hero "Inquire", 3 × package "Book…", band "Inquire" | `inquiry_open` (`source: "/mezzanine"`) | 2 | ⚠️ fires; all 5 share one `source` — add `placement` (`hero` / `package_good_time` / `package_great_time` / `package_go_all_out` / `band`). Package-level attribution tells us which price point the ads actually sell. |
-| Phone + `karissa@` in the contact block | `phone_click` / `email_click` | 2 | ❌ missing |
+| Hero "Inquire", 3 × package "Book…", band "Inquire" | `inquiry_open` (`source: "/mezzanine"`) | 2 | ✅ now sends `placement` (`hero` / `package_<slug>` / `band`) — shows which price point the ads sell |
+| Phone + `karissa@` in the contact block | `phone_click` / `email_click` (`location: "mezzanine_contact"`) | 2 | ✅ |
 
 ### `/catering`
 
@@ -185,7 +187,7 @@ Legend: ✅ implemented · ⚠️ implemented with a defect · ❌ missing
 | Element | Event | Tier | Status |
 |---|---|---|---|
 | "Buy a Gift Card" → Toast eGift | `giftcard_buy_click` (`location: "giftcards_hero"`) | 1 | ✅ |
-| In-person directions link | `directions_click` | 2 | ❌ missing |
+| In-person directions link | `directions_click` (`location: "giftcards"`) | 2 | ✅ |
 
 ### `/menu`
 
@@ -205,7 +207,7 @@ Legend: ✅ implemented · ⚠️ implemented with a defect · ❌ missing
 
 ## 4. Platform event mapping
 
-One `trackEvent()` call → four platforms. Meta mapping already lives in `metaPixelMapping()` in `src/lib/track.ts`; TikTok mapping is to be added alongside it.
+One `trackEvent()` call → four platforms. Meta mapping lives in `metaPixelMapping()` and TikTok in `tiktokMapping()`, both in `src/lib/track.ts`. **All rows below are live as of 2026-08-11.**
 
 | Our event | GA4 | Key event? | Meta Pixel | TikTok |
 |---|---|---|---|---|
@@ -276,12 +278,12 @@ The repo already contains the alternative: a Supabase-backed `event_inquiries` t
 
 ## 7. Implementation backlog (ordered)
 
-1. **Ad-click loader fix** — load tags immediately on `gclid`/`gbraid`/`wbraid`/`fbclid`/`ttclid`/`msclkid`/`utm_*`; fallback 6s → 2.5s. *Without this, everything below under-reports paid traffic — including the TikTok pixel we just installed.*
-2. ~~**TikTok base pixel**~~ ✅ done 2026-08-11 (commit `60961819`) — still needs the §4 event mapping in `track.ts`
-3. ~~**Google Ads base tag**~~ ✅ done 2026-08-11 (commit `170dd687`) — still needs conversion actions + `send_to` labels (§6)
-4. **`loyalty_signup_click`** on all four Cantina Club CTAs (+ `target="_blank"`)
-5. **`placement` param** on every `InquireDialog` trigger; fix header Resy `location`
+1. ~~**Ad-click loader fix**~~ ✅ LIVE 2026-08-11 — — load tags immediately on `gclid`/`gbraid`/`wbraid`/`fbclid`/`ttclid`/`msclkid`/`utm_*`; fallback 6s → 2.5s. *Without this, everything below under-reports paid traffic — including the TikTok pixel we just installed.*
+2. ~~**TikTok pixel + event mapping**~~ ✅ LIVE 2026-08-11
+3. ~~**Google Ads base tag**~~ ✅ LIVE 2026-08-11 — **still needs conversion actions + `send_to` labels (§6)**
+4. ~~**Loyalty tracking**~~ ✅ LIVE 2026-08-11 — `loyalty_signup_click` (Toast click-out, Tier 1) vs `loyalty_cta_click` (internal nav, Tier 2) kept separate so internal clicks never inflate the conversion
+5. ~~**`placement` param + header Resy `location`**~~ ✅ LIVE 2026-08-11
 6. **Native inquiry form** → real `inquiry_submit` (§5)
-7. **Fill the small gaps** — `email_click`, footer socials, homepage/giftcards directions, sticky menu `nav_click`, Klaviyo `email_signup`
+7. ~~**Small gaps**~~ ✅ LIVE 2026-08-11 — `email_click`, footer socials, homepage + giftcards directions, sticky menu `nav_click`
 8. **Decide: online-ordering CTA** in header/menu/home, tracked as `order_click` — required if Search ads target ordering intent
 9. *Optional later:* Meta CAPI + TikTok Events API with `event_id` dedup; offline conversion import from `event_inquiries`
