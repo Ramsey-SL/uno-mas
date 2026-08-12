@@ -107,7 +107,7 @@ stacked adjectives ("fresh, delicious, flavorful, hearty").
 - Phone: (509) 960-7989
 
 **Current focus:** dinner covers (primary), **Sunday brunch (LIVE — Sundays 10am–4pm, launched July 2026)**,
-Mezzanine + Patio private events/catering, loyalty growth, social scaling, Klaviyo, SEO.
+Mezzanine + Patio private events/catering, loyalty growth, social scaling, email/SMS (Toast), SEO.
 Highest-margin channels: dinner, private events, catering — prioritize these.
 
 ---
@@ -123,9 +123,13 @@ Highest-margin channels: dinner, private events, catering — prioritize these.
 
 ## Digital Ecosystem
 
-- **Website:** unomastacoshop.com (migrating to a new Lovable-built site) · GA4 active
+- **Website:** unomastacoshop.com (Lovable-built site, live)
+- **Tracking/pixels — all IDs live in `marketing/tracking-plan.md` (canonical; don't re-pull from ad platforms):**
+  GA4 `G-YXKMDL0KF2` · Google Ads `AW-18385019415` (acct 164-990-7395) · Meta Pixel `1737601003250529` ·
+  TikTok Pixel `D9U04BRC77UDGUKDT76G` · no GTM (deliberate) · Klaviyo retired Aug 2026
 - **Instagram** @unomastacoshop (primary) · **TikTok** @unomastacosandtequila · **Facebook** (cross-post)
-- **Email/SMS:** Klaviyo (tied to Toast Cantina Club loyalty) · **Reservations:** Resy ·
+- **Email/SMS:** **Toast Marketing** (bulk; Klaviyo retired Aug 2026) · Resend/Twilio for
+  triggered + transactional · **Reservations:** Resy (own build planned — WS-F) ·
   **Scheduling:** Vista Social · **Ads:** Meta + Google (in-house) · **POS:** Toast
 - **General:** tacos@unomastacoshop.com · **Events/Catering:** karissa@unomastacoshop.com
 
