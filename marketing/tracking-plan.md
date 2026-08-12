@@ -13,7 +13,7 @@ Audited against live production HTML and the Lovable source (project `78c4ac75-6
 
 | Platform | ID | Status |
 |---|---|---|
-| GA4 | `G-YXKMDL0KF2` | ✅ live on all pages |
+| GA4 | Measurement ID `G-YXKMDL0KF2`<br>Property ID `523092931`<br>Account ID `383242412` | ✅ live on all pages — verified 2026-08-11 as the only GA4 tag on the site. Measurement ID is the one used in code; Property/Account IDs are for GA4 Admin, the Data API and BigQuery links. |
 | Google Ads | `AW-18385019415` | ✅ built 2026-08-11 (commit `170dd687`) — base tag only. Conversion actions still need `send_to` labels (§6). |
 | Meta Pixel | `1737601003250529` | ✅ live on all pages (+ noscript fallback) |
 | TikTok Pixel | `D9U04BRC77UDGUKDT76G` | ✅ built 2026-08-11 (commit `60961819`) — base pixel + SPA pageviews. Event mapping still to come (§4). |
