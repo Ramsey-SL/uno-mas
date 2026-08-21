@@ -160,17 +160,21 @@ This repo carries an agent that keeps every Uno Más surface in sync and finds a
 | Build a poster, menu, social graphic, ad, mockup, or site UI | `/unomas-design <what you need>` |
 | Multi-surface work or a whole-ecosystem drift audit | delegate to the `unomas-steward` agent |
 
-**These work from any directory.** The skills and agent live in this repo (`.claude/skills/`,
-`.claude/agents/`) so they're versioned, and are symlinked into `~/.claude/skills/` and
-`~/.claude/agents/` so they load in every Claude Code session, not just ones started here.
-Edit them in the repo; the symlinks pick the change up immediately. If they ever stop appearing,
-re-run:
+**These work from any directory, on any machine that has the repo.** The skills and agent live in
+this repo (`.claude/skills/`, `.claude/agents/`) so they're versioned, and are symlinked into
+`~/.claude/` so they load in every Claude Code session. Edit them in the repo; the symlinks pick
+the change up immediately.
+
+**New machine, or the commands stopped appearing:**
+```bash
+bash ~/projects/uno-mas-brand/scripts/bootstrap-agent.sh
 ```
-for s in unomas-update unomas-find unomas-design; do
-  ln -sfn ~/projects/uno-mas-brand/.claude/skills/$s ~/.claude/skills/$s
-done
-ln -sfn ~/projects/uno-mas-brand/.claude/agents/unomas-steward.md ~/.claude/agents/unomas-steward.md
-```
+Idempotent — safe to re-run.
+
+📖 **`/AGENT-ACCESS.md`** covers devices, phones, the inbox convention, and **how to use ChatGPT
+alongside this agent without causing drift.** The one rule: *Claude Code is the only thing that
+writes; anything decided elsewhere comes back through `/unomas-update`.* For ChatGPT context, paste
+`marketing/brand-context-pack.md` (~7KB, sized to paste).
 
 - **`marketing/ecosystem-registry.md`** is the steward's operating manual — the inventory of every
   surface (repo, Cloudinary, Drive, Lovable, Supabase, Klaviyo, Meta, Canva, GBP, Resy, Toast,
