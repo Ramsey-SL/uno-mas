@@ -157,13 +157,29 @@ This repo carries an agent that keeps every Uno Más surface in sync and finds a
 |---|---|
 | Something about the business changed — propagate it everywhere | `/unomas-update <what changed>` |
 | Find a file, asset, doc, number, or design anywhere in the ecosystem | `/unomas-find <what you need>` |
+| Build a poster, menu, social graphic, ad, mockup, or site UI | `/unomas-design <what you need>` |
 | Multi-surface work or a whole-ecosystem drift audit | delegate to the `unomas-steward` agent |
+
+**These work from any directory.** The skills and agent live in this repo (`.claude/skills/`,
+`.claude/agents/`) so they're versioned, and are symlinked into `~/.claude/skills/` and
+`~/.claude/agents/` so they load in every Claude Code session, not just ones started here.
+Edit them in the repo; the symlinks pick the change up immediately. If they ever stop appearing,
+re-run:
+```
+for s in unomas-update unomas-find unomas-design; do
+  ln -sfn ~/projects/uno-mas-brand/.claude/skills/$s ~/.claude/skills/$s
+done
+ln -sfn ~/projects/uno-mas-brand/.claude/agents/unomas-steward.md ~/.claude/agents/unomas-steward.md
+```
 
 - **`marketing/ecosystem-registry.md`** is the steward's operating manual — the inventory of every
   surface (repo, Cloudinary, Drive, Lovable, Supabase, Klaviyo, Meta, Canva, GBP, Resy, Toast,
   socials), the **fact → canonical owner → mirrors** propagation matrix (F1–F12), each surface's
   access path and gotchas, plus a running list of **known conflicts**. Read it before changing a
   fact that appears in more than one place. Keep it current in the same commit as any surface change.
+- **`design-system/tokens.css`** is the canonical palette/type/spacing source for anything visual —
+  `/unomas-design` reads it before it draws. Print collateral follows the house HTML poster pattern
+  in `marketing/campaigns/daily-specials/`.
 - **`marketing/ecosystem-changelog.md`** logs every propagated change — check it before assuming
   a value is stale.
 - Core rule: **one canonical owner per fact.** Update the owner first, then overwrite every mirror

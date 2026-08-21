@@ -1,7 +1,7 @@
 # Uno Más Ecosystem Registry
 
 > **This is the machine-readable map of every surface that carries Uno Más information.**
-> The Ecosystem Steward agent (`.claude/skills/unomas-update`, `.claude/skills/unomas-find`)
+> The Ecosystem Steward agent (`.claude/skills/unomas-update`, `unomas-find`, `unomas-design`)
 > reads this file first on every task. When a surface is added, changed, retired, or a
 > credential/ID changes — update this file in the same commit.
 >
