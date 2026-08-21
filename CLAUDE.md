@@ -141,6 +141,28 @@ Highest-margin channels: dinner, private events, catering — prioritize these.
 
 ---
 
+## The Ecosystem Steward (start here for any update or file hunt)
+
+This repo carries an agent that keeps every Uno Más surface in sync and finds anything in it.
+
+| Use | How |
+|---|---|
+| Something about the business changed — propagate it everywhere | `/unomas-update <what changed>` |
+| Find a file, asset, doc, number, or design anywhere in the ecosystem | `/unomas-find <what you need>` |
+| Multi-surface work or a whole-ecosystem drift audit | delegate to the `unomas-steward` agent |
+
+- **`marketing/ecosystem-registry.md`** is the steward's operating manual — the inventory of every
+  surface (repo, Cloudinary, Drive, Lovable, Supabase, Klaviyo, Meta, Canva, GBP, Resy, Toast,
+  socials), the **fact → canonical owner → mirrors** propagation matrix (F1–F12), each surface's
+  access path and gotchas, plus a running list of **known conflicts**. Read it before changing a
+  fact that appears in more than one place. Keep it current in the same commit as any surface change.
+- **`marketing/ecosystem-changelog.md`** logs every propagated change — check it before assuming
+  a value is stale.
+- Core rule: **one canonical owner per fact.** Update the owner first, then overwrite every mirror
+  from it. A mirror that disagrees with its owner is wrong, even if it looks newer.
+
+---
+
 ## Where to find depth
 
 This file is the **entry point**. The repo's canonical content structure:
@@ -160,6 +182,8 @@ This file is the **entry point**. The repo's canonical content structure:
 | AI image generation (Gemini/ChatGPT testing, prompts, rubric) | `marketing/image-generation-playbook.md` |
 | DAM workflow (Cloudinary upload/sort pipeline, "website" convention) | `marketing/dam-workflow.md` |
 | Drive warehouse map (what's in Uno_Mas_HQ) | `MIGRATION-PLAN.md` |
+| **Ecosystem surface map + propagation matrix + known conflicts** | `marketing/ecosystem-registry.md` |
+| **Log of propagated information changes** | `marketing/ecosystem-changelog.md` |
 
 > **Doc hierarchy:** `CLAUDE.md` (you are here — orientation) → `marketing/master-reference.md`
 > (operational cheat sheet) → `brand-intelligence-center/` (deep strategy) → topic folders above.
