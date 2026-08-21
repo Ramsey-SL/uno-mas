@@ -45,9 +45,9 @@
 - **Offerings:** Cocktails · Beer · Wine · Hard liquor · Coffee · Vegetarian options · Vegan options · Late-night food (Fri/Sat) · Small plates · Quick bite (lunch)
 - **Dining options:** Lunch · Dinner · Dessert · Seating · Catering
 - **Amenities:** Bar onsite · Gender-neutral restroom (if true) · Wi-Fi (if offered) · Dogs allowed (patio, if true)
-- **Crowd/Planning:** Family-friendly (until 9pm) · Groups · Accepts reservations · Accepts walk-ins
+- **Crowd/Planning:** Family-friendly (all hours — no 21+ window) · Groups · Accepts reservations · Accepts walk-ins
 - **Parking:** Free parking lot / Free street parking
-- **Children:** Good for kids (until 9pm) · High chairs (if available)
+- **Children:** Good for kids (all hours) · High chairs (if available)
 - **Payments:** Credit cards · Debit · NFC mobile payments
 
 ### Products (add with photos + prices — these show in the listing)
@@ -70,7 +70,7 @@ Cover: the converted-garage cantina interior. Logo: agave-on-navy. Then categori
 - "Do you cater?" → "Yes — taco & Mexican catering across Spokane, the Valley, Liberty Lake, and Coeur d'Alene. Email karissa@unomastacoshop.com."
 - "Is there a private event space?" → "The Mezzanine speakeasy seats 28, plus patio takeovers and full buyouts. karissa@unomastacoshop.com."
 - "Are there vegan options?" → "Yes — the Batata (sweet potato) and Hongos (portabella) tacos can be made vegan."
-- "Is it kid-friendly?" → "Yes until 9pm. After 9pm the room is 21+ by design."
+- "Is it kid-friendly?" → "Always. Kids are welcome any hour we're open — there's no 21+ window. The room gets more grown-up late, but families are never turned away."
 
 ### GBP Posts (publish weekly — keeps the profile 'active', a ranking signal). First batch:
 1. **Taco Tuesday** (recurring, post Mondays): "Taco Tuesday on North Monroe — BOGO lunch street tacos, $6 margs, $30 marg pitchers. Every Tuesday at 2020 N Monroe." → button **Order/Reserve**.

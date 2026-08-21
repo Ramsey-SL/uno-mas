@@ -68,7 +68,7 @@
 - **Lunch Service:** 11am–close, Tuesday–Saturday
 - **Sunday Brunch:** LIVE — every Sunday 10am–4pm (launched July 2026). Fresh sheet runs alongside the lunch menu; menu at `/menu?tab=brunch`.
 - **Live DJ:** Friday & Saturday nights
-- **Weekly Specials (ongoing):** Taco Tuesday (BOGO lunch street tacos · $6 margs · $30 marg pitchers) · Beer & Bites Wednesday ($5 pints · $10 loaded nachos · $10 loaded masa fries) · Burrito Thursday ($15 House Burrito or Bowl). These REPLACED Happy Hour and the old $12 lunch special — do NOT reference Happy Hour or the lunch special (retired).
+- **Weekly Specials (ongoing):** Taco Tuesday (BOGO lunch street tacos · $6 margs · $30 marg pitchers) · Beer & Bites Wednesday ($5 pints · $10 loaded nachos · $10 loaded masa fries) · Big F’N Thursday ($10 Big F’N Quesadilla · $10 menu tequila cocktail fresh sheet). These REPLACED Happy Hour and the old $12 lunch special — do NOT reference Happy Hour or the lunch special (retired).
 
 > **Note:** Weekly programming (Trivia, Comedy, Bingo) is NOT currently active. Do not reference in content until reinstated.
 

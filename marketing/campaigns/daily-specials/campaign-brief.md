@@ -1,3 +1,8 @@
+> ⚠️ **THURSDAY CHANGED (2026-08).** Burrito Thursday ($15 House Burrito or Bowl) is **RETIRED**.
+> Thursday is now **Big F’N Thursday** — $10 Big F’N Quesadilla (BFQ) + $10 menu tequila cocktail
+> fresh sheet, new cocktails every Thursday. Copy below has been updated. **Poster and AI-image
+> assets for Thursday are still the retired burrito creative — new Thursday creative is needed.**
+
 # Campaign Brief — Daily Specials (Tue / Wed / Thu)
 
 **Type:** promotion (recurring weekly)   **Status:** 🟢 collateral built (posters · table tent · icons · social · /specials page) — awaiting time windows + pint photo   **Owner:** Ramsey
@@ -12,7 +17,7 @@ Build standing midweek rituals that drive Tue–Thu covers (the slower nights) a
 |---|---|
 | **Taco Tuesday** | BOGO lunch street tacos · $6 margs · $30 marg pitchers |
 | **Beer & Bites Wednesday** | $5 pints · $10 loaded nachos · $10 loaded masa fries |
-| **Burrito Thursday** | $15 House Burrito or Bowl |
+| **Big F’N Thursday** | $10 Big F’N Quesadilla (BFQ) · $10 menu tequila cocktail fresh sheet (new cocktails weekly) |
 
 *[OPEN: time windows — is Taco Tuesday BOGO lunch-only (11–5)? Are Wed/Thu all-day or dinner? Dine-in only or takeout too?]*  (These day-specials REPLACE the old $12 lunch special AND Happy Hour — both retired.)
 
@@ -25,7 +30,7 @@ Build standing midweek rituals that drive Tue–Thu covers (the slower nights) a
 Frame as a **vibe/ritual**, not a discount fire-sale (brand = experience over deals, price-confident):
 - "Taco Tuesday hits different at 2020 N Monroe." (BOGO street tacos · $6 margs · $30 pitchers)
 - "Beer & Bites Wednesday: $5 pints, $10 loaded nachos, $10 loaded masa fries. Math we can get behind."
-- "Burrito Thursday — $15 burritos & bowls. Your Thursday just got a plan."
+- "Big F’N Thursday — $10 Big F’N Quesadilla, $10 tequila cocktails. Your Thursday just got a plan."
 - Tie-line: "Three reasons to get a little lost midweek."
 - Voice: confident, playful; never apologetic about price; lead with the experience, prove with the food.
 
@@ -57,7 +62,7 @@ midweek traffic lift, social engagement, email/SMS → visit.
 4. Pint brands for $5 Wed (any featured)? Marg flavors for Taco Tue?
 
 ## Assets built (2026-06-22)
-- ✅ **Posters (print-ready 4:5):** `poster-taco-tuesday.html` · `poster-5-wednesday.html` · `poster-burrito-thursday.html` · `poster-midweek-lineup.html` (+ `.png` previews). Real DAM food/drink photos + white Uno Más logo, warm palette, Antonio headlines.
+- ✅ **Posters (print-ready 4:5):** `poster-taco-tuesday.html` · `poster-5-wednesday.html` · ~~`poster-burrito-thursday.html`~~ **(RETIRED — needs a Big F’N Thursday replacement)** · `poster-midweek-lineup.html` **(Thursday panel stale)** (+ `.png` previews). Real DAM food/drink photos + white Uno Más logo, warm palette, Antonio headlines.
 - ✅ **Table tent (2-sided 5×7):** `table-tent.html`.
 - ✅ **Icon & badge set (SVG):** `icons.html` — taco/marg/pitcher/pint/burrito/bowl + BOGO/$5/$15 badges + 3 day stamps (recolorable).
 - ✅ **Social / email / SMS copy:** `creative-copy.md`.

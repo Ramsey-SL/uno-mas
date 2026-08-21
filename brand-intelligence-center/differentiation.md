@@ -27,7 +27,7 @@
 
 ### Loyalty & Retention
 - **Uno Más Rewards: The Cantina Club loyalty program** — members spend 107% more; visit 2x as often; 10% value return
-- **21+ after 9pm** — intentional atmosphere preservation; not a policy, a design choice
+- **Kid-friendly at all times — no 21+ window.** The late-night room skews adult by self-selection, not by policy. Atmosphere is curated through lighting, sound, and program — never by turning families away.
 - **Rotating specials and promotions** — recurring reasons to return; see active campaigns for current offers
 - **Events calendar** — updated as programming is confirmed; add event details to populate
 
@@ -60,7 +60,7 @@ We lead with the experience, prove it with the food, and keep people coming back
 | Objection | How We Address It |
 |-----------|------------------|
 | "I've never heard of it" | That's the point. You're about to be the person who tells everyone else. 2020 N Monroe — get there. |
-| "Is it family friendly?" | Until 9pm, absolutely. After that it's 21+ — by design. |
+| "Is it family friendly?" | Always. Kids are welcome any hour we're open. The room gets more grown-up late, but we never close it to families. |
 | "Is it worth the drive to Monroe?" | It's behind Indaba Coffee. Parking is easy. And yes. |
 | "Is the dinner menu worth it?" | Skirt steak + tiger prawns + cilantro lime rice + black beans. The Surf & Turf alone will settle it. Come hungry. |
 | "The Mezzanine / patio sounds expensive for an event" | We have options for every size and budget. Contact karissa@unomastacoshop.com and we'll build something that works. |

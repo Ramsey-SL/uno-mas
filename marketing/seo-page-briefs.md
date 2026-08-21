@@ -110,11 +110,11 @@
 - **Throttle handoff:** when top-3 → reduce paid *Dinner* ad group.
 
 ### P0 — /specials (Taco Tuesday)
-- **Primary:** `taco tuesday spokane` (100–1K, Low) · **Secondary:** `best taco tuesday spokane`, `taco tuesday near me`, `drink specials spokane`, `food specials spokane`, `burrito thursday spokane`, `margarita deals spokane` (all `<10` — own free)
+- **Primary:** `taco tuesday spokane` (100–1K, Low) · **Secondary:** `best taco tuesday spokane`, `taco tuesday near me`, `drink specials spokane`, `food specials spokane`, `big f'n thursday spokane`, `margarita deals spokane` (all `<10` — own free)
 - **Title:** `Taco Tuesday in Spokane | Weekly Specials — Uno Más`
-- **Meta:** `Taco Tuesday at Uno Más: BOGO street tacos, $6 margaritas, $30 pitchers. Plus Beer & Bites Wednesday and Burrito Thursday. 2020 N Monroe, Spokane.`
+- **Meta:** `Taco Tuesday at Uno Más: BOGO street tacos, $6 margaritas, $30 pitchers. Plus Beer & Bites Wednesday and Big F’N Thursday. 2020 N Monroe, Spokane.`
 - **H1:** `Taco Tuesday & Weekly Specials in Spokane`
-- **Sections:** Taco Tuesday (BOGO tacos · $6 margs · $30 pitchers) · Beer & Bites Wednesday · Burrito Thursday · Hours · Map. *(No "happy hour" — retired.)*
+- **Sections:** Taco Tuesday (BOGO tacos · $6 margs · $30 pitchers) · Beer & Bites Wednesday · Big F’N Thursday · Hours · Map. *(No "happy hour" — retired.)*
 - **Schema:** `Restaurant` + `FAQPage` + (optional) `Offer`.
 - **Throttle handoff:** when top-3 → reduce paid *Taco Tuesday* campaign.
 

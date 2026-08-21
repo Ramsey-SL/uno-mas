@@ -60,7 +60,7 @@ We started as a taco shop. We grew into something more. Tacos are something we d
 - Corporate event planners and hosts booking The Mezzanine or Patio
 - Date-night couples seeking something impressive without full fine-dining commitment
 - Brunch crowd (Sundays 10am–4pm — LIVE)
-- Late-night 21+ crowd (21+ after 9pm)
+- Late-night adult crowd (skews adult by self-selection — no 21+ window; all ages welcome)
 - Travelers and visitors — consistently report Uno Más as the best Mexican food they've had in a long time; need strong Google presence and social proof
 
 **Decision-maker:** The "experience planner" — the one who curates the night out for the group.
@@ -96,7 +96,7 @@ We started as a taco shop. We grew into something more. Tacos are something we d
 - Espresso Margarita collab with Indaba Coffee — uniquely Spokane, not replicable
 - Uno Más Rewards: The Cantina Club loyalty — members spend 107% more ($66.99 vs $32.44 avg), visit 2x as often
 - Private events and catering — Mezzanine buyouts, patio takeovers, off-site catering; work parties, birthdays, receptions, watch parties, rehearsal dinners, corporate events
-- 21+ after 9pm — intentional atmosphere preservation, not a policy
+- Kid-friendly at all times — **no 21+ window.** Atmosphere is preserved by design, not by exclusion.
 - The converted garage space itself — no other restaurant in Spokane looks or feels like this
 
 **Counter-position:**

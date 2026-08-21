@@ -1,3 +1,8 @@
+> ⚠️ **THURSDAY CHANGED (2026-08).** Burrito Thursday ($15 House Burrito or Bowl) is **RETIRED**.
+> Thursday is now **Big F’N Thursday** — $10 Big F’N Quesadilla (BFQ) + $10 menu tequila cocktail
+> fresh sheet, new cocktails every Thursday. Copy below has been updated. **Poster and AI-image
+> assets for Thursday are still the retired burrito creative — new Thursday creative is needed.**
+
 # Creative / Design Brief — Daily Specials (Tue / Wed / Thu)
 
 > ✅ **Claude-built, ready-to-use versions exist** (no AI-gen needed): posters `poster-*.html`, `table-tent.html`, `icons.html`, `specials-page-preview.html`. The prompts below remain for generating photo-real variants in Gemini/ChatGPT.
@@ -11,7 +16,7 @@ Fonts: **Antonio** (headlines) / **Montserrat** (body). Voice: confident, playfu
 |---|---|---|
 | **Taco Tuesday** | BOGO Lunch Street Tacos · $6 Margs · $30 Marg Pitchers | Hot Pink |
 | **Beer & Bites Wednesday** | $5 Pints · $10 Loaded Nachos · $10 Loaded Masa Fries | Yellow |
-| **Burrito Thursday** | $15 House Burrito or Bowl | Blue |
+| **Big F’N Thursday** | $10 Big F’N Quesadilla (BFQ) · $10 menu tequila cocktail fresh sheet | Blue |
 
 ## Big idea
 **Three midweek rituals.** Not a discount fire-sale — a *reason* to make Uno Más your Tue/Wed/Thu.
@@ -32,7 +37,7 @@ Tagline options: "Three reasons to get a little lost midweek." · "Midweek hits 
 ```
 Vertical 4:5 poster for "[DAY]" at Uno Más (modern Mexican taco & tequila bar, Spokane).
 Warm, candid food photography of [Taco Tuesday: street tacos + a margarita & pitcher / Beer & Bites Wednesday:
-loaded nachos & loaded masa fries + a cold pint / Burrito Thursday: a loaded house burrito and a bowl], natural warm light, no blue cast,
+loaded nachos & loaded masa fries + a cold pint / Big F’N Thursday: a big griddled quesadilla, cut and pulling cheese, beside a tequila cocktail], natural warm light, no blue cast,
 converted-garage cantina vibe, appetizing and real (reference the attached photo for the actual food look).
 Brand: Hot Pink #E22690 + Navy + Yellow accents; bold Antonio-style condensed headline.
 Compose for text: big day name "[DAY]" + the offer "[OFFER TEXT EXACTLY]" + small "2020 N Monroe · Uno Más"
@@ -51,7 +56,7 @@ Combined poster: all three days as a stacked "Midweek Lineup" with the tagline a
 Captions (ready to post):
 - **Taco Tuesday:** "Taco Tuesday hits different at 2020 N Monroe. 🌮 BOGO street tacos. $6 margs. $30 pitchers. Grab your people."
 - **Beer & Bites Wednesday:** "Beer & Bites Wednesday. $5 pints, $10 loaded nachos, $10 loaded masa fries. Math we can get behind. 🍺"
-- **Burrito Thursday:** "Burrito Thursday: $15 House Burrito or Bowl. Your Thursday just got a plan. Come get a little lost."
+- **Big F’N Thursday:** "Big F’N Thursday: $10 Big F’N Quesadilla, $10 tequila cocktails off the fresh sheet. Your Thursday just got a plan. Come get a little lost."
 Formats: 4:5 feed + 9:16 story (countdown sticker "TODAY: [offer]").
 
 ## 4) Icons & graphics

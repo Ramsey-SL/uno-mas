@@ -80,7 +80,7 @@
 - **160 characters max** per segment (avoid going to 2 segments when possible)
 - Always include: offer/info, short link, opt-out reminder on first message of new campaign
 - Structure: Hook → Value → Link
-  - "Burrito Thursday: $15 burritos & bowls. Come get a little lost. [link]"
+  - "Big F’N Thursday: $10 Big F’N Quesadilla + $10 tequila cocktails. Come get a little lost. [link]"
 
 ### Tone
 - Write like a text, not a broadcast

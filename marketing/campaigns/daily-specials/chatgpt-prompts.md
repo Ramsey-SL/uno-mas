@@ -1,3 +1,13 @@
+> ⚠️ **THURSDAY CHANGED (2026-08).** Burrito Thursday ($15 House Burrito or Bowl) is **RETIRED**.
+> Thursday is now **Big F’N Thursday** — $10 Big F’N Quesadilla (BFQ) + $10 menu tequila cocktail
+> fresh sheet, new cocktails every Thursday. Copy below has been updated. **Poster and AI-image
+> assets for Thursday are still the retired burrito creative — new Thursday creative is needed.**
+
+> **Thursday image prompts below are RETIRED burrito creative.** Do not run sections referencing
+> "BURRITO THURSDAY" / "$15 house burrito or bowl". A Big F’N Thursday prompt set (hero: a big
+> griddled quesadilla, cut, cheese pulling, beside a tequila cocktail; accent Blue `#18BCDC`;
+> offer panel "$10 BIG F’N QUESADILLA · $10 TEQUILA COCKTAILS") still needs to be written.
+
 # Daily Specials — Drop-in ChatGPT Image Prompts
 
 **Each block is ready to paste straight into ChatGPT (image mode) and generate.** Self-contained — brand, exact text, palette, and rules are baked in. Best inside the **"Uno Más Art Director" Custom GPT** (can pull real food/drink photos + logo from the DAM); otherwise ChatGPT renders the "UNO MÁS" wordmark as text and you swap the real logo after (DAM IDs in `marketing/dam-asset-manifest.md`).

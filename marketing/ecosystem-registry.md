@@ -5,7 +5,7 @@
 > reads this file first on every task. When a surface is added, changed, retired, or a
 > credential/ID changes — update this file in the same commit.
 >
-> **Last verified:** 2026-08-20 · Maintained by Ramsey Pruchnic / Strategy Labs
+> **Last verified:** 2026-08-20 (specials/policy propagation run) · Maintained by Ramsey Pruchnic / Strategy Labs
 
 ---
 
@@ -65,7 +65,7 @@ spaces on BOTH the parent and the folder.** Always quote paths exactly.
 ### Marketing website — Lovable + Supabase
 - **Lovable project** `78c4ac75-6325-4f38-a44b-278bb2194cf2`, slug `uno-mas-site-builder`, workspace `h7z1Qf3pORsTwkJiC3ie` ("Ramsey's Lovable"). TanStack Start + Tailwind + shadcn/ui.
 - Live: https://uno-mas-site-builder.lovable.app · Editor: https://lovable.dev/projects/78c4ac75-6325-4f38-a44b-278bb2194cf2
-- Public domain `unomastacoshop.com` — **not yet connected** (open item).
+- Public domain `unomastacoshop.com` — **CONNECTED** (verified 2026-08-20; the lovable.app URL 301s to it).
 - Routes: `/`, `/about`, `/fiesta-box`, `/catering`, `/now-hiring`, `/mezzanine`, `/private-events`, `/#menu`; `/menu`→`/#menu`; `/reservations` 301→Resy. Admin: `/admin`, `/admin/dashboard`, `/admin/events`, `/admin/content`.
 - Key components: `MenuCollection.tsx` (homepage menu — **hardcoded menu** + Cloudinary rail), `WhatsOnThisWeek.tsx` (specials tiles), `SectionTransition.tsx` (5 approved dividers), `site-header.tsx`, `page-shell.tsx`, `__root.tsx` (pixel loader), `src/lib/queries.functions.ts` (server-fn read layer).
 - **Gotcha:** every `send_message` must say *"typecheck only (`bunx tsgo --noEmit`), do NOT run Playwright/browser/screenshots"* — browser runs blow the 300s idle timeout.
@@ -135,18 +135,20 @@ When Ramsey reports a change, find its row, update the **owner** first, then eve
 These are live disagreements found on 2026-08-20. The Steward should surface them and ask
 Ramsey to rule, then propagate the ruling.
 
-1. **Taco Tuesday margarita price.** `CLAUDE.md` says **$6 margs / $30 pitchers**; the Lovable site build notes say **$9 margs**; Cantina Club lists a **$6 marg member perk**. Owner F3 = `CLAUDE.md`. Needs a ruling: is $6 the public Tuesday price and $9 the everyday price, or has the public price moved?
-2. **21+ policy.** `CLAUDE.md` says **21+ after 9pm — intentional atmosphere**; `master-reference.md` QUICK REFERENCE says **"Kid-friendly at all times. No 21+ window."** Direct contradiction on a fact that appears on GBP and the site.
-3. **Pixels installed.** `website/SITE-STATUS.md` says pixels are NOT installed; they **are** (see §2). SITE-STATUS is stale — fix on next touch.
+1. ~~**Taco Tuesday margarita price.**~~ **RESOLVED 2026-08-20 — $6 margs / $30 pitchers.** Ruled by Ramsey; live site already showed $6. The stray "$9" existed only in a session memory note, not in the repo. Memory corrected.
+2. ~~**21+ policy (house-wide).**~~ **RESOLVED 2026-08-20 — kid-friendly at all times, NO 21+ window.** Ruled by Ramsey. Propagated to `CLAUDE.md`, `master-reference.md`, all four `brand-intelligence-center/` docs, `brand-context-pack.md`, `local-seo-gbp-reviews-playbook.md` (incl. GBP attributes), `audience-personas.md`, `brand-voice.md`.
+   ⚠️ **STILL OPEN — Mezzanine scope.** The live site's remaining 21+ claims are all *Mezzanine-scoped*, not house-wide: `/about` Mezzanine card ("21+ after 9pm, by design"), `/mezzanine` copy + FAQ JSON-LD ("The room is 21+ after 9pm"), homepage Mezzanine card ("21+ · All Service Hours"), plus legitimate Love Island event 21+ and Fiesta Box alcohol 21+. **Needs a ruling: is the Mezzanine 21+ (always / after 9pm / not at all)?** No live-site change made pending that answer.
+3. ~~**Pixels installed.**~~ **RESOLVED** — `SITE-STATUS.md` corrected; pixels are live (Meta `1737601003250529`, GA4 `G-YXKMDL0KF2`, Klaviyo `UjAfaJ`).
 4. **Gemini API key** was committed in plaintext in the old `HANDOFF-PROMPT.md` (April 2026). **Still needs rotating.**
 5. **Trailing-space Drive folders** (`Uno_Mas_HQ `, `Uno Mas Marketing HQ `) — planned rename, not done.
-6. **Uncommitted work:** `marketing/knowledge-center/menu-and-offers.md` is modified and uncommitted on `main`.
+6. ~~**Uncommitted work** in `menu-and-offers.md`~~ — **RESOLVED**: it was a Masa Coated Fries price fix ($7 → $8); committed 2026-08-20.
+7. **Hours: `CLAUDE.md` said Tue–Thu 11am–9pm; canonical Supabase `business_hours` and the live site's JSON-LD both say 11am–**8pm**.** Corrected `CLAUDE.md` to 8pm per owner-wins doctrine — **flagged for Ramsey to confirm 8pm is right in reality.**
+8. **Thursday promo changed 2026-08** — Burrito Thursday ($15 House Burrito or Bowl) retired, replaced by **Big F’N Thursday** ($10 Big F’N Quesadilla + $10 menu tequila cocktail fresh sheet). The live site was AHEAD of the repo; 27 repo files were behind. Thursday **poster/AI-image creative is still the retired burrito artwork** — new creative needed.
 
 ---
 
 ## 5. Open ecosystem items
 
-- Connect production domain `unomastacoshop.com` to the Lovable site.
 - Confirm Resend sending-domain verification.
 - Wire the public homepage (announcement bar, featured band, hero, specials, hours) to READ Supabase instead of hardcoded values — **this is the single highest-leverage fix for drift**, because it collapses F1/F3/F7 mirrors into one.
 - Build the Site Content + Hours/closures admin editors.

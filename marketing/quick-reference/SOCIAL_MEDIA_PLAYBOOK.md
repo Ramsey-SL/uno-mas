@@ -54,7 +54,7 @@ Conversion-focused content — never more than ~15% or it feels salesy.
 - Rotating specials, loyalty rewards (Uno Mas Rewards: The Cantina Club)
 - Catering promos, Fiesta Pack announcements
 - Email/SMS signup pushes
-- ✅ Weekly specials active: Taco Tuesday / Beer & Bites Wednesday / Burrito Thursday — confirm the day's offer before writing. (Happy Hour retired.)
+- ✅ Weekly specials active: Taco Tuesday / Beer & Bites Wednesday / Big F’N Thursday — confirm the day's offer before writing. (Happy Hour retired.)
 
 ---
 

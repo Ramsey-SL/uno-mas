@@ -30,7 +30,7 @@ We believe a night out should feel like a discovery, not a transaction. Spokane 
 - Quarter-pound tacos and house-smoked meats made in-house, not shortcuts
 - A two-venue space engineered to feel like you found something (not just went somewhere)
 - A community-first approach: loyalty that pays back, events that create regulars, a brand with actual personality
-- 21+ after 9pm — intentional curation of atmosphere, not exclusion
+- Kid-friendly at all times — no 21+ window. Atmosphere is curated by design, never by exclusion.
 
 ### WHAT — What We Offer
 Latin-inspired tacos, house-smoked meats, craft cocktails, a rooftop speakeasy (The Mezzanine), an elevated dinner menu with a Raw Bar, and private event hosting — all at 2020 N Monroe, Spokane.

@@ -66,7 +66,7 @@ We started as a taco shop. We grew into something more. Tacos are something we d
 - A fast-casual restaurant
 - A chain
 - A sports bar
-- A family-friendly destination (21+ after 9pm)
+- A kids-first family destination (families are always welcome — no 21+ window — but that's not the pitch)
 - Fine dining in the traditional sense
 - Pretentious about any of it
 

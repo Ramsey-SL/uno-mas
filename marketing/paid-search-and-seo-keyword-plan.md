@@ -152,7 +152,7 @@ Organized by cluster. Each cluster = a Google Ads ad group **and** a target page
 | taco tuesday deals / taco tuesday near me | Phrase / Broad+loc | M | Low–Med | $1.00–2.25 | ★★ | Low | Near-me = 2 mi cap. |
 | drink specials spokane / food specials spokane | Phrase | L–M | Low | $1.00–2.00 | ★ | Low | Map weekly specials (Beer & Bites Wed, Burrito Thu) onto these. |
 | margarita deals spokane / cheap margaritas spokane | Phrase | L | Low | $1.00–1.75 | ★ | Low | $6 marg / $30 pitcher hook. Note "cheap" usually a negative elsewhere — allow only in this ad group. |
-| burrito thursday spokane | Phrase | L | Low | $1.00–1.75 | ★ | Low | Niche brand-specific; trivial to own. |
+| big f’n thursday spokane | Phrase | L | Low | $1.00–1.75 | ★ | Low | Niche brand-specific; trivial to own. *(Replaced `burrito thursday spokane` — Burrito Thursday retired 2026-08.)* |
 
 ---
 
@@ -385,7 +385,7 @@ Priority order, because organic is the long-term cost-killer behind every "bid u
 | taco tuesday spokane | 100–1K | Low (19) | — | ★★★ | **Daypart Mon eve–Tue**; tight radius. |
 | taco tuesday near me | 100–1K | Low (17) | — | ★★ | **YoY +900%** rising; 2–3 mi radius. |
 | best taco tuesday spokane | 10–100 | Low (7) | — | ★★ | Cheap own. |
-| taco tuesday deals · drink/food specials · margarita deals · cheap margaritas · burrito thursday spokane | `<10` | — | — | SEO/social 🔻 | No paid volume — push via GBP posts + social. |
+| taco tuesday deals · drink/food specials · margarita deals · cheap margaritas · big f’n thursday spokane | `<10` | — | — | SEO/social 🔻 | No paid volume — push via GBP posts + social. |
 
 ### G — Private events / venue rental ⚠️ *(thin paid demand — see finding #1)*
 | Keyword | Avg searches/mo | Competition (idx) | Top-of-page bid | ★ | Play |

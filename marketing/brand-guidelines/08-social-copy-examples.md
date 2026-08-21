@@ -92,7 +92,7 @@ Math we can get behind. Monroe's got you.
 ```
 
 ```
-Burrito Thursday: $15 burritos & bowls.
+Big F’N Thursday: $10 Big F’N Quesadilla + $10 tequila cocktails.
 Your Thursday just got a plan. Come get a little lost.
 ```
 
@@ -209,7 +209,7 @@ Taco Tuesday: $6 margs. 🍹
 ```
 
 ```
-Taco Tuesday, Beer & Bites Wednesday, Burrito Thursday — your midweek lineup.
+Taco Tuesday, Beer & Bites Wednesday, Big F’N Thursday — your midweek lineup.
 The Paloma is $14. Get here.
 ```
 

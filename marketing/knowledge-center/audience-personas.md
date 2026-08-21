@@ -272,7 +272,7 @@ Understanding who is NOT our audience helps keep content focused:
 - ❌ Extreme bargain hunters whose primary question is "what's the cheapest thing?"
 - ❌ People who want fine dining formality — we're casual confidence, not white tablecloth
 - ❌ People looking for delivery — we are dine-in only, always
-- ❌ Kids-first family dining — we're welcoming to families but 21+ after 9pm is core to the Mezzanine identity
+- ❌ Kids-first family dining — families are always welcome (no 21+ window), but the Mezzanine's identity is adult-leaning atmosphere, not a kids' destination
 - ❌ People who need to be convinced that Latin-inspired food is worthwhile — our audience already knows
 
 ---

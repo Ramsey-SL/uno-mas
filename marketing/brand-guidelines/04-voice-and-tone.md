@@ -34,11 +34,11 @@ The voice stays consistent, but the **tone** shifts depending on what we're writ
 | Context | Tone | Example |
 |---|---|---|
 | Food posts | Specific, confident, dry | "Braised chuck. Melted Monterey Jack. Consomé for dipping." |
-| Weekly specials | Direct, time-aware, slightly playful | "Burrito Thursday — $15 House Burrito or Bowl. Get here." |
+| Weekly specials | Direct, time-aware, slightly playful | "Big F’N Thursday — $10 Big F’N Quesadilla. $10 tequila cocktails. Get here." |
 | Mezzanine | Atmospheric, mysterious, less-is-more | "Most people don't know the Mezzanine exists. That's kind of the point." |
 | Events / catering | Warm, professional, clear | "Three packages. One very good room. DM us to start planning." |
 | Review responses | Personal, genuine, warm | "Maria, this one made the whole team smile." |
-| Email subject lines | Direct or curiosity-forward | "Burrito Thursday. $15 burritos & bowls." |
+| Email subject lines | Direct or curiosity-forward | "Big F’N Thursday. $10 BFQ, $10 tequila cocktails." |
 | SMS | Urgent, specific, no fluff | "Taco Tuesday: $6 margs. Come in. 🍹" |
 
 ---
