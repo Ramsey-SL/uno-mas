@@ -16,6 +16,15 @@
 
 ---
 
+## 2026-08-20 — Big F’N Thursday: pricing scope + BFQ naming convention ruled  [F2, F4]
+**Change:** Two rulings from Ramsey closing the open questions on the new Thursday promo.
+1. **$10 is the BASE BFQ price.** Protein add-ons are charged on top at normal menu prices (Skirt Steak +$9 · Carnitas +$7 · Grilled Chicken +$6). A Thursday BFQ with carnitas is $17.
+2. **The two BFQ renderings are intentional, not drift.** Menu keeps `The Big F*** Quesadilla (BFQ)`; marketing uses `Big F’N Quesadilla`. Menu language stays exactly as it is.
+**Owner updated:** `CLAUDE.md` §Brand Name Rule now carries both the BFQ rendering convention and the pricing rule, so neither gets "corrected" by a future pass.
+**Mirrors updated:** `marketing/campaigns/daily-specials/big-fn-thursday-creative-spec.md` · `marketing/ecosystem-registry.md` (conflicts 9 and 10 closed; 9 reclassified as a convention).
+**Manual pending:** unchanged from the previous entries — GBP attributes + specials post, social Thursday graphic, Klaviyo Thursday flow.
+**Notes:** Photography deferred by Ramsey — no BFQ hero shot needed yet; poster and AI-prompt set still to build. **Recommend** adding a `Proteins additional` qualifier to the live homepage Thursday tile (currently just "$10 Big F’N Quesadilla"), since the base-price framing isn't obvious to a first-time guest — not changed, awaiting Ramsey's call.
+
 ## 2026-08-20 — Mezzanine 21+ stripped from the live site (follow-up ruling)  [policy]
 **Change:** Ramsey ruled **no 21+ anywhere, The Mezzanine included**, and confirmed **Tue–Thu close at 8pm**.
 **Owner updated:** `CLAUDE.md` — the policy line now states the ruling *and* names the only two surviving exceptions, so it can't be quietly re-added.

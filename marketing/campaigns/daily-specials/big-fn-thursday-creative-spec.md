@@ -29,20 +29,24 @@ Note the apostrophe is a **typographic** `’` (U+2019), not `'` — "Big F’N"
 |---|---|
 | Menu name | **The Big F*** Quesadilla (BFQ)** |
 | Regular price | **$15** (brunch: $14 + protein) |
-| Thursday price | **$10** |
+| Thursday price | **$10 base** — protein add-ons charged on top, at normal prices |
 | Description | "The size of a medium pizza. Loaded with melted cheese. *It's exactly what it sounds like.*" |
 | Protein add-ons | Skirt Steak +$9 · Carnitas +$7 · Grilled Chicken +$6 |
 
 **This is the creative hook: $15 → $10 on the item people already order.** Lead with the size and
 the name — the menu doc's own guidance is *"BFQ = the name does the work."*
 
-⚠️ **OPEN QUESTION:** does the $10 Thursday price include a protein, or is it the cheese base with
-add-ons still priced normally? Confirm before printing a price on anything.
+✅ **CONFIRMED 2026-08-20:** the **$10 is the base price** (cheese quesadilla). Protein add-ons are
+charged **on top at normal menu prices** — Skirt Steak +$9 · Carnitas +$7 · Grilled Chicken +$6.
+So a Thursday BFQ with carnitas is $17, not $10.
 
-⚠️ **NAMING INCONSISTENCY:** the menu docs write **"Big F*** Quesadilla"** (asterisks); the site
-writes **"Big F’N Quesadilla"**. `Big F’N` is the public-facing, print-safe rendering — **use it in
-all consumer creative.** The asterisk form should stay confined to internal menu docs, or be
-standardized. Flagged in the registry.
+**Copy implication:** never write "$10 BFQ with your choice of protein." Write **"$10 Big F’N
+Quesadilla"** and let the protein add-ons sit in the menu where they already live. If a piece has
+room for fine print, `Proteins additional` is the safe qualifier.
+
+✅ **NAMING — CONFIRMED CONVENTION 2026-08-20 (not a conflict):** the menu keeps
+**"Big F*** Quesadilla"**; marketing uses **"Big F’N Quesadilla"**. Both are intentional. Use
+`Big F’N` in all consumer creative; leave the menu language exactly as it is.
 
 ## 3. Exact design tokens (from the live tile component)
 

@@ -49,6 +49,14 @@ Never `Uno Mas` / `UNO MAS` / `UnoMas` in any human-readable surface (copy, capt
 SMS, ads, menus, alt text, titles). File paths and URLs may keep ASCII `uno-mas` for technical
 compatibility only.
 
+**BFQ rendering — two intentional forms, do not reconcile them:**
+- **Menu / internal docs:** `The Big F*** Quesadilla (BFQ)` — keep as-is.
+- **All marketing & consumer creative:** `Big F’N Quesadilla` (typographic apostrophe `’`).
+
+**Big F’N Thursday pricing:** `$10` is the **base** BFQ price. Protein add-ons are charged on top at
+normal menu prices (Skirt Steak +$9 · Carnitas +$7 · Grilled Chicken +$6). Never write
+"$10 BFQ with your choice of protein" — use `Proteins additional` if a qualifier is needed.
+
 ---
 
 ## Who We Are (snapshot)
