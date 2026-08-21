@@ -205,6 +205,7 @@ This file is the **entry point**. The repo's canonical content structure:
 | **Lifecycle / retention automations (Toast)** | `marketing/toast-lifecycle-automation-playbook.md` |
 | **Canva design IDs + master templates** | `marketing/canva-design-manifest.md` |
 | **Community-sensitive / crisis messaging** | `marketing/quick-reference/COMMUNITY_SENSITIVE_MESSAGING.md` |
+| **Local listings kit (GBP/Apple/Yelp) — text, photos, specs** | `marketing/local-listings-asset-kit.md` · build with `scripts/build-listings-kit.sh` |
 | Marketing execution (personas, copy bank, campaign templates, performance) | `marketing/knowledge-center/` |
 | Brand & design guidelines (colors, type, logo, layout, photography) | `marketing/brand-guidelines/` |
 | Quick-reference playbooks (email/SMS, social, AI marketing, cheatsheets) | `marketing/quick-reference/` |

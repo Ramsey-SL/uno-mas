@@ -16,6 +16,22 @@
 
 ---
 
+## 2026-08-21 — Critical dependency vulnerability fixed · local-listings asset kit built  [infra, F9]
+**Security fix (Lovable commit `f2778912`, deploy `cc22a9bb`):** cleared **GHSA-mv8w-475r-vwqw** — a `seroval` `fromJSON()` Promise-resolver type-confusion, vulnerable ≤1.5.2.
+- **Diagnosis correction:** the TanStack packages already declared `seroval: "^1.5.0"`, so their ranges permitted the patch — bumping TanStack would have changed nothing. **The lockfile was pinning 1.5.2 in four nested trees.**
+- Fix: `overrides` in `package.json` pinning `seroval` + `seroval-plugins` to **1.6.2**; stale nested `node_modules` copies removed; `bun.lock` regenerated as text. **TanStack versions untouched** (`react-router` 1.168.25, `react-start` 1.167.50, `router-plugin` 1.167.28).
+- Verified: typecheck exit 0, production build exit 0, dependency scan clean (no high/critical), finding marked fixed. Dependency-only change → rolls back cleanly.
+- **Post-deploy SSR health check** (a dep change can break SSR): all 8 routes HTTP 200 with full byte counts and JSON-LD intact; homepage dynamic sections (Big F'N Thursday, Taco Tuesday, hours, Cantina Club band) all rendering.
+
+**Local listings kit (new):** `marketing/local-listings-asset-kit.md` + `scripts/build-listings-kit.sh`.
+- Copy-paste NAP / hours / 750-char description / attributes / categories for GBP, Apple Business Connect, Yelp, Bing, TripAdvisor, Resy, socials.
+- Photo shortlist **sourced by scraping the live site's own Cloudinary references** — 62 images + 8 videos, all already approved and in production use, and all clear of `needs-hires-swap`.
+- Script downloads a dated folder with **7 per-platform crop profiles generated server-side by Cloudinary** (Google cover/additional, Apple hero, Yelp wide, social 4:5 and 9:16, square) plus the house grade — no manual resizing. Ships an UPLOAD-CHECKLIST and keeps Mezzanine assets in a separate folder so the sub-brands never mix.
+- Menu/promo pointers: Canva dinner `DAHDBfNpwpg`, brunch `DAHPnEFIfAU`, and the live `uno-mas/website/promos/pick-your-full-send-aug2026` card.
+
+**New findings logged:** (18) the site's schema.org Organization `logo` points at an **interior photo**, not a logo — Google uses it for knowledge-panel branding; (19) **31 live assets violate the naming convention** and are unsearchable.
+**Manual pending:** unchanged — rename the loyalty program in Toast, rename the Toast organization, rename TripAdvisor.
+
 ## 2026-08-21 — Loyalty naming propagated to the live site  [F8]
 **Change:** Removed the deprecated **"Uno Más Rewards"** program name from the live site, per the 2026-08-20 ruling (one program, The Cantina Club, free).
 **Surfaces updated** (Lovable commits `9952ec2d` + `ec088f84`, deploy `375fa9f9`):

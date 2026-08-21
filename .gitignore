@@ -36,3 +36,5 @@ secrets.*
 # Temp files
 *.tmp
 *~
+
+uno-mas-listings-kit-*/
