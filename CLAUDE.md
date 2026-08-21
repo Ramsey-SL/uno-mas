@@ -172,8 +172,10 @@ bash ~/projects/uno-mas-brand/scripts/bootstrap-agent.sh
 ```
 Idempotent — safe to re-run.
 
-📖 **`/AGENT-ACCESS.md`** covers devices, phones, the inbox convention, and **how to use ChatGPT
-alongside this agent without causing drift.** The one rule: *Claude Code is the only thing that
+📖 **`/AGENT-ACCESS.md`** covers devices, phones, and the inbox convention.
+📖 **`/AI-PLATFORM-ACCESS.md`** is the per-platform capability matrix — what Claude Code, claude.ai,
+a ChatGPT Custom GPT, and a Gemini Gem can each actually do, and **how to use them without causing
+drift.** The one rule: *Claude Code is the only thing that
 writes; anything decided elsewhere comes back through `/unomas-update`.* For ChatGPT context, paste
 `marketing/brand-context-pack.md` (~7KB, sized to paste).
 

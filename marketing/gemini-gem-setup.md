@@ -1,5 +1,23 @@
 # Gemini Gem — "Uno Más Art Director" — Setup
 
+> ## ⚠️ CURRENT FACTS — re-read before every session (updated 2026-08-21)
+> A GPT/Gem configured before 2026-08-21 is **wrong** about all of these. Re-upload
+> `brand-context-pack.md` and paste this block into the Instructions field too.
+>
+> - **Thursday = Big F'N Thursday** ($10 Big F'N Quesadilla + $10 menu tequila cocktail fresh sheet). **Burrito Thursday is RETIRED.**
+> - **Kid-friendly at all times — NO 21+ window anywhere, The Mezzanine included** (exceptions: ticketed events, alcohol purchase).
+> - **One loyalty program: The Cantina Club, and it is FREE.** Paid tiers are future-state, never referenced publicly. "Uno Más Rewards" and "The Guest List" are retired.
+> - **Hours: Tue–Thu 11am–8pm**, Fri–Sat 11am–10pm, Sun 10am–4pm, Mon closed.
+> - **Taco Tuesday: $6 margs / $30 pitchers.**
+> - **Mahi-Mahi was dropped** — never printed. Don't build creative for it.
+> - **Two creative systems:** photographic = experience; illustrated promo-card = offers. Never blend them.
+> - **`needs-hires-swap`:** ~141 Cloudinary assets are 2048px, social/digital only — **never print.**
+> - **BFQ:** marketing writes `Big F'N Quesadilla`; the menu keeps `Big F*** Quesadilla`. **$10 is the base price — proteins extra.**
+>
+> **Write-path rule:** this assistant CANNOT update the ecosystem. Anything decided here must be
+> handed back to Claude Code via `/unomas-update` or it will drift. See `/AI-PLATFORM-ACCESS.md`.
+
+
 Gemini's equivalent of the ChatGPT Custom GPT. Same brand pack; a few platform differences.
 
 Knowledge file: **`marketing/brand-context-pack.md`** (also on Desktop at `uno-mas-image-test/`).
