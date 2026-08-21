@@ -16,6 +16,20 @@
 
 ---
 
+## 2026-08-21 — Loyalty naming propagated to the live site  [F8]
+**Change:** Removed the deprecated **"Uno Más Rewards"** program name from the live site, per the 2026-08-20 ruling (one program, The Cantina Club, free).
+**Surfaces updated** (Lovable commits `9952ec2d` + `ec088f84`, deploy `375fa9f9`):
+- `src/components/CantinaClubBand.tsx` — homepage eyebrow "Free to join · Uno Más Rewards" → "Free to join" (the "The Cantina Club" H2 sits directly below, so re-stating the name would duplicate it).
+- `src/routes/about.tsx` — body copy → "Cantina Club members spend 107% more…". FAQ JSON-LD verified already correct.
+- **`src/routes/cantina-club.tsx`** — meta description → "Join The Cantina Club free…"; eyebrow → "Free to join". *(An entire `/cantina-club` page the registry did not know about — found by the codebase grep, now added to the registry route list.)*
+- `src/components/CantinaClubPopup.tsx` — label → "Free to join".
+- `public/llms.txt` — → "The Cantina Club (free loyalty program)."
+**Deliberately NOT changed:** the two mock phone/SMS previews (`CantinaClubBand.tsx:187`, `cantina-club.tsx:601`) quote the **real Toast message verbatim** — "Welcome to Uno Más Rewards: The Cantina Club, Powered by Toast!". Editing them would make the site misrepresent what guests actually receive. **The real fix is renaming the program inside Toast Loyalty** — see Manual pending.
+**Verified:** live audit — `/about` 0 hits; `/` and `/cantina-club` 1 hit each, both the Toast quote.
+**Paid-tier audit:** grepped the site for paid/membership/subscription/tier/Cantina Member/Cantina OG/La Familia. **No public copy implies the Club is paid or tiered.** Two pages actively *deny* it ("no subscription, no tiers to climb", "no tier you have to climb") — keep that language, it's on-message.
+**Manual pending:** rename the loyalty program inside **Toast** (drops the "Uno Más Rewards:" prefix from the guest SMS, which then makes the site's quote accurate) · rename the Toast **organization** to "Uno Más Tacos & Tequila" (registry §4 item 14).
+**Notes:** ⚠️ Lovable's security scan flagged a **pre-existing critical supply-chain vulnerability** — `seroval` deserialization via `@tanstack/react-router` / `react-start` / `router-plugin`, scan stale. Deployed anyway: those packages were already live, and this was a text-only change, so holding it would not have reduced exposure. **Logged as real work — see registry §4 item 17.**
+
 ## 2026-08-20 — Loyalty ruled: ONE free program (The Cantina Club) · 3 weekend promos logged  [F8, F4]
 **Change:**
 1. **RULING — there is ONE loyalty program: The Cantina Club, and it is FREE.** Paid tiers (Cantina Member / Cantina OG / La Familia) are a **future-state idea, not live**, and must never be marketed or publicly referenced. This closes a naming muddle across four sources and overrides the Aug 2026 handoff's "The Guest List."

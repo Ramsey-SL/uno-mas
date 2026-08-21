@@ -73,8 +73,8 @@ spaces on BOTH the parent and the folder.** Always quote paths exactly.
 - **Lovable project** `78c4ac75-6325-4f38-a44b-278bb2194cf2`, slug `uno-mas-site-builder`, workspace `h7z1Qf3pORsTwkJiC3ie` ("Ramsey's Lovable"). TanStack Start + Tailwind + shadcn/ui.
 - Live: https://uno-mas-site-builder.lovable.app · Editor: https://lovable.dev/projects/78c4ac75-6325-4f38-a44b-278bb2194cf2
 - Public domain `unomastacoshop.com` — **CONNECTED** (verified 2026-08-20; the lovable.app URL 301s to it).
-- Routes: `/`, `/about`, `/fiesta-box`, `/catering`, `/now-hiring`, `/mezzanine`, `/private-events`, `/#menu`; `/menu`→`/#menu`; `/reservations` 301→Resy. Admin: `/admin`, `/admin/dashboard`, `/admin/events`, `/admin/content`.
-- Key components: `MenuCollection.tsx` (homepage menu — **hardcoded menu** + Cloudinary rail), `WhatsOnThisWeek.tsx` (specials tiles), `SectionTransition.tsx` (5 approved dividers), `site-header.tsx`, `page-shell.tsx`, `__root.tsx` (pixel loader), `src/lib/queries.functions.ts` (server-fn read layer).
+- Routes: `/`, `/about`, `/fiesta-box`, `/catering`, `/now-hiring`, `/mezzanine`, `/private-events`, **`/cantina-club`**, `/#menu`; `/menu`→`/#menu`; `/reservations` 301→Resy. Admin: `/admin`, `/admin/dashboard`, `/admin/events`, `/admin/content`.
+- Key components: `CantinaClubBand.tsx` (homepage loyalty band + Toast SMS mock), `CantinaClubPopup.tsx`, `MenuCollection.tsx` (homepage menu — **hardcoded menu** + Cloudinary rail), `WhatsOnThisWeek.tsx` (specials tiles), `SectionTransition.tsx` (5 approved dividers), `site-header.tsx`, `page-shell.tsx`, `__root.tsx` (pixel loader), `src/lib/queries.functions.ts` (server-fn read layer).
 - **Gotcha:** every `send_message` must say *"typecheck only (`bunx tsgo --noEmit`), do NOT run Playwright/browser/screenshots"* — browser runs blow the 300s idle timeout.
 - **Gotcha:** verify a deploy via `get_project` `commit_sha` + `curl --compressed … | grep -a` on a NEW unique marker. Raw curl is gzipped; headless Chrome will not paint the SSR mid/lower sections.
 - Deploy with `deploy_project`; propagation 15–40s.
@@ -158,6 +158,8 @@ Ramsey to rule, then propagate the ruling.
 14. **⚠️ Toast org name lacks the accent and says "Taco Shop."** Every Toast marketing email footer reads **"Uno Mas Taco Shop"** — violating the brand-name rule on a live sending surface, in a phrase `CLAUDE.md` bans for brand descriptions. Rename the Toast organization to **"Uno Más Tacos & Tequila."** (Same fix already queued for TripAdvisor per `local-seo-gbp-reviews-playbook.md`.)
 15. **Weekend-offer redemption phrase is a rotating variable, not a fixed fact.** Executions have used **"Mickey"** (Aug 2026 email), **"Mas Please"** (per the handoff), and a `WEEKEND10` Toast code (per `weekend-campaigns-and-flows.md`). Always confirm the current word before printing or sending. See `marketing/campaigns/weekend-promos/executions-log.md`.
 16. **"Full Send" is used three ways** — the $45/$65 weekend drink+shareable bundle, the private-events package tier, and adjacent to the menu's "Starter Trio" $45. Needs a naming decision before it's used in more creative.
+
+17. **⚠️ Critical dependency vulnerability on the marketing site** — `seroval` deserialization issue reaching us via `@tanstack/react-router`, `@tanstack/react-start`, `@tanstack/router-plugin`. Flagged by Lovable's security scan 2026-08-21 (scan stale). Already present in the deployed app. **Needs a fresh scan + dependency bump.** Not blocking copy deploys, but real.
 
 4. **Gemini API key** was committed in plaintext in the old `HANDOFF-PROMPT.md` (April 2026). **Still needs rotating.**
 5. **Trailing-space Drive folders** (`Uno_Mas_HQ `, `Uno Mas Marketing HQ `) — planned rename, not done.
