@@ -197,6 +197,10 @@ This file is the **entry point**. The repo's canonical content structure:
 | Deep brand strategy (business, customer, differentiation, financial, proof) | `brand-intelligence-center/*.md` |
 | Full brand brain (assembled) · voice (full) | `brand-intelligence-center/system-prompt.md` · `voice-identity.md` |
 | Messaging framework (StoryBrand, taglines) | `brand-intelligence-center/messaging-framework.md` |
+| **Campaign strategy — platforms, guest ladder, channel roles, guardrails** | `marketing/campaign-architecture.md` |
+| **Lifecycle / retention automations (Toast)** | `marketing/toast-lifecycle-automation-playbook.md` |
+| **Canva design IDs + master templates** | `marketing/canva-design-manifest.md` |
+| **Community-sensitive / crisis messaging** | `marketing/quick-reference/COMMUNITY_SENSITIVE_MESSAGING.md` |
 | Marketing execution (personas, copy bank, campaign templates, performance) | `marketing/knowledge-center/` |
 | Brand & design guidelines (colors, type, logo, layout, photography) | `marketing/brand-guidelines/` |
 | Quick-reference playbooks (email/SMS, social, AI marketing, cheatsheets) | `marketing/quick-reference/` |

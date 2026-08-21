@@ -12,7 +12,8 @@ You produce finished, on-brand visual work. Never a description of a design — 
 1. `~/projects/uno-mas-brand/CLAUDE.md` — brand name rule, voice, Visual Identity quick ref.
 2. `~/projects/uno-mas-brand/design-system/tokens.css` — **the canonical palette, type, spacing, radius, shadow tokens.** Use these values verbatim; don't eyeball colors.
 3. `~/projects/uno-mas-brand/marketing/brand-guidelines/` — `01-brand-colors`, `02-typography`, `03-logo-rules`, `06-photography-style`, `07-design-layout-rules`, and `11-mezzanine-brand-identity` when the piece is Mezzanine.
-4. `~/projects/uno-mas-brand/marketing/ecosystem-registry.md` — for the fact you're putting on the piece. **Never design around a price, date, or offer you haven't verified against its canonical owner** (registry §3). A beautiful poster with last month's price is worse than no poster.
+4. `~/projects/uno-mas-brand/marketing/campaign-architecture.md` — **the campaign's strategic role.** Which platform (Get a Little Lost = acquisition/experience · Cantina Club = retention/belonging), which rung of the guest ladder, and the Cantina Club copy guardrails (never "VIP/elite/boss-level" for La Familia; never gate on positive reviews; free tier is never called the paid Club). Run its §8 pre-flight checklist.
+5. `~/projects/uno-mas-brand/marketing/ecosystem-registry.md` — for the fact you're putting on the piece. **Never design around a price, date, or offer you haven't verified against its canonical owner** (registry §3). A beautiful poster with last month's price is worse than no poster.
 
 ## Step 1 — Route to the right medium
 
@@ -20,7 +21,7 @@ You produce finished, on-brand visual work. Never a description of a design — 
 |---|---|---|
 | **Poster, flyer, table tent, print menu, print insert** | **Self-contained HTML at exact pixel dimensions** — the house pattern | See §2. This is the default for print. |
 | **Social graphic** (IG/FB feed, story, TikTok cover) | HTML at `1080×1350` (4:5 feed) or `1080×1920` (9:16 story) | Same house pattern, different canvas. |
-| **Editable-by-Ramsey / handoff to Karissa** | **Canva** via MCP | Brand kits: Uno Más `kAFqKpAzOh0`, Mezzanine `kAGze1MPDmA`. Use `create-design-from-brand-template` / `generate-design`, then `export-design`. |
+| **Editable-by-Ramsey / handoff to Karissa** | **Canva** via MCP | Brand kits: Uno Más `kAFqKpAzOh0`, Mezzanine `kAGze1MPDmA`. **Check `marketing/canva-design-manifest.md` first and reuse the closest master** — Menu MASTER `DAHIOMHMSp0`, Email Module System `DAHINHHZJng`, Line Art Icons `DAHCAbfY8gU`. Then `export-design`. |
 | **Multi-concept exploration, screen flows, several artboards to compare** | the **`design` skill** (canvas of `.dc.html` artboards) | Right call when Ramsey needs to *choose*, not receive one answer. |
 | **Website / app UI** | **Lovable** `send_message` on the relevant project | Marketing site `78c4ac75-…`, Cantina Connect `9e76084a-…`. Use design-system tokens. Always append the typecheck-only instruction (see `unomas-update` skill). |
 | **Report, one-pager, deck-style doc to share** | **Artifact** (load `artifact-design` first) | For things with an audience, not print. |
@@ -57,7 +58,10 @@ The pattern:
 
 ## Step 4 — Source real assets, never placeholders
 
-- **Photos/video:** Cloudinary `drxrfyq9i`, tree `uno-mas/approved-assets/{photos,videos}/<cat>`. Search by tag (`approved-assets`, `category-food`, `category-cocktails`, …). If nothing fits, check the Drive warehouse (`unomas-find` skill routes this) before resorting to AI generation.
+- **Photos/video:** Cloudinary `drxrfyq9i`, tree `uno-mas/approved-assets/{photos,videos}/<cat>`. Search by tag (`approved-assets`, `category-food`, `category-cocktails`, …) **and by campaign term** (`tacotuesday`, `sundaybrunch`, `weekendspecial`). If nothing fits, check the Drive warehouse (`unomas-find` routes this) before resorting to AI generation.
+- **🚫 PRINT GATE — check `needs-hires-swap` before every print piece.** ~141 assets (the Aug 2026 iCloud shared-album batch) are 2048px derivatives tagged `shared-album-2048` + `needs-hires-swap`. They are **digital/social only.** If a candidate carries that tag and the piece is print, large-format, or archival: swap in the original capture from Drive, or tell Ramsey the asset needs a hi-res replacement — **do not print it and do not quietly upscale it.** Known print-safe exceptions: `20260814_UM_PROMO_WeekendSpecial_Portrait` (3506×4381), `..._Wide` (6000×2000).
+- **Never use stock or AI-generated food/venue imagery where real approved imagery exists.** Graphics and illustration are legitimate for *offer* communication, but must not replace the real restaurant. (Illustrative treatment was the approved direction for menu-aligned specials creative.)
+- **Naming for anything you add:** `YYYYMMDD_UM_CATEGORY_Subject_v#` — keep the `_v#` suffix. **Never overwrite a master**; create a derivative or a campaign-specific export.
 - **House photo grade** (match the site): `e_saturation:18,e_contrast:10,e_brightness:4`; images `c_fill,g_auto`, videos `c_fill,g_center`.
 - **Line-art icons** live at `uno-mas/website/icons/…`. The site recolors them with this chain — reuse it: `e_make_transparent:45/e_colorize,co_rgb:<HEX-no-hash>/e_trim/c_fit,h_160,f_auto,q_auto`.
 - **Texture:** `uno-mas/website/icons/icons-pattern-forramsey-02-1.png` at ~5% opacity is the house background texture.

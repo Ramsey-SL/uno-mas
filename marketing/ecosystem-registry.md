@@ -50,7 +50,14 @@ Cloud name `drxrfyq9i` · **FREE plan: 25 credits/mo, images ≤10 MB, videos �
 - Transform grade in use site-wide: `e_saturation:18,e_contrast:10,e_brightness:4`; videos `c_fill,g_center`, images `c_fill,g_auto`.
 - **Gotcha:** the Cloudinary MCP runs remotely and CANNOT read local files (`file://` fails). Upload via signed REST API with curl from a local script using a **Master/full-access** key — a restricted key returns `missing permissions actions=[create]`.
 - **Gotcha:** always set `asset_folder` on upload or the asset lands in Home as a path-in-public_id orphan. To relocate an existing one: `POST resources/<type>/upload/<public_id>` with `asset_folder=` (non-breaking, URL unchanged).
-- **Never mirror Drive here.** Curated subset only.
+- **⚠️ PRINT GATE — `needs-hires-swap`.** A large August 2026 batch came from an **iCloud shared album at 2048px** and is tagged `shared-album-2048` + `needs-hires-swap`. **~141 assets in the library carry it.** These are fine for social/digital working creative and **must NOT be used for print, large-format, or archival production** without swapping in the original capture. `/unomas-design` checks this tag before any print piece.
+  - Known high-res exceptions (safe for print): `20260814_UM_PROMO_WeekendSpecial_Portrait` (3506×4381) · `20260814_UM_PROMO_WeekendSpecial_Wide` (6000×2000).
+- **Asset count:** ~805 (2026-06-21 curation) + 548 (2026-06-23 sort) + **143 new uploads July 7 – Aug 20 2026** (the July/August shoot batches: Baja fish tacos, margarita flights, French toast prep, burrito builds, carne asada grill, staff/bar service, guest/venue content).
+- **Naming, current convention:** `YYYYMMDD_UM_CATEGORY_Subject_v#` — note the **`_v#` version suffix** adopted in the July/August batch (the older convention was `YYYYMMDD_UM_<CAT>_<Name>` with no version). Preserve `_v#` going forward.
+- **Named promo assets** (July–Aug 2026): `20260721_UM_PROMO_TacoTuesday_v1` · `20260721_UM_PROMO_MargsAllDay_v1` · `20260722_UM_PROMO_FiveDollarDrafts_v1` · `20260723_UM_PROMO_BurritoThursdays_v1` *(retired promo — see Thursday change)* · `20260725_UM_PROMO_SundayBrunchCollage_v1` · `20260726_UM_PROMO_SundayBrunch_v1` · `20260727_UM_PROMO_SpicyMargsStory_v1` (video) · `20260729_UM_PROMO_LoadedNachos_v1` · `20260730_UM_PROMO_BurritoThursdays_v2` *(retired)* · `20260814_UM_PROMO_WeekendSpecial_{Wide,Portrait}`.
+- **Additional folder:** `uno-mas/website/events/love-island-finale`.
+- **Search by campaign term** as well as category — `tacotuesday`, `burritothursdays`, `sundaybrunch`, `weekendspecial`.
+- **Never mirror Drive here.** Curated subset only. Never overwrite a master — create derivatives.
 
 ### Tier 3 — LaCie Drive (the warehouse / master archive)
 `/Volumes/lacie-exter/Google Drive/Uno_Mas_HQ /Uno Mas Marketing HQ ` — **note the trailing
@@ -96,7 +103,7 @@ spaces on BOTH the parent and the folder.** Always quote paths exactly.
 | **Resy** | Reservations, venue hours | Venue ID `87582`, widget key `g47nf19Sg6grqO50HcS2HDIUIO8PjEGM`. Manual. |
 | **Klaviyo** | Email/SMS, lists, flows, templates, campaigns | MCP connected. Account/company `UjAfaJ`. Connected to Toast, Square, Meta Ads. |
 | **Meta Ads** | Campaigns, creatives, catalog, pixel | MCP connected. Pixel `1737601003250529`. |
-| **Canva** | Menus, print, social templates | MCP connected. Brand kits: Uno Más `kAFqKpAzOh0`, Mezzanine `kAGze1MPDmA`. |
+| **Canva** | Menus, print, social templates, the email module system | MCP connected. Brand kits: Uno Más `kAFqKpAzOh0`, Mezzanine `kAGze1MPDmA`. **Design IDs + edit/view links: `marketing/canva-design-manifest.md`.** Key masters: Menu MASTER TEMPLATE `DAHIOMHMSp0` · Email Module System `DAHINHHZJng` (11 pages) · Line Art Icons `DAHCAbfY8gU`. ⚠️ The connector exposes discovery/edit/copy but **no downloadable editable-source export** — open the edit link to export. |
 | **Google Drive** | Docs, sheets, the asset warehouse | MCP connected (also mounted on LaCie). |
 | **Netlify** | Hosting for other SL/Uno Más apps (food-cost dashboard etc.) | MCP connected. |
 | **Instagram** @unomastacoshop (primary) · **TikTok** @unomastacosandtequila · **Facebook** | Bio, links, captions | No MCP. Scheduling via **Vista Social**. Manual changeset. |
@@ -127,6 +134,8 @@ When Ramsey reports a change, find its row, update the **owner** first, then eve
 | F10 | **Proof points / performance numbers** | `brand-intelligence-center/proof-goals.md` | `CLAUDE.md` proof points; `master-reference.md`; ad copy; SBA/investor docs (out of repo — gitignored) |
 | F11 | **Team / roles** | `CLAUDE.md` team line | `master-reference.md`; `/about` page; GBP; `now-hiring` page |
 | F12 | **Digital ecosystem IDs / keys** | `master-reference.md` + this registry | Wherever configured. **Never commit secrets** — record the location, not the value. |
+| F13 | **Lifecycle / retention automations** | `marketing/toast-lifecycle-automation-playbook.md` | Toast automation config (manual) · Klaviyo flows · `marketing/cantina-club-program-spec.md` · staff quick guide |
+| F14 | **Campaign platform & strategy framing** | `marketing/campaign-architecture.md` | Campaign briefs · ad copy · `brand-intelligence-center/messaging-framework.md` · Klaviyo/social copy |
 
 ---
 
@@ -141,6 +150,10 @@ Ramsey to rule, then propagate the ruling.
 3. ~~**Pixels installed.**~~ **RESOLVED** — `SITE-STATUS.md` corrected; pixels are live (Meta `1737601003250529`, GA4 `G-YXKMDL0KF2`, Klaviyo `UjAfaJ`).
 9. ~~**BFQ naming inconsistency.**~~ **NOT A CONFLICT — ruled 2026-08-20.** Two renderings are intentional: the **menu keeps "Big F\*\*\* Quesadilla"**, **marketing uses "Big F’N Quesadilla"**. Recorded as a convention in `CLAUDE.md` §Brand Name Rule. Do not "reconcile" these.
 10. ~~**Big F’N Thursday price scope.**~~ **RESOLVED 2026-08-20 — $10 is the BASE price**; protein add-ons are charged on top at normal prices (Skirt Steak +$9 · Carnitas +$7 · Grilled Chicken +$6). Never write "$10 with choice of protein."
+
+11. **⚠️ LOYALTY FREE-TIER NAME — three names in circulation, needs a ruling.** `CLAUDE.md` states loyalty as one combined name **"Uno Más Rewards: The Cantina Club"**; `marketing/cantina-club-program-spec.md` splits it **free "Uno Más Rewards" + paid "The Cantina Club"** and explicitly logs the free-tier name as an open decision; the **Aug 2026 handoff calls the free front door "The Guest List."** `marketing/mas-rewards-loyalty-playbook.md` markets it as "Más Rewards." **Do not publish consumer copy naming the free tier until Ramsey rules.** See `marketing/campaign-architecture.md` §6.
+12. **Paid Cantina Club launch status unconfirmed.** Memory says launch 2026-08-01; the handoff says paid tiers were *intentionally removed* from a streamlined leadership/training version because they weren't yet live operationally. **Confirm before running any paid-tier acquisition campaign.**
+13. **Missing binaries from the Aug 2026 handoff** — 8 files referenced but not exported (Toast Automation Playbook + Tracker `.docx`, Loyalty Staff Quick Guide `.pdf`, Cantina-Club-Brand-Messaging-Book `.md`, Klaviyo clickable-sections `.html`, Love Island Bingo 60-card `.pdf`, Festive Sunday brunch menu `.png`, Gift Card Series Mockup `.png`). They sit in the ChatGPT File Library. See `marketing/handoff-2026-08-20-integration.md`.
 
 4. **Gemini API key** was committed in plaintext in the old `HANDOFF-PROMPT.md` (April 2026). **Still needs rotating.**
 5. **Trailing-space Drive folders** (`Uno_Mas_HQ `, `Uno Mas Marketing HQ `) — planned rename, not done.
