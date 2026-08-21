@@ -30,6 +30,7 @@ Read `~/projects/uno-mas-brand/marketing/ecosystem-registry.md` §2 (surface inv
 | Ad creative, campaign, audience, pixel data | **Meta Ads** | `marketing/campaigns/` |
 | Sales / labor / traffic numbers | `~/projects/unomas-toast-dashboard`; Financials Knowledge Center | QuickBooks MCP |
 | Spreadsheet, doc, PDF, contract | **Google Drive** `search_files` | LaCie mount |
+| Recent menu export, sent promo, listing kit, handoff doc | **Local HQ** `/Users/ramseypruchnic/Documents/Uno-mas-hq-2026` (`menus/ promos/ listings/ reference/`) | then Drive / Cloudinary |
 | "We discussed it in a meeting / someone sent it" | **Fireflies** transcripts, **Slack** search, **ClickUp** tasks | Gmail (needs auth) |
 
 ## Step 2 — Search technique
@@ -48,6 +49,14 @@ Read `~/projects/uno-mas-brand/marketing/ecosystem-registry.md` §2 (surface inv
   (`approved-assets`, `category-<cat>`), then by prefix, then by public_id fragment.
 - The Cloudinary MCP requires authorization; if it isn't connected, use the signed REST Admin API
   via curl, or say plainly that it needs authorizing in claude.ai connector settings.
+
+**Always check the local HQ library** (`~/Documents/Uno-mas-hq-2026`) — Ramsey stages menus, sent
+promos, listing kits, and reference docs there. It is often the freshest copy of a *sent* or
+*exported* artifact even when the repo has the underlying facts.
+
+**When you gather files at Ramsey's request, write them into the HQ folder** in the matching
+subfolder (`listings/ menus/ promos/ photos-video/ reference/ exports/`) rather than a temp dir, so
+they persist and stay findable. Say where you put them.
 
 ## Step 3 — Deliver something usable
 

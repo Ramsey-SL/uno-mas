@@ -7,7 +7,9 @@ set -euo pipefail
 CLOUD="drxrfyq9i"
 GRADE="e_saturation:18,e_contrast:10,e_brightness:4"
 STAMP="$(date +%Y%m%d)"
-OUT="${1:-$HOME/uno-mas-listings-kit-$STAMP}"
+HQ="$HOME/Documents/Uno-mas-hq-2026/listings"
+OUT="${1:-$HQ/uno-mas-listings-kit-$STAMP}"
+mkdir -p "$(dirname "$OUT")"
 
 HERO=(
   20251217_UM_VENUE_VenueInterior_FINAL_11

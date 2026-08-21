@@ -88,7 +88,12 @@ The pattern:
 
 ## Step 5 — Deliver
 
-- Write files into the right campaign folder: `marketing/campaigns/<campaign-slug>/`. Follow the existing naming: `poster-<slug>.html`, `table-tent.html`, `creative-copy.md`, `campaign-brief.md`.
+- **Source files** (HTML, briefs, copy) go in the repo: `marketing/campaigns/<campaign-slug>/`.
+  **Rendered exports** (PDF, PNG, print-ready packages) go to the local HQ library at
+  `/Users/ramseypruchnic/Documents/Uno-mas-hq-2026/exports/` — the repo `.gitignore` blocks binaries
+  by design. Also check `Uno-mas-hq-2026/{menus,promos,reference}/` for the freshest exported menu or
+  sent promo before rebuilding something that already exists.
+- Write source files into the right campaign folder: `marketing/campaigns/<campaign-slug>/`. Follow the existing naming: `poster-<slug>.html`, `table-tent.html`, `creative-copy.md`, `campaign-brief.md`.
 - **Render and view a PNG preview** of anything print-bound before calling it done.
 - Commit and push. Note the piece in the campaign's `campaign-brief.md` collateral list.
 - If the piece supersedes existing collateral, **retire the old file** (`_RETIRED-<date>-<name>`) rather than deleting it, and say what it replaced.

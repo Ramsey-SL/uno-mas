@@ -28,6 +28,7 @@ brand-specific questions. When unsure of a detail (price, hours, a number), say 
 | **GitHub** `Ramsey-SL/uno-mas` | The **brain** — all text/context, brand intel, this file | `~/projects/uno-mas-brand` |
 | **Cloudinary** (free plan) | The **DAM** — curated web-ready assets, feeds the Lovable site | `uno-mas/…` + `mezzanine/…` |
 | **LaCie Drive** | The **warehouse** — 129 GB master asset archive + non-asset binaries | `/Volumes/lacie-exter/Google Drive/` |
+| **Local HQ** (tier 4, working) | **Staging + reference library** — listing kits, menu exports, sent promos, reference docs. *Not* a source of truth. | `~/Documents/Uno-mas-hq-2026` |
 
 - **GitHub = canonical for anything text.** If it's `.md`, context, or code logic, the repo wins.
 - **Cloudinary holds a curated SUBSET only** — not a mirror. Free-plan ceiling (~20–25 GB,

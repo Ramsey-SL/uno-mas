@@ -69,6 +69,30 @@ spaces on BOTH the parent and the folder.** Always quote paths exactly.
 - **Gotcha:** the GDrive-on-LaCie mount lags `find` enumeration of just-written files and has dropped a file mid-`mv`. Verify per-file with `os.path.isfile`, never `find | wc`.
 - Code apps live separately at `Ramsey-HQ/Plugins-and-Apps/`.
 
+### Tier 4 — Local HQ working library (registered 2026-08-21)
+`/Users/ramseypruchnic/Documents/Uno-mas-hq-2026`
+
+**Both a destination and a reference library.** The agent writes gathered/built files here and
+reads from it. **Not a source of truth** — a staging area and a reference shelf.
+
+| Folder | Holds |
+|---|---|
+| `listings/` | Local-listing upload kits (dated) — built by `scripts/build-listings-kit.sh` |
+| `menus/` | Current menu exports (dinner, brunch, lunch, print PDFs) |
+| `promos/` | Sent promos — emails, SMS screenshots, offer cards, poster exports |
+| `photos-video/` | Working pulls and shoot batches, pre-DAM |
+| `reference/` | Docs, playbooks, guides, handoffs the agent should read |
+| `exports/` | One-off generated packages |
+| `um-marketing-agent/` | **Portable SNAPSHOT of the agent** — skills, steward, access doc, bootstrap, ChatGPT context pack, brand-brain + registry copies. **Not the source of truth** (the repo `.claude/` is). Re-sync with its `refresh.sh` or it goes stale. |
+
+**Rules:**
+- Anything here that becomes a **decision or fact** must be written into the repo — this folder is never the only record of a fact.
+- **Web-ready assets** get uploaded to Cloudinary with `YYYYMMDD_UM_CATEGORY_Subject_v#` naming + tags.
+- **Master originals** belong on the LaCie Drive.
+- **Never delete from here without asking.** Binaries stay here, not in the repo (`.gitignore` blocks them by design).
+- Default output target for generated kits and packages. `scripts/build-listings-kit.sh` writes here.
+- Its own `README.md` restates these rules for anyone opening the folder directly.
+
 ### Marketing website — Lovable + Supabase
 - **Lovable project** `78c4ac75-6325-4f38-a44b-278bb2194cf2`, slug `uno-mas-site-builder`, workspace `h7z1Qf3pORsTwkJiC3ie` ("Ramsey's Lovable"). TanStack Start + Tailwind + shadcn/ui.
 - Live: https://uno-mas-site-builder.lovable.app · Editor: https://lovable.dev/projects/78c4ac75-6325-4f38-a44b-278bb2194cf2

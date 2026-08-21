@@ -16,6 +16,20 @@
 
 ---
 
+## 2026-08-21 — Schema.org logo + entity graph fixed · HQ library registered · agent snapshot  [F9, infra]
+**SEO fix (Lovable `e62848eb` + `1738f4f6`):** the Organization `logo` pointed at **`VenueInterior_FINAL_11` — a dining-room photo**, which Google uses for knowledge-panel branding.
+- Now `UM_Logo_-_T_T-Pink_g7pvjz` (the real primary wordmark, pink-on-transparent, 3077×1577) delivered as `b_white,c_pad,w_1200,h_615,q_auto,f_jpg` — aspect matches native **1.951** exactly, flattened onto white so it renders wherever Google composites it.
+- **Entity-graph cleanup found in review:** the homepage `Restaurant` node had **no `@id`**, so it and the new `Organization` node read as two unlinked businesses with the same name. Added `@id: #restaurant`, a `logo`, and `parentOrganization → #org`; added the same `parentOrganization` link on `/about`, which had both `@id`s but no relationship between them.
+- **Verified live:** both `/` and `/about` now emit `#restaurant` → `parentOrganization` → `#org` with the wordmark as `logo`. `og:image`/`twitter:image` deliberately left as photos — a logo would look wrong on a share card. `VenueInterior_FINAL_11` retained in its three legitimate photo uses.
+
+**Local HQ library registered (tier 4):** `/Users/ramseypruchnic/Documents/Uno-mas-hq-2026` is now a formal agent **destination and reference library** — `listings/ menus/ promos/ photos-video/ reference/ exports/`, each with a README stating the rules. Registered in registry §2, wired into `unomas-find` (search it, and write gathered files there) and `unomas-design` (rendered exports go there since the repo `.gitignore` blocks binaries). `scripts/build-listings-kit.sh` now defaults its output to `listings/`. The 2026-08-21 listings kit was moved into it.
+**Rules recorded:** it is **not** a source of truth — facts go to the repo, web-ready assets go to Cloudinary with proper naming, masters go to the LaCie Drive, nothing is deleted without asking.
+
+**Agent snapshot:** `um-marketing-agent/` in the HQ folder — a portable copy of the three skills, the steward, `AGENT-ACCESS.md`, the bootstrap script, the ChatGPT context pack, and brand-brain/registry snapshots, plus a `refresh.sh` so it can be re-synced instead of silently drifting. Clearly marked as a snapshot; the repo `.claude/` remains canonical.
+
+**Second fix NOT done — asset renaming.** The 31 non-conforming public_ids (registry §4 item 19) need **Cloudinary write access, which is not authorized in this environment** and no local Master API key exists. See Notes for the recommended approach.
+**Notes:** ⚠️ **Recommendation: tag rather than rename.** Renaming a Cloudinary public_id changes its delivery URL, which would break every live-site reference until a coordinated redeploy — real downtime risk for a cosmetic gain. **Adding `category-*` and campaign tags to those 31 assets achieves the actual goal (findability) with zero breakage.** Awaiting Ramsey's call + Cloudinary authorization.
+
 ## 2026-08-21 — Critical dependency vulnerability fixed · local-listings asset kit built  [infra, F9]
 **Security fix (Lovable commit `f2778912`, deploy `cc22a9bb`):** cleared **GHSA-mv8w-475r-vwqw** — a `seroval` `fromJSON()` Promise-resolver type-confusion, vulnerable ≤1.5.2.
 - **Diagnosis correction:** the TanStack packages already declared `seroval: "^1.5.0"`, so their ranges permitted the patch — bumping TanStack would have changed nothing. **The lockfile was pinning 1.5.2 in four nested trees.**

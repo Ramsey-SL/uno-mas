@@ -72,6 +72,15 @@ the same way.
 When ChatGPT produces something worth keeping, say: *"ChatGPT drafted this Thursday copy, add it to
 the copy bank"* — and it gets filed, versioned, and made visible to every other surface.
 
+## Portable snapshot
+
+`~/Documents/Uno-mas-hq-2026/um-marketing-agent/` holds a **copy** of the agent — skills, the
+steward, this doc, the bootstrap script, the ChatGPT context pack, and snapshots of the brand brain
+and registry. Useful for reading offline, handing to someone else, or setting up a new machine.
+
+**It is not what runs.** The repo `.claude/` is. Re-sync the snapshot with `bash refresh.sh` inside
+that folder — an un-refreshed copy is exactly the drift this system exists to prevent.
+
 ## Inbox convention (for menus, photos, promo exports)
 
 Drop files in a synced folder, then tell the agent to process it. Works from any device including
