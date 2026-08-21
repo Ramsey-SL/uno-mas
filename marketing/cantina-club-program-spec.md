@@ -6,9 +6,15 @@ Companion to `marketing/cantina-club-platform-evaluation.md` (why we're building
 and the Toast API access guide. This doc defines **what** we're building: the program
 structure, member benefits, technology architecture, comms, and a phased build plan.
 
-**Locked decisions (2026-07-20):**
-- **Two tiers:** free **Uno Más Rewards** (open to all) + **paid The Cantina Club** (premium).
-- **Cantina Club = paid membership** (recurring subscription revenue).
+> 🔴 **SUPERSEDED IN PART — 2026-08-20 ruling.** **The Cantina Club is live TODAY as a single FREE program.**
+> Everything in this doc describing **paid membership, subscription revenue, and the three paid tiers
+> is FUTURE-STATE design work — not live, not to be marketed.** Read it as the build plan for a
+> possible paid program, not a description of what exists. The free program's live mechanics are in
+> `marketing/mas-rewards-loyalty-playbook.md`.
+
+**Locked decisions (2026-07-20) — *see the superseding note above*:**
+- ~~**Two tiers:** free **Uno Más Rewards** (open to all) + **paid The Cantina Club** (premium).~~ → **2026-08-20: ONE program, The Cantina Club, free. Paid tiers deferred.**
+- ~~**Cantina Club = paid membership**~~ → **The Cantina Club IS the free program.** A paid layer may sit on top later.
 - **Build the full platform** (organized as parallel workstreams with a "launchable" line).
 - **Reviews handled compliantly** — no review gating, no incentivized public reviews.
 - **Productization path = Prove single-tenant, resale-friendly (Option ②).** Build cleanly for
@@ -34,7 +40,9 @@ family.*
 
 ## 2. Membership structure
 
-| | **Uno Más Rewards** (free) | **The Cantina Club** (paid) |
+*(⚠️ FUTURE-STATE table — as of 2026-08-20 The Cantina Club is the single FREE program and no paid tier exists.)*
+
+| | ~~**Uno Más Rewards** (free)~~ → **The Cantina Club** (free, LIVE) | **Paid layer** (FUTURE — unnamed publicly) |
 |---|---|---|
 | Cost | Free | Recurring subscription (price TBD — see Open Decisions) |
 | Join via | Checkout, QR, web page, text-to-join | Upgrade from Rewards; buy online or at POS |

@@ -26,7 +26,7 @@ The marketing calendar is not a sequence of disconnected specials. It moves gues
 1. **Discover** Uno Más
 2. **Visit once**
 3. **Return** for a 2nd/3rd occasion via recurring programming
-4. **Join the free loyalty front door** *(name pending — see §6)*
+4. **Join The Cantina Club** (free)
 5. **Become a recognizable regular**
 6. **Convert qualified regulars into paid Cantina Club members**
 
@@ -51,26 +51,45 @@ happened in Toast? A campaign that can't answer both is a coupon, not a program.
 - **Website** — campaign landings, brunch/menu discovery, recurring specials, event details, visit intent, loyalty education.
 - **In-restaurant** — table talkers, menu inserts, gift cards, staff scripting, and Toast check-in/check-out behavior must reinforce whatever is running digitally.
 
+## 4b. Two creative systems — pick deliberately
+
+Uno Más runs **two distinct visual systems.** Don't blend them in one piece.
+
+| System | Looks like | Use for |
+|---|---|---|
+| **Photographic** | Real DAM photo, dark scrim, huge Antonio headline over the image, minimal furniture. Built as 1080×1350 HTML — see `campaigns/daily-specials/poster-taco-tuesday.html`. | Day-of-week programs, brand/experience work, anything selling the room or the food itself. |
+| **Illustrated promo card** | Textured cream/aged ground, script *Uno Más* wordmark, condensed heavy sans, pink money numbers, yellow highlight swash, teal starbursts, halftone-shadowed **illustrated** food & drinks, `UNO MÁS ★ TACOS + TEQUILA` footer. | **Offer communication** — bundles, thresholds, weekend specials, code-word promos. Where a price is the message. |
+
+The illustrated system is the approved direction for **offer** creative (it was also the chosen
+direction for menu-aligned specials). The photographic system carries **experience**. That maps
+cleanly onto the two platforms in §1: *Get a Little Lost* leans photographic; offer-led retention
+and traffic pushes lean illustrated.
+
+Live examples of the illustrated system: `campaigns/weekend-promos/executions-log.md`.
+
 ## 5. Campaign cadence principle
 
 > Create **predictable reasons to visit multiple times** — do not train guests to wait for random
 > coupons. Build weekly rituals; use loyalty to recognize the behavior.
 
-## 6. Loyalty naming — ⚠️ UNRESOLVED
+## 6. Loyalty naming — ✅ RESOLVED 2026-08-20
 
-Three names are in circulation and they do not agree. **Do not write consumer copy naming the free
-tier until this is ruled.** See `ecosystem-registry.md` §4.
+**There is ONE loyalty program: The Cantina Club. It is FREE.**
 
-| Source | Free tier | Paid tier |
-|---|---|---|
-| `CLAUDE.md` | — (states loyalty as one combined name: "Uno Más Rewards: The Cantina Club") | — |
-| `marketing/cantina-club-program-spec.md` | **Uno Más Rewards** (and logs "free-tier name" as an open decision) | **The Cantina Club** — Cantina Member / Cantina OG / La Familia |
-| Aug 2026 handoff | **The Guest List** | **Cantina Club** (same three paid tiers) |
+- Call it **The Cantina Club**. Never "loyalty program," never "rewards program."
+- There is **no free-vs-paid split to name** — the program is free, full stop. Do not invent a
+  separate free-tier name.
+- **Paid tiers (Cantina Member / Cantina OG / La Familia) are a FUTURE-STATE idea. Not live.
+  Never market or publicly reference them.**
+- Retired naming, do not use: **"The Guest List"** (Aug 2026 handoff's term — never adopted),
+  **"Más Rewards"** / **"Uno Más Rewards"** as a standalone program name (legacy prefix, deprecated).
+
+This closes the open decision logged in `cantina-club-program-spec.md` and overrides the handoff.
 
 ## 7. Cantina Club copy guardrails (from the handoff — adopt these)
 
-- The free front door **is free**; never call it the paid Club.
-- Paid tiers: **Cantina Member · Cantina OG · La Familia**.
+- **The Cantina Club is free.** Don't imply a purchase, a tier, or a paywall.
+- Paid tiers (**Cantina Member · Cantina OG · La Familia**) are **future-state — never referenced publicly.**
 - **Reward visit frequency first.** Spend may be a signal but must not define belonging.
 - When selling paid membership, use **specific economics**, not vague "exclusive savings."
 - **Never call La Familia "VIP," "elite," "boss-level,"** or frame members as above other guests.

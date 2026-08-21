@@ -30,6 +30,22 @@ You produce finished, on-brand visual work. Never a description of a design — 
 
 When it's ambiguous, prefer HTML — it's versionable, reviewable in the repo, and exports to print.
 
+## Step 1b — Pick the right creative system
+
+Uno Más runs **two** visual systems. Using the wrong one is a brand error, not a style preference.
+
+- **Photographic** — real DAM photo, dark scrim, huge Antonio headline over the image. For
+  **experience** work: day-of-week programs, brand, the room, the food itself. This is the §2 pattern.
+- **Illustrated promo card** — textured cream/aged-paper ground, script *Uno Más* wordmark,
+  condensed heavy sans, **money number in pink `#E22690`**, **yellow `#FFEC00` highlight swash**
+  behind a key phrase, **teal `#18BCDC` starbursts/rays**, halftone dot shadows under
+  **illustrated** (not photographed) food and cocktails, footer lockup
+  `UNO MÁS ★ TACOS + TEQUILA` + script *Get a little lost.* For **offer** communication:
+  bundles, spend thresholds, weekend specials, code-word promos — anywhere a price is the message.
+  Live examples: `marketing/campaigns/weekend-promos/executions-log.md`.
+
+**Never blend the two in one piece.** See `marketing/campaign-architecture.md` §4b.
+
 ## Step 2 — The house print pattern (copy it, don't reinvent)
 
 Working examples live in `marketing/campaigns/daily-specials/`: `poster-taco-tuesday.html`,
@@ -55,6 +71,7 @@ The pattern:
 - **Brand name is always "Uno Más"** with the accent. Check every rendered string — including ones baked into images.
 - Voice on the piece follows `CLAUDE.md`: short, confident, price-confident, no banned words ("authentic Mexican", "mouthwatering", "culinary journey", "artisanal", "mixology", "perfect for any occasion").
 - **BFQ rendering:** consumer creative uses `Big F’N Quesadilla`; the menu keeps `Big F*** Quesadilla`. Don't reconcile them.
+- **Loyalty:** the program is **The Cantina Club** and it is **FREE**. Never "loyalty program," never a tier name. **Paid tiers are future-state — never put them on a piece.**
 
 ## Step 4 — Source real assets, never placeholders
 

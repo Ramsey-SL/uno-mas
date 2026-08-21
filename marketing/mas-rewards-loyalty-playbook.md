@@ -3,9 +3,10 @@
 **Platform:** Toast Loyalty + Toast Email/SMS · **Audience:** all guests
 **Voice:** relaxed, friendly, Spokane, tacos & tequila, "one more."
 
-> ⚠️ **NAMING SUPERSEDED (2026-08-07):** We decided to keep **ONE program — "Uno Más Rewards: The Cantina Club"** — with tiers (free base now, premium paid tiers later), NOT a separate "Más Rewards." Wherever this file says "Más Rewards," read it as **The Cantina Club (free tier)**. The mechanics, copy, team script, and flows below are still valid. Current source of truth: `brand-intelligence-center/cantina-club-messaging-framework.md`.
-
-The free tier is the on-ramp for everyone; the most engaged members get invited into the premium tiers when they launch. Do not mention the premium/paid tiers publicly yet.
+> ⚠️ **NAMING SUPERSEDED — updated 2026-08-20 (Ramsey's ruling).** There is **ONE loyalty program: The Cantina Club, and it is FREE.** Wherever this file says "Más Rewards," read **The Cantina Club**. The "Uno Más Rewards:" prefix is deprecated. The mechanics, copy, team script, and flows below are still valid.
+>
+> **Paid tiers are a future-state idea, NOT live.** Do not market, reference, or design for Cantina Member / Cantina OG / La Familia publicly. There is no separate "free tier" to name — the program is free, full stop.
+> Source of truth: `brand-intelligence-center/cantina-club-messaging-framework.md`.
 
 ---
 

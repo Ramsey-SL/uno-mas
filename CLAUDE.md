@@ -106,7 +106,7 @@ stacked adjectives ("fresh, delicious, flavorful, hearty").
 - Brand name: **Uno Más** (accent) · Tagline: **Get a little lost.**
 - Address: **2020 N Monroe St, Suite C, Spokane, WA 99205**
 - Founded **2022** (originally Spokane Valley / Wonder Building, now closed) · Monroe location opened **Dec 27, 2024**
-- Loyalty: **Uno Más Rewards: The Cantina Club** — never just "loyalty program"
+- Loyalty: **The Cantina Club** — the ONE loyalty program, and it is **FREE**. Never just "loyalty program." (Ruling 2026-08-20.) **Paid tiers (Cantina Member / Cantina OG / La Familia) are a FUTURE-STATE idea — not live. Never market or reference them publicly.** The legacy "Uno Más Rewards:" prefix is deprecated — the program is simply The Cantina Club.
 - Upstairs is **The Mezzanine** — never "the event space" / "upstairs bar"
 - No delivery apps — dine-in and takeout only
 - **Kid-friendly at all times — there is NO 21+ window anywhere, The Mezzanine included.** (Ruling 2026-08-20.) The only surviving 21+ claims are (a) **specific ticketed events** like the Love Island Watch Party and (b) **alcohol purchases** (21+ with valid ID) and Cantina Club paid-tier age verification. Never write "21+ after 9pm" or "kid-friendly until 9pm" — both retired.

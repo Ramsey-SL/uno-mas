@@ -16,6 +16,18 @@
 
 ---
 
+## 2026-08-20 — Loyalty ruled: ONE free program (The Cantina Club) · 3 weekend promos logged  [F8, F4]
+**Change:**
+1. **RULING — there is ONE loyalty program: The Cantina Club, and it is FREE.** Paid tiers (Cantina Member / Cantina OG / La Familia) are a **future-state idea, not live**, and must never be marketed or publicly referenced. This closes a naming muddle across four sources and overrides the Aug 2026 handoff's "The Guest List."
+2. **Three real weekend promo executions captured** from Toast email PDFs — offers the repo did not have.
+**Owner updated:** `CLAUDE.md` loyalty line is now canonical: The Cantina Club, free, paid tiers future-state, "Uno Más Rewards:" prefix deprecated.
+**Mirrors updated:** `marketing/campaign-architecture.md` §2/§6/§7 · `marketing/mas-rewards-loyalty-playbook.md` (banner rewritten) · `marketing/cantina-club-program-spec.md` (paid/two-tier framing marked FUTURE-STATE, not a description of what exists) · `.claude/skills/unomas-design` · registry §4 items 11–12 closed.
+**Added:** `marketing/campaigns/weekend-promos/executions-log.md` — the MICKEY code-word $60/$10 offer, the $30 two-margs + Chip & Dip Trio special, and the $45/$65 "Pick Your Full Send" bundle ladder, with menu items verified against the repo.
+**Also captured:** `campaign-architecture.md` §4b now documents **two creative systems** (photographic for experience, illustrated promo-card for offers) with the illustrated system's full token recipe, and `/unomas-design` routes between them.
+**New conflicts logged:** (14) Toast org name is "Uno Mas Taco Shop" — no accent, uses a banned phrase, and it's in **every** Toast email footer; (15) the weekend redemption phrase is a rotating variable — "Mickey" vs "Mas Please" vs `WEEKEND10`; (16) "Full Send" is used three ways.
+**Manual pending:** rename the Toast organization to "Uno Más Tacos & Tequila."
+**Notes:** ⚠️ The **Cantina Connect app** was built around paid tiers, Stripe billing, and monthly credits — that build is **ahead of the business**. Flagged in registry §4 as future-state infrastructure rather than a live program. Ramsey offered to upload recent promo SMS/emails — more executions welcome.
+
 ## 2026-08-20 — Big F’N Thursday: pricing scope + BFQ naming convention ruled  [F2, F4]
 **Change:** Two rulings from Ramsey closing the open questions on the new Thursday promo.
 1. **$10 is the BASE BFQ price.** Protein add-ons are charged on top at normal menu prices (Skirt Steak +$9 · Carnitas +$7 · Grilled Chicken +$6). A Thursday BFQ with carnitas is $17.
