@@ -16,6 +16,19 @@
 
 ---
 
+## 2026-08-20 — Mezzanine 21+ stripped from the live site (follow-up ruling)  [policy]
+**Change:** Ramsey ruled **no 21+ anywhere, The Mezzanine included**, and confirmed **Tue–Thu close at 8pm**.
+**Owner updated:** `CLAUDE.md` — the policy line now states the ruling *and* names the only two surviving exceptions, so it can't be quietly re-added.
+**Live site updated + deployed** (Lovable commit `d17dd26f`, deploy `ff1424c1`):
+- `src/routes/mezzanine.tsx` — "Is the Mezzanine 21+?" → "Can we bring kids to the Mezzanine?" in BOTH the visible FAQ and the FAQPage JSON-LD; hero subtitle "Private 21+ dining & event space" → "Private dining & event space".
+- `src/routes/about.tsx` — removed the `21+ / After 9pm, by design` stat badge; Mezzanine card copy now ends "The room for the nights that matter."
+- `src/routes/index.tsx` — cocktails card eyebrow "21+ · All Service Hours" → "All Service Hours".
+- `src/components/MenuCollection.tsx` — cocktails eyebrow "Cocktails & Tequila · 21+" → "Cocktails & Tequila" *(a mirror I hadn't found in the repo — the Lovable agent caught it on the codebase grep)*.
+**Verified:** `/`, `/about`, `/mezzanine`, `/fiesta-box`, `/catering`, `/private-events`, `/now-hiring` audited on the live domain. `/about`, `/catering`, `/private-events`, `/now-hiring` clean. The only 21+ strings left site-wide are the Love Island event (copy + `typicalAgeRange`), the Fiesta Box alcohol notes, and the negating phrase "there's no 21+ window" in the new Mezzanine FAQ answer.
+**Hours:** 8pm confirmed — no further action; Supabase and the site were already correct.
+**Manual pending:** GBP still needs the Family-friendly / Good-for-kids attributes set to all hours, and any "21+ after 9pm" removed from the GBP description and Q&A.
+**Notes:** Repo needed no further edits — remaining 21+ references there are all Love Island, Fiesta Box alcohol, or Cantina Club age verification, all correctly retained.
+
 ## 2026-08-20 — Taco Tuesday $6 ruling · no 21+ window · Big F’N Thursday replaces Burrito Thursday  [F3, F1, policy]
 **Change:**
 1. **Taco Tuesday = $6 margs / $30 pitchers** (ruling). Repo and live site already agreed at $6; the stray "$9" existed only in a session memory note. No repo edit needed — conflict closed.

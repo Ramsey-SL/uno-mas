@@ -137,12 +137,12 @@ Ramsey to rule, then propagate the ruling.
 
 1. ~~**Taco Tuesday margarita price.**~~ **RESOLVED 2026-08-20 — $6 margs / $30 pitchers.** Ruled by Ramsey; live site already showed $6. The stray "$9" existed only in a session memory note, not in the repo. Memory corrected.
 2. ~~**21+ policy (house-wide).**~~ **RESOLVED 2026-08-20 — kid-friendly at all times, NO 21+ window.** Ruled by Ramsey. Propagated to `CLAUDE.md`, `master-reference.md`, all four `brand-intelligence-center/` docs, `brand-context-pack.md`, `local-seo-gbp-reviews-playbook.md` (incl. GBP attributes), `audience-personas.md`, `brand-voice.md`.
-   ⚠️ **STILL OPEN — Mezzanine scope.** The live site's remaining 21+ claims are all *Mezzanine-scoped*, not house-wide: `/about` Mezzanine card ("21+ after 9pm, by design"), `/mezzanine` copy + FAQ JSON-LD ("The room is 21+ after 9pm"), homepage Mezzanine card ("21+ · All Service Hours"), plus legitimate Love Island event 21+ and Fiesta Box alcohol 21+. **Needs a ruling: is the Mezzanine 21+ (always / after 9pm / not at all)?** No live-site change made pending that answer.
+   **Mezzanine scope RESOLVED 2026-08-20 — no 21+ anywhere, The Mezzanine included.** Live site updated + deployed (Lovable commit `d17dd26f`): `/mezzanine` hero subtitle + FAQ (visible **and** FAQPage JSON-LD) rewritten to a "can we bring kids" Q&A, `/about` Mezzanine stat badge and card copy stripped, homepage + `MenuCollection.tsx` cocktails eyebrows de-aged. **Surviving 21+ (correct, keep):** Love Island Watch Party event copy + `typicalAgeRange`, Fiesta Box alcohol notes, Cantina Club paid-tier age verification.
 3. ~~**Pixels installed.**~~ **RESOLVED** — `SITE-STATUS.md` corrected; pixels are live (Meta `1737601003250529`, GA4 `G-YXKMDL0KF2`, Klaviyo `UjAfaJ`).
 4. **Gemini API key** was committed in plaintext in the old `HANDOFF-PROMPT.md` (April 2026). **Still needs rotating.**
 5. **Trailing-space Drive folders** (`Uno_Mas_HQ `, `Uno Mas Marketing HQ `) — planned rename, not done.
 6. ~~**Uncommitted work** in `menu-and-offers.md`~~ — **RESOLVED**: it was a Masa Coated Fries price fix ($7 → $8); committed 2026-08-20.
-7. **Hours: `CLAUDE.md` said Tue–Thu 11am–9pm; canonical Supabase `business_hours` and the live site's JSON-LD both say 11am–**8pm**.** Corrected `CLAUDE.md` to 8pm per owner-wins doctrine — **flagged for Ramsey to confirm 8pm is right in reality.**
+7. ~~**Hours discrepancy** (`CLAUDE.md` 9pm vs Supabase/JSON-LD 8pm).~~ **RESOLVED 2026-08-20 — 8pm confirmed by Ramsey.** `CLAUDE.md` corrected; Supabase and the live site were already right.
 8. **Thursday promo changed 2026-08** — Burrito Thursday ($15 House Burrito or Bowl) retired, replaced by **Big F’N Thursday** ($10 Big F’N Quesadilla + $10 menu tequila cocktail fresh sheet). The live site was AHEAD of the repo; 27 repo files were behind. Thursday **poster/AI-image creative is still the retired burrito artwork** — new creative needed.
 
 ---

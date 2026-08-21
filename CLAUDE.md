@@ -101,7 +101,7 @@ stacked adjectives ("fresh, delicious, flavorful, hearty").
 - Loyalty: **Uno Más Rewards: The Cantina Club** — never just "loyalty program"
 - Upstairs is **The Mezzanine** — never "the event space" / "upstairs bar"
 - No delivery apps — dine-in and takeout only
-- **Kid-friendly at all times — there is NO 21+ window.** (Ruling 2026-08-20. Event-specific 21+ still applies: Mezzanine ticketed/watch-party events and alcohol purchases require 21+ with valid ID.)
+- **Kid-friendly at all times — there is NO 21+ window anywhere, The Mezzanine included.** (Ruling 2026-08-20.) The only surviving 21+ claims are (a) **specific ticketed events** like the Love Island Watch Party and (b) **alcohol purchases** (21+ with valid ID) and Cantina Club paid-tier age verification. Never write "21+ after 9pm" or "kid-friendly until 9pm" — both retired.
 - **Hours:** Tue–Thu 11am–8pm · Fri–Sat 11am–10pm · **Sun 10am–4pm (Sunday Brunch + lunch)** · **Mon closed**. *(Source of truth: Supabase `business_hours`.)*
 - **Weekly specials (live 2026-06) — these REPLACE Happy Hour AND the old lunch special (both retired):** Taco Tuesday (BOGO lunch street tacos · $6 margs · $30 marg pitchers) · Beer & Bites Wednesday ($5 pints · $10 loaded nachos · $10 loaded masa fries) · **Big F’N Thursday ($10 Big F’N Quesadilla · $10 menu tequila cocktail fresh sheet — new cocktails every Thursday)**. *(Taco Tuesday IS now running — old "don't reference Taco Tuesday" rule retired. Do NOT reference Happy Hour — no longer running. **Burrito Thursday ($15 House Burrito or Bowl) is RETIRED as of 2026-08 — replaced by Big F’N Thursday.**)*
 - Phone: (509) 960-7989
