@@ -5,16 +5,20 @@
 **1. Toast auto-appends the opt-out.** **Never write `Reply STOP to opt out.` in the body.** Doing so
 doubles the disclaimer and wastes 25 characters.
 
-**2. `á` is not in the GSM-7 character set.** Writing **"Uno Más"** in an SMS body forces UCS-2
+**2. Toast prepends the restaurant name.** Every SMS already goes out with the restaurant name at
+the front, so **never write it in the body** — it would read "Uno Mas: Uno Mas: ...". This also makes
+the `á` encoding problem below moot for the body, and frees ~9 characters. Confirmed 2026-08-23.
+
+**3. `á` is not in the GSM-7 character set.** Writing **"Uno Más"** in an SMS body forces UCS-2
 encoding, dropping the single-segment limit from **160 characters to 70** — a normal text becomes
 **2 segments at ~2× cost.** (`é à ö ñ ü` are fine; `á í ó ú` are not.)
 **→ In SMS bodies, omit the brand name or write "Uno Mas".** The sender ID already identifies you.
 *(Brand-rule exception pending Ramsey's formal ruling — see `ecosystem-registry.md` §4 item 20.)*
 
-**3. Budget 160 GSM-7 characters, links included.** Toast's link shortening changes the math; a
+**4. Budget 160 GSM-7 characters, links included.** Toast's link shortening changes the math; a
 shortlink is ~23 characters. Always confirm in Toast's preview before scheduling.
 
-**4. One reason to act, stated early.** Exceptions are allowed but should be deliberate and flagged.
+**5. One reason to act, stated early.** Exceptions are allowed but should be deliberate and flagged.
 *Klaviyo flows, campaign cadence, and copy rules*
 
 ---

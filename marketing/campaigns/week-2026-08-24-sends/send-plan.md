@@ -128,7 +128,7 @@ preview cushion.
 
 **Alternative — gift-card led**, if Thursday *covers* matter more than promoting the special:
 ```
-Spend $50 at Uno Mas tonight, take a $10 gift card home. Plus Big F'N Thursday: $10 Big F'N Quesadilla + $10 tequila cocktails.
+Spend $50 tonight, take a $10 gift card home. Plus Big F'N Thursday: $10 Big F'N Quesadilla + $10 tequila cocktails.
 ```
 `GSM-7 · 1 segment`
 

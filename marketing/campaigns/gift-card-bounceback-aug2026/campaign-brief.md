@@ -59,16 +59,20 @@ Worth saying plainly, because it changes how you should talk about it:
 ## Mechanics — the details staff and Toast need
 
 - **Threshold:** pre-tax subtotal, before any other discount.
-- **Issued:** at checkout — **a physical gift card, handed over with the receipt.** Confirmed fulfillment method.
+- **Issued:** at checkout — a **pre-loaded physical gift card** ($10 or $20 already on it) handed over with the receipt. **No terminal activation needed.** Confirmed 2026-08-23.
 - **Redeemable:** on a **future** visit — not the same check. This is the whole point.
 - **Expiry:** none. WA law restricts gift-card expiration; **do not print an expiry date.**
 - **Stacking:** not combinable with other offers (see conflict 1).
 - **One per check.**
 
-**Toast setup:** this is not a discount — do **not** build it as one. It's a **physical gift-card
-activation at checkout**, triggered by the check total. Staff load $10 or $20 onto a physical card
-using the existing gift-card SKU/flow. Confirm with whoever manages Toast config; the Aug 2026 work
-on the Toast discount/promo redemption flow is relevant prior art.
+**Toast setup: minimal — cards are PRE-LOADED.** This is not a discount and it is not a checkout
+activation. Cards are loaded with $10 and $20 **in advance**, so at the table it's just: check clears
+the threshold → hand over the right card. No terminal steps, no manager override, no discount object
+in Toast.
+
+**This resolves the activation bottleneck.** The earlier concern — that manager-only activation would
+jam Friday service during the Late Night launch — **no longer applies.** Any server can hand over a
+pre-loaded card.
 
 ### ✅ Physical inventory — 200 cards on hand (confirmed 2026-08-23)
 
@@ -98,7 +102,7 @@ beats a straight 20% discount that costs the full amount immediately.
 needs a manager at the terminal — a real service bottleneck on the Late Night launch night. Push
 activation to servers if Toast permissions allow.
 
-**Track the card numbers issued.** Return rate is the entire metric for this test.
+**Track the card numbers issued.** Return rate is the entire metric for this test. Pre-loading makes this easier — record the number range you load, then reconcile what's left on Monday.
 
 ### On "hoping we sell out"
 

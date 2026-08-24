@@ -25,6 +25,8 @@ h1{font-family:Antonio,sans-serif;font-weight:700;text-transform:uppercase;color
 .nm{color:#fff;font-size:17.5px;font-weight:700}
 .dot{flex:1;border-bottom:1px dotted rgba(255,255,255,.30);transform:translateY(-4px)}
 .pr{color:#FFEC00;font-family:Antonio,sans-serif;font-size:27px;font-weight:700}
+.was{font-family:Antonio,sans-serif;font-size:19px;font-weight:600;color:rgba(255,255,255,.42);text-decoration:line-through;text-decoration-thickness:2px;margin-right:9px}
+.off{display:inline-block;margin-left:9px;background:rgba(226,38,144,.20);color:#ff7ac0;font-family:Montserrat,sans-serif;font-size:10px;font-weight:800;letter-spacing:.1em;padding:2px 6px;border-radius:5px;vertical-align:3px}
 .de{color:rgba(255,255,255,.62);font-size:12.5px;line-height:1.42;margin:-8px 0 13px 0;max-width:430px}
 .tag{display:inline-block;margin-left:7px;background:rgba(39,243,222,.16);color:#27F3DE;font-size:9px;font-weight:700;letter-spacing:.12em;padding:2px 6px;border-radius:5px;text-transform:uppercase;vertical-align:1px}
 .hero{margin-top:6px;background:#E22690;border-radius:18px;padding:24px 26px;display:flex;align-items:center;gap:22px;box-shadow:0 14px 34px rgba(0,0,0,.34)}
@@ -90,12 +92,13 @@ h1{font-family:Antonio,sans-serif;font-weight:700;text-transform:uppercase;color
 
       <div class="col">
         <div class="sect">The Drinks</div>
-        <div class="row"><span class="nm">House Margarita</span><span class="dot"></span><span class="pr">$6</span></div>
-        <div class="de">On the rocks, salt, lime. The one everybody orders.</div>
-        <div class="row"><span class="nm">Paloma</span><span class="dot"></span><span class="pr">$7</span></div>
-        <div class="de">Tequila, grapefruit, lime, salted rim</div>
-        <div class="row"><span class="nm">Margarita Pitcher</span><span class="dot"></span><span class="pr">$30</span></div>
-        <div class="de">Bring friends. Or don't. We're not counting.</div>
+        <p style="color:rgba(255,255,255,.55);font-size:12px;font-weight:600;margin:-6px 0 14px">Late-night pricing. Regular price struck through.</p>
+        <div class="row"><span class="nm">House Margarita</span><span class="dot"></span><span class="was">$12.50</span><span class="pr">$6</span></div>
+        <div class="de">On the rocks, salt, lime. The one everybody orders. <b style="color:#ff7ac0">Save $6.50.</b></div>
+        <div class="row"><span class="nm">Paloma</span><span class="dot"></span><span class="was">$14.50</span><span class="pr">$7</span></div>
+        <div class="de">Tequila, grapefruit, lime, salted rim. <b style="color:#ff7ac0">Save $7.50.</b></div>
+        <div class="row"><span class="nm">Margarita Pitcher</span><span class="dot"></span><span class="was">$50</span><span class="pr">$30</span></div>
+        <div class="de">Bring friends. Or don't. We're not counting. <b style="color:#ff7ac0">Save $20.</b></div>
 
         <div class="note">
           <div class="nh">Make it more</div>

@@ -16,6 +16,18 @@
 
 ---
 
+## 2026-08-23 — Feedback round 1: struck-through pricing · pre-loaded cards · Toast prepends name  [F2, F7]
+**Three pieces of feedback from Ramsey, all applied.**
+
+**1. Struck-through regular pricing on Late Night.** Pulled the real menu prices to make the discount visible: **margs $12.50 → $6** (save $6.50), **palomas $14.50 → $7** (save $7.50), **pitchers $50 → $30** (save $20). Applied to the menu piece (with per-item "Save $X" lines and a "regular price struck through" note), both social cards, and the Late Night email banner. Re-rendered and inspected all three.
+⚠️ **Worth Ramsey knowing:** these are **~52% off** on margs and palomas. Deep, but $6 already matches Taco Tuesday so the marg price is established. Flagging the depth, not objecting.
+
+**2. Gift cards are PRE-LOADED with $10/$20** — not activated at checkout. This is materially simpler and **resolves the activation bottleneck entirely**: no terminal step, no manager override, no discount object in Toast, and any server can hand one over. The earlier Friday-service concern is now moot. Replaced with two new operational notes: **pre-load before Wednesday, not mid-shift**, and **split the denominations 70/30 — ~140 × $10, 60 × $20** to match the liability model, since guessing the mix wrong means running out of one while sitting on the other.
+
+**3. Toast prepends the restaurant name to every SMS**, so the body must never contain it — it would read "Uno Mas: Uno Mas: …". This **also retires the `á`/GSM-7 question for SMS bodies**, since the name never appears there. Registry §4 item 20 rewritten. Fixed the one Thursday alternate that still said "at Uno Mas". Recorded as a durable rule in `EMAIL_SMS_PLAYBOOK.md` so it applies to every future send.
+
+**Review page updated to v2** and re-served at `http://127.0.0.1:8787` — change banner at the top, and three of the six open questions now closed (paloma price, who activates, Toast flow) with a new one added for the pre-load split.
+
 ## 2026-08-23 — Promo asset folder assembled (9 graphics + SMS + sources)  [F7, F9]
 **Delivered** `~/Documents/Uno-mas-hq-2026/promos/2026-08-26_giftcard-and-latenight/` — one folder covering both campaigns, 2.9 MB, dimensions verified.
 
