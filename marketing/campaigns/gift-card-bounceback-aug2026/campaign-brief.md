@@ -70,25 +70,46 @@ activation at checkout**, triggered by the check total. Staff load $10 or $20 on
 using the existing gift-card SKU/flow. Confirm with whoever manages Toast config; the Aug 2026 work
 on the Toast discount/promo redemption flow is relevant prior art.
 
-### 🔴 Physical inventory — check this before Wednesday
+### ✅ Physical inventory — 200 cards on hand (confirmed 2026-08-23)
 
-Physical fulfillment introduces the one failure mode that will actually embarrass you: **running out
-of cards mid-promo.**
+**You're covered.** Sizing at 15–25 qualifying checks/day over five days is 75–125 cards. You'd need
+to average **40/day** to exhaust 200 — roughly double the strong case. No reorder needed.
 
-- **Count your physical gift card stock today.** Five days including a weekend and a Late Night
-  launch is your highest-traffic window of the month.
-- **Rough sizing:** if 15–25 checks/day clear $50 across five days, that's **75–125 cards.** If you
-  hold fewer than that, reorder now or set expectations with the team.
-- **Have a fallback ready** for running out — a written IOU redeemable on the next visit is far
-  better than "sorry, we're out," which turns a generosity play into a broken promise.
-- **Decide who activates.** If only managers can load cards, every qualifying check needs a manager
-  at the terminal. That's a service bottleneck on a Friday night. Push activation to servers if Toast
-  permissions allow.
-- **Track the card numbers issued** so return rate is measurable — that's the whole metric for this test.
+**What 200 issued would actually mean.** Assume a 70/30 split of $10 to $20 cards:
 
-**Tracking:** tag the activations so you can measure the thing that matters — **how many of those
-gift cards come back, and what the return check averages.** Opens and redemptions are the metric;
-not sends. Review at 30 days (`toast-lifecycle-automation-playbook.md`).
+| | |
+|---|---|
+| Cards issued | 140 × $10 + 60 × $20 |
+| **Future liability created** | **~$2,600** |
+| **Qualifying revenue required to issue them** | **≥$13,000** (140 checks ≥$50 + 60 ≥$100) |
+| Liability as % of that revenue | **~20%** — and only realized when cards come back |
+
+Breakage cuts the real cost further: a meaningful share of gift cards are never fully redeemed. So
+the honest framing is *~20% of incremental revenue, deferred, minus breakage* — which is why this
+beats a straight 20% discount that costs the full amount immediately.
+
+**Mid-promo tripwire.** Count issued cards **Friday morning.**
+- **Under 60** — normal pace, 200 is plenty.
+- **80+** — you're tracking toward exhausting 200 across the weekend. Prep the IOU fallback Friday
+  afternoon rather than discovering it at 9pm Saturday.
+- **120+** — reorder, and consider whether to keep promoting it Sunday.
+
+**Still to decide:** who activates cards. If only managers can load them, every qualifying check
+needs a manager at the terminal — a real service bottleneck on the Late Night launch night. Push
+activation to servers if Toast permissions allow.
+
+**Track the card numbers issued.** Return rate is the entire metric for this test.
+
+### On "hoping we sell out"
+
+Worth separating two different wins:
+
+- **Issuing all 200** means the *threshold worked* — people spent to hit $50/$100. That's a check-average win, and it shows up this week.
+- **Cards coming back** means the *bounce-back worked*. That's the actual point, and it shows up over the following weeks.
+
+Issuing 120 with 70 returning is better business than issuing 200 with 30 returning. So measure both,
+but **judge the promo on return rate** — and don't let a full-sellout week talk you into repeating it
+if the cards never come home.
 
 ## Staff script
 
