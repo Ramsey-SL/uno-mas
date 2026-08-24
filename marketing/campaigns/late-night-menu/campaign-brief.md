@@ -1,11 +1,16 @@
 # Late Night Menu — Brief
 
-**Type:** new recurring daypart · **Status:** 🟡 mockup built, **operational conflict unresolved**
+**Type:** new recurring daypart · **Status:** 🟢 **RULED FRI + SAT ONLY (2026-08-23)** — mockup matches, ready to produce
 **Owner:** Ramsey · **Target launch:** week of 2026-08-24 · **Created:** 2026-08-23
 
 ---
 
-## 🔴 BLOCKER — 8–10pm does not fit current hours
+## ✅ RESOLVED 2026-08-23 — FRI + SAT ONLY
+
+**Ramsey ruled Friday and Saturday only.** No hours change, no propagation to GBP/Apple/Yelp/Resy needed.
+The mockup was already built for Fri–Sat, so it ships as-is. Option 1 below was taken.
+
+### Why the constraint existed
 
 Canonical hours (Supabase `business_hours`, matching the live site's JSON-LD):
 
@@ -25,9 +30,7 @@ Canonical hours (Supabase `business_hours`, matching the live site's JSON-LD):
 2. **Extend Tue–Thu to 10pm** — makes it a five-night program, but it's a labor and staffing decision, and it changes hours on Supabase, the site, GBP, Apple, Yelp, and Resy. The agent can propagate that in one pass once you decide.
 3. **Shift the window to 7–9pm Tue–Thu** and 8–10pm Fri–Sat — captures the slow midweek hour without extending close. More complex to communicate.
 
-**Recommendation: option 1 for launch, then test option 3 on a single midweek night.** Don't extend hours on a hypothesis — prove late-night demand on Fri/Sat first, where the traffic already exists.
-
-**The mockup is built for Fri–Sat.** One line changes it if you rule differently.
+**✅ Option 1 chosen.** Prove late-night demand on Fri/Sat first, where the traffic already exists. Option 3 (7–9pm midweek) remains the natural follow-up test once there's data.
 
 ## The offer
 

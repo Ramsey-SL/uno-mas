@@ -41,6 +41,7 @@ happened in Toast? A campaign that can't answer both is a coupon, not a program.
 | **Wednesday** | Beer & Bites Wednesday | Lift a slow midweek night **without turning the brand into a discount proposition.** Keep it experience-led. |
 | **Thursday** | Big F’N Thursday *(replaced Burrito Thursday, 2026-08)* | Food offer. **Watch for collision with Mezzanine entertainment programming** — Love Island watch parties also ran Thursdays. Decide campaign hierarchy when they overlap. |
 | **Sunday** | Sunday Brunch 10am–4pm | **Major growth priority.** Still new — needs repetition, menu education, food-forward creative, and retention follow-up. |
+| **Fri + Sat** | **Late Night 8–10pm** *(new, launches 2026-08-28)* | Creates a **new occasion** — after-dinner, post-event, industry crowd — rather than discounting an existing one. The literal mechanism behind *Get a Little Lost*: came in for tacos, stayed longer than planned. **Fri–Sat only: Tue–Thu close at 8pm.** |
 | **Fri–Sun** | Weekend traffic promos | Threshold-style offers (see `weekend-campaigns-and-flows.md`). |
 
 ## 4. Channel roles

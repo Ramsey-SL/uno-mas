@@ -16,6 +16,16 @@
 
 ---
 
+## 2026-08-23 — Late Night ruled FRI + SAT only  [F3]
+**Ruling:** Ramsey confirmed **Late Night runs Friday and Saturday only, 8–10pm.** This resolves the blocker raised in the same-day brief — Tue–Thu close at 8pm, so a weekday late-night program would have required an hours change.
+**Consequence: no hours change needed**, so nothing propagates to Supabase `business_hours`, the site's JSON-LD, GBP, Apple, Yelp, or Resy. That's the cheap path, and it launches on existing labor.
+**Owner updated:** `CLAUDE.md` "Always Get Right" now carries Late Night as a named daypart with its full offer, the Fri–Sat constraint and the reason for it, and the two copy guards.
+**Mirrors updated:** `marketing/master-reference.md` (weekly specials + the `site_events` seeding list) · `marketing/knowledge-center/venue-and-operations.md` · `marketing/knowledge-center/menu-and-offers.md` (menu table + v2.5 changelog) · `marketing/campaign-architecture.md` (new Fri+Sat row in the per-day program table, framed as a **new occasion** rather than a discount on an existing one) · **`marketing/brand-context-pack.md`** — the ChatGPT/Gemini bridge, so the new daypart reaches those assistants instead of being re-seeded stale · `AI-PLATFORM-ACCESS.md` current-facts block.
+**Copy guards recorded everywhere the offer appears:** always **"Two Street Tacos — $10"**, never "$10 tacos" (Big A** tacos are already $10 each) · **tacos only, no side** (the 2-tacos-plus-side combo stays $16.50).
+**Launch date assumed 2026-08-28** (the first Fri of "next week"). Flagged — correct it if the intent was 2026-09-04.
+**Still open:** confirm the **$7 paloma** against the current cocktail price · gift-card promo dates · whether the locked $10-off-$60 weekend offer pauses.
+**Not yet done:** add Late Night to the site as a menu daypart (`menu_sections`/`menu_items` already support dayparts), Toast email, GBP post.
+
 ## 2026-08-23 — Late Night menu + Gift Card bounce-back: briefs & mockups built  [F2, F3, F7]
 **Built two campaigns from Ramsey's brief.**
 
