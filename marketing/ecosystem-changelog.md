@@ -16,6 +16,21 @@
 
 ---
 
+## 2026-08-23 — Promo asset folder assembled (9 graphics + SMS + sources)  [F7, F9]
+**Delivered** `~/Documents/Uno-mas-hq-2026/promos/2026-08-26_giftcard-and-latenight/` — one folder covering both campaigns, 2.9 MB, dimensions verified.
+
+**Built new for this:**
+- `late-night-social.html` — Late Night **feed 1080×1350** + **story 1080×1920** (story has bottom safe-area). Distinct from the menu piece: the menu lists proteins with descriptions, the social cards lead with the offer and list protein *names* only.
+- `email-graphics.html` — three Wednesday-email banners at **1200px wide** (2× the 600px email content standard, for retina): gift-card hero 1200×630 (illustrated/cream system), Beer & Bites 1200×500 (navy), Late Night 1200×500 (dark navy).
+- `05_sms/sms-messages.md` — ready-to-paste SMS with segment counts, plus email subject lines and preview text.
+
+**Folder is numbered by use** (`01_late-night-menu` → `05_sms`) with a README mapping every file to its channel, print instructions, the pre-flight checklist, and a pointer back to the repo as source of truth. `_source-html/` carries all four editable sources so print goes through Cmd+P → PDF rather than a 1× PNG.
+
+**Design QA:** the Late Night social card first rendered with a large dead zone between the price row and the footer. Filled it with the **protein list** — real information a promo card should carry — then fixed a CSS bug where `margin-top:auto` + `margin-bottom:auto` centered the block in the leftover space instead of seating it under the prices. Re-rendered and inspected both times.
+
+**Notable:** **no photography in any of the nine graphics.** All real wordmark + DAM line-art + house icon-pattern texture, so the `needs-hires-swap` print gate does not apply and every piece is print-safe as-is.
+**Email caution recorded:** the offer must also appear as **live text in the email body**, since many clients block images by default and an image-only offer is invisible to those readers.
+
 ## 2026-08-23 — Week-of-Aug-24 send plan built (Tue SMS · Wed email · Thu SMS)  [F7]
 **Built** `marketing/campaigns/week-2026-08-24-sends/send-plan.md` to Ramsey's brief — Tuesday SMS, Wednesday email, Thursday SMS, aimed at lifting Wed/Thu (his stated soft days). Every draft is segment-validated, with send times and alternates.
 
