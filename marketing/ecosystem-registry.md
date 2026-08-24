@@ -188,6 +188,9 @@ Ramsey to rule, then propagate the ruling.
 18. **🔴 Schema.org `logo` on the marketing site points at an interior photo**, not a logo — Organization JSON-LD uses `20251217_UM_VENUE_VenueInterior_FINAL_11`. Google uses this for knowledge-panel branding. Should reference a real logo from `uno-mas/approved-assets/logos`. **Fix on the site.**
 19. **31 live-site assets violate the naming convention** (`IMG_0245`, `2R7A8526`, `carne-asada-knife-hero`, `uno-mas/website/cantina/d72ajps8zp3jflmqynne`, …). They work but are unsearchable by `YYYYMMDD_UM_CATEGORY_Subject_v#`. Worth a rename pass — Cloudinary renames are non-breaking if done via `asset_folder`/rename API with URL preservation, but the site references them by public_id, so **the site must be updated in the same change.**
 
+20. **🔴 SMS ENCODING — "á" is not in GSM-7.** Writing **"Uno Más"** in an SMS body forces UCS-2, dropping the single-segment limit from **160 chars to 70** — roughly **2× cost per message.** (`é à ö ñ ü` are fine; `á í ó ú` are not.) **Needs a brand-rule ruling:** `CLAUDE.md` requires the accent on human-readable surfaces and allows ASCII only for "technical compatibility" — SMS encoding is arguably exactly that. Until ruled, SMS drafts use ASCII "Uno Mas" or omit the brand name. See `marketing/campaigns/week-2026-08-24-sends/send-plan.md`.
+21. **Unverified: does Toast auto-append the SMS opt-out line?** If it does, drafts must drop `Reply STOP to opt out.` (frees 25 chars and avoids a doubled disclaimer). Confirm before the Tue Aug 25 send.
+
 4. **Gemini API key** was committed in plaintext in the old `HANDOFF-PROMPT.md` (April 2026). **Still needs rotating.**
 5. **Trailing-space Drive folders** (`Uno_Mas_HQ `, `Uno Mas Marketing HQ `) — planned rename, not done.
 6. ~~**Uncommitted work** in `menu-and-offers.md`~~ — **RESOLVED**: it was a Masa Coated Fries price fix ($7 → $8); committed 2026-08-20.

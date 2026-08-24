@@ -16,6 +16,17 @@
 
 ---
 
+## 2026-08-23 — Week-of-Aug-24 send plan built (Tue SMS · Wed email · Thu SMS)  [F7]
+**Built** `marketing/campaigns/week-2026-08-24-sends/send-plan.md` to Ramsey's brief — Tuesday SMS, Wednesday email, Thursday SMS, aimed at lifting Wed/Thu (his stated soft days). Every draft is segment-validated, with send times and alternates.
+
+**🔴 Discovery — "á" is not in the GSM-7 character set.** Writing **"Uno Más"** in an SMS body forces UCS-2 encoding, which cuts the single-segment limit from **160 characters to 70** — so a normal-length text becomes **2 segments at ~2× cost.** (`é à ö ñ ü` are in GSM-7; `á í ó ú` are not.) This is the concrete technical reason behind the Aug 2026 handoff's "watch SMS segment cost" rule, which the repo had recorded only as a preference. **Needs a brand-rule ruling** — `CLAUDE.md` mandates the accent on human-readable surfaces and permits ASCII only for "technical compatibility," and SMS encoding is arguably exactly that. All drafts use ASCII "Uno Mas" or omit the brand name pending Ramsey's call. Logged as registry §4 item 20; item 21 flags the unverified question of whether Toast auto-appends the opt-out (worth 25 characters).
+
+**Gap raised:** **Late Night launches Fri Aug 28 with no send on the plan.** Thursday teases it, but a brand-new daypart launching without a launch-day message is a missed shot. Recommended one 4pm Friday SMS (drafted, single segment) and offered the trade — if four sends to one list is too many, move Thursday's to Friday, since Friday has genuinely new news and Thursday is a recurring special the list already knows.
+
+**Judgement call flagged, not made:** Tuesday's recommended draft **bends the house one-offer-per-SMS rule** by teasing Wednesday's gift card. Called out as a deliberate exception — priming the soft day is the highest-leverage line in the week — so Ramsey can veto it knowingly.
+**Also flagged:** "Big F'N" going to every phone on the list is a conscious choice worth confirming, and the Wednesday email footer must state the corrected **8pm** Tue–Thu close.
+**Measurement:** judged on Wed/Thu covers vs. the prior three Weds/Thurs, cards issued per day, and Friday Late Night covers — not opens.
+
 ## 2026-08-23 — Gift card promo LOCKED: Wed Aug 26 → Sun Aug 30, physical card at checkout  [F7]
 **Ruling:** Ramsey locked **Wed 2026-08-26 → Sun 2026-08-30**, fulfilled as a **physical gift card handed over at checkout.**
 **Caught before print:** the mockups still read **"This week only · Tue–Sun"** — factually wrong once the start moved to Wednesday. All three artboards now read **"Wed–Sun · Aug 26–30"** and were re-rendered, re-inspected, and re-exported to the HQ exports folder.
