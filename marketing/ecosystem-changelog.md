@@ -16,6 +16,16 @@
 
 ---
 
+## 2026-08-23 — Gift card promo LOCKED: Wed Aug 26 → Sun Aug 30, physical card at checkout  [F7]
+**Ruling:** Ramsey locked **Wed 2026-08-26 → Sun 2026-08-30**, fulfilled as a **physical gift card handed over at checkout.**
+**Caught before print:** the mockups still read **"This week only · Tue–Sun"** — factually wrong once the start moved to Wednesday. All three artboards now read **"Wed–Sun · Aug 26–30"** and were re-rendered, re-inspected, and re-exported to the HQ exports folder.
+**Overlap accepted (Ramsey's call).** Late Night launches Fri Aug 28, so Fri/Sat run both offers and **they stack.** Defensible: the gift card is deferred credit, not a discount, so the Fri/Sat check still closes at full margin and the cost moves to a future visit. **Consequence recorded:** this promo *is* the Aug 28–30 weekend test (test 4) — do not schedule a separate weekend offer on top, since three offers on one ticket is where margin actually breaks.
+**Staff script extended** for the overlap: staff must not imply the gift card replaces late-night pricing, must not invent a restriction, and if asked whether the offers stack the answer is **yes**.
+
+**🔴 New operational risk raised — physical inventory.** Physical fulfillment introduces the one failure mode that embarrasses you: running out mid-promo, which turns a generosity play into a broken promise. Added to the brief: count stock now; rough sizing of **75–125 cards** if 15–25 checks/day clear $50 over five days; prepare a written-IOU fallback; decide whether servers or only managers can activate (manager-only is a service bottleneck on a Friday night); and **record issued card numbers** so return rate is measurable — that's the entire metric for this test.
+
+**Mirrors updated:** gift-card brief (status, dates, physical fulfillment, overlap, inventory section, staff script) · all three mockup artboards · `campaigns/weekend-promos/executions-log.md` test-4 row.
+
 ## 2026-08-23 — Weekend offers reframed as a rotating test · gift card starts Wed  [F7]
 **Corrections from Ramsey:** (1) the **$10-off-$60 offer is OVER** — it was the *first* of a series, not a standing offer; (2) test 2 was **2 House Margs + Chip & Dip Trio $30**; (3) test 3 is **Full Send $45/$65, running this weekend Aug 22–24**; (4) the **gift-card promo starts Wednesday Aug 26.**
 
