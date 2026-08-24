@@ -16,6 +16,25 @@
 
 ---
 
+## 2026-08-24 — Feedback round 2 (v3): assets rebuilt PHOTO-LED  [F7, F9]
+**Read `FEEDBACK.md` from the review page** and applied all three items.
+
+**A1 — Late Night menu.** Removed the "Good to know" box · headline simplified to **"Pick any 2 tacos $10"** · removed all "kids welcome any hour" copy · removed the per-item "Save $X" lines (**strikethrough kept**, as previously requested) · **added real food photography**.
+**B1/B2 — Late Night social.** Same changes, and **rebuilt photo-led** rather than type-only.
+**D2/D3 — email banners.** Also now photo-led (nachos on Beer & Bites, tacos on Late Night).
+**E1 — Tuesday SMS.** Reframed as *"Friendly reminder: it's Taco Tuesday"* since it's been sent before, **BOGO clarified as ending at 5pm**, address dropped. 139/160, still one segment.
+
+**The GENERAL note drove a doctrine change, not just a redesign.** Ramsey: *"can we add images and more graphics… they just feel underwhelming and not bold, bright, and inline with restaurant advertising best practices."* He was right — my §4b split (photographic = experience, illustrated = offers) was too rigid and produced type-only offer cards that read as coupons. **Revised the rule in `campaign-architecture.md` §4b and in the `unomas-design` skill: photo-led is the default for anything promoting food or a daypart; pure illustrated is reserved for offers where money is the message and there's no dish to show** (gift cards, spend thresholds).
+
+**Photo chosen:** `20260125_UM_FOOD_TacoCloseUpV10_FINAL` — checked native resolution first (**2560×2135**), so it is print-safe and *not* one of the `needs-hires-swap` shared-album derivatives. Verified before use rather than assumed.
+
+**Two build bugs caught by rendering and looking:**
+1. **CSS specificity** — `.hero img{width:100%;height:100%}` beat `.logo{height:64px}`, blowing the wordmark to full-bleed and pushing the headline outside the clipped hero. Scoped the background rule to `.hero > img.bgimg`. **Recorded in the design skill** so it doesn't recur.
+2. **White headline over a bright tortilla was illegible.** Added a second radial scrim plus a stronger text-shadow, then re-checked at full size.
+Also switched exports to **rendering each artboard in isolation** at exact canvas size — crop-detection on photographic backgrounds produced silently misaligned exports twice. Recorded in the skill.
+
+**Review page updated to v3** with a change summary, and the six reworked items reset to un-reviewed so they get a fresh look. **C1–C3 (gift card) left illustrated** — money is the message there — but flagged on the page in case Ramsey wants photos there too.
+
 ## 2026-08-24 — Review page made interactive: per-asset approve + comments that persist  [infra]
 **Built** `review-server.py` + an interactive `index.html` in the promo folder. Ramsey can now approve or comment on **each asset individually, right on the page**, instead of relaying IDs back in chat.
 

@@ -36,7 +36,13 @@ Uno Más runs **two** visual systems. Using the wrong one is a brand error, not 
 
 - **Photographic** — real DAM photo, dark scrim, huge Antonio headline over the image. For
   **experience** work: day-of-week programs, brand, the room, the food itself. This is the §2 pattern.
-- **Illustrated promo card** — textured cream/aged-paper ground, script *Uno Más* wordmark,
+**⚠️ Default to PHOTO-LED for anything with food in it** (ruling 2026-08-24). A type-only offer card
+reads as a coupon; restaurant advertising sells the food. Photo hero + dark scrim + huge Antonio
+headline + a solid pink/yellow bar carrying the price. **Check white-on-photo legibility at full
+size** — a bright tortilla eats a white headline; use a scrim *and* a text-shadow.
+
+- **Illustrated promo card** — reserve for offers where **money is the message** and there's no dish
+  to show (gift cards, spend thresholds). Textured cream/aged-paper ground, script *Uno Más* wordmark,
   condensed heavy sans, **money number in pink `#E22690`**, **yellow `#FFEC00` highlight swash**
   behind a key phrase, **teal `#18BCDC` starbursts/rays**, halftone dot shadows under
   **illustrated** (not photographed) food and cocktails, footer lockup
@@ -94,7 +100,13 @@ The pattern:
   by design. Also check `Uno-mas-hq-2026/{menus,promos,reference}/` for the freshest exported menu or
   sent promo before rebuilding something that already exists.
 - Write source files into the right campaign folder: `marketing/campaigns/<campaign-slug>/`. Follow the existing naming: `poster-<slug>.html`, `table-tent.html`, `creative-copy.md`, `campaign-brief.md`.
-- **Render and view a PNG preview** of anything print-bound before calling it done.
+- **Render and view a PNG preview** of anything print-bound before calling it done. **Render each
+  artboard in isolation** (a solo HTML page sized exactly to the canvas, `--window-size=W,H`) rather
+  than cropping a multi-artboard render — crop detection on photographic backgrounds is unreliable
+  and silently produces misaligned exports.
+- **Watch CSS specificity when a photo background and a logo are both `<img>` inside the same
+  container.** `.hero img{width:100%;height:100%}` will beat `.logo{height:64px}` and blow the
+  wordmark up to full-bleed. Scope the background rule (`.hero > img.bgimg`).
 - Commit and push. Note the piece in the campaign's `campaign-brief.md` collateral list.
 - If the piece supersedes existing collateral, **retire the old file** (`_RETIRED-<date>-<name>`) rather than deleting it, and say what it replaced.
 - Tell Ramsey the export step (Cmd+P → Save as PDF at the stated size) and what still needs a real photo.

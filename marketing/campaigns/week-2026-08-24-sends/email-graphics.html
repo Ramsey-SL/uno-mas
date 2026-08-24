@@ -24,8 +24,10 @@ body{background:#2a2a2a;font-family:Montserrat,sans-serif;padding:26px;display:f
 
 /* 2 — BEER & BITES (navy, tonight's reason) */
 #bw{height:500px;background:#003366}
+#bw > img.bgp{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+#bw .sc{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,30,60,.86) 0%,rgba(0,30,60,.66) 42%,rgba(0,40,78,.90) 100%)}
 #bw .k{color:#FFEC00;font-weight:700;font-size:14px;letter-spacing:.3em;text-transform:uppercase}
-#bw h2{font-family:Antonio,sans-serif;font-weight:700;text-transform:uppercase;color:#fff;font-size:70px;line-height:.94;margin-top:12px}
+#bw h2{font-family:Antonio,sans-serif;font-weight:700;text-transform:uppercase;color:#fff;font-size:70px;line-height:.94;margin-top:12px;text-shadow:0 4px 16px rgba(0,10,22,.9)}
 #bw .row{display:flex;gap:44px;margin-top:26px;flex-wrap:wrap;justify-content:center}
 #bw .row span{font-family:Antonio,sans-serif;font-weight:700;color:#fff;font-size:34px}
 #bw .row b{color:#FFEC00}
@@ -33,9 +35,11 @@ body{background:#2a2a2a;font-family:Montserrat,sans-serif;padding:26px;display:f
 
 /* 3 — LATE NIGHT (dark navy, new news) */
 #ln{height:500px;background:#00223F}
+#ln > img.bgp{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+#ln .sc{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,16,32,.84) 0%,rgba(0,16,32,.62) 40%,rgba(0,26,50,.86) 100%)}
 #ln .glow{position:absolute;left:50%;top:-60%;transform:translateX(-50%);width:800px;height:800px;border-radius:50%;background:radial-gradient(circle,rgba(226,38,144,.30) 0%,rgba(226,38,144,0) 62%)}
 #ln .k{color:#27F3DE;font-weight:700;font-size:14px;letter-spacing:.3em;text-transform:uppercase}
-#ln h2{font-family:Antonio,sans-serif;font-weight:700;text-transform:uppercase;color:#fff;font-size:76px;line-height:.92;margin-top:10px}
+#ln h2{font-family:Antonio,sans-serif;font-weight:700;text-transform:uppercase;color:#fff;font-size:76px;line-height:.92;margin-top:10px;text-shadow:0 4px 16px rgba(0,10,22,.9)}
 #ln .when{display:inline-block;background:#FFEC00;color:#00223F;font-weight:800;font-size:19px;letter-spacing:.05em;padding:9px 18px;border-radius:9px;text-transform:uppercase;margin-top:16px}
 #ln .row{display:flex;gap:40px;margin-top:22px;flex-wrap:wrap;justify-content:center}
 #ln .row span{font-family:Antonio,sans-serif;font-weight:700;color:#fff;font-size:29px}
@@ -63,7 +67,8 @@ body{background:#2a2a2a;font-family:Montserrat,sans-serif;padding:26px;display:f
 
 <div class="lab">2 · Beer &amp; Bites Wednesday — 1200×500 (tonight's reason)</div>
 <div class="bn" id="bw">
-  <div class="tex"></div>
+  <img class="bgp" src="https://res.cloudinary.com/drxrfyq9i/image/upload/e_saturation:18,e_contrast:10,e_brightness:4/c_fill,g_auto,w_1200,h_500,f_auto,q_auto/20260623_UM_FOOD_LoadedCarneNachos" alt="">
+  <div class="sc"></div><div class="tex"></div>
   <div class="in">
     <div class="k">Every Wednesday</div>
     <h2>Beer &amp; Bites<br>Wednesday</h2>
@@ -74,7 +79,8 @@ body{background:#2a2a2a;font-family:Montserrat,sans-serif;padding:26px;display:f
 
 <div class="lab">3 · Late Night — 1200×500 (new news)</div>
 <div class="bn" id="ln">
-  <div class="tex"></div><div class="glow"></div>
+  <img class="bgp" src="https://res.cloudinary.com/drxrfyq9i/image/upload/e_saturation:18,e_contrast:10,e_brightness:4/c_fill,g_auto,w_1200,h_500,f_auto,q_auto/20260125_UM_FOOD_TacoCloseUpV10_FINAL" alt="">
+  <div class="sc"></div><div class="tex"></div><div class="glow"></div>
   <div class="in">
     <div class="k">Starts Friday, August 28</div>
     <h2>Late Night</h2>

@@ -61,10 +61,22 @@ Uno Más runs **two distinct visual systems.** Don't blend them in one piece.
 | **Photographic** | Real DAM photo, dark scrim, huge Antonio headline over the image, minimal furniture. Built as 1080×1350 HTML — see `campaigns/daily-specials/poster-taco-tuesday.html`. | Day-of-week programs, brand/experience work, anything selling the room or the food itself. |
 | **Illustrated promo card** | Textured cream/aged ground, script *Uno Más* wordmark, condensed heavy sans, pink money numbers, yellow highlight swash, teal starbursts, halftone-shadowed **illustrated** food & drinks, `UNO MÁS ★ TACOS + TEQUILA` footer. | **Offer communication** — bundles, thresholds, weekend specials, code-word promos. Where a price is the message. |
 
-The illustrated system is the approved direction for **offer** creative (it was also the chosen
-direction for menu-aligned specials). The photographic system carries **experience**. That maps
-cleanly onto the two platforms in §1: *Get a Little Lost* leans photographic; offer-led retention
-and traffic pushes lean illustrated.
+**⚠️ REVISED 2026-08-24 after Ramsey's review.** The clean split above was too rigid. His note on the
+first round of Late Night assets: *"they just feel underwhelming and not bold, bright, and inline with
+restaurant advertising best practices."*
+
+**The corrected rule: food photography leads, brand furniture frames it.** Restaurant advertising
+sells the food — a type-only offer card reads as a coupon, not an invitation. So:
+- **Photo-led + a bold offer block** is the default for anything promoting *food or a daypart*
+  (menus, dayparts, specials). Photo hero, dark scrim, huge Antonio headline, then a solid
+  pink/yellow bar carrying the price.
+- **Pure illustrated** is reserved for offers where **money is the message** and there's no dish to
+  show — gift cards, spend thresholds, dollar-value promos.
+- **Legibility is not optional.** White type over food needs a real scrim *and* a text-shadow;
+  check it at full size, not thumbnail. A bright tortilla will eat a white headline.
+
+*Get a Little Lost* still leans photographic. The difference is that offer creative now does too,
+unless the offer has no food in it.
 
 Live examples of the illustrated system: `campaigns/weekend-promos/executions-log.md`.
 

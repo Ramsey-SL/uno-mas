@@ -1,113 +1,101 @@
 <!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
-<title>Late Night — Social Cards</title>
+<title>Late Night — Social Cards v3</title>
 <style>@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@400;600;700&family=Montserrat:wght@400;500;600;700;800&display=swap');
 *{margin:0;padding:0;box-sizing:border-box}
 body{background:#1b1b1b;font-family:Montserrat,sans-serif;padding:28px;display:flex;flex-wrap:wrap;gap:28px;justify-content:center;align-items:flex-start}
 .hint{flex-basis:100%;max-width:1200px;margin:0 auto;color:#ddd;font-size:13px;line-height:1.6;text-align:center}
 .hint b{color:#27F3DE}
 .lab{flex-basis:100%;max-width:1200px;color:#FFEC00;font-family:Antonio,sans-serif;font-size:22px;text-transform:uppercase;letter-spacing:.08em;margin:14px auto 0}
-.art{position:relative;overflow:hidden;background:#00223F;-webkit-print-color-adjust:exact;print-color-adjust:exact;box-shadow:0 20px 54px rgba(0,0,0,.55)}
-.tex{position:absolute;inset:0;background-image:url('https://res.cloudinary.com/drxrfyq9i/image/upload/w_400,q_auto,f_auto/uno-mas/website/icons/icons-pattern-forramsey-02-1.png');background-size:300px;opacity:.06}
-.glow{position:absolute;left:50%;transform:translateX(-50%);border-radius:50%;background:radial-gradient(circle,rgba(226,38,144,.32) 0%,rgba(226,38,144,0) 62%)}
+.art{position:relative;overflow:hidden;background:#00223F;box-shadow:0 20px 54px rgba(0,0,0,.55)}
+.art > img.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+.sc{position:absolute;inset:0}
 .in{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;text-align:center}
-.wm{width:auto;display:block}
-.eb{color:#27F3DE;font-weight:700;text-transform:uppercase}
-h1{font-family:Antonio,sans-serif;font-weight:700;text-transform:uppercase;color:#fff;line-height:.86;text-shadow:0 6px 30px rgba(0,0,0,.45)}
-.when{display:inline-block;background:#FFEC00;color:#00223F;font-weight:800;text-transform:uppercase;border-radius:10px}
-.hero{background:#E22690;border-radius:18px;display:flex;align-items:center;gap:20px;box-shadow:0 14px 34px rgba(0,0,0,.36);text-align:left}
-.hero img{width:auto;flex-shrink:0}
-.hk{font-family:Antonio,sans-serif;font-weight:700;text-transform:uppercase;color:#fff;line-height:.92}
-.hp{font-family:Antonio,sans-serif;font-weight:700;color:#FFEC00;line-height:.8}
+.in img.wm{width:auto;display:block;filter:drop-shadow(0 3px 14px rgba(0,0,0,.7))}
+.eb{color:#FFEC00;font-weight:800;text-transform:uppercase}
+h1{font-family:Antonio,sans-serif;font-weight:700;text-transform:uppercase;color:#fff;line-height:.82}
+.when{display:inline-block;background:#FFEC00;color:#00223F;font-weight:800;text-transform:uppercase;border-radius:10px;box-shadow:0 8px 22px rgba(0,0,0,.45)}
+.bar{background:#E22690;border-radius:18px;display:flex;align-items:center;box-shadow:0 16px 40px rgba(0,0,0,.5);width:100%}
+.bar .k{font-family:Antonio,sans-serif;font-weight:700;text-transform:uppercase;color:#fff;line-height:.94;text-align:left}
+.bar .p{font-family:Antonio,sans-serif;font-weight:700;color:#FFEC00;line-height:.8;margin-left:auto}
 .px{display:flex;justify-content:center;flex-wrap:wrap}
 .px span{color:#fff;font-family:Antonio,sans-serif;font-weight:700;display:flex;flex-direction:column;align-items:center;line-height:1.05}
 .px b{color:#FFEC00}
-.px .w{color:rgba(255,255,255,.40);text-decoration:line-through;text-decoration-thickness:2px;font-weight:600}
-.px .nowp{display:block}
-.sub{color:rgba(255,255,255,.80);font-style:italic}
-.prot{margin-bottom:auto;padding:0 10px}
-.prot .ph{color:#27F3DE;font-family:Antonio,sans-serif;font-weight:700;text-transform:uppercase;letter-spacing:.16em}
-.prot .pl{color:rgba(255,255,255,.86);font-weight:600;line-height:1.62}
-.foot{width:100%;background:rgba(0,0,0,.28);text-align:center}
-.foot .a{color:rgba(255,255,255,.72);font-weight:600;text-transform:uppercase;letter-spacing:.05em}
+.px .w{color:rgba(255,255,255,.52);text-decoration:line-through;text-decoration-thickness:2px;font-weight:600}
+.prot{padding:0 14px}
+.prot .pl{color:#fff;font-weight:700;line-height:1.55;text-shadow:0 2px 10px rgba(0,0,0,.7)}
+.foot{margin-top:auto;width:100%;background:rgba(0,10,22,.62);text-align:center;backdrop-filter:blur(2px)}
+.foot .a{color:rgba(255,255,255,.80);font-weight:600;text-transform:uppercase;letter-spacing:.05em}
 .foot .t{font-family:Antonio,sans-serif;font-style:italic;color:#27F3DE;font-weight:600}
 
 /* 4:5 */
 .f{width:1080px;height:1350px}
-.f .glow{top:-16%;width:900px;height:900px}
-.f .in{padding:56px 62px 0}
-.f .wm{height:70px}.f .eb{font-size:13px;letter-spacing:.34em;margin-top:24px}
-.f h1{font-size:132px;margin-top:8px}
-.f .when{font-size:23px;padding:11px 24px;margin-top:18px}
-.f .sub{font-size:19px;margin-top:16px}
-.f .hero{margin-top:34px;padding:22px 26px;width:100%}
-.f .hero img{height:86px}.f .hk{font-size:39px}.f .hp{font-size:72px;margin-left:auto}
-.f .px{gap:12px 34px;margin-top:26px}.f .px span{font-size:30px}.f .px .w{font-size:22px}
-.f .prot{margin-top:30px}.f .prot .ph{font-size:19px}.f .prot .pl{font-size:24px;margin-top:12px}
-.f .foot{padding:20px 0}.f .foot .a{font-size:13px}.f .foot .t{font-size:28px}
+.f .sc{background:linear-gradient(180deg,rgba(0,16,32,.82) 0%,rgba(0,16,32,.50) 26%,rgba(0,20,40,.80) 56%,rgba(0,34,63,.96) 82%,#00223F 100%)}
+.f .in{padding:52px 58px 0}
+.f img.wm{height:66px}
+.f .eb{font-size:14px;letter-spacing:.3em;margin-top:20px}
+.f h1{font-size:136px;margin-top:8px;text-shadow:0 4px 16px rgba(0,10,22,.92),0 10px 44px rgba(0,10,22,.7)}
+.f .when{font-size:23px;padding:11px 24px;margin-top:16px}
+.f .bar{margin-top:auto;padding:20px 26px}
+.f .bar .k{font-size:44px}.f .bar .p{font-size:76px}
+.f .px{gap:10px 34px;margin-top:24px}.f .px span{font-size:29px}.f .px .w{font-size:21px}
+.f .prot{margin-top:22px}.f .prot .pl{font-size:21px}
+.f .foot{margin-top:26px;padding:18px 0}.f .foot .a{font-size:13px}.f .foot .t{font-size:27px}
 
 /* 9:16 */
 .s{width:1080px;height:1920px}
-.s .glow{top:6%;width:1000px;height:1000px}
-.s .in{padding:210px 66px 0}
-.s .wm{height:84px}.s .eb{font-size:15px;letter-spacing:.34em;margin-top:38px}
-.s h1{font-size:158px;margin-top:12px}
-.s .when{font-size:27px;padding:14px 28px;margin-top:26px}
-.s .sub{font-size:23px;margin-top:22px}
-.s .hero{margin-top:56px;padding:26px 30px;width:100%}
-.s .hero img{height:104px}.s .hk{font-size:46px}.s .hp{font-size:86px;margin-left:auto}
-.s .px{gap:16px 40px;margin-top:40px}.s .px span{font-size:36px}.s .px .w{font-size:26px}
-.s .prot{margin-top:44px}.s .prot .ph{font-size:22px}.s .prot .pl{font-size:29px;margin-top:14px}
-.s .foot{padding:26px 0 180px}.s .foot .a{font-size:15px}.s .foot .t{font-size:33px;display:block;margin-top:6px}
+.s .sc{background:linear-gradient(180deg,rgba(0,16,32,.86) 0%,rgba(0,16,32,.46) 22%,rgba(0,20,40,.74) 52%,rgba(0,34,63,.95) 78%,#00223F 100%)}
+.s .in{padding:190px 62px 0}
+.s img.wm{height:82px}
+.s .eb{font-size:16px;letter-spacing:.3em;margin-top:34px}
+.s h1{font-size:164px;margin-top:12px;text-shadow:0 4px 18px rgba(0,10,22,.92),0 12px 52px rgba(0,10,22,.72)}
+.s .when{font-size:27px;padding:14px 28px;margin-top:24px}
+.s .bar{margin-top:auto;padding:24px 30px}
+.s .bar .k{font-size:52px}.s .bar .p{font-size:90px}
+.s .px{gap:14px 40px;margin-top:32px}.s .px span{font-size:35px}.s .px .w{font-size:25px}
+.s .prot{margin-top:28px}.s .prot .pl{font-size:26px}
+.s .foot{margin-top:32px;padding:24px 0 170px}.s .foot .a{font-size:15px}.s .foot .t{font-size:32px;display:block;margin-top:6px}
 </style></head><body>
 
-<div class="hint"><b>Late Night — social cards.</b> 1080×1350 feed &amp; 1080×1920 story. Photographic system isn't used here because the offer *is* the message; navy/dark treatment matches the Late Night menu piece. Real wordmark + DAM taco line-art, no photography.<br>Story has bottom safe-area built in for the caption/link sticker.</div>
+<div class="hint"><b>Late Night social v3 — photo-led.</b> 1080×1350 feed · 1080×1920 story.<br>
+<b>v3 changes:</b> real food photography as the hero (was type-only) · headline simplified to "Pick any 2 tacos $10" · struck-through regular pricing kept · no kids line.<br>
+Photo: <code>TacoCloseUpV10_FINAL</code> with the house grade. Story has bottom safe-area for the link sticker.</div>
 
-<div class="lab">A · Feed 4:5 — 1080×1350</div>
+<div class="lab">B1 · Feed 4:5 — 1080×1350</div>
 <div class="art f">
-  <div class="tex"></div><div class="glow"></div>
+  <img class="bg" src="https://res.cloudinary.com/drxrfyq9i/image/upload/e_saturation:18,e_contrast:10,e_brightness:4/c_fill,g_auto,w_1080,h_1350,f_auto,q_auto/20260125_UM_FOOD_TacoCloseUpV10_FINAL" alt="">
+  <div class="sc"></div>
   <div class="in">
-    <img class="wm" src="https://res.cloudinary.com/drxrfyq9i/image/upload/e_colorize,co_rgb:FFFFFF/c_fit,h_210,f_auto,q_auto/UM_Logo_-_T_T-Pink_g7pvjz" alt="Uno Más">
+    <img class="wm" src="https://res.cloudinary.com/drxrfyq9i/image/upload/e_colorize,co_rgb:FFFFFF/c_fit,h_200,f_auto,q_auto/UM_Logo_-_T_T-Pink_g7pvjz" alt="Uno Más">
     <div class="eb">Starts Friday, August 28</div>
     <h1>Late<br>Night</h1>
     <div class="when">Fri + Sat · 8&ndash;10 PM</div>
-    <div class="sub">The kitchen's still going. So are we.</div>
-    <div class="hero">
-      <img src="https://res.cloudinary.com/drxrfyq9i/image/upload/e_make_transparent:45/e_colorize,co_rgb:FFFFFF/e_trim/c_fit,h_190,f_auto,q_auto/TTAsset_2_4x_vv5mg9" alt="">
-      <div><div class="hk">Two street<br>tacos</div></div>
-      <div class="hp">$10</div>
-    </div>
+    <div class="bar"><div class="k">Pick any<br>2 tacos</div><div class="p">$10</div></div>
     <div class="px">
-      <span>Margs<span class="nowp"><i class="w" style="font-style:normal">$12.50</i> <b>$6</b></span></span><span>Palomas<span class="nowp"><i class="w" style="font-style:normal">$14.50</i> <b>$7</b></span></span><span>Pitchers<span class="nowp"><i class="w" style="font-style:normal">$50</i> <b>$30</b></span></span>
+      <span>Margs<span><i class="w" style="font-style:normal">$12.50</i> <b>$6</b></span></span>
+      <span>Palomas<span><i class="w" style="font-style:normal">$14.50</i> <b>$7</b></span></span>
+      <span>Pitchers<span><i class="w" style="font-style:normal">$50</i> <b>$30</b></span></span>
     </div>
-    <div class="prot">
-      <div class="ph">Pick any two</div>
-      <div class="pl">Carne Asada &middot; Al Pastor Chicken &middot; Carnitas<br>Barbacoa &middot; Batata &middot; Hongos</div>
-    </div>
+    <div class="prot"><div class="pl">Carne Asada &middot; Al Pastor Chicken &middot; Carnitas<br>Barbacoa &middot; Batata &middot; Hongos</div></div>
     <div class="foot"><div class="a">2020 N Monroe St, Suite C &middot; Spokane</div><div class="t">Get a little lost.</div></div>
   </div>
 </div>
 
-<div class="lab">B · Story 9:16 — 1080×1920</div>
+<div class="lab">B2 · Story 9:16 — 1080×1920</div>
 <div class="art s">
-  <div class="tex"></div><div class="glow"></div>
+  <img class="bg" src="https://res.cloudinary.com/drxrfyq9i/image/upload/e_saturation:18,e_contrast:10,e_brightness:4/c_fill,g_auto,w_1080,h_1920,f_auto,q_auto/20260125_UM_FOOD_TacoCloseUpV10_FINAL" alt="">
+  <div class="sc"></div>
   <div class="in">
     <img class="wm" src="https://res.cloudinary.com/drxrfyq9i/image/upload/e_colorize,co_rgb:FFFFFF/c_fit,h_250,f_auto,q_auto/UM_Logo_-_T_T-Pink_g7pvjz" alt="Uno Más">
     <div class="eb">Starts Friday, August 28</div>
     <h1>Late<br>Night</h1>
     <div class="when">Fri + Sat · 8&ndash;10 PM</div>
-    <div class="sub">The kitchen's still going. So are we.</div>
-    <div class="hero">
-      <img src="https://res.cloudinary.com/drxrfyq9i/image/upload/e_make_transparent:45/e_colorize,co_rgb:FFFFFF/e_trim/c_fit,h_220,f_auto,q_auto/TTAsset_2_4x_vv5mg9" alt="">
-      <div><div class="hk">Two street<br>tacos</div></div>
-      <div class="hp">$10</div>
-    </div>
+    <div class="bar"><div class="k">Pick any<br>2 tacos</div><div class="p">$10</div></div>
     <div class="px">
-      <span>Margs<span class="nowp"><i class="w" style="font-style:normal">$12.50</i> <b>$6</b></span></span><span>Palomas<span class="nowp"><i class="w" style="font-style:normal">$14.50</i> <b>$7</b></span></span><span>Pitchers<span class="nowp"><i class="w" style="font-style:normal">$50</i> <b>$30</b></span></span>
+      <span>Margs<span><i class="w" style="font-style:normal">$12.50</i> <b>$6</b></span></span>
+      <span>Palomas<span><i class="w" style="font-style:normal">$14.50</i> <b>$7</b></span></span>
+      <span>Pitchers<span><i class="w" style="font-style:normal">$50</i> <b>$30</b></span></span>
     </div>
-    <div class="prot">
-      <div class="ph">Pick any two</div>
-      <div class="pl">Carne Asada &middot; Al Pastor Chicken &middot; Carnitas<br>Barbacoa &middot; Batata &middot; Hongos</div>
-    </div>
+    <div class="prot"><div class="pl">Carne Asada &middot; Al Pastor Chicken &middot; Carnitas<br>Barbacoa &middot; Batata &middot; Hongos</div></div>
     <div class="foot"><div class="a">2020 N Monroe St, Suite C &middot; Spokane<span class="t">Get a little lost.</span></div></div>
   </div>
 </div>

@@ -1,79 +1,77 @@
 <!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
-<title>LATE NIGHT — Uno Más Menu Mockup</title>
+<title>LATE NIGHT — Uno Más Menu Mockup v3</title>
 <style>@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@400;600;700&family=Montserrat:wght@400;500;600;700;800&display=swap');
 *{margin:0;padding:0;box-sizing:border-box}
 body{background:#1b1b1b;font-family:Montserrat,sans-serif;display:flex;flex-wrap:wrap;gap:24px;justify-content:center;padding:28px}
 .hint{flex-basis:100%;max-width:1100px;margin:0 auto;color:#ddd;font-size:13px;line-height:1.6;text-align:center}
-.hint b{color:#18BCDC}.hint .warn{color:#FFEC00}
+.hint b{color:#18BCDC}
 .card{width:1080px;height:1350px;position:relative;overflow:hidden;background:#00223F;
   -webkit-print-color-adjust:exact;print-color-adjust:exact;box-shadow:0 20px 60px rgba(0,0,0,.6)}
-.tex{position:absolute;inset:0;background-image:url('https://res.cloudinary.com/drxrfyq9i/image/upload/w_400,q_auto,f_auto/uno-mas/website/icons/icons-pattern-forramsey-02-1.png');background-size:300px;opacity:.06}
-.glow{position:absolute;left:50%;top:-14%;transform:translateX(-50%);width:900px;height:900px;border-radius:50%;
-  background:radial-gradient(circle,rgba(226,38,144,.30) 0%,rgba(226,38,144,0) 62%)}
-.wrap{position:absolute;inset:0;display:flex;flex-direction:column;padding:64px 68px 54px}
-.top{text-align:center}
-.logo{height:74px;width:auto;margin:0 auto;display:block}
-.eyebrow{margin-top:26px;color:#27F3DE;font-size:13px;font-weight:700;letter-spacing:.34em;text-transform:uppercase}
-h1{font-family:Antonio,sans-serif;font-weight:700;text-transform:uppercase;color:#fff;font-size:126px;line-height:.84;letter-spacing:.01em;margin-top:8px;text-shadow:0 6px 30px rgba(0,0,0,.45)}
-.when{display:inline-block;margin-top:16px;background:#FFEC00;color:#00223F;font-weight:800;font-size:22px;letter-spacing:.05em;padding:11px 22px;border-radius:10px;text-transform:uppercase}
-.sub{margin-top:16px;color:rgba(255,255,255,.82);font-size:19px;font-weight:500;font-style:italic}
-.mid{margin-top:38px;display:flex;gap:22px}
+
+/* PHOTO HERO BAND */
+.hero{position:absolute;top:0;left:0;right:0;height:600px;overflow:hidden}
+.hero > img.bgimg{width:100%;height:100%;object-fit:cover;display:block}
+.hero .scrim{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,18,36,.80) 0%,rgba(0,18,36,.58) 30%,rgba(0,26,50,.78) 68%,#00223F 100%)}
+.hero .scrim2{position:absolute;left:0;right:0;top:60px;height:400px;
+  background:radial-gradient(ellipse 60% 100% at 50% 45%,rgba(0,14,30,.72) 0%,rgba(0,14,30,.34) 58%,rgba(0,14,30,0) 100%)}
+.hero .top{position:absolute;top:0;left:0;right:0;padding:46px 62px 0;text-align:center}
+.hero .top img.logo{height:76px;width:auto;margin:0 auto;display:block;filter:drop-shadow(0 3px 14px rgba(0,0,0,.65))}
+h1{font-family:Antonio,sans-serif;font-weight:700;text-transform:uppercase;color:#fff;font-size:150px;line-height:.82;
+  letter-spacing:.005em;margin-top:18px;text-shadow:0 4px 16px rgba(0,10,22,.92), 0 10px 46px rgba(0,10,22,.75)}
+.when{display:inline-block;margin-top:14px;background:#FFEC00;color:#00223F;font-weight:800;font-size:24px;
+  letter-spacing:.05em;padding:11px 24px;border-radius:10px;text-transform:uppercase;box-shadow:0 8px 22px rgba(0,0,0,.4)}
+
+.body{position:absolute;top:560px;left:0;right:0;bottom:0;padding:0 62px 50px;display:flex;flex-direction:column}
+.tacobar{background:#E22690;border-radius:18px;padding:22px 30px;display:flex;align-items:center;gap:20px;
+  box-shadow:0 16px 40px rgba(0,0,0,.45)}
+.tacobar .k{font-family:Antonio,sans-serif;font-weight:700;text-transform:uppercase;color:#fff;font-size:52px;line-height:.94}
+.tacobar .p{font-family:Antonio,sans-serif;font-weight:700;color:#FFEC00;font-size:86px;line-height:.8;margin-left:auto}
+.cols{margin-top:26px;display:flex;gap:26px;flex:1}
 .col{flex:1}
-.sect{color:#18BCDC;font-family:Antonio,sans-serif;font-weight:700;font-size:31px;text-transform:uppercase;letter-spacing:.02em;
-  border-bottom:2px solid rgba(24,188,220,.42);padding-bottom:7px;margin-bottom:15px}
-.row{display:flex;align-items:baseline;gap:9px;margin-bottom:13px}
-.nm{color:#fff;font-size:17.5px;font-weight:700}
-.dot{flex:1;border-bottom:1px dotted rgba(255,255,255,.30);transform:translateY(-4px)}
-.pr{color:#FFEC00;font-family:Antonio,sans-serif;font-size:27px;font-weight:700}
-.was{font-family:Antonio,sans-serif;font-size:19px;font-weight:600;color:rgba(255,255,255,.42);text-decoration:line-through;text-decoration-thickness:2px;margin-right:9px}
-.off{display:inline-block;margin-left:9px;background:rgba(226,38,144,.20);color:#ff7ac0;font-family:Montserrat,sans-serif;font-size:10px;font-weight:800;letter-spacing:.1em;padding:2px 6px;border-radius:5px;vertical-align:3px}
-.de{color:rgba(255,255,255,.62);font-size:12.5px;line-height:1.42;margin:-8px 0 13px 0;max-width:430px}
-.tag{display:inline-block;margin-left:7px;background:rgba(39,243,222,.16);color:#27F3DE;font-size:9px;font-weight:700;letter-spacing:.12em;padding:2px 6px;border-radius:5px;text-transform:uppercase;vertical-align:1px}
-.hero{margin-top:6px;background:#E22690;border-radius:18px;padding:24px 26px;display:flex;align-items:center;gap:22px;box-shadow:0 14px 34px rgba(0,0,0,.34)}
-.hero img{height:92px;width:auto;flex-shrink:0}
-.hero .htxt{flex:1}
-.hero .hk{font-family:Antonio,sans-serif;font-weight:700;text-transform:uppercase;color:#fff;font-size:41px;line-height:.92}
-.hero .hs{color:rgba(255,255,255,.94);font-size:14px;font-weight:600;margin-top:6px}
-.hero .hp{font-family:Antonio,sans-serif;font-weight:700;color:#FFEC00;font-size:76px;line-height:.8}
-.note{margin-top:22px;background:rgba(255,255,255,.055);border-left:3px solid #27F3DE;border-radius:0 12px 12px 0;padding:15px 17px}
-.note.alt{border-left-color:#FFEC00}
-.note .nh{font-family:Antonio,sans-serif;font-weight:700;text-transform:uppercase;color:#27F3DE;font-size:17px;letter-spacing:.03em}
-.note.alt .nh{color:#FFEC00}
-.note .nb{color:rgba(255,255,255,.72);font-size:12.5px;line-height:1.5;margin-top:5px}
-.foot{margin-top:auto;padding-top:26px;border-top:1px solid rgba(255,255,255,.16);display:flex;justify-content:space-between;align-items:flex-end}
-.foot .l{color:rgba(255,255,255,.72);font-size:12.5px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;line-height:1.7}
-.foot .t{font-family:Antonio,sans-serif;font-style:italic;color:#27F3DE;font-size:33px;font-weight:600}
+.sect{color:#27F3DE;font-family:Antonio,sans-serif;font-weight:700;font-size:30px;text-transform:uppercase;
+  letter-spacing:.03em;border-bottom:2px solid rgba(39,243,222,.4);padding-bottom:7px;margin-bottom:14px}
+.row{display:flex;align-items:baseline;gap:8px;margin-bottom:11px}
+.nm{color:#fff;font-size:18px;font-weight:700}
+.dot{flex:1;border-bottom:1px dotted rgba(255,255,255,.28);transform:translateY(-4px)}
+.de{color:rgba(255,255,255,.60);font-size:12.5px;line-height:1.4;margin:-7px 0 12px}
+.tag{display:inline-block;margin-left:6px;background:rgba(39,243,222,.16);color:#27F3DE;font-size:9px;font-weight:700;
+  letter-spacing:.12em;padding:2px 6px;border-radius:5px;text-transform:uppercase;vertical-align:1px}
+.was{font-family:Antonio,sans-serif;font-size:20px;font-weight:600;color:rgba(255,255,255,.40);
+  text-decoration:line-through;text-decoration-thickness:2px;margin-right:8px}
+.pr{color:#FFEC00;font-family:Antonio,sans-serif;font-size:29px;font-weight:700}
+.drinkpic{margin-top:16px;border-radius:14px;overflow:hidden;box-shadow:0 12px 30px rgba(0,0,0,.45)}
+.drinkpic > img{width:100%;height:210px;object-fit:cover;display:block}
+.addon{margin-top:14px;background:rgba(255,255,255,.06);border-left:3px solid #FFEC00;border-radius:0 11px 11px 0;padding:12px 15px}
+.addon .h{font-family:Antonio,sans-serif;font-weight:700;text-transform:uppercase;color:#FFEC00;font-size:16px}
+.addon .b{color:rgba(255,255,255,.70);font-size:12.5px;line-height:1.45;margin-top:4px}
+.foot{margin-top:20px;padding-top:20px;border-top:1px solid rgba(255,255,255,.18);display:flex;justify-content:space-between;align-items:flex-end}
+.foot .l{color:rgba(255,255,255,.72);font-size:13px;font-weight:600;letter-spacing:.05em;text-transform:uppercase}
+.foot .t{font-family:Antonio,sans-serif;font-style:italic;color:#27F3DE;font-size:34px;font-weight:600}
 @media print{body{background:#fff;padding:0;gap:0}.hint{display:none}@page{size:1080px 1350px;margin:0}.card{box-shadow:none}}
 </style></head><body>
 
-<div class="hint">
-<b>Uno Más — LATE NIGHT menu mockup.</b> Print-ready 1080×1350 (4:5) — works as a table tent, menu insert, or 4:5 social post.<br>
-<b>Export:</b> Cmd+P → Save as PDF, or screenshot at 2×. Real logo + DAM line-art icons embedded; no photography needed.<br>
-<span class="warn">⚠️ Built for FRI + SAT only — Tue–Thu currently close at 8pm. Change the yellow <code>.when</code> line if hours change.</span>
-</div>
+<div class="hint"><b>Uno Más — LATE NIGHT menu v3.</b> Print-ready 1080×1350 (4:5). Table tent, menu insert, or 4:5 social.<br>
+<b>v3 changes:</b> real food photography hero + drink photo · "Good to know" box removed · headline simplified to "Pick any 2 tacos for $10" · kids line removed · per-item savings removed (strikethrough kept).<br>
+<b>Photo:</b> <code>TacoCloseUpV10_FINAL</code> (2560px native — print-safe, not a <code>needs-hires-swap</code> asset). <b>Export:</b> Cmd+P → Save as PDF.</div>
 
 <div class="card">
-  <div class="tex"></div><div class="glow"></div>
-  <div class="wrap">
-
+  <div class="hero">
+    <img class="bgimg" src="https://res.cloudinary.com/drxrfyq9i/image/upload/e_saturation:18,e_contrast:10,e_brightness:4/c_fill,g_auto,w_1080,h_600,f_auto,q_auto/20260125_UM_FOOD_TacoCloseUpV10_FINAL" alt="">
+    <div class="scrim"></div><div class="scrim2"></div>
     <div class="top">
-      <img class="logo" src="https://res.cloudinary.com/drxrfyq9i/image/upload/e_colorize,co_rgb:FFFFFF/c_fit,h_220,f_auto,q_auto/UM_Logo_-_T_T-Pink_g7pvjz" alt="Uno Más">
-      <div class="eyebrow">Two Thousand Twenty North Monroe</div>
+      <img class="logo" src="https://res.cloudinary.com/drxrfyq9i/image/upload/e_colorize,co_rgb:FFFFFF/c_fit,h_200,f_auto,q_auto/UM_Logo_-_T_T-Pink_g7pvjz" alt="Uno Más">
       <h1>Late<br>Night</h1>
-      <div class="when">Fri + Sat · 8–10 PM</div>
-      <div class="sub">The kitchen's still going. So are we.</div>
+      <div class="when">Fri + Sat · 8&ndash;10 PM</div>
+    </div>
+  </div>
+
+  <div class="body">
+    <div class="tacobar">
+      <div class="k">Pick any 2 tacos</div>
+      <div class="p">$10</div>
     </div>
 
-    <div class="hero">
-      <img src="https://res.cloudinary.com/drxrfyq9i/image/upload/e_make_transparent:45/e_colorize,co_rgb:FFFFFF/e_trim/c_fit,h_200,f_auto,q_auto/TTAsset_2_4x_vv5mg9" alt="">
-      <div class="htxt">
-        <div class="hk">Pick any two<br>street tacos</div>
-        <div class="hs">Any protein below. Tacos only — no side.</div>
-      </div>
-      <div class="hp">$10</div>
-    </div>
-
-    <div class="mid">
+    <div class="cols">
       <div class="col">
         <div class="sect">The Tacos</div>
         <div class="row"><span class="nm">Carne Asada</span><span class="dot"></span></div>
@@ -88,34 +86,30 @@ h1{font-family:Antonio,sans-serif;font-weight:700;text-transform:uppercase;color
         <div class="de">Grilled sweet potato, Monterey Jack, pickled onion, cilantro, salsa aguacate</div>
         <div class="row"><span class="nm">Hongos<span class="tag">Vegan-able</span></span><span class="dot"></span></div>
         <div class="de">Chile roasted portabella, Monterey Jack, spicy roja, cilantro, pickled daikon, tomatillo, shaved radish</div>
+        <div class="addon">
+          <div class="h">Make it more</div>
+          <div class="b">Add guacamole or crema &mdash; $1.50 &nbsp;·&nbsp; Extra sauces &mdash; $1.50</div>
+        </div>
       </div>
 
       <div class="col">
         <div class="sect">The Drinks</div>
-        <p style="color:rgba(255,255,255,.55);font-size:12px;font-weight:600;margin:-6px 0 14px">Late-night pricing. Regular price struck through.</p>
         <div class="row"><span class="nm">House Margarita</span><span class="dot"></span><span class="was">$12.50</span><span class="pr">$6</span></div>
-        <div class="de">On the rocks, salt, lime. The one everybody orders. <b style="color:#ff7ac0">Save $6.50.</b></div>
+        <div class="de">On the rocks, salt, lime. The one everybody orders.</div>
         <div class="row"><span class="nm">Paloma</span><span class="dot"></span><span class="was">$14.50</span><span class="pr">$7</span></div>
-        <div class="de">Tequila, grapefruit, lime, salted rim. <b style="color:#ff7ac0">Save $7.50.</b></div>
+        <div class="de">Tequila, grapefruit, lime, salted rim</div>
         <div class="row"><span class="nm">Margarita Pitcher</span><span class="dot"></span><span class="was">$50</span><span class="pr">$30</span></div>
-        <div class="de">Bring friends. Or don't. We're not counting. <b style="color:#ff7ac0">Save $20.</b></div>
-
-        <div class="note">
-          <div class="nh">Make it more</div>
-          <div class="nb">Add guacamole or crema to any taco &mdash; $1.50.<br>Extra sauces &mdash; $1.50.</div>
-        </div>
-        <div class="note alt">
-          <div class="nh">Good to know</div>
-          <div class="nb">Late night is dine-in and takeout.<br>Kids are welcome any hour we're open.</div>
+        <div class="de">Bring friends. Or don't. We're not counting.</div>
+        <div class="drinkpic">
+          <img src="https://res.cloudinary.com/drxrfyq9i/image/upload/e_saturation:18,e_contrast:10,e_brightness:4/c_fill,g_auto,w_900,h_420,f_auto,q_auto/20260207_UM_DRINK_PitcherAndMarg_FINAL" alt="">
         </div>
       </div>
     </div>
 
     <div class="foot">
-      <div class="l">2020 N Monroe St, Suite C · Spokane<br>Dine-in &amp; takeout · Kids welcome any hour</div>
+      <div class="l">2020 N Monroe St, Suite C · Spokane</div>
       <div class="t">Get a little lost.</div>
     </div>
-
   </div>
 </div>
 </body></html>
