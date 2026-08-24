@@ -16,6 +16,22 @@
 
 ---
 
+## 2026-08-23 — Late Night menu + Gift Card bounce-back: briefs & mockups built  [F2, F3, F7]
+**Built two campaigns from Ramsey's brief.**
+
+**Late Night menu** (`marketing/campaigns/late-night-menu/`) — 8–10pm: $6 margs, $30 pitchers, $7 palomas, pick any two street tacos $10. Taco list pulled from the **lunch** menu per instruction, minus Camaron (shrimp): Carne Asada, Al Pastor Chicken, Carnitas, Barbacoa, Batata, Hongos.
+🔴 **BLOCKER surfaced: 8–10pm does not fit current hours.** Tue–Thu close at **8pm** (Supabase `business_hours`, matching live JSON-LD); Sun closes 4pm; Mon closed. **The menu can only run Fri–Sat as written.** Mockup built Fri–Sat; three options documented with a recommendation (launch Fri–Sat, then test 7–9pm midweek rather than extending hours on a hypothesis).
+**Pricing conflicts flagged:** two tacos à la carte is $13 so $10 is a 23% discount, but the *2 tacos + side* combo is $16.50 — staff need the "tacos only, no side" line · **$10 already means "one Big A** taco"** on the menu, so always write "Two Street Tacos — $10" · **$6 margs is Taco Tuesday's price**, recommend accepting it since one memorable price beats two competing ones · confirm the $7 paloma against current menu price.
+
+**Gift Card bounce-back** (`marketing/campaigns/gift-card-bounceback-aug2026/`) — spend $50 → $10 gift card, spend $100 → $20. Flat 20% at both tiers. Full brief: why the mechanic beats a discount (first visit at full margin, buys the second visit, breakage favors the house, cards walk out as gifts, reads generous not desperate), mechanics, staff script, channels, copy.
+**Conflicts flagged:** the **$10-off-$60 weekend offer is a locked standing offer** in `weekend-campaigns-and-flows.md` and overlaps — a $60 check could take $10 off *and* a $10 gift card (33% off). Recommend pausing it this week. Also recommend **not** overlapping with the Late Night launch. Per-check guard needed or tables will split checks. **No printed expiry** — WA restricts gift-card expiration. Alcohol-threshold legality flagged for Ramsey to confirm, not advised on.
+
+**Collateral:** `late-night-menu-mockup.html` (1080×1350) · `gift-card-promo-mockups.html` (three artboards: 1080×1350 feed, 1080×1920 story, 750×1050 table tent @150dpi). Both use verified Cloudinary transforms — real wordmark, real DAM taco line-art, house icon-pattern texture — and **no photography**, which sidesteps the `needs-hires-swap` print gate entirely. Illustrated promo-card system for the offer creative, per `campaign-architecture.md` §4b; the menu uses the navy/dark treatment.
+**Rendered PNGs → `~/Documents/Uno-mas-hq-2026/exports/2026-08-23-latenight-and-giftcard/`** per the design skill's export rule.
+**Design QA:** first render had colliding headline lines (Antonio at `line-height:.84` over three lines), ungridded tiers, and ~400px of dead space. Fixed leading to `.92`, moved tiers to a CSS grid so the arrows and cards align on a column axis, and redistributed vertical rhythm. Re-rendered and inspected.
+
+**Needs a ruling:** Late Night days (Fri–Sat vs extend hours) · gift-card promo dates (Tue Aug 25 – Sun Aug 30?) · whether the $10-off-$60 pauses · per-check guard · alcohol-threshold legality.
+
 ## 2026-08-21 — Schema.org logo + entity graph fixed · HQ library registered · agent snapshot  [F9, infra]
 **SEO fix (Lovable `e62848eb` + `1738f4f6`):** the Organization `logo` pointed at **`VenueInterior_FINAL_11` — a dining-room photo**, which Google uses for knowledge-panel branding.
 - Now `UM_Logo_-_T_T-Pink_g7pvjz` (the real primary wordmark, pink-on-transparent, 3077×1577) delivered as `b_white,c_pad,w_1200,h_615,q_auto,f_jpg` — aspect matches native **1.951** exactly, flattened onto white so it renders wherever Google composites it.

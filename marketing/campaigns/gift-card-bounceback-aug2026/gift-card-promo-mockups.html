@@ -1,0 +1,146 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<title>Gift Card Bounce-Back — Uno Más Promo Mockups</title>
+<style>@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@400;600;700&family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#26221d;font-family:Montserrat,sans-serif;padding:28px;display:flex;flex-wrap:wrap;gap:28px;justify-content:center;align-items:flex-start}
+.hint{flex-basis:100%;max-width:1200px;margin:0 auto;color:#e6ddcf;font-size:13px;line-height:1.65;text-align:center}
+.hint b{color:#E22690}.hint code{color:#18BCDC}
+.lab{flex-basis:100%;max-width:1200px;color:#FFEC00;font-family:Antonio,sans-serif;font-size:22px;text-transform:uppercase;letter-spacing:.08em;margin:14px auto 0}
+
+/* ── shared illustrated promo-card system ── */
+.art{position:relative;overflow:hidden;background:#F6EFE2;-webkit-print-color-adjust:exact;print-color-adjust:exact;box-shadow:0 20px 54px rgba(0,0,0,.5)}
+.art .grain{position:absolute;inset:0;background-image:url('https://res.cloudinary.com/drxrfyq9i/image/upload/w_400,q_auto,f_auto/uno-mas/website/icons/icons-pattern-forramsey-02-1.png');background-size:280px;opacity:.07}
+.burst{position:absolute;font-family:Antonio,sans-serif;line-height:1;pointer-events:none}
+.ray{position:absolute;background:#18BCDC;border-radius:2px}
+.wm{display:block;margin:0 auto}
+.kicker{font-family:Antonio,sans-serif;font-style:italic;color:#E22690;text-align:center;font-weight:600}
+.big{font-family:Antonio,sans-serif;font-weight:700;text-transform:uppercase;color:#06243F;text-align:center;line-height:.92;letter-spacing:.005em}
+.tiers{display:grid;justify-content:center;align-items:center}
+.tier{display:grid;grid-template-columns:max-content max-content max-content;align-items:center;justify-items:center}
+.tier .sp{justify-self:end}.tier .gc{justify-self:start}
+.sp{font-family:Antonio,sans-serif;font-weight:700;color:#06243F;text-transform:uppercase}
+.arrow{color:#E22690;font-family:Antonio,sans-serif;font-weight:700}
+.gc{background:#FFEC00;color:#06243F;font-family:Antonio,sans-serif;font-weight:700;border-radius:10px;transform:rotate(-1.2deg);
+   box-shadow:0 10px 26px -8px rgba(6,36,63,.42)}
+.hair{height:2px;background:rgba(6,36,63,.16);border-radius:2px}
+.fine{text-align:center;color:#5c5347;font-weight:600}
+.band{background:#06243F;color:#fff;text-align:center;font-weight:700;letter-spacing:.05em;text-transform:uppercase}
+.band .tq{color:#27F3DE;font-family:Antonio,sans-serif;font-style:italic;text-transform:none;letter-spacing:0}
+
+/* ── 4:5 feed 1080×1350 ── */
+.feed{width:1080px;height:1350px}
+.feed .inner{position:absolute;inset:0;display:flex;flex-direction:column;padding:58px 62px 0}
+.feed .wm{height:78px}
+.feed .kicker{font-size:27px;margin-top:26px}
+.feed .big{font-size:97px;margin-top:12px}
+.feed .tiers{margin:auto 0;gap:30px;row-gap:30px}
+.feed .sp{font-size:64px}.feed .arrow{font-size:52px;margin:0 22px}
+.feed .gc{font-size:60px;padding:12px 26px}
+.feed .gcs{display:block;font-family:Montserrat,sans-serif;font-size:15px;font-weight:800;letter-spacing:.14em;margin-top:-4px}
+.feed .hair{width:210px;margin:0 auto}
+.feed .fine{font-size:19px;margin-top:24px;margin-bottom:34px;line-height:1.5}
+.feed .band{padding:22px 0;font-size:19px}
+.feed .band .tq{font-size:27px}
+
+/* ── 9:16 story 1080×1920 ── */
+.story{width:1080px;height:1920px}
+.story .inner{position:absolute;inset:0;display:flex;flex-direction:column;padding:200px 68px 0}
+.story .wm{height:92px}
+.story .kicker{font-size:32px;margin-top:40px}
+.story .big{font-size:118px;margin-top:16px}
+.story .tiers{margin:auto 0;gap:48px;row-gap:48px}
+.story .sp{font-size:76px}.story .arrow{font-size:62px;margin:0 26px}
+.story .gc{font-size:72px;padding:14px 30px}
+.story .gcs{display:block;font-family:Montserrat,sans-serif;font-size:17px;font-weight:800;letter-spacing:.14em;margin-top:-4px}
+.story .hair{width:260px;margin:0 auto}
+.story .fine{font-size:23px;margin-top:30px;margin-bottom:40px;line-height:1.55}
+.story .band{padding:30px 0 34px;font-size:22px;margin-bottom:150px}
+.story .band .tq{font-size:33px;display:block;margin-top:8px}
+
+/* ── table tent 5×7in @150dpi = 750×1050 ── */
+.tent{width:750px;height:1050px}
+.tent .inner{position:absolute;inset:0;display:flex;flex-direction:column;padding:48px 44px 0}
+.tent .wm{height:58px}
+.tent .kicker{font-size:20px;margin-top:20px}
+.tent .big{font-size:66px;margin-top:10px}
+.tent .tiers{margin:auto 0;gap:22px;row-gap:22px}
+.tent .sp{font-size:44px}.tent .arrow{font-size:36px;margin:0 15px}
+.tent .gc{font-size:42px;padding:9px 18px}
+.tent .gcs{display:block;font-family:Montserrat,sans-serif;font-size:11px;font-weight:800;letter-spacing:.13em;margin-top:-3px}
+.tent .hair{width:150px;margin:0 auto}
+.tent .fine{font-size:14.5px;margin-top:18px;margin-bottom:22px;line-height:1.5}
+.tent .band{padding:16px 0;font-size:14px}
+.tent .band .tq{font-size:20px}
+
+@media print{body{background:#fff;padding:0;gap:0}.hint,.lab{display:none}.art{box-shadow:none;page-break-after:always}}
+</style></head><body>
+
+<div class="hint">
+<b>Uno Más — Gift Card Bounce-Back mockups.</b> Three artboards: <code>1080×1350</code> feed · <code>1080×1920</code> story · <code>750×1050</code> table tent (5×7in @150dpi).<br>
+<b>Illustrated promo-card system</b> — offer creative, per <code>campaign-architecture.md §4b</code>. Cream ground, script wordmark, pink kicker, yellow money, teal rays. No photography needed.<br>
+<b>Export:</b> Cmd+P → Save as PDF (each artboard on its own page), or screenshot each at 2×. <b>Dates are placeholders — confirm Tue–Sun before printing.</b>
+</div>
+
+<div class="lab">A · Feed 4:5 — 1080×1350</div>
+<div class="art feed">
+  <div class="grain"></div>
+  <div class="burst" style="top:34px;left:-18px;color:#E22690;font-size:150px">✳</div>
+  <div class="burst" style="top:46px;right:-10px;color:#18BCDC;font-size:120px">✳</div>
+  <div class="ray" style="top:470px;left:58px;width:52px;height:5px;transform:rotate(-26deg)"></div>
+  <div class="ray" style="top:500px;left:44px;width:38px;height:5px;transform:rotate(-6deg)"></div>
+  <div class="ray" style="top:470px;right:58px;width:52px;height:5px;transform:rotate(26deg);background:#E22690"></div>
+  <div class="ray" style="top:500px;right:44px;width:38px;height:5px;transform:rotate(6deg);background:#E22690"></div>
+  <div class="inner">
+    <img class="wm" src="https://res.cloudinary.com/drxrfyq9i/image/upload/e_colorize,co_rgb:06243F/c_fit,h_240,f_auto,q_auto/UM_Logo_-_T_T-Pink_g7pvjz" alt="Uno Más">
+    <div class="kicker">We're not discounting anything.</div>
+    <div class="big">We're just<br>giving you<br>money.</div>
+    <div class="tiers">
+      <div class="tier"><span class="sp">Spend $50</span><span class="arrow">→</span><span class="gc">$10<span class="gcs">Gift Card</span></span></div>
+      <div class="tier"><span class="sp">Spend $100</span><span class="arrow">→</span><span class="gc">$20<span class="gcs">Gift Card</span></span></div>
+    </div>
+    <div class="hair"></div>
+    <div class="fine">This week only &middot; Tue&ndash;Sun<br>No expiration. Bring it back whenever.</div>
+    <div class="band">Uno Más &nbsp;★&nbsp; Tacos + Tequila<br><span class="tq">Get a little lost.</span></div>
+  </div>
+</div>
+
+<div class="lab">B · Story 9:16 — 1080×1920 (safe margins built in)</div>
+<div class="art story">
+  <div class="grain"></div>
+  <div class="burst" style="top:96px;left:-26px;color:#E22690;font-size:210px">✳</div>
+  <div class="burst" style="top:120px;right:-18px;color:#18BCDC;font-size:170px">✳</div>
+  <div class="burst" style="bottom:250px;left:40px;color:#FFEC00;font-size:120px">✳</div>
+  <div class="inner">
+    <img class="wm" src="https://res.cloudinary.com/drxrfyq9i/image/upload/e_colorize,co_rgb:06243F/c_fit,h_280,f_auto,q_auto/UM_Logo_-_T_T-Pink_g7pvjz" alt="Uno Más">
+    <div class="kicker">We're not discounting anything.</div>
+    <div class="big">We're just<br>giving you<br>money.</div>
+    <div class="tiers">
+      <div class="tier"><span class="sp">Spend $50</span><span class="arrow">→</span><span class="gc">$10<span class="gcs">Gift Card</span></span></div>
+      <div class="tier"><span class="sp">Spend $100</span><span class="arrow">→</span><span class="gc">$20<span class="gcs">Gift Card</span></span></div>
+    </div>
+    <div class="hair"></div>
+    <div class="fine">This week only &middot; Tue&ndash;Sun<br>No expiration. Bring it back whenever.<br>2020 N Monroe St, Suite C</div>
+    <div class="band">Uno Más &nbsp;★&nbsp; Tacos + Tequila<span class="tq">Get a little lost.</span></div>
+  </div>
+</div>
+
+<div class="lab">C · Table tent — 750×1050 (5×7in @150dpi)</div>
+<div class="art tent">
+  <div class="grain"></div>
+  <div class="burst" style="top:22px;left:-12px;color:#E22690;font-size:104px">✳</div>
+  <div class="burst" style="top:30px;right:-8px;color:#18BCDC;font-size:84px">✳</div>
+  <div class="inner">
+    <img class="wm" src="https://res.cloudinary.com/drxrfyq9i/image/upload/e_colorize,co_rgb:06243F/c_fit,h_180,f_auto,q_auto/UM_Logo_-_T_T-Pink_g7pvjz" alt="Uno Más">
+    <div class="kicker">Spend $50 tonight.</div>
+    <div class="big">Take $10<br>with you.</div>
+    <div class="tiers">
+      <div class="tier"><span class="sp">Spend $50</span><span class="arrow">→</span><span class="gc">$10<span class="gcs">Gift Card</span></span></div>
+      <div class="tier"><span class="sp">Spend $100</span><span class="arrow">→</span><span class="gc">$20<span class="gcs">Gift Card</span></span></div>
+    </div>
+    <div class="hair"></div>
+    <div class="fine">Ask your server. This week only.<br>No expiration.</div>
+    <div class="band">Uno Más &nbsp;★&nbsp; Tacos + Tequila<br><span class="tq">Get a little lost.</span></div>
+  </div>
+</div>
+
+</body></html>
