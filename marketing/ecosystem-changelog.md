@@ -16,6 +16,18 @@
 
 ---
 
+## 2026-08-23 — Weekend offers reframed as a rotating test · gift card starts Wed  [F7]
+**Corrections from Ramsey:** (1) the **$10-off-$60 offer is OVER** — it was the *first* of a series, not a standing offer; (2) test 2 was **2 House Margs + Chip & Dip Trio $30**; (3) test 3 is **Full Send $45/$65, running this weekend Aug 22–24**; (4) the **gift-card promo starts Wednesday Aug 26.**
+
+**The reframe that matters:** weekend offers are a **rotating weekly TEST**, not standing offers. The repo had `weekend-campaigns-and-flows.md` describing $10-off-$60 as a **"locked offer"** — that framing was wrong and has been retired with a banner; its subject lines, SMS copy and brunch nudges are now marked retired creative. Its always-on nurture flows (welcome, win-back, birthday, post-visit) remain valid.
+
+**Pattern named in `campaigns/weekend-promos/executions-log.md`:** the four tests move **deliberately away from discounting** — straight discount ($10 off) → fixed bundle ($30 margs+trio) → bundle ladder ($45/$65 tiers) → **deferred credit (gift card)**. Each step protects more margin than the last while still reading as generous. Test 4 is the strongest structure and is the natural default to beat.
+**Measurement gap flagged:** four experiments are running with no recorded results. Added what to measure — check average vs. a control weekday, redemption rate, attach rate on bundles, and for the gift card the **return rate and second-check average**. Recommended logging the three completed tests before Wednesday. ⚠️ The Toast dashboard is the tool but **its API credentials currently fail auth** (registry §4).
+
+**Mirrors updated:** `weekend-campaigns-and-flows.md` (retired banner) · `cantina-club-RESUME-HERE.md` (stale "locked offer" pointer) · `handoff-2026-08-20-integration.md` item 4 resolved · `campaign-architecture.md` Fri–Sun row · `ecosystem-registry.md` §4 item 15 rewritten · gift-card brief conflict 1 closed.
+
+**Gift card promo: starts Wed 2026-08-26. End date still open** — flagged that running past Thursday collides with both the Aug 28–30 weekend test slot and the **Late Night launch on Fri Aug 28**, where a guest could hit $50 on discounted Late Night items and still earn a gift card. Three options given; **recommended Wed–Thu only** — clean, protects the Late Night launch, and lifts the two genuinely slow nights.
+
 ## 2026-08-23 — Late Night ruled FRI + SAT only  [F3]
 **Ruling:** Ramsey confirmed **Late Night runs Friday and Saturday only, 8–10pm.** This resolves the blocker raised in the same-day brief — Tue–Thu close at 8pm, so a weekday late-night program would have required an hours change.
 **Consequence: no hours change needed**, so nothing propagates to Supabase `business_hours`, the site's JSON-LD, GBP, Apple, Yelp, or Resy. That's the cheap path, and it launches on existing labor.

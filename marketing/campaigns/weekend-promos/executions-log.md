@@ -1,16 +1,55 @@
 # Weekend Promos — Executions Log
 
-> Real sent campaigns, captured from the Toast email PDFs Ramsey provided 2026-08-20.
-> **These are executions, not standing offers** — per the handoff's own rule, treat recent
-> executions as examples, not permanent rules. Verify with Toast before re-running any of them.
+> **Weekend offers are a rotating WEEKLY TEST, not standing offers.** Each one runs a weekend, then
+> is replaced. Confirm what's live here before writing any weekend copy — and never resurrect a
+> retired offer's creative without checking.
 >
-> **Channel reality:** these went out through **Toast email** (footer reads "powered by Toast"),
-> not Klaviyo. `weekend-campaigns-and-flows.md` already documents Toast as the platform for the
-> weekend push. Klaviyo carries the site-connected onsite/flow work.
+> Captured from the Toast email PDFs Ramsey provided 2026-08-20, plus his verbal history 2026-08-23.
+>
+> **Channel reality:** these go out through **Toast email** (footer reads "powered by Toast"), not
+> Klaviyo. Klaviyo carries the site-connected onsite/flow work.
 
 ---
 
-## 1. "Code Word: MICKEY" — spend-threshold weekend offer
+## Test sequence — chronological
+
+| # | Offer | Window | Status |
+|---|---|---|---|
+| 1 | **Spend $60, get $10 off** — code word `MICKEY` | ~Aug 14–17 | 🔴 **OVER** — the first test |
+| 2 | **2 House Margs + Chip & Dip Trio — $30** | mid-Aug weekend | 🔴 **OVER** |
+| 3 | **Pick Your Full Send — $45 / $65** | **Aug 22–24** | 🟡 **RUNNING** (this weekend) |
+| 4 | **Gift card bounce-back** — $50→$10, $100→$20 | **starts Wed Aug 26** | 🟢 **NEXT** — see `campaigns/gift-card-bounceback-aug2026/` |
+
+## 📈 The pattern — each test moves further from discounting
+
+This is the most useful thing in this log. Read the sequence as a deliberate progression:
+
+| # | Structure | What it costs you |
+|---|---|---|
+| 1 | **Straight discount** — $10 off a $60 check | Full margin hit, immediately, on a visit that was already happening |
+| 2 | **Fixed bundle** — 2 margs + a shareable at $30 | Discounted, but it *builds a bigger check* and pushes a specific high-margin pairing |
+| 3 | **Bundle ladder** — $45 / $65 tiers | Same, plus a reason to trade **up** rather than stop at the first tier |
+| 4 | **Deferred credit** — gift card, not a discount | **First visit at full margin.** Cost only lands on a return visit, and breakage works in your favor |
+
+**Each step protects more margin than the last while still reading as generous.** Test 4 is the
+strongest structure of the four and is the natural default to beat going forward.
+
+**What to measure** (per `toast-lifecycle-automation-playbook.md` — incremental visits, not opens):
+- **Average check** on the offer vs. the same weekday without it
+- **Redemption rate** — how many actually hit the threshold
+- **For #4 specifically: return rate.** How many gift cards come back, and what the *second* check averages. That's the number that decides whether bounce-backs become the standing weekend structure.
+- **Attach rate** on bundles (#2, #3) — did they add the shareable, or swap it for something they'd have ordered anyway?
+
+Without this, you're running four experiments and learning nothing from any of them. **Recommend
+logging check-average and redemption for the three completed tests before test 4 starts Wednesday**
+— the Toast dashboard at `~/projects/unomas-toast-dashboard` is the tool, though note its API
+credentials currently fail auth (registry §4).
+
+---
+
+## Execution detail
+
+### 1. "Code Word: MICKEY" — spend-threshold weekend offer 🔴 OVER (first test)
 
 | Field | Value |
 |---|---|
@@ -22,7 +61,7 @@
 | Footer lockup | UNO MÁS ★ TACOS + TEQUILA · *Get a little lost.* |
 | CTA | MAKE A RESERVATION |
 
-**Important:** this **supersedes "Mas Please"** (the phrase the Aug 2026 handoff recorded) and the
+**Confirmed over as of 2026-08-23.** This **supersedes "Mas Please"** (the phrase the Aug 2026 handoff recorded) and the
 `WEEKEND10` Toast promo code in `weekend-campaigns-and-flows.md`. The verbal code word appears to
 **rotate per execution** — treat the phrase as a campaign variable, not a fixed fact. Confirm the
 current word before printing or sending anything that names it.
@@ -30,7 +69,7 @@ current word before printing or sending anything that names it.
 The "code word / if you know, you know" mechanic is strong: it's an insider signal rather than a
 discount announcement, which fits **belonging over bargains** far better than a coupon does.
 
-## 2. "Weekend Special" — Two House Margs + Chip & Dip Trio
+### 2. "Weekend Special" — Two House Margs + Chip & Dip Trio 🔴 OVER
 
 | Field | Value |
 |---|---|
@@ -41,7 +80,7 @@ discount announcement, which fits **belonging over bargains** far better than a 
 | Footer | Tacos. Margs. Brunch. Get a little lost. |
 | Secondary module | **Brunch — Every Sunday 10am–4pm, new brunch menu** |
 
-## 3. "Pick Your Full Send" — bundle ladder
+### 3. "Pick Your Full Send" — bundle ladder 🟡 RUNNING (Aug 22–24)
 
 | Field | Value |
 |---|---|

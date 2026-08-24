@@ -1,5 +1,17 @@
 # Uno Más — Weekend Traffic Campaigns + Nurture Flows
 
+> ## 🔴 THE OFFER IN THIS DOC IS RETIRED (2026-08-23)
+> **"Spend $60, get $10 off" was the FIRST weekend test and it is OVER.** Every reference to it
+> below — subject lines, SMS copy, brunch nudges — is **retired creative**, useful as a template
+> only. Do not send it.
+>
+> **Weekend offers are a rotating weekly TEST, not a standing offer.** Current status and the full
+> test history live in **`marketing/campaigns/weekend-promos/executions-log.md`** — check there
+> before writing any weekend copy.
+>
+> The always-on nurture flows further down this doc (welcome, win-back, birthday, post-visit) are
+> **still valid** — only the weekend spend-threshold offer is retired.
+
 **Platform:** Toast (email + SMS) · **Audience:** full guest list
 **Voice:** relaxed, friendly, Spokane, tacos & tequila, "one more." Never corporate.
 **Note:** Cantina Club is intentionally left OUT of these (not public yet). A club-launch flow comes later.
@@ -9,7 +21,7 @@
 ---
 
 ## ⭐ LOCKED OFFER — this weekend
-**Spend $60 this weekend (Fri–Sun), get $10 off.** Redemption: "show this text/email at your table" (simplest) or set up a Toast promo code (e.g., `WEEKEND10`). Focus send: **Sunday brunch reminder.**
+**~~Spend $60 this weekend (Fri–Sun), get $10 off.~~ RETIRED 2026-08-23 — first test, now over.** Redemption: "show this text/email at your table" (simplest) or set up a Toast promo code (e.g., `WEEKEND10`). Focus send: **Sunday brunch reminder.**
 
 ### Finalized sends (fill `[BRUNCH HOURS]` + `[RESERVE LINK]`)
 

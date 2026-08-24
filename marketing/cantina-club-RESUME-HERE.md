@@ -74,7 +74,7 @@ Building **Uno Más Rewards: The Cantina Club** as **ONE tiered program**: a **F
 ---
 
 ## MARKETING CONTENT PRODUCED THIS SESSION (in repo)
-- `marketing/weekend-campaigns-and-flows.md` — weekend traffic push (locked offer: **$10 off $60, Fri–Sun** + Sunday brunch reminder; code word **"Más Please"**) + always-on email/SMS nurture flows.
+- `marketing/weekend-campaigns-and-flows.md` — weekend nurture flows. ⚠️ Its **$10-off-$60 offer is RETIRED (2026-08-23)** — weekend offers rotate weekly, see `campaigns/weekend-promos/executions-log.md`. (was: locked offer **$10 off $60, Fri–Sun** + Sunday brunch reminder; code word **"Más Please"**) + always-on email/SMS nurture flows.
 - `marketing/mas-rewards-loyalty-playbook.md` — loyalty program design, webpage copy, tabletop, team script + staff incentives, email/SMS flows (naming superseded — it's The Cantina Club free tier).
 - `brand-intelligence-center/cantina-club-messaging-framework.md` — the framework (this is the current source of truth to finish).
 - `website/cantina-club-rewards-mockup/index.html` — the webpage mockup.

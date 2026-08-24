@@ -1,6 +1,6 @@
 # Gift Card Bounce-Back — Campaign Brief
 
-**Type:** promotion (limited window) · **Status:** 🟡 outline + mockups built, dates & Toast setup to confirm
+**Type:** promotion (limited window) · **Status:** 🟢 **STARTS WED 2026-08-26** — outline + mockups built, Toast setup to confirm
 **Owner:** Ramsey · **Created:** 2026-08-23
 
 ---
@@ -34,17 +34,28 @@ Worth saying plainly, because it changes how you should talk about it:
 
 ## ⚠️ Conflicts to resolve before launch
 
-1. **The $10-off-$60 weekend offer is a locked standing offer** in `marketing/weekend-campaigns-and-flows.md`,
-   Fri–Sun. This promo overlaps it. **Decide:** does the gift card promo *replace* it this week, or
-   run alongside? If alongside, can they stack? A $60 check could otherwise get $10 off **and** a
-   $10 gift card — 33% off a $60 ticket, which is too much.
-   **Recommend:** pause the $10-off-$60 for this week and run the gift card promo alone. Cleaner
-   message, better margin, and it doesn't train guests to expect both.
+1. ~~**The $10-off-$60 weekend offer conflict.**~~ ✅ **RESOLVED 2026-08-23 — that offer is OVER.**
+   It was the first of a rotating weekly weekend test. No stacking risk. The **Full Send $45/$65**
+   test is running the weekend of Aug 22–24 and ends before this starts.
 2. **Late Night launches next week** with $6 margs / $10 two-taco. Overlapping a spend-threshold
    promo with a discounted daypart compresses margin on the same ticket.
    **Recommend:** run the gift card promo **this week**, launch Late Night **next week**, don't overlap.
-3. **Dates.** "This week" — closed Monday, so the natural window is **Tue Aug 25 – Sun Aug 30**.
-   Confirm. A Sunday end date captures brunch, which is a stated growth priority.
+3. ✅ **Dates: starts Wednesday 2026-08-26.** End date still needed — see the open question below.
+
+   ⚠️ **Overlap to decide.** Starting Wednesday means this is the first offer that is **not**
+   weekend-scoped, and if it runs past Thursday it lands on top of two things:
+   - the **weekend of Aug 28–30**, where a new rotating weekend test would normally run
+   - **Late Night launching Fri Aug 28** ($6 margs, two tacos $10)
+
+   A guest could hit the $50 threshold on discounted Late Night items and still take a $10 gift
+   card. That's not fatal — the gift card is deferred credit, not a discount — but it does compress
+   margin on the same ticket. **Three options:**
+   1. **Wed–Thu only** (Aug 26–27). Clean, protects the Late Night launch, and lifts the two
+      genuinely slow nights. **Recommended.**
+   2. **Wed–Sun** (Aug 26–30). More volume, but it doubles up on the Late Night launch weekend and
+      displaces this week's weekend test.
+   3. **Wed–Sun, excluding Late Night items.** Cleanest on margin, worst to explain at the table.
+      Avoid — a threshold offer with carve-outs invites arguments.
 4. **Per-check or per-visit?** One gift card per check is the standard guard. Without it, a table can
    split checks to farm the reward. **Recommend: one per check, pre-tax subtotal, dine-in and takeout.**
 5. **Alcohol-only checks.** WA rules around promotions tied to alcohol purchases are worth a
