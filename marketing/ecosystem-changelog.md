@@ -16,6 +16,21 @@
 
 ---
 
+## 2026-08-24 — Review page made interactive: per-asset approve + comments that persist  [infra]
+**Built** `review-server.py` + an interactive `index.html` in the promo folder. Ramsey can now approve or comment on **each asset individually, right on the page**, instead of relaying IDs back in chat.
+
+**How it works:** every one of the **17 review targets** (9 graphics, 4 SMS/copy blocks, 3 open questions, plus a general notes box) has an **✓ Approve / ✎ Needs changes** toggle and a comment box. Input debounce-saves to `localStorage` **and** POSTs to the local server, which writes:
+- `feedback.json` — machine-readable state
+- **`FEEDBACK.md`** — human-readable, grouped into *Needs changes* → *Approved* → *Comments without a decision* → *Not yet reviewed*, with a header tally
+
+**Why a custom server rather than `python -m http.server`:** the plain module can't accept POSTs, so feedback would have had to be copy-pasted back. Now **Claude reads `FEEDBACK.md` directly** — Ramsey types once and nothing gets retyped or lost.
+
+**UI details:** cards border green/amber by status with a status pill, a live tally in the sticky header shows approved/changes/left, and a toast confirms each save (falling back to "Saved locally — server offline" if the server is down, so nothing is lost). State survives a refresh via localStorage.
+
+**Verified:** all 17 control blocks injected; POST round-trip tested end to end; test data cleared before handing over.
+**Copies committed to the repo** at `marketing/campaigns/week-2026-08-24-sends/` (`review-server.py`, `review-index.html`) so the pattern is reusable for future review rounds.
+**Restart command:** `cd <promo folder> && python3 review-server.py 8787`
+
 ## 2026-08-23 — Feedback round 1: struck-through pricing · pre-loaded cards · Toast prepends name  [F2, F7]
 **Three pieces of feedback from Ramsey, all applied.**
 

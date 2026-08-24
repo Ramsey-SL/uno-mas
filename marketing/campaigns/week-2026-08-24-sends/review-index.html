@@ -1,0 +1,261 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Review — Gift Card + Late Night · Week of Aug 24</title>
+<style>@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@600;700&family=Montserrat:wght@400;500;600;700;800&display=swap');
+:root{--navy:#003366;--pink:#E22690;--teal:#27F3DE;--yellow:#FFEC00;--ink:#212121;--sand:#F8F5EF;--line:#E6E9EE}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#14171c;color:#e9ecf1;font-family:Montserrat,sans-serif;line-height:1.6}
+header{background:var(--navy);padding:34px 28px;position:sticky;top:0;z-index:20;box-shadow:0 8px 30px rgba(0,0,0,.5)}
+.hw{max-width:1180px;margin:0 auto;display:flex;align-items:center;gap:22px;flex-wrap:wrap}
+header img{height:52px}
+header h1{font-family:Antonio,sans-serif;font-weight:700;text-transform:uppercase;font-size:31px;line-height:1;color:#fff}
+header .sub{color:var(--teal);font-size:13px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;margin-top:6px}
+header .how{margin-left:auto;background:rgba(255,255,255,.09);border-left:3px solid var(--yellow);padding:12px 16px;border-radius:0 10px 10px 0;font-size:13px;max-width:430px}
+main{max-width:1180px;margin:0 auto;padding:34px 28px 90px}
+h2{font-family:Antonio,sans-serif;font-weight:700;text-transform:uppercase;font-size:27px;color:#fff;margin:44px 0 6px;letter-spacing:.02em}
+h2 .n{color:var(--pink)}
+.sec-note{color:#9aa4b2;font-size:14px;margin-bottom:20px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(330px,1fr));gap:24px}
+.card{background:#1c2128;border:1px solid #2a313b;border-radius:14px;overflow:hidden;display:flex;flex-direction:column}
+.card .top{padding:14px 16px;border-bottom:1px solid #2a313b;display:flex;align-items:center;gap:10px}
+.id{background:var(--pink);color:#fff;font-family:Antonio,sans-serif;font-weight:700;font-size:16px;padding:3px 10px;border-radius:6px;letter-spacing:.04em}
+.card .nm{font-weight:700;font-size:14.5px;color:#fff}
+.card .dim{margin-left:auto;color:#7f8a99;font-size:11.5px;font-weight:600;letter-spacing:.06em}
+.card .imgwrap{background:#0e1116;padding:16px;display:flex;justify-content:center}
+.card img.art{max-width:100%;height:auto;display:block;box-shadow:0 10px 28px rgba(0,0,0,.55);border-radius:3px}
+.card .use{padding:13px 16px;font-size:13px;color:#a9b3c1;border-top:1px solid #2a313b}
+.card .use b{color:var(--teal);font-weight:700}
+.print{display:inline-block;margin-top:9px;background:var(--yellow);color:#06243F;font-weight:800;font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;padding:6px 11px;border-radius:6px;text-decoration:none}
+.print:hover{filter:brightness(1.08)}
+pre{background:#0e1116;border:1px solid #2a313b;border-left:3px solid var(--teal);border-radius:0 10px 10px 0;padding:15px 17px;overflow-x:auto;
+  font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:13.5px;color:#dfe6ef;white-space:pre-wrap;line-height:1.65}
+.sms{background:#1c2128;border:1px solid #2a313b;border-radius:14px;padding:20px 22px;margin-bottom:18px}
+.sms .hdr{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:12px}
+.sms .when{color:#fff;font-weight:700;font-size:15px}
+.sms .seg{background:rgba(39,243,222,.14);color:var(--teal);font-size:11px;font-weight:800;letter-spacing:.08em;padding:3px 8px;border-radius:5px}
+.warn{background:rgba(255,236,0,.08);border-left:3px solid var(--yellow);padding:14px 17px;border-radius:0 10px 10px 0;font-size:14px;margin:18px 0;color:#f0e6c0}
+.warn b{color:var(--yellow)}
+.chk{background:#1c2128;border:1px solid #2a313b;border-radius:14px;padding:20px 24px;margin-top:14px}
+.chk label{display:flex;gap:11px;align-items:flex-start;padding:8px 0;font-size:14.5px;color:#cdd6e2;cursor:pointer}
+.chk input{margin-top:5px;width:17px;height:17px;accent-color:var(--pink);flex-shrink:0}
+/* review controls */
+.rev{border-top:1px solid #2a313b;padding:13px 16px;background:#171b21}
+.btns{display:flex;gap:8px}
+.btns button{flex:1;border:1px solid #39424e;background:#22282f;color:#b9c4d1;font-family:Montserrat,sans-serif;
+  font-weight:700;font-size:12px;letter-spacing:.05em;text-transform:uppercase;padding:9px 8px;border-radius:8px;cursor:pointer;transition:.12s}
+.btns button:hover{border-color:#5a6675;color:#fff}
+.btns button.on[data-v="approved"]{background:#12past}
+.btns button.on[data-v="approved"]{background:#0f5132;border-color:#1a9d5f;color:#8ff0bd}
+.btns button.on[data-v="changes"]{background:#5c2b12;border-color:#d1741f;color:#ffc48a}
+.rev textarea{width:100%;margin-top:9px;background:#0e1116;border:1px solid #2a313b;border-radius:8px;color:#e4eaf2;
+  font-family:Montserrat,sans-serif;font-size:13px;padding:9px 11px;resize:vertical;min-height:56px;line-height:1.5}
+.rev textarea:focus{outline:none;border-color:var(--teal)}
+.rev textarea::placeholder{color:#5d6875}
+.card.approved{border-color:#1a9d5f}
+.card.changes{border-color:#d1741f}
+.pill{margin-left:auto;font-size:10.5px;font-weight:800;letter-spacing:.08em;padding:3px 8px;border-radius:5px;text-transform:uppercase}
+.pill.approved{background:#0f5132;color:#8ff0bd}
+.pill.changes{background:#5c2b12;color:#ffc48a}
+.status{position:fixed;right:18px;bottom:18px;z-index:50;background:#0f5132;color:#8ff0bd;font-size:12.5px;font-weight:700;
+  padding:10px 15px;border-radius:9px;box-shadow:0 10px 30px rgba(0,0,0,.5);opacity:0;transition:opacity .25s}
+.status.show{opacity:1}
+.status.err{background:#5c1212;color:#ffb3b3}
+.tally{margin-left:auto;display:flex;gap:9px;align-items:center;font-size:12.5px;font-weight:700}
+.tally .t{padding:5px 10px;border-radius:7px}
+.tally .ok{background:#0f5132;color:#8ff0bd}.tally .ch{background:#5c2b12;color:#ffc48a}.tally .un{background:#2a313b;color:#9aa4b2}
+.qbox{background:#1c2128;border:1px solid #2a313b;border-radius:14px;padding:18px 20px;margin-bottom:14px}
+.qbox .qh{font-weight:700;color:#fff;font-size:14.5px;margin-bottom:4px}
+footer{border-top:1px solid #2a313b;padding:26px 28px 60px;text-align:center;color:#6d7887;font-size:13px}
+a{color:var(--teal)}
+</style></head><body>
+<header><div class="hw">
+  <img src="https://res.cloudinary.com/drxrfyq9i/image/upload/e_colorize,co_rgb:FFFFFF/c_fit,h_160,f_auto,q_auto/UM_Logo_-_T_T-Pink_g7pvjz" alt="Uno Más">
+  <div><h1>Review &amp; Approve</h1><div class="sub">Gift Card + Late Night · Week of Aug 24</div></div>
+  <div class="tally" id="tally"><span class="t ok" id="tOk">0 approved</span><span class="t ch" id="tCh">0 changes</span><span class="t un" id="tUn">0 left</span></div>
+  <div class="how"><b style="color:var(--yellow)">Approve or comment right on this page.</b> Everything saves automatically to <code>FEEDBACK.md</code> in this folder — Claude reads it directly, so you don't need to retype anything.</div>
+</div></header>
+<main>
+
+<div class="warn" style="border-left-color:var(--teal);background:rgba(39,243,222,.08);color:#c9f5ef">
+<b style="color:var(--teal)">Updated 2026-08-23 (v2):</b> Late Night now shows <b>struck-through regular pricing</b> — margs <s>$12.50</s> $6 · palomas <s>$14.50</s> $7 · pitchers <s>$50</s> $30. Gift cards are <b>pre-loaded</b> with $10/$20, so there's no terminal activation and no manager bottleneck. SMS bodies omit the restaurant name because <b>Toast prepends it</b>.</div>
+
+<div class="warn"><b>Two campaigns:</b> <b>Gift Card Bounce-Back</b> Wed Aug 26 → Sun Aug 30 (spend $50 → $10 card, $100 → $20, physical card at checkout) · <b>Late Night</b> launches Fri Aug 28, <b>Fri + Sat only, 8–10pm</b>.</div>
+
+<h2><span class="n">A.</span> Late Night — print</h2>
+<div class="sec-note">The full menu piece. Lists all six proteins with descriptions. Table tent or menu insert.</div>
+<div class="grid">
+  <div class="card">
+    <div class="top"><span class="id">A1</span><span class="nm">Late Night menu</span><span class="dim">1080×1350</span></div>
+    <div class="imgwrap"><img class="art" src="01_late-night-menu/latenight-menu-1080x1350.png" alt="Late Night menu"></div>
+    <div class="use"><b>Use:</b> print table tent / menu insert. Also works as a 4:5 social post.
+      <a class="print" href="_source-html/late-night-menu-mockup.html" target="_blank">Open print version →</a></div>
+    <div class="rev" data-id="A1"><div class="btns"><button data-v="approved">✓ Approve</button><button data-v="changes">✎ Needs changes</button></div><textarea placeholder="Comments on A1… (saves automatically)"></textarea></div>
+  </div>
+</div>
+
+<h2><span class="n">B.</span> Late Night — social</h2>
+<div class="sec-note">Offer-led, with struck-through regular pricing. Names the six proteins without descriptions — different job from A1.</div>
+<div class="grid">
+  <div class="card">
+    <div class="top"><span class="id">B1</span><span class="nm">Feed</span><span class="dim">1080×1350</span></div>
+    <div class="imgwrap"><img class="art" src="02_late-night-social/latenight-feed-1080x1350.png" alt="Late Night feed"></div>
+    <div class="use"><b>Use:</b> Instagram + Facebook feed. Post Thu or Fri morning.</div>
+    <div class="rev" data-id="B1"><div class="btns"><button data-v="approved">✓ Approve</button><button data-v="changes">✎ Needs changes</button></div><textarea placeholder="Comments on B1… (saves automatically)"></textarea></div>
+  </div>
+  <div class="card">
+    <div class="top"><span class="id">B2</span><span class="nm">Story</span><span class="dim">1080×1920</span></div>
+    <div class="imgwrap"><img class="art" src="02_late-night-social/latenight-story-1080x1920.png" alt="Late Night story"></div>
+    <div class="use"><b>Use:</b> Stories / Reels cover. Bottom safe-area built in for a link sticker.
+      <a class="print" href="_source-html/late-night-social.html" target="_blank">Open source →</a></div>
+    <div class="rev" data-id="B2"><div class="btns"><button data-v="approved">✓ Approve</button><button data-v="changes">✎ Needs changes</button></div><textarea placeholder="Comments on B2… (saves automatically)"></textarea></div>
+  </div>
+</div>
+
+<h2><span class="n">C.</span> Gift card graphics</h2>
+<div class="sec-note">Illustrated promo-card system — the house look for <em>offer</em> creative.</div>
+<div class="grid">
+  <div class="card">
+    <div class="top"><span class="id">C1</span><span class="nm">Feed</span><span class="dim">1080×1350</span></div>
+    <div class="imgwrap"><img class="art" src="03_giftcard-graphics/giftcard-feed-1080x1350.png" alt="Gift card feed"></div>
+    <div class="use"><b>Use:</b> IG/FB feed + Google Business Profile post.</div>
+    <div class="rev" data-id="C1"><div class="btns"><button data-v="approved">✓ Approve</button><button data-v="changes">✎ Needs changes</button></div><textarea placeholder="Comments on C1… (saves automatically)"></textarea></div>
+  </div>
+  <div class="card">
+    <div class="top"><span class="id">C2</span><span class="nm">Story</span><span class="dim">1080×1920</span></div>
+    <div class="imgwrap"><img class="art" src="03_giftcard-graphics/giftcard-story-1080x1920.png" alt="Gift card story"></div>
+    <div class="use"><b>Use:</b> Stories.</div>
+    <div class="rev" data-id="C2"><div class="btns"><button data-v="approved">✓ Approve</button><button data-v="changes">✎ Needs changes</button></div><textarea placeholder="Comments on C2… (saves automatically)"></textarea></div>
+  </div>
+  <div class="card">
+    <div class="top"><span class="id">C3</span><span class="nm">Table tent</span><span class="dim">750×1050 · 5×7in</span></div>
+    <div class="imgwrap"><img class="art" src="03_giftcard-graphics/giftcard-tabletent-750x1050.png" alt="Gift card table tent"></div>
+    <div class="use"><b>Use:</b> print, on every table Wed–Sun. Highest-converting surface for a spend threshold — the decision happens at the table.
+      <a class="print" href="_source-html/gift-card-promo-mockups.html" target="_blank">Open print version →</a></div>
+    <div class="rev" data-id="C3"><div class="btns"><button data-v="approved">✓ Approve</button><button data-v="changes">✎ Needs changes</button></div><textarea placeholder="Comments on C3… (saves automatically)"></textarea></div>
+  </div>
+</div>
+
+<h2><span class="n">D.</span> Wednesday email graphics</h2>
+<div class="sec-note">1200px wide = 2× the 600px email standard, so they stay sharp on retina. Drop into Canva module system <code>DAHINHHZJng</code>.</div>
+<div class="grid">
+  <div class="card">
+    <div class="top"><span class="id">D1</span><span class="nm">Section 1 — hero</span><span class="dim">1200×630</span></div>
+    <div class="imgwrap"><img class="art" src="04_email-graphics/gc-hero-1200x630.png" alt="Gift card hero"></div>
+    <div class="use"><b>Use:</b> the primary action. Links to the site.</div>
+    <div class="rev" data-id="D1"><div class="btns"><button data-v="approved">✓ Approve</button><button data-v="changes">✎ Needs changes</button></div><textarea placeholder="Comments on D1… (saves automatically)"></textarea></div>
+  </div>
+  <div class="card">
+    <div class="top"><span class="id">D2</span><span class="nm">Section 2 — tonight</span><span class="dim">1200×500</span></div>
+    <div class="imgwrap"><img class="art" src="04_email-graphics/beer-bites-1200x500.png" alt="Beer and Bites"></div>
+    <div class="use"><b>Use:</b> the reason to come <em>today</em>. Links to the menu.</div>
+    <div class="rev" data-id="D2"><div class="btns"><button data-v="approved">✓ Approve</button><button data-v="changes">✎ Needs changes</button></div><textarea placeholder="Comments on D2… (saves automatically)"></textarea></div>
+  </div>
+  <div class="card">
+    <div class="top"><span class="id">D3</span><span class="nm">Section 3 — new news</span><span class="dim">1200×500</span></div>
+    <div class="imgwrap"><img class="art" src="04_email-graphics/late-night-1200x500.png" alt="Late Night email"></div>
+    <div class="use"><b>Use:</b> announces Friday's launch. Links to Resy.
+      <a class="print" href="_source-html/email-graphics.html" target="_blank">Open source →</a></div>
+    <div class="rev" data-id="D3"><div class="btns"><button data-v="approved">✓ Approve</button><button data-v="changes">✎ Needs changes</button></div><textarea placeholder="Comments on D3… (saves automatically)"></textarea></div>
+  </div>
+</div>
+
+<h2><span class="n">E.</span> SMS — ready to paste</h2>
+<div class="sec-note">All single-segment GSM-7, zero links. Toast auto-appends the opt-out — never type it.</div>
+
+<div class="sms"><div class="hdr"><span class="id">E1</span><span class="when">Tue Aug 25 · 11am</span><span class="seg">136/160 · 1 segment</span>
+<div class="rev" data-id="E1"><div class="btns"><button data-v="approved">✓ Approve</button><button data-v="changes">✎ Needs changes</button></div><textarea placeholder="Comments on E1… (saves automatically)"></textarea></div></div>
+<pre>It's Taco Tuesday. BOGO street tacos at lunch, $6 margs + $30 pitchers all day. 2020 N Monroe. Tomorrow: spend $50, get a $10 gift card.</pre>
+<div class="use" style="border:0;padding:11px 0 0">The last sentence teases Wednesday — deliberately bends the one-offer-per-SMS rule because Wednesday is the soft day. Delete it to keep it pure (drops to 94 units).</div></div>
+
+<div class="sms"><div class="hdr"><span class="id">E2</span><span class="when">Thu Aug 27 · 3–4pm</span><span class="seg">128/160 · 1 segment</span>
+<div class="rev" data-id="E2"><div class="btns"><button data-v="approved">✓ Approve</button><button data-v="changes">✎ Needs changes</button></div><textarea placeholder="Comments on E2… (saves automatically)"></textarea></div></div>
+<pre>Big F'N Thursday: $10 Big F'N Quesadilla + $10 tequila cocktails. Spend $50, get a $10 gift card. Late Night starts Fri, 8-10pm.</pre></div>
+
+<div class="sms"><div class="hdr"><span class="id">E3</span><span class="when">Fri Aug 28 · 4pm</span><span class="seg">130/160 · 1 segment</span><span style="color:var(--yellow);font-size:12px;font-weight:800">⭐ RECOMMENDED ADD</span>
+<div class="rev" data-id="E3"><div class="btns"><button data-v="approved">✓ Approve</button><button data-v="changes">✎ Needs changes</button></div><textarea placeholder="Comments on E3… (saves automatically)"></textarea></div></div>
+<pre>Late Night starts tonight, 8-10pm. Two street tacos $10, $6 margs, $7 palomas, $30 pitchers. Spend $50, take a $10 gift card home.</pre>
+<div class="use" style="border:0;padding:11px 0 0">If four sends in five days is too many, drop E2 and send this instead — Friday has new news, Thursday is a special the list already knows.</div></div>
+
+<div class="sms"><div class="hdr"><span class="id">E4</span><span class="when">Wed Aug 26 email — subject lines</span>
+<div class="rev" data-id="E4"><div class="btns"><button data-v="approved">✓ Approve</button><button data-v="changes">✎ Needs changes</button></div><textarea placeholder="Comments on E4… (saves automatically)"></textarea></div></div>
+<pre>A: Spend $50, we'll hand you $10.
+B: Here's $20 for next time.
+C: $5 pints tonight. Plus we're giving away gift cards.
+
+Preview text: Gift card on us through Sunday. No expiration, no catch.</pre></div>
+
+<h2><span class="n">F.</span> Open questions</h2>
+<div class="sec-note">Answer these here — they save with everything else.</div>
+<div class="warn" style="border-left-color:#1a9d5f;background:rgba(26,157,95,.08);color:#b9f0d0">✅ <b>Already closed:</b> paloma price ($7 vs $14.50 regular) · who activates cards (moot — pre-loaded) · Toast flow (no setup needed).</div>
+<div class="qbox"><div class="qh"><span class="id">Q1</span> &nbsp;Friday SMS (E3) — add it, or swap it in for Thursday's?</div><div class="rev" data-id="Q1"><div class="btns"><button data-v="approved">✓ Approve</button><button data-v="changes">✎ Needs changes</button></div><textarea placeholder="Comments on Q1… (saves automatically)"></textarea></div></div>
+<div class="qbox"><div class="qh"><span class="id">Q2</span> &nbsp;"Big F'N" going to every phone on the list — conscious choice?</div><div class="rev" data-id="Q2"><div class="btns"><button data-v="approved">✓ Approve</button><button data-v="changes">✎ Needs changes</button></div><textarea placeholder="Comments on Q2… (saves automatically)"></textarea></div></div>
+<div class="qbox"><div class="qh"><span class="id">Q3</span> &nbsp;Pre-load split — 140 × $10 and 60 × $20 (70/30)?</div><div class="rev" data-id="Q3"><div class="btns"><button data-v="approved">✓ Approve</button><button data-v="changes">✎ Needs changes</button></div><textarea placeholder="Comments on Q3… (saves automatically)"></textarea></div></div>
+<div class="qbox"><div class="qh"><span class="id">GENERAL</span> &nbsp;Anything else — overall notes</div><div class="rev" data-id="GENERAL"><textarea placeholder="Overall notes… (saves automatically)"></textarea></div></div>
+
+<div class="warn" style="margin-top:26px"><b>For print:</b> use the <b>“Open print version”</b> links, then Cmd+P → Save as PDF. The PNGs above are 1× and will look soft on a table tent. <b>No photography is used anywhere</b>, so the <code>needs-hires-swap</code> gate doesn't apply — all print pieces are safe at size.</div>
+
+</main>
+<footer>Sources in <code>_source-html/</code> · briefs and copy in <code>Ramsey-SL/uno-mas</code> · these PNGs are exports — edit the HTML, re-render, re-export</footer>
+
+<div class="status" id="st"></div>
+<script>
+const KEY='unomas-review-2026-08-26';
+let state = {};
+try { state = JSON.parse(localStorage.getItem(KEY)||'{}'); } catch(e){ state={}; }
+
+const st=document.getElementById('st');
+let t=null, saveTimer=null;
+function toast(msg,err){ st.textContent=msg; st.classList.toggle('err',!!err); st.classList.add('show');
+  clearTimeout(t); t=setTimeout(()=>st.classList.remove('show'),1800); }
+
+function tally(){
+  const ids=[...document.querySelectorAll('.rev')].map(r=>r.dataset.id);
+  let ok=0,ch=0,un=0;
+  ids.forEach(id=>{ const v=state[id]||{};
+    if(v.status==='approved')ok++; else if(v.status==='changes')ch++; else un++; });
+  document.getElementById('tOk').textContent=ok+' approved';
+  document.getElementById('tCh').textContent=ch+' changes';
+  document.getElementById('tUn').textContent=un+' left';
+}
+
+function save(){
+  localStorage.setItem(KEY, JSON.stringify(state));
+  clearTimeout(saveTimer);
+  saveTimer=setTimeout(()=>{
+    fetch('/save',{method:'POST',headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({items:state})})
+      .then(r=>r.json()).then(d=>toast('Saved '+d.saved))
+      .catch(()=>toast('Saved locally — server offline',true));
+  },600);
+  tally();
+}
+
+document.querySelectorAll('.rev').forEach(rev=>{
+  const id=rev.dataset.id;
+  const card=rev.closest('.card');
+  const ta=rev.querySelector('textarea');
+  const v=state[id]||{};
+  if(ta && v.comment) ta.value=v.comment;
+
+  function paint(){
+    const cur=(state[id]||{}).status;
+    rev.querySelectorAll('.btns button').forEach(b=>b.classList.toggle('on', b.dataset.v===cur));
+    if(card){ card.classList.remove('approved','changes'); if(cur) card.classList.add(cur);
+      let pill=card.querySelector('.pill');
+      if(cur){ if(!pill){ pill=document.createElement('span'); pill.className='pill'; card.querySelector('.top').appendChild(pill);} 
+               pill.className='pill '+cur; pill.textContent = cur==='approved'?'Approved':'Changes'; }
+      else if(pill) pill.remove();
+    }
+  }
+  rev.querySelectorAll('.btns button').forEach(b=>{
+    b.addEventListener('click',()=>{
+      state[id]=state[id]||{};
+      state[id].status = state[id].status===b.dataset.v ? null : b.dataset.v;
+      paint(); save();
+    });
+  });
+  if(ta) ta.addEventListener('input',()=>{ state[id]=state[id]||{}; state[id].comment=ta.value; save(); });
+  paint();
+});
+tally();
+</script>
+</body></html>
