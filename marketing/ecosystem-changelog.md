@@ -16,6 +16,16 @@
 
 ---
 
+## 2026-08-25 — Chef doc trimmed to a pure content sheet · now 2 pages  [F2]
+**Three trims from Ramsey, all removing *my* reasoning rather than his content:**
+1. The **$16.50 explainer** under the offer line — internal rationale, not a chef verification item.
+2. The Camaron **"Confirm that's right — and tell me the reason…"** sentence → now just **"Not on Late Night."**
+3. The entire **Four Questions** section.
+
+**Removing the questions loses nothing**, because the sign-off tick-boxes already capture the same four points in actionable form — protein hold times, the shrimp reason (with a blank for it), description accuracy, and the drink prices. Questions asked; tick-boxes get answered.
+**Also rewrote the top ask** so it no longer points at a section that doesn't exist — it now directs her to the sign-off block, and corrects "won't hold at 9pm" to "won't hold to 10pm" to match the actual service window.
+**Result: 3 pages → 2.** Verified by rendering both. The doc is now offer → six tacos → excluded item → add-ons → drinks → sign-off, with no commentary.
+
 ## 2026-08-25 — Chef doc: dropped the $16.50 explainer  [F2]
 **Ramsey:** *"you can remove this from the doc we are aligned."* Removed the *"Tacos only — no side. The regular 2-tacos-plus-side plate stays $16.50…"* line from the chef content-check sheet — that was internal reasoning for Ramsey, not something the kitchen needs to verify. The offer line is now simply *"Any two street tacos from the six below."*
 **Scoped to this doc only.** The "tacos only, no side" fact **remains** on the customer-facing print menu, the social cards, and in `CLAUDE.md` as a copy guard — it's a real table-side distinction for staff, just not a chef sign-off item.
