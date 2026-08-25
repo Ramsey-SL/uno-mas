@@ -229,7 +229,8 @@ This file is the **entry point**. The repo's canonical content structure:
 | Campaigns (briefs, copy, creative) | `marketing/campaigns/` |
 | Website (Lovable prompts, rebuild plan, messaging, backlog) | `website/` + `marketing/website-*.md` |
 | AI image generation (Gemini/ChatGPT testing, prompts, rubric) | `marketing/image-generation-playbook.md` |
-| DAM workflow (Cloudinary upload/sort pipeline, "website" convention) | `marketing/dam-workflow.md` |
+| **Cloudinary operating guide — structure, naming, tags, print gate, transforms, upload, MediaFlows** | `marketing/cloudinary-operating-guide.md` |
+| DAM workflow (historical detail) | `marketing/dam-workflow.md` |
 | Drive warehouse map (what's in Uno_Mas_HQ) | `MIGRATION-PLAN.md` |
 | **Ecosystem surface map + propagation matrix + known conflicts** | `marketing/ecosystem-registry.md` |
 | **Log of propagated information changes** | `marketing/ecosystem-changelog.md` |

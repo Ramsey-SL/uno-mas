@@ -42,6 +42,7 @@ anything matching `*SBA*`, `*financial*`, `*credentials*`, `*.env*`, `*.key`. Ne
 assets here — they belong in Cloudinary or Drive.
 
 ### Tier 2 — Cloudinary (the DAM, curated web-ready subset)
+**📖 Full rules: `marketing/cloudinary-operating-guide.md`** — structure, naming, tags, print gate, transforms, upload procedure, credit budget, MediaFlows plan.
 Cloud name `drxrfyq9i` · **FREE plan: 25 credits/mo, images ≤10 MB, videos ≤100 MB**
 
 - Root trees: `uno-mas/approved-assets/{photos/<cat>,videos/<cat>,logos,icons,graphics}` (~805–1350 assets), plus `uno-mas/{website,menu,venue,generated,submissions,inspiration,team-uploads}` and a separate root `mezzanine/venue`.
