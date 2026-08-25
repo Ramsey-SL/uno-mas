@@ -16,6 +16,17 @@
 
 ---
 
+## 2026-08-25 — Tile colourways · "Pick any two tacos" · Tuesday name alternatives  [F7, F3]
+**Colour options built** (`campaigns/daily-special-banners/color-options.html`, `:8792`) — **4 colourways each for G and E**, layout held identical so the judgement is purely about colour. Swatches on each header show ground / heading / price.
+**Recommended G3, the pink ground.** Pink is the stated hero colour and currently only ever appears as an accent; as a full ground it's the most unmistakably *Uno Más* option available and nothing else on Monroe looks like it. G2 (navy/yellow) is the safe high-contrast pick; E2 is the answer if the only goal is making items win. **Advised against G4** — navy on teal has less contrast than it appears and the subtext suffers.
+**Raised an idea rather than assuming it:** colour could carry information — a different ground per day, so regulars learn the colour before they read a word. The cost is losing one consistent look, so it's a genuine trade.
+**Copy fixed:** "Pick any two proteins" → **"Pick any two tacos."**
+
+**Tuesday name alternatives** (`tuesday-name-options.md`) — 9 options across three strategies, each with why-it-works and a watch-out.
+**Led with the honest trade rather than a list:** "Taco Tuesday" has **zero explanation cost** — everyone knows it — but it is **not yours**, and it's the most generic thing on a calendar that also contains *Big F'N Thursday*. Stated the switching cost plainly (live tile, today's SMS, running Meta ads, printed table tents, ~30 repo files) and the rule: **only rename if the new name is clearly better, not merely different.**
+**Two recommendations:** **`Street Taco Tuesday`** as the cheapest meaningful improvement — one word, keeps all recognition, and pre-empts the "which tacos?" question staff will otherwise field all night. Or **`One More Tuesday`** if he wants it to be *his* — the only option that derives from **Uno Más** itself: the name means "one more," the offer *is* one more taco, and the platform line is "get a little lost." **Explicitly advised against "Two-for Tuesday"** — the obvious answer, which is why other bars in town already use it; that trades one generic name for another.
+**Noted:** a rename should start **next week**, since today's SMS already said "Taco Tuesday."
+
 ## 2026-08-25 — Thursday reverted to "Tequila Cocktails*" · tiles rebalanced, starbursts replaced  [F3, F7]
 **1 · Thursday wording, corrected.** Ramsey: *"no new pours. Keep it simple — $10 Tequila Cocktails, subtext can say Menu Cocktails only with an asterisk."* So the earlier broadening to "menu cocktails" was wrong. Canonical is now **`$10 Tequila Cocktails*`** with **`*menu cocktails only`** as the qualifier. **The rotating fresh-sheet / "new pours weekly" claim is retired** — recorded in `CLAUDE.md` as a do-not-use.
 **Consequence flagged honestly:** the Meta ad variant T-B was built entirely on the weekly-rotation hook, which I'd called the sleeper because it was **the only offer all week giving a reason to come *back* rather than just come once.** Rewrote it around the quesadilla's size instead, and noted in the doc that Thursday now competes on the item rather than on novelty — worth watching in the numbers.

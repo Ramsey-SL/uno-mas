@@ -1,0 +1,176 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tile colour options</title>
+<style>@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@600;700&family=Montserrat:wght@400;600;700;800;900&display=swap');
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#14171c;color:#e9ecf1;font-family:Montserrat,sans-serif;padding:0 0 90px}
+header.pg{background:#003366;padding:26px 28px;position:sticky;top:0;z-index:99;box-shadow:0 6px 22px rgba(0,0,0,.5)}
+header.pg h1{font-family:Antonio,sans-serif;text-transform:uppercase;font-size:27px;color:#fff;line-height:1}
+header.pg .s{color:#27F3DE;font-size:12px;font-weight:700;letter-spacing:.13em;text-transform:uppercase;margin-top:5px}
+main{max-width:1330px;margin:0 auto;padding:26px}
+h2.sec{font-family:Antonio,sans-serif;text-transform:uppercase;font-size:26px;color:#fff;margin:34px 0 6px}
+.sub{color:#9aa4b2;font-size:14px;margin-bottom:18px}
+.note{background:rgba(255,236,0,.08);border-left:3px solid #FFEC00;padding:15px 19px;border-radius:0 10px 10px 0;font-size:14px;line-height:1.62;color:#f0e6c0;margin-bottom:24px}
+.note b{color:#FFEC00} .note code{color:#18BCDC;font-size:12.5px}
+.opt{margin-bottom:22px;background:#1c2128;border:1px solid #2a313b;border-radius:14px;overflow:hidden}
+.opt .hd{padding:11px 16px;border-bottom:1px solid #2a313b;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.opt .id{background:#E22690;color:#fff;font-family:Antonio,sans-serif;font-weight:700;font-size:14px;padding:2px 10px;border-radius:6px}
+.opt .nm{font-weight:700;color:#fff;font-size:14px}
+.opt .sw{display:flex;gap:4px;margin-left:6px}
+.opt .sw i{width:15px;height:15px;border-radius:3px;display:block;border:1px solid rgba(255,255,255,.2)}
+.opt .why{color:#9aa4b2;font-size:12px;margin-left:auto;max-width:520px;text-align:right;line-height:1.45}
+.stage{padding:20px 0}
+
+.wrapouter{max-width:1160px;margin:0 auto;padding:0 16px}
+.flyer{position:relative;overflow:hidden;padding:30px 42px 44px;
+  clip-path:polygon(0 0,100% 0,100% calc(100% - 15px),96.5% 100%,93% calc(100% - 12px),89% 100%,85.5% calc(100% - 14px),82% 100%,78% calc(100% - 10px),74.5% 100%,71% calc(100% - 15px),67% 100%,63.5% calc(100% - 11px),60% 100%,56% calc(100% - 14px),52.5% 100%,49% calc(100% - 9px),45% 100%,41.5% calc(100% - 15px),38% 100%,34% calc(100% - 11px),30.5% 100%,27% calc(100% - 13px),23% 100%,19.5% calc(100% - 9px),16% 100%,12% calc(100% - 15px),8.5% 100%,5% calc(100% - 11px),0 100%);
+  box-shadow:0 22px 44px -26px rgba(0,0,0,.5)}
+.wm{position:absolute;right:-38px;top:50%;transform:translateY(-50%);height:280px;pointer-events:none}
+.icn{position:absolute;pointer-events:none}
+.core{position:relative;text-align:center;max-width:900px;margin:0 auto}
+.big{font-family:Antonio,sans-serif;font-weight:700;text-transform:uppercase;line-height:.88;font-size:clamp(34px,4.8vw,52px)}
+.rule{height:2px;margin:18px auto 0;width:110px;border-radius:2px}
+.items{display:flex;flex-direction:column;gap:15px;margin-top:20px;text-align:left}
+.item{display:flex;align-items:baseline;gap:15px}
+.nmi{font-family:Antonio,sans-serif;font-weight:700;text-transform:uppercase;font-size:32px;line-height:1}
+.dots{flex:1;border-bottom:2px dotted;opacity:.28;transform:translateY(-7px)}
+.pr{font-family:Antonio,sans-serif;font-weight:700;font-size:28px;line-height:1;white-space:nowrap}
+.sb{font-weight:700;font-size:13px;margin-top:3px;opacity:.72}
+.col{display:flex;flex-direction:column}
+.halftone::before{content:"";position:absolute;inset:0;pointer-events:none;opacity:.5;
+  background-image:radial-gradient(rgba(0,0,0,.05) 1px,transparent 1px);background-size:4px 4px}
+.dothalf::after{content:"";position:absolute;inset:0;pointer-events:none;opacity:.09;
+  background-image:radial-gradient(#fff 1px,transparent 1px);background-size:5px 5px}
+@media(max-width:760px){.item{flex-direction:column;align-items:flex-start;gap:2px}.dots{display:none}}
+</style></head><body>
+<header class="pg"><h1>Colour options</h1><div class="s">G watermark · E halftone · plus Tuesday name alternatives</div></header>
+<main>
+<div class="note">
+<b>Layout is identical in every tile below</b> — item leads, price supports, dotted leader. You're judging <b>colour only</b>.<br>
+<b>Copy fixed:</b> "Pick any two proteins" → <b>"Pick any two tacos"</b>.<br>
+Swatches on each header show the ground, the heading colour and the price colour.
+</div>
+
+<h2 class="sec">G · Watermark — 4 colourways</h2>
+<div class="sub">One oversized line-art watermark of the day's own item. Only the watermark and palette change per day.</div>
+
+<div class="opt"><div class="hd"><span class="id">G1</span><span class="nm">Warm paper</span>
+<span class="sw"><i style="background:#FFFBF3"></i><i style="background:#06243F"></i><i style="background:#E22690"></i></span>
+<span class="why">Closest to your print work. Pink prices on paper — familiar, warm, lowest risk.</span></div>
+<div class="stage" style="background:#fff"><div class="wrapouter"><div class="flyer halftone" style="background:#FFFBF3">
+  <img class="wm" src="https://res.cloudinary.com/drxrfyq9i/image/upload/e_make_transparent:45/e_colorize,co_rgb:06243F/e_trim/c_fit,h_600,f_auto,q_auto/uno-mas/website/icons/quesadilla-lineart-teal" style="opacity:.10" alt="">
+  <div class="core"><div class="big" style="color:#06243F">Big F&rsquo;N Thursday</div>
+    <div class="rule" style="background:rgba(6,36,63,.2)"></div>
+    <div class="items">
+      <div class="item"><div class="col"><span class="nmi" style="color:#06243F">Big F&rsquo;N Quesadilla</span><span class="sb" style="color:#6b6355">The size of a medium pizza</span></div><span class="dots" style="border-color:#06243F"></span><span class="pr" style="color:#E22690">$10</span></div>
+      <div class="item"><div class="col"><span class="nmi" style="color:#06243F">Tequila Cocktails</span><span class="sb" style="color:#6b6355">*Menu cocktails only</span></div><span class="dots" style="border-color:#06243F"></span><span class="pr" style="color:#E22690">$10</span></div>
+    </div></div>
+</div></div></div></div>
+
+<div class="opt"><div class="hd"><span class="id">G2</span><span class="nm">Navy ground, yellow prices</span>
+<span class="sw"><i style="background:#06243F"></i><i style="background:#fff"></i><i style="background:#FFEC00"></i></span>
+<span class="why">Highest contrast of the four. Reads at a distance and at night. Boldest without adding any new colour.</span></div>
+<div class="stage" style="background:#fff"><div class="wrapouter"><div class="flyer dothalf" style="background:#06243F">
+  <img class="wm" src="https://res.cloudinary.com/drxrfyq9i/image/upload/e_make_transparent:45/e_colorize,co_rgb:FFFFFF/e_trim/c_fit,h_600,f_auto,q_auto/uno-mas/website/icons/quesadilla-lineart-teal" style="opacity:.11" alt="">
+  <div class="core"><div class="big" style="color:#fff">Big F&rsquo;N Thursday</div>
+    <div class="rule" style="background:rgba(255,255,255,.24)"></div>
+    <div class="items">
+      <div class="item"><div class="col"><span class="nmi" style="color:#fff">Big F&rsquo;N Quesadilla</span><span class="sb" style="color:rgba(255,255,255,.6)">The size of a medium pizza</span></div><span class="dots" style="border-color:#fff"></span><span class="pr" style="color:#FFEC00">$10</span></div>
+      <div class="item"><div class="col"><span class="nmi" style="color:#fff">Tequila Cocktails</span><span class="sb" style="color:rgba(255,255,255,.6)">*Menu cocktails only</span></div><span class="dots" style="border-color:#fff"></span><span class="pr" style="color:#FFEC00">$10</span></div>
+    </div></div>
+</div></div></div></div>
+
+<div class="opt"><div class="hd"><span class="id">G3</span><span class="nm">Pink ground, navy type</span>
+<span class="sw"><i style="background:#E22690"></i><i style="background:#06243F"></i><i style="background:#FFEC00"></i></span>
+<span class="why">Pink is your hero colour and it's currently only ever an accent. As a full ground it's the most distinctly <i>Uno Más</i> of the four — nothing else in Spokane looks like this.</span></div>
+<div class="stage" style="background:#fff"><div class="wrapouter"><div class="flyer dothalf" style="background:#E22690">
+  <img class="wm" src="https://res.cloudinary.com/drxrfyq9i/image/upload/e_make_transparent:45/e_colorize,co_rgb:FFFFFF/e_trim/c_fit,h_600,f_auto,q_auto/uno-mas/website/icons/quesadilla-lineart-teal" style="opacity:.15" alt="">
+  <div class="core"><div class="big" style="color:#fff">Big F&rsquo;N Thursday</div>
+    <div class="rule" style="background:rgba(255,255,255,.3)"></div>
+    <div class="items">
+      <div class="item"><div class="col"><span class="nmi" style="color:#fff">Big F&rsquo;N Quesadilla</span><span class="sb" style="color:rgba(255,255,255,.72)">The size of a medium pizza</span></div><span class="dots" style="border-color:#fff"></span><span class="pr" style="color:#FFEC00">$10</span></div>
+      <div class="item"><div class="col"><span class="nmi" style="color:#fff">Tequila Cocktails</span><span class="sb" style="color:rgba(255,255,255,.72)">*Menu cocktails only</span></div><span class="dots" style="border-color:#fff"></span><span class="pr" style="color:#FFEC00">$10</span></div>
+    </div></div>
+</div></div></div></div>
+
+<div class="opt"><div class="hd"><span class="id">G4</span><span class="nm">Teal ground, navy type</span>
+<span class="sw"><i style="background:#18BCDC"></i><i style="background:#06243F"></i><i style="background:#fff"></i></span>
+<span class="why">Your most under-used brand colour. Bright and unexpected, and it photographs well. Weakest option for small text — navy on teal has less contrast than it looks.</span></div>
+<div class="stage" style="background:#fff"><div class="wrapouter"><div class="flyer" style="background:#18BCDC">
+  <img class="wm" src="https://res.cloudinary.com/drxrfyq9i/image/upload/e_make_transparent:45/e_colorize,co_rgb:06243F/e_trim/c_fit,h_600,f_auto,q_auto/uno-mas/website/icons/quesadilla-lineart-teal" style="opacity:.13" alt="">
+  <div class="core"><div class="big" style="color:#06243F">Big F&rsquo;N Thursday</div>
+    <div class="rule" style="background:rgba(6,36,63,.28)"></div>
+    <div class="items">
+      <div class="item"><div class="col"><span class="nmi" style="color:#06243F">Big F&rsquo;N Quesadilla</span><span class="sb" style="color:rgba(6,36,63,.7)">The size of a medium pizza</span></div><span class="dots" style="border-color:#06243F"></span><span class="pr" style="color:#fff">$10</span></div>
+      <div class="item"><div class="col"><span class="nmi" style="color:#06243F">Tequila Cocktails</span><span class="sb" style="color:rgba(6,36,63,.7)">*Menu cocktails only</span></div><span class="dots" style="border-color:#06243F"></span><span class="pr" style="color:#fff">$10</span></div>
+    </div></div>
+</div></div></div></div>
+
+<h2 class="sec">E · Cream + halftone — 4 colourways</h2>
+<div class="sub">Line art bleeding off two corners. Copy now reads "Pick any two tacos".</div>
+
+<div class="opt"><div class="hd"><span class="id">E1</span><span class="nm">Cream, pink prices</span>
+<span class="sw"><i style="background:#F6EFE2"></i><i style="background:#06243F"></i><i style="background:#E22690"></i></span>
+<span class="why">The current version, for comparison.</span></div>
+<div class="stage" style="background:#fff"><div class="wrapouter"><div class="flyer halftone" style="background:#F6EFE2">
+  <img class="icn" style="left:-14px;bottom:-10px;height:180px;opacity:.15" src="https://res.cloudinary.com/drxrfyq9i/image/upload/e_colorize,co_rgb:06243F/c_fit,h_380,f_auto,q_auto/uno-mas/website/icons/agave-teal" alt="">
+  <img class="icn" style="right:-16px;top:-12px;height:140px;opacity:.15" src="https://res.cloudinary.com/drxrfyq9i/image/upload/e_make_transparent:45/e_colorize,co_rgb:E22690/e_trim/c_fit,h_300,f_auto,q_auto/TTAsset_2_4x_vv5mg9" alt="">
+  <div class="core"><div class="big" style="color:#06243F">Taco Tuesday</div>
+    <div class="rule" style="background:rgba(6,36,63,.22)"></div>
+    <div class="items">
+      <div class="item"><div class="col"><span class="nmi" style="color:#06243F">Street Tacos</span><span class="sb" style="color:#6b6355">Pick any two tacos &middot; till 5pm</span></div><span class="dots" style="border-color:#06243F"></span><span class="pr" style="color:#E22690">BOGO</span></div>
+      <div class="item"><div class="col"><span class="nmi" style="color:#06243F">House Margaritas</span></div><span class="dots" style="border-color:#06243F"></span><span class="pr" style="color:#E22690">$6</span></div>
+      <div class="item"><div class="col"><span class="nmi" style="color:#06243F">Margarita Pitchers</span></div><span class="dots" style="border-color:#06243F"></span><span class="pr" style="color:#E22690">$30</span></div>
+    </div></div>
+</div></div></div></div>
+
+<div class="opt"><div class="hd"><span class="id">E2</span><span class="nm">Cream, navy prices, pink art</span>
+<span class="sw"><i style="background:#F6EFE2"></i><i style="background:#06243F"></i><i style="background:#06243F"></i></span>
+<span class="why">Quietest. Prices stop shouting entirely, so the item names own the tile — the furthest version of the fix you asked for.</span></div>
+<div class="stage" style="background:#fff"><div class="wrapouter"><div class="flyer halftone" style="background:#F6EFE2">
+  <img class="icn" style="left:-14px;bottom:-10px;height:180px;opacity:.18" src="https://res.cloudinary.com/drxrfyq9i/image/upload/e_colorize,co_rgb:E22690/c_fit,h_380,f_auto,q_auto/uno-mas/website/icons/agave-teal" alt="">
+  <img class="icn" style="right:-16px;top:-12px;height:140px;opacity:.18" src="https://res.cloudinary.com/drxrfyq9i/image/upload/e_make_transparent:45/e_colorize,co_rgb:18BCDC/e_trim/c_fit,h_300,f_auto,q_auto/TTAsset_2_4x_vv5mg9" alt="">
+  <div class="core"><div class="big" style="color:#06243F">Taco Tuesday</div>
+    <div class="rule" style="background:rgba(226,38,144,.4)"></div>
+    <div class="items">
+      <div class="item"><div class="col"><span class="nmi" style="color:#06243F">Street Tacos</span><span class="sb" style="color:#6b6355">Pick any two tacos &middot; till 5pm</span></div><span class="dots" style="border-color:#06243F"></span><span class="pr" style="color:#06243F">BOGO</span></div>
+      <div class="item"><div class="col"><span class="nmi" style="color:#06243F">House Margaritas</span></div><span class="dots" style="border-color:#06243F"></span><span class="pr" style="color:#06243F">$6</span></div>
+      <div class="item"><div class="col"><span class="nmi" style="color:#06243F">Margarita Pitchers</span></div><span class="dots" style="border-color:#06243F"></span><span class="pr" style="color:#06243F">$30</span></div>
+    </div></div>
+</div></div></div></div>
+
+<div class="opt"><div class="hd"><span class="id">E3</span><span class="nm">Deep navy cream-type</span>
+<span class="sw"><i style="background:#00223F"></i><i style="background:#F6EFE2"></i><i style="background:#27F3DE"></i></span>
+<span class="why">Cream type on navy inverts the flyer instead of abandoning it. Teal prices give the one bright note.</span></div>
+<div class="stage" style="background:#fff"><div class="wrapouter"><div class="flyer dothalf" style="background:#00223F">
+  <img class="icn" style="left:-14px;bottom:-10px;height:180px;opacity:.14" src="https://res.cloudinary.com/drxrfyq9i/image/upload/e_colorize,co_rgb:FFFFFF/c_fit,h_380,f_auto,q_auto/uno-mas/website/icons/agave-teal" alt="">
+  <img class="icn" style="right:-16px;top:-12px;height:140px;opacity:.16" src="https://res.cloudinary.com/drxrfyq9i/image/upload/e_make_transparent:45/e_colorize,co_rgb:E22690/e_trim/c_fit,h_300,f_auto,q_auto/TTAsset_2_4x_vv5mg9" alt="">
+  <div class="core"><div class="big" style="color:#F6EFE2">Taco Tuesday</div>
+    <div class="rule" style="background:rgba(246,239,226,.26)"></div>
+    <div class="items">
+      <div class="item"><div class="col"><span class="nmi" style="color:#F6EFE2">Street Tacos</span><span class="sb" style="color:rgba(246,239,226,.6)">Pick any two tacos &middot; till 5pm</span></div><span class="dots" style="border-color:#F6EFE2"></span><span class="pr" style="color:#27F3DE">BOGO</span></div>
+      <div class="item"><div class="col"><span class="nmi" style="color:#F6EFE2">House Margaritas</span></div><span class="dots" style="border-color:#F6EFE2"></span><span class="pr" style="color:#27F3DE">$6</span></div>
+      <div class="item"><div class="col"><span class="nmi" style="color:#F6EFE2">Margarita Pitchers</span></div><span class="dots" style="border-color:#F6EFE2"></span><span class="pr" style="color:#27F3DE">$30</span></div>
+    </div></div>
+</div></div></div></div>
+
+<div class="opt"><div class="hd"><span class="id">E4</span><span class="nm">Yellow ground, navy everything</span>
+<span class="sw"><i style="background:#FFEC00"></i><i style="background:#06243F"></i><i style="background:#E22690"></i></span>
+<span class="why">The loudest thing you could put above the hero. Genuinely stops the eye — but a full yellow ground every Tuesday may be too much every week.</span></div>
+<div class="stage" style="background:#fff"><div class="wrapouter"><div class="flyer" style="background:#FFEC00">
+  <img class="icn" style="left:-14px;bottom:-10px;height:180px;opacity:.16" src="https://res.cloudinary.com/drxrfyq9i/image/upload/e_colorize,co_rgb:06243F/c_fit,h_380,f_auto,q_auto/uno-mas/website/icons/agave-teal" alt="">
+  <img class="icn" style="right:-16px;top:-12px;height:140px;opacity:.2" src="https://res.cloudinary.com/drxrfyq9i/image/upload/e_make_transparent:45/e_colorize,co_rgb:E22690/e_trim/c_fit,h_300,f_auto,q_auto/TTAsset_2_4x_vv5mg9" alt="">
+  <div class="core"><div class="big" style="color:#06243F">Taco Tuesday</div>
+    <div class="rule" style="background:rgba(6,36,63,.28)"></div>
+    <div class="items">
+      <div class="item"><div class="col"><span class="nmi" style="color:#06243F">Street Tacos</span><span class="sb" style="color:rgba(6,36,63,.72)">Pick any two tacos &middot; till 5pm</span></div><span class="dots" style="border-color:#06243F"></span><span class="pr" style="color:#E22690">BOGO</span></div>
+      <div class="item"><div class="col"><span class="nmi" style="color:#06243F">House Margaritas</span></div><span class="dots" style="border-color:#06243F"></span><span class="pr" style="color:#E22690">$6</span></div>
+      <div class="item"><div class="col"><span class="nmi" style="color:#06243F">Margarita Pitchers</span></div><span class="dots" style="border-color:#06243F"></span><span class="pr" style="color:#E22690">$30</span></div>
+    </div></div>
+</div></div></div></div>
+
+<div class="note" style="border-left-color:#27F3DE;background:rgba(39,243,222,.08);color:#c9f5ef">
+<b style="color:#27F3DE">On colour:</b> <b>G3 (pink ground)</b> is the one I'd push. Pink is your stated hero colour and right now it only ever appears as an accent — as a full ground it's the most unmistakably <i>Uno Más</i> option here, and nothing else on Monroe looks like it. <b>G2 (navy/yellow)</b> is the safe high-contrast pick. <b>E2</b> is the answer if the priority is purely making the items win.<br>
+<b>Avoid G4</b> — navy on teal has less contrast than it appears, and the subtext suffers.<br>
+<b>A thought on using colour as information:</b> you could give each day its own ground — Tuesday pink, Wednesday navy, Thursday teal, Late Night deep navy. Regulars would learn the colour before they read a word. The cost is losing one consistent look, so it's a real trade either way.
+</div>
+</main></body></html>
