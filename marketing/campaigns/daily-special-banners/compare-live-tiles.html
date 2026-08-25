@@ -1,0 +1,199 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Full Send vs Taco Tuesday</title>
+<style>@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@400;600;700&family=Montserrat:wght@400;600;700;800&display=swap');
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#14171c;color:#e9ecf1;font-family:Montserrat,system-ui,sans-serif;padding:0 0 100px}
+header.pg{background:#003366;padding:24px 28px;position:sticky;top:0;z-index:999;box-shadow:0 6px 22px rgba(0,0,0,.5)}
+header.pg h1{font-family:Antonio,sans-serif;text-transform:uppercase;font-size:26px;color:#fff;line-height:1}
+header.pg .s{color:#27F3DE;font-size:12px;font-weight:700;letter-spacing:.13em;text-transform:uppercase;margin-top:5px}
+main{max-width:1340px;margin:0 auto;padding:24px}
+.note{background:rgba(39,243,222,.08);border-left:3px solid #27F3DE;padding:15px 19px;border-radius:0 10px 10px 0;font-size:14px;line-height:1.62;color:#c9f5ef;margin-bottom:24px}
+.note b{color:#27F3DE}.note code{color:#FFEC00;font-size:12.5px}
+.block{margin-bottom:16px;background:#1c2128;border:1px solid #2a313b;border-radius:14px;overflow:hidden}
+.block .hd{padding:12px 17px;border-bottom:1px solid #2a313b;display:flex;gap:11px;align-items:center;flex-wrap:wrap}
+.block .tag{background:#E22690;color:#fff;font-family:Antonio,sans-serif;font-weight:700;font-size:14px;padding:2px 11px;border-radius:6px}
+.block .nm{font-weight:700;color:#fff;font-size:15px}
+.block .st{font-size:10.5px;font-weight:800;letter-spacing:.07em;padding:3px 8px;border-radius:5px}
+.st.live{background:#0f5132;color:#8ff0bd}.st.past{background:#3a2a12;color:#f0c78a}
+.block .rp{margin-left:auto;background:#E22690;border:0;color:#fff;font-size:11px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;padding:5px 11px;border-radius:6px;cursor:pointer}
+.stage{background:#fff;padding:6px 0 10px}
+.legend{background:#0e1116;border-top:1px solid #2a313b;padding:14px 18px}
+.legend h4{font-family:Antonio,sans-serif;text-transform:uppercase;font-size:15px;color:#FFEC00;letter-spacing:.06em;margin-bottom:8px}
+.legend ol{list-style:none;display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:6px 20px}
+.legend li{font-size:12.8px;color:#b9c3d0;display:flex;gap:8px;line-height:1.45}
+.legend .n{flex-shrink:0;width:19px;height:19px;border-radius:50%;background:#E22690;color:#fff;
+  font-size:11px;font-weight:800;display:flex;align-items:center;justify-content:center;margin-top:1px}
+.pin{position:absolute;z-index:20;width:22px;height:22px;border-radius:50%;background:#E22690;color:#fff;
+  font-family:Montserrat,sans-serif;font-size:12px;font-weight:800;display:flex;align-items:center;justify-content:center;
+  box-shadow:0 2px 8px rgba(0,0,0,.5);border:2px solid #fff}
+
+/* ══════ FULL SEND — verbatim from index.tsx ══════ */
+.fs-scope{--pink:#E22690;--pinka:#C81E74;--blue:#18BCDC;--navy:#003366;--nd:#06243F;--yel:#FFEC00;
+  --cream:#FCFCFC;--ink:#1A1A1A;--d:"Antonio",Impact,sans-serif;--s:"Montserrat",system-ui,sans-serif;
+  font-family:var(--s);overflow-x:clip}
+.fs-scope *{box-sizing:border-box}
+.fs-scope .half{position:absolute;pointer-events:none;
+  background-image:radial-gradient(currentColor 1.7px,transparent 1.8px);background-size:9px 9px;
+  -webkit-mask-image:radial-gradient(circle at 50% 50%,#000 40%,transparent 72%);
+  mask-image:radial-gradient(circle at 50% 50%,#000 40%,transparent 72%)}
+.fs-scope .brst{position:absolute;pointer-events:none}
+.fs-scope .spk{position:absolute;pointer-events:none}
+.fs-scope .bolt{width:20px;height:20px;vertical-align:-4px}
+.fs-scope .kick{font-family:var(--d);font-weight:700;letter-spacing:.2em;text-transform:uppercase;font-size:13px}
+.fs-scope .big{font-family:var(--d);font-weight:700;text-transform:uppercase;line-height:.84;letter-spacing:-.015em;margin:0}
+.fs-scope .ul{display:block;height:18px;width:min(100%,340px)}
+.fs-scope .ul path{fill:var(--pink)}
+.fs-scope .pb{position:relative;display:inline-flex;align-items:center;gap:14px;padding:10px 18px 10px 14px}
+.fs-scope .pb .sw{position:absolute;inset:0;width:100%;height:100%}
+.fs-scope .pb .amt{position:relative;font-family:var(--d);font-weight:700;font-size:clamp(38px,4.6vw,60px);line-height:.9;color:var(--nd)}
+.fs-scope .pb .lbl{position:relative;font-family:var(--d);font-weight:700;text-transform:uppercase;font-size:15px;line-height:1.05;color:var(--nd);text-align:left}
+.fs-scope .pb .lbl small{display:block;font-family:var(--s);font-weight:700;font-size:10.5px;letter-spacing:.06em;color:var(--pinka);margin-top:3px}
+.fs-scope .rib{position:relative;display:inline-block;padding:9px 26px;color:#fff}
+.fs-scope .rib svg{position:absolute;inset:0;width:100%;height:100%}
+.fs-scope .rib em{position:relative;font-style:italic;font-family:Georgia,serif;font-size:15px;font-weight:600}
+.fs-scope .script{font-family:Georgia,serif;font-style:italic;color:var(--nd);font-size:15px}
+.fs-scope .chooser{display:flex;flex-wrap:wrap;justify-content:center;align-items:baseline;gap:2px 9px;max-width:100%;margin:8px auto 0;
+  font-family:var(--d);font-weight:700;text-transform:uppercase;color:var(--nd);font-size:15px;letter-spacing:.03em;line-height:1.35}
+.fs-scope .chooser span{display:inline-block}
+.fs-scope .chooser .sep{opacity:.45}
+.fs-scope .cta{display:inline-flex;align-items:center;justify-content:center;background:var(--pinka);color:#fff;
+  font-weight:700;font-size:14.5px;border-radius:9999px;padding:13px 28px;text-decoration:none;box-shadow:0 10px 22px -10px rgba(226,38,144,.7)}
+.fs-scope .cut{display:block;height:auto;pointer-events:none}
+.fs-scope .flyer{position:relative;background:var(--cream);padding:34px 40px 52px;overflow:hidden;box-shadow:0 26px 50px -28px rgba(0,0,0,.55)}
+.fs-scope .flyer::before{content:"";position:absolute;inset:0;pointer-events:none;opacity:.5;
+  background-image:radial-gradient(rgba(0,0,0,.05) 1px,transparent 1px);background-size:4px 4px}
+.fs-scope .flyer .core{position:relative;text-align:center;max-width:660px;margin:0 auto}
+.fs-scope .flyer .prices{display:flex;gap:18px;justify-content:center;flex-wrap:wrap;margin-bottom:18px}
+.fs-scope .cut.lft{position:absolute;left:-6px;bottom:-6px;width:190px;z-index:1}
+.fs-scope .cut.rgt{position:absolute;right:-8px;bottom:-4px;width:200px;z-index:1}
+.fs-scope .fly{overflow:visible}
+.fs-scope .wrapouter{max-width:1200px;margin:0 auto;padding:0 16px}
+.play .fs-scope .fly .flyer{animation:fs-drop 2s cubic-bezier(.16,1,.3,1) .35s both}
+@keyframes fs-drop{0%{transform:translateY(-130%) rotate(-3deg);opacity:0}10%{opacity:1}
+  52%{transform:translateY(18px) rotate(1.4deg)}70%{transform:translateY(-9px) rotate(-.8deg)}
+  84%{transform:translateY(4px) rotate(.4deg)}93%{transform:translateY(-1.5px) rotate(-.15deg)}100%{transform:translateY(0) rotate(0)}}
+
+/* ══════ TACO TUESDAY — verbatim from TacoTuesdayBanner.tsx ══════ */
+.tt-scope{--pink:#E22690;--blue:#18BCDC;--nd:#06243F;--yel:#FFEC00;--cream:#F6EFE2;
+  --d:"Antonio",Impact,sans-serif;--s:"Montserrat",system-ui,sans-serif;font-family:var(--s);overflow-x:clip}
+.tt-scope *{box-sizing:border-box}
+.tt-scope .wrapouter{max-width:1200px;margin:0 auto;padding:0 16px}
+.tt-scope .fly{overflow:visible}
+.tt-scope .flyer{position:relative;background:var(--cream);padding:34px 40px 52px;overflow:hidden;box-shadow:0 26px 50px -28px rgba(0,0,0,.55)}
+.tt-scope .flyer::before{content:"";position:absolute;inset:0;pointer-events:none;opacity:.5;
+  background-image:radial-gradient(rgba(0,0,0,.05) 1px,transparent 1px);background-size:4px 4px}
+.tt-scope .brst{position:absolute;pointer-events:none}
+.tt-scope .half{position:absolute;pointer-events:none;background-image:radial-gradient(currentColor 1.7px,transparent 1.8px);background-size:9px 9px;
+  -webkit-mask-image:radial-gradient(circle at 50% 50%,#000 40%,transparent 72%);mask-image:radial-gradient(circle at 50% 50%,#000 40%,transparent 72%)}
+.tt-scope .core{position:relative;text-align:center;max-width:760px;margin:0 auto}
+.tt-scope .big{font-family:var(--d);font-weight:700;text-transform:uppercase;font-size:clamp(40px,6vw,64px);line-height:.9;color:var(--nd);margin:0}
+.tt-scope .offers{display:flex;justify-content:center;align-items:stretch;flex-wrap:wrap;gap:13px;margin-top:18px}
+.tt-scope .box{border-radius:11px;padding:11px 18px;transform:rotate(-1deg);display:flex;flex-direction:column;align-items:center;justify-content:center}
+.tt-scope .box.lead{background:var(--pink);box-shadow:0 10px 24px -9px rgba(226,38,144,.7)}
+.tt-scope .box.yel{background:var(--yel);box-shadow:0 8px 20px -8px rgba(6,36,63,.45)}
+.tt-scope .amt{font-family:var(--d);font-weight:700;line-height:.9}
+.tt-scope .box.lead .amt{font-size:34px;color:#fff}
+.tt-scope .box.yel .amt{font-size:30px;color:var(--nd)}
+.tt-scope .lbl{font-family:var(--s);font-weight:800;font-size:17px;letter-spacing:.02em;line-height:1.15;margin-top:4px}
+.tt-scope .box.lead .lbl{color:#fff}.tt-scope .box.yel .lbl{color:var(--nd)}
+.tt-scope .when{font-family:var(--s);font-weight:800;font-size:11px;letter-spacing:.1em;text-transform:uppercase;margin-top:2px}
+.tt-scope .box.lead .when{color:var(--yel)}.tt-scope .box.yel .when{color:rgba(6,36,63,.62)}
+.play .tt-scope .fly .flyer{animation:fs-drop 2s cubic-bezier(.16,1,.3,1) .35s both}
+@media(prefers-reduced-motion:reduce){.play *{animation:none!important}}
+</style></head><body>
+<header class="pg"><h1>Full Send vs Taco Tuesday</h1><div class="s">Both rendered from the actual component source</div></header>
+<main>
+<div class="note"><b>These are the real things</b> — CSS and markup copied verbatim out of <code>src/routes/index.tsx</code> (Full Send) and <code>src/components/TacoTuesdayBanner.tsx</code> (Taco Tuesday), so what you see is what shipped.<br>
+<b>Numbered pins</b> mark each distinct element, with a key underneath. <b>Call out the numbers you like</b> and I'll build Wednesday and Thursday from exactly those.</div>
+
+<!-- FULL SEND -->
+<div class="block"><div class="hd"><span class="tag">A</span><span class="nm">Pick Your Full Send</span>
+<span class="st past">RAN AUG 22–24</span><button class="rp" data-t="fsA">↻ Replay</button></div>
+<div class="stage" id="fsA"><section class="fs-scope" style="background:#fff;padding:20px 0 26px">
+  <div class="wrapouter"><div class="fly"><div class="flyer" style="clip-path:polygon(0 0,100% 0,100% calc(100% - 16px),96.5% 100%,93% calc(100% - 13px),89% 100%,85.5% calc(100% - 15px),82% 100%,78% calc(100% - 11px),74.5% 100%,71% calc(100% - 16px),67% 100%,63.5% calc(100% - 12px),60% 100%,56% calc(100% - 15px),52.5% 100%,49% calc(100% - 10px),45% 100%,41.5% calc(100% - 16px),38% 100%,34% calc(100% - 12px),30.5% 100%,27% calc(100% - 14px),23% 100%,19.5% calc(100% - 10px),16% 100%,12% calc(100% - 16px),8.5% 100%,5% calc(100% - 12px),0 100%)">
+    <span class="pin" style="right:22px;top:8px">1</span>
+    <span class="pin" style="left:46%;top:26px">2</span>
+    <span class="pin" style="left:46%;top:110px">3</span>
+    <span class="pin" style="left:37%;top:186px">4</span>
+    <span class="pin" style="left:29%;top:222px">5</span>
+    <span class="pin" style="left:47%;top:316px">6</span>
+    <span class="pin" style="left:47%;top:360px">7</span>
+    <span class="pin" style="left:47%;top:404px">8</span>
+    <span class="pin" style="left:47%;top:452px">9</span>
+    <span class="pin" style="left:34px;bottom:26px">10</span>
+    <svg class="brst" viewBox="0 0 100 100" style="right:-46px;top:-52px;width:170px" aria-hidden="true"><path d="M50.00,0.00L58.70,26.09L78.93,15.53L69.12,38.96L101.70,40.88L75.05,54.42L89.84,73.00L64.19,66.91L66.76,96.04L50.00,75.44L32.90,96.98L35.81,66.91L11.03,72.50L24.95,54.42L-1.70,40.88L30.88,38.96L20.43,14.76L41.30,26.09Z" fill="#E22690"/></svg>
+    <svg class="brst" viewBox="0 0 100 100" style="left:-30px;top:-40px;width:120px" aria-hidden="true"><path d="M50.00,0.00L54.82,30.45L70.45,11.04L61.59,36.92L89.91,22.45L68.83,42.86L101.62,43.73L67.35,52.11L93.48,66.49L66.57,61.44L83.16,87.43L58.12,65.48L60.53,92.72L50.00,70.14L38.39,97.09L41.88,65.48L15.52,88.92L33.43,61.44L6.52,66.49L32.65,52.11L0.36,43.97L31.17,42.86L13.79,25.01L38.41,36.92L27.46,7.06L45.18,30.45Z" fill="#18BCDC"/></svg>
+    <svg class="spk" style="right:20%;top:18px;width:44px;height:44px" viewBox="0 0 40 40" aria-hidden="true"><g stroke="#FFEC00" stroke-width="4.5" stroke-linecap="round"><path d="M6 22 L14 12"/><path d="M18 8 L21 -1"/><path d="M27 15 L37 10"/></g></svg>
+    <svg class="spk" style="left:23%;bottom:64px;width:34px;height:34px" viewBox="0 0 40 40" aria-hidden="true"><g stroke="#FFEC00" stroke-width="4.5" stroke-linecap="round"><path d="M6 22 L14 12"/><path d="M18 8 L21 -1"/><path d="M27 15 L37 10"/></g></svg>
+    <div class="half" style="left:50%;top:34%;width:340px;height:260px;margin-left:-170px;color:#18BCDC;opacity:.28"></div>
+    <img class="cut lft" src="https://res.cloudinary.com/drxrfyq9i/image/upload/c_crop,x_45,y_235,w_260,h_365/c_fit,h_620,f_auto,q_auto/uno-mas/website/promos/pick-your-full-send-aug2026" alt="" aria-hidden="true">
+    <img class="cut rgt" src="https://res.cloudinary.com/drxrfyq9i/image/upload/c_crop,x_1700,y_255,w_212,h_310/c_fit,h_600,f_auto,q_auto/uno-mas/website/promos/pick-your-full-send-aug2026" alt="" aria-hidden="true">
+    <div class="core">
+      <div class="kick" style="color:var(--pinka)">One week only · through Sunday</div>
+      <h2 class="big" style="font-size:clamp(38px,5.6vw,74px);color:var(--nd);margin-top:8px">Pick your<br><span style="color:var(--pink)">Full Send</span></h2>
+      <svg class="ul" viewBox="0 0 300 26" preserveAspectRatio="none" style="margin:4px auto 18px" aria-hidden="true"><path d="M2,16.12 C66.0,2.6 186.0,24.7 296,7.8 C186.0,16.12 66.0,11.96 2,22.36 Z"/></svg>
+      <div class="prices">
+        <span class="pb"><svg class="sw" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><path d="M0.0,2.8L14.3,5.5L28.6,2.0L42.9,0.2L57.1,4.1L71.4,4.9L85.7,0.8L100.0,1.1L100.0,100.0L100.0,100.0L85.7,95.1L71.4,97.4L57.1,99.2L42.9,94.5L28.6,99.0L14.3,97.7L0.0,94.9Z" fill="#FFEC00"/></svg><span class="amt">$45</span><span class="lbl">2 Margs/Palomas<small>+ ANY 2 SHAREABLES</small></span></span>
+        <span class="pb"><svg class="sw" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><path d="M0.0,2.8L14.3,5.5L28.6,2.0L42.9,0.2L57.1,4.1L71.4,4.9L85.7,0.8L100.0,1.1L100.0,100.0L100.0,100.0L85.7,95.1L71.4,97.4L57.1,99.2L42.9,94.5L28.6,99.0L14.3,97.7L0.0,94.9Z" fill="#FFEC00"/></svg><span class="amt">$65</span><span class="lbl">4 Margs/Palomas<small>+ ANY 2 SHAREABLES</small></span></span>
+      </div>
+      <div style="display:flex;gap:12px;align-items:center;justify-content:center;flex-wrap:wrap;margin-bottom:12px">
+        <span class="rib"><svg viewBox="0 0 300 44" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0 H300 L286 22 L300 44 H0 L14 22 Z" fill="#18BCDC"/></svg><em>Choose from:</em></span>
+      </div>
+      <p class="chooser"><span>Chip &amp; dip trio</span><span class="sep">·</span><span>Lula wings</span><span class="sep">·</span><span>Loaded masa fries</span><span class="sep">·</span><span>Nachos</span></p>
+      <p class="script" style="margin:0 0 18px"><svg class="bolt" viewBox="0 0 24 24" aria-hidden="true"><path d="M13 2 4.5 13.5H11L10 22l8.5-11.5H12z" fill="#FFEC00" stroke="#06243F" stroke-width="1.2" stroke-linejoin="round"/></svg> Protein add-ons extra. <svg class="bolt" viewBox="0 0 24 24" aria-hidden="true"><path d="M13 2 4.5 13.5H11L10 22l8.5-11.5H12z" fill="#FFEC00" stroke="#06243F" stroke-width="1.2" stroke-linejoin="round"/></svg></p>
+      <a class="cta">See the menu</a>
+    </div>
+  </div></div></div>
+</section></div>
+<div class="legend"><h4>Full Send — element key</h4><ol>
+  <li><span class="n">1</span>Torn-paper bottom edge (clip-path) + pink &amp; teal starburst SVGs bleeding off the corners</li>
+  <li><span class="n">2</span><b>Kicker:</b> Antonio, .2em tracking, deep pink — "One week only · through Sunday"</li>
+  <li><span class="n">3</span><b>Two-line headline</b>, second line in bright pink. Antonio up to 74px, tight -.015em</li>
+  <li><span class="n">4</span><b>Hand-drawn underline swoosh</b> — a custom SVG brush stroke, not a rule</li>
+  <li><span class="n">5</span>Yellow <b>torn-paper swatch</b> behind each price — irregular edges, not a rounded box</li>
+  <li><span class="n">6</span><b>Price + stacked label:</b> big Antonio number beside uppercase Antonio label with a small pink sub-line</li>
+  <li><span class="n">7</span><b>Teal ribbon</b> with notched ends, "Choose from:" in <i>italic serif</i></li>
+  <li><span class="n">8</span><b>Chooser list</b> — Antonio uppercase, dot separators, wraps naturally</li>
+  <li><span class="n">9</span><b>Italic serif fine print</b> flanked by two yellow lightning bolts</li>
+  <li><span class="n">10</span><b>Two photo cutouts</b> cropped from the promo artwork, bleeding off the bottom corners</li>
+</ol></div></div>
+
+<!-- TACO TUESDAY -->
+<div class="block"><div class="hd"><span class="tag">B</span><span class="nm">Taco Tuesday</span>
+<span class="st live">LIVE NOW</span><button class="rp" data-t="ttB">↻ Replay</button></div>
+<div class="stage" id="ttB"><section class="tt-scope" style="background:#fff;padding:20px 0 26px">
+  <div class="wrapouter"><div class="fly"><div class="flyer" style="clip-path:polygon(0 0,100% 0,100% calc(100% - 16px),96.5% 100%,93% calc(100% - 13px),89% 100%,85.5% calc(100% - 15px),82% 100%,78% calc(100% - 11px),74.5% 100%,71% calc(100% - 16px),67% 100%,63.5% calc(100% - 12px),60% 100%,56% calc(100% - 15px),52.5% 100%,49% calc(100% - 10px),45% 100%,41.5% calc(100% - 16px),38% 100%,34% calc(100% - 12px),30.5% 100%,27% calc(100% - 14px),23% 100%,19.5% calc(100% - 10px),16% 100%,12% calc(100% - 16px),8.5% 100%,5% calc(100% - 12px),0 100%)">
+    <span class="pin" style="left:46%;top:30px">11</span>
+    <span class="pin" style="left:26%;top:128px">12</span>
+    <span class="pin" style="left:47%;top:128px">13</span>
+    <svg class="brst" viewBox="0 0 100 100" style="left:-30px;top:-40px;width:120px" aria-hidden="true"><path d="M50.00,0.00L54.82,30.45L70.45,11.04L61.59,36.92L89.91,22.45L68.83,42.86L101.62,43.73L67.35,52.11L93.48,66.49L66.57,61.44L83.16,87.43L58.12,65.48L60.53,92.72L50.00,70.14L38.39,97.09L41.88,65.48L15.52,88.92L33.43,61.44L6.52,66.49L32.65,52.11L0.36,43.97L31.17,42.86L13.79,25.01L38.41,36.92L27.46,7.06L45.18,30.45Z" fill="#E22690"/></svg>
+    <svg class="brst" viewBox="0 0 100 100" style="right:-46px;top:-52px;width:170px" aria-hidden="true"><path d="M50.00,0.00L58.70,26.09L78.93,15.53L69.12,38.96L101.70,40.88L75.05,54.42L89.84,73.00L64.19,66.91L66.76,96.04L50.00,75.44L32.90,96.98L35.81,66.91L11.03,72.50L24.95,54.42L-1.70,40.88L30.88,38.96L20.43,14.76L41.30,26.09Z" fill="#18BCDC"/></svg>
+    <div class="half" style="left:50%;top:34%;width:340px;height:260px;margin-left:-170px;color:#18BCDC;opacity:.28"></div>
+    <div class="core">
+      <h2 class="big">Taco Tuesday</h2>
+      <div class="offers">
+        <div class="box lead"><span class="amt">BOGO</span><span class="lbl">Street Tacos</span><span class="when">Till 5PM</span></div>
+        <div class="box yel"><span class="amt">$6</span><span class="lbl">House Margs</span><span class="when">All day</span></div>
+        <div class="box yel"><span class="amt">$30</span><span class="lbl">Marg Pitchers</span><span class="when">All day</span></div>
+      </div>
+    </div>
+  </div></div></div>
+</section></div>
+<div class="legend"><h4>Taco Tuesday — element key</h4><ol>
+  <li><span class="n">11</span><b>Single-line headline</b>, all navy, Antonio up to 64px. No kicker above it.</li>
+  <li><span class="n">12</span><b>Pink lead box</b> — solid, rounded 11px, rotated -1°</li>
+  <li><span class="n">13</span><b>Yellow supporting boxes</b>, same shape. Amount / label / small caps qualifier stacked.</li>
+</ol></div></div>
+
+<div class="note" style="border-left-color:#FFEC00;background:rgba(255,236,0,.08);color:#f0e6c0">
+<b style="color:#FFEC00">The honest comparison.</b> Full Send has <b>ten distinct craft elements</b>; Taco Tuesday has <b>three</b>. That's why Tuesday feels flat next to it — I built Tuesday as a simplified version of the Full Send shell and dropped most of what gave Full Send its character: the kicker, the two-tone headline, the brush underline, the torn-paper swatches, the notched ribbon, the italic-serif fine print, the bolts, and the photo cutouts.<br>
+<b>What Full Send has that Tuesday doesn't, in order of how much it contributes:</b> the <b>torn-paper price swatches</b> (5) instead of rounded boxes · the <b>hand-drawn underline</b> (4) · the <b>two-tone headline</b> (3) · the <b>photo cutouts</b> (10) · the <b>kicker</b> (2).<br>
+<b>Tell me the numbers you want</b> and Wednesday and Thursday get built from those. If you like most of Full Send, the honest answer is to rebuild Tuesday from the Full Send shell rather than keep patching the simplified one.
+</div>
+</main>
+<script>
+document.querySelectorAll('.rp').forEach(b=>b.addEventListener('click',()=>{
+  const el=document.getElementById(b.dataset.t); el.classList.remove('play'); void el.offsetWidth; el.classList.add('play');}));
+document.querySelectorAll('.stage').forEach(s=>s.classList.add('play'));
+</script>
+</body></html>

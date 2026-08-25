@@ -16,6 +16,22 @@
 
 ---
 
+## 2026-08-25 — Reset: Full Send adopted as the tile template for Tue/Wed/Thu  [F7]
+**Ramsey called a reset** — asked to see the Full Send tile (ran Aug 22–24) beside the live Taco Tuesday tile and identify what worked.
+
+**Pulled both from the actual component source** (`index.tsx` for `FullSendBanner`, `TacoTuesdayBanner.tsx`) and rendered them faithfully with **numbered pins and an element key** (`compare-live-tiles.html`), rather than describing them.
+**The comparison surfaced the real problem:** **Full Send has ten distinct craft elements; Taco Tuesday has three.** I had built Tuesday as a *simplified* Full Send and dropped the kicker, two-tone headline, brush underline, torn-paper swatches, notched ribbon, italic-serif fine print, bolts and photo cutouts — then spent several rounds patching the simplified version instead of returning to what already worked. Said so plainly.
+
+**Ramsey chose Full Send as the template.** Built Tue/Wed/Thu on that shell (`fullsend-template-days.html`), then stripped it per his follow-up: **removed the teal ribbon, the chooser list, the italic-serif fine print with bolts, and the CTA.** Result is ~40% shorter, which matters for a tile above the hero every week.
+**Kept:** kicker · two-line headline with the second line in pink · hand-drawn underline swoosh · **torn-paper yellow price swatches** with stacked labels and pink sub-lines · corner photos · starbursts, sparks, halftone.
+
+**Consequences raised rather than absorbed:**
+- **No button = no click target and no measurement.** Fix is to make the whole tile a `<Link>`, which is what the live Tuesday tile already does — keeps it clean and keeps the `trackEvent`.
+- **Thursday's protein add-on prices lived in the removed chooser.** Folded the essential part into the swatch sub-line as **"SIZE OF A MEDIUM PIZZA · PROTEINS EXTRA"**, because `$10` without that qualifier is the one thing on these tiles that could cause a table-side argument.
+- **`ALL DAY` sub-lines are now the only qualifiers left** — flagged that Ramsey cut those from the simplified tile earlier for being implied.
+- **Corner art is photo blocks, not true cutouts.** Full Send's were cut-out food isolated on white inside the promo graphic; there are no isolated food PNGs in the DAM. Used real photos with a radial mask instead and said so — true cutouts need a background-removal pass on six images.
+**Also swapped** Wednesday's right-corner photo from `NeonTubeGlasses` (reads as neither food nor drink) to `GameDayBarLounge`.
+
 ## 2026-08-25 — G1 approved · borders, load animation, and a legibility failure fixed structurally  [F7]
 **G1 palette approved** (warm paper `#FFFBF3`, navy type, pink prices). Built **four edge treatments** to add pop — inset keyline · **ticket/coupon (dashed border + punch-out notches)** · papel picado top + navy base · pink offset block. **Recommended the ticket edge**: it's the only one where the border *means* something, since punch-out notches say "a deal you tear off," which is what the tile is.
 **Built a full homepage load simulation** (`g1-borders-and-load.html`) — announcement bar → header → tile drops → headline → rule draws → **offer rows slide in one at a time** → hero fades up beneath. ~2s, once per load, `prefers-reduced-motion` respected. Sequenced deliberately so it **finishes on the offer rows**: the tile arriving is just movement; the rows arriving one at a time is what makes someone read them. Also noted the load order matters — the tile resolves **before** the hero, so the special is the first thing that stops moving, which is the whole argument for the above-hero slot.
