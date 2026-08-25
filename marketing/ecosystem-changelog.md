@@ -16,6 +16,17 @@
 
 ---
 
+## 2026-08-25 — Late Night content-check sheet for Chef Maraya (PDF + shareable page)  [F2]
+**Need:** the chef leaves for a few days today and has to sign off that the Late Night menu content is accurate before anything prints.
+
+**Built a verification sheet, not a menu mockup** — the job is catching errors, not admiring layout. The ask sits at the top, all six taco descriptions are quoted **verbatim from `menu-and-offers.md`** (so a wrong line means the menu doc is wrong too), drinks show regular price beside late-night price, and **four kitchen-only questions** sit at the bottom for a two-minute read.
+**The four questions are the actual value:** do all six proteins hold to 10pm · why no shrimp (staff need a real answer, not "we're out") · do the descriptions still match the build, **especially Hongos with seven components** · is a $14.50 paloma at $7 workable.
+**Excluded item shown deliberately** — Camaron struck through with its description intact, so she confirms the exclusion rather than wondering whether it was forgotten.
+
+**Delivered two ways:** a shareable Artifact page (phone-friendly, light/dark aware) and — on Ramsey's request, since it's the easiest path to sign-off — a **3-page letter PDF at `~/Documents/Uno-mas-hq-2026/menus/Late-Night-Menu-CONTENT-CHECK-2026-08-25.pdf`** with a real **sign-off block**: four tick-boxes, a corrections field, and signature + date lines.
+**Print QA caught a real defect:** the first PDF ran to **4 pages with an orphaned footer alone on the last one** — sloppy on a document going out for signature. Tightened the print CSS (type scale, card padding, section rhythm) and added `break-before:avoid` on the footer so it stays with the sign-off. Now 3 pages, verified by rendering every page.
+**Source committed** at `marketing/campaigns/late-night-menu/chef-content-check.html` so corrections can be folded in and the PDF regenerated.
+
 ## 2026-08-25 — Meta ads v3: three more in the ritual/clean-stack lane  [F7]
 **Ramsey picked C (ritual) and E (clean offer stack)** from v2 — both avoid selling the discount. Read that as the preference and stayed in the lane: **no price-contrast hooks, no "normally $50"** in the new ones.
 - **F · "Tuesdays are handled."** — removes a decision rather than offering a deal. *"Nothing to remember, nothing to claim"* kills the friction people expect from a promo.

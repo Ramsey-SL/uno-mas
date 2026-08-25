@@ -1,0 +1,381 @@
+<title>Late Night Menu Check</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Antonio:wght@500;600;700&family=Montserrat:wght@400;500;600;700;800&display=swap">
+<style>
+  /* ── tokens: light (the paper ground the brand's print work uses) ── */
+  :root{
+    --paper:#F6EFE2;
+    --card:#FFFBF3;
+    --ink:#1C1A16;
+    --muted:#6B6355;
+    --hair:#E0D6C4;
+    --navy:#06243F;
+    --navy-ink:#F6EFE2;
+    --pink:#C21F7B;
+    --pink-soft:rgba(194,31,123,.09);
+    --teal:#0E7C74;
+    --teal-soft:rgba(14,124,116,.10);
+    --yellow:#FFEC00;
+    --shadow:0 1px 0 rgba(28,26,22,.05), 0 10px 30px -18px rgba(28,26,22,.35);
+  }
+  /* system-dark (nothing stamped) — light choice still wins */
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --paper:#12171C;
+      --card:#1A2027;
+      --ink:#ECE6DA;
+      --muted:#9AA0A6;
+      --hair:#2C343D;
+      --navy:#0B1B2B;
+      --navy-ink:#ECE6DA;
+      --pink:#FF7ABF;
+      --pink-soft:rgba(255,122,191,.12);
+      --teal:#57DFD2;
+      --teal-soft:rgba(87,223,210,.12);
+      --yellow:#FFEC00;
+      --shadow:0 1px 0 rgba(0,0,0,.3), 0 12px 34px -20px rgba(0,0,0,.8);
+    }
+  }
+  /* explicit dark toggle */
+  :root[data-theme="dark"]{
+    --paper:#12171C;
+    --card:#1A2027;
+    --ink:#ECE6DA;
+    --muted:#9AA0A6;
+    --hair:#2C343D;
+    --navy:#0B1B2B;
+    --navy-ink:#ECE6DA;
+    --pink:#FF7ABF;
+    --pink-soft:rgba(255,122,191,.12);
+    --teal:#57DFD2;
+    --teal-soft:rgba(87,223,210,.12);
+    --yellow:#FFEC00;
+    --shadow:0 1px 0 rgba(0,0,0,.3), 0 12px 34px -20px rgba(0,0,0,.8);
+  }
+
+  *{box-sizing:border-box}
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:Montserrat,-apple-system,"Segoe UI",sans-serif;
+    font-size:16px;
+    line-height:1.6;
+    -webkit-text-size-adjust:100%;
+  }
+  .wrap{max-width:660px;margin:0 auto;padding:0 20px 72px}
+
+  /* ── masthead ── */
+  .mast{background:var(--navy);color:var(--navy-ink);margin:0 -20px 0;padding:30px 20px 26px}
+  .mast .inner{max-width:660px;margin:0 auto}
+  .eyebrow{
+    font-size:11px;font-weight:800;letter-spacing:.2em;text-transform:uppercase;
+    color:var(--yellow);margin:0 0 10px;
+  }
+  h1{
+    font-family:Antonio,Impact,sans-serif;font-weight:700;text-transform:uppercase;
+    font-size:clamp(34px,9vw,52px);line-height:.92;letter-spacing:.01em;
+    margin:0;text-wrap:balance;
+  }
+  .when{
+    display:inline-block;margin-top:14px;background:var(--yellow);color:#06243F;
+    font-weight:800;font-size:13px;letter-spacing:.06em;text-transform:uppercase;
+    padding:7px 13px;border-radius:7px;
+  }
+
+  /* ── the ask, first ── */
+  .ask{
+    background:var(--pink-soft);border-left:3px solid var(--pink);
+    border-radius:0 12px 12px 0;padding:18px 20px;margin-top:26px;
+  }
+  .ask h2{
+    font-family:Antonio,Impact,sans-serif;font-weight:700;text-transform:uppercase;
+    font-size:21px;letter-spacing:.02em;margin:0 0 8px;color:var(--pink);
+  }
+  .ask p{margin:0 0 10px}
+  .ask p:last-child{margin-bottom:0}
+  .ask strong{font-weight:700}
+
+  h2.sec{
+    font-family:Antonio,Impact,sans-serif;font-weight:700;text-transform:uppercase;
+    font-size:26px;letter-spacing:.02em;margin:40px 0 4px;
+  }
+  .sec-note{color:var(--muted);font-size:14.5px;margin:0 0 18px}
+
+  /* ── item list: the verification surface ── */
+  ul.items{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px}
+  ul.items li{
+    background:var(--card);border:1px solid var(--hair);border-radius:12px;
+    padding:15px 17px;box-shadow:var(--shadow);
+  }
+  .nm{
+    font-family:Antonio,Impact,sans-serif;font-weight:600;text-transform:uppercase;
+    font-size:22px;letter-spacing:.015em;line-height:1.05;
+    display:flex;align-items:baseline;gap:9px;flex-wrap:wrap;
+  }
+  .flag{
+    font-family:Montserrat,sans-serif;font-size:9.5px;font-weight:800;letter-spacing:.13em;
+    text-transform:uppercase;color:var(--teal);background:var(--teal-soft);
+    padding:3px 7px;border-radius:5px;
+  }
+  .desc{margin:6px 0 0;font-size:15px;color:var(--ink)}
+
+  /* ── excluded ── */
+  .excluded{
+    margin-top:12px;background:var(--card);border:1px dashed var(--pink);
+    border-radius:12px;padding:15px 17px;
+  }
+  .excluded .nm{color:var(--muted);text-decoration:line-through;text-decoration-thickness:2px}
+  .excluded .desc{color:var(--muted)}
+  .excluded .why{
+    margin:9px 0 0;font-size:14px;color:var(--pink);font-weight:600;
+  }
+
+  /* ── drinks ── */
+  .tablewrap{overflow-x:auto}
+  table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums}
+  th,td{text-align:left;padding:12px 10px;border-bottom:1px solid var(--hair)}
+  th{
+    font-size:10.5px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;
+    color:var(--muted);border-bottom-width:2px;
+  }
+  td.dname{font-weight:700}
+  td.was{color:var(--muted);text-decoration:line-through;text-decoration-thickness:2px;white-space:nowrap}
+  td.now{
+    font-family:Antonio,Impact,sans-serif;font-size:24px;font-weight:700;
+    color:var(--pink);white-space:nowrap;line-height:1;
+  }
+
+  /* ── questions ── */
+  ol.q{margin:0;padding:0;list-style:none;counter-reset:q;display:flex;flex-direction:column;gap:12px}
+  ol.q li{
+    counter-increment:q;background:var(--card);border:1px solid var(--hair);
+    border-radius:12px;padding:15px 17px 15px 52px;position:relative;box-shadow:var(--shadow);
+  }
+  ol.q li::before{
+    content:counter(q);position:absolute;left:15px;top:14px;
+    width:24px;height:24px;border-radius:50%;background:var(--pink);color:#fff;
+    font-family:Antonio,sans-serif;font-size:14px;font-weight:700;
+    display:flex;align-items:center;justify-content:center;
+  }
+  ol.q .qh{font-weight:700;margin:0 0 4px}
+  ol.q p{margin:0;color:var(--muted);font-size:14.5px}
+
+  .fine{
+    margin-top:16px;font-size:14px;color:var(--muted);
+    padding-top:14px;border-top:1px solid var(--hair);
+  }
+  footer{
+    margin-top:44px;padding-top:20px;border-top:1px solid var(--hair);
+    font-size:13px;color:var(--muted);
+  }
+  footer .tag{
+    font-family:Antonio,Impact,sans-serif;font-style:italic;font-weight:600;
+    font-size:22px;color:var(--pink);display:block;margin-bottom:5px;
+  }
+  strong.hl{
+    background:linear-gradient(transparent 58%, var(--yellow) 58%, var(--yellow) 92%, transparent 92%);
+    color:var(--ink);font-weight:700;
+  }
+
+  /* ── PRINT ── force the light palette, keep colour, control breaks ── */
+  @page{size:letter;margin:0.5in}
+  @media print{
+    :root, :root[data-theme="dark"]{
+      --paper:#F6EFE2 !important;--card:#FFFBF3 !important;--ink:#1C1A16 !important;
+      --muted:#6B6355 !important;--hair:#E0D6C4 !important;--navy:#06243F !important;
+      --navy-ink:#F6EFE2 !important;--pink:#C21F7B !important;--pink-soft:rgba(194,31,123,.09) !important;
+      --teal:#0E7C74 !important;--teal-soft:rgba(14,124,116,.10) !important;--yellow:#FFEC00 !important;
+      --shadow:none !important;
+    }
+    *{-webkit-print-color-adjust:exact !important;print-color-adjust:exact !important}
+    body{background:#fff !important;font-size:10.5pt;line-height:1.5}
+    .wrap{max-width:none;padding:0}
+    .mast{margin:0;padding:18px 22px 16px;border-radius:0}
+    .mast .inner{max-width:none}
+    h1{font-size:34px}
+    .when{margin-top:10px;padding:6px 11px;font-size:11.5px}
+    .eyebrow{font-size:9.5px;margin-bottom:7px}
+    /* never split a card across a page */
+    ul.items li, ol.q li, .excluded, .ask, table, .signoff, .tablewrap{break-inside:avoid;page-break-inside:avoid}
+    h2.sec{break-after:avoid;page-break-after:avoid;margin:20px 0 2px;font-size:21px}
+    .sec-note{font-size:12.5px;margin-bottom:10px}
+    .ask{margin-top:16px;padding:13px 16px}
+    .ask h2{font-size:18px;margin-bottom:5px}
+    .ask p{margin-bottom:6px}
+    ul.items{gap:6px}
+    ul.items li{padding:10px 13px}
+    .nm{font-size:18px}
+    .desc{font-size:12.5px;margin-top:3px}
+    .excluded{margin-top:7px;padding:10px 13px}
+    .excluded .why{font-size:12px;margin-top:6px}
+    .fine{margin-top:10px;padding-top:9px;font-size:12px}
+    th,td{padding:8px}
+    td.now{font-size:19px}
+    ol.q{gap:7px}
+    ol.q li{padding:10px 13px 10px 44px}
+    ol.q li::before{width:20px;height:20px;font-size:12px;left:13px;top:10px}
+    ol.q p{font-size:12.5px}
+    /* keep the sign-off and footer together — no orphan page */
+    .signoff{margin-top:20px;padding:14px 16px}
+    .signoff h2{font-size:19px}
+    .signoff p.lead{font-size:12.5px;margin-bottom:11px}
+    .checks{gap:6px;margin-bottom:11px}
+    .checks li{font-size:12.5px}
+    .siglabel{margin-bottom:18px;font-size:9px}
+    footer{margin-top:16px;padding-top:11px;font-size:11px;break-before:avoid;page-break-before:avoid}
+    footer .tag{font-size:18px;margin-bottom:3px}
+  }
+
+  /* ── sign-off block ── */
+  .signoff{
+    margin-top:34px;background:var(--card);border:2px solid var(--navy);
+    border-radius:12px;padding:20px 22px;
+  }
+  .signoff h2{
+    font-family:Antonio,Impact,sans-serif;font-weight:700;text-transform:uppercase;
+    font-size:22px;letter-spacing:.02em;margin:0 0 6px;
+  }
+  .signoff p.lead{margin:0 0 18px;font-size:14.5px;color:var(--muted)}
+  .sigrow{display:flex;gap:22px;flex-wrap:wrap}
+  .sigrow > div{flex:1 1 190px}
+  .siglabel{
+    font-size:10px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;
+    color:var(--muted);margin-bottom:24px;
+  }
+  .sigline{border-bottom:1.5px solid var(--ink);height:0}
+  .checks{margin:0 0 18px;padding:0;list-style:none;display:flex;flex-direction:column;gap:9px}
+  .checks li{display:flex;gap:10px;align-items:flex-start;font-size:14.5px}
+  .cbox{
+    flex-shrink:0;width:15px;height:15px;border:1.5px solid var(--ink);
+    border-radius:3px;margin-top:4px;
+  }
+
+  @media (prefers-reduced-motion:no-preference){
+    ul.items li,ol.q li{transition:border-color .15s ease}
+  }
+</style>
+
+<div class="mast">
+  <div class="inner">
+    <p class="eyebrow">Content check · before it goes to print</p>
+    <h1>Late Night<br>Menu</h1>
+    <div class="when">Fri + Sat &middot; 8&ndash;10pm &middot; launches Fri Aug 28</div>
+  </div>
+</div>
+
+<div class="wrap">
+
+  <div class="ask">
+    <h2>Maraya — what I need</h2>
+    <p>Read the six tacos and three drinks below and tell me <strong>anything that's wrong</strong> — a description that doesn't match how you actually build it now, a protein that won't hold at 9pm, a price that's off.</p>
+    <p>There are <strong>four questions at the bottom</strong> only you can answer. If you only have two minutes, skip to those.</p>
+  </div>
+
+  <h2 class="sec">The offer</h2>
+  <p class="sec-note">One line, so we're all saying the same thing.</p>
+  <ul class="items">
+    <li>
+      <div class="nm">Pick any 2 tacos <span class="flag">$10</span></div>
+      <p class="desc">Any two street tacos from the six below. <strong class="hl">Tacos only — no side.</strong> The regular 2-tacos-plus-side plate stays $16.50, so this is a different item, not a discount on that one.</p>
+    </li>
+  </ul>
+
+  <h2 class="sec">The six tacos</h2>
+  <p class="sec-note">Street size. Descriptions are pulled from the current menu — confirm they still match the build.</p>
+
+  <ul class="items">
+    <li>
+      <div class="nm">Carne Asada</div>
+      <p class="desc">Marinated steak, salsa roja, white onion, cilantro, queso fresco</p>
+    </li>
+    <li>
+      <div class="nm">Al Pastor Chicken</div>
+      <p class="desc">Grilled chicken, pineapple, salsa verde, cilantro</p>
+    </li>
+    <li>
+      <div class="nm">Carnitas</div>
+      <p class="desc">House smoked pork, melted Monterey Jack, pickled onion, cilantro, salsa verde</p>
+    </li>
+    <li>
+      <div class="nm">Barbacoa</div>
+      <p class="desc">Braised chuck, salsa verde, cilantro, pickled red onion</p>
+    </li>
+    <li>
+      <div class="nm">Batata <span class="flag">Can be vegan</span></div>
+      <p class="desc">Grilled sweet potato, melted Monterey Jack, pickled onion, cilantro, salsa aguacate</p>
+    </li>
+    <li>
+      <div class="nm">Hongos <span class="flag">Can be vegan</span></div>
+      <p class="desc">Chile roasted portabella, melted Monterey Jack, spicy roja, cilantro, pickled daikon, tomatillo, shaved radish</p>
+    </li>
+  </ul>
+
+  <div class="excluded">
+    <div class="nm">Camaron</div>
+    <p class="desc">Grilled shrimp, tajín slaw, pineapple salsa, chipotle mayo</p>
+    <p class="why">Deliberately excluded from Late Night. Confirm that's right — and tell me the reason so the staff can answer "why no shrimp?" without guessing.</p>
+  </div>
+
+  <p class="fine"><strong>Add-ons, unchanged:</strong> guacamole or crema +$1.50 &middot; additional sauces +$1.50</p>
+
+  <h2 class="sec">The drinks</h2>
+  <p class="sec-note">All three run the full 8&ndash;10pm window. Regular price shown for comparison.</p>
+  <div class="tablewrap">
+    <table>
+      <thead>
+        <tr><th scope="col">Item</th><th scope="col">Regular</th><th scope="col">Late night</th></tr>
+      </thead>
+      <tbody>
+        <tr><td class="dname">House Margarita</td><td class="was">$12.50</td><td class="now">$6</td></tr>
+        <tr><td class="dname">Paloma</td><td class="was">$14.50</td><td class="now">$7</td></tr>
+        <tr><td class="dname">Marg Pitcher</td><td class="was">$50</td><td class="now">$30</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2 class="sec">Four questions</h2>
+  <p class="sec-note">These are the ones I can't answer from the menu docs.</p>
+  <ol class="q">
+    <li>
+      <p class="qh">Do all six proteins actually hold to 10pm?</p>
+      <p>If carnitas or barbacoa are gone by 9 on a Friday, better to cut it from the menu now than to run out in week one.</p>
+    </li>
+    <li>
+      <p class="qh">Why no shrimp?</p>
+      <p>Cost, hold time, or something else? Staff need a real answer, not "we're out."</p>
+    </li>
+    <li>
+      <p class="qh">Do the descriptions above still match the build?</p>
+      <p>Especially <strong>Hongos</strong> — seven components is the most likely one to have drifted.</p>
+    </li>
+    <li>
+      <p class="qh">Is the paloma at $7 workable?</p>
+      <p>It's a $14.50 pour going out at $7 — the steepest cut on the menu. Say now if that's too thin.</p>
+    </li>
+  </ol>
+
+
+  <div class="signoff">
+    <h2>Sign-off</h2>
+    <p class="lead">Tick what's true, note anything that isn't, and sign. Nothing goes to print without this.</p>
+    <ul class="checks">
+      <li><span class="cbox"></span><span>All six taco descriptions match how we build them today.</span></li>
+      <li><span class="cbox"></span><span>All six proteins will hold through 10pm on a Friday and Saturday.</span></li>
+      <li><span class="cbox"></span><span>Excluding Camaron/shrimp is correct. Reason: ______________________________</span></li>
+      <li><span class="cbox"></span><span>The three drink prices are workable, paloma at $7 included.</span></li>
+    </ul>
+    <p class="lead" style="margin-bottom:22px"><strong>Corrections:</strong> _________________________________________________________________<br><br>
+    _______________________________________________________________________________</p>
+    <div class="sigrow">
+      <div><div class="siglabel">Chef signature</div><div class="sigline"></div></div>
+      <div><div class="siglabel">Date</div><div class="sigline"></div></div>
+    </div>
+  </div>
+
+  <footer>
+    <span class="tag">Get a little lost.</span>
+    Uno Más Tacos &amp; Tequila &middot; 2020 N Monroe St, Suite C, Spokane<br>
+    Content pulled from the current menu docs 2026-08-25. Nothing here is printed yet.
+  </footer>
+</div>
