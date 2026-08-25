@@ -16,6 +16,15 @@
 
 ---
 
+## 2026-08-25 — Meta ad copy for Taco Tuesday  [F7]
+**Built** `marketing/taco-tuesday-meta-ads.md` — 5 variants (4 feed + 1 story), matching the established format in `campaigns/2026-04-dinner-launch/creative/copy/ad-copy.md`. **Every character count programmatically verified** against Meta's headline (27) and description (30) limits; all pass.
+**Voice rule applied:** *hook-driven, clarity first — 60% clever max* (`CLAUDE.md`). Variants are angled rather than reworded: A the BOGO math · B the $12.50→$6 price contrast · C the ritual (for retargeting warm audiences, fits *belonging beats bargains*) · D the $30 pitcher group play · E stacked-offer story.
+
+**🔴 The important finding is structural, not copy.** Taco Tuesday is **two offers on two dayparts** — BOGO ends at 5pm, margs and pitchers run all day. Running them as one always-on ad means **paying to advertise an expired offer after 5pm**, which is one of the most common ways a small restaurant budget leaks. Documented two ad sets with dayparting (BOGO ~9am–4pm Tuesdays; drinks 11am–9pm Tuesdays), plus a hard copy rule: **never write "BOGO" without "till 5pm" attached.**
+**Also noted:** the ad and the landing page now match, because the Taco Tuesday tile went live today — sending offer traffic to a page that doesn't mention the offer is the other common waste. Recommended optimizing for landing-page views rather than conversions, since there's no on-site purchase event for Meta to learn from.
+**Measurement framing:** Tuesday covers vs. the prior three Tuesdays, not clicks — and run four Tuesdays before judging.
+**Open:** ad account not yet pulled (connector is authorized — offered), and no budget figure yet.
+
 ## 2026-08-25 — Named the franchise: **The Weekly Promo Drop**  [F7, F14]
 **Ramsey's reframe, and it's worth more than the SMS it came from.** Rather than teasing the gift card, the Tuesday SMS now announces the *program*: **"Our new weekly promo drop starts tomorrow."** (141/160, one segment, 19 chars spare.)
 
