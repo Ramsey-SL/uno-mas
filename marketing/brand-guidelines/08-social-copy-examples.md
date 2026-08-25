@@ -92,7 +92,7 @@ Math we can get behind. Monroe's got you.
 ```
 
 ```
-Big F’N Thursday: $10 Big F’N Quesadilla + $10 tequila cocktails.
+Big F’N Thursday: $10 Big F’N Quesadilla + $10 menu cocktails.
 Your Thursday just got a plan. Come get a little lost.
 ```
 

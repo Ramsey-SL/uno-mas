@@ -15,9 +15,9 @@
 | Eyebrow | Every Thursday |
 | Abbr (watermark) | THU |
 | Line 1 | `$10 Big F’N Quesadilla` |
-| Line 2 | `$10 menu tequila cocktail fresh sheet` |
+| Line 2 | `$10 menu cocktails, fresh sheet` |
 | Note | New cocktails every Thursday. |
-| Ticker string | `BIG F’N THURSDAY · $10 BFQ + $10 TEQUILA COCKTAILS` |
+| Ticker string | `BIG F’N THURSDAY · $10 BFQ + $10 MENU COCKTAILS` |
 | Accent color | **Blue `#18BCDC`** |
 | Icon | `uno-mas/website/icons/quesadilla-lineart-teal` |
 
@@ -69,19 +69,19 @@ Reuse these so print matches web:
 
 **Social — day-of**
 > It's called Big F’N Thursday. We didn't name it quietly. 🧀
-> $10 Big F’N Quesadilla. $10 tequila cocktails off the fresh sheet — new ones every week.
+> $10 Big F’N Quesadilla. $10 menu cocktails off the fresh sheet — new ones every week.
 
 **Poster / table tent**
-> BIG F’N THURSDAY — $10 BIG F’N QUESADILLA · $10 TEQUILA COCKTAILS
+> BIG F’N THURSDAY — $10 BIG F’N QUESADILLA · $10 MENU COCKTAILS
 
 **SMS**
-> Uno Más: Big F’N Thursday 🧀 $10 Big F’N Quesadilla + $10 tequila cocktails. Your Thursday plan is set. (STOP to opt out)
+> Uno Más: Big F’N Thursday 🧀 $10 Big F’N Quesadilla + $10 menu cocktails. Your Thursday plan is set. (STOP to opt out)
 
 **Email subject**
-> Big F’N Thursday. $10 BFQ, $10 tequila cocktails.
+> Big F’N Thursday. $10 BFQ, $10 menu cocktails.
 
 **Web tile subline**
-> $10 Big F’N Quesadilla. $10 tequila cocktails off the fresh sheet — new pours every week.
+> $10 Big F’N Quesadilla. $10 menu cocktails off the fresh sheet — new pours every week.
 
 ## 5. Still to build
 
@@ -89,7 +89,7 @@ Reuse these so print matches web:
 - [ ] **AI-image prompt set** in `chatgpt-prompts.md` section C. Hero direction: a **big griddled
       quesadilla, cut into wedges, cheese pulling**, beside a tequila cocktail; natural warm light,
       no blue cast; accent Blue `#18BCDC`; offer panel white-on-blue
-      `"$10 BIG F’N QUESADILLA · $10 TEQUILA COCKTAILS"`; `"UNO MÁS"` wordmark.
+      `"$10 BIG F’N QUESADILLA · $10 MENU COCKTAILS"`; `"UNO MÁS"` wordmark.
 - [ ] **Regenerate `_gallery.html`** — it's a generated file still showing burrito copy.
 - [ ] **Photo asset:** no BFQ hero shot confirmed in the DAM under `category-food`. Needs a shoot
       or a DAM search before the poster can use real photography rather than AI.

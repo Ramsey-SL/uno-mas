@@ -26,7 +26,7 @@ Source package: `~/Downloads/uno_mas_marketing_handoff_2026-08-20/` — 10 files
 
 The handoff was generated 2026-08-20 but reflects an earlier state. **Do not treat it as current on:**
 
-1. **Burrito Thursday.** The handoff names it a current priority program throughout. It was **retired 2026-08** and replaced by **Big F’N Thursday** ($10 Big F’N Quesadilla + $10 menu tequila cocktail fresh sheet). Its two promo assets (`20260723_UM_PROMO_BurritoThursdays_v1`, `20260730_..._v2`) are retired creative.
+1. **Burrito Thursday.** The handoff names it a current priority program throughout. It was **retired 2026-08** and replaced by **Big F’N Thursday** ($10 Big F’N Quesadilla + $10 menu cocktails, fresh sheet). Its two promo assets (`20260723_UM_PROMO_BurritoThursdays_v1`, `20260730_..._v2`) are retired creative.
 2. **Mahi-Mahi / Baja fish taco special.** Presented as active development ($30 dinner plate / $12 lunch taco). The repo already resolved this **2026-08-04: Mahi-Mahi did not make the final printed brunch menu — dropped.** Do not build creative for it without a new ruling.
 3. **21+ policy.** The handoff is silent on it. Ruled 2026-08-20: **kid-friendly at all times, no 21+ window anywhere including The Mezzanine** (exceptions: ticketed events, alcohol purchase).
 4. ~~**Weekend spend promo.**~~ **RESOLVED 2026-08-23:** the $10-off-$60 offer was the **first of a rotating weekly test series and is now OVER.** The repo's "locked offer" framing was wrong — weekend offers rotate. Full chronology in `campaigns/weekend-promos/executions-log.md`. The redemption phrase varies per execution ("Mickey", "Mas Please", `WEEKEND10`) — always confirm the current one.

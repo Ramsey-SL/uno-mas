@@ -11,19 +11,19 @@
 |---|---|---|---|
 | **Tue Aug 25** | **SMS** | Taco Tuesday + tease Wednesday's gift card | Tuesday already works — use it to prime the soft day |
 | **Wed Aug 26** | **no consumer send** | Offer goes live quietly · **staff-facing only** | **Soft open.** The offer works for anyone who walks in, but the announcement waits for Thursday. Table tents out, team briefed. |
-| **Thu Aug 27** | **EMAIL + SMS** | 🎁 **Gift card marketing launch** + Big F'N Thursday + Late Night announce | **The anchor day.** Email in the morning carries the explanation; SMS mid-afternoon drives the same night. |
-| **Fri Aug 28** | ⭐ **SMS — recommended add** | Late Night LAUNCH + gift card | Biggest news of the week. Drafted and ready. |
+| **Thu Aug 27** | **EMAIL + SMS** | 🎁 **Gift card marketing launch** + Big F'N Thursday + Late Night Happy Hour announce | **The anchor day.** Email in the morning carries the explanation; SMS mid-afternoon drives the same night. |
+| **Fri Aug 28** | ⭐ **SMS — recommended add** | Late Night Happy Hour LAUNCH + gift card | Biggest news of the week. Drafted and ready. |
 
 ---
 
 ## ⚠️ The gap: Friday is your biggest news of the week and has no send
 
-**Late Night launches Friday Aug 28** — a brand-new daypart. Right now nothing announces it on the
+**Late Night Happy Hour launches Friday Aug 28** — a brand-new daypart. Right now nothing announces it on the
 day it starts. Thursday's SMS teases it, but a new program launching with no launch-day send is a
 missed shot.
 
 **Recommend one short Friday SMS**, sent ~4pm:
-> `Late Night starts tonight. 8-10pm: two street tacos $10, $6 margs, $8 palomas, $30 pitchers. Spend $50, take a $10 gift card home.`
+> `Late Night Happy Hour starts tonight. 8-10pm: two street tacos $10, $6 margs, $8 palomas, $30 pitchers. Spend $50, take a $10 gift card home.`
 *(GSM-7, 132 units, single segment)*
 
 Four sends in a week is a lot for the same list. If that's too much, **drop Thursday's SMS and move
@@ -111,16 +111,16 @@ Asset: `giftcard-feed-1080x1350.png` → links to the site
 > *Physical card, handed to you at checkout.*
 
 ### Section 2 — TONIGHT · Big F'N Thursday *(the reason to come today)*
-> **$10 Big F'N Quesadilla. $10 tequila cocktails off the fresh sheet.**
+> **$10 Big F'N Quesadilla. $10 menu cocktails off the fresh sheet.**
 > Every Thursday, and the cocktails change every week.
 > **[See the menu →]**
 
 *(Was Beer & Bites when this email sat on Wednesday. Moved with the send — the "tonight" section
 must always name the day it actually lands on.)*
 
-### Section 3 — FRIDAY · Late Night launches *(new news)*
+### Section 3 — FRIDAY · Late Night Happy Hour launches *(new news)*
 Asset: `latenight-menu-1080x1350.png`
-> **Late Night starts Friday.** Fri + Sat, 8–10pm.
+> **Late Night Happy Hour starts Friday.** Fri + Sat, 8–10pm.
 > Pick any two street tacos **$10**. $6 margs, $8 palomas, $30 pitchers.
 > The kitchen's still going. So are we.
 > **[Reserve on Resy →]**
@@ -139,9 +139,9 @@ Address, hours, unsubscribe. **Hours must read Tue–Thu 11am–8pm · Fri–Sat
 **Send 3–4pm** — after the lunch decision, before dinner plans lock.
 
 ```
-Big F'N Thursday: $10 Big F'N Quesadilla + $10 tequila cocktails. Spend $50, get a $10 gift card. Late Night starts Fri, 8-10pm.
+Big F'N Thursday: $10 Big F'N Quesadilla + $10 menu cocktails. Spend $50, get a $10 gift card. Late Night Happy Hour starts Fri, 8-10pm.
 ```
-`GSM-7 · 128/160 units · 1 segment` — opt-out auto-appended, do not add it.
+`GSM-7 · 125/160 units · 1 segment` — opt-out auto-appended, do not add it.
 
 Carries all three things at once: tonight's special, the running gift-card promo, and tomorrow's
 launch. Brand name omitted for the same encoding reason.
@@ -152,7 +152,7 @@ preview cushion.
 
 **Alternative — gift-card led**, if Thursday *covers* matter more than promoting the special:
 ```
-Spend $50 tonight, take a $10 gift card home. Plus Big F'N Thursday: $10 Big F'N Quesadilla + $10 tequila cocktails.
+Spend $50 tonight, take a $10 gift card home. Plus Big F'N Thursday: $10 Big F'N Quesadilla + $10 menu cocktails.
 ```
 `GSM-7 · 1 segment`
 
@@ -160,12 +160,12 @@ Spend $50 tonight, take a $10 gift card home. Plus Big F'N Thursday: $10 Big F'N
 
 ## FRIDAY Aug 28 — SMS  ⭐ RECOMMENDED ADDITION
 
-**Send 4pm.** Late Night launches tonight — your biggest news of the week.
+**Send 4pm.** Late Night Happy Hour launches tonight — your biggest news of the week.
 
 ```
-Late Night starts tonight, 8-10pm. Two street tacos $10, $6 margs, $8 palomas, $30 pitchers. Spend $50, take a $10 gift card home.
+Late Night Happy Hour starts tonight, 8-10pm. Two street tacos $10, $6 margs, $8 palomas, $30 pitchers. Spend $50, take a $10 gift card home.
 ```
-`GSM-7 · 130/160 units · 1 segment` — opt-out auto-appended, do not add it.
+`GSM-7 · 141/160 units · 1 segment` — opt-out auto-appended, do not add it.
 
 Note it says **"Two street tacos $10"**, never "$10 tacos" — Big A** tacos are already $10 each.
 
@@ -181,7 +181,7 @@ genuinely new news; Thursday is a recurring special the list already knows.
 - Short sentences, fragments fine
 - Every send names **exact prices and days** — specific beats vague
 - Hours stated as **8pm** close Tue–Thu wherever they appear
-- Late Night stated as **Fri + Sat only**
+- Late Night Happy Hour stated as **Fri + Sat only**
 - One clear primary action per send
 
 ## Before you send — two mechanical notes
@@ -196,4 +196,4 @@ genuinely new news; Thursday is a recurring special the list already knows.
 
 Per `toast-lifecycle-automation-playbook.md` — judge on **incremental visits, not opens.**
 Track **Wed and Thu covers vs. the prior three Weds/Thurs**, gift cards issued per day, and
-Friday's Late Night covers. Opens and clicks are diagnostics, not the result.
+Friday's Late Night Happy Hour covers. Opens and clicks are diagnostics, not the result.

@@ -1,4 +1,4 @@
-# Late Night Menu — Brief
+# Late Night Happy Hour Menu — Brief
 
 **Type:** new recurring daypart · **Status:** 🟢 **RULED FRI + SAT ONLY (2026-08-23)** — mockup matches, ready to produce
 **Owner:** Ramsey · **Target launch:** week of 2026-08-24 · **Created:** 2026-08-23

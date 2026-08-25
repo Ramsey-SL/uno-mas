@@ -212,7 +212,7 @@ Ramsey to rule, then propagate the ruling.
 5. **Trailing-space Drive folders** (`Uno_Mas_HQ `, `Uno Mas Marketing HQ `) — planned rename, not done.
 6. ~~**Uncommitted work** in `menu-and-offers.md`~~ — **RESOLVED**: it was a Masa Coated Fries price fix ($7 → $8); committed 2026-08-20.
 7. ~~**Hours discrepancy** (`CLAUDE.md` 9pm vs Supabase/JSON-LD 8pm).~~ **RESOLVED 2026-08-20 — 8pm confirmed by Ramsey.** `CLAUDE.md` corrected; Supabase and the live site were already right.
-8. ~~**Thursday promo changed 2026-08**~~ *(historical record, RESOLVED — kept for context)* — Burrito Thursday ($15 House Burrito or Bowl) retired, replaced by **Big F’N Thursday** ($10 Big F’N Quesadilla + $10 menu tequila cocktail fresh sheet). The live site was AHEAD of the repo; 27 repo files were behind. Thursday **poster/AI-image creative is still the retired burrito artwork** — new creative needed.
+8. ~~**Thursday promo changed 2026-08**~~ *(historical record, RESOLVED — kept for context)* — Burrito Thursday ($15 House Burrito or Bowl) retired, replaced by **Big F’N Thursday** ($10 Big F’N Quesadilla + $10 menu cocktails, fresh sheet). The live site was AHEAD of the repo; 27 repo files were behind. Thursday **poster/AI-image creative is still the retired burrito artwork** — new creative needed.
 
 ---
 

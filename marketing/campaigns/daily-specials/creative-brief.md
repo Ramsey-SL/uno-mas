@@ -16,7 +16,7 @@ Fonts: **Antonio** (headlines) / **Montserrat** (body). Voice: confident, playfu
 |---|---|---|
 | **Taco Tuesday** | BOGO Lunch Street Tacos · $6 Margs · $30 Marg Pitchers | Hot Pink |
 | **Beer & Bites Wednesday** | $5 Pints · $10 Loaded Nachos · $10 Loaded Masa Fries | Yellow |
-| **Big F’N Thursday** | $10 Big F’N Quesadilla (BFQ) · $10 menu tequila cocktail fresh sheet | Blue |
+| **Big F’N Thursday** | $10 Big F’N Quesadilla (BFQ) · $10 menu cocktails, fresh sheet | Blue |
 
 ## Big idea
 **Three midweek rituals.** Not a discount fire-sale — a *reason* to make Uno Más your Tue/Wed/Thu.
@@ -56,7 +56,7 @@ Combined poster: all three days as a stacked "Midweek Lineup" with the tagline a
 Captions (ready to post):
 - **Taco Tuesday:** "Taco Tuesday hits different at 2020 N Monroe. 🌮 BOGO street tacos. $6 margs. $30 pitchers. Grab your people."
 - **Beer & Bites Wednesday:** "Beer & Bites Wednesday. $5 pints, $10 loaded nachos, $10 loaded masa fries. Math we can get behind. 🍺"
-- **Big F’N Thursday:** "Big F’N Thursday: $10 Big F’N Quesadilla, $10 tequila cocktails off the fresh sheet. Your Thursday just got a plan. Come get a little lost."
+- **Big F’N Thursday:** "Big F’N Thursday: $10 Big F’N Quesadilla, $10 menu cocktails off the fresh sheet. Your Thursday just got a plan. Come get a little lost."
 Formats: 4:5 feed + 9:16 story (countdown sticker "TODAY: [offer]").
 
 ## 4) Icons & graphics

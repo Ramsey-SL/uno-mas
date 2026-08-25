@@ -58,12 +58,12 @@ in Claude Code today, the ChatGPT GPT still believes the old thing until you re-
 
 Any GPT/Gem set up before **2026-08-21** is wrong about all of these:
 
-- **Thursday is Big F'N Thursday** — $10 Big F'N Quesadilla + $10 menu tequila cocktail fresh sheet. **Burrito Thursday is retired.**
+- **Thursday is Big F'N Thursday** — $10 Big F'N Quesadilla + $10 menu cocktails (fresh sheet, new pours weekly). **Burrito Thursday is retired.**
 - **Kid-friendly at all times — NO 21+ window anywhere, The Mezzanine included.** Exceptions: ticketed events, alcohol purchase.
 - **One loyalty program: The Cantina Club, and it is FREE.** Paid tiers are future-state — never referenced publicly. "Uno Más Rewards" and "The Guest List" are retired names.
 - **Hours: Tue–Thu 11am–8pm** (not 9pm) · Fri–Sat 11am–10pm · Sun 10am–4pm · Mon closed.
 - **Taco Tuesday $6 margs / $30 pitchers.**
-- **Late Night — FRI + SAT ONLY, 8–10pm** (launches 2026-08-28): $6 margs, $30 pitchers, $8 palomas, two street tacos $10 (no shrimp). **Not a weekday program — Tue–Thu close at 8pm.**
+- **Late Night Happy Hour — FRI + SAT ONLY, 8–10pm** (launches 2026-08-28): $6 margs, $30 pitchers, $8 palomas, two street tacos $10 (no shrimp). **Not a weekday program — Tue–Thu close at 8pm.**
 - **Mahi-Mahi was dropped** — never printed on the brunch menu.
 - **Two creative systems** — photographic for experience, illustrated promo-card for offers. Never blend.
 - **`needs-hires-swap`** — ~141 Cloudinary assets are 2048px social-only. Not for print.

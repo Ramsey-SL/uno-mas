@@ -137,7 +137,7 @@ This document covers all menu items, cocktails, and product offerings for use in
 
 - **Taco Tuesday:** BOGO lunch street tacos · $6 margs · $30 marg pitchers
 - **Beer & Bites Wednesday:** $5 pints · $10 loaded nachos · $10 loaded masa fries
-- **Big F’N Thursday:** $10 Big F’N Quesadilla (BFQ) · $10 menu tequila cocktail fresh sheet
+- **Big F’N Thursday:** $10 Big F’N Quesadilla (BFQ) · $10 menu cocktails, fresh sheet
 - **Copy note:** lead with the day + the offer (Happy Hour is retired)
 - **Best content angle:** Time-specific urgency. "Get here at 3."
 
@@ -147,7 +147,7 @@ This document covers all menu items, cocktails, and product offerings for use in
 
 - **Taco Tuesday:** BOGO lunch street tacos · $6 margs · $30 marg pitchers
 - **Beer & Bites Wednesday:** $5 pints · $10 loaded nachos · $10 loaded masa fries
-- **Big F’N Thursday:** $10 BFQ + $10 tequila cocktails
+- **Big F’N Thursday:** $10 BFQ + $10 menu cocktails
 - **Copy note:** Always include the day + the specific offer/price. Frame as a midweek ritual, not a discount fire-sale.
 
 ---

@@ -321,8 +321,8 @@ Tequila flights available — ask your server.
 *Source: Supabase `site_events` table (currently empty — `is_recurring` flag distinguishes weekly vs. one-off).*
 
 ### Recurring (weekly / standing offers)
-- Weekly specials (ongoing): Taco Tuesday (BOGO lunch tacos, $6 margs, $30 pitchers), Beer & Bites Wednesday ($5 pints, $10 loaded nachos, $10 loaded masa fries), **Big F’N Thursday ($10 Big F’N Quesadilla, $10 menu tequila cocktail fresh sheet — new cocktails weekly)**. Happy Hour + $12 lunch special RETIRED. **Burrito Thursday RETIRED 2026-08.**
-- **Late Night (Fri + Sat only, 8–10pm — launches 2026-08-28):** $6 margs, $30 marg pitchers, $8 palomas, pick any two street tacos $10 (all street proteins except Camaron/shrimp; tacos only, no side). Fri–Sat only because Tue–Thu close at 8pm.
+- Weekly specials (ongoing): Taco Tuesday (BOGO lunch tacos, $6 margs, $30 pitchers), Beer & Bites Wednesday ($5 pints, $10 loaded nachos, $10 loaded masa fries), **Big F’N Thursday ($10 Big F’N Quesadilla, $10 menu cocktails (fresh sheet, new pours weekly) — new cocktails weekly)**. Happy Hour + $12 lunch special RETIRED. **Burrito Thursday RETIRED 2026-08.**
+- **Late Night Happy Hour (Fri + Sat only, 8–10pm — launches 2026-08-28):** $6 margs, $30 marg pitchers, $8 palomas, pick any two street tacos $10 (all street proteins except Camaron/shrimp; tacos only, no side). Fri–Sat only because Tue–Thu close at 8pm.
 - [TODO: any standing dinner-night programming, Sunday brunch promo, etc.]
 
 ### Upcoming one-offs
@@ -1010,7 +1010,7 @@ The GTM container ID, GA4 Measurement ID, Meta Pixel ID, and Klaviyo Public API 
 8. ~~**Lunch menu items**~~ ✅ documented in master MD (per April 2026 menu PDF). Still needs Supabase reconciliation — see `MENU-RECONCILIATION-SQL.md` once generated.
 9. **Brunch menu items** — finalized & live (Sundays 10am–4pm); see `website/content-studio/menus/brunch-menu.md`
 10. ~~**Cocktail items**~~ ✅ documented in master MD (9 cocktails + pitchers + beer + non-alc). Needs Supabase reconciliation.
-11. **Recurring specials** (Taco Tuesday, Beer & Bites Wednesday, Big F’N Thursday, Late Night Fri+Sat, etc.) — seed into `site_events`
+11. **Recurring specials** (Taco Tuesday, Beer & Bites Wednesday, Big F’N Thursday, Late Night Happy Hour Fri+Sat, etc.) — seed into `site_events`
 12. **Upcoming one-off events** — seed into `site_events`
 13. **Google Business Profile + Apple Business Connect** — confirm verified, photo upload cadence
 14. **Award / press list** — finalize what's quotable

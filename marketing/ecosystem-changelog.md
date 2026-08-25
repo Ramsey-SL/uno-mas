@@ -16,6 +16,22 @@
 
 ---
 
+## 2026-08-25 — Thursday cocktails broadened · Late Night renamed · bolder tile variants  [F3, F7]
+**Three changes from Ramsey, one of which collided with an existing rule.**
+
+**1 · Thursday: "$10 menu tequila cocktails" → "$10 menu cocktails."** Broader offer. Swept **21 files** — fact docs, the ChatGPT/Gemini setup docs, playbooks, brand guidelines, the whole `daily-specials` campaign folder, the SMS files, and three HTML collateral pieces. **Protected the cases that legitimately describe a literal tequila cocktail** — the Purgatory Agave competitor rows and the AI image prompts describing a drink *in a photo* — rather than blind-replacing.
+
+**2 · Late Night → "Late Night Happy Hour."**
+⚠️ **This collided with a live rule.** `menu-and-offers.md` said *"Happy Hour (3–5pm) and the $12 lunch special are retired — do not reference them."* Rather than silently contradict it, **narrowed the rule**: the standalone 3–5pm Happy Hour stays retired; **"Late Night Happy Hour" is a distinct named program.** Added a staff-briefing warning in both `CLAUDE.md` and `menu-and-offers.md` — a guest hearing "happy hour" may expect the old 3–5pm window, and the floor will be the one asked.
+**Upside acknowledged:** "happy hour" instantly communicates *discounted drinks* with no explanation, which "Late Night" alone doesn't.
+**SMS re-verified:** Friday launch now 141/160, Thursday 125/160 — both still one segment.
+
+**3 · "All day" removed everywhere.** Ramsey: *"when it's available all day we don't need to say that."* Correct, and the payoff is bigger than decluttering — **it leaves only genuine restrictions**, so the surviving qualifiers are exactly `Till 5PM`, `New pours weekly` and `Pick any two`. **"Till 5PM" now stands out as the one real limit** instead of being one label among four.
+
+**Bolder tile variants** (`campaigns/daily-special-banners/bold-variants.html`, served `:8792`) — four treatments answering *"how do we make it jump out?"*: **A sticker slam** (navy outline + offset shadow, staggered slam-in) · **B outline monsters** (74px stroked prices as the graphic) · **C colour panels** (edge-to-edge blocks, rise in sequence) · **D shine sweep + wiggle** (continuous loop). **Item names pushed from 17px to 19–21px at weight 900** — that was the actual cause of "items getting lost," not the boxes.
+**Recommended A with C as the mobile fallback**, and advised **against D** for a tile that runs weekly — continuous motion is arresting once and irritating by the fourth Tuesday.
+**Two build bugs caught by rendering:** B's spans flowed inline because I'd omitted `flex-direction:column`, and its 74px stroked numerals then collided with the labels. Both fixed and re-inspected.
+
 ## 2026-08-25 — Cloudinary operating guide · daily-special banner set · week-wide Meta ads  [F7, F9]
 Three deliverables in one pass.
 

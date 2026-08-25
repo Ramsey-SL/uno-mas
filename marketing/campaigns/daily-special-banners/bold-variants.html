@@ -1,0 +1,191 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Daily banners — bolder</title>
+<style>@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@600;700&family=Montserrat:wght@400;600;700;800;900&display=swap');
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#14171c;color:#e9ecf1;font-family:Montserrat,sans-serif;padding:0 0 90px}
+header.pg{background:#003366;padding:26px 28px;position:sticky;top:0;z-index:99;box-shadow:0 6px 22px rgba(0,0,0,.5)}
+header.pg h1{font-family:Antonio,sans-serif;text-transform:uppercase;font-size:27px;color:#fff;line-height:1}
+header.pg .s{color:#27F3DE;font-size:12px;font-weight:700;letter-spacing:.13em;text-transform:uppercase;margin-top:5px}
+main{max-width:1330px;margin:0 auto;padding:26px}
+.note{background:rgba(255,236,0,.08);border-left:3px solid #FFEC00;padding:15px 19px;border-radius:0 10px 10px 0;font-size:14px;line-height:1.62;color:#f0e6c0;margin-bottom:24px}
+.note b{color:#FFEC00} .note code{color:#18BCDC;font-size:12.5px}
+.opt{margin-bottom:34px;background:#1c2128;border:1px solid #2a313b;border-radius:14px;overflow:hidden}
+.opt .hd{padding:13px 18px;border-bottom:1px solid #2a313b;display:flex;gap:11px;align-items:flex-start;flex-wrap:wrap}
+.opt .id{background:#E22690;color:#fff;font-family:Antonio,sans-serif;font-weight:700;font-size:15px;padding:3px 11px;border-radius:6px;flex-shrink:0}
+.opt .nm{font-weight:700;color:#fff;font-size:15px;flex-shrink:0}
+.opt .why{color:#9aa4b2;font-size:12.5px;margin-left:auto;max-width:640px;text-align:right;line-height:1.5}
+.stage{background:#fff;padding:22px 0}
+.replay{background:#2a313b;border:0;color:#9aa4b2;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:4px 10px;border-radius:5px;cursor:pointer}
+.replay:hover{color:#fff}
+
+/* ── shared flyer chrome ── */
+.wrapouter{max-width:1200px;margin:0 auto;padding:0 16px}
+.flyer{position:relative;background:#F6EFE2;padding:30px 40px 46px;overflow:hidden;
+  clip-path:polygon(0 0,100% 0,100% calc(100% - 16px),96.5% 100%,93% calc(100% - 13px),89% 100%,85.5% calc(100% - 15px),82% 100%,78% calc(100% - 11px),74.5% 100%,71% calc(100% - 16px),67% 100%,63.5% calc(100% - 12px),60% 100%,56% calc(100% - 15px),52.5% 100%,49% calc(100% - 10px),45% 100%,41.5% calc(100% - 16px),38% 100%,34% calc(100% - 12px),30.5% 100%,27% calc(100% - 14px),23% 100%,19.5% calc(100% - 10px),16% 100%,12% calc(100% - 16px),8.5% 100%,5% calc(100% - 12px),0 100%);
+  box-shadow:0 26px 50px -28px rgba(0,0,0,.55)}
+.flyer::before{content:"";position:absolute;inset:0;pointer-events:none;opacity:.5;
+  background-image:radial-gradient(rgba(0,0,0,.05) 1px,transparent 1px);background-size:4px 4px}
+.brst{position:absolute;font-family:Antonio,sans-serif;pointer-events:none;line-height:1}
+.core{position:relative;text-align:center;max-width:900px;margin:0 auto}
+.big{font-family:Antonio,sans-serif;font-weight:700;text-transform:uppercase;color:#06243F;line-height:.88}
+.win{display:inline-block;background:#FFEC00;color:#06243F;font-weight:800;letter-spacing:.07em;
+  text-transform:uppercase;padding:7px 15px;border-radius:8px;margin-top:10px;font-size:14px}
+.offers{display:flex;justify-content:center;align-items:stretch;flex-wrap:wrap;margin-top:20px}
+
+/* ═══ A · STICKER SLAM ═══ */
+.A .big{font-size:clamp(40px,5.6vw,62px)}
+.A .offers{gap:16px}
+.A .box{border-radius:14px;padding:16px 22px;display:flex;flex-direction:column;align-items:center;
+  justify-content:center;position:relative;border:3px solid #06243F}
+.A .box:nth-child(1){background:#E22690;transform:rotate(-2.5deg);box-shadow:6px 6px 0 #06243F}
+.A .box:nth-child(2){background:#FFEC00;transform:rotate(1.8deg);box-shadow:6px 6px 0 #06243F}
+.A .box:nth-child(3){background:#27F3DE;transform:rotate(-1.4deg);box-shadow:6px 6px 0 #06243F}
+.A .box:nth-child(4){background:#FFEC00;transform:rotate(2.2deg);box-shadow:6px 6px 0 #06243F}
+.A .amt{font-family:Antonio,sans-serif;font-weight:700;font-size:46px;line-height:.85}
+.A .box:nth-child(1) .amt{color:#fff}.A .box:not(:nth-child(1)) .amt{color:#06243F}
+.A .lbl{font-weight:900;font-size:20px;letter-spacing:-.01em;line-height:1.1;margin-top:5px}
+.A .box:nth-child(1) .lbl{color:#fff}.A .box:not(:nth-child(1)) .lbl{color:#06243F}
+.A .when{font-weight:800;font-size:11px;letter-spacing:.11em;text-transform:uppercase;margin-top:3px;opacity:.75}
+.A .box:nth-child(1) .when{color:#FFEC00;opacity:1}.A .box:not(:nth-child(1)) .when{color:#06243F}
+.anim .A .box{animation:slam .5s cubic-bezier(.2,1.5,.4,1) both}
+.anim .A .box:nth-child(1){animation-delay:.15s}.anim .A .box:nth-child(2){animation-delay:.28s}
+.anim .A .box:nth-child(3){animation-delay:.41s}.anim .A .box:nth-child(4){animation-delay:.54s}
+@keyframes slam{0%{opacity:0;transform:scale(1.5) rotate(-8deg)}60%{opacity:1}100%{opacity:1}}
+
+/* ═══ B · OUTLINE MONSTERS ═══ */
+.B .big{font-size:clamp(42px,6vw,68px);
+  -webkit-text-stroke:0;text-shadow:4px 4px 0 #FFEC00}
+.B .offers{gap:26px;align-items:flex-start;margin-top:24px}
+.B .box{padding:8px 16px;text-align:center;position:relative;display:flex;flex-direction:column;align-items:center}
+.B .amt{font-family:Antonio,sans-serif;font-weight:700;font-size:74px;line-height:1;color:#E22690;
+  -webkit-text-stroke:3px #06243F;paint-order:stroke fill;letter-spacing:-.02em;display:block}
+.B .box:nth-child(even) .amt{color:#FFEC00}
+.B .lbl{font-weight:900;font-size:21px;color:#06243F;letter-spacing:-.01em;margin-top:8px;line-height:1.08;white-space:nowrap;display:block}
+.B .when{font-weight:800;font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:#8a8172;margin-top:2px}
+.anim .B .amt{animation:pop .45s cubic-bezier(.2,1.6,.4,1) both}
+.anim .B .box:nth-child(1) .amt{animation-delay:.12s}.anim .B .box:nth-child(2) .amt{animation-delay:.24s}
+.anim .B .box:nth-child(3) .amt{animation-delay:.36s}.anim .B .box:nth-child(4) .amt{animation-delay:.48s}
+@keyframes pop{0%{opacity:0;transform:translateY(26px) scale(.7)}100%{opacity:1;transform:none}}
+
+/* ═══ C · COLOR PANELS ═══ */
+.C .big{font-size:clamp(40px,5.6vw,60px)}
+.C .offers{gap:0;margin-top:22px;border-radius:16px;overflow:hidden;box-shadow:0 14px 34px -16px rgba(6,36,63,.5)}
+.C .box{flex:1 1 0;min-width:150px;padding:20px 16px;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.C .box:nth-child(1){background:#E22690}.C .box:nth-child(2){background:#06243F}
+.C .box:nth-child(3){background:#18BCDC}.C .box:nth-child(4){background:#06243F}
+.C .amt{font-family:Antonio,sans-serif;font-weight:700;font-size:50px;line-height:.85;color:#FFEC00}
+.C .box:nth-child(3) .amt{color:#06243F}
+.C .lbl{font-weight:900;font-size:19px;color:#fff;margin-top:4px;line-height:1.1}
+.C .box:nth-child(3) .lbl{color:#06243F}
+.C .when{font-weight:800;font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;margin-top:3px;color:rgba(255,255,255,.72)}
+.C .box:nth-child(3) .when{color:rgba(6,36,63,.66)}
+.anim .C .box{animation:slide .5s cubic-bezier(.16,1,.3,1) both}
+.anim .C .box:nth-child(1){animation-delay:.1s}.anim .C .box:nth-child(2){animation-delay:.2s}
+.anim .C .box:nth-child(3){animation-delay:.3s}.anim .C .box:nth-child(4){animation-delay:.4s}
+@keyframes slide{0%{opacity:0;transform:translateY(34px)}100%{opacity:1;transform:none}}
+
+/* ═══ D · SHINE + WIGGLE ═══ */
+.D .big{font-size:clamp(40px,5.6vw,62px)}
+.D .offers{gap:15px}
+.D .box{border-radius:13px;padding:15px 21px;display:flex;flex-direction:column;align-items:center;
+  justify-content:center;position:relative;overflow:hidden}
+.D .box:nth-child(1){background:#E22690;box-shadow:0 12px 26px -10px rgba(226,38,144,.8)}
+.D .box:not(:nth-child(1)){background:#FFEC00;box-shadow:0 10px 22px -10px rgba(6,36,63,.55)}
+.D .amt{font-family:Antonio,sans-serif;font-weight:700;font-size:44px;line-height:.85}
+.D .box:nth-child(1) .amt{color:#fff}.D .box:not(:nth-child(1)) .amt{color:#06243F}
+.D .lbl{font-weight:900;font-size:20px;letter-spacing:-.01em;margin-top:4px;line-height:1.1}
+.D .box:nth-child(1) .lbl{color:#fff}.D .box:not(:nth-child(1)) .lbl{color:#06243F}
+.D .when{font-weight:800;font-size:11px;letter-spacing:.11em;text-transform:uppercase;margin-top:2px}
+.D .box:nth-child(1) .when{color:#FFEC00}.D .box:not(:nth-child(1)) .when{color:rgba(6,36,63,.6)}
+.D .box::after{content:"";position:absolute;top:0;bottom:0;width:60%;left:-80%;
+  background:linear-gradient(100deg,transparent,rgba(255,255,255,.55),transparent);transform:skewX(-18deg)}
+.anim .D .box::after{animation:shine 2.6s ease-in-out .8s infinite}
+.anim .D .box:nth-child(1){animation:wiggle 2.6s ease-in-out .8s infinite}
+@keyframes shine{0%{left:-80%}22%{left:150%}100%{left:150%}}
+@keyframes wiggle{0%,86%,100%{transform:rotate(-1deg)}90%{transform:rotate(-3deg) scale(1.03)}94%{transform:rotate(1.5deg) scale(1.03)}}
+
+@media(prefers-reduced-motion:reduce){.anim *{animation:none!important}}
+</style></head><body>
+<header class="pg"><h1>Bolder · more animated</h1><div class="s">Same tile, four treatments · Thursday &amp; Late Night copy updated</div></header>
+<main>
+<div class="note">
+<b>Fixing the real problem:</b> the item names were <b>17px against a 30px price</b> — technically present, functionally invisible. All four options below push item names to <b>19–21px at weight 900</b> and the prices to <b>44–74px</b>, so both read.<br>
+<b>Your copy changes applied:</b> Thursday now says <b>$10 menu cocktails</b> · Late Night is now <b>Late Night Happy Hour, Fri–Sat 8–10pm</b> with the window stated <b>once</b> · and <b>"All day" is gone everywhere</b> — it's implied, and removing it means the one real restriction, <b>Till 5PM</b>, finally stands out instead of being one label among four.<br>
+<b>Animation runs on load.</b> Hit <b>Replay</b> on any option to see it again. All respect <code>prefers-reduced-motion</code>.<br>
+<b>⚠️ "Happy Hour" collides with an existing rule</b> — see the note at the bottom.
+</div>
+
+<div class="opt"><div class="hd"><span class="id">A</span><span class="nm">Sticker slam</span>
+<button class="replay" data-t="a">↻ Replay</button>
+<span class="why">Hard navy outline + offset shadow on every box, each a different brand colour, each rotated differently. Boxes <b>slam in one at a time</b>. Loudest option and the most "printed sticker" — closest to the flyer's own logic.</span></div>
+<div class="stage" id="a"><div class="wrapouter"><div class="flyer A">
+  <div class="brst" style="top:10px;left:16px;color:#E22690;font-size:74px">✳</div>
+  <div class="brst" style="top:14px;right:18px;color:#18BCDC;font-size:58px">✳</div>
+  <div class="core"><div class="big">Big F&rsquo;N Thursday</div>
+    <div class="offers">
+      <div class="box"><span class="amt">$10</span><span class="lbl">Big F&rsquo;N Quesadilla</span></div>
+      <div class="box"><span class="amt">$10</span><span class="lbl">Menu Cocktails</span><span class="when">New pours weekly</span></div>
+    </div></div>
+</div></div></div></div>
+
+<div class="opt"><div class="hd"><span class="id">B</span><span class="nm">Outline monsters</span>
+<button class="replay" data-t="b">↻ Replay</button>
+<span class="why">No boxes at all — the <b>prices become the graphic</b>, 74px with a 3px navy stroke, alternating pink and yellow. Numbers <b>pop up in sequence</b>. Boldest typographically; loses the "sticker" feel.</span></div>
+<div class="stage" id="b"><div class="wrapouter"><div class="flyer B">
+  <div class="brst" style="top:10px;left:16px;color:#18BCDC;font-size:74px">✳</div>
+  <div class="brst" style="top:14px;right:18px;color:#E22690;font-size:58px">✳</div>
+  <div class="core"><div class="big">Beer &amp; Bites Wednesday</div>
+    <div class="offers">
+      <div class="box"><span class="amt">$5</span><span class="lbl">Pints</span></div>
+      <div class="box"><span class="amt">$10</span><span class="lbl">Loaded Nachos</span></div>
+      <div class="box"><span class="amt">$10</span><span class="lbl">Loaded Masa Fries</span></div>
+    </div></div>
+</div></div></div></div>
+
+<div class="opt"><div class="hd"><span class="id">C</span><span class="nm">Colour panels</span>
+<button class="replay" data-t="c">↻ Replay</button>
+<span class="why">Offers become <b>edge-to-edge colour blocks</b>, no gaps — one solid bar of offer. Panels <b>rise in sequence</b>. Most legible at a glance and the best on mobile, since the blocks stack cleanly.</span></div>
+<div class="stage" id="c"><div class="wrapouter"><div class="flyer C">
+  <div class="brst" style="top:10px;left:16px;color:#E22690;font-size:74px">✳</div>
+  <div class="brst" style="top:14px;right:18px;color:#FFEC00;font-size:58px">✳</div>
+  <div class="core"><div class="big">Late Night Happy Hour</div>
+    <div class="win">Fri &ndash; Sat &middot; 8&ndash;10 PM</div>
+    <div class="offers">
+      <div class="box"><span class="amt">$10</span><span class="lbl">Two Street Tacos</span><span class="when">Pick any two</span></div>
+      <div class="box"><span class="amt">$6</span><span class="lbl">House Margs</span></div>
+      <div class="box"><span class="amt">$8</span><span class="lbl">Palomas</span></div>
+      <div class="box"><span class="amt">$30</span><span class="lbl">Marg Pitchers</span></div>
+    </div></div>
+</div></div></div></div>
+
+<div class="opt"><div class="hd"><span class="id">D</span><span class="nm">Shine sweep + wiggle</span>
+<button class="replay" data-t="d">↻ Replay</button>
+<span class="why">Structure close to what's live, but a <b>light sweep runs across every box on a loop</b> and the lead box gives a small wiggle. <b>Continuous</b> motion rather than a one-time entrance — catches the eye on scroll, but it never stops, which can grate.</span></div>
+<div class="stage" id="d"><div class="wrapouter"><div class="flyer D">
+  <div class="brst" style="top:10px;left:16px;color:#E22690;font-size:74px">✳</div>
+  <div class="brst" style="top:14px;right:18px;color:#18BCDC;font-size:58px">✳</div>
+  <div class="core"><div class="big">Taco Tuesday</div>
+    <div class="offers">
+      <div class="box"><span class="amt">BOGO</span><span class="lbl">Street Tacos</span><span class="when">Till 5PM</span></div>
+      <div class="box"><span class="amt">$6</span><span class="lbl">House Margs</span></div>
+      <div class="box"><span class="amt">$30</span><span class="lbl">Marg Pitchers</span></div>
+    </div></div>
+</div></div></div></div>
+
+<div class="note" style="border-left-color:#27F3DE;background:rgba(39,243,222,.08);color:#c9f5ef">
+<b style="color:#27F3DE">Recommend A, with C as the mobile fallback.</b> <b>A</b> is the boldest without abandoning the flyer language — the hard navy outline and offset shadow make each offer read as a physical sticker, which is exactly the printed-poster energy the tile is built on. The one-at-a-time slam gives you the "jump out and make you read it" without looping forever. <b>C</b> is more legible and stacks better on a phone, so it may be worth running C below ~700px and A above.<br>
+<b>Avoid D for a tile that shows every week</b> — continuous motion is attention-grabbing once and irritating by the fourth Tuesday. <b>B</b> is the most striking single image but it drops the sticker metaphor the rest of your print work uses.<br><br>
+<b style="color:#FFEC00">⚠️ "Late Night Happy Hour" needs a ruling.</b> Your repo currently says <i>"Happy Hour (3–5pm) and the $12 lunch special are retired — do not reference them."</i> Reintroducing the words risks a guest hearing "happy hour" and expecting the old 3–5pm program. <b>The upside is real though</b> — "happy hour" instantly communicates "discounted drinks" with no explanation needed, which "Late Night" alone doesn't. <b>If you want it, I'll narrow the rule</b> to: <i>the standalone 3–5pm Happy Hour stays retired; "Late Night Happy Hour" is a distinct named program</i> — and brief staff on the difference, since they'll be the ones asked.
+</div>
+</main>
+<script>
+document.querySelectorAll('.replay').forEach(b=>{
+  b.addEventListener('click',()=>{
+    const el=document.getElementById(b.dataset.t);
+    el.classList.remove('anim'); void el.offsetWidth; el.classList.add('anim');
+  });
+});
+// run each on load
+document.querySelectorAll('.stage').forEach(s=>s.classList.add('anim'));
+</script>
+</body></html>

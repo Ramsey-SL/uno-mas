@@ -81,7 +81,7 @@ No code, no catch. 2020 N Monroe.
 ```
 It's called Big F'N Thursday. We didn't name it quietly.
 
-$10 Big F'N Quesadilla - the size of a medium pizza. Plus $10 tequila cocktails off a fresh sheet that changes every week.
+$10 Big F'N Quesadilla - the size of a medium pizza. Plus $10 menu cocktails off a fresh sheet that changes every week.
 
 2020 N Monroe.
 ```
@@ -89,9 +89,9 @@ $10 Big F'N Quesadilla - the size of a medium pizza. Plus $10 tequila cocktails 
 
 ### T-B · The rotating cocktail *(the actual repeat-visit hook)*
 ```
-New tequila cocktails every single Thursday.
+New cocktails on the menu every single Thursday.
 
-$10 off the fresh sheet, and a $10 Big F'N Quesadilla the size of a medium pizza. Open to close.
+$10 menu cocktails off the fresh sheet, and a $10 Big F'N Quesadilla the size of a medium pizza. Open to close.
 
 2020 N Monroe, behind Indaba.
 ```
@@ -102,7 +102,7 @@ $10 off the fresh sheet, and a $10 Big F'N Quesadilla the size of a medium pizza
 Every Thursday at Uno Más
 
 $10 Big F'N Quesadilla - all day
-$10 tequila cocktails - new pours weekly
+$10 menu cocktails - new pours weekly
 
 No code, no catch. 2020 N Monroe.
 ```
@@ -116,7 +116,7 @@ No code, no catch. 2020 N Monroe.
 
 ---
 
-## FRIDAY + SATURDAY — Late Night
+## FRIDAY + SATURDAY — Late Night Happy Hour
 **⚠️ Daypart these. Deliver from ~4pm, Fri and Sat only.** An 8–10pm offer advertised at noon is
 the one case where the copy genuinely can't save the schedule.
 
@@ -134,7 +134,7 @@ Fri + Sat, 8-10pm: pick any two street tacos $10. $6 margs, $8 palomas, $30 pitc
 ```
 Two street tacos, $10, after eight.
 
-Late Night runs Friday and Saturday, 8-10pm. $6 margs, $8 palomas, $30 marg pitchers.
+Late Night Happy Hour runs Friday and Saturday, 8-10pm. $6 margs, $8 palomas, $30 marg pitchers.
 
 Behind Indaba on North Monroe.
 ```
@@ -179,7 +179,7 @@ Photo-led per `campaign-architecture.md` §4b. Approved and resolution-checked:
 
 | Day | Asset |
 |---|---|
-| Tue / Late Night | `20260125_UM_FOOD_TacoCloseUpV10_FINAL` *(2560px, print-safe)* |
+| Tue / Late Night Happy Hour | `20260125_UM_FOOD_TacoCloseUpV10_FINAL` *(2560px, print-safe)* |
 | Wednesday | `20260623_UM_FOOD_LoadedCarneNachos` |
 | Thursday | needs a **BFQ hero shot** — none confirmed in the DAM. Use the quesadilla line-art tile art until one exists. |
 | Sunday | brunch/French-toast asset — confirm one is tagged and print-safe |

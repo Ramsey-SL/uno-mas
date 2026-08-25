@@ -41,7 +41,7 @@ happened in Toast? A campaign that can't answer both is a coupon, not a program.
 | **Wednesday** | Beer & Bites Wednesday | Lift a slow midweek night **without turning the brand into a discount proposition.** Keep it experience-led. |
 | **Thursday** | Big F’N Thursday *(replaced Burrito Thursday, 2026-08)* | Food offer. **Watch for collision with Mezzanine entertainment programming** — Love Island watch parties also ran Thursdays. Decide campaign hierarchy when they overlap. |
 | **Sunday** | Sunday Brunch 10am–4pm | **Major growth priority.** Still new — needs repetition, menu education, food-forward creative, and retention follow-up. |
-| **Fri + Sat** | **Late Night 8–10pm** *(new, launches 2026-08-28)* | Creates a **new occasion** — after-dinner, post-event, industry crowd — rather than discounting an existing one. The literal mechanism behind *Get a Little Lost*: came in for tacos, stayed longer than planned. **Fri–Sat only: Tue–Thu close at 8pm.** |
+| **Fri + Sat** | **Late Night Happy Hour 8–10pm** *(new, launches 2026-08-28)* | Creates a **new occasion** — after-dinner, post-event, industry crowd — rather than discounting an existing one. The literal mechanism behind *Get a Little Lost*: came in for tacos, stayed longer than planned. **Fri–Sat only: Tue–Thu close at 8pm.** |
 | **Wed–Sun** | **The Weekly Promo Drop** *(named 2026-08-25)* — the recurring slot the rotating offer lands in | Announced Tuesday, revealed Wednesday. **Naming the franchise means each week inherits the equity of the last** instead of launching cold, and it turns "what's the offer this week?" into a slot to fill rather than a decision to remake. First drop: the gift-card bounce-back, Wed Aug 26. |
 | **Fri–Sun** | Weekend traffic promos — **a rotating weekly TEST, not a standing offer** | Each weekend runs a different structure, and the sequence has moved deliberately **away from discounting**: straight discount → fixed bundle → bundle ladder → deferred credit (gift card). Current status + the full test history and what to measure: `campaigns/weekend-promos/executions-log.md`. |
 
@@ -63,7 +63,7 @@ Uno Más runs **two distinct visual systems.** Don't blend them in one piece.
 | **Illustrated promo card** | Textured cream/aged ground, script *Uno Más* wordmark, condensed heavy sans, pink money numbers, yellow highlight swash, teal starbursts, halftone-shadowed **illustrated** food & drinks, `UNO MÁS ★ TACOS + TEQUILA` footer. | **Offer communication** — bundles, thresholds, weekend specials, code-word promos. Where a price is the message. |
 
 **⚠️ REVISED 2026-08-24 after Ramsey's review.** The clean split above was too rigid. His note on the
-first round of Late Night assets: *"they just feel underwhelming and not bold, bright, and inline with
+first round of Late Night Happy Hour assets: *"they just feel underwhelming and not bold, bright, and inline with
 restaurant advertising best practices."*
 
 **The corrected rule: food photography leads, brand furniture frames it.** Restaurant advertising

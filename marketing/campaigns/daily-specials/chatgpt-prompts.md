@@ -6,7 +6,7 @@
 > **Thursday image prompts below are RETIRED burrito creative.** Do not run sections referencing
 > "BURRITO THURSDAY" / "$15 house burrito or bowl". A Big F’N Thursday prompt set (hero: a big
 > griddled quesadilla, cut, cheese pulling, beside a tequila cocktail; accent Blue `#18BCDC`;
-> offer panel "$10 BIG F’N QUESADILLA · $10 TEQUILA COCKTAILS") still needs to be written.
+> offer panel "$10 BIG F’N QUESADILLA · $10 MENU COCKTAILS") still needs to be written.
 
 # Daily Specials — Drop-in ChatGPT Image Prompts
 
