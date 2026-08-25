@@ -63,9 +63,9 @@ the body — it frees 25 characters and avoids a doubled disclaimer.
 **Send 11am** — lunch BOGO is a lunch offer; reach them before they decide.
 
 ```
-Friendly reminder: it's Taco Tuesday. BOGO street tacos til 5pm, $6 margs + $30 pitchers all day. Tomorrow: spend $50, get a $10 gift card.
+Friendly reminder: it's Taco Tuesday. BOGO street tacos till 5pm, $6 margs + $30 pitchers all day. Tomorrow we're giving something away. That's all we'll say.
 ```
-`GSM-7 · 139/160 units · 1 segment` — opt-out auto-appended, do not add it.
+`GSM-7 · 158/160 units · 1 segment` — opt-out auto-appended, do not add it.
 
 **Two deliberate choices here:**
 - **Brand name omitted from the body.** The sender ID already identifies you, and omitting it avoids the `á` encoding problem entirely while freeing characters for logistics.

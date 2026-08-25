@@ -16,6 +16,19 @@
 
 ---
 
+## 2026-08-25 — Taco Tuesday tile SHIPPED LIVE · SMS reframed as a tease  [F7, F3]
+**🟢 The Taco Tuesday tile is live** (Lovable commit `7b32a95c`). Treatment D, running automatically all day every Tuesday.
+- **Built a reusable weekday gate** rather than another hardcoded date check: `src/components/useIsSpokaneDay.ts` exposing `spokaneDayIndex()` and `useIsSpokaneDay(day)`. It initializes to the correct value so SSR renders it right (no flash), re-verifies on the client, and re-checks every 5 minutes so a tab left open across midnight self-corrects. **The duplicate `spokaneDayOfWeek()` in `index.tsx` was deleted and re-imported from the new file — one implementation, not two.**
+- **Wednesday, Thursday and Late Night can all reuse this hook.** That was the point.
+- Tile reuses the FullSendBanner flyer chrome (cream ground, torn clip-path, halftone, drop animation with reduced-motion guard, starbursts). Offer row is treatment D: pink lead box `BOGO / Street Tacos / Till 5PM`, then yellow `$6 / House Margs / All day` and `$30 / Marg Pitchers / All day` — **item names at 17px sentence case**, dayparts as 11px uppercase fine print.
+- **Whole tile is a real `<a href="/menu">`** firing `trackEvent("nav_click", {location:"taco_tuesday_banner"})` — so the promo is actionable and measurable without a visible button.
+- **`FullSendBanner` deliberately left in place**, still gated off, as a template for future promos.
+- **Verified live:** tile present with all three boxes, real anchor to `/menu`, FullSendBanner correctly absent. Lovable tested the gate against fixed timestamps in Node (`2026-08-24T12:00Z` → Mon/hidden, `2026-08-25T12:00Z` → Tue/shown) rather than editing the component, so there was no test override to revert.
+
+**Tuesday SMS reframed as a tease** (Ramsey's call): the closing line no longer states Wednesday's offer. Now *"Tomorrow we're giving something away. That's all we'll say."* — 158/160, still one segment, but **almost no headroom left; any edit needs a re-count.**
+**Recorded as a durable rule** in `EMAIL_SMS_PLAYBOOK.md`: **tease the next thing, don't announce it** — curiosity outperforms announcement, and it protects the reveal for the channel that can actually explain the offer.
+⚠️ **This SMS is already scheduled in Toast** — the text has to be updated there by hand; the repo change doesn't propagate to a queued send.
+
 ## 2026-08-25 — BOGO line: fixed a two-headline collision  [F7]
 **Ramsey's critique:** *"the BOGO Street tacos looks like another headline, getting lost with the Taco Tuesday headline."* Correct — I'd set it in **Antonio uppercase directly under Antonio uppercase**, so the name and the offer competed instead of ranking.
 
