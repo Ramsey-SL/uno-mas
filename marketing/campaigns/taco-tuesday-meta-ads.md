@@ -1,129 +1,136 @@
 # Meta Ads — Taco Tuesday
 
-**Created 2026-08-25** · Format follows `campaigns/2026-04-dinner-launch/creative/copy/ad-copy.md`
+**Created 2026-08-25 · v2 (all-day copy)** · Format follows `campaigns/2026-04-dinner-launch/creative/copy/ad-copy.md`
 **Voice rule applied:** paid ads are *hook-driven, clarity first — 60% clever max* (`CLAUDE.md`).
 All character counts verified.
 
 ---
 
-## 🔴 Read this before launching: two offers, two dayparts
+## ✅ One ad set, all day Tuesday
 
-Taco Tuesday is really **two offers with different windows**, and running them as one ad wastes money:
+**v2 rewrite.** Every variant below is written so it **reads correctly at 11am and at 8pm.** That
+means **one ad set, running all day Tuesday** — no dayparting, no split budgets, less to manage.
 
-| Offer | Window | Implication |
-|---|---|---|
-| **BOGO street tacos** | **till 5pm** — lunch only | Ads must **stop delivering at 5pm**, or you're paying to advertise an expired offer |
-| **$6 margs · $30 pitchers** | **all day** | Can run to close |
+The rule that makes it work:
 
-**Set up two ad sets, not one.** Use Meta's **dayparting** (Ad Set → Budget & Schedule → Run ads on a schedule):
-- **Ad set 1 — BOGO:** Tuesdays only, roughly **9am–4pm**. Cut at 4 so you're not paying for clicks that arrive after the offer ends.
-- **Ad set 2 — Margs/pitchers:** Tuesdays only, **11am–9pm**.
+> **The hook is always an all-day-true statement.** $6 margs and $30 pitchers run open to close, so
+> those lead. **BOGO appears only as a secondary line and never without "till 5pm" attached.**
 
-A single always-on ad saying "BOGO till 5pm" delivered at 8pm is the most common way small restaurant budgets get wasted.
+Read any of these at 8pm and nothing is a lie — the margs are still $6, and the BOGO line carries
+its own cutoff. That's what lets the ad run unattended.
 
-**Targeting:** Spokane + ~8–10 mi radius. Don't go broader — this is a walk-in lunch offer and you have one location.
-**Pixel:** `1737601003250529` is installed. Optimize for **landing page views** to start; you have no purchase event on-site, so conversion optimization has nothing to learn from.
-**Destination:** `unomastacoshop.com` — the Taco Tuesday tile is live on the homepage every Tuesday, so the ad and the landing page now match. *(That matters: sending offer traffic to a page that doesn't mention the offer is the other common waste.)*
+*(v1 split this into two dayparted ad sets to protect the BOGO claim. Writing the copy correctly
+removes the need. One ad set is the better trade — fewer moving parts, and Meta gets a single
+audience to learn on instead of two half-budgets.)*
+
+**Optional, only if you want to push lunch specifically:** add a second Tuesday ad set, 9am–4pm,
+running a BOGO-forward variant. Not required, and I wouldn't start there.
+
+**Targeting:** Spokane + ~8–10 mi. Don't go broader — walk-in offer, one location.
+**Schedule:** Ad Set → Budget & Schedule → run on a schedule → **Tuesdays only.**
+**Pixel:** `1737601003250529` installed. Optimize for **landing-page views** — there's no on-site purchase event, so conversion optimization has nothing to learn from.
+**Destination:** `unomastacoshop.com` — the Taco Tuesday tile is live on the homepage every Tuesday, so the ad and the landing page match.
 
 ---
 
 ## Feed — 1080×1080 or 1080×1350
 
-### Variant A — The BOGO math *(lead with this for the lunch ad set)*
-**Hook angle:** the offer is the hook; no cleverness needed in front of it.
+### Variant A — The day, stated plainly *(default; start here)*
+**Hook angle:** lead with what's true all day, then add the lunch bonus.
 
 **Primary text**
 ```
-Two tacos. One price. Every Tuesday.
+Tuesday at Uno Más: $6 margs, $30 pitchers, all day.
 
-BOGO street tacos till 5pm. Carne asada, al pastor chicken, carnitas, barbacoa. Corn tortillas, cilantro, onion, salsa.
+Plus BOGO street tacos till 5pm - carne asada, al pastor chicken, carnitas, barbacoa.
 
 2020 N Monroe. Walk right in.
 ```
-*(188 chars · first line 36 — lands well inside the ~125 visible before "See more")*
+*(170 chars · first line 52 — the whole offer lands before "See more")*
 
-**Headline:** `Two tacos. One price.` *(21/27 ✓)*
-**Description:** `BOGO till 5pm. Every Tuesday.` *(29/30 ✓)*
+**Headline:** `$6 margs. Every Tuesday.` *(24/27 ✓)*
+**Description:** `All day. 2020 N Monroe.` *(23/30 ✓)*
 **CTA:** `Learn More`
 
 ---
 
-### Variant B — The price contrast *(strongest for the all-day ad set)*
-**Hook angle:** the number people don't expect. A $12.50 marg at $6 is a 52% cut — that's genuinely notable, so state it plainly rather than dressing it up.
+### Variant B — The price contrast *(strongest hook of the five)*
+**Hook angle:** the number people don't expect. $12.50 → $6 is 52% off; state it plainly rather than dressing it up.
 
 **Primary text**
 ```
-The $12.50 margarita is $6 today.
+The $12.50 margarita is $6 on Tuesdays. All day.
 
-So is every other Tuesday. House marg, on the rocks, salt, lime. Pitchers $30 instead of $50.
+Pitchers drop to $30 from $50. And till 5pm, street tacos are buy-one-get-one.
 
-All day. 2020 N Monroe, Spokane.
+2020 N Monroe, Spokane. Walk right in.
 ```
-*(162 chars · first line 33)*
+*(168 chars · first line 48)*
 
-**Headline:** `Margs are $6 today.` *(19/27 ✓)*
-**Description:** `Every Tuesday. All day.` *(23/30 ✓)*
+**Headline:** `Margs are $6 on Tuesday.` *(24/27 ✓)*
+**Description:** `All day. Pitchers $30.` *(22/30 ✓)*
 **CTA:** `Learn More`
 
 ---
 
 ### Variant C — The ritual *(best for retargeting people who've already visited)*
-**Hook angle:** habit, not discount. Fits *belonging beats bargains* — this is the one to show people who already know you.
+**Hook angle:** habit, not discount. Fits *belonging beats bargains* — show this to warm audiences.
 
 **Primary text**
 ```
 Your Tuesday already has a plan.
 
-BOGO street tacos till 5pm. $6 house margs and $30 pitchers all day. Every single Tuesday, no catch, no code.
+$6 house margs and $30 pitchers, open to close. BOGO street tacos till 5pm. Every Tuesday, no catch, no code.
 
 2020 N Monroe.
 ```
 *(159 chars · first line 32)*
 
 **Headline:** `Tuesday has a plan.` *(19/27 ✓)*
-**Description:** `BOGO tacos. $6 margs.` *(21/30 ✓)*
+**Description:** `$6 margs, open to close.` *(24/30 ✓)*
 **CTA:** `Learn More`
 
 ---
 
-### Variant D — The group play *(run this against larger-party / group interests)*
+### Variant D — The group play *(run against larger-party interests)*
 **Hook angle:** pitchers are the highest-ticket item in the offer and the one that brings four people instead of one.
 
 **Primary text**
 ```
-$30 for a pitcher of margaritas.
+$30 for a pitcher of margaritas. Normally $50.
 
-Normally $50. Every Tuesday, all day. Bring four people or don't - we're not counting.
+Every Tuesday, open to close. Bring four people or don't - we're not counting. Street tacos are BOGO till 5pm too.
 
-Uno Más, 2020 N Monroe. Behind Indaba.
+2020 N Monroe.
 ```
-*(160 chars · first line 32)*
+*(178 chars · first line 46)*
 
 **Headline:** `$30 marg pitchers.` *(18/27 ✓)*
-**Description:** `Every Tuesday, all day.` *(23/30 ✓)*
+**Description:** `Every Tuesday, open to close.` *(29/30 ✓)*
 **CTA:** `Learn More`
 
 ---
 
 ## Story / Reels — 1080×1920
 
-**Variant E — stacked offer, no cleverness.** Stories get a second of attention; the offer has to be the whole message.
+**Variant E — stacked offer.** Stories get a second of attention; the offer is the whole message.
+Note the **per-line windows** — this reads correctly whenever it's seen.
 
 **Primary text**
 ```
-BOGO street tacos till 5pm
-$6 margs all day
-$30 pitchers all day
+$6 margs · all day
+$30 pitchers · all day
+BOGO street tacos · till 5pm
 
 Every Tuesday.
 ```
 **Headline:** `Taco Tuesday.` *(13/27 ✓)*
 **CTA:** `Learn More`
 
-Use the **1080×1920 Late Night-style photo treatment** — taco photo, dark scrim, offer stacked over it. Asset: `20260125_UM_FOOD_TacoCloseUpV10_FINAL` with the house grade.
+Use the 1080×1920 photo treatment — taco photo, dark scrim, offer stacked over it.
+Asset: `20260125_UM_FOOD_TacoCloseUpV10_FINAL` with the house grade.
 
 ---
-
 ## Creative to pair with these
 
 Per `campaign-architecture.md` §4b, **photo-led** — these promote food, so lead with the food.
@@ -142,7 +149,8 @@ Per `campaign-architecture.md` §4b, **photo-led** — these promote food, so le
 - "Uno Más" with the accent in all human-readable copy ✓
 - **"till", not "til"** ✓
 - Exact prices and the exact cutoff stated in every variant ✓
-- No "BOGO" without "till 5pm" attached — the two must never be separated, or the ad promises an all-day offer that isn't
+- **No "BOGO" without "till 5pm" attached** — never separate them, or an 8pm impression promises an offer that ended
+- **The hook is always all-day-true** — margs and pitchers lead; BOGO is always secondary and always qualified. This is what allows one all-day ad set instead of two dayparted ones.
 
 ## What to measure
 

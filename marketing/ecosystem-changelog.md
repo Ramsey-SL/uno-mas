@@ -16,6 +16,16 @@
 
 ---
 
+## 2026-08-25 — Meta ad copy v2: rewritten to run all day  [F7]
+**Ramsey: the content is relevant all day, so the copy should be too.** Rewrote all five variants so each **reads correctly at 11am and at 8pm** — which means **one ad set running all day Tuesday** instead of the two dayparted sets v1 proposed.
+
+**The craft rule that makes it work:** the **hook is always an all-day-true statement** ($6 margs, $30 pitchers, open to close), and **BOGO appears only as a secondary line, never without "till 5pm" attached.** Read any variant at 8pm and nothing is false — the margs are still $6 and the BOGO line carries its own cutoff.
+
+**This is simpler and better than v1.** Writing the copy correctly removed the need for dayparting: fewer moving parts, one schedule, and **Meta gets a single audience to learn on instead of two half-budgets.** Kept the lunch-specific ad set documented as optional but explicitly not the recommended start.
+**Story variant now carries per-line windows** (`$6 margs · all day` / `BOGO street tacos · till 5pm`) so it stays accurate whenever it's seen.
+All counts re-verified against Meta's 27/30 limits; every hook lands inside the ~125 visible characters.
+**Also fixed:** the `CLAUDE.md` pointer added in v1 had the wrong path (`marketing/` instead of `marketing/campaigns/`).
+
 ## 2026-08-25 — Meta ad copy for Taco Tuesday  [F7]
 **Built** `marketing/taco-tuesday-meta-ads.md` — 5 variants (4 feed + 1 story), matching the established format in `campaigns/2026-04-dinner-launch/creative/copy/ad-copy.md`. **Every character count programmatically verified** against Meta's headline (27) and description (30) limits; all pass.
 **Voice rule applied:** *hook-driven, clarity first — 60% clever max* (`CLAUDE.md`). Variants are angled rather than reworded: A the BOGO math · B the $12.50→$6 price contrast · C the ritual (for retargeting warm audiences, fits *belonging beats bargains*) · D the $30 pitcher group play · E stacked-offer story.
