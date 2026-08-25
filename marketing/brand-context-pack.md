@@ -97,5 +97,5 @@ TikTok @unomastacosandtequila · Reservations on Resy · Loyalty: **The Cantina 
 Lunch service Tue–Sat 11am–5pm · kid-friendly at all times (no 21+ window) · dine-in & takeout only (no delivery apps).
 **Weekly specials (live 2026-06) — REPLACE Happy Hour + the old lunch special (both retired):**
 Taco Tuesday (BOGO lunch street tacos · $6 margs · $30 marg pitchers) · Beer & Bites Wednesday ($5 pints · $10 loaded nachos · $10
-loaded masa fries) · Big F’N Thursday ($10 Big F’N Quesadilla · $10 menu tequila cocktail fresh sheet) · **Late Night, FRI + SAT ONLY 8–10pm ($6 margs · $30 pitchers · $7 palomas · two street tacos $10, no shrimp — launches 2026-08-28)**. Taco Tuesday IS now running. **Do NOT reference
+loaded masa fries) · Big F’N Thursday ($10 Big F’N Quesadilla · $10 menu tequila cocktail fresh sheet) · **Late Night, FRI + SAT ONLY 8–10pm ($6 margs · $30 pitchers · $8 palomas · two street tacos $10, no shrimp — launches 2026-08-28)**. Taco Tuesday IS now running. **Do NOT reference
 Happy Hour** — no longer running.

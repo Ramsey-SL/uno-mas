@@ -322,7 +322,7 @@ Tequila flights available — ask your server.
 
 ### Recurring (weekly / standing offers)
 - Weekly specials (ongoing): Taco Tuesday (BOGO lunch tacos, $6 margs, $30 pitchers), Beer & Bites Wednesday ($5 pints, $10 loaded nachos, $10 loaded masa fries), **Big F’N Thursday ($10 Big F’N Quesadilla, $10 menu tequila cocktail fresh sheet — new cocktails weekly)**. Happy Hour + $12 lunch special RETIRED. **Burrito Thursday RETIRED 2026-08.**
-- **Late Night (Fri + Sat only, 8–10pm — launches 2026-08-28):** $6 margs, $30 marg pitchers, $7 palomas, pick any two street tacos $10 (all street proteins except Camaron/shrimp; tacos only, no side). Fri–Sat only because Tue–Thu close at 8pm.
+- **Late Night (Fri + Sat only, 8–10pm — launches 2026-08-28):** $6 margs, $30 marg pitchers, $8 palomas, pick any two street tacos $10 (all street proteins except Camaron/shrimp; tacos only, no side). Fri–Sat only because Tue–Thu close at 8pm.
 - [TODO: any standing dinner-night programming, Sunday brunch promo, etc.]
 
 ### Upcoming one-offs

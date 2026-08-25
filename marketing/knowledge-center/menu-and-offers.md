@@ -352,7 +352,7 @@ Three churros dusted in cinnamon sugar, served with house whipped cream, fresh s
 | **Taco Tuesday** | BOGO Lunch Street Tacos · $6 Margs · $30 Marg Pitchers |
 | **Beer & Bites Wednesday** | $5 Pints · $10 Loaded Nachos · $10 Loaded Masa Fries |
 | **Big F’N Thursday** | $10 Big F’N Quesadilla (BFQ) · $10 menu tequila cocktail fresh sheet (new cocktails weekly) |
-| **Late Night** *(Fri + Sat only, 8–10pm)* | $6 house margarita · $30 marg pitcher · $7 paloma · **pick any two street tacos $10** — Carne Asada, Al Pastor Chicken, Carnitas, Barbacoa, Batata, Hongos. **No Camaron/shrimp.** Tacos only, no side. |
+| **Late Night** *(Fri + Sat only, 8–10pm)* | $6 house margarita · $30 marg pitcher · $8 paloma · **pick any two street tacos $10** — Carne Asada, Al Pastor Chicken, Carnitas, Barbacoa, Batata, Hongos. **No Camaron/shrimp.** Tacos only, no side. |
 | ~~Burrito Thursday~~ | ~~$15 House Burrito or Bowl~~ — **RETIRED 2026-08**, replaced by Big F’N Thursday |
 
 *Happy Hour (3–5pm) and the $12 lunch special are retired — do not reference them. These ongoing
@@ -521,7 +521,9 @@ day-specials are the current promotions. Frame as a midweek ritual, not a discou
 *Version 2.4 | Updated: 2026-08-04 | Owner: Ramsey*
 *Source: UM Menu Lunch & Cocktails — July 2026.pdf · Uno Mas Dinner Menu — July 2026.pdf · Sunday Brunch menu — July 2026, in 07_MENU_ASSETS/Menus/*
 *Changes in v2.4: Full July 2026 menu price update across Tacos/Burritos/Shareables/Chips & Dips/Cocktails/Pitchers; added missing Dinner Tacos (2a), Dinner Plates (4a), Raw Bar (4b), The Feast (4c), and Sunday Brunch (15) sections; Oysters removed from Raw Bar; flagged open Chip & Dip Trio print-menu price inconsistency ($16 vs $15 — using $16 per owner direction).*
-*Changes in v2.5 (2026-08-23): **Late Night daypart added — Fri + Sat only, 8–10pm** ($6 margs, $30 pitchers, $7 palomas, two street tacos $10, no shrimp). Ruled Fri–Sat because Tue–Thu close at 8pm. Note the price collisions: two street tacos à la carte = $13, the 2-tacos-plus-side combo = $16.50, and Big A** tacos are already $10 each — always write "Two Street Tacos — $10."*
+*Changes in v2.6 (2026-08-25): **Late Night paloma repriced $7 → $8** (Ramsey). Regular $14.50, so a $6.50 cut. The margarita is now the steepest Late Night discount at 52% off; the paloma is 45%.*
+
+*Changes in v2.5 (2026-08-23): **Late Night daypart added — Fri + Sat only, 8–10pm** ($6 margs, $30 pitchers, $8 palomas, two street tacos $10, no shrimp). Ruled Fri–Sat because Tue–Thu close at 8pm. Note the price collisions: two street tacos à la carte = $13, the 2-tacos-plus-side combo = $16.50, and Big A** tacos are already $10 each — always write "Two Street Tacos — $10."*
 
 *Changes in v2.4 (2026-08-20): **Burrito Thursday ($15 House Burrito or Bowl) RETIRED — replaced by Big F’N Thursday: $10 Big F’N Quesadilla (BFQ) + $10 menu tequila cocktail fresh sheet, new cocktails weekly.** Masa Coated Fries corrected $7 → $8. Taco Tuesday margs confirmed **$6** (ruling 2026-08-20). House policy confirmed: kid-friendly at all times, **no 21+ window**.*
 

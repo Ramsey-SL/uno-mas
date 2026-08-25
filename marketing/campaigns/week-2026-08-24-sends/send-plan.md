@@ -23,7 +23,7 @@ day it starts. Thursday's SMS teases it, but a new program launching with no lau
 missed shot.
 
 **Recommend one short Friday SMS**, sent ~4pm:
-> `Late Night starts tonight. 8-10pm: two street tacos $10, $6 margs, $7 palomas, $30 pitchers. Spend $50, take a $10 gift card home.`
+> `Late Night starts tonight. 8-10pm: two street tacos $10, $6 margs, $8 palomas, $30 pitchers. Spend $50, take a $10 gift card home.`
 *(GSM-7, 132 units, single segment)*
 
 Four sends in a week is a lot for the same list. If that's too much, **drop Thursday's SMS and move
@@ -99,7 +99,7 @@ Asset: `giftcard-feed-1080x1350.png` → links to the site
 ### Section 3 — FRIDAY · Late Night launches *(new news)*
 Asset: `latenight-menu-1080x1350.png`
 > **Late Night starts Friday.** Fri + Sat, 8–10pm.
-> Pick any two street tacos **$10**. $6 margs, $7 palomas, $30 pitchers.
+> Pick any two street tacos **$10**. $6 margs, $8 palomas, $30 pitchers.
 > The kitchen's still going. So are we.
 > **[Reserve on Resy →]**
 
@@ -139,7 +139,7 @@ Spend $50 tonight, take a $10 gift card home. Plus Big F'N Thursday: $10 Big F'N
 **Send 4pm.** Late Night launches tonight — your biggest news of the week.
 
 ```
-Late Night starts tonight, 8-10pm. Two street tacos $10, $6 margs, $7 palomas, $30 pitchers. Spend $50, take a $10 gift card home.
+Late Night starts tonight, 8-10pm. Two street tacos $10, $6 margs, $8 palomas, $30 pitchers. Spend $50, take a $10 gift card home.
 ```
 `GSM-7 · 130/160 units · 1 segment` — opt-out auto-appended, do not add it.
 

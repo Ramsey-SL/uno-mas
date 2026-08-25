@@ -38,7 +38,7 @@ Canonical hours (Supabase `business_hours`, matching the live site's JSON-LD):
 |---|---|
 | House Margarita | **$6** |
 | Margarita Pitcher | **$30** |
-| Paloma | **$7** |
+| Paloma | **$8** |
 | **Pick any two street tacos** | **$10** |
 
 **Taco proteins — all street tacos except Camaron (shrimp), per Ramsey:**
@@ -75,7 +75,7 @@ Toast so it can feed a late-night segment later.
 
 **Menu header:** LATE NIGHT · FRI + SAT · 8–10PM
 **Tagline line:** The kitchen's still going. So are we.
-**Social/SMS:** `Late night is on. Fri + Sat, 8–10pm. Two street tacos $10, margs $6, palomas $7, pitchers $30. Get a little lost.`
+**Social/SMS:** `Late night is on. Fri + Sat, 8–10pm. Two street tacos $10, margs $6, palomas $8, pitchers $30. Get a little lost.`
 **Table tent:** *Not done yet? Good. Late night starts at 8.*
 
 Voice check: short, price-confident, no "perfect for any occasion," no apology for the deal.

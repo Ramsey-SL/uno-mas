@@ -16,6 +16,17 @@
 
 ---
 
+## 2026-08-25 — Paloma repriced $7 → $8; propagated across 20 surfaces  [F2]
+**Ruling:** Ramsey set the Late Night paloma at **$8** (was drafted at $7). Regular price $14.50, so a **$6.50 cut (45%)**.
+
+**Consequence worth noting:** the **margarita is now the steepest Late Night discount** at $12.50 → $6 (52%), not the paloma. Every place that framed the paloma as "the steepest cut on the menu" had to be rewritten, not just renumbered — including the chef sign-off question, which now asks about the drink prices as a set and names the margarita as the deepest.
+
+**Propagated to 20 files:** `CLAUDE.md` · `AI-PLATFORM-ACCESS.md` · `master-reference.md` · **`brand-context-pack.md`** (the ChatGPT/Gemini bridge) · `venue-and-operations.md` · `menu-and-offers.md` (Late Night row + new v2.6 changelog entry) · the Late Night campaign brief (its "confirm the paloma price" open item now closed) · `chef-content-check.html` · `late-night-menu-mockup.html` · `late-night-social.html` · `email-graphics.html` · `send-plan.md` · `review-index.html` · the registry · plus the HQ folder's SMS file, README and review page.
+**Re-rendered 4 PNGs** (menu 1080×1350, social feed, social story, Late Night email banner) and **regenerated the 3-page chef PDF**.
+**Verified:** Friday launch SMS still **130/160, one segment**. Spot-checked `$8` in the rendered menu art rather than trusting the source edit.
+
+**Caught by rendering and looking:** the first regenerated PDF had the table correct at $8 but **question 4 still read "going out at $7"** — my replacement pattern matched "paloma at $7" and missed "going out at $7". Fixed and re-verified. A reminder that a price appears in prose as well as in tables, and prose doesn't follow a pattern.
+
 ## 2026-08-25 — Late Night content-check sheet for Chef Maraya (PDF + shareable page)  [F2]
 **Need:** the chef leaves for a few days today and has to sign off that the Late Night menu content is accurate before anything prints.
 
