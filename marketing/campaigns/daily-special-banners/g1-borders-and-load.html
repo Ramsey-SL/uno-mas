@@ -1,0 +1,191 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>G1 borders + homepage load</title>
+<style>@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@600;700&family=Montserrat:wght@400;600;700;800;900&display=swap');
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#14171c;color:#e9ecf1;font-family:Montserrat,sans-serif;padding:0 0 90px}
+header.pg{background:#003366;padding:24px 28px;position:sticky;top:0;z-index:999;box-shadow:0 6px 22px rgba(0,0,0,.5)}
+header.pg h1{font-family:Antonio,sans-serif;text-transform:uppercase;font-size:26px;color:#fff;line-height:1}
+header.pg .s{color:#27F3DE;font-size:12px;font-weight:700;letter-spacing:.13em;text-transform:uppercase;margin-top:5px}
+main{max-width:1330px;margin:0 auto;padding:24px}
+h2.sec{font-family:Antonio,sans-serif;text-transform:uppercase;font-size:25px;color:#fff;margin:32px 0 6px}
+.subt{color:#9aa4b2;font-size:14px;margin-bottom:16px}
+.note{background:rgba(255,236,0,.08);border-left:3px solid #FFEC00;padding:14px 18px;border-radius:0 10px 10px 0;font-size:14px;line-height:1.6;color:#f0e6c0;margin-bottom:22px}
+.note b{color:#FFEC00}.note code{color:#18BCDC;font-size:12.5px}
+.opt{margin-bottom:20px;background:#1c2128;border:1px solid #2a313b;border-radius:14px;overflow:hidden}
+.opt .hd{padding:11px 16px;border-bottom:1px solid #2a313b;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.opt .id{background:#E22690;color:#fff;font-family:Antonio,sans-serif;font-weight:700;font-size:14px;padding:2px 10px;border-radius:6px}
+.opt .nm{font-weight:700;color:#fff;font-size:14px}
+.opt .why{color:#9aa4b2;font-size:12px;margin-left:auto;max-width:540px;text-align:right;line-height:1.45}
+.stage{padding:20px 0;background:#fff}
+button.rp{background:#E22690;border:0;color:#fff;font-size:11.5px;font-weight:800;letter-spacing:.07em;
+  text-transform:uppercase;padding:6px 13px;border-radius:6px;cursor:pointer}
+button.rp:hover{filter:brightness(1.1)}
+
+/* ── G1 base ── */
+.wrapouter{max-width:1160px;margin:0 auto;padding:0 16px}
+.tile{position:relative;background:#FFFBF3;padding:30px 42px 42px;overflow:hidden;
+  box-shadow:0 22px 44px -26px rgba(0,0,0,.5)}
+.tile::before{content:"";position:absolute;inset:0;pointer-events:none;opacity:.5;
+  background-image:radial-gradient(rgba(0,0,0,.05) 1px,transparent 1px);background-size:4px 4px}
+.tear{clip-path:polygon(0 0,100% 0,100% calc(100% - 15px),96.5% 100%,93% calc(100% - 12px),89% 100%,85.5% calc(100% - 14px),82% 100%,78% calc(100% - 10px),74.5% 100%,71% calc(100% - 15px),67% 100%,63.5% calc(100% - 11px),60% 100%,56% calc(100% - 14px),52.5% 100%,49% calc(100% - 9px),45% 100%,41.5% calc(100% - 15px),38% 100%,34% calc(100% - 11px),30.5% 100%,27% calc(100% - 13px),23% 100%,19.5% calc(100% - 9px),16% 100%,12% calc(100% - 15px),8.5% 100%,5% calc(100% - 11px),0 100%)}
+.wm{position:absolute;right:-46px;bottom:-34px;height:210px;opacity:.055;pointer-events:none;
+  /* kept clear of the price column: prices sit on the right edge, so the art hugs the bottom */
+  mask-image:linear-gradient(200deg,transparent 0%,#000 45%);
+  -webkit-mask-image:linear-gradient(200deg,transparent 0%,#000 45%)}
+.core{position:relative;text-align:center;max-width:880px;margin:0 auto}
+.big{font-family:Antonio,sans-serif;font-weight:700;text-transform:uppercase;line-height:.88;
+  font-size:clamp(32px,4.6vw,50px);color:#06243F}
+.rule{height:2px;margin:16px auto 0;width:104px;border-radius:2px;background:rgba(6,36,63,.2)}
+.items{display:flex;flex-direction:column;gap:14px;margin-top:18px;text-align:left}
+.item{display:flex;align-items:baseline;gap:14px}
+.nmi{font-family:Antonio,sans-serif;font-weight:700;text-transform:uppercase;font-size:30px;line-height:1;color:#06243F}
+.dots{flex:1;border-bottom:2px dotted #06243F;opacity:.28;transform:translateY(-7px)}
+.pr{font-family:Antonio,sans-serif;font-weight:700;font-size:27px;line-height:1;color:#E22690;white-space:nowrap}
+.sb{font-weight:700;font-size:12.5px;margin-top:3px;color:#6b6355}
+.col{display:flex;flex-direction:column}
+
+/* ── border treatments ── */
+/* 1 · inset keyline */
+.b1{border:3px solid #06243F}
+.b1 .key{position:absolute;inset:7px;border:1px solid rgba(6,36,63,.3);pointer-events:none}
+/* 2 · ticket notches + dashed rule */
+.b2{border:3px dashed #06243F}
+.b2 .notch{position:absolute;width:22px;height:22px;border-radius:50%;background:#fff;border:3px solid #06243F}
+.b2 .n1{left:-13px;top:50%;transform:translateY(-50%)}
+.b2 .n2{right:-13px;top:50%;transform:translateY(-50%)}
+/* 3 · papel picado top + navy base bar */
+.b3{border:0}
+.b3 .papel{position:absolute;top:0;left:0;right:0;height:22px;
+  background:repeating-linear-gradient(90deg,#E22690 0 30px,#FFEC00 30px 60px,#18BCDC 60px 90px,#06243F 90px 120px);
+  mask-image:linear-gradient(#000 60%,transparent);-webkit-mask-image:linear-gradient(#000 60%,transparent)}
+.b3 .base{position:absolute;bottom:0;left:0;right:0;height:9px;background:#06243F}
+/* 4 · offset block shadow, no border */
+.b4{border:3px solid #06243F;box-shadow:11px 11px 0 #E22690, 0 22px 44px -26px rgba(0,0,0,.4)}
+
+/* ── load animation ── */
+.play .tile{animation:drop 1.15s cubic-bezier(.16,1,.3,1) .25s both}
+.play .big{animation:fade .5s ease .75s both}
+.play .rule{animation:grow .5s cubic-bezier(.16,1,.3,1) .9s both}
+.play .item{animation:rowin .45s cubic-bezier(.16,1,.3,1) both}
+.play .item:nth-child(1){animation-delay:1.0s}
+.play .item:nth-child(2){animation-delay:1.14s}
+.play .item:nth-child(3){animation-delay:1.28s}
+.play .item:nth-child(4){animation-delay:1.42s}
+.play .wm{animation:fade .7s ease 1.1s both}
+@keyframes drop{0%{opacity:0;transform:translateY(-46px) rotate(-.9deg)}70%{transform:translateY(5px) rotate(.25deg)}100%{opacity:1;transform:none}}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+@keyframes grow{from{width:0;opacity:0}to{width:104px;opacity:1}}
+@keyframes rowin{from{opacity:0;transform:translateX(-14px)}to{opacity:1;transform:none}}
+@media(prefers-reduced-motion:reduce){.play *{animation:none!important}}
+
+/* ── homepage simulation ── */
+.sim{background:#F8F5EF;border-radius:12px;overflow:hidden;border:1px solid #2a313b}
+.sim .ann{height:40px;background:#E22690;color:#fff;display:flex;align-items:center;justify-content:center;gap:8px;
+  font-size:12.5px;font-weight:600;text-transform:uppercase;letter-spacing:.08em}
+.sim .ann .c{text-decoration:underline;text-underline-offset:2px}
+.sim .hdr{height:60px;background:rgba(255,255,255,.94);border-bottom:1px solid #E6E9EE;display:flex;align-items:center;padding:0 22px;gap:20px}
+.sim .hdr img{height:26px}
+.sim .hdr span{font-size:11.5px;font-weight:600;color:#5D6B73;text-transform:uppercase;letter-spacing:.06em}
+.sim .tilezone{background:#fff;padding:22px 0}
+.sim .hero{height:260px;background:#06243F;position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center}
+.sim .hero img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.5}
+.sim .hero .ht{position:relative;font-family:Antonio,sans-serif;font-weight:700;text-transform:uppercase;
+  color:#fff;font-size:52px;line-height:.9;text-align:center;text-shadow:0 4px 18px rgba(0,10,22,.8)}
+.play .sim .ann{animation:fade .35s ease both}
+.play .sim .hdr{animation:fade .35s ease .1s both}
+.play .sim .hero{animation:fade .6s ease 1.5s both}
+@media(max-width:760px){.item{flex-direction:column;align-items:flex-start;gap:2px}.dots{display:none}}
+</style></head><body>
+<header class="pg"><h1>G1 &mdash; borders &amp; page load</h1><div class="s">Approved palette · four edge treatments · full homepage load sim</div></header>
+<main>
+
+<div class="note"><b>G1's palette is locked</b> — warm paper <code>#FFFBF3</code>, navy type, pink prices. Only the <b>edge</b> changes below.<br>
+<b>Every tile animates on load.</b> Hit <b>Replay</b> to watch again. All respect <code>prefers-reduced-motion</code>.</div>
+
+<h2 class="sec">Four edge treatments</h2>
+<div class="subt">The tile currently has a torn bottom edge and nothing else. These add the pop.</div>
+
+<div class="opt"><div class="hd"><span class="id">1</span><span class="nm">Inset keyline</span><button class="rp" data-t="s1">↻ Replay</button>
+<span class="why">Thick navy border with a hairline inset — the classic printed-poster frame. Quietest, and it keeps the torn bottom edge readable.</span></div>
+<div class="stage" id="s1"><div class="wrapouter"><div class="tile tear b1">
+  <div class="key"></div>
+  <img class="wm" src="https://res.cloudinary.com/drxrfyq9i/image/upload/e_make_transparent:45/e_colorize,co_rgb:06243F/e_trim/c_fit,h_600,f_auto,q_auto/uno-mas/website/icons/quesadilla-lineart-teal" alt="">
+  <div class="core"><div class="big">Big F&rsquo;N Thursday</div><div class="rule"></div>
+    <div class="items">
+      <div class="item"><div class="col"><span class="nmi">Big F&rsquo;N Quesadilla</span><span class="sb">The size of a medium pizza</span></div><span class="dots"></span><span class="pr">$10</span></div>
+      <div class="item"><div class="col"><span class="nmi">Tequila Cocktails</span><span class="sb">*Menu cocktails only</span></div><span class="dots"></span><span class="pr">$10</span></div>
+    </div></div>
+</div></div></div></div>
+
+<div class="opt"><div class="hd"><span class="id">2</span><span class="nm">Ticket / coupon</span><button class="rp" data-t="s2">↻ Replay</button>
+<span class="why">Dashed navy border with punch-out notches on both sides — reads as a <b>tear-off ticket</b>. Most thematically apt for a special, and the most fun of the four.</span></div>
+<div class="stage" id="s2"><div class="wrapouter" style="padding:0 30px"><div class="tile b2">
+  <span class="notch n1"></span><span class="notch n2"></span>
+  <img class="wm" src="https://res.cloudinary.com/drxrfyq9i/image/upload/e_make_transparent:45/e_colorize,co_rgb:06243F/e_trim/c_fit,h_600,f_auto,q_auto/uno-mas/website/icons/quesadilla-lineart-teal" alt="">
+  <div class="core"><div class="big">Big F&rsquo;N Thursday</div><div class="rule"></div>
+    <div class="items">
+      <div class="item"><div class="col"><span class="nmi">Big F&rsquo;N Quesadilla</span><span class="sb">The size of a medium pizza</span></div><span class="dots"></span><span class="pr">$10</span></div>
+      <div class="item"><div class="col"><span class="nmi">Tequila Cocktails</span><span class="sb">*Menu cocktails only</span></div><span class="dots"></span><span class="pr">$10</span></div>
+    </div></div>
+</div></div></div></div>
+
+<div class="opt"><div class="hd"><span class="id">3</span><span class="nm">Papel picado + navy base</span><button class="rp" data-t="s3">↻ Replay</button>
+<span class="why">Cut-paper banner across the top in all four brand colours, navy bar along the bottom. Brings colour without changing the ground — and it's a motif from your own room.</span></div>
+<div class="stage" id="s3"><div class="wrapouter"><div class="tile b3">
+  <div class="papel"></div><div class="base"></div>
+  <img class="wm" src="https://res.cloudinary.com/drxrfyq9i/image/upload/e_make_transparent:45/e_colorize,co_rgb:06243F/e_trim/c_fit,h_600,f_auto,q_auto/uno-mas/website/icons/quesadilla-lineart-teal" alt="">
+  <div class="core" style="padding-top:12px"><div class="big">Big F&rsquo;N Thursday</div><div class="rule"></div>
+    <div class="items">
+      <div class="item"><div class="col"><span class="nmi">Big F&rsquo;N Quesadilla</span><span class="sb">The size of a medium pizza</span></div><span class="dots"></span><span class="pr">$10</span></div>
+      <div class="item"><div class="col"><span class="nmi">Tequila Cocktails</span><span class="sb">*Menu cocktails only</span></div><span class="dots"></span><span class="pr">$10</span></div>
+    </div></div>
+</div></div></div></div>
+
+<div class="opt"><div class="hd"><span class="id">4</span><span class="nm">Pink offset block</span><button class="rp" data-t="s4">↻ Replay</button>
+<span class="why">Navy border with a solid <b>pink block shadow</b> offset behind it. Loudest, and it makes the tile look like it's sitting on the page rather than in it. Closest to a sticker.</span></div>
+<div class="stage" id="s4"><div class="wrapouter" style="padding:0 26px"><div class="tile b4">
+  <img class="wm" src="https://res.cloudinary.com/drxrfyq9i/image/upload/e_make_transparent:45/e_colorize,co_rgb:06243F/e_trim/c_fit,h_600,f_auto,q_auto/uno-mas/website/icons/quesadilla-lineart-teal" alt="">
+  <div class="core"><div class="big">Big F&rsquo;N Thursday</div><div class="rule"></div>
+    <div class="items">
+      <div class="item"><div class="col"><span class="nmi">Big F&rsquo;N Quesadilla</span><span class="sb">The size of a medium pizza</span></div><span class="dots"></span><span class="pr">$10</span></div>
+      <div class="item"><div class="col"><span class="nmi">Tequila Cocktails</span><span class="sb">*Menu cocktails only</span></div><span class="dots"></span><span class="pr">$10</span></div>
+    </div></div>
+</div></div></div></div>
+
+<h2 class="sec">Homepage load &mdash; full sequence</h2>
+<div class="subt">Announcement bar → header → tile drops in → headline → rule draws → offer rows slide in one at a time → hero fades up beneath. Using the ticket edge.</div>
+<div class="opt"><div class="hd"><span class="id">▶</span><span class="nm">Page load, as a guest sees it</span><button class="rp" data-t="sim">↻ Replay load</button>
+<span class="why">Total sequence ~2s. The tile lands <b>before</b> the hero resolves, so the offer is the first thing that finishes moving — which is the point of putting it above the hero.</span></div>
+<div class="stage" id="sim" style="padding:20px 22px"><div class="sim">
+  <div class="ann"><span>🌮 Taco Tuesday · BOGO street tacos till 5pm</span><span class="c">See the menu →</span></div>
+  <div class="hdr"><img src="https://res.cloudinary.com/drxrfyq9i/image/upload/e_colorize,co_rgb:003366/c_fit,h_90,f_auto,q_auto/UM_Logo_-_T_T-Pink_g7pvjz" alt=""><span>Menu · Catering · Mezzanine · Rewards</span></div>
+  <div class="tilezone"><div class="wrapouter" style="padding:0 30px"><div class="tile b2">
+    <span class="notch n1"></span><span class="notch n2"></span>
+    <img class="wm" src="https://res.cloudinary.com/drxrfyq9i/image/upload/e_make_transparent:45/e_colorize,co_rgb:06243F/e_trim/c_fit,h_600,f_auto,q_auto/TTAsset_2_4x_vv5mg9" alt="">
+    <div class="core"><div class="big">Taco Tuesday</div><div class="rule"></div>
+      <div class="items">
+        <div class="item"><div class="col"><span class="nmi">Street Tacos</span><span class="sb">Pick any two tacos · till 5pm</span></div><span class="dots"></span><span class="pr">BOGO</span></div>
+        <div class="item"><div class="col"><span class="nmi">House Margaritas</span></div><span class="dots"></span><span class="pr">$6</span></div>
+        <div class="item"><div class="col"><span class="nmi">Margarita Pitchers</span></div><span class="dots"></span><span class="pr">$30</span></div>
+      </div></div>
+  </div></div></div>
+  <div class="hero">
+    <img src="https://res.cloudinary.com/drxrfyq9i/image/upload/e_saturation:18,e_contrast:10,e_brightness:4/c_fill,g_auto,w_1200,h_400,f_auto,q_auto/20260125_UM_VENUE_InteriorDownstairsBar_FINAL" alt="">
+    <div class="ht">The food is serious.<br>The vibe is not.</div>
+  </div>
+</div></div></div>
+
+<div class="note" style="border-left-color:#27F3DE;background:rgba(39,243,222,.08);color:#c9f5ef">
+<b style="color:#27F3DE">Recommend edge 2, the ticket.</b> It's the only one where the border <i>means</i> something — punch-out notches say "this is a deal you tear off," which is exactly what the tile is. It also stays legible at any width and needs no extra colour. <b>Edge 4</b> is louder if you want maximum pop; <b>edge 3</b> brings the most colour but competes with the pink prices for attention.<br>
+<b>On the animation:</b> the sequence deliberately finishes with the <b>offer rows</b>, not the tile. The tile arriving is just movement; the rows sliding in one at a time is what makes someone actually read them. Total ~2s, and it runs once per page load — not a loop.<br>
+<b>Note the load order:</b> the tile resolves <b>before</b> the hero, so the special is the first thing that stops moving. That's the whole argument for the above-hero slot.
+</div>
+</main>
+<script>
+document.querySelectorAll('.rp').forEach(b=>b.addEventListener('click',()=>{
+  const el=document.getElementById(b.dataset.t);
+  el.classList.remove('play'); void el.offsetWidth; el.classList.add('play');
+}));
+document.querySelectorAll('.stage').forEach(s=>s.classList.add('play'));
+</script>
+</body></html>

@@ -1,0 +1,255 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tuesday names in the tile</title>
+<style>@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@600;700&family=Montserrat:wght@400;600;700;800;900&display=swap');
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#14171c;color:#e9ecf1;font-family:Montserrat,sans-serif;padding:0 0 90px}
+header.pg{background:#003366;padding:24px 28px;position:sticky;top:0;z-index:999;box-shadow:0 6px 22px rgba(0,0,0,.5)}
+header.pg h1{font-family:Antonio,sans-serif;text-transform:uppercase;font-size:26px;color:#fff;line-height:1}
+header.pg .s{color:#27F3DE;font-size:12px;font-weight:700;letter-spacing:.13em;text-transform:uppercase;margin-top:5px}
+main{max-width:1330px;margin:0 auto;padding:24px}
+h2.sec{font-family:Antonio,sans-serif;text-transform:uppercase;font-size:25px;color:#fff;margin:32px 0 6px}
+.subt{color:#9aa4b2;font-size:14px;margin-bottom:16px}
+.note{background:rgba(255,236,0,.08);border-left:3px solid #FFEC00;padding:14px 18px;border-radius:0 10px 10px 0;font-size:14px;line-height:1.6;color:#f0e6c0;margin-bottom:22px}
+.note b{color:#FFEC00}.note code{color:#18BCDC;font-size:12.5px}
+.opt{margin-bottom:20px;background:#1c2128;border:1px solid #2a313b;border-radius:14px;overflow:hidden}
+.opt .hd{padding:11px 16px;border-bottom:1px solid #2a313b;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.opt .id{background:#E22690;color:#fff;font-family:Antonio,sans-serif;font-weight:700;font-size:14px;padding:2px 10px;border-radius:6px}
+.opt .nm{font-weight:700;color:#fff;font-size:14px}
+.opt .why{color:#9aa4b2;font-size:12px;margin-left:auto;max-width:540px;text-align:right;line-height:1.45}
+.stage{padding:20px 0;background:#fff}
+button.rp{background:#E22690;border:0;color:#fff;font-size:11.5px;font-weight:800;letter-spacing:.07em;
+  text-transform:uppercase;padding:6px 13px;border-radius:6px;cursor:pointer}
+button.rp:hover{filter:brightness(1.1)}
+
+/* ── G1 base ── */
+.wrapouter{max-width:1160px;margin:0 auto;padding:0 16px}
+.tile{position:relative;background:#FFFBF3;padding:30px 42px 42px;overflow:hidden;
+  box-shadow:0 22px 44px -26px rgba(0,0,0,.5)}
+.tile::before{content:"";position:absolute;inset:0;pointer-events:none;opacity:.5;
+  background-image:radial-gradient(rgba(0,0,0,.05) 1px,transparent 1px);background-size:4px 4px}
+.tear{clip-path:polygon(0 0,100% 0,100% calc(100% - 15px),96.5% 100%,93% calc(100% - 12px),89% 100%,85.5% calc(100% - 14px),82% 100%,78% calc(100% - 10px),74.5% 100%,71% calc(100% - 15px),67% 100%,63.5% calc(100% - 11px),60% 100%,56% calc(100% - 14px),52.5% 100%,49% calc(100% - 9px),45% 100%,41.5% calc(100% - 15px),38% 100%,34% calc(100% - 11px),30.5% 100%,27% calc(100% - 13px),23% 100%,19.5% calc(100% - 9px),16% 100%,12% calc(100% - 15px),8.5% 100%,5% calc(100% - 11px),0 100%)}
+.wm{position:absolute;right:-46px;bottom:-34px;height:210px;opacity:.055;pointer-events:none;
+  /* kept clear of the price column: prices sit on the right edge, so the art hugs the bottom */
+  mask-image:linear-gradient(200deg,transparent 0%,#000 45%);
+  -webkit-mask-image:linear-gradient(200deg,transparent 0%,#000 45%)}
+.core{position:relative;text-align:center;max-width:880px;margin:0 auto}
+.big{font-family:Antonio,sans-serif;font-weight:700;text-transform:uppercase;line-height:.88;
+  font-size:clamp(32px,4.6vw,50px);color:#06243F}
+.rule{height:2px;margin:16px auto 0;width:104px;border-radius:2px;background:rgba(6,36,63,.2)}
+.items{display:flex;flex-direction:column;gap:14px;margin-top:18px;text-align:left}
+.item{display:flex;align-items:baseline;gap:14px}
+.nmi{font-family:Antonio,sans-serif;font-weight:700;text-transform:uppercase;font-size:30px;line-height:1;color:#06243F}
+.dots{flex:1;border-bottom:2px dotted #06243F;opacity:.28;transform:translateY(-7px)}
+.pr{font-family:Antonio,sans-serif;font-weight:700;font-size:27px;line-height:1;color:#E22690;white-space:nowrap}
+.sb{font-weight:700;font-size:12.5px;margin-top:3px;color:#6b6355}
+.col{display:flex;flex-direction:column}
+
+/* ── border treatments ── */
+/* 1 · inset keyline */
+.b1{border:3px solid #06243F}
+.b1 .key{position:absolute;inset:7px;border:1px solid rgba(6,36,63,.3);pointer-events:none}
+/* 2 · ticket notches + dashed rule */
+.b2{border:3px dashed #06243F}
+.b2 .notch{position:absolute;width:22px;height:22px;border-radius:50%;background:#fff;border:3px solid #06243F}
+.b2 .n1{left:-13px;top:50%;transform:translateY(-50%)}
+.b2 .n2{right:-13px;top:50%;transform:translateY(-50%)}
+/* 3 · papel picado top + navy base bar */
+.b3{border:0}
+.b3 .papel{position:absolute;top:0;left:0;right:0;height:22px;
+  background:repeating-linear-gradient(90deg,#E22690 0 30px,#FFEC00 30px 60px,#18BCDC 60px 90px,#06243F 90px 120px);
+  mask-image:linear-gradient(#000 60%,transparent);-webkit-mask-image:linear-gradient(#000 60%,transparent)}
+.b3 .base{position:absolute;bottom:0;left:0;right:0;height:9px;background:#06243F}
+/* 4 · offset block shadow, no border */
+.b4{border:3px solid #06243F;box-shadow:11px 11px 0 #E22690, 0 22px 44px -26px rgba(0,0,0,.4)}
+
+/* ── load animation ── */
+.play .tile{animation:drop 1.15s cubic-bezier(.16,1,.3,1) .25s both}
+.play .big{animation:fade .5s ease .75s both}
+.play .rule{animation:grow .5s cubic-bezier(.16,1,.3,1) .9s both}
+.play .item{animation:rowin .45s cubic-bezier(.16,1,.3,1) both}
+.play .item:nth-child(1){animation-delay:1.0s}
+.play .item:nth-child(2){animation-delay:1.14s}
+.play .item:nth-child(3){animation-delay:1.28s}
+.play .item:nth-child(4){animation-delay:1.42s}
+.play .wm{animation:fade .7s ease 1.1s both}
+@keyframes drop{0%{opacity:0;transform:translateY(-46px) rotate(-.9deg)}70%{transform:translateY(5px) rotate(.25deg)}100%{opacity:1;transform:none}}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+@keyframes grow{from{width:0;opacity:0}to{width:104px;opacity:1}}
+@keyframes rowin{from{opacity:0;transform:translateX(-14px)}to{opacity:1;transform:none}}
+@media(prefers-reduced-motion:reduce){.play *{animation:none!important}}
+
+/* ── homepage simulation ── */
+.sim{background:#F8F5EF;border-radius:12px;overflow:hidden;border:1px solid #2a313b}
+.sim .ann{height:40px;background:#E22690;color:#fff;display:flex;align-items:center;justify-content:center;gap:8px;
+  font-size:12.5px;font-weight:600;text-transform:uppercase;letter-spacing:.08em}
+.sim .ann .c{text-decoration:underline;text-underline-offset:2px}
+.sim .hdr{height:60px;background:rgba(255,255,255,.94);border-bottom:1px solid #E6E9EE;display:flex;align-items:center;padding:0 22px;gap:20px}
+.sim .hdr img{height:26px}
+.sim .hdr span{font-size:11.5px;font-weight:600;color:#5D6B73;text-transform:uppercase;letter-spacing:.06em}
+.sim .tilezone{background:#fff;padding:22px 0}
+.sim .hero{height:260px;background:#06243F;position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center}
+.sim .hero img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.5}
+.sim .hero .ht{position:relative;font-family:Antonio,sans-serif;font-weight:700;text-transform:uppercase;
+  color:#fff;font-size:52px;line-height:.9;text-align:center;text-shadow:0 4px 18px rgba(0,10,22,.8)}
+.play .sim .ann{animation:fade .35s ease both}
+.play .sim .hdr{animation:fade .35s ease .1s both}
+.play .sim .hero{animation:fade .6s ease 1.5s both}
+@media(max-width:760px){.item{flex-direction:column;align-items:flex-start;gap:2px}.dots{display:none}}
+</style>
+<style>
+.strat{background:#2a313b;color:#9aa4b2;font-size:10.5px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;padding:3px 8px;border-radius:5px}
+.rec{background:#0f5132;color:#8ff0bd;font-size:10.5px;font-weight:800;letter-spacing:.06em;padding:3px 8px;border-radius:5px}
+button.rp{padding:4px 9px;font-size:11px}
+</style>
+</head><body>
+<header class="pg"><h1>Tuesday names, in the tile</h1><div class="s">All nine rendered at real size · G1 palette, ticket edge</div></header>
+<main>
+<div class="note"><b>Why see them here and not in a list:</b> a name reads completely differently as <b>50px Antonio uppercase</b> than as a table row. Length, rhythm and how it breaks across lines all change the judgement — <code>Street Taco Tuesday</code> is nearly twice the width of <code>Taco Tuesday</code>, and <code>Second Taco's Free</code> stops looking like a programme name at all once it's set as a headline.<br>
+<b>Offer rows are identical in every one</b>, so you're judging the name only. Each animates on load; hit ↻ to replay.</div>
+
+<div class="opt"><div class="hd"><span class="id">0</span><span class="nm">Taco Tuesday</span>
+<span class="strat">Current</span> <span class="rec">★ recommended</span><button class="rp" data-t="t0">↻</button>
+<span class="why">Zero explanation cost — everyone knows it. But every Mexican place in town has one.</span></div>
+<div class="stage" id="t0"><div class="wrapouter" style="padding:0 30px"><div class="tile b2">
+  <span class="notch n1"></span><span class="notch n2"></span>
+  <img class="wm" src="https://res.cloudinary.com/drxrfyq9i/image/upload/e_make_transparent:45/e_colorize,co_rgb:06243F/e_trim/c_fit,h_600,f_auto,q_auto/TTAsset_2_4x_vv5mg9" alt="">
+  <div class="core"><div class="big">Taco Tuesday</div><div class="rule"></div>
+    <div class="items">
+      <div class="item"><div class="col"><span class="nmi">Street Tacos</span><span class="sb">Pick any two tacos · till 5pm</span></div><span class="dots"></span><span class="pr">BOGO</span></div>
+      <div class="item"><div class="col"><span class="nmi">House Margaritas</span></div><span class="dots"></span><span class="pr">$6</span></div>
+      <div class="item"><div class="col"><span class="nmi">Margarita Pitchers</span></div><span class="dots"></span><span class="pr">$30</span></div>
+    </div></div>
+</div></div></div></div>
+<div class="opt"><div class="hd"><span class="id">1</span><span class="nm">Two-for Tuesday</span>
+<span class="strat">Keep the day, change the frame</span><button class="rp" data-t="t1">↻</button>
+<span class="why">States the deal, not the category. Alliterative and instantly clear. <b>But several other bars in town already use it</b> — a lateral move.</span></div>
+<div class="stage" id="t1"><div class="wrapouter" style="padding:0 30px"><div class="tile b2">
+  <span class="notch n1"></span><span class="notch n2"></span>
+  <img class="wm" src="https://res.cloudinary.com/drxrfyq9i/image/upload/e_make_transparent:45/e_colorize,co_rgb:06243F/e_trim/c_fit,h_600,f_auto,q_auto/TTAsset_2_4x_vv5mg9" alt="">
+  <div class="core"><div class="big">Two-for Tuesday</div><div class="rule"></div>
+    <div class="items">
+      <div class="item"><div class="col"><span class="nmi">Street Tacos</span><span class="sb">Pick any two tacos · till 5pm</span></div><span class="dots"></span><span class="pr">BOGO</span></div>
+      <div class="item"><div class="col"><span class="nmi">House Margaritas</span></div><span class="dots"></span><span class="pr">$6</span></div>
+      <div class="item"><div class="col"><span class="nmi">Margarita Pitchers</span></div><span class="dots"></span><span class="pr">$30</span></div>
+    </div></div>
+</div></div></div></div>
+<div class="opt"><div class="hd"><span class="id">2</span><span class="nm">Tuesday, Doubled</span>
+<span class="strat">Keep the day, change the frame</span><button class="rp" data-t="t2">↻</button>
+<span class="why">Same idea, drier delivery — closer to your register. Needs the offer beside it to land.</span></div>
+<div class="stage" id="t2"><div class="wrapouter" style="padding:0 30px"><div class="tile b2">
+  <span class="notch n1"></span><span class="notch n2"></span>
+  <img class="wm" src="https://res.cloudinary.com/drxrfyq9i/image/upload/e_make_transparent:45/e_colorize,co_rgb:06243F/e_trim/c_fit,h_600,f_auto,q_auto/TTAsset_2_4x_vv5mg9" alt="">
+  <div class="core"><div class="big">Tuesday, Doubled</div><div class="rule"></div>
+    <div class="items">
+      <div class="item"><div class="col"><span class="nmi">Street Tacos</span><span class="sb">Pick any two tacos · till 5pm</span></div><span class="dots"></span><span class="pr">BOGO</span></div>
+      <div class="item"><div class="col"><span class="nmi">House Margaritas</span></div><span class="dots"></span><span class="pr">$6</span></div>
+      <div class="item"><div class="col"><span class="nmi">Margarita Pitchers</span></div><span class="dots"></span><span class="pr">$30</span></div>
+    </div></div>
+</div></div></div></div>
+<div class="opt"><div class="hd"><span class="id">3</span><span class="nm">Buy One Tuesday</span>
+<span class="strat">Keep the day, change the frame</span><button class="rp" data-t="t3">↻</button>
+<span class="why">The mechanic in three words. Plain and confident, least fun.</span></div>
+<div class="stage" id="t3"><div class="wrapouter" style="padding:0 30px"><div class="tile b2">
+  <span class="notch n1"></span><span class="notch n2"></span>
+  <img class="wm" src="https://res.cloudinary.com/drxrfyq9i/image/upload/e_make_transparent:45/e_colorize,co_rgb:06243F/e_trim/c_fit,h_600,f_auto,q_auto/TTAsset_2_4x_vv5mg9" alt="">
+  <div class="core"><div class="big">Buy One Tuesday</div><div class="rule"></div>
+    <div class="items">
+      <div class="item"><div class="col"><span class="nmi">Street Tacos</span><span class="sb">Pick any two tacos · till 5pm</span></div><span class="dots"></span><span class="pr">BOGO</span></div>
+      <div class="item"><div class="col"><span class="nmi">House Margaritas</span></div><span class="dots"></span><span class="pr">$6</span></div>
+      <div class="item"><div class="col"><span class="nmi">Margarita Pitchers</span></div><span class="dots"></span><span class="pr">$30</span></div>
+    </div></div>
+</div></div></div></div>
+<div class="opt"><div class="hd"><span class="id">4</span><span class="nm">One More Tuesday</span>
+<span class="strat">Keep the day, change the frame</span> <span class="rec">★ recommended</span><button class="rp" data-t="t4">↻</button>
+<span class="why"><b>The only option that comes out of Uno Más itself</b> — the name means "one more", the offer <i>is</i> one more taco. Needs teaching for a few weeks, then it's yours forever.</span></div>
+<div class="stage" id="t4"><div class="wrapouter" style="padding:0 30px"><div class="tile b2">
+  <span class="notch n1"></span><span class="notch n2"></span>
+  <img class="wm" src="https://res.cloudinary.com/drxrfyq9i/image/upload/e_make_transparent:45/e_colorize,co_rgb:06243F/e_trim/c_fit,h_600,f_auto,q_auto/TTAsset_2_4x_vv5mg9" alt="">
+  <div class="core"><div class="big">One More Tuesday</div><div class="rule"></div>
+    <div class="items">
+      <div class="item"><div class="col"><span class="nmi">Street Tacos</span><span class="sb">Pick any two tacos · till 5pm</span></div><span class="dots"></span><span class="pr">BOGO</span></div>
+      <div class="item"><div class="col"><span class="nmi">House Margaritas</span></div><span class="dots"></span><span class="pr">$6</span></div>
+      <div class="item"><div class="col"><span class="nmi">Margarita Pitchers</span></div><span class="dots"></span><span class="pr">$30</span></div>
+    </div></div>
+</div></div></div></div>
+<div class="opt"><div class="hd"><span class="id">5</span><span class="nm">Street Taco Tuesday</span>
+<span class="strat">Own the item</span> <span class="rec">★ recommended</span><button class="rp" data-t="t5">↻</button>
+<span class="why">One word added, all recognition kept, and it <b>pre-empts the "which tacos?" question</b> staff will otherwise field all night. Cheapest meaningful improvement.</span></div>
+<div class="stage" id="t5"><div class="wrapouter" style="padding:0 30px"><div class="tile b2">
+  <span class="notch n1"></span><span class="notch n2"></span>
+  <img class="wm" src="https://res.cloudinary.com/drxrfyq9i/image/upload/e_make_transparent:45/e_colorize,co_rgb:06243F/e_trim/c_fit,h_600,f_auto,q_auto/TTAsset_2_4x_vv5mg9" alt="">
+  <div class="core"><div class="big">Street Taco Tuesday</div><div class="rule"></div>
+    <div class="items">
+      <div class="item"><div class="col"><span class="nmi">Street Tacos</span><span class="sb">Pick any two tacos · till 5pm</span></div><span class="dots"></span><span class="pr">BOGO</span></div>
+      <div class="item"><div class="col"><span class="nmi">House Margaritas</span></div><span class="dots"></span><span class="pr">$6</span></div>
+      <div class="item"><div class="col"><span class="nmi">Margarita Pitchers</span></div><span class="dots"></span><span class="pr">$30</span></div>
+    </div></div>
+</div></div></div></div>
+<div class="opt"><div class="hd"><span class="id">6</span><span class="nm">Dos Tacos Tuesday</span>
+<span class="strat">Own the item</span><button class="rp" data-t="t6">↻</button>
+<span class="why">Bilingual, on-brand, states the quantity. Reads well spoken. Mixes languages — deliberate, but check you like it.</span></div>
+<div class="stage" id="t6"><div class="wrapouter" style="padding:0 30px"><div class="tile b2">
+  <span class="notch n1"></span><span class="notch n2"></span>
+  <img class="wm" src="https://res.cloudinary.com/drxrfyq9i/image/upload/e_make_transparent:45/e_colorize,co_rgb:06243F/e_trim/c_fit,h_600,f_auto,q_auto/TTAsset_2_4x_vv5mg9" alt="">
+  <div class="core"><div class="big">Dos Tacos Tuesday</div><div class="rule"></div>
+    <div class="items">
+      <div class="item"><div class="col"><span class="nmi">Street Tacos</span><span class="sb">Pick any two tacos · till 5pm</span></div><span class="dots"></span><span class="pr">BOGO</span></div>
+      <div class="item"><div class="col"><span class="nmi">House Margaritas</span></div><span class="dots"></span><span class="pr">$6</span></div>
+      <div class="item"><div class="col"><span class="nmi">Margarita Pitchers</span></div><span class="dots"></span><span class="pr">$30</span></div>
+    </div></div>
+</div></div></div></div>
+<div class="opt"><div class="hd"><span class="id">7</span><span class="nm">Get Lost Tuesdays</span>
+<span class="strat">Break the pattern</span><button class="rp" data-t="t7">↻</button>
+<span class="why">Straight from your campaign platform. No competitor can use it. Says nothing about tacos — the subhead carries everything.</span></div>
+<div class="stage" id="t7"><div class="wrapouter" style="padding:0 30px"><div class="tile b2">
+  <span class="notch n1"></span><span class="notch n2"></span>
+  <img class="wm" src="https://res.cloudinary.com/drxrfyq9i/image/upload/e_make_transparent:45/e_colorize,co_rgb:06243F/e_trim/c_fit,h_600,f_auto,q_auto/TTAsset_2_4x_vv5mg9" alt="">
+  <div class="core"><div class="big">Get Lost Tuesdays</div><div class="rule"></div>
+    <div class="items">
+      <div class="item"><div class="col"><span class="nmi">Street Tacos</span><span class="sb">Pick any two tacos · till 5pm</span></div><span class="dots"></span><span class="pr">BOGO</span></div>
+      <div class="item"><div class="col"><span class="nmi">House Margaritas</span></div><span class="dots"></span><span class="pr">$6</span></div>
+      <div class="item"><div class="col"><span class="nmi">Margarita Pitchers</span></div><span class="dots"></span><span class="pr">$30</span></div>
+    </div></div>
+</div></div></div></div>
+<div class="opt"><div class="hd"><span class="id">8</span><span class="nm">The Tuesday Ritual</span>
+<span class="strat">Break the pattern</span><button class="rp" data-t="t8">↻</button>
+<span class="why">Leans into the habit framing your ads already use. Grand for a taco deal.</span></div>
+<div class="stage" id="t8"><div class="wrapouter" style="padding:0 30px"><div class="tile b2">
+  <span class="notch n1"></span><span class="notch n2"></span>
+  <img class="wm" src="https://res.cloudinary.com/drxrfyq9i/image/upload/e_make_transparent:45/e_colorize,co_rgb:06243F/e_trim/c_fit,h_600,f_auto,q_auto/TTAsset_2_4x_vv5mg9" alt="">
+  <div class="core"><div class="big">The Tuesday Ritual</div><div class="rule"></div>
+    <div class="items">
+      <div class="item"><div class="col"><span class="nmi">Street Tacos</span><span class="sb">Pick any two tacos · till 5pm</span></div><span class="dots"></span><span class="pr">BOGO</span></div>
+      <div class="item"><div class="col"><span class="nmi">House Margaritas</span></div><span class="dots"></span><span class="pr">$6</span></div>
+      <div class="item"><div class="col"><span class="nmi">Margarita Pitchers</span></div><span class="dots"></span><span class="pr">$30</span></div>
+    </div></div>
+</div></div></div></div>
+<div class="opt"><div class="hd"><span class="id">9</span><span class="nm">Second Taco's Free</span>
+<span class="strat">Break the pattern</span><button class="rp" data-t="t9">↻</button>
+<span class="why">The most honest headline available. Not a name — the offer. For a weekly recurring deal that might be the point.</span></div>
+<div class="stage" id="t9"><div class="wrapouter" style="padding:0 30px"><div class="tile b2">
+  <span class="notch n1"></span><span class="notch n2"></span>
+  <img class="wm" src="https://res.cloudinary.com/drxrfyq9i/image/upload/e_make_transparent:45/e_colorize,co_rgb:06243F/e_trim/c_fit,h_600,f_auto,q_auto/TTAsset_2_4x_vv5mg9" alt="">
+  <div class="core"><div class="big">Second Taco's Free</div><div class="rule"></div>
+    <div class="items">
+      <div class="item"><div class="col"><span class="nmi">Street Tacos</span><span class="sb">Pick any two tacos · till 5pm</span></div><span class="dots"></span><span class="pr">BOGO</span></div>
+      <div class="item"><div class="col"><span class="nmi">House Margaritas</span></div><span class="dots"></span><span class="pr">$6</span></div>
+      <div class="item"><div class="col"><span class="nmi">Margarita Pitchers</span></div><span class="dots"></span><span class="pr">$30</span></div>
+    </div></div>
+</div></div></div></div>
+<div class="note" style="border-left-color:#27F3DE;background:rgba(39,243,222,.08);color:#c9f5ef">
+<b style="color:#27F3DE">Seen at size, two things change my read.</b><br>
+<b>`Street Taco Tuesday`</b> is long — it fills the tile and pushes toward two lines on narrow screens, which weakens the headline. Still the cheapest improvement, but it costs you some presence.<br>
+<b>`One More Tuesday`</b> sets beautifully — three short words, balanced, and the same character count as the current name, so it drops in without any layout change at all. It also reads as a <i>brand</i> rather than a category, which is the whole point.<br>
+<b>`Second Taco's Free`</b> confirms the worry — as a headline it reads like a coupon, not a programme. Good SMS line, wrong tile.<br>
+<b>Still my recommendation: keep `Taco Tuesday` unless you pick `One More Tuesday`.</b> Everything else is lateral, and lateral isn't worth reprinting table tents for.
+</div>
+</main>
+<script>
+document.querySelectorAll('.rp').forEach(b=>b.addEventListener('click',()=>{
+  const el=document.getElementById(b.dataset.t);
+  el.classList.remove('play'); void el.offsetWidth; el.classList.add('play');
+}));
+document.querySelectorAll('.stage').forEach(s=>s.classList.add('play'));
+</script>
+</body></html>
