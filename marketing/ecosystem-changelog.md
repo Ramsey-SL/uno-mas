@@ -16,6 +16,15 @@
 
 ---
 
+## 2026-08-25 — Meta ads v3: three more in the ritual/clean-stack lane  [F7]
+**Ramsey picked C (ritual) and E (clean offer stack)** from v2 — both avoid selling the discount. Read that as the preference and stayed in the lane: **no price-contrast hooks, no "normally $50"** in the new ones.
+- **F · "Tuesdays are handled."** — removes a decision rather than offering a deal. *"Nothing to remember, nothing to claim"* kills the friction people expect from a promo.
+- **G · "The regulars already know what day it is."** — insider register, the same one his **MICKEY weekend promo** ran on (*"if you know, you know"*), which his list actually responded to. Best for **cold** audiences: implies a full room rather than a restaurant asking for business.
+- **H · E's stack in feed format** — no hook at all, per-line windows, more lines than a Story allows.
+
+**Recommended a two-variant split that actually teaches something:** **C for warm** (retargeting, customer list) and **G for cold** (Spokane targeting) — same idea, different audience temperature. Flagged that two variants of the same idea aimed at the same audience tells you nothing, and offered **H as a plain-facts control** to isolate whether the ritual framing beats a bare offer.
+All counts verified; every hook lands inside the ~125 visible characters and every variant stays all-day-true.
+
 ## 2026-08-25 — Meta ad copy v2: rewritten to run all day  [F7]
 **Ramsey: the content is relevant all day, so the copy should be too.** Rewrote all five variants so each **reads correctly at 11am and at 8pm** — which means **one ad set running all day Tuesday** instead of the two dayparted sets v1 proposed.
 

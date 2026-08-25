@@ -131,6 +131,93 @@ Use the 1080×1920 photo treatment — taco photo, dark scrim, offer stacked ove
 Asset: `20260125_UM_FOOD_TacoCloseUpV10_FINAL` with the house grade.
 
 ---
+---
+
+## v3 additions — more in the C/E lane
+
+Ramsey picked **C** (ritual framing) and **E** (clean offer stack) from v2. Both avoid selling the
+discount: C frames Tuesday as a habit, E just states the facts. **F–H stay in that lane** — no
+price-contrast hooks, no "normally $50."
+
+### Variant F — The standing plan
+**Hook angle:** removes a decision rather than offering a deal. The value is that you don't have to think about it.
+
+**Primary text**
+```
+Tuesdays are handled.
+
+$6 house margs and $30 pitchers, open to close. BOGO street tacos till 5pm. Same deal every week - nothing to remember, nothing to claim.
+
+2020 N Monroe.
+```
+*(176 chars · first line 21)*
+
+**Headline:** `Tuesdays are handled.` *(21/27 ✓)*
+**Description:** `$6 margs, open to close.` *(24/30 ✓)*
+**CTA:** `Learn More`
+
+> *"Nothing to remember, nothing to claim"* is doing real work — it kills the friction people expect
+> from a promo. No code, no coupon, no screenshot.
+
+---
+
+### Variant G — The regulars *(closest to what already worked for you)*
+**Hook angle:** insider knowledge, not a discount. This is the register your MICKEY weekend promo ran on — *"if you know, you know."* Your list responded to it.
+
+**Primary text**
+```
+The regulars already know what day it is.
+
+$6 house margs and $30 pitchers all day. BOGO street tacos till 5pm. Every Tuesday, behind Indaba on North Monroe.
+
+Now you know too.
+```
+*(176 chars · first line 41)*
+
+**Headline:** `The regulars know.` *(18/27 ✓)*
+**Description:** `Every Tuesday. 2020 N Monroe.` *(29/30 ✓)*
+**CTA:** `Learn More`
+
+> Strongest for **cold audiences** — it implies a room already full rather than a restaurant asking
+> for business. "Behind Indaba" does the locating work a Spokane local will recognise instantly.
+
+---
+
+### Variant H — E's stack, in feed format
+**Hook angle:** none. You liked E because it doesn't try — this is that shape for the feed, where you get more lines than a Story allows.
+
+**Primary text**
+```
+Every Tuesday at Uno Más
+
+$6 house margs - all day
+$30 marg pitchers - all day
+BOGO street tacos - till 5pm
+
+No code, no catch. 2020 N Monroe, behind Indaba.
+```
+*(157 chars · first line 24)*
+
+**Headline:** `Every Tuesday.` *(14/27 ✓)*
+**Description:** `$6 margs. $30 pitchers.` *(23/30 ✓)*
+**CTA:** `Learn More`
+
+> Per-line windows again, so it reads correctly at any hour. **This is the one I'd test against C** —
+> same audience, and it isolates whether the ritual framing beats plain facts. That's a genuinely
+> useful thing to learn once rather than guess at every week.
+
+---
+
+## If you're only running two
+
+**C and G.** Both are ritual/insider rather than discount, so they don't train people to wait for a
+deal — but they're aimed at different temperatures: **C for people who've already been in**
+(retargeting, your customer list), **G for people who haven't** (cold Spokane targeting). That split
+tells you something. Two variants of the same idea aimed at the same audience tells you nothing.
+
+Add **H** third if you want a clean control to measure the framing against.
+
+---
 ## Creative to pair with these
 
 Per `campaign-architecture.md` §4b, **photo-led** — these promote food, so lead with the food.
