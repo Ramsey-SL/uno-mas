@@ -69,6 +69,19 @@ spaces on BOTH the parent and the folder.** Always quote paths exactly.
 - **Gotcha:** the GDrive-on-LaCie mount lags `find` enumeration of just-written files and has dropped a file mid-`mv`. Verify per-file with `os.path.isfile`, never `find | wc`.
 - Code apps live separately at `Ramsey-HQ/Plugins-and-Apps/`.
 
+### The agent itself — `Ramsey-SL/uno-mas-marketing-agent` (split out 2026-08-25)
+Local: `~/projects/uno-mas-marketing-agent`
+
+Holds the agent's **behavior**, not content: the four skills (`unomas-start`, `-update`, `-find`,
+`-design`), the `unomas-steward` subagent, `START-HERE.md` (session protocol), `sessions/*.md`
+(per-session logs) + `sessions/WEEKLY-DIGEST.md`, and `scripts/{install,session-digest,new-session-log}.sh`.
+
+- **This repo is content; that one is behavior.** One copy of each — the brand repo's `.claude/` was
+  deleted and replaced with a pointer, because two copies of the skills would drift.
+- `~/.claude/skills/*` and `~/.claude/agents/*` symlink into the **agent** repo (`scripts/install.sh`).
+- **Every session starts with `/unomas-start`.** Every session ends with a log.
+- Raw chat transcripts are **not** committed anywhere — they stay local in `~/.claude/projects/`.
+
 ### Tier 4 — Local HQ working library (registered 2026-08-21)
 `/Users/ramseypruchnic/Documents/Uno-mas-hq-2026`
 
@@ -83,7 +96,7 @@ reads from it. **Not a source of truth** — a staging area and a reference shel
 | `photos-video/` | Working pulls and shoot batches, pre-DAM |
 | `reference/` | Docs, playbooks, guides, handoffs the agent should read |
 | `exports/` | One-off generated packages |
-| `um-marketing-agent/` | **Portable SNAPSHOT of the agent** — skills, steward, access doc, bootstrap, ChatGPT context pack, brand-brain + registry copies. **Not the source of truth** (the repo `.claude/` is). Re-sync with its `refresh.sh` or it goes stale. |
+| `um-marketing-agent/` | **Portable SNAPSHOT** — skills, steward, `START-HERE.md`, access docs, installer, ChatGPT context pack, brand-brain + registry + weekly-digest copies. **Not the source of truth.** Canonical agent = **`Ramsey-SL/uno-mas-marketing-agent`**. Re-sync with its `refresh.sh` or it goes stale. |
 
 **Rules:**
 - Anything here that becomes a **decision or fact** must be written into the repo — this folder is never the only record of a fact.

@@ -162,21 +162,21 @@ This repo carries an agent that keeps every Uno Más surface in sync and finds a
 | Build a poster, menu, social graphic, ad, mockup, or site UI | `/unomas-design <what you need>` |
 | Multi-surface work or a whole-ecosystem drift audit | delegate to the `unomas-steward` agent |
 
-**The agent lives in its own repo** — `um-marketing-agent` (`~/projects/um-marketing-agent`).
+**The agent lives in its own repo** — `uno-mas-marketing-agent` (`~/projects/uno-mas-marketing-agent`).
 This repo is **content**; that one is **behavior**. Two repos, one copy of each thing.
 
 **Start every session with `/unomas-start`** — it pulls both repos, generates a weekly digest, tells
 you what shipped and what's blocked on you, and offers ranked options for where to begin.
-Session logs live in `um-marketing-agent/sessions/`.
+Session logs live in `uno-mas-marketing-agent/sessions/`.
 
 New machine, or the commands stopped appearing:
 ```bash
-git clone <agent-repo> ~/projects/um-marketing-agent
+git clone git@github.com:Ramsey-SL/uno-mas-marketing-agent.git ~/projects/uno-mas-marketing-agent
 git clone git@github.com:Ramsey-SL/uno-mas.git ~/projects/uno-mas-brand
-bash ~/projects/um-marketing-agent/scripts/install.sh
+bash ~/projects/uno-mas-marketing-agent/scripts/install.sh
 ```
 
-📖 **`um-marketing-agent/START-HERE.md`** is the session protocol.
+📖 **`uno-mas-marketing-agent/START-HERE.md`** is the session protocol.
 📖 **`/AI-PLATFORM-ACCESS.md`** is the per-platform capability matrix — what Claude Code, claude.ai,
 a ChatGPT Custom GPT, and a Gemini Gem can each actually do, and **how to use them without causing
 drift.** The one rule: *Claude Code is the only thing that
