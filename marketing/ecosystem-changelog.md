@@ -16,6 +16,14 @@
 
 ---
 
+## 2026-08-25 — Taco Tuesday tile v2: copy stripped to three facts  [F7]
+**Ramsey's edits applied** to all six promo-tile mockups: **no protein list · no CTA button · no "Every Tuesday" kicker** (the name already says it) · **"BOGO Street Tacos till 5PM"** promoted to the hero offer line, with $6 margs and $30 pitchers as supporting price boxes.
+
+**The simplification changed the recommendation.** With only three facts left — the name, BOGO till 5PM, and two prices — the compact strip (F) stops being a compromise and becomes the obvious weekly shape. B stays the version for weeks worth pushing harder.
+
+**⚠️ Raised: removing the button removes the only way to act on the tile, and the only measurement.** The Full Send CTA fired `trackEvent("nav_click", {location:"full_send_banner"})`. Recommended making the **whole tile a link** to `/menu` so the promo stays actionable and still reports whether it works.
+**Copy convention recorded:** **"till", not "til"** — Ramsey's spelling. Added to `CLAUDE.md`. The already-scheduled Tue Aug 25 SMS used "til"; left alone, fixed forward. Also caught the announcement-bar mockups still saying "TIL" while the tile said "TILL", and the option-A description still claiming a ribbon and CTA that had just been removed.
+
 ## 2026-08-25 — Taco Tuesday promo tile mockups · Cloudinary organization plan  [F7, F9]
 **Corrected target surface mid-task.** Started building announcement-bar variants; Ramsey clarified the promo should live in **the promo tile used for Full Send**, with the announcement bar only *reinforcing* it. Researched the real component before designing: **`FullSendBanner`**, inline in `src/routes/index.tsx`, a full-bleed torn-paper flyer rendered **above the hero** in a custom `max-width:1200px` wrapper, all copy in real HTML, Cloudinary art used only as two decorative cutouts, gated by a hardcoded `Date.now() < new Date(...)`.
 **Built 6 promo-tile mockups** in that exact idiom (torn clip-path, halftone, starbursts, yellow price boxes, teal ribbon, pink pill CTA), each shown with the announcement bar above and a hero marker below: A reuse-Full-Send · B photo band inside the flyer · C split photo/offer · D BOGO-as-hero · E navy variant · F compact strip. Served locally at `:8789`.

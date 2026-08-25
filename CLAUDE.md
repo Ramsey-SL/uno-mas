@@ -54,6 +54,10 @@ compatibility only.
 - **Menu / internal docs:** `The Big F*** Quesadilla (BFQ)` — keep as-is.
 - **All marketing & consumer creative:** `Big F’N Quesadilla` (typographic apostrophe `’`).
 
+**Copy convention — "till", not "til".** Ramsey's spelling (2026-08-25). Applies to time-bounded
+offers: `BOGO Street Tacos till 5PM`. *(The already-scheduled Tue Aug 25 SMS used "til" — leave it,
+fix forward.)*
+
 **Big F’N Thursday pricing:** `$10` is the **base** BFQ price. Protein add-ons are charged on top at
 normal menu prices (Skirt Steak +$9 · Carnitas +$7 · Grilled Chicken +$6). Never write
 "$10 BFQ with your choice of protein" — use `Proteins additional` if a qualifier is needed.
