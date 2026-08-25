@@ -1,0 +1,117 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>BOGO line — treatments</title>
+<style>@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@600;700&family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#14171c;color:#e9ecf1;font-family:Montserrat,sans-serif;padding:0 0 80px}
+header.pg{background:#003366;padding:26px 28px;position:sticky;top:0;z-index:99;box-shadow:0 6px 22px rgba(0,0,0,.5)}
+header.pg h1{font-family:Antonio,sans-serif;text-transform:uppercase;font-size:26px;color:#fff;line-height:1}
+header.pg .s{color:#27F3DE;font-size:12px;font-weight:700;letter-spacing:.13em;text-transform:uppercase;margin-top:5px}
+main{max-width:1240px;margin:0 auto;padding:26px}
+.note{background:rgba(255,236,0,.08);border-left:3px solid #FFEC00;padding:15px 19px;border-radius:0 10px 10px 0;font-size:14px;line-height:1.6;color:#f0e6c0;margin-bottom:26px}
+.note b{color:#FFEC00}
+.row{margin-bottom:26px;background:#1c2128;border:1px solid #2a313b;border-radius:14px;overflow:hidden}
+.row .hd{padding:13px 18px;border-bottom:1px solid #2a313b;display:flex;gap:11px;align-items:flex-start;flex-wrap:wrap}
+.row .id{background:#E22690;color:#fff;font-family:Antonio,sans-serif;font-weight:700;font-size:15px;padding:3px 10px;border-radius:6px;flex-shrink:0}
+.row .nm{font-weight:700;color:#fff;font-size:14.5px;flex-shrink:0}
+.row .why{color:#9aa4b2;font-size:12.5px;margin-left:auto;max-width:640px;text-align:right;line-height:1.5}
+.stage{background:#fff;padding:26px 0}
+.flyer{position:relative;max-width:1000px;margin:0 auto;background:#F6EFE2;padding:30px 40px 44px;overflow:hidden;
+  clip-path:polygon(0 0,100% 0,100% calc(100% - 14px),94% 100%,88% calc(100% - 9px),82% calc(100% - 2px),76% calc(100% - 12px),70% calc(100% - 4px),64% calc(100% - 13px),58% calc(100% - 5px),52% calc(100% - 14px),46% calc(100% - 4px),40% calc(100% - 12px),34% calc(100% - 3px),28% calc(100% - 13px),22% calc(100% - 5px),16% calc(100% - 14px),10% calc(100% - 4px),4% calc(100% - 12px),0 calc(100% - 4px));
+  box-shadow:0 22px 44px -26px rgba(0,0,0,.5)}
+.halftone{position:absolute;inset:0;background-image:radial-gradient(rgba(6,36,63,.10) 1px,transparent 1px);background-size:9px 9px;opacity:.55}
+.core{position:relative;text-align:center}
+.h2{font-family:Antonio,sans-serif;font-weight:700;text-transform:uppercase;color:#06243F;font-size:66px;line-height:.9}
+.prices{display:flex;justify-content:center;gap:13px;flex-wrap:wrap;margin-top:18px}
+.pbox{background:#FFEC00;border-radius:10px;padding:10px 17px;transform:rotate(-1deg);box-shadow:0 8px 20px -8px rgba(6,36,63,.45)}
+.pbox .n{font-family:Antonio,sans-serif;font-weight:700;color:#06243F;font-size:34px;line-height:.9}
+.pbox .l{font-size:10px;font-weight:800;letter-spacing:.12em;color:#06243F;text-transform:uppercase;margin-top:1px}
+.burst{position:absolute;font-family:Antonio,sans-serif}
+
+/* ── treatments ── */
+/* 1 · pink band */
+.t1{display:inline-block;background:#E22690;color:#fff;font-family:Montserrat,sans-serif;font-weight:800;
+  font-size:21px;letter-spacing:.05em;text-transform:uppercase;padding:11px 26px;border-radius:8px;margin-top:14px;
+  box-shadow:0 9px 22px -8px rgba(226,38,144,.65)}
+.t1 b{color:#FFEC00}
+/* 2 · Montserrat subhead, no container */
+.t2{font-family:Montserrat,sans-serif;font-weight:700;font-size:20px;letter-spacing:.14em;text-transform:uppercase;
+  color:#3f3a32;margin-top:14px}
+.t2 b{color:#E22690;font-weight:800}
+/* 3 · rule-flanked */
+.t3{display:flex;align-items:center;gap:16px;justify-content:center;margin-top:16px}
+.t3 .ln{height:2px;background:rgba(6,36,63,.22);flex:1;max-width:120px}
+.t3 .tx{font-family:Montserrat,sans-serif;font-weight:800;font-size:19px;letter-spacing:.1em;text-transform:uppercase;color:#06243F;white-space:nowrap}
+.t3 .tx b{color:#E22690}
+/* 4 · it becomes the biggest price box */
+.t4{background:#E22690;border-radius:12px;padding:13px 26px;transform:rotate(-1deg);display:inline-block;margin-top:16px;
+  box-shadow:0 10px 24px -9px rgba(226,38,144,.7)}
+.t4 .n{font-family:Antonio,sans-serif;font-weight:700;color:#fff;font-size:40px;line-height:.9}
+.t4 .l{font-size:10.5px;font-weight:800;letter-spacing:.13em;color:#FFEC00;text-transform:uppercase;margin-top:2px}
+/* 5 · yellow highlighter swipe */
+.t5{display:inline-block;position:relative;margin-top:16px;padding:3px 12px}
+.t5 .hl{position:absolute;left:0;right:0;top:16%;bottom:16%;background:#FFEC00;transform:rotate(-.8deg);border-radius:3px}
+.t5 span{position:relative;font-family:Montserrat,sans-serif;font-weight:800;font-size:20px;letter-spacing:.06em;
+  text-transform:uppercase;color:#06243F}
+/* 6 · tucked into the headline as a kicker above */
+.t6{font-family:Montserrat,sans-serif;font-weight:800;font-size:15px;letter-spacing:.26em;text-transform:uppercase;
+  color:#E22690;margin-bottom:8px}
+</style></head><body>
+<header class="pg"><h1>The BOGO line — 6 treatments</h1><div class="s">Fixing the two-headline collision</div></header>
+<main>
+<div class="note"><b>The problem:</b> "BOGO Street Tacos till 5PM" was set in <b>Antonio uppercase</b>, directly under "Taco Tuesday" in <b>Antonio uppercase</b>. Same typeface, same case, similar weight — so they read as two competing headlines instead of a name and an offer.<br>
+<b>The principle:</b> the tile has three jobs — <b>name</b> (Taco Tuesday), <b>offer</b> (BOGO till 5PM), <b>prices</b> ($6/$30). Each needs a visibly different treatment or the eye can't rank them. Prices already own "yellow box," so the offer needs its own lane.</div>
+
+<div class="row"><div class="hd"><span class="id">1</span><span class="nm">Pink band</span><span class="why">Offer gets its own container in the hero colour, so it sits clearly between the navy name and the yellow prices. Three tiers, three treatments. Montserrat drops it out of headline territory entirely.</span></div>
+<div class="stage"><div class="flyer"><div class="halftone"></div>
+<div class="burst" style="top:10px;left:16px;color:#E22690;font-size:66px">✳</div><div class="burst" style="top:14px;right:18px;color:#18BCDC;font-size:54px">✳</div>
+<div class="core"><div class="h2">Taco Tuesday</div>
+<div class="t1">BOGO Street Tacos <b>till 5PM</b></div>
+<div class="prices"><div class="pbox"><div class="n">$6</div><div class="l">House margs · all day</div></div><div class="pbox"><div class="n">$30</div><div class="l">Marg pitchers · all day</div></div></div>
+</div></div></div></div>
+
+<div class="row"><div class="hd"><span class="id">2</span><span class="nm">Montserrat subhead, wide tracking</span><span class="why">Quietest option. Reads unmistakably as a supporting line because the tracking and weight are nothing like the headline. Risk: it's now so subordinate that your best offer whispers.</span></div>
+<div class="stage"><div class="flyer"><div class="halftone"></div>
+<div class="burst" style="top:10px;left:16px;color:#E22690;font-size:66px">✳</div><div class="burst" style="top:14px;right:18px;color:#18BCDC;font-size:54px">✳</div>
+<div class="core"><div class="h2">Taco Tuesday</div>
+<div class="t2">BOGO Street Tacos <b>till 5PM</b></div>
+<div class="prices"><div class="pbox"><div class="n">$6</div><div class="l">House margs · all day</div></div><div class="pbox"><div class="n">$30</div><div class="l">Marg pitchers · all day</div></div></div>
+</div></div></div></div>
+
+<div class="row"><div class="hd"><span class="id">3</span><span class="nm">Rule-flanked</span><span class="why">The rules do the separating, so the type can stay strong without competing. Classic menu convention — reads as "here's the deal" rather than a second title.</span></div>
+<div class="stage"><div class="flyer"><div class="halftone"></div>
+<div class="burst" style="top:10px;left:16px;color:#E22690;font-size:66px">✳</div><div class="burst" style="top:14px;right:18px;color:#18BCDC;font-size:54px">✳</div>
+<div class="core"><div class="h2">Taco Tuesday</div>
+<div class="t3"><span class="ln"></span><span class="tx">BOGO Street Tacos <b>till 5PM</b></span><span class="ln"></span></div>
+<div class="prices"><div class="pbox"><div class="n">$6</div><div class="l">House margs · all day</div></div><div class="pbox"><div class="n">$30</div><div class="l">Marg pitchers · all day</div></div></div>
+</div></div></div></div>
+
+<div class="row"><div class="hd"><span class="id">4</span><span class="nm">BOGO becomes the lead price box — pink</span><span class="why"><b>My pick.</b> It's not a headline at all, it's the first and biggest offer box. Pink outranks the yellow ones, so hierarchy is unambiguous, and it reuses a pattern already on the tile instead of adding a new one.</span></div>
+<div class="stage"><div class="flyer"><div class="halftone"></div>
+<div class="burst" style="top:10px;left:16px;color:#E22690;font-size:66px">✳</div><div class="burst" style="top:14px;right:18px;color:#18BCDC;font-size:54px">✳</div>
+<div class="core"><div class="h2">Taco Tuesday</div>
+<div class="prices" style="margin-top:18px;align-items:center">
+  <div class="t4"><div class="n">BOGO</div><div class="l">Street tacos · till 5PM</div></div>
+  <div class="pbox"><div class="n">$6</div><div class="l">House margs · all day</div></div>
+  <div class="pbox"><div class="n">$30</div><div class="l">Marg pitchers · all day</div></div>
+</div></div></div></div></div>
+
+<div class="row"><div class="hd"><span class="id">5</span><span class="nm">Yellow highlighter swipe</span><span class="why">Feels hand-marked, which suits the flyer idiom. But it borrows yellow from the price boxes, so the offer and the prices end up in the same visual family — the opposite of what we're trying to fix.</span></div>
+<div class="stage"><div class="flyer"><div class="halftone"></div>
+<div class="burst" style="top:10px;left:16px;color:#E22690;font-size:66px">✳</div><div class="burst" style="top:14px;right:18px;color:#18BCDC;font-size:54px">✳</div>
+<div class="core"><div class="h2">Taco Tuesday</div>
+<div class="t5"><span class="hl"></span><span>BOGO Street Tacos till 5PM</span></div>
+<div class="prices"><div class="pbox"><div class="n">$6</div><div class="l">House margs · all day</div></div><div class="pbox"><div class="n">$30</div><div class="l">Marg pitchers · all day</div></div></div>
+</div></div></div></div>
+
+<div class="row"><div class="hd"><span class="id">6</span><span class="nm">Moved above the name as an eyebrow</span><span class="why">Removes the collision by not stacking them at all — the offer becomes the setup and the name the payoff. Reads well, but it demotes your strongest word to small type.</span></div>
+<div class="stage"><div class="flyer"><div class="halftone"></div>
+<div class="burst" style="top:10px;left:16px;color:#E22690;font-size:66px">✳</div><div class="burst" style="top:14px;right:18px;color:#18BCDC;font-size:54px">✳</div>
+<div class="core"><div class="t6">BOGO Street Tacos till 5PM</div><div class="h2">Taco Tuesday</div>
+<div class="prices"><div class="pbox"><div class="n">$6</div><div class="l">House margs · all day</div></div><div class="pbox"><div class="n">$30</div><div class="l">Marg pitchers · all day</div></div></div>
+</div></div></div></div>
+
+<div class="note" style="border-left-color:#27F3DE;background:rgba(39,243,222,.08);color:#c9f5ef">
+<b style="color:#27F3DE">Recommend 4, then 1.</b> <b>4</b> solves it by reclassifying the line — BOGO stops being type competing with a headline and becomes the lead offer box, pink against the yellow supporting ones. It also adds no new pattern to the tile. <b>1</b> is the runner-up if you want the offer stated as a sentence rather than a chip.<br>
+<b>Avoid 5</b> — it puts the offer in the same yellow family as the prices, which recreates the confusion one layer down.
+</div>
+</main></body></html>

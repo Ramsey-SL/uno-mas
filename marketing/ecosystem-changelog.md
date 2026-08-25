@@ -16,6 +16,16 @@
 
 ---
 
+## 2026-08-25 — BOGO line: fixed a two-headline collision  [F7]
+**Ramsey's critique:** *"the BOGO Street tacos looks like another headline, getting lost with the Taco Tuesday headline."* Correct — I'd set it in **Antonio uppercase directly under Antonio uppercase**, so the name and the offer competed instead of ranking.
+
+**Diagnosed the principle rather than nudging the size.** The tile has three jobs — **name**, **offer**, **prices** — and each needs a visibly distinct treatment. The prices already own "yellow box," so the offer needed its own lane, not just a smaller font.
+
+**Built `bogo-line-treatments.html`** — the same tile with 6 treatments of that one element, so the choice is visual instead of described: pink band · Montserrat wide-tracked subhead · rule-flanked · **BOGO as the lead price box (pink)** · yellow highlighter swipe · moved above the name as an eyebrow.
+
+**Recommended 4, then 1.** Option 4 solves it by *reclassifying* the line — BOGO stops being type competing with a headline and becomes the first and biggest offer box, pink outranking the yellow supporting ones. It also adds **no new pattern** to the tile, reusing one already there.
+**Predicted and confirmed a failure:** option 5 (yellow highlighter) puts the offer in the same colour family as the prices, recreating the same confusion one layer down. Called out on the page as the one to avoid.
+
 ## 2026-08-25 — Taco Tuesday tile v2: copy stripped to three facts  [F7]
 **Ramsey's edits applied** to all six promo-tile mockups: **no protein list · no CTA button · no "Every Tuesday" kicker** (the name already says it) · **"BOGO Street Tacos till 5PM"** promoted to the hero offer line, with $6 margs and $30 pitchers as supporting price boxes.
 
