@@ -208,6 +208,10 @@ Ramsey to rule, then propagate the ruling.
 22. **No `hero-approved` tag exists in Cloudinary** — ~1,350 assets with nothing marking which are hero-quality, so `/unomas-design` keeps reaching for the same 3–4 it has verified by hand. **A 25–40 asset `hero-approved` pass is the single highest-leverage DAM improvement available.** See `marketing/cloudinary-organization-plan.md`.
 23. **MediaFlows availability on the FREE plan is unconfirmed** — and whether flow executions consume credits (25/month budget). Must be verified before enabling any automation. Recommended first flow: auto-tag by resolution → `needs-hires-swap` / `print-ok`, which makes the print gate mechanical instead of dependent on memory.
 
+24. **Weekday promo prices now live in FOUR places** — `menu-and-offers.md` (owner), the homepage `DaySpecialBanner` configs (`src/config/daySpecials.ts`), the Meta ads copy doc, and the printed menus. As of 2026-08-25 the three day-gated site tiles added the fourth. `site_events` is still EMPTY and the homepage still hardcodes hours and specials. **This is the F1/F3/F7 drift problem getting worse, not better.** The structural fix — drive hours, specials and tile copy off `site_events` — is now the highest-leverage engineering work available, because every new tile multiplies the number of places a price change has to be chased.
+
+25. **Thursday has no true Big F'N Quesadilla hero photo.** The live Thursday tile borrows `SkirtSteakFlameGrill` and `MexicanHotDogPlated` as corner art because nothing better exists. Combined with item 22 (`hero-approved`) and 23 (`needs-hires-swap`), photo quality is now the binding constraint on all promo creative — Ramsey called this out explicitly on 2026-08-25. **Shoot the BFQ.**
+
 4. **Gemini API key** was committed in plaintext in the old `HANDOFF-PROMPT.md` (April 2026). **Still needs rotating.**
 5. **Trailing-space Drive folders** (`Uno_Mas_HQ `, `Uno Mas Marketing HQ `) — planned rename, not done.
 6. ~~**Uncommitted work** in `menu-and-offers.md`~~ — **RESOLVED**: it was a Masa Coated Fries price fix ($7 → $8); committed 2026-08-20.
