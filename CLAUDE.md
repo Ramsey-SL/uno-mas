@@ -217,7 +217,9 @@ This file is the **entry point**. The repo's canonical content structure:
 | Full brand brain (assembled) · voice (full) | `brand-intelligence-center/system-prompt.md` · `voice-identity.md` |
 | Messaging framework (StoryBrand, taglines) | `brand-intelligence-center/messaging-framework.md` |
 | **Campaign strategy — platforms, guest ladder, channel roles, guardrails** | `marketing/campaign-architecture.md` |
-| **Meta ad copy — Taco Tuesday (all-day, one ad set)** | `marketing/campaigns/taco-tuesday-meta-ads.md` |
+| **Meta ad copy — every day-of-week promo** | `marketing/campaigns/meta-ads-day-of-week.md` |
+| **Meta ad copy — Taco Tuesday (8 variants)** | `marketing/campaigns/taco-tuesday-meta-ads.md` |
+| **Daily-special site banners (the set)** | `marketing/campaigns/daily-special-banners/` |
 | **Lifecycle / retention automations (Toast)** | `marketing/toast-lifecycle-automation-playbook.md` |
 | **Canva design IDs + master templates** | `marketing/canva-design-manifest.md` |
 | **Community-sensitive / crisis messaging** | `marketing/quick-reference/COMMUNITY_SENSITIVE_MESSAGING.md` |

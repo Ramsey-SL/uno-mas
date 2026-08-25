@@ -16,6 +16,19 @@
 
 ---
 
+## 2026-08-25 — Cloudinary operating guide · daily-special banner set · week-wide Meta ads  [F7, F9]
+Three deliverables in one pass.
+
+**1 · `marketing/cloudinary-operating-guide.md`** — consolidated the DAM rules that were spread across the registry, `dam-workflow.md`, `dam-asset-manifest.md` and the design skill into one reference: structure, naming (`YYYYMMDD_UM_<CAT>_<Subject>_v#`), the tag layer, the **print gate**, standard transforms, upload procedure, credit budget, MediaFlows build order.
+🔴 **Recorded honestly that I cannot audit the DAM** — no local credentials, connector unauthorized. Listed what to authorize and the four things I'd check first, including the dangerous case: **a low-res asset *missing* the `needs-hires-swap` tag.**
+
+**2 · Daily-special banner set** (`campaigns/daily-special-banners/`, served at `:8791`) — Wed, Thu, Fri/Sat and Sun tiles built in the **exact structure of the live Taco Tuesday tile**, all reusing `useIsSpokaneDay(day)`. Built as a **series on purpose**: a guest who learns the shape once reads any day at a glance, and the specials feel like a programme rather than five unrelated promos.
+**Two decisions raised rather than assumed:** (a) **Late Night is 8–10pm** — recommended extending the hook to take an hour range so the Fri/Sat tile appears from ~4pm, since a "tonight" promise at lunchtime is weaker than the same promise at 5pm; (b) **Sunday may be redundant** — the homepage already has a `SundayBrunchFeature` band, and one strong block beats two competing ones.
+
+**3 · `campaigns/meta-ads-day-of-week.md`** — ads for the whole week, 11 variants, all counts verified with **zero failures**. Stayed in the ritual/clean-stack lane Ramsey picked; no price-contrast hooks.
+**The governing rule, stated once and applied per day:** *the hook must be true at the moment it's seen.* Tue/Wed/Thu run all-day copy in one ad set; **Fri/Sat and Sunday must be dayparted**, because an 8–10pm offer and a 10–4 brunch are the two cases where copy genuinely cannot save the schedule.
+**Flagged:** T-B ("new tequila cocktails every single Thursday") is the sleeper — **the only offer all week that gives a reason to come *back* rather than just come once.** Also that Thursday has **no BFQ hero photo** in the DAM, and that budget should favour **Wednesday and Sunday** — softest demand, biggest upside.
+
 ## 2026-08-25 — Gift card: offer stays Wednesday, marketing launch moves to Thursday  [F7]
 **Ramsey wanted the launch pushed to Thursday. Flagged a timing conflict first:** the Tuesday SMS had **already gone out at 11am** saying the drop *"starts tomorrow"* — so a straight move to Thursday would have made a live message untrue. Gave three options rather than silently repointing dates.
 
