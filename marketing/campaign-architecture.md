@@ -42,6 +42,7 @@ happened in Toast? A campaign that can't answer both is a coupon, not a program.
 | **Thursday** | Big F’N Thursday *(replaced Burrito Thursday, 2026-08)* | Food offer. **Watch for collision with Mezzanine entertainment programming** — Love Island watch parties also ran Thursdays. Decide campaign hierarchy when they overlap. |
 | **Sunday** | Sunday Brunch 10am–4pm | **Major growth priority.** Still new — needs repetition, menu education, food-forward creative, and retention follow-up. |
 | **Fri + Sat** | **Late Night 8–10pm** *(new, launches 2026-08-28)* | Creates a **new occasion** — after-dinner, post-event, industry crowd — rather than discounting an existing one. The literal mechanism behind *Get a Little Lost*: came in for tacos, stayed longer than planned. **Fri–Sat only: Tue–Thu close at 8pm.** |
+| **Wed–Sun** | **The Weekly Promo Drop** *(named 2026-08-25)* — the recurring slot the rotating offer lands in | Announced Tuesday, revealed Wednesday. **Naming the franchise means each week inherits the equity of the last** instead of launching cold, and it turns "what's the offer this week?" into a slot to fill rather than a decision to remake. First drop: the gift-card bounce-back, Wed Aug 26. |
 | **Fri–Sun** | Weekend traffic promos — **a rotating weekly TEST, not a standing offer** | Each weekend runs a different structure, and the sequence has moved deliberately **away from discounting**: straight discount → fixed bundle → bundle ladder → deferred credit (gift card). Current status + the full test history and what to measure: `campaigns/weekend-promos/executions-log.md`. |
 
 ## 4. Channel roles
@@ -79,6 +80,29 @@ sells the food — a type-only offer card reads as a coupon, not an invitation. 
 unless the offer has no food in it.
 
 Live examples of the illustrated system: `campaigns/weekend-promos/executions-log.md`.
+
+## 4c. The Weekly Promo Drop
+
+**Named 2026-08-25.** The rotating weekly offer now has a name and a rhythm:
+
+| | |
+|---|---|
+| **Tuesday** | Announce it — *"Our new weekly promo drop starts tomorrow."* No detail. |
+| **Wednesday** | Reveal it — the email explains the offer properly |
+| **Wed–Sun** | It runs |
+
+**Why "drop" and not "flash":** a flash implies hours. These run five days, and a word that
+overpromises stops meaning anything by week three. "Drop" carries the same recurring-anticipation
+benefit without claiming urgency the window doesn't deliver.
+
+**What this fixes:** the first four weekend offers each launched cold, with no connective tissue.
+A named slot means guests start *checking* rather than being interrupted, and you get a container
+to fill instead of a decision to remake every week.
+
+**Rules:**
+- **Announce the program on Tuesday, never the offer.** The reveal belongs to Wednesday's email — that's the channel that can explain it.
+- **One drop per week.** Two competing offers in the same window is where margin breaks.
+- **Log every drop** in `campaigns/weekend-promos/executions-log.md` with its result, so the series compounds into knowledge instead of four unmeasured experiments.
 
 ## 5. Campaign cadence principle
 

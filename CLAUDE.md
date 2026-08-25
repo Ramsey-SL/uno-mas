@@ -54,6 +54,10 @@ compatibility only.
 - **Menu / internal docs:** `The Big F*** Quesadilla (BFQ)` — keep as-is.
 - **All marketing & consumer creative:** `Big F’N Quesadilla` (typographic apostrophe `’`).
 
+**The Weekly Promo Drop** — the name for the recurring weekly offer slot (from 2026-08-25). Announced
+Tuesday (program only, never the offer), revealed Wednesday, runs Wed–Sun. **Not "flash"** — these run
+five days. One drop per week. See `marketing/campaign-architecture.md` §4c.
+
 **Copy convention — "till", not "til".** Ramsey's spelling (2026-08-25). Applies to time-bounded
 offers: `BOGO Street Tacos till 5PM`. *(The already-scheduled Tue Aug 25 SMS used "til" — leave it,
 fix forward.)*

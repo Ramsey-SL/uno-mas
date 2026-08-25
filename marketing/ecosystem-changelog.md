@@ -16,6 +16,18 @@
 
 ---
 
+## 2026-08-25 — Named the franchise: **The Weekly Promo Drop**  [F7, F14]
+**Ramsey's reframe, and it's worth more than the SMS it came from.** Rather than teasing the gift card, the Tuesday SMS now announces the *program*: **"Our new weekly promo drop starts tomorrow."** (141/160, one segment, 19 chars spare.)
+
+**Why this matters:** the first four weekend offers each launched cold with no connective tissue between them. A **named recurring slot** means week five inherits whatever equity weeks one to four built, guests start *checking* rather than being interrupted, and Ramsey gets a container to fill instead of a decision to remake every week.
+
+**"Drop", not "flash" — deliberate.** A flash implies hours; these run **Wed–Sun**. A word that overpromises stops meaning anything by week three. Raised the mismatch, offered both fixes (shorten the promo, or change the word), and Ramsey took the word.
+
+**The rhythm, now recorded:** announce Tuesday (program only, no detail) → reveal Wednesday (the email can actually explain it) → runs Wed–Sun.
+**Documented in:** `campaign-architecture.md` §4c + the per-day table · `campaigns/weekend-promos/executions-log.md` header · `CLAUDE.md` "Always Get Right" · the send plan and the HQ SMS file.
+**Rules attached:** announce the program never the offer on Tuesday · **one drop per week** (two competing offers in one window is where margin breaks) · log every drop's result so the series compounds into knowledge rather than four unmeasured experiments.
+⚠️ **The Tuesday SMS is already queued in Toast — paste the new text there by hand.**
+
 ## 2026-08-25 — Taco Tuesday tile SHIPPED LIVE · SMS reframed as a tease  [F7, F3]
 **🟢 The Taco Tuesday tile is live** (Lovable commit `7b32a95c`). Treatment D, running automatically all day every Tuesday.
 - **Built a reusable weekday gate** rather than another hardcoded date check: `src/components/useIsSpokaneDay.ts` exposing `spokaneDayIndex()` and `useIsSpokaneDay(day)`. It initializes to the correct value so SSR renders it right (no flash), re-verifies on the client, and re-checks every 5 minutes so a tab left open across midnight self-corrects. **The duplicate `spokaneDayOfWeek()` in `index.tsx` was deleted and re-imported from the new file — one implementation, not two.**

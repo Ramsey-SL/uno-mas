@@ -11,6 +11,13 @@
 
 ---
 
+## 🏷 The franchise: **The Weekly Promo Drop** (named 2026-08-25)
+
+Tests 1–3 each launched cold with no connective tissue. From test 4 on, the rotating offer lands in
+a **named recurring slot**: announced Tuesday (program only, no detail), revealed Wednesday, runs
+Wed–Sun. See `campaign-architecture.md` §4c. **"Drop" not "flash"** — a flash implies hours, these
+run five days, and an overpromising word stops meaning anything by week three.
+
 ## Test sequence — chronological
 
 | # | Offer | Window | Status |
