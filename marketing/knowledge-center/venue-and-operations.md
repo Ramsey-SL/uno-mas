@@ -69,7 +69,7 @@
 - **Sunday Brunch:** LIVE — every Sunday 10am–4pm (launched July 2026). Fresh sheet runs alongside the lunch menu; menu at `/menu?tab=brunch`.
 - **Live DJ:** Friday & Saturday nights
 - **Late Night Happy Hour (Fri + Sat, 8–10pm — launches 2026-08-28):** $6 margs · $30 marg pitchers · $8 palomas · pick any two street tacos $10 (all street proteins except Camaron/shrimp). Fri–Sat only — Tue–Thu close at 8pm.
-- **Weekly Specials (ongoing):** Taco Tuesday (BOGO lunch street tacos · $6 margs · $30 marg pitchers) · Beer & Bites Wednesday ($5 pints · $10 loaded nachos · $10 loaded masa fries) · Big F’N Thursday ($10 Big F’N Quesadilla · $10 menu cocktails (fresh sheet, new pours weekly)). These REPLACED Happy Hour and the old $12 lunch special — do NOT reference Happy Hour or the lunch special (retired).
+- **Weekly Specials (ongoing):** Taco Tuesday (BOGO lunch street tacos · $6 margs · $30 marg pitchers) · Beer & Bites Wednesday ($5 pints · $10 loaded nachos · $10 loaded masa fries) · Big F’N Thursday ($10 Big F’N Quesadilla · $10 Tequila Cocktails*). These REPLACED Happy Hour and the old $12 lunch special — do NOT reference Happy Hour or the lunch special (retired).
 
 > **Note:** Weekly programming (Trivia, Comedy, Bingo) is NOT currently active. Do not reference in content until reinstated.
 

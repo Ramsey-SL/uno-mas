@@ -81,7 +81,7 @@ No code, no catch. 2020 N Monroe.
 ```
 It's called Big F'N Thursday. We didn't name it quietly.
 
-$10 Big F'N Quesadilla - the size of a medium pizza. Plus $10 menu cocktails off a fresh sheet that changes every week.
+$10 Big F'N Quesadilla - the size of a medium pizza. Plus $10 Tequila Cocktails* off a fresh sheet that changes every week.
 
 2020 N Monroe.
 ```
@@ -89,9 +89,9 @@ $10 Big F'N Quesadilla - the size of a medium pizza. Plus $10 menu cocktails off
 
 ### T-B · The rotating cocktail *(the actual repeat-visit hook)*
 ```
-New cocktails on the menu every single Thursday.
+The Big F'N Quesadilla is the size of a medium pizza.
 
-$10 menu cocktails off the fresh sheet, and a $10 Big F'N Quesadilla the size of a medium pizza. Open to close.
+$10 Tequila Cocktails*, and a $10 Big F'N Quesadilla the size of a medium pizza. Open to close.
 
 2020 N Monroe, behind Indaba.
 ```
@@ -102,11 +102,11 @@ $10 menu cocktails off the fresh sheet, and a $10 Big F'N Quesadilla the size of
 Every Thursday at Uno Más
 
 $10 Big F'N Quesadilla - all day
-$10 menu cocktails - new pours weekly
+$10 Tequila Cocktails* - new pours weekly
 
 No code, no catch. 2020 N Monroe.
 ```
-**Headline:** `Every Thursday.` *(15/27)* · **Desc:** `$10 BFQ. New pours weekly.` *(26/30)*
+**Headline:** `Every Thursday.` *(15/27)* · **Desc:** `$10 BFQ. .` *(26/30)*
 
 > **T-B is the sleeper.** "New cocktails every week" is the only offer in the whole week that gives
 > someone a reason to come *back* rather than just come once. Worth testing hard.

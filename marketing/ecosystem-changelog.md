@@ -16,6 +16,19 @@
 
 ---
 
+## 2026-08-25 — Thursday reverted to "Tequila Cocktails*" · tiles rebalanced, starbursts replaced  [F3, F7]
+**1 · Thursday wording, corrected.** Ramsey: *"no new pours. Keep it simple — $10 Tequila Cocktails, subtext can say Menu Cocktails only with an asterisk."* So the earlier broadening to "menu cocktails" was wrong. Canonical is now **`$10 Tequila Cocktails*`** with **`*menu cocktails only`** as the qualifier. **The rotating fresh-sheet / "new pours weekly" claim is retired** — recorded in `CLAUDE.md` as a do-not-use.
+**Consequence flagged honestly:** the Meta ad variant T-B was built entirely on the weekly-rotation hook, which I'd called the sleeper because it was **the only offer all week giving a reason to come *back* rather than just come once.** Rewrote it around the quesadilla's size instead, and noted in the doc that Thursday now competes on the item rather than on novelty — worth watching in the numbers.
+
+**🔴 A regex of mine caused real damage, caught and reverted.** While sweeping the wording I included a `\.\s*\.\s*` cleanup that mangled every ellipsis in the repo — `"Uno Mas: Uno Mas: ..."` became `". ."` across 68 files. Spotted it by reading the diff rather than trusting the run, **reverted the whole commit**, and redid the sweep with **targeted string replacements only.** Lesson: a broad regex over 68 files needs the diff read before it's committed, and punctuation cleanup should never be bundled with a content change.
+
+**2 · Tiles rebalanced** (`campaigns/daily-special-banners/rebalanced.html`, served `:8792`). Ramsey: *"the pricing being so big and the lines so close are taking away from the information about which products are on special."* Correct — and my two previous fixes had both enlarged the label without demoting the price.
+- **Hierarchy flipped:** item name is now the **largest** element (34px Antonio); the price **supports** at 30px.
+- **Dotted leader between them**, menu-style. That's doing real work — it's a convention the eye already reads as *item … price*, and it dissolves the cramped-columns problem by giving every offer its own line with 16px of air.
+- **Starbursts removed**, replaced with **real DAM line-art** — agave, taco, marg glass, quesadilla — used large and low-opacity as ground rather than corner decoration.
+- **Three grounds:** E cream+halftone (matches the print work) · **F navy + papel picado** (a motif from the room itself; yellow-on-navy is the strongest contrast pairing available and it reads at night) · G paper + one oversized watermark of the day's own item.
+**Recommended G for weekdays, F reserved for Late Night Happy Hour** — a navy ground genuinely suits an 8–10pm offer, so letting Late Night look different is meaningful difference rather than inconsistency.
+
 ## 2026-08-25 — Thursday cocktails broadened · Late Night renamed · bolder tile variants  [F3, F7]
 **Three changes from Ramsey, one of which collided with an existing rule.**
 

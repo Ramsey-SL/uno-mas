@@ -1,6 +1,6 @@
 > ⚠️ **THURSDAY CHANGED (2026-08).** Burrito Thursday ($15 House Burrito or Bowl) is **RETIRED**.
 > Thursday is now **Big F’N Thursday** — $10 Big F’N Quesadilla (BFQ) + $10 menu tequila cocktail
-> fresh sheet, new cocktails every Thursday. Copy below has been updated. **Poster and AI-image
+> fresh sheet, . Copy below has been updated. **Poster and AI-image
 > assets for Thursday are still the retired burrito creative — new Thursday creative is needed.**
 
 # Daily Specials — Collateral Copy (Tue / Wed / Thu)
@@ -17,7 +17,7 @@ Brand: Uno Más warm. Spell **Uno Más** with the accent. No reservation needed 
 > **THE UNO MÁS MIDWEEK LINEUP** — three reasons to get a little lost.
 > 🌮 **Taco Tuesday** — BOGO street tacos, $6 margs, $30 marg pitchers
 > 🍺 **Beer & Bites Wednesday** — $5 pints, $10 loaded nachos, $10 loaded masa fries
-> 🧀 **Big F’N Thursday** — $10 Big F’N Quesadilla, $10 menu cocktails
+> 🧀 **Big F’N Thursday** — $10 Big F’N Quesadilla, $10 Tequila Cocktails*
 > Tue. Wed. Thu. 2020 N Monroe. We'll see you midweek.
 > #spokane #spokaneeats #tacotuesday #spokanefood #unomas #getlittlelost
 
@@ -32,7 +32,7 @@ Brand: Uno Más warm. Spell **Uno Más** with the accent. No reservation needed 
 
 ### Big F’N Thursday (day-of)
 > It's called Big F’N Thursday. We didn't name it quietly. 🧀
-> $10 Big F’N Quesadilla. $10 menu cocktails off the fresh sheet — new ones every week.
+> $10 Big F’N Quesadilla. $10 Tequila Cocktails*.
 > Your Thursday just got a plan. Come get a little lost.
 
 ### Story set (each day)
@@ -49,7 +49,7 @@ Brand: Uno Más warm. Spell **Uno Más** with the accent. No reservation needed 
 > We gave every midweek night a reason.
 > 🌮 **Taco Tuesday** — BOGO street tacos · $6 margs · $30 marg pitchers
 > 🍺 **Beer & Bites Wednesday** — $5 pints · $10 loaded nachos · $10 loaded masa fries
-> 🧀 **Big F’N Thursday** — $10 Big F’N Quesadilla, $10 menu cocktails
+> 🧀 **Big F’N Thursday** — $10 Big F’N Quesadilla, $10 Tequila Cocktails*
 > Tuesday, Wednesday, Thursday at 2020 N Monroe. Dine in — grab your people.
 > → See the lineup: unomastacoshop.com/specials
 > — The Uno Más Team
@@ -57,7 +57,7 @@ Brand: Uno Más warm. Spell **Uno Más** with the accent. No reservation needed 
 ## SMS (weekly day-of templates)
 > Uno Más: Taco Tuesday 🌮 BOGO street tacos, $6 margs, $30 pitchers. 2020 N Monroe — come in. (reply STOP to opt out)
 > Uno Más: Beer & Bites Wednesday 🍺 $5 pints + $10 loaded nachos + $10 loaded masa fries. Midweek math. See you tonight. (STOP to opt out)
-> Uno Más: Big F’N Thursday 🧀 $10 Big F’N Quesadilla + $10 menu cocktails. Your Thursday plan is set. (STOP to opt out)
+> Uno Más: Big F’N Thursday 🧀 $10 Big F’N Quesadilla + $10 Tequila Cocktails*. Your Thursday plan is set. (STOP to opt out)
 
 ---
 
@@ -65,7 +65,7 @@ Brand: Uno Más warm. Spell **Uno Más** with the accent. No reservation needed 
 > **MIDWEEK AT UNO MÁS**
 > 🌮 Taco Tuesday — BOGO street tacos · $6 margs · $30 marg pitchers
 > 🍺 Beer & Bites Wednesday — $5 pints · $10 loaded nachos · $10 loaded masa fries
-> 🧀 Big F’N Thursday — $10 Big F’N Quesadilla + $10 menu cocktails
+> 🧀 Big F’N Thursday — $10 Big F’N Quesadilla + $10 Tequila Cocktails*
 > *Three reasons to get a little lost midweek.* · 2020 N Monroe
 
 ---
@@ -73,7 +73,7 @@ Brand: Uno Más warm. Spell **Uno Más** with the accent. No reservation needed 
 ## Website cards (the `/specials` page — see `specials-page-preview.html`)
 - **Taco Tuesday** — "BOGO street tacos. $6 margs. $30 marg pitchers." (Hot Pink)
 - **Beer & Bites Wednesday** — "$5 pints. $10 loaded nachos. $10 loaded masa fries. Math we can get behind." (Yellow)
-- **Big F’N Thursday** — "$10 Big F’N Quesadilla. $10 menu cocktails. New pours every week." (Blue)
+- **Big F’N Thursday** — "$10 Big F’N Quesadilla. $10 Tequila Cocktails*. " (Blue)
 - Homepage banner (rotates by day): "[TODAY] · [offer]" → links to `/specials`.
 
 > ⚠️ Still open (brief §9): exact **time windows** per day + dine-in/takeout · a real **pint/beer photo** for Beer & Bites Wed

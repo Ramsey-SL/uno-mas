@@ -1,12 +1,12 @@
 > ⚠️ **THURSDAY CHANGED (2026-08).** Burrito Thursday ($15 House Burrito or Bowl) is **RETIRED**.
 > Thursday is now **Big F’N Thursday** — $10 Big F’N Quesadilla (BFQ) + $10 menu tequila cocktail
-> fresh sheet, new cocktails every Thursday. Copy below has been updated. **Poster and AI-image
+> fresh sheet, . Copy below has been updated. **Poster and AI-image
 > assets for Thursday are still the retired burrito creative — new Thursday creative is needed.**
 
 > **Thursday image prompts below are RETIRED burrito creative.** Do not run sections referencing
 > "BURRITO THURSDAY" / "$15 house burrito or bowl". A Big F’N Thursday prompt set (hero: a big
 > griddled quesadilla, cut, cheese pulling, beside a tequila cocktail; accent Blue `#18BCDC`;
-> offer panel "$10 BIG F’N QUESADILLA · $10 MENU COCKTAILS") still needs to be written.
+> offer panel "$10 BIG F’N QUESADILLA · $10 TEQUILA COCKTAILS*") still needs to be written.
 
 # Daily Specials — Drop-in ChatGPT Image Prompts
 

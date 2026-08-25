@@ -1,0 +1,136 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Daily banners — rebalanced</title>
+<style>@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@600;700&family=Montserrat:wght@400;600;700;800;900&display=swap');
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#14171c;color:#e9ecf1;font-family:Montserrat,sans-serif;padding:0 0 90px}
+header.pg{background:#003366;padding:26px 28px;position:sticky;top:0;z-index:99;box-shadow:0 6px 22px rgba(0,0,0,.5)}
+header.pg h1{font-family:Antonio,sans-serif;text-transform:uppercase;font-size:27px;color:#fff;line-height:1}
+header.pg .s{color:#27F3DE;font-size:12px;font-weight:700;letter-spacing:.13em;text-transform:uppercase;margin-top:5px}
+main{max-width:1330px;margin:0 auto;padding:26px}
+.note{background:rgba(255,236,0,.08);border-left:3px solid #FFEC00;padding:15px 19px;border-radius:0 10px 10px 0;font-size:14px;line-height:1.62;color:#f0e6c0;margin-bottom:24px}
+.note b{color:#FFEC00} .note code{color:#18BCDC;font-size:12.5px}
+.opt{margin-bottom:34px;background:#1c2128;border:1px solid #2a313b;border-radius:14px;overflow:hidden}
+.opt .hd{padding:13px 18px;border-bottom:1px solid #2a313b;display:flex;gap:11px;align-items:flex-start;flex-wrap:wrap}
+.opt .id{background:#E22690;color:#fff;font-family:Antonio,sans-serif;font-weight:700;font-size:15px;padding:3px 11px;border-radius:6px;flex-shrink:0}
+.opt .nm{font-weight:700;color:#fff;font-size:15px;flex-shrink:0}
+.opt .why{color:#9aa4b2;font-size:12.5px;margin-left:auto;max-width:620px;text-align:right;line-height:1.5}
+.stage{background:#fff;padding:22px 0}
+
+.wrapouter{max-width:1200px;margin:0 auto;padding:0 16px}
+.flyer{position:relative;overflow:hidden;padding:34px 44px 50px;
+  clip-path:polygon(0 0,100% 0,100% calc(100% - 16px),96.5% 100%,93% calc(100% - 13px),89% 100%,85.5% calc(100% - 15px),82% 100%,78% calc(100% - 11px),74.5% 100%,71% calc(100% - 16px),67% 100%,63.5% calc(100% - 12px),60% 100%,56% calc(100% - 15px),52.5% 100%,49% calc(100% - 10px),45% 100%,41.5% calc(100% - 16px),38% 100%,34% calc(100% - 12px),30.5% 100%,27% calc(100% - 14px),23% 100%,19.5% calc(100% - 10px),16% 100%,12% calc(100% - 16px),8.5% 100%,5% calc(100% - 12px),0 100%);
+  box-shadow:0 26px 50px -28px rgba(0,0,0,.55)}
+.icn{position:absolute;pointer-events:none;opacity:.16}
+.icn.l{left:-14px;bottom:-10px;height:190px}
+.icn.r{right:-18px;top:-14px;height:150px}
+.core{position:relative;text-align:center;max-width:940px;margin:0 auto}
+.big{font-family:Antonio,sans-serif;font-weight:700;text-transform:uppercase;line-height:.88;
+  font-size:clamp(38px,5.2vw,56px)}
+.win{display:inline-block;font-weight:800;letter-spacing:.08em;text-transform:uppercase;
+  padding:6px 14px;border-radius:7px;margin-top:10px;font-size:13px}
+.rule{height:2px;margin:22px auto 0;width:120px;border-radius:2px}
+
+/* ── the rebalanced row: ITEM leads, price supports ── */
+.items{display:flex;flex-direction:column;gap:16px;margin-top:22px;text-align:left}
+.item{display:flex;align-items:baseline;gap:16px}
+.item .nmi{font-family:Antonio,sans-serif;font-weight:700;text-transform:uppercase;
+  font-size:34px;line-height:1;letter-spacing:.01em}
+.item .dots{flex:1;border-bottom:2px dotted;opacity:.28;transform:translateY(-7px)}
+.item .pr{font-family:Antonio,sans-serif;font-weight:700;font-size:30px;line-height:1;white-space:nowrap}
+.item .sub{font-weight:700;font-size:13.5px;letter-spacing:.02em;margin-top:3px;opacity:.72}
+.item .col{display:flex;flex-direction:column}
+
+/* ═══ E · CREAM + AGAVE ═══ */
+.E{background:#F6EFE2}
+.E::before{content:"";position:absolute;inset:0;pointer-events:none;opacity:.5;
+  background-image:radial-gradient(rgba(0,0,0,.05) 1px,transparent 1px);background-size:4px 4px}
+.E .big{color:#06243F}
+.E .win{background:#FFEC00;color:#06243F}
+.E .rule{background:rgba(6,36,63,.22)}
+.E .nmi{color:#06243F}.E .dots{border-color:#06243F}.E .pr{color:#E22690}.E .sub{color:#6b6355}
+
+/* ═══ F · NAVY + PAPEL PICADO ═══ */
+.F{background:#06243F}
+.F .papel{position:absolute;top:0;left:0;right:0;height:34px;opacity:.5;
+  background:repeating-linear-gradient(90deg,#E22690 0 34px,transparent 34px 40px,#18BCDC 40px 74px,transparent 74px 80px,#FFEC00 80px 114px,transparent 114px 120px);
+  mask-image:linear-gradient(#000 55%,transparent 100%);-webkit-mask-image:linear-gradient(#000 55%,transparent 100%)}
+.F::after{content:"";position:absolute;inset:0;pointer-events:none;opacity:.09;
+  background-image:radial-gradient(#fff 1px,transparent 1px);background-size:5px 5px}
+.F .big{color:#fff}
+.F .win{background:#FFEC00;color:#06243F}
+.F .rule{background:rgba(255,255,255,.24)}
+.F .nmi{color:#fff}.F .dots{border-color:#fff}.F .pr{color:#FFEC00}.F .sub{color:rgba(255,255,255,.62)}
+
+/* ═══ G · PAPER + BIG WATERMARK ICON ═══ */
+.G{background:#FFFBF3}
+.G .wm{position:absolute;right:-40px;top:50%;transform:translateY(-50%);height:300px;opacity:.10;pointer-events:none}
+.G .big{color:#06243F}
+.G .win{background:#18BCDC;color:#fff}
+.G .rule{background:rgba(6,36,63,.2)}
+.G .nmi{color:#06243F}.G .dots{border-color:#06243F}.G .pr{color:#E22690}.G .sub{color:#6b6355}
+
+@media(max-width:760px){.item{flex-direction:column;align-items:flex-start;gap:2px}.item .dots{display:none}
+  .item .nmi{font-size:26px}.item .pr{font-size:26px}}
+</style></head><body>
+<header class="pg"><h1>Rebalanced</h1><div class="s">Item leads · price supports · real icon art, no starbursts</div></header>
+<main>
+<div class="note">
+<b>What changed, and why.</b> You said the pricing being so big was taking away from <i>which products are on special</i> — so the hierarchy is flipped: <b>item name is now the largest element (34px Antonio)</b> and the <b>price supports it at 30px</b>. A dotted leader runs between them, menu-style, which also fixes the cramped spacing — each offer gets its own line with <b>16px between rows</b> instead of boxes jammed side by side.<br>
+<b>Starbursts are gone.</b> Replaced with your real DAM line-art — the taco, pint, quesadilla and agave marks already in Cloudinary — used large and low-opacity as background art rather than corner decoration.<br>
+<b>Three backgrounds to choose from</b>, same layout in each so you're judging the ground, not the structure.
+</div>
+
+<div class="opt"><div class="hd"><span class="id">E</span><span class="nm">Cream + agave, halftone</span>
+<span class="why">The flyer ground you already use. Line-art agave bleeds off the bottom-left, taco off the top-right, both at 16% — present but never competing with type. Warmest and most consistent with your print work.</span></div>
+<div class="stage"><div class="wrapouter"><div class="flyer E">
+  <img class="icn l" src="https://res.cloudinary.com/drxrfyq9i/image/upload/e_colorize,co_rgb:06243F/c_fit,h_400,f_auto,q_auto/uno-mas/website/icons/agave-teal" alt="">
+  <img class="icn r" src="https://res.cloudinary.com/drxrfyq9i/image/upload/e_make_transparent:45/e_colorize,co_rgb:E22690/e_trim/c_fit,h_320,f_auto,q_auto/TTAsset_2_4x_vv5mg9" alt="">
+  <div class="core">
+    <div class="big">Taco Tuesday</div>
+    <div class="rule"></div>
+    <div class="items">
+      <div class="item"><div class="col"><span class="nmi">Street Tacos</span><span class="sub">Buy one, get one &middot; till 5pm</span></div><span class="dots"></span><span class="pr">BOGO</span></div>
+      <div class="item"><div class="col"><span class="nmi">House Margaritas</span></div><span class="dots"></span><span class="pr">$6</span></div>
+      <div class="item"><div class="col"><span class="nmi">Margarita Pitchers</span></div><span class="dots"></span><span class="pr">$30</span></div>
+    </div>
+  </div>
+</div></div></div></div>
+
+<div class="opt"><div class="hd"><span class="id">F</span><span class="nm">Navy + papel picado</span>
+<span class="why">Papel picado banner across the top in your three accents — a real motif from the room itself, and already in your venue photography. Yellow prices on navy is the strongest contrast pairing you have. Reads at night, which suits Late Night Happy Hour.</span></div>
+<div class="stage"><div class="wrapouter"><div class="flyer F">
+  <div class="papel"></div>
+  <img class="icn l" src="https://res.cloudinary.com/drxrfyq9i/image/upload/e_make_transparent:45/e_colorize,co_rgb:FFFFFF/e_trim/c_fit,h_400,f_auto,q_auto/uno-mas/website/icons/addon-marg" alt="">
+  <div class="core">
+    <div class="big">Late Night Happy Hour</div>
+    <div class="win">Fri &ndash; Sat &middot; 8&ndash;10 PM</div>
+    <div class="rule"></div>
+    <div class="items">
+      <div class="item"><div class="col"><span class="nmi">Two Street Tacos</span><span class="sub">Pick any two proteins</span></div><span class="dots"></span><span class="pr">$10</span></div>
+      <div class="item"><div class="col"><span class="nmi">House Margaritas</span></div><span class="dots"></span><span class="pr">$6</span></div>
+      <div class="item"><div class="col"><span class="nmi">Palomas</span></div><span class="dots"></span><span class="pr">$8</span></div>
+      <div class="item"><div class="col"><span class="nmi">Margarita Pitchers</span></div><span class="dots"></span><span class="pr">$30</span></div>
+    </div>
+  </div>
+</div></div></div></div>
+
+<div class="opt"><div class="hd"><span class="id">G</span><span class="nm">Paper + oversized watermark</span>
+<span class="why">One big piece of line art as a watermark rather than several small ones — the day's own item, so Thursday shows the quesadilla. Cleanest of the three and the easiest to swap per day, since only the watermark changes.</span></div>
+<div class="stage"><div class="wrapouter"><div class="flyer G">
+  <img class="wm" src="https://res.cloudinary.com/drxrfyq9i/image/upload/e_make_transparent:45/e_colorize,co_rgb:06243F/e_trim/c_fit,h_620,f_auto,q_auto/uno-mas/website/icons/quesadilla-lineart-teal" alt="">
+  <div class="core">
+    <div class="big">Big F&rsquo;N Thursday</div>
+    <div class="rule"></div>
+    <div class="items">
+      <div class="item"><div class="col"><span class="nmi">Big F&rsquo;N Quesadilla</span><span class="sub">The size of a medium pizza</span></div><span class="dots"></span><span class="pr">$10</span></div>
+      <div class="item"><div class="col"><span class="nmi">Tequila Cocktails</span><span class="sub">*Menu cocktails only</span></div><span class="dots"></span><span class="pr">$10</span></div>
+    </div>
+  </div>
+</div></div></div></div>
+
+<div class="note" style="border-left-color:#27F3DE;background:rgba(39,243,222,.08);color:#c9f5ef">
+<b style="color:#27F3DE">Recommend G, with F reserved for Late Night Happy Hour.</b> <b>G</b> is the cleanest — one oversized watermark of the day's own item, so the art is thematic rather than decorative, and swapping days means swapping one image. <b>F</b>'s navy ground genuinely suits an 8–10pm offer in a way cream doesn't, so it's worth letting Late Night look different from the weekday tiles — that's meaningful difference, not inconsistency.<br>
+<b>On the hierarchy:</b> the dotted leader is doing real work. It's a menu convention, so the eye already knows to read <i>item … price</i>, and it removes the cramped-columns problem entirely by giving each offer its own line.<br>
+<b>Still open:</b> whether Late Night gets an hour gate (appear from ~4pm), and whether Sunday gets a tile at all given the existing brunch band.
+</div>
+</main></body></html>

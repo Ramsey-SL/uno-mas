@@ -111,7 +111,7 @@ Asset: `giftcard-feed-1080x1350.png` → links to the site
 > *Physical card, handed to you at checkout.*
 
 ### Section 2 — TONIGHT · Big F'N Thursday *(the reason to come today)*
-> **$10 Big F'N Quesadilla. $10 menu cocktails off the fresh sheet.**
+> **$10 Big F'N Quesadilla. $10 Tequila Cocktails*.**
 > Every Thursday, and the cocktails change every week.
 > **[See the menu →]**
 
@@ -139,7 +139,7 @@ Address, hours, unsubscribe. **Hours must read Tue–Thu 11am–8pm · Fri–Sat
 **Send 3–4pm** — after the lunch decision, before dinner plans lock.
 
 ```
-Big F'N Thursday: $10 Big F'N Quesadilla + $10 menu cocktails. Spend $50, get a $10 gift card. Late Night Happy Hour starts Fri, 8-10pm.
+Big F'N Thursday: $10 Big F'N Quesadilla + $10 Tequila Cocktails*. Spend $50, get a $10 gift card. Late Night Happy Hour starts Fri, 8-10pm.
 ```
 `GSM-7 · 125/160 units · 1 segment` — opt-out auto-appended, do not add it.
 
@@ -152,7 +152,7 @@ preview cushion.
 
 **Alternative — gift-card led**, if Thursday *covers* matter more than promoting the special:
 ```
-Spend $50 tonight, take a $10 gift card home. Plus Big F'N Thursday: $10 Big F'N Quesadilla + $10 menu cocktails.
+Spend $50 tonight, take a $10 gift card home. Plus Big F'N Thursday: $10 Big F'N Quesadilla + $10 Tequila Cocktails*.
 ```
 `GSM-7 · 1 segment`
 

@@ -4,7 +4,7 @@
 > A GPT/Gem configured before 2026-08-21 is **wrong** about all of these. Re-upload
 > `brand-context-pack.md` and paste this block into the Instructions field too.
 >
-> - **Thursday = Big F'N Thursday** ($10 Big F'N Quesadilla + $10 menu cocktails, fresh sheet). **Burrito Thursday is RETIRED.**
+> - **Thursday = Big F'N Thursday** ($10 Big F'N Quesadilla + $10 Tequila Cocktails*). **Burrito Thursday is RETIRED.**
 > - **Kid-friendly at all times — NO 21+ window anywhere, The Mezzanine included** (exceptions: ticketed events, alcohol purchase).
 > - **One loyalty program: The Cantina Club, and it is FREE.** Paid tiers are future-state, never referenced publicly. "Uno Más Rewards" and "The Guest List" are retired.
 > - **Hours: Tue–Thu 11am–8pm**, Fri–Sat 11am–10pm, Sun 10am–4pm, Mon closed.
