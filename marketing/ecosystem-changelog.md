@@ -16,6 +16,11 @@
 
 ---
 
+## 2026-08-25 — Chef doc: dropped the $16.50 explainer  [F2]
+**Ramsey:** *"you can remove this from the doc we are aligned."* Removed the *"Tacos only — no side. The regular 2-tacos-plus-side plate stays $16.50…"* line from the chef content-check sheet — that was internal reasoning for Ramsey, not something the kitchen needs to verify. The offer line is now simply *"Any two street tacos from the six below."*
+**Scoped to this doc only.** The "tacos only, no side" fact **remains** on the customer-facing print menu, the social cards, and in `CLAUDE.md` as a copy guard — it's a real table-side distinction for staff, just not a chef sign-off item.
+PDF regenerated, still 3 pages, verified by rendering page 1.
+
 ## 2026-08-25 — Paloma repriced $7 → $8; propagated across 20 surfaces  [F2]
 **Ruling:** Ramsey set the Late Night paloma at **$8** (was drafted at $7). Regular price $14.50, so a **$6.50 cut (45%)**.
 
