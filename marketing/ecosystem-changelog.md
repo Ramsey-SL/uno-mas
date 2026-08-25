@@ -16,6 +16,12 @@
 
 ---
 
+## 2026-08-25 — Chef doc final: sign-off block removed  [F2]
+**Ramsey:** *"remove the sign-off section, everything else is good."* Removed. The doc is now purely **offer → six tacos → excluded item → add-ons → drinks**, with no sign-off, no questions, no commentary. Still 2 pages.
+**Retargeted the top ask** so it doesn't reference a block that's gone — now *"Anything that's off, tell me and I'll fix it before this goes anywhere."*
+**Cleaned 2,319 characters of dead CSS** left behind by three rounds of removals — the `.signoff`, `.sigrow`, `.checks`, `.cbox`, `ol.q` and `strong.hl` rules, in both the screen and print blocks. Worth doing because this file is committed source that gets regenerated: orphaned selectors are how a stylesheet quietly rots into something nobody can safely edit.
+Verified by rendering both pages.
+
 ## 2026-08-25 — Chef doc trimmed to a pure content sheet · now 2 pages  [F2]
 **Three trims from Ramsey, all removing *my* reasoning rather than his content:**
 1. The **$16.50 explainer** under the offer line — internal rationale, not a chef verification item.

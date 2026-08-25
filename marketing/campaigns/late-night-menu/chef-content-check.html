@@ -147,19 +147,6 @@
   }
 
   /* ── questions ── */
-  ol.q{margin:0;padding:0;list-style:none;counter-reset:q;display:flex;flex-direction:column;gap:12px}
-  ol.q li{
-    counter-increment:q;background:var(--card);border:1px solid var(--hair);
-    border-radius:12px;padding:15px 17px 15px 52px;position:relative;box-shadow:var(--shadow);
-  }
-  ol.q li::before{
-    content:counter(q);position:absolute;left:15px;top:14px;
-    width:24px;height:24px;border-radius:50%;background:var(--pink);color:#fff;
-    font-family:Antonio,sans-serif;font-size:14px;font-weight:700;
-    display:flex;align-items:center;justify-content:center;
-  }
-  ol.q .qh{font-weight:700;margin:0 0 4px}
-  ol.q p{margin:0;color:var(--muted);font-size:14.5px}
 
   .fine{
     margin-top:16px;font-size:14px;color:var(--muted);
@@ -172,10 +159,6 @@
   footer .tag{
     font-family:Antonio,Impact,sans-serif;font-style:italic;font-weight:600;
     font-size:22px;color:var(--pink);display:block;margin-bottom:5px;
-  }
-  strong.hl{
-    background:linear-gradient(transparent 58%, var(--yellow) 58%, var(--yellow) 92%, transparent 92%);
-    color:var(--ink);font-weight:700;
   }
 
   /* ── PRINT ── force the light palette, keep colour, control breaks ── */
@@ -197,7 +180,7 @@
     .when{margin-top:10px;padding:6px 11px;font-size:11.5px}
     .eyebrow{font-size:9.5px;margin-bottom:7px}
     /* never split a card across a page */
-    ul.items li, ol.q li, .excluded, .ask, table, .signoff, .tablewrap{break-inside:avoid;page-break-inside:avoid}
+    ul.items li, .excluded, .ask, table, .tablewrap{break-inside:avoid;page-break-inside:avoid}
     h2.sec{break-after:avoid;page-break-after:avoid;margin:20px 0 2px;font-size:21px}
     .sec-note{font-size:12.5px;margin-bottom:10px}
     .ask{margin-top:16px;padding:13px 16px}
@@ -212,47 +195,13 @@
     .fine{margin-top:10px;padding-top:9px;font-size:12px}
     th,td{padding:8px}
     td.now{font-size:19px}
-    ol.q{gap:7px}
-    ol.q li{padding:10px 13px 10px 44px}
-    ol.q li::before{width:20px;height:20px;font-size:12px;left:13px;top:10px}
-    ol.q p{font-size:12.5px}
-    /* keep the sign-off and footer together — no orphan page */
-    .signoff{margin-top:20px;padding:14px 16px}
-    .signoff h2{font-size:19px}
-    .signoff p.lead{font-size:12.5px;margin-bottom:11px}
-    .checks{gap:6px;margin-bottom:11px}
-    .checks li{font-size:12.5px}
-    .siglabel{margin-bottom:18px;font-size:9px}
     footer{margin-top:16px;padding-top:11px;font-size:11px;break-before:avoid;page-break-before:avoid}
     footer .tag{font-size:18px;margin-bottom:3px}
   }
 
-  /* ── sign-off block ── */
-  .signoff{
-    margin-top:34px;background:var(--card);border:2px solid var(--navy);
-    border-radius:12px;padding:20px 22px;
-  }
-  .signoff h2{
-    font-family:Antonio,Impact,sans-serif;font-weight:700;text-transform:uppercase;
-    font-size:22px;letter-spacing:.02em;margin:0 0 6px;
-  }
-  .signoff p.lead{margin:0 0 18px;font-size:14.5px;color:var(--muted)}
-  .sigrow{display:flex;gap:22px;flex-wrap:wrap}
-  .sigrow > div{flex:1 1 190px}
-  .siglabel{
-    font-size:10px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;
-    color:var(--muted);margin-bottom:24px;
-  }
-  .sigline{border-bottom:1.5px solid var(--ink);height:0}
-  .checks{margin:0 0 18px;padding:0;list-style:none;display:flex;flex-direction:column;gap:9px}
-  .checks li{display:flex;gap:10px;align-items:flex-start;font-size:14.5px}
-  .cbox{
-    flex-shrink:0;width:15px;height:15px;border:1.5px solid var(--ink);
-    border-radius:3px;margin-top:4px;
-  }
 
   @media (prefers-reduced-motion:no-preference){
-    ul.items li,ol.q li{transition:border-color .15s ease}
+    ul.items li{transition:border-color .15s ease}
   }
 </style>
 
@@ -269,7 +218,7 @@
   <div class="ask">
     <h2>Maraya — what I need</h2>
     <p>Read the six tacos and three drinks below and tell me <strong>anything that's wrong</strong> — a description that doesn't match how you actually build it now, a protein that won't hold to 10pm, a price that's off.</p>
-    <p>Then tick the boxes at the bottom and sign. Nothing goes to print without it.</p>
+    <p>Anything that's off, tell me and I'll fix it before this goes anywhere.</p>
   </div>
 
   <h2 class="sec">The offer</h2>
@@ -334,24 +283,7 @@
     </table>
   </div>
 
-  <div class="signoff">
-    <h2>Sign-off</h2>
-    <p class="lead">Tick what's true, note anything that isn't, and sign. Nothing goes to print without this.</p>
-    <ul class="checks">
-      <li><span class="cbox"></span><span>All six taco descriptions match how we build them today.</span></li>
-      <li><span class="cbox"></span><span>All six proteins will hold through 10pm on a Friday and Saturday.</span></li>
-      <li><span class="cbox"></span><span>Excluding Camaron/shrimp is correct. Reason: ______________________________</span></li>
-      <li><span class="cbox"></span><span>The three drink prices are workable — margarita $6, paloma $8, pitcher $30.</span></li>
-    </ul>
-    <p class="lead" style="margin-bottom:22px"><strong>Corrections:</strong> _________________________________________________________________<br><br>
-    _______________________________________________________________________________</p>
-    <div class="sigrow">
-      <div><div class="siglabel">Chef signature</div><div class="sigline"></div></div>
-      <div><div class="siglabel">Date</div><div class="sigline"></div></div>
-    </div>
-  </div>
-
-  <footer>
+    <footer>
     <span class="tag">Get a little lost.</span>
     Uno Más Tacos &amp; Tequila &middot; 2020 N Monroe St, Suite C, Spokane<br>
     Content pulled from the current menu docs 2026-08-25. Nothing here is printed yet.
