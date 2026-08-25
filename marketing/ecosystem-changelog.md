@@ -16,6 +16,19 @@
 
 ---
 
+## 2026-08-25 — Taco Tuesday promo tile mockups · Cloudinary organization plan  [F7, F9]
+**Corrected target surface mid-task.** Started building announcement-bar variants; Ramsey clarified the promo should live in **the promo tile used for Full Send**, with the announcement bar only *reinforcing* it. Researched the real component before designing: **`FullSendBanner`**, inline in `src/routes/index.tsx`, a full-bleed torn-paper flyer rendered **above the hero** in a custom `max-width:1200px` wrapper, all copy in real HTML, Cloudinary art used only as two decorative cutouts, gated by a hardcoded `Date.now() < new Date(...)`.
+**Built 6 promo-tile mockups** in that exact idiom (torn clip-path, halftone, starbursts, yellow price boxes, teal ribbon, pink pill CTA), each shown with the announcement bar above and a hero marker below: A reuse-Full-Send · B photo band inside the flyer · C split photo/offer · D BOGO-as-hero · E navy variant · F compact strip. Served locally at `:8789`.
+**Recommendation given:** B for impact, **F for weekly use** — this runs 52×/year and a tall tile above the hero every Tuesday is how banner blindness starts.
+**🔴 Flagged a real engineering gap:** there is **no weekday-gating pattern in the codebase.** Existing promos use hardcoded date checks. A "Tuesdays only" tile needs `spokaneDayOfWeek()` (already present, timezone-safe) combined with the `WeekendSpecialBanner` hydration pattern, or SSR renders one day's answer and the client flips it. **Build it once and every future recurring daypart reuses it.**
+**Also caught while mocking the announcement bar:** at 390px the desktop copy wraps and overflows the fixed 40px bar. Mobile copy has a hard ceiling of ~30 characters including the CTA.
+
+**New: `marketing/cloudinary-organization-plan.md`** — answers the DAM organization question and assesses MediaFlows against four *live* problems. Key conclusions:
+- **The highest-value fix isn't automation, it's curation.** No `hero-approved` tag exists, so with ~1,350 assets the agent keeps reusing the same 3–4 it has hand-verified. A 25–40 asset tagging pass removes a verification step from every future design task. Logged as registry §4 item 22.
+- **Best MediaFlows use: auto-tag by resolution** → `needs-hires-swap` / `print-ok`. That makes the print gate mechanical instead of dependent on someone remembering, which is the failure mode that ends in a soft table tent.
+- **Smart Rename fixes the inflow but not the existing 31** — and registry item 19's recommendation is now explicitly **tag, don't rename**, since renaming changes delivery URLs the live site depends on.
+- ⚠️ **Blocking unknown: is MediaFlows even on the FREE plan, and do executions consume credits?** 25/month budget. If metered, build only the resolution flow. Logged as item 23.
+
 ## 2026-08-24 — Feedback round 2 (v3): assets rebuilt PHOTO-LED  [F7, F9]
 **Read `FEEDBACK.md` from the review page** and applied all three items.
 
