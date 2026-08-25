@@ -88,8 +88,14 @@ Live examples of the illustrated system: `campaigns/weekend-promos/executions-lo
 | | |
 |---|---|
 | **Tuesday** | Announce it — *"Our new weekly promo drop starts tomorrow."* No detail. |
-| **Wednesday** | Reveal it — the email explains the offer properly |
+| **Wednesday** | **Soft open.** Offer live, team briefed, table tents out. No consumer send. |
+| **Thursday** | **Launch.** The email explains the offer; the SMS drives that night. |
 | **Wed–Sun** | It runs |
+
+**On splitting the offer window from the launch day** *(pattern set 2026-08-25)*: the offer can go
+live before the marketing does. That keeps a promise already made to the list while giving the push
+a single, uncrowded day. **The condition is that staff are briefed before the soft open** — a guest
+who heard about it and gets a blank look is worse than no announcement at all.
 
 **Why "drop" and not "flash":** a flash implies hours. These run five days, and a word that
 overpromises stops meaning anything by week three. "Drop" carries the same recurring-anticipation

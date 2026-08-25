@@ -1,6 +1,6 @@
 # Gift Card Bounce-Back — Campaign Brief
 
-**Type:** promotion (limited window) · **Status:** 🟢 **LOCKED — Wed 2026-08-26 → Sun 2026-08-30** · physical gift card at checkout
+**Type:** promotion (limited window) · **Status:** 🟢 **OFFER LIVE Wed 2026-08-26 → Sun 2026-08-30** · **MARKETING LAUNCH Thu 2026-08-27** · physical gift card at checkout
 **Owner:** Ramsey · **Created:** 2026-08-23
 
 ---
@@ -40,7 +40,17 @@ Worth saying plainly, because it changes how you should talk about it:
 2. **Late Night launches next week** with $6 margs / $10 two-taco. Overlapping a spend-threshold
    promo with a discounted daypart compresses margin on the same ticket.
    **Recommend:** run the gift card promo **this week**, launch Late Night **next week**, don't overlap.
-3. ✅ **Dates LOCKED: Wed Aug 26 → Sun Aug 30.** Five days, ending Sunday so it captures brunch.
+3. ✅ **Two dates, not one (set 2026-08-25):**
+   - **Offer live: Wed Aug 26 → Sun Aug 30.** Unchanged. Any guest who hits the threshold Wednesday gets their card.
+   - **Marketing launch: Thu Aug 27.** The anchor email and the push happen Thursday, not Wednesday.
+
+   **Why this works:** the Tuesday SMS already told the list the drop "starts tomorrow," and it does —
+   so nothing said to a guest becomes untrue. Wednesday is a **soft open**: the offer is live and the
+   team can execute it, but no consumer announcement goes out. Thursday carries the volume.
+
+   **The cost of a soft open is real, though:** anyone who saw Tuesday's SMS and comes in Wednesday
+   expects something. **Staff must be briefed before Wednesday service** — "we don't know what you're
+   talking about" is the one outcome that damages the promo.
 
    **Overlap with Late Night accepted (Ramsey's call).** Late Night launches Fri Aug 28, so Fri/Sat
    run both. A guest can hit $50 on discounted Late Night items and still earn a $10 gift card.

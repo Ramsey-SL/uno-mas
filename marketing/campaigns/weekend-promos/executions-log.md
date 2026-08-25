@@ -25,7 +25,7 @@ run five days, and an overpromising word stops meaning anything by week three.
 | 1 | **Spend $60, get $10 off** — code word `MICKEY` | ~Aug 14–17 | 🔴 **OVER** — the first test |
 | 2 | **2 House Margs + Chip & Dip Trio — $30** | mid-Aug weekend | 🔴 **OVER** |
 | 3 | **Pick Your Full Send — $45 / $65** | **Aug 22–24** | 🟡 **RUNNING** (this weekend) |
-| 4 | **Gift card bounce-back** — $50→$10, $100→$20 (physical card at checkout) | **Wed Aug 26 → Sun Aug 30** | 🟢 **NEXT** — spans the weekend, so it **is** the Aug 28–30 weekend test. Overlaps the Late Night launch (Fri Aug 28); offers stack. See `campaigns/gift-card-bounceback-aug2026/` |
+| 4 | **Gift card bounce-back** — $50→$10, $100→$20 (physical card at checkout) | **offer Wed Aug 26 → Sun Aug 30 · marketing launch Thu Aug 27** | 🟢 **NEXT** — spans the weekend, so it **is** the Aug 28–30 weekend test. Overlaps the Late Night launch (Fri Aug 28); offers stack. See `campaigns/gift-card-bounceback-aug2026/` |
 
 ## 📈 The pattern — each test moves further from discounting
 

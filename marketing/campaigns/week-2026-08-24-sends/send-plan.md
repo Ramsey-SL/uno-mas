@@ -10,8 +10,8 @@
 | Day | Send | Carries | Why |
 |---|---|---|---|
 | **Tue Aug 25** | **SMS** | Taco Tuesday + tease Wednesday's gift card | Tuesday already works — use it to prime the soft day |
-| **Wed Aug 26** | **Email** | 🎁 **Gift card promo launch** + Beer & Bites + Late Night announce | Soft day, and the promo's first day. Email carries the most explanation. |
-| **Thu Aug 27** | **SMS** | Big F'N Thursday + gift card + Late Night tease | Soft day. Short, high-intent. |
+| **Wed Aug 26** | **no consumer send** | Offer goes live quietly · **staff-facing only** | **Soft open.** The offer works for anyone who walks in, but the announcement waits for Thursday. Table tents out, team briefed. |
+| **Thu Aug 27** | **EMAIL + SMS** | 🎁 **Gift card marketing launch** + Big F'N Thursday + Late Night announce | **The anchor day.** Email in the morning carries the explanation; SMS mid-afternoon drives the same night. |
 | **Fri Aug 28** | ⭐ **SMS — recommended add** | Late Night LAUNCH + gift card | Biggest news of the week. Drafted and ready. |
 
 ---
@@ -73,12 +73,31 @@ Friendly reminder: it's Taco Tuesday. BOGO street tacos till 5pm, $6 margs + $30
 
 ---
 
-## WEDNESDAY Aug 26 — EMAIL (the anchor send)
+## WEDNESDAY Aug 26 — NO CONSUMER SEND (soft open)
+
+**Nothing goes to the list.** The offer is live and the team can execute it, but the announcement
+is Thursday's job.
+
+**What still has to happen Wednesday:**
+- **Brief the team before service.** Anyone who saw Tuesday's SMS may ask about it. The script is
+  in this campaign's brief — *"Your total's $52, that hits our gift card deal, so here's a $10 gift
+  card for next time. It's already loaded."*
+- **Gift card table tents out** (`03_giftcard-graphics/giftcard-tabletent-750x1050.png`).
+- **Cards pre-loaded** — 140 × $10, 60 × $20.
+
+**Why no send:** doubling an announcement across Wednesday and Thursday splits attention and makes
+Thursday's push feel like a repeat. One launch day lands harder.
+
+---
+
+## THURSDAY Aug 27 — EMAIL (the anchor send)
 
 **Subject A:** `Spend $50, we'll hand you $10.`
 **Subject B:** `Here's $20 for next time.`
 **Subject C:** `$5 pints tonight. Plus we're giving away gift cards.`
 **Preview text:** `Gift card on us through Sunday. No expiration, no catch.`
+
+*(The offer has been live since Wednesday, so don't write "starts today" — write it as running.)*
 
 **One primary action: come in this week.** Modular sections, each with a real click target
 (per `campaign-architecture.md` §4 and the Canva Email Module System `DAHINHHZJng`).
@@ -91,10 +110,13 @@ Asset: `giftcard-feed-1080x1350.png` → links to the site
 > Wednesday through Sunday. No expiration — bring it back whenever.
 > *Physical card, handed to you at checkout.*
 
-### Section 2 — TONIGHT · Beer & Bites Wednesday *(the reason to come today)*
-> **$5 pints. $10 loaded nachos. $10 loaded masa fries.**
-> Every Wednesday. It's the easiest night of the week to end up here.
+### Section 2 — TONIGHT · Big F'N Thursday *(the reason to come today)*
+> **$10 Big F'N Quesadilla. $10 tequila cocktails off the fresh sheet.**
+> Every Thursday, and the cocktails change every week.
 > **[See the menu →]**
+
+*(Was Beer & Bites when this email sat on Wednesday. Moved with the send — the "tonight" section
+must always name the day it actually lands on.)*
 
 ### Section 3 — FRIDAY · Late Night launches *(new news)*
 Asset: `latenight-menu-1080x1350.png`
@@ -106,11 +128,13 @@ Asset: `latenight-menu-1080x1350.png`
 ### Section 4 — Footer
 Address, hours, unsubscribe. **Hours must read Tue–Thu 11am–8pm · Fri–Sat 11am–10pm · Sun 10am–4pm.**
 
-**Send time:** 10–11am Wednesday — ahead of both lunch and the dinner decision.
+**Send time:** 10–11am Thursday — ahead of both lunch and the dinner decision.
 
 ---
 
 ## THURSDAY Aug 27 — SMS  ✅ READY TO SEND
+
+⚠️ **Thursday now carries both sends** — the anchor email at 10–11am and this SMS at 3–4pm. Different jobs: the email explains the offer, the SMS drives that evening. That's a lot for one day, but it's one *launch*, which is the point.
 
 **Send 3–4pm** — after the lunch decision, before dinner plans lock.
 

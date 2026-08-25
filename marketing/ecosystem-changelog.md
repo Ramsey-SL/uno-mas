@@ -16,6 +16,23 @@
 
 ---
 
+## 2026-08-25 — Gift card: offer stays Wednesday, marketing launch moves to Thursday  [F7]
+**Ramsey wanted the launch pushed to Thursday. Flagged a timing conflict first:** the Tuesday SMS had **already gone out at 11am** saying the drop *"starts tomorrow"* — so a straight move to Thursday would have made a live message untrue. Gave three options rather than silently repointing dates.
+
+**His resolution — and it's the cleanest one:** the team gets what it needs to **execute from Wednesday**, while the **big pushes and announcements happen Thursday.** So the campaign now has **two dates, not one:**
+- **Offer live: Wed Aug 26 → Sun Aug 30** (unchanged — the SMS stays accurate)
+- **Marketing launch: Thu Aug 27**
+
+**Restructured accordingly:**
+- **Wednesday = soft open, no consumer send.** Offer works for walk-ins; table tents out; team briefed; cards pre-loaded. Recorded *why* no send: doubling the announcement across two days splits attention and makes Thursday feel like a repeat.
+- **Thursday = the anchor day**, carrying both the email (10–11am, explains) and the SMS (3–4pm, drives that night).
+- **The email's "tonight" section changed from Beer & Bites to Big F'N Thursday** — a "tonight" block must always name the day it actually lands on. That's the kind of thing that survives a date move unnoticed and then reads as sloppy.
+- Added a note not to write "starts today" in Thursday's email, since the offer will have been running since Wednesday.
+
+**Risk recorded prominently:** a soft open only works if **staff are briefed before Wednesday service.** Anyone who saw Tuesday's SMS may ask, and a blank look is worse than no announcement.
+**Pattern captured** in `campaign-architecture.md` §4c — an offer window and a launch day can be separated deliberately, on the condition that staff are ready first.
+**Propagated:** brief · send plan · executions log · campaign-architecture · HQ README and SMS file.
+
 ## 2026-08-25 — Chef doc final: sign-off block removed  [F2]
 **Ramsey:** *"remove the sign-off section, everything else is good."* Removed. The doc is now purely **offer → six tacos → excluded item → add-ons → drinks**, with no sign-off, no questions, no commentary. Still 2 pages.
 **Retargeted the top ask** so it doesn't reference a block that's gone — now *"Anything that's off, tell me and I'll fix it before this goes anywhere."*
