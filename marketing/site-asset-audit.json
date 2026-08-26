@@ -1,0 +1,813 @@
+[
+ {
+  "public_id": "20251028_MEZZ_VENUE_MezzBar_v1",
+  "w": 2730,
+  "h": 1536,
+  "bytes": 1742899,
+  "verdict": "print-ok",
+  "pages": [
+   "/mezzanine"
+  ]
+ },
+ {
+  "public_id": "20251028_MEZZ_VENUE_MezzBar_v2",
+  "w": 1536,
+  "h": 2048,
+  "bytes": 3470053,
+  "verdict": "NEEDS-HIRES-SWAP",
+  "pages": [
+   "/"
+  ]
+ },
+ {
+  "public_id": "20251028_MEZZ_VENUE_MezzFireplace_RAW",
+  "w": 1536,
+  "h": 2730,
+  "bytes": 1930489,
+  "verdict": "print-ok",
+  "pages": [
+   "/mezzanine"
+  ]
+ },
+ {
+  "public_id": "20251028_MEZZ_VENUE_MezzLounge_RAW",
+  "w": 1536,
+  "h": 2048,
+  "bytes": 1978993,
+  "verdict": "NEEDS-HIRES-SWAP",
+  "pages": [
+   "/",
+   "/mezzanine"
+  ]
+ },
+ {
+  "public_id": "20251028_MEZZ_VENUE_MezzMural_RAW",
+  "w": 1536,
+  "h": 2730,
+  "bytes": 1926078,
+  "verdict": "print-ok",
+  "pages": [
+   "/mezzanine"
+  ]
+ },
+ {
+  "public_id": "20251028_MEZZ_VENUE_MezzSeatingAndBar_RAW",
+  "w": 2730,
+  "h": 1536,
+  "bytes": 1946477,
+  "verdict": "print-ok",
+  "pages": [
+   "/",
+   "/about",
+   "/mezzanine"
+  ]
+ },
+ {
+  "public_id": "20251028_MEZZ_VENUE_MezzWatchParty_v5",
+  "w": 1536,
+  "h": 2048,
+  "bytes": 2969977,
+  "verdict": "NEEDS-HIRES-SWAP",
+  "pages": [
+   "/",
+   "/mezzanine"
+  ]
+ },
+ {
+  "public_id": "20251217_UM_VENUE_VenueInterior_FINAL_01",
+  "w": 2560,
+  "h": 1706,
+  "bytes": 795469,
+  "verdict": "print-ok",
+  "pages": [
+   "/about",
+   "/contact"
+  ]
+ },
+ {
+  "public_id": "20251217_UM_VENUE_VenueInterior_FINAL_11",
+  "w": 2560,
+  "h": 1706,
+  "bytes": 972099,
+  "verdict": "print-ok",
+  "pages": [
+   "/",
+   "/about"
+  ]
+ },
+ {
+  "public_id": "20251217_UM_VENUE_VenueInterior_FINAL_12",
+  "w": 2560,
+  "h": 1706,
+  "bytes": 868589,
+  "verdict": "print-ok",
+  "pages": [
+   "/"
+  ]
+ },
+ {
+  "public_id": "20260125_UM_FOOD_FoodOnTable_FINAL",
+  "w": 2541,
+  "h": 2560,
+  "bytes": 1150440,
+  "verdict": "print-ok",
+  "pages": [
+   "/",
+   "/menu"
+  ]
+ },
+ {
+  "public_id": "20260125_UM_FOOD_TacoCloseUpV10_FINAL",
+  "w": 2560,
+  "h": 2135,
+  "bytes": 1210343,
+  "verdict": "print-ok",
+  "pages": [
+   "/"
+  ]
+ },
+ {
+  "public_id": "20260125_UM_VENUE_InteriorDownstairsBar_FINAL",
+  "w": 2560,
+  "h": 1907,
+  "bytes": 1011845,
+  "verdict": "print-ok",
+  "pages": [
+   "/about",
+   "/private-events"
+  ]
+ },
+ {
+  "public_id": "20260203_UM_FOOD_FiestaPack_FINAL_02",
+  "w": 2560,
+  "h": 1970,
+  "bytes": 1084462,
+  "verdict": "print-ok",
+  "pages": [
+   "/fiesta-box"
+  ]
+ },
+ {
+  "public_id": "20260204_UM_FOOD_FiestaPack_FINAL",
+  "w": 2560,
+  "h": 2560,
+  "bytes": 2191086,
+  "verdict": "print-ok",
+  "pages": [
+   "/",
+   "/fiesta-box"
+  ]
+ },
+ {
+  "public_id": "20260207_UM_DRINK_PitcherAndMarg_FINAL",
+  "w": 1440,
+  "h": 2560,
+  "bytes": 426783,
+  "verdict": "print-ok",
+  "pages": [
+   "/"
+  ]
+ },
+ {
+  "public_id": "20260623_UM_FOOD_GrilledSteakPlatter",
+  "w": null,
+  "h": null,
+  "bytes": 0,
+  "verdict": "FETCH 404",
+  "pages": [
+   "/"
+  ]
+ },
+ {
+  "public_id": "20260623_UM_FOOD_LoadedCarneNachos",
+  "w": 1536,
+  "h": 2048,
+  "bytes": 4437751,
+  "verdict": "NEEDS-HIRES-SWAP",
+  "pages": [
+   "/",
+   "/catering",
+   "/menu"
+  ]
+ },
+ {
+  "public_id": "20260623_UM_FOOD_MexicanHotDogPlated",
+  "w": 1536,
+  "h": 2048,
+  "bytes": 3584904,
+  "verdict": "NEEDS-HIRES-SWAP",
+  "pages": [
+   "/"
+  ]
+ },
+ {
+  "public_id": "20260623_UM_FOOD_OystersOnIcePlatter",
+  "w": 1536,
+  "h": 2048,
+  "bytes": 4391969,
+  "verdict": "NEEDS-HIRES-SWAP",
+  "pages": [
+   "/menu"
+  ]
+ },
+ {
+  "public_id": "20260623_UM_FOOD_SkirtSteakFlameGrill",
+  "w": 1536,
+  "h": 2048,
+  "bytes": 4927617,
+  "verdict": "NEEDS-HIRES-SWAP",
+  "pages": [
+   "/",
+   "/menu"
+  ]
+ },
+ {
+  "public_id": "20260623_UM_FOOD_UnoMasBurritoTable",
+  "w": null,
+  "h": null,
+  "bytes": 0,
+  "verdict": "FETCH 404",
+  "pages": [
+   "/",
+   "/menu"
+  ]
+ },
+ {
+  "public_id": "20260623_UM_PATIO_PatioStringLights",
+  "w": 1536,
+  "h": 2048,
+  "bytes": 3335211,
+  "verdict": "NEEDS-HIRES-SWAP",
+  "pages": [
+   "/"
+  ]
+ },
+ {
+  "public_id": "20260623_UM_PATIO_PatioUmbrellaTable",
+  "w": 1536,
+  "h": 2048,
+  "bytes": 4283031,
+  "verdict": "NEEDS-HIRES-SWAP",
+  "pages": [
+   "/"
+  ]
+ },
+ {
+  "public_id": "20260623_UM_TEAM_BartendersServingShot",
+  "w": null,
+  "h": null,
+  "bytes": 0,
+  "verdict": "FETCH 404",
+  "pages": [
+   "/menu"
+  ]
+ },
+ {
+  "public_id": "20260623_UM_VENUE_GameDayBarLounge",
+  "w": 1536,
+  "h": 2048,
+  "bytes": 4502941,
+  "verdict": "NEEDS-HIRES-SWAP",
+  "pages": [
+   "/"
+  ]
+ },
+ {
+  "public_id": "20260623_UM_VENUE_NeonTubeGlasses",
+  "w": 2048,
+  "h": 1536,
+  "bytes": 4701315,
+  "verdict": "NEEDS-HIRES-SWAP",
+  "pages": [
+   "/"
+  ]
+ },
+ {
+  "public_id": "20260623_UM_VENUE_PapelPicadoBarArea",
+  "w": 1536,
+  "h": 2048,
+  "bytes": 4628129,
+  "verdict": "NEEDS-HIRES-SWAP",
+  "pages": [
+   "/now-hiring"
+  ]
+ },
+ {
+  "public_id": "20260623_UM_VENUE_PapelPicadoDiningRoom01",
+  "w": 2048,
+  "h": 1536,
+  "bytes": 5184514,
+  "verdict": "NEEDS-HIRES-SWAP",
+  "pages": [
+   "/"
+  ]
+ },
+ {
+  "public_id": "20260623_UM_VENUE_TealDiningRoomTables",
+  "w": 2048,
+  "h": 1536,
+  "bytes": 3546155,
+  "verdict": "NEEDS-HIRES-SWAP",
+  "pages": [
+   "/"
+  ]
+ },
+ {
+  "public_id": "2R7A8526",
+  "w": 2097,
+  "h": 2560,
+  "bytes": 895076,
+  "verdict": "print-ok",
+  "pages": [
+   "/"
+  ]
+ },
+ {
+  "public_id": "2R7A8620",
+  "w": 1893,
+  "h": 2560,
+  "bytes": 1128736,
+  "verdict": "print-ok",
+  "pages": [
+   "/"
+  ]
+ },
+ {
+  "public_id": "2R7A8685",
+  "w": 1981,
+  "h": 2560,
+  "bytes": 1199062,
+  "verdict": "print-ok",
+  "pages": [
+   "/"
+  ]
+ },
+ {
+  "public_id": "2R7A8711",
+  "w": 1706,
+  "h": 2560,
+  "bytes": 1515507,
+  "verdict": "print-ok",
+  "pages": [
+   "/"
+  ]
+ },
+ {
+  "public_id": "IMG_0245",
+  "w": 1920,
+  "h": 2560,
+  "bytes": 829115,
+  "verdict": "print-ok",
+  "pages": [
+   "/about"
+  ]
+ },
+ {
+  "public_id": "IMG_0891",
+  "w": 1920,
+  "h": 2560,
+  "bytes": 1596329,
+  "verdict": "print-ok",
+  "pages": [
+   "/about"
+  ]
+ },
+ {
+  "public_id": "IMG_1982",
+  "w": 1920,
+  "h": 2560,
+  "bytes": 1098672,
+  "verdict": "print-ok",
+  "pages": [
+   "/about"
+  ]
+ },
+ {
+  "public_id": "IMG_6376",
+  "w": 2560,
+  "h": 1920,
+  "bytes": 1567982,
+  "verdict": "print-ok",
+  "pages": [
+   "/about"
+  ]
+ },
+ {
+  "public_id": "IMG_7527",
+  "w": 2560,
+  "h": 1920,
+  "bytes": 1074311,
+  "verdict": "print-ok",
+  "pages": [
+   "/about"
+  ]
+ },
+ {
+  "public_id": "IMG_8229",
+  "w": 2560,
+  "h": 1920,
+  "bytes": 1137523,
+  "verdict": "print-ok",
+  "pages": [
+   "/about"
+  ]
+ },
+ {
+  "public_id": "IMG_8233",
+  "w": 2560,
+  "h": 1920,
+  "bytes": 1165612,
+  "verdict": "print-ok",
+  "pages": [
+   "/about"
+  ]
+ },
+ {
+  "public_id": "IMG_8403-1",
+  "w": 2560,
+  "h": 1920,
+  "bytes": 1331024,
+  "verdict": "print-ok",
+  "pages": [
+   "/about"
+  ]
+ },
+ {
+  "public_id": "IMG_8414",
+  "w": 2560,
+  "h": 1920,
+  "bytes": 1519062,
+  "verdict": "print-ok",
+  "pages": [
+   "/about"
+  ]
+ },
+ {
+  "public_id": "IMG_8415_2",
+  "w": 2560,
+  "h": 1920,
+  "bytes": 1501155,
+  "verdict": "print-ok",
+  "pages": [
+   "/about"
+  ]
+ },
+ {
+  "public_id": "IMG_8840-1",
+  "w": 2560,
+  "h": 1920,
+  "bytes": 1255643,
+  "verdict": "print-ok",
+  "pages": [
+   "/about"
+  ]
+ },
+ {
+  "public_id": "IMG_8874",
+  "w": 2560,
+  "h": 1920,
+  "bytes": 1272323,
+  "verdict": "print-ok",
+  "pages": [
+   "/about"
+  ]
+ },
+ {
+  "public_id": "IMG_8885",
+  "w": 2560,
+  "h": 1920,
+  "bytes": 1082489,
+  "verdict": "print-ok",
+  "pages": [
+   "/about"
+  ]
+ },
+ {
+  "public_id": "IMG_8890",
+  "w": 2560,
+  "h": 1920,
+  "bytes": 1299530,
+  "verdict": "print-ok",
+  "pages": [
+   "/about"
+  ]
+ },
+ {
+  "public_id": "IMG_9766",
+  "w": 2560,
+  "h": 1920,
+  "bytes": 1540640,
+  "verdict": "print-ok",
+  "pages": [
+   "/about"
+  ]
+ },
+ {
+  "public_id": "IMG_9862",
+  "w": 2560,
+  "h": 1920,
+  "bytes": 1297744,
+  "verdict": "print-ok",
+  "pages": [
+   "/about"
+  ]
+ },
+ {
+  "public_id": "IMG_9912",
+  "w": 2560,
+  "h": 1920,
+  "bytes": 1495947,
+  "verdict": "print-ok",
+  "pages": [
+   "/about"
+  ]
+ },
+ {
+  "public_id": "Mezz_Watch_Party_V5",
+  "w": null,
+  "h": null,
+  "bytes": 0,
+  "verdict": "FETCH 404",
+  "pages": [
+   "/",
+   "/mezzanine"
+  ]
+ },
+ {
+  "public_id": "Mezz_bar_flashing_lights_v1",
+  "w": null,
+  "h": null,
+  "bytes": 0,
+  "verdict": "FETCH 404",
+  "pages": [
+   "/mezzanine"
+  ]
+ },
+ {
+  "public_id": "Mezzaine_Mural_paning_up",
+  "w": null,
+  "h": null,
+  "bytes": 0,
+  "verdict": "FETCH 404",
+  "pages": [
+   "/mezzanine"
+  ]
+ },
+ {
+  "public_id": "TTAsset_2_4x_vv5mg9",
+  "w": 2110,
+  "h": 1316,
+  "bytes": 429591,
+  "verdict": "small-format only",
+  "pages": [
+   "/",
+   "/catering",
+   "/now-hiring"
+  ]
+ },
+ {
+  "public_id": "UM_-_Daily_Specials_-_June_2026_wtgpaz",
+  "w": 244,
+  "h": 481,
+  "bytes": 131507,
+  "verdict": "NEEDS-HIRES-SWAP",
+  "pages": [
+   "/",
+   "/catering",
+   "/now-hiring"
+  ]
+ },
+ {
+  "public_id": "UM_-_Videos_-_Food_-24",
+  "w": null,
+  "h": null,
+  "bytes": 0,
+  "verdict": "FETCH 404",
+  "pages": [
+   "/menu"
+  ]
+ },
+ {
+  "public_id": "UM_-_Videos_-_Food_-34",
+  "w": null,
+  "h": null,
+  "bytes": 0,
+  "verdict": "FETCH 404",
+  "pages": [
+   "/",
+   "/menu"
+  ]
+ },
+ {
+  "public_id": "UM_Logo_-_T_T-Pink_g7pvjz",
+  "w": 3077,
+  "h": 1577,
+  "bytes": 119034,
+  "verdict": "print-ok",
+  "pages": [
+   "/",
+   "/about"
+  ]
+ },
+ {
+  "public_id": "ariel_view_-_drone_footage_of_uno_mas_2",
+  "w": null,
+  "h": null,
+  "bytes": 0,
+  "verdict": "FETCH 404",
+  "pages": [
+   "/",
+   "/about"
+  ]
+ },
+ {
+  "public_id": "brunch_food_paning_v3",
+  "w": null,
+  "h": null,
+  "bytes": 0,
+  "verdict": "FETCH 404",
+  "pages": [
+   "/"
+  ]
+ },
+ {
+  "public_id": "carne-asada-knife-hero",
+  "w": 1536,
+  "h": 2048,
+  "bytes": 3973265,
+  "verdict": "NEEDS-HIRES-SWAP",
+  "pages": [
+   "/catering",
+   "/private-events"
+  ]
+ },
+ {
+  "public_id": "patio-daytime-blue-umbrellas",
+  "w": 1536,
+  "h": 2048,
+  "bytes": 1014159,
+  "verdict": "NEEDS-HIRES-SWAP",
+  "pages": [
+   "/",
+   "/private-events"
+  ]
+ },
+ {
+  "public_id": "uno-mas/website/icons/addon-chips",
+  "w": 1587,
+  "h": 2245,
+  "bytes": 1548135,
+  "verdict": "small-format only",
+  "pages": [
+   "/fiesta-box"
+  ]
+ },
+ {
+  "public_id": "uno-mas/website/icons/addon-churro",
+  "w": 1587,
+  "h": 2245,
+  "bytes": 1556485,
+  "verdict": "small-format only",
+  "pages": [
+   "/fiesta-box"
+  ]
+ },
+ {
+  "public_id": "uno-mas/website/icons/addon-marg",
+  "w": 1587,
+  "h": 2245,
+  "bytes": 1806634,
+  "verdict": "small-format only",
+  "pages": [
+   "/fiesta-box"
+  ]
+ },
+ {
+  "public_id": "uno-mas/website/icons/agave-teal",
+  "w": 3368,
+  "h": 2452,
+  "bytes": 125049,
+  "verdict": "print-ok",
+  "pages": [
+   "/",
+   "/about",
+   "/cantina-club",
+   "/catering",
+   "/contact",
+   "/fiesta-box",
+   "/giftcards",
+   "/menu",
+   "/mezzanine",
+   "/now-hiring",
+   "/private-events"
+  ]
+ },
+ {
+  "public_id": "uno-mas/website/icons/icons-pattern-forramsey-02-1",
+  "w": 8001,
+  "h": 8001,
+  "bytes": 1948039,
+  "verdict": "print-ok",
+  "pages": [
+   "/",
+   "/about",
+   "/cantina-club",
+   "/catering",
+   "/contact",
+   "/fiesta-box",
+   "/giftcards",
+   "/menu",
+   "/mezzanine",
+   "/now-hiring",
+   "/private-events"
+  ]
+ },
+ {
+  "public_id": "uno-mas/website/icons/quesadilla-lineart-teal",
+  "w": 2194,
+  "h": 1376,
+  "bytes": 1502082,
+  "verdict": "small-format only",
+  "pages": [
+   "/"
+  ]
+ },
+ {
+  "public_id": "v1780075623/uno-mas/approved-assets/photos/evxpzyftmm2npufta3db",
+  "w": 1731,
+  "h": 1404,
+  "bytes": 5020138,
+  "verdict": "NEEDS-HIRES-SWAP",
+  "pages": [
+   "/fiesta-box"
+  ]
+ },
+ {
+  "public_id": "v1781544415/uno-mas/website/cantina/d72ajps8zp3jflmqynne",
+  "w": 1920,
+  "h": 1440,
+  "bytes": 477211,
+  "verdict": "NEEDS-HIRES-SWAP",
+  "pages": [
+   "/",
+   "/contact",
+   "/private-events"
+  ]
+ },
+ {
+  "public_id": "v1781544417/uno-mas/website/cantina/x6pr9oakrtxj5dgbzikn",
+  "w": 1920,
+  "h": 1438,
+  "bytes": 500544,
+  "verdict": "NEEDS-HIRES-SWAP",
+  "pages": [
+   "/about",
+   "/private-events"
+  ]
+ },
+ {
+  "public_id": "v1781630828/20251028_MEZZ_VENUE_MezzFireplace_RAW",
+  "w": 1536,
+  "h": 2730,
+  "bytes": 1930489,
+  "verdict": "print-ok",
+  "pages": [
+   "/",
+   "/private-events"
+  ]
+ },
+ {
+  "public_id": "v1781630844/20251028_MEZZ_VENUE_MezzSeatingAndBar_RAW",
+  "w": 2730,
+  "h": 1536,
+  "bytes": 1946477,
+  "verdict": "print-ok",
+  "pages": [
+   "/mezzanine",
+   "/private-events"
+  ]
+ },
+ {
+  "public_id": "v1782019435/20260207_UM_DRINK_PitcherAndMarg_FINAL",
+  "w": 1440,
+  "h": 2560,
+  "bytes": 426783,
+  "verdict": "print-ok",
+  "pages": [
+   "/",
+   "/cantina-club"
+  ]
+ },
+ {
+  "public_id": "v1782019842/20260125_UM_FOOD_TacoCloseUpV10_FINAL",
+  "w": 2560,
+  "h": 2135,
+  "bytes": 1210343,
+  "verdict": "print-ok",
+  "pages": [
+   "/catering",
+   "/giftcards",
+   "/now-hiring"
+  ]
+ }
+]
