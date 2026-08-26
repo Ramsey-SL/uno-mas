@@ -6,6 +6,14 @@ Supersedes those as the reference; they remain for history.
 
 **Cloud name:** `drxrfyq9i` · **Plan:** FREE — 25 credits/month, images ≤10 MB, videos ≤100 MB
 
+> ⚠️ **Library size is UNRESOLVED, and every recommendation below depends on it.**
+> `cloudinary-organization-plan.md` says **~1,350 assets**. `cloudinary-gpt-action-setup.md` says the
+> scope expression was **verified at 154** (uno-mas 100 + mezzanine 14 + the website/buildout set) on
+> 2026-06-17. Those cannot both be true — and ~141 assets tagged `needs-hires-swap` is impossible
+> against a 154-asset library. **Do not plan a tagging pass until `scripts/cloudinary-audit.py` has
+> run and settled the number.** A 30-minute hand-curation pass and a 1,350-asset triage are very
+> different jobs.
+
 ---
 
 ## 1. What Cloudinary is *for* here
@@ -68,11 +76,41 @@ Tags in use today: `website`, `uno-mas`, `approved-assets`, `category-<cat>`, `i
 **~141 assets are 2048px iCloud shared-album derivatives**, tagged `shared-album-2048` +
 `needs-hires-swap`. They are **digital/social only.**
 
+### 🔴 The 2048 trap — corrected 2026-08-25
+
+**A long-edge threshold of 2000px does not work.** The iCloud shared-album derivatives are
+**exactly 2048px on the long edge** (typically 1536×2048 or 2048×1536), so they *pass* a
+`>= 2000` test while being precisely the assets this gate exists to stop.
+
+Verified by fetching the originals on 2026-08-25 — all four June assets used on the live
+Wednesday and Thursday tiles are **1536×2048**:
+`20260623_UM_FOOD_LoadedCarneNachos` · `20260623_UM_VENUE_GameDayBarLounge` ·
+`20260623_UM_FOOD_SkirtSteakFlameGrill` · `20260623_UM_FOOD_MexicanHotDogPlated`
+
+**Correct rule — test the LONG edge only:**
+
+| Long edge | Verdict |
+|---|---|
+| `<= 2048` | **suspect — treat as `needs-hires-swap`** (2048 is the shared-album signature) |
+| `2049–2399` | small format only, judge case by case |
+| `>= 2400` | `print-ok` |
+
+⚠️ **This invalidates Flow 1 as written in `cloudinary-organization-plan.md`.** That condition,
+`width < 2000 OR height < 2000`, marks a 1536×2048 asset `print-ok` because its *height* passes.
+Corrected there too.
+
 **Before any print piece:** check the tag. If present → swap in the original from Drive, or say it
 needs a hi-res replacement. **Never silently upscale.**
 
-Known print-safe: `20260814_UM_PROMO_WeekendSpecial_Portrait` (3506×4381) · `..._Wide` (6000×2000) ·
-`20260125_UM_FOOD_TacoCloseUpV10_FINAL` (2560×2135) · `20260125_UM_FOOD_FoodOnTable_FINAL` (2541×2560).
+**Known print-safe** *(public_ids re-verified by fetch 2026-08-25 — the two PROMO assets are
+path-based, NOT bare; the bare form returns 404):*
+
+| public_id | Dimensions |
+|---|---|
+| `uno-mas/approved-assets/photos/promo/20260814_UM_PROMO_WeekendSpecial_Portrait` | 3506×4381 |
+| `uno-mas/approved-assets/photos/promo/20260814_UM_PROMO_WeekendSpecial_Wide` | 6000×2000 |
+| `20260125_UM_FOOD_TacoCloseUpV10_FINAL` | 2560×2135 ✅ re-verified |
+| `20260125_UM_FOOD_FoodOnTable_FINAL` | 2541×2560 ✅ re-verified |
 
 **Verify resolution rather than assuming** — `curl` the asset and check dimensions. Several 2026-06
 assets that *look* like finals are 1536×2048.
@@ -139,7 +177,10 @@ verify by fetching delivery URLs.
 - **Authorize the Cloudinary connector** in claude.ai connector settings *(easiest — then I can search and audit directly)*, or
 - Tell me where a **Master API key** lives locally and I'll drive the Admin API by curl.
 
-**What I'd do first once unblocked:**
+**The audit is already written** — `scripts/cloudinary-audit.py`. Read-only: it never uploads,
+renames, retags or deletes. Set `CLOUDINARY_URL` and run it; `--csv out.csv` dumps the full table.
+
+**What it reports:**
 1. Full inventory — count, folders, total bytes, credit usage.
 2. Audit `needs-hires-swap` against actual dimensions — confirm the ~141 figure and find any low-res asset *missing* the tag. **That's the dangerous case.**
 3. List candidates for `hero-approved` so the tagging pass is a review rather than a hunt.

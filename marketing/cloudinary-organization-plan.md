@@ -9,7 +9,7 @@ and old ones get reused, and whether Cloudinary **MediaFlows** can automate it.
 
 | # | Problem | Evidence |
 |---|---|---|
-| 1 | **No way to tell good assets from merely present ones.** ~1,350 assets, but the agent keeps reaching for the same 3–4 because nothing marks which are *hero-quality*. | Every mockup this month used `TacoCloseUpV10_FINAL` or `PitcherAndMarg_FINAL` |
+| 1 | **No way to tell good assets from merely present ones.** ~1,350 assets *(⚠️ DISPUTED — the GPT-action doc says 154. Run `scripts/cloudinary-audit.py` before trusting either number)*, but the agent keeps reaching for the same 3–4 because nothing marks which are *hero-quality*. | Every mockup this month used `TacoCloseUpV10_FINAL` or `PitcherAndMarg_FINAL` |
 | 2 | **`needs-hires-swap` is applied manually and inconsistently.** ~141 assets carry it; the tag is the only thing standing between a 2048px derivative and a printed table tent. | Registry §2, print gate in `/unomas-design` |
 | 3 | **31 live-site assets violate the naming convention** (`IMG_0245`, `2R7A8526`, `carne-asada-knife-hero`) — invisible to a convention-based search. | Registry §4 item 19 |
 | 4 | **Expired campaign assets sit alongside live ones.** `pick-your-full-send-aug2026` is still in `website/promos/` with nothing marking it as finished. | Full Send ended Aug 24 |
@@ -38,7 +38,13 @@ MediaFlows is Cloudinary's automation builder (upload triggers → actions). Jud
 problems above, **three are a real fit and two are the strongest ROI:**
 
 ### ⭐ Flow 1 — Auto-tag by resolution *(solves problem 2 outright)*
-**Trigger:** on upload. **Condition:** `width < 2000 OR height < 2000`. **Action:** add tag `needs-hires-swap`. Else add `print-ok`.
+**Trigger:** on upload. **Condition:** `max(width, height) <= 2048` → tag `needs-hires-swap`.
+Else if `max(width, height) >= 2400` → tag `print-ok`.
+
+> **Corrected 2026-08-25.** This originally read `width < 2000 OR height < 2000`, which is wrong.
+> The shared-album derivatives are exactly 1536×2048, so a long edge of 2048 clears a 2000px test
+> and the asset gets marked print-safe — the exact mistake the flow exists to prevent. Verified
+> against four assets live on the site. Test the **long edge only**.
 
 This is the one to build first. The print gate currently depends on someone remembering to tag —
 which is exactly the kind of thing that fails silently and ends with a soft table tent. Make it
