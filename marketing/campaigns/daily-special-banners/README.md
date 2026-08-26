@@ -57,3 +57,74 @@ with opacity.
 `no-overlap`, `compare-live-tiles`) are kept only as a record of what was rejected and why —
 `compare-live-tiles.html` is the useful one, it's the side-by-side that showed Full Send
 carried ten craft elements against the simplified tile's three.
+
+---
+
+# Collision handling — weekly promo × day special (shipped 2026-08-25)
+
+**Chosen: E1 — crossfade rotator with a flipping reference bar.**
+
+`PromoSlot` now owns every decision. The tiles are presentational and gate nothing.
+
+| Weekly promo live? | Day special today? | Renders |
+|---|---|---|
+| no | no | `null` |
+| no | yes | solo day tile, no bar |
+| yes | no | solo weekly tile, no bar |
+| **yes** | **yes** | **rotator + flipping bar** |
+
+## Rules the rotator encodes
+
+- **Slide 1 is always the weekly promo.** It expires; the day special doesn't. Slide two
+  reliably gets less attention, so whatever must be seen goes first — permanently.
+- **The bar always carries the offer that is NOT in the hero.** It flips with the tile. This is
+  what makes the rotator safe: a guest who never waits for slide two still reads both offers,
+  and a screen reader gets both from a single pass.
+- **Offset crossfade** — outgoing `opacity .32s ease-out`, incoming `opacity .5s ease-in .18s`.
+  The 180ms delay means the two tiles are never both at half opacity, so there is no unreadable
+  beat mid-transition. Do not "simplify" this to a symmetric fade.
+- **5000ms dwell.** Noted at design time that this is short for the longest tile (~14 words plus
+  two qualifiers); Ramsey chose 5s. Change `ROTATE_MS` in `PromoSlot.tsx` if it reads rushed live.
+- **Height is locked** with `.track{display:grid}` + both slides at `grid-area:1/1`. The slot
+  takes the taller tile so the page never jumps. **Keep collision-day tiles close in length.**
+- Pauses on hover and on focus. An explicit pause via the button outranks both and stays paused.
+  `IntersectionObserver` at 0.35 stops it rotating off screen.
+- `prefers-reduced-motion: reduce` → no rotation at all, both tiles stacked and static, no bar,
+  no controls, no interval.
+
+## Accessibility — three defects found and fixed post-ship
+
+1. The inactive slide was `aria-hidden` but its `<Link>` was still keyboard-focusable — focus
+   landed in a hidden subtree and announced nothing (WCAG 4.1.2). Now `tabIndex={-1}` +
+   `aria-hidden` on the inactive link itself.
+2. Dots declared `role="tab"` / `aria-selected` with no `tablist` and no `tabpanel` — invalid
+   ARIA. Now plain buttons with `aria-label`, active state via a `.on` class.
+3. The control cluster sat directly on top of `.corner.rgt`, so the dots and the pause button
+   were invisible over a dark photo. Now on a translucent cream pill with a shadow.
+
+**Rule for any future overlay control:** the bottom corners belong to the photos. Anything placed
+there needs its own ground, not a heavier tint.
+
+## Files
+
+- `src/components/PromoSlot.tsx` — all decisions, the rotator, the bar
+- `src/components/DaySpecialBanner.tsx` — now exports `PromoTile` (presentational), `DS_CSS`, `DS_TEAR`
+- `src/config/daySpecials.ts` — three day configs, each with `barLabel` + `barItems`
+- `src/config/weeklyPromo.ts` — `WEEKLY_PROMOS` + `useActiveWeeklyPromo()`
+- `src/components/useIsSpokaneDay.ts` — adds `spokaneDateISO()` and `useIsSpokaneWithin(start,end)`
+
+Adding a weekly promo is one entry in `WEEKLY_PROMOS` with a Spokane date window. Collision
+handling is then automatic.
+
+## ⚠ Needs Ramsey's confirmation
+
+The gift card window is set **2026-08-27 → 2026-08-30** — the *marketing launch* date, so the
+tile does not announce the promo before the Thursday push. The *offer* window was discussed as
+starting Wednesday 08-26. If the tile should be up for the Wednesday soft open, change
+`startISO` to `"2026-08-26"`. One line.
+
+## Not solved
+
+Fri/Sat, **Late Night Happy Hour (8–10pm) overlaps the gift card promo** — three offers in one
+slot, and Late Night needs an *hour* gate as well as a day gate. `PromoSlot` currently handles
+exactly two. Launch is 2026-08-28.
