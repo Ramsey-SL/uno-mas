@@ -1,0 +1,238 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Gift Card Table Topper</title>
+<style>@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@400;600;700&family=Montserrat:wght@400;600;700;800&display=swap');
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--pink:#E22690;--pinka:#C81E74;--blue:#18BCDC;--navy:#003366;--nd:#06243F;--yel:#FFEC00;--cream:#FCFAF4;
+ --d:"Antonio",Impact,sans-serif;--s:"Montserrat",system-ui,sans-serif}
+body{background:#14171c;color:#e9ecf1;font-family:var(--s);padding:0 0 120px}
+header.pg{background:#003366;padding:22px 28px;position:sticky;top:0;z-index:999;box-shadow:0 6px 22px rgba(0,0,0,.5)}
+header.pg h1{font-family:var(--d);text-transform:uppercase;font-size:25px;color:#fff;line-height:1}
+header.pg .s{color:#27F3DE;font-size:12px;font-weight:700;letter-spacing:.13em;text-transform:uppercase;margin-top:5px}
+header.pg .tools{margin-top:12px;display:flex;gap:9px;flex-wrap:wrap}
+header.pg button{background:#E22690;border:0;color:#fff;font-size:11px;font-weight:800;letter-spacing:.06em;
+ text-transform:uppercase;padding:7px 13px;border-radius:6px;cursor:pointer}
+header.pg button.alt{background:rgba(255,255,255,.14)}
+main{max-width:1500px;margin:0 auto;padding:24px}
+.note{background:rgba(39,243,222,.08);border-left:3px solid #27F3DE;padding:15px 19px;border-radius:0 10px 10px 0;
+ font-size:13.5px;line-height:1.62;color:#c9f5ef;margin-bottom:22px}
+.note b{color:#27F3DE}.note code{color:#FFEC00;font-size:12px}
+.note.warn{background:rgba(255,236,0,.07);border-left-color:#FFEC00;color:#f2ecc4}.note.warn b{color:#FFEC00}
+.grid{display:flex;gap:26px;flex-wrap:wrap;align-items:flex-start}
+.slot{background:#1c2128;border:1px solid #2a313b;border-radius:14px;overflow:hidden}
+.slot .hd{padding:11px 15px;border-bottom:1px solid #2a313b;display:flex;gap:10px;align-items:baseline}
+.slot .tag{background:#E22690;color:#fff;font-family:var(--d);font-weight:700;font-size:14px;padding:1px 10px;border-radius:5px}
+.slot .nm{font-weight:700;color:#fff;font-size:14px}
+.slot .why{color:#93a0b1;font-size:11.5px;line-height:1.5;padding:10px 15px 13px;max-width:5.5in}
+.stage{padding:16px;background:#0e1116;display:flex;justify-content:center}
+.scaler{transform:scale(.62);transform-origin:top center;height:calc(8.5in * .62)}
+
+/* ─── the artboard: 5.5 x 8.5 in half page ─── */
+.tt{position:relative;width:5.5in;height:8.5in;overflow:hidden;background:var(--cream);
+ box-shadow:0 20px 46px -20px rgba(0,0,0,.8)}
+.tt *{box-sizing:border-box}
+.tt .safe{position:absolute;inset:.25in;pointer-events:none;outline:1px dashed rgba(226,38,144,.5);display:none}
+body.guides .tt .safe{display:block}
+body.guides .tt::after{content:"BLEED .125in";position:absolute;left:0;bottom:2px;font:700 6px var(--s);
+ letter-spacing:.1em;color:rgba(226,38,144,.75);z-index:99}
+.tt .brst{position:absolute;pointer-events:none}
+.tt .spk{position:absolute;pointer-events:none}
+.tt .ul{display:block;height:.16in;width:2.9in}
+.tt .ul path{fill:var(--pink)}
+.tt .kick{font-family:var(--d);font-weight:700;text-transform:uppercase;letter-spacing:.2em;font-size:11.5pt}
+.tt .big{font-family:var(--d);font-weight:700;text-transform:uppercase;line-height:.84;letter-spacing:-.015em}
+.tt .halft{position:absolute;pointer-events:none;background-image:radial-gradient(currentColor 1.6px,transparent 1.7px);
+ background-size:8px 8px;-webkit-mask-image:radial-gradient(circle at 50% 50%,#000 42%,transparent 74%);
+ mask-image:radial-gradient(circle at 50% 50%,#000 42%,transparent 74%)}
+.tt .sw{position:absolute;inset:0;width:100%;height:100%}
+.tt .fine{font-family:var(--s);font-size:6.6pt;line-height:1.42;letter-spacing:.01em}
+.tt .logo{display:block;width:1.85in;margin:0 auto}
+
+/* A — Full Send lineage */
+.A{padding:.42in .4in .3in}
+.A .flyer::before{content:"";position:absolute;inset:0;pointer-events:none;opacity:.5;
+ background-image:radial-gradient(rgba(0,0,0,.05) 1px,transparent 1px);background-size:4px 4px}
+.A .brst.p{color:var(--pink);width:2in;right:-.55in;top:-.6in}
+.A .brst.t{color:var(--blue);width:1.4in;left:-.4in;top:-.45in}
+.A .spk.a{right:22%;top:.28in;width:.42in;height:.42in}
+.A .spk.b{left:.34in;bottom:2.5in;width:.34in;height:.34in}
+.A .core{position:relative;text-align:center}
+.A .tier{position:relative;display:flex;align-items:center;gap:.14in;padding:.13in .2in .13in .15in;margin:0 auto .14in;width:4.1in}
+.A .tier .amt{position:relative;font-family:var(--d);font-weight:700;font-size:44pt;line-height:.86;color:var(--nd);flex:none;width:1.35in;text-align:left}
+.A .tier .lbl{position:relative;font-family:var(--d);font-weight:700;text-transform:uppercase;font-size:12.5pt;
+ line-height:1.06;color:var(--nd);text-align:left}
+.A .tier .lbl small{display:block;font-family:var(--s);font-weight:700;font-size:7.2pt;letter-spacing:.06em;color:var(--pinka);margin-top:.03in}
+
+/* B — big number stack on navy */
+.B{background:var(--nd);color:#fff;padding:.5in .42in .34in;display:flex;flex-direction:column}
+.B .halft{left:50%;top:2.1in;width:4in;height:3in;margin-left:-2in;color:var(--blue);opacity:.3}
+.B .rows{position:relative;flex:1;display:flex;flex-direction:column;justify-content:center;gap:.26in}
+.B .row{border-top:2.5px solid rgba(255,255,255,.2);padding-top:.16in}
+.B .row:first-child{border-top:0}
+.B .num{font-family:var(--d);font-weight:700;font-size:78pt;line-height:.8;color:var(--yel);letter-spacing:-.02em}
+.B .cap{font-family:var(--d);font-weight:700;text-transform:uppercase;font-size:14pt;line-height:1.04;color:#fff;margin-top:.06in}
+.B .cap i{font-style:normal;color:var(--blue)}
+.B .when{font-family:var(--s);font-weight:800;font-size:7.4pt;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,255,255,.55);margin-top:.05in}
+
+/* C — photo top, offer bottom */
+.C{display:flex;flex-direction:column}
+.C .ph{position:relative;height:3.75in;overflow:hidden;flex:none}
+.C .ph img{width:100%;height:100%;object-fit:cover;display:block}
+.C .ph .veil{position:absolute;inset:auto 0 0 0;height:1.1in;
+ background:linear-gradient(to bottom,rgba(6,36,63,0),rgba(6,36,63,.82))}
+.C .ph .over{position:absolute;left:.38in;right:.38in;bottom:.2in;text-align:center;color:#fff}
+.C .body{flex:1;background:var(--cream);padding:.34in .42in .3in;text-align:center;position:relative}
+.C .tiers{display:flex;gap:.16in;justify-content:center;margin:.2in 0 .22in}
+.C .t{position:relative;flex:1;padding:.19in .1in .17in}
+.C .t .n{position:relative;font-family:var(--d);font-weight:700;font-size:40pt;line-height:.85;color:var(--nd)}
+.C .t .c{position:relative;font-family:var(--d);font-weight:700;text-transform:uppercase;font-size:9.6pt;line-height:1.1;color:var(--nd);margin-top:.04in}
+.C .t .c small{display:block;font-family:var(--s);font-weight:700;font-size:6.6pt;letter-spacing:.05em;color:var(--pinka);margin-top:.03in}
+
+/* D — the gift card as hero object */
+.D{background:linear-gradient(158deg,#06243F 0%,#0B3357 52%,#0F1E33 100%);color:#fff;padding:.46in .42in .32in;
+ display:flex;flex-direction:column;text-align:center}
+.D .halft{right:-1in;top:4.3in;width:4in;height:3.4in;color:var(--pink);opacity:.3}
+.D .cardwrap{position:relative;height:2.5in;margin:.2in 0 .1in}
+.D .gc{position:absolute;left:50%;width:3.15in;height:1.95in;border-radius:.13in;padding:.19in;
+ display:flex;flex-direction:column;justify-content:space-between;text-align:left;
+ box-shadow:0 .16in .3in -.1in rgba(0,0,0,.62)}
+.D .gc.one{background:linear-gradient(140deg,#18BCDC,#0E93AF);transform:translate(-58%,0) rotate(-8deg)}
+.D .gc.two{background:linear-gradient(140deg,#E22690,#A8175C);transform:translate(-42%,.5in) rotate(6deg)}
+.D .gc .v{font-family:var(--d);font-weight:700;font-size:40pt;line-height:.82;color:#fff}
+.D .gc .m{font-family:var(--s);font-weight:800;font-size:6.8pt;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.85)}
+.D .gc .b{font-family:var(--d);font-weight:700;text-transform:uppercase;font-size:9.5pt;letter-spacing:.03em;color:#fff}
+.D .rule{width:.9in;height:3px;background:var(--yel);margin:.16in auto .14in}
+
+/* E — ticket / coupon stub */
+.E{background:var(--cream);padding:.34in .3in .26in;display:flex;flex-direction:column}
+.E .tick{position:relative;background:#fff;border:2.5px solid var(--nd);flex:1;display:flex;flex-direction:column;
+ padding:.34in .3in .26in;text-align:center}
+.E .tick::before,.E .tick::after{content:"";position:absolute;left:-.09in;right:-.09in;height:.16in;
+ background-image:radial-gradient(circle at .08in 50%,var(--cream) .075in,transparent .078in);
+ background-size:.16in .16in;background-repeat:repeat-x}
+.E .tick::before{top:-.08in}.E .tick::after{bottom:-.08in}
+.E .perf{border-top:2.5px dashed rgba(6,36,63,.28);margin:.2in -.3in .2in;position:relative}
+.E .perf span{position:absolute;left:50%;top:-.09in;transform:translateX(-50%);background:#fff;padding:0 .1in;
+ font-family:var(--s);font-weight:800;font-size:6.2pt;letter-spacing:.2em;text-transform:uppercase;color:rgba(6,36,63,.45)}
+.E .strip{position:relative;overflow:hidden;height:1.15in;margin:.16in -.3in .1in}
+.E .strip img{width:100%;height:100%;object-fit:cover;display:block}
+.E .row2{display:flex;gap:.2in;justify-content:center;align-items:flex-start;margin-top:.1in}
+.E .cell .n{font-family:var(--d);font-weight:700;font-size:46pt;line-height:.82;color:var(--pink)}
+.E .cell .c{font-family:var(--d);font-weight:700;text-transform:uppercase;font-size:10pt;line-height:1.08;color:var(--nd);margin-top:.03in}
+.E .cell .c small{display:block;font-family:var(--s);font-weight:700;font-size:6.4pt;letter-spacing:.05em;color:var(--pinka);margin-top:.02in}
+.E .vs{font-family:var(--d);font-weight:700;font-size:13pt;color:rgba(6,36,63,.3);align-self:center}
+
+@media print{
+  @page{size:5.5in 8.5in;margin:0}
+  body{background:#fff;padding:0}
+  header.pg,.note,main>h2,.slot .hd,.slot .why{display:none!important}
+  main,.grid,.slot,.stage{all:unset;display:block}
+  .scaler{transform:none;height:auto}
+  .tt{box-shadow:none;page-break-after:always;break-after:page}
+  .tt .safe{display:none!important}
+}
+</style>
+</head><body>
+<header class="pg"><h1>Gift Card Promo &mdash; Table Topper</h1>
+<div class="s">5.5 &times; 8.5 in vertical half page &middot; 5 options &middot; Thu&ndash;Sun Aug 27&ndash;30</div>
+<div class="tools"><button onclick="document.body.classList.toggle('guides')">&#9635; Toggle safe area</button>
+<button class="alt" onclick="window.print()">&#8853; Print / Save as PDF</button></div></header>
+<main>
+<div class="note"><b>Built at true trim size</b> &mdash; every artboard is exactly <code>5.5in &times; 8.5in</code>, so
+&ldquo;Print / Save as PDF&rdquo; gives you a real 5-page PDF at size, one option per page. On screen they're shown at 62%.
+Toggle the safe area to see the 0.25in margin nothing important should cross.</div>
+
+<div class="note warn"><b>Print resolution &mdash; this is the piece where it matters.</b> Only three photos in the whole
+library are genuinely safe at this size, and I used those:
+<code>WeekendSpecial_Portrait</code> (3506&times;4381), <code>FoodOnTable_FINAL</code> (2541&times;2560),
+<code>TacoCloseUpV10_FINAL</code> (2560&times;2135). A half page at 300&nbsp;dpi needs <b>1650&times;2550px</b>.<br>
+<b>I deliberately did not use any of the June <code>20260623_*</code> photos</b> &mdash; they're 1536&times;2048, which is
+about 240&nbsp;dpi here. That's the shared-album problem, and a table topper is exactly where it would show.<br><br><b>Logo public_id gotcha:</b> the wordmarks are addressed as <code>uno-mas/website/logos/&hellip;</code> even though they physically sit in <code>approved-assets/logos</code>. Using the folder path 404s. They're 3077&times;1577 transparent PNGs &mdash; plenty at 1.85in.</div>
+
+<div class="slot"><div class="hd"><span class="tag">A</span><span class="nm">Full Send lineage</span></div><div class="why">The system you already approved for the site tiles, at half-page scale &mdash; torn-paper price swatches, starbursts, hand-drawn underline. <b>Strongest brand continuity:</b> a guest who saw the tile online recognizes this on the table. No photo, so nothing to go soft in print.</div><div class="stage"><div class="scaler"><div class="tt A"><div class="safe"></div>
+<svg class="brst p" viewBox="0 0 100 100" aria-hidden="true"><path d="M50,0L58.7,26.1L78.9,15.5L69.1,39L101.7,40.9L75.1,54.4L89.8,73L64.2,66.9L66.8,96L50,75.4L32.9,97L35.8,66.9L11,72.5L25,54.4L-1.7,40.9L30.9,39L20.4,14.8L41.3,26.1Z" fill="currentColor"/></svg><svg class="brst t" viewBox="0 0 100 100" aria-hidden="true"><path d="M50,0L58.7,26.1L78.9,15.5L69.1,39L101.7,40.9L75.1,54.4L89.8,73L64.2,66.9L66.8,96L50,75.4L32.9,97L35.8,66.9L11,72.5L25,54.4L-1.7,40.9L30.9,39L20.4,14.8L41.3,26.1Z" fill="currentColor"/></svg>
+<svg class="spk a" viewBox="0 0 40 40" aria-hidden="true"><g stroke="#FFEC00" stroke-width="4.5" stroke-linecap="round"><path d="M6 22 L14 12"/><path d="M18 8 L21 -1"/><path d="M27 15 L37 10"/></g></svg><svg class="spk b" viewBox="0 0 40 40" aria-hidden="true"><g stroke="#FFEC00" stroke-width="4.5" stroke-linecap="round"><path d="M6 22 L14 12"/><path d="M18 8 L21 -1"/><path d="M27 15 L37 10"/></g></svg>
+<div class="core">
+ <div class="kick" style="color:var(--pinka)">Thursday &ndash; Sunday Only</div>
+ <h1 class="big" style="font-size:52pt;color:var(--nd);margin-top:.09in">Spend More,<br><span style="color:var(--pink)">Get More</span></h1>
+ <div style="display:flex;justify-content:center"><svg class="ul" viewBox="0 0 300 26" preserveAspectRatio="none" aria-hidden="true"><path d="M2,16.12 C66,2.6 186,24.7 296,7.8 C186,16.12 66,11.96 2,22.36 Z"/></svg></div>
+ <div style="margin-top:.22in">
+  <div class="tier"><svg class="sw" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><path d="M0.0,2.8L14.3,5.5L28.6,2.0L42.9,0.2L57.1,4.1L71.4,4.9L85.7,0.8L100.0,1.1L100.0,100.0L85.7,95.1L71.4,97.4L57.1,99.2L42.9,94.5L28.6,99.0L14.3,97.7L0.0,94.9Z" fill="#FFEC00"/></svg><span class="amt">$10</span><span class="lbl">Gift&nbsp;Card<small>WHEN YOU SPEND $50</small></span></div>
+  <div class="tier"><svg class="sw" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><path d="M0.0,2.8L14.3,5.5L28.6,2.0L42.9,0.2L57.1,4.1L71.4,4.9L85.7,0.8L100.0,1.1L100.0,100.0L85.7,95.1L71.4,97.4L57.1,99.2L42.9,94.5L28.6,99.0L14.3,97.7L0.0,94.9Z" fill="#FFEC00"/></svg><span class="amt">$20</span><span class="lbl">Gift&nbsp;Card<small>WHEN YOU SPEND $100</small></span></div>
+ </div>
+ <div class="kick" style="font-size:9.5pt;color:var(--nd);margin-top:.16in;letter-spacing:.12em">Handed to you at checkout</div>
+ <img class="logo" src="https://res.cloudinary.com/drxrfyq9i/image/upload/c_fit,w_1400,f_png/uno-mas/website/logos/um-logo-t-t-blue" alt="Uno M&aacute;s Tacos &amp; Tequila" style="margin-top:.3in">
+ <p class="fine" style="color:rgba(6,36,63,.62);margin-top:.13in">Valid Thursday Aug 27 &ndash; Sunday Aug 30, 2026. Gift card is handed to you at checkout &mdash; not applied to the same visit. While supplies last.</p>
+</div></div></div></div></div>
+<div class="slot"><div class="hd"><span class="tag">B</span><span class="nm">Big number stack</span></div><div class="why">Two numbers, navy ground, yellow numerals at 78pt. Built to be read <b>from the next table over</b> without being picked up. The most legible option by a wide margin, and the cheapest to print well &mdash; flat ink, no photo.</div><div class="stage"><div class="scaler"><div class="tt B"><div class="safe"></div>
+<div class="halft"></div>
+<div style="position:relative;text-align:center">
+ <div class="kick" style="color:var(--yel)">Thu &ndash; Sun &middot; Aug 27&ndash;30</div>
+ <h1 class="big" style="font-size:40pt;margin-top:.1in">Spend more.<br><span style="color:var(--blue)">Get more.</span></h1>
+</div>
+<div class="rows">
+ <div class="row"><div class="num">$10</div><div class="cap">Gift card when you<br>spend <i>$50</i></div></div>
+ <div class="row"><div class="num">$20</div><div class="cap">Gift card when you<br>spend <i>$100</i></div></div>
+</div>
+<div style="position:relative;text-align:center">
+ <div class="when">Handed to you at checkout</div>
+ <img class="logo" src="https://res.cloudinary.com/drxrfyq9i/image/upload/c_fit,w_1400,f_png/uno-mas/website/logos/um-logo-t-t-white" alt="Uno M&aacute;s Tacos &amp; Tequila" style="margin-top:.2in;width:1.7in">
+ <p class="fine" style="color:rgba(255,255,255,.5);margin-top:.11in">Valid Thursday Aug 27 &ndash; Sunday Aug 30, 2026. Gift card is handed to you at checkout &mdash; not applied to the same visit. While supplies last.</p>
+</div></div></div></div></div>
+<div class="slot"><div class="hd"><span class="tag">C</span><span class="nm">Photo led</span></div><div class="why">Full-bleed food photography up top, offer block below. <b>Sells the food, not just the discount</b> &mdash; useful because the offer alone doesn't make anyone hungry. Uses the 3506&times;4381 promo shot, the only asset with real headroom at this size.</div><div class="stage"><div class="scaler"><div class="tt C"><div class="safe"></div>
+<div class="ph"><img src="https://res.cloudinary.com/drxrfyq9i/image/upload/e_saturation:18,e_contrast:10,e_brightness:4/q_auto:best/uno-mas/approved-assets/photos/promo/20260814_UM_PROMO_WeekendSpecial_Portrait" alt="">
+ <div class="veil"></div>
+ <div class="over">
+  <div class="kick" style="color:var(--yel);font-size:9.5pt">Thu &ndash; Sun &middot; Aug 27&ndash;30</div>
+  <h1 class="big" style="font-size:34pt;margin-top:.05in">Spend More,<br>Get More</h1>
+ </div>
+</div>
+<div class="body">
+ <div class="tiers">
+  <div class="t"><svg class="sw" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><path d="M0.0,2.8L14.3,5.5L28.6,2.0L42.9,0.2L57.1,4.1L71.4,4.9L85.7,0.8L100.0,1.1L100.0,100.0L85.7,95.1L71.4,97.4L57.1,99.2L42.9,94.5L28.6,99.0L14.3,97.7L0.0,94.9Z" fill="#FFEC00"/></svg><div class="n">$10</div><div class="c">Gift Card<small>SPEND $50</small></div></div>
+  <div class="t"><svg class="sw" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><path d="M0.0,2.8L14.3,5.5L28.6,2.0L42.9,0.2L57.1,4.1L71.4,4.9L85.7,0.8L100.0,1.1L100.0,100.0L85.7,95.1L71.4,97.4L57.1,99.2L42.9,94.5L28.6,99.0L14.3,97.7L0.0,94.9Z" fill="#FFEC00"/></svg><div class="n">$20</div><div class="c">Gift Card<small>SPEND $100</small></div></div>
+ </div>
+ <div class="kick" style="font-size:9pt;color:var(--nd);letter-spacing:.1em">Handed to you at checkout</div>
+ <img class="logo" src="https://res.cloudinary.com/drxrfyq9i/image/upload/c_fit,w_1400,f_png/uno-mas/website/logos/um-logo-t-t-blue" alt="Uno M&aacute;s Tacos &amp; Tequila" style="margin-top:.22in;width:1.6in">
+ <p class="fine" style="color:rgba(6,36,63,.6);margin-top:.1in">Valid Thursday Aug 27 &ndash; Sunday Aug 30, 2026. Gift card is handed to you at checkout &mdash; not applied to the same visit. While supplies last.</p>
+</div></div></div></div></div>
+<div class="slot"><div class="hd"><span class="tag">D</span><span class="nm">The card as hero</span></div><div class="why">Two actual gift cards rendered at an angle. <b>Makes the reward a physical object</b> rather than a percentage &mdash; which matches what actually happens, since you're handing over 200 real cards. Deep navy gradient reads premium.</div><div class="stage"><div class="scaler"><div class="tt D"><div class="safe"></div>
+<div class="halft"></div>
+<div style="position:relative">
+ <div class="kick" style="color:var(--yel)">Thu &ndash; Sun &middot; Aug 27&ndash;30</div>
+ <h1 class="big" style="font-size:44pt;margin-top:.09in">Free<br><span style="color:var(--pink)">Gift Card</span></h1>
+ <div class="rule"></div>
+ <p style="font-family:var(--s);font-weight:600;font-size:9.5pt;line-height:1.5;color:rgba(255,255,255,.82);max-width:3.5in;margin:0 auto">
+  Spend a little, get a little back. We hand you a real card at checkout &mdash; use it next time.</p>
+</div>
+<div class="cardwrap">
+ <div class="gc one"><div><div class="m">Gift Card</div><div class="v">$10</div></div><div class="b">Spend $50</div></div>
+ <div class="gc two"><div><div class="m">Gift Card</div><div class="v">$20</div></div><div class="b">Spend $100</div></div>
+</div>
+<div style="position:relative;margin-top:auto">
+ <img class="logo" src="https://res.cloudinary.com/drxrfyq9i/image/upload/c_fit,w_1400,f_png/uno-mas/website/logos/um-logo-t-t-white" alt="Uno M&aacute;s Tacos &amp; Tequila" style="width:1.7in">
+ <p class="fine" style="color:rgba(255,255,255,.5);margin-top:.11in">Valid Thursday Aug 27 &ndash; Sunday Aug 30, 2026. Gift card is handed to you at checkout &mdash; not applied to the same visit. While supplies last.</p>
+</div></div></div></div></div>
+<div class="slot"><div class="hd"><span class="tag">E</span><span class="nm">Ticket stub</span></div><div class="why">Coupon language &mdash; die-cut notches, perforation line, thin photo strip. <b>Reads as something you keep,</b> which is a little at odds with a table topper you leave behind. Included because the transactional framing is a genuinely different pitch.</div><div class="stage"><div class="scaler"><div class="tt E"><div class="safe"></div>
+<div class="tick">
+ <div class="kick" style="color:var(--pinka);font-size:10pt">Thursday &ndash; Sunday</div>
+ <h1 class="big" style="font-size:38pt;color:var(--nd);margin-top:.07in">Spend More,<br><span style="color:var(--pink)">Get More</span></h1>
+ <div class="strip"><img src="https://res.cloudinary.com/drxrfyq9i/image/upload/e_saturation:18,e_contrast:10,e_brightness:4/q_auto:best/20260125_UM_FOOD_TacoCloseUpV10_FINAL" alt=""></div>
+ <div class="row2">
+  <div class="cell"><div class="n">$10</div><div class="c">Gift Card<small>SPEND $50</small></div></div>
+  <div class="vs">/</div>
+  <div class="cell"><div class="n">$20</div><div class="c">Gift Card<small>SPEND $100</small></div></div>
+ </div>
+ <div class="perf"><span>Handed to you at checkout</span></div>
+ <img class="logo" src="https://res.cloudinary.com/drxrfyq9i/image/upload/c_fit,w_1400,f_png/uno-mas/website/logos/um-logo-t-t-blue" alt="Uno M&aacute;s Tacos &amp; Tequila" style="width:1.55in">
+ <p class="fine" style="color:rgba(6,36,63,.6);margin-top:.1in">Valid Thursday Aug 27 &ndash; Sunday Aug 30, 2026. Gift card is handed to you at checkout &mdash; not applied to the same visit. While supplies last.</p>
+</div></div></div></div></div>
+
+<div class="note"><b>Before this goes to the printer, three things need your call:</b><br>
+&bull; <b>Terms.</b> I wrote &ldquo;Gift card is handed to you at checkout &mdash; not applied to the same visit. While supplies
+last.&rdquo; I inferred the first half from how you described it and the second from having 200 cards. <b>Is there a
+one-per-guest or one-per-visit limit?</b> If so it belongs on the card, not in a server's explanation.<br>
+&bull; <b>Expiry.</b> Nothing on these says when the gift cards themselves expire, because I don't know. If they do expire,
+that has to be printed.<br>
+&bull; <b>Stock and finish.</b> These are designed single-sided. A table topper usually wants a tent fold or a stand &mdash;
+tell me which and I'll produce the second panel or a folding version.</div>
+</main></body></html>
