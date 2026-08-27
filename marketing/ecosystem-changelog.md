@@ -133,6 +133,33 @@ Verified by rendering both pages.
 **Scoped to this doc only.** The "tacos only, no side" fact **remains** on the customer-facing print menu, the social cards, and in `CLAUDE.md` as a copy guard — it's a real table-side distinction for staff, just not a chef sign-off item.
 PDF regenerated, still 3 pages, verified by rendering page 1.
 
+## 2026-08-27 (later) — Late Night menu stripped to type on white  [F3]
+
+**Four directions from Ramsey, all applied:**
+1. **White ground** — pure `#FFFFFF`, not the cream `#FCFBFB` the print work had been using and not
+   the navy sheet variants.
+2. **"$4 Shots", not "$4 Well Shots"** — the sub-line already reads `WELL POURS ONLY`, so "well"
+   appeared twice. *Good catch on redundancy that had been in the copy since the item was added.*
+   Synced into the approval doc as well.
+3. **The taco block has to be the anchor.**
+4. **Every graphic out** — no margarita illustration, no starbursts, no sparks, no brush textures,
+   no ribbons, no icons.
+
+**Verified rather than asserted:** the artboard markup contains **0 `<svg>` elements, 0 yellow
+values, and exactly 5 `<img>` tags — one wordmark per sheet.** The only remaining `#FBC001`
+references are in the review page's own chrome, outside the artboards.
+
+**Consequence worth recording:** with ornament removed, the five variants can only differ in *how the
+taco block is emphasized* — inverted navy panel, 3px ruled box, 112pt scale, column weight, or a 7%
+pink wash. Type, rules and spacing carry the entire piece. This is a genuinely different design
+discipline from the Full Send system and the two should not be judged against each other.
+
+**Built:** `late-night-menu-white.html` — five layouts, true 5.5×8.5in, printable to a 5-page PDF.
+
+**Still open, unchanged:** the regular well-shot price (no strike-through shown, because the only
+shot on record is the $8.50 Latin Candy Shot, a specialty pour) and confirmation that the $5 pint
+is 16oz only.
+
 ## 2026-08-27 — Late Night lineup revised: paloma out, $5 pints + $4 well shots in  [F2, F3]
 
 **Ruling:** Ramsey removed the **$8 paloma** from Late Night Happy Hour and added **$5 pints** and
