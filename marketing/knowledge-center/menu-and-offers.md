@@ -352,7 +352,7 @@ Three churros dusted in cinnamon sugar, served with house whipped cream, fresh s
 | **Taco Tuesday** | BOGO Lunch Street Tacos · $6 Margs · $30 Marg Pitchers |
 | **Beer & Bites Wednesday** | $5 Pints · $10 Loaded Nachos · $10 Loaded Masa Fries |
 | **Big F’N Thursday** | $10 Big F’N Quesadilla (BFQ) · $10 Tequila Cocktails* |
-| **Late Night Happy Hour** *(Fri + Sat only, 8–10pm)* | $6 house margarita · $30 marg pitcher · $8 paloma · **pick any two street tacos $10** — Carne Asada, Al Pastor Chicken, Carnitas, Barbacoa, Batata, Hongos. **No Camaron/shrimp.** Tacos only, no side. |
+| **Late Night Happy Hour** *(Fri + Sat only, 8–10pm)* | $6 house margarita · $30 marg pitcher · $5 pint · $4 well shot · **pick any two street tacos $10** — Carne Asada, Al Pastor Chicken, Carnitas, Barbacoa, Batata, Hongos. **No Camaron/shrimp.** Tacos only, no side. |
 | ~~Burrito Thursday~~ | ~~$15 House Burrito or Bowl~~ — **RETIRED 2026-08**, replaced by Big F’N Thursday |
 
 *The old **3–5pm Happy Hour** and the $12 lunch special are retired — do not reference them. **This does NOT apply to "Late Night Happy Hour"** (Fri+Sat 8–10pm), which is a distinct named program launched 2026-08-28. ⚠️ **Brief staff on the difference** — a guest hearing "happy hour" may expect the old 3–5pm window. These ongoing
@@ -522,6 +522,8 @@ day-specials are the current promotions. Frame as a midweek ritual, not a discou
 *Source: UM Menu Lunch & Cocktails — July 2026.pdf · Uno Mas Dinner Menu — July 2026.pdf · Sunday Brunch menu — July 2026, in 07_MENU_ASSETS/Menus/*
 *Changes in v2.4: Full July 2026 menu price update across Tacos/Burritos/Shareables/Chips & Dips/Cocktails/Pitchers; added missing Dinner Tacos (2a), Dinner Plates (4a), Raw Bar (4b), The Feast (4c), and Sunday Brunch (15) sections; Oysters removed from Raw Bar; flagged open Chip & Dip Trio print-menu price inconsistency ($16 vs $15 — using $16 per owner direction).*
 *Changes in v2.7 (2026-08-25): Thursday cocktail offer broadened from **tequila cocktails** to **$10 Tequila Cocktails** (fresh sheet, new pours weekly). **Late Night Happy Hour renamed "Late Night Happy Hour"** — the old 3–5pm Happy Hour retirement rule narrowed accordingly so the two don't collide.*
+
+*Changes in v2.7 (2026-08-27): **Late Night Happy Hour lineup revised** — the **$8 paloma is REMOVED**; added **$5 pints** (draft 16oz, regular $7) and **$4 well shots**. Lineup is now $6 margs · $30 marg pitchers · $5 pints · $4 well shots · two street tacos $10. Two notes: **$5 pints now appears on both Beer & Bites Wednesday and Late Night Fri/Sat**, so it is no longer a Wednesday-exclusive hook; and **no regular well-shot price exists in this document** — the only shot on record is the Latin Candy Shot at $8.50, a specialty pour, so the $4 well shot cannot be shown with a struck-through regular price without overstating the discount.*
 
 *Changes in v2.6 (2026-08-25): **Late Night Happy Hour paloma repriced $7 → $8** (Ramsey). Regular $14.50, so a $6.50 cut. The margarita is now the steepest Late Night Happy Hour discount at 52% off; the paloma is 45%.*
 

@@ -38,7 +38,8 @@ Canonical hours (Supabase `business_hours`, matching the live site's JSON-LD):
 |---|---|
 | House Margarita | **$6** |
 | Margarita Pitcher | **$30** |
-| Paloma | **$8** |
+| Pint (draft 16oz) | **$5** |
+| Well shot | **$4** |
 | **Pick any two street tacos** | **$10** |
 
 **Taco proteins — all street tacos except Camaron (shrimp), per Ramsey:**

@@ -128,7 +128,7 @@ Every one of these is currently trapped inside a flat composite or doesn't exist
 | Street tacos, three in a row in paper holders | Taco Tuesday |
 | Marg pitcher with two glasses | Taco Tuesday ($30 pitchers) |
 | Draft beer pint, condensation | Beer & Bites ($5 pints) |
-| Paloma with lime wheel | Late Night Happy Hour ($8 palomas) |
+| Well shot, tequila, lined up in threes | Late Night Happy Hour ($4 well shots) |
 | Tequila cocktail, coupe or rocks | Big F'N Thursday ($10 tequila cocktails) |
 
 **Priority: the Big F'N Quesadilla.** Thursday's tile currently borrows a skirt steak photo and a

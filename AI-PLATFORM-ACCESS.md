@@ -63,7 +63,7 @@ Any GPT/Gem set up before **2026-08-21** is wrong about all of these:
 - **One loyalty program: The Cantina Club, and it is FREE.** Paid tiers are future-state — never referenced publicly. "Uno Más Rewards" and "The Guest List" are retired names.
 - **Hours: Tue–Thu 11am–8pm** (not 9pm) · Fri–Sat 11am–10pm · Sun 10am–4pm · Mon closed.
 - **Taco Tuesday $6 margs / $30 pitchers.**
-- **Late Night Happy Hour — FRI + SAT ONLY, 8–10pm** (launches 2026-08-28): $6 margs, $30 pitchers, $8 palomas, two street tacos $10 (no shrimp). **Not a weekday program — Tue–Thu close at 8pm.**
+- **Late Night Happy Hour — FRI + SAT ONLY, 8–10pm** (launches 2026-08-28): $6 margs, $30 pitchers, $5 pints, $4 well shots, two street tacos $10 (no shrimp). **Not a weekday program — Tue–Thu close at 8pm.**
 - **Mahi-Mahi was dropped** — never printed on the brunch menu.
 - **Two creative systems** — photographic for experience, illustrated promo-card for offers. Never blend.
 - **`needs-hires-swap`** — ~141 Cloudinary assets are 2048px social-only. Not for print.

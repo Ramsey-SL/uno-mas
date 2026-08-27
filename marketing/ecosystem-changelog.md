@@ -133,6 +133,38 @@ Verified by rendering both pages.
 **Scoped to this doc only.** The "tacos only, no side" fact **remains** on the customer-facing print menu, the social cards, and in `CLAUDE.md` as a copy guard — it's a real table-side distinction for staff, just not a chef sign-off item.
 PDF regenerated, still 3 pages, verified by rendering page 1.
 
+## 2026-08-27 — Late Night lineup revised: paloma out, $5 pints + $4 well shots in  [F2, F3]
+
+**Ruling:** Ramsey removed the **$8 paloma** from Late Night Happy Hour and added **$5 pints** and
+**$4 well shots**. Lineup is now **$6 margs · $30 marg pitchers · $5 pints · $4 well shots · two
+street tacos $10**. Launch is unchanged: **Fri + Sat, 8–10pm, from 2026-08-28.**
+
+**Propagated to 8 owner files** with targeted string replacements (no regex sweeps):
+`CLAUDE.md` · `AI-PLATFORM-ACCESS.md` · `master-reference.md` · `brand-context-pack.md` ·
+`venue-and-operations.md` · `menu-and-offers.md` (+ v2.7 note) · `chatgpt-illustration-prompt.md`
+(the paloma illustration request became a well-shot request) · the Late Night campaign brief.
+Diff read line by line before committing.
+
+**Two facts I could not substantiate, so I did not invent them:**
+1. **There is no regular well-shot price anywhere in the menu docs.** The only shot on record is the
+   **Latin Candy Shot at $8.50** — a six-ingredient specialty pour, not a well. Showing `$8.50 → $4`
+   would overstate the discount, so the well shot ships with **no struck-through price** while every
+   other item shows its real one. Raised as an open question on the approval doc.
+2. **Pint size.** Priced against the **16oz draft at $7**; the 20oz is $8. Needs confirming that $5
+   is 16oz only, or the floor will be asked and will guess.
+
+**Knock-on flagged, not objected to:** `$5 pints` now runs **Wednesday and Fri/Sat**. It was Beer &
+Bites' hook, which now leans on the $10 nachos and masa fries to differentiate. One memorable price
+beats two competing ones, so this is likely fine — but it is a real change to Wednesday's pitch.
+
+**Built:**
+- `late-night-approval-2026-08-27.html` — team approval doc, revision banner at the top so reviewers
+  see what changed rather than re-reading the whole thing. Tacos section untouched from the version
+  already signed off.
+- `late-night-menu-mockups-v2.html` — five layouts at true 5.5×8.5in trim, printable to a 5-page PDF.
+  Two navy (A/B ground split), the rest cream. Illustrated margs reused from the print-res
+  `WeekendSpecial_Portrait` composite rather than a low-res photo.
+
 ## 2026-08-25 — Paloma repriced $7 → $8; propagated across 20 surfaces  [F2]
 **Ruling:** Ramsey set the Late Night paloma at **$8** (was drafted at $7). Regular price $14.50, so a **$6.50 cut (45%)**.
 
