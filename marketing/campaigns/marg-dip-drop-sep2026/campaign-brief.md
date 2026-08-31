@@ -5,7 +5,7 @@ Test 5 in the Weekly Promo Drop sequence.
 
 | Field | Value |
 |---|---|
-| Offer | **2 House Margaritas + your choice of chips & dip — $25** |
+| Offer | **Two house margaritas plus your choice of a chips and dip shareable — $25** |
 | Window | Wed 2 Sep – Sun 6 Sep 2026, all day |
 | **Exclusion** | **Not valid 8–10pm Fri & Sat during Late Night Happy Hour** |
 | Redemption | Ask your server. No code, no app. |
@@ -68,6 +68,27 @@ does the arithmetic and feels misled. **The line is not optional.**
    the printed menus already disagree on the Trio ($16 lunch vs $15 dinner).
 3. **Fourth bundle in five weeks** — tests 2, 3 and 5 are all bundles. The gift card was the one
    structurally different test and it worked. Not an objection, but worth deciding deliberately.
+
+## The team-facing page
+
+`promo-overview.html` — white ground, typographic, **real photography**. The illustrated system is not
+used on this page; the artboard previews of the tile, poster and email were removed on Ramsey's
+direction 2026-08-31, along with the Logistics, Before-we-build and Afterwards sections.
+
+**Photos used, all verified by eye before selection — not chosen off filenames:**
+
+| Asset | Why |
+|---|---|
+| `…/food/20260814_UM_FOOD_ChipsGuacTrio_v1` | **The offer in one frame** — two margaritas and chips with guacamole, shot in the dining room with the Uno Más sign visible. Hero band. |
+| `20260125_UM_FOOD_ChipDipTrioV2_FINAL` | Clean overhead of all three dips beside a chip basket. Carries "any of the three". |
+| `…/food/20260814_UM_FOOD_ChipsGuacTrio_v4` | Overhead on a patio table, three dips plus two margs. Closes the floor section. |
+| `20260125_UM_DRINK_Marg_FINAL` | Single house marg, in venue, warm. |
+| `…/food/20260730_UM_FOOD_ChipsSalsa_v2` | Tight chip-basket texture shot. |
+
+All are 1536–2560px, fine for web. The print gate does not apply here.
+
+**Headline leading was corrected** from `line-height:.83` to `1.02` — at 90px the two lines were
+colliding, which is a real defect of the condensed display face at large sizes, not a preference.
 
 ## Assets
 
