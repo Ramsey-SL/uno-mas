@@ -86,8 +86,8 @@ POS=('<div class="ab pos">'
  '<div style="margin-top:auto;position:relative;z-index:12">'
  '<div class="script" style="font-size:16pt">Start with the good stuff.'
  +UL("height:.12in;width:2.2in;margin:.01in auto 0")+'</div>'
- '<p class="fine" style="margin:.05in 0 .07in">Wed 2 Sep &ndash; Sun 6 Sep 2026. One per guest per visit. '
- 'House margaritas only. <b>Not valid 8&ndash;10pm Fri &amp; Sat during Late Night Happy Hour.</b></p></div></div>'
+ '<p class="fine" style="margin:.05in 0 .07in">Wed 2 Sep &ndash; Sun 6 Sep 2026. House margaritas only. No limit per visit. '
+ '<b>Not valid 8&ndash;10pm Fri &amp; Sat during Late Night Happy Hour.</b></p></div></div>'
  '<div class="cta"><b>Ask your server.</b></div>'
  '<div class="foot"><b>Tacos. Margs. Brunch. Get a little lost.</b></div></div>')
 
@@ -103,24 +103,19 @@ EM=(f'<div class="ab em"><div class="hero">{BRP}{BRB}<div class="grain"></div>'
  '<div class="band"><b>Wed 2 Sep &ndash; Sun 6 Sep</b></div>'
  '<div class="body"><p>Two house margaritas and your pick of chips &amp; guacamole or chips &amp; queso blanco '
  '&mdash; <b>$25</b>. Up to $33 if you ordered it off the menu.</p>'
- '<p style="margin-top:12px">No code, no app, nothing to show us. Just ask your server.</p>'
+ '<p style="margin-top:12px">No code, no app, nothing to show us. Just ask your server &mdash; and there is no limit, so bring people.</p>'
  '<p style="margin-top:18px;text-align:center"><a class="btn" href="#">See the menu</a></p>'
- '<p style="margin-top:18px;font-size:11.5px;color:#6a7583;line-height:1.5">One per guest per visit. House margaritas only. '
+ '<p style="margin-top:18px;font-size:11.5px;color:#6a7583;line-height:1.5">House margaritas only. No limit per visit. '
  'Not valid 8&ndash;10pm Friday &amp; Saturday during Late Night Happy Hour.</p></div></div>')
 
 DEC=[("Dip choice &mdash; guac and queso only, or include salsa?",
-  "<b>Recommend guac ($6) + queso ($8) only.</b> Two margs are already $25, so with salsa at $4 the guest saves $4 "
-  "and it reads like nothing &mdash; same margin given up, no pull. Guac/queso keeps the saving in a tight 19&ndash;24% band."),
+  "<b>Recommend guac ($6) + queso ($8) only.</b> Two house margs are $25 on their own, so the dip is what makes this "
+  "an offer. Salsa at $4 saves the guest $4 &mdash; reads like nothing, costs you the same margin. Guac saves $6, "
+  "queso saves $8. Those two land."),
  ("Late Night carve-out &mdash; in or out?",
   "<b>Recommend in, and it is not really optional.</b> After 8pm Fri/Sat margs drop to $6, so the contents are worth $20 max "
   "and a $25 bundle would cost the guest <b>$5 more than the menu</b>. Without the line the floor either refuses the sale "
   "or a guest does the math and feels misled."),
- ("Which margaritas count?",
-  "Drafted as <b>house margaritas only</b>. Cadillac is +$2 and flavored versions exist &mdash; someone will ask on night one. "
-  "If upgrades are allowed, decide now whether the upcharge still applies on top of the $25."),
- ("One per guest, or one per visit?",
-  "Drafted as <b>one per guest per visit</b>. Say if it should be one per table, or unlimited &mdash; it gets printed on the poster "
-  "so it cannot be decided on the fly."),
  ("Chips &amp; Queso price &mdash; verify against both printed menus",
   "The &ldquo;up to $33&rdquo; claim rests on Chips &amp; Queso being $8. Related unresolved conflict: the Lunch PDF prices the "
   "Chip &amp; Dip Trio at $16 and the Dinner PDF at $15, so the printed menus already disagree with each other somewhere."),
@@ -160,20 +155,9 @@ html=('<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">'
  '<tr><td><b>Window</b></td><td>Wed 2 Sep &ndash; Sun 6 Sep 2026, all day</td></tr>'
  '<tr><td><b>Exclusion</b></td><td class="bad">Not valid 8&ndash;10pm Fri &amp; Sat during Late Night Happy Hour</td></tr>'
  '<tr><td><b>Redemption</b></td><td>Ask your server. No code, no app, nothing to show.</td></tr>'
- '<tr><td><b>Limit</b></td><td>One per guest per visit <span class="warnc">(open decision)</span></td></tr>'
- '<tr><td><b>Drinks</b></td><td>House margaritas only <span class="warnc">(open decision)</span></td></tr>'
+ '<tr><td><b>Limit</b></td><td><b>No limit</b> &mdash; order it as many times as you like, per visit</td></tr>'
+ '<tr><td><b>Drinks</b></td><td><b>House margaritas only.</b> No Cadillac, no flavored upgrades at the offer price.</td></tr>'
  '</tbody></table>'
- '<h2 class="sec">What it&rsquo;s worth <span>&mdash; and what it costs you</span></h2>'
- '<p class="lede">House margarita is $12.50, so two are $25 on the nose. The dip is the entire reason this is an offer rather than a wash.</p>'
- '<table class="d"><thead><tr><th>Guest picks</th><th class="num">Dip</th><th class="num">&Agrave; la carte</th>'
- '<th class="num">Bundle</th><th class="num">Saves</th><th class="num">% off</th></tr></thead><tbody>'
- +''.join(f'<tr><td>{n}</td><td class="num">{d}</td><td class="num">{a}</td><td class="num"><b>{b}</b></td>'
-          f'<td class="num {c}">{s}</td><td class="num {c}">{p}</td></tr>' for n,d,a,b,s,p,c in VALUE)
- +'</tbody></table>'
- '<div class="note warn"><b>How this compares to what already ran.</b> Full Send was 20% off at both tiers. '
- 'Test 2 (2 margs + the $16 Trio at $30) was 27% off. This lands at <b>19&ndash;24%</b>, so the ladder stays consistent '
- '&mdash; guests are not being taught that waiting gets them a better week. Your original $25-with-the-Trio idea '
- 'would have been <b>39% off</b>, and would have given the $16 Trio away for free.</div>'
  '<h2 class="sec">Decisions needed <span>before anything is made</span></h2>'
  +''.join(dec(q,r) for q,r in DEC)+
  '<h2 class="sec">Floor rules <span>&mdash; the staff version</span></h2>'
@@ -182,7 +166,8 @@ html=('<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">'
  '&bull; <b>Chips &amp; salsa is not in the offer.</b> If a guest asks, it is guac or queso.<br>'
  '&bull; <b>Not available 8&ndash;10pm Friday and Saturday.</b> Late Night has $6 margs, which beats this on the drinks '
  'alone &mdash; if someone asks in that window, tell them Late Night pricing is better and sell that instead.<br>'
- '&bull; House margaritas. Cadillac and flavored upgrades are <span class="warnc">pending Ramsey&rsquo;s call</span>.<br>'
+ '&bull; <b>House margaritas only.</b> Cadillac and flavored margs are not part of the offer &mdash; those stay full price.<br>'
+ '&bull; <b>No limit.</b> A table can run it as many times as they want &mdash; two more margs, another dip, another $25.<br>'
  '&bull; No code word this week. Just ask.</div>'
  '<h2 class="sec">Website tile</h2>'
  '<p class="lede">Drops into the existing <code>PromoSlot</code> as a weekly-promo entry, gated Wed&ndash;Sun. '

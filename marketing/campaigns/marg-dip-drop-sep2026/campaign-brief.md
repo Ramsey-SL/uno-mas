@@ -9,8 +9,8 @@ Test 5 in the Weekly Promo Drop sequence.
 | Window | Wed 2 Sep – Sun 6 Sep 2026, all day |
 | **Exclusion** | **Not valid 8–10pm Fri & Sat during Late Night Happy Hour** |
 | Redemption | Ask your server. No code, no app. |
-| Limit | One per guest per visit *(open)* |
-| Drinks | House margaritas only *(open)* |
+| Limit | **No limit** — order it as many times as you like, per visit *(decided 2026-08-31)* |
+| Drinks | **House margaritas only** — no Cadillac, no flavored upgrades at the offer price *(decided 2026-08-31)* |
 
 ## The pricing logic
 
@@ -38,15 +38,27 @@ the menu**. Four of the five days in the Drop window contain this collision.
 Without an explicit carve-out the floor either refuses the sale and looks inconsistent, or a guest
 does the arithmetic and feels misled. **The line is not optional.**
 
+## Decided 2026-08-31
+
+- **House margaritas only.** Cadillac (+$2) and flavored margs are excluded at the offer price.
+- **No limit per visit.** A table can run the bundle as many times as they want.
+
+> **What the no-limit call actually does:** it makes every additional dip effectively free as long as
+> the guest buys two more margs. Guac and queso are low food-cost items, so this trades cheap food
+> against drink volume — a good trade, and it turns the offer into an upsell the floor can push
+> rather than a one-shot coupon. Worth briefing as *"two more margs and another dip is another $25."*
+
+- **The "what it's worth" pricing table was removed from the team-facing doc** on Ramsey's call. The
+  math is retained here as the internal record: guac saves $6 (19%), queso saves $8 (24%), against
+  Full Send's 20% and Test 2's 27%.
+
 ## Open decisions
 
 1. **Dip choice** — guac + queso only (recommended), or include salsa?
 2. **Late Night carve-out** — confirm in.
-3. **Which margaritas** — house only? Cadillac is +$2; flavored versions exist.
-4. **One per guest, or per visit, or per table?** It gets printed, so it cannot be decided on the fly.
-5. **Verify Chips & Queso is $8 on both printed menus** — the "up to $33" claim depends on it, and
+3. **Verify Chips & Queso is $8 on both printed menus** — the "up to $33" claim depends on it, and
    the printed menus already disagree on the Trio ($16 lunch vs $15 dinner).
-6. **Fourth bundle in five weeks** — tests 2, 3 and 5 are all bundles. The gift card was the one
+4. **Fourth bundle in five weeks** — tests 2, 3 and 5 are all bundles. The gift card was the one
    structurally different test and it worked. Not an objection, but worth deciding deliberately.
 
 ## Assets
