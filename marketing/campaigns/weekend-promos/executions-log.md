@@ -25,13 +25,14 @@ run five days, and an overpromising word stops meaning anything by week three.
 | 1 | **Spend $60, get $10 off** — code word `MICKEY` | ~Aug 14–17 | 🔴 **OVER** — the first test |
 | 2 | **2 House Margs + Chip & Dip Trio — $30** | mid-Aug weekend | 🔴 **OVER** |
 | 3 | **Pick Your Full Send — $45 / $65** | **Aug 22–24** | 🟡 **RUNNING** (this weekend) |
-| 4 | **Gift card bounce-back** — $50→$10, $100→$20 (physical card at checkout) | **offer Wed Aug 26 → Sun Aug 30 · marketing launch Thu Aug 27** | 🟢 **NEXT** — spans the weekend, so it **is** the Aug 28–30 weekend test. Overlaps the Late Night launch (Fri Aug 28); offers stack. See `campaigns/gift-card-bounceback-aug2026/` |
+| 4 | **Gift card bounce-back** — $50→$10, $100→$20 (physical card at checkout) | **offer Wed Aug 26 → Sun Aug 30 · marketing launch Thu Aug 27** | 🔴 **OVER — reported SUCCESSFUL by Ramsey 2026-08-31.** Spans the weekend, so it **is** the Aug 28–30 weekend test. Overlaps the Late Night launch (Fri Aug 28); offers stack. See `campaigns/gift-card-bounceback-aug2026/` |
 
 ## 📈 The pattern — each test moves further from discounting
 
 This is the most useful thing in this log. Read the sequence as a deliberate progression:
 
 | # | Structure | What it costs you |
+| 5 | **Two Margs + A Dip — $25** (2 house margs + chips & guac or queso) | **Wed 2 Sep → Sun 6 Sep** | 🔵 **PROPOSED** — review package in `campaigns/marg-dip-drop-sep2026/`. Carries a hard Late Night carve-out: margs are $6 Fri/Sat 8–10pm, which makes a $25 bundle cost the guest $5 *more* than the menu in that window. |
 |---|---|---|
 | 1 | **Straight discount** — $10 off a $60 check | Full margin hit, immediately, on a visit that was already happening |
 | 2 | **Fixed bundle** — 2 margs + a shareable at $30 | Discounted, but it *builds a bigger check* and pushes a specific high-margin pairing |
