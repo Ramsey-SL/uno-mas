@@ -5,12 +5,14 @@ Test 5 in the Weekly Promo Drop sequence.
 
 | Field | Value |
 |---|---|
-| Offer | **2 House Margaritas + Chips & Guacamole *or* Chips & Queso Blanco — $25** |
+| Offer | **2 House Margaritas + your choice of chips & dip — $25** |
 | Window | Wed 2 Sep – Sun 6 Sep 2026, all day |
 | **Exclusion** | **Not valid 8–10pm Fri & Sat during Late Night Happy Hour** |
 | Redemption | Ask your server. No code, no app. |
 | Limit | **No limit** — order it as many times as you like, per visit *(decided 2026-08-31)* |
 | Drinks | **House margaritas only** — no Cadillac, no flavored upgrades at the offer price *(decided 2026-08-31)* |
+
+| Dips | **All three** — Chips & Salsa, Chips & Guacamole, or Chips & Queso Blanco. Guest's choice, no upcharge *(decided 2026-08-31)* |
 
 ## The pricing logic
 
@@ -21,10 +23,14 @@ as an offer rather than a wash.
 |---|---|---|---|---|---|
 | Chips & Guacamole | $6 | $31 | $25 | $6 | 19% |
 | Chips & Queso Blanco | $8 | $33 | $25 | $8 | 24% |
-| ~~Chips & Salsa~~ | $4 | $29 | $25 | $4 | 14% — **recommend excluding** |
+| Chips & Salsa | $4 | $29 | $25 | $4 | 14% — **included per Ramsey 2026-08-31** |
 
 **Ladder consistency:** Full Send was 20% off at both tiers; Test 2 (2 margs + the $16 Trio at $30)
 was 27%. This lands at 19–24%, so guests are not being taught that waiting gets a better week.
+
+**Note on the team-facing page:** all comparative pricing and savings language was removed from
+`promo-overview.html` on Ramsey's direction — the only figure that appears there is $25. The math below is
+retained here as the internal record only.
 
 **Rejected: $25 with the Chip & Dip Trio.** That is 39% off and hands over the $16 Trio for free,
 because two margs already total $25. Ramsey caught this himself and narrowed the offer to a single dip.
@@ -42,6 +48,9 @@ does the arithmetic and feels misled. **The line is not optional.**
 
 - **House margaritas only.** Cadillac (+$2) and flavored margs are excluded at the offer price.
 - **No limit per visit.** A table can run the bundle as many times as they want.
+- **All three dips are in.** Salsa included on Ramsey's call 2026-08-31, overriding my recommendation to
+  restrict it to guac and queso. His reasoning holds: a choice with no wrong answer is easier for the floor
+  to state and removes a reason to say no to a guest.
 
 > **What the no-limit call actually does:** it makes every additional dip effectively free as long as
 > the guest buys two more margs. Guac and queso are low food-cost items, so this trades cheap food
@@ -54,11 +63,10 @@ does the arithmetic and feels misled. **The line is not optional.**
 
 ## Open decisions
 
-1. **Dip choice** — guac + queso only (recommended), or include salsa?
-2. **Late Night carve-out** — confirm in.
-3. **Verify Chips & Queso is $8 on both printed menus** — the "up to $33" claim depends on it, and
+1. **Late Night carve-out** — confirm in.
+2. **Verify the individual dip prices on both printed menus** — the "up to $33" claim depends on it, and
    the printed menus already disagree on the Trio ($16 lunch vs $15 dinner).
-4. **Fourth bundle in five weeks** — tests 2, 3 and 5 are all bundles. The gift card was the one
+3. **Fourth bundle in five weeks** — tests 2, 3 and 5 are all bundles. The gift card was the one
    structurally different test and it worked. Not an objection, but worth deciding deliberately.
 
 ## Assets
