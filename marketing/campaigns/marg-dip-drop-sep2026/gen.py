@@ -22,8 +22,8 @@ A(CSS+'</style></head><body>')
 A('<button class="print" onclick="window.print()">Save as PDF</button>')
 
 A(f'<div class="site"><div class="wrap"><img src="{WORDN}" alt="Uno Mas Tacos and Tequila">'
-  '<nav><a href="#offer">The offer</a><a href="#how">How it works</a><a href="#week">The week</a>'
-  '<a href="#floor">For the floor</a></nav></div></div>')
+  '<nav><a href="#offer">The offer</a><a href="#how">How it works</a><a href="#floor">For the floor</a>'
+  '<a href="#week">The week</a></nav></div></div>')
 
 A('<div class="hero"><div class="wrap"><div class="kick">The Weekly Promo Drop</div>'
   '<h1 class="big">Two Margs +<br><em>A Chips &amp; Dip Shareable</em></h1>'
@@ -68,6 +68,22 @@ A('<section id="how"><div class="wrap"><div class="eyebrow">How it works</div>'
   '</div>'
   f'<div class="duo"><figure class="shot"><img src="{P_MARG}" alt="House margarita"></figure>'
   f'<figure class="shot"><img src="{P_SALSA}" alt="Basket of chips with salsa"></figure></div>'
+  '</div></section>')
+
+A('<section id="floor"><div class="wrap"><div class="eyebrow">For the floor</div>'
+  '<h2>Brief this, <span>don&rsquo;t just post it</span></h2><div class="rule"></div>'
+  '<ul class="rules">'
+  '<li><b>Two house margs plus one chips and dip shareable &mdash; $25.</b></li>'
+  '<li><b>Any of the three shareables.</b> Salsa, guacamole or queso blanco &mdash; guest&rsquo;s choice. No upcharge, '
+  'no steering.</li>'
+  '<li><b>Not available 8&ndash;10pm Friday and Saturday.</b> Late Night Happy Hour has its own margarita pricing. '
+  'If someone asks in that window, point them at Late Night instead.</li>'
+  '<li><b>House margaritas only.</b> Cadillac and flavored margs are not part of the offer.</li>'
+  '<li><b>No limit.</b> A table can run it as many times as they want. Two more margs and another shareable is another '
+  '$25 &mdash; say it.</li>'
+  '<li><b>No code word this week.</b> They just ask.</li>'
+  '</ul>'
+  f'<figure class="shot inline"><img src="{P_PATIO}" alt="Chips and dips with two margaritas on a patio table"></figure>'
   '</div></section>')
 
 # ── the week: messaging framework ──
@@ -121,22 +137,6 @@ A('<section id="week"><div class="wrap"><div class="eyebrow">Messaging framework
   '<div class="callout"><b>What none of the three solves:</b> Big F&rsquo;N Thursday only ever appears in the email. '
   'With two texts there is no way to give Thursday its own moment and still cover the drop, Late Night and brunch. '
   'If Thursday matters more than brunch this week, say so and I will swap them.</div>'
-  '</div></section>')
-
-A('<section id="floor"><div class="wrap"><div class="eyebrow">For the floor</div>'
-  '<h2>Brief this, <span>don&rsquo;t just post it</span></h2><div class="rule"></div>'
-  '<ul class="rules">'
-  '<li><b>Two house margs plus one chips and dip shareable &mdash; $25.</b></li>'
-  '<li><b>Any of the three shareables.</b> Salsa, guacamole or queso blanco &mdash; guest&rsquo;s choice. No upcharge, '
-  'no steering.</li>'
-  '<li><b>Not available 8&ndash;10pm Friday and Saturday.</b> Late Night Happy Hour has its own margarita pricing. '
-  'If someone asks in that window, point them at Late Night instead.</li>'
-  '<li><b>House margaritas only.</b> Cadillac and flavored margs are not part of the offer.</li>'
-  '<li><b>No limit.</b> A table can run it as many times as they want. Two more margs and another shareable is another '
-  '$25 &mdash; say it.</li>'
-  '<li><b>No code word this week.</b> They just ask.</li>'
-  '</ul>'
-  f'<figure class="shot inline"><img src="{P_PATIO}" alt="Chips and dips with two margaritas on a patio table"></figure>'
   '</div></section>')
 
 A('<footer class="pg"><div class="wrap"><span class="sc">Get a little lost.</span>'
