@@ -126,3 +126,17 @@ page 3 carries only the send plan. That rebalance is what got it from 4 to 3.
 **Print-only suppressions** (screen keeps everything): the Save-as-PDF button, the nav, the
 inline photo in the offer section, and the two paired photos under How It Works. Print still
 carries the four tiles and the floor photo.
+
+## Shared link
+
+**https://unomas-promo-drop.netlify.app** — Netlify project `unomas-promo-drop`,
+site id `4c5fc602-5eff-49af-b555-a5588a9ee905`, team `699aba0f8c460f7d175a8eb0`.
+
+Deployed with `X-Robots-Tag: noindex, nofollow, noarchive, nosnippet` and a blanket
+`robots.txt` disallow, because it is internal collateral for a promo that has not launched.
+**It is not password-protected** — the team plan supports it, and several other Uno Más sites
+(`unomas-reporting`, `unomas-no2`, `uno-mas-website-builder`) have it enabled. Left off here so
+the link can just be shared; one call turns it on.
+
+`deploy.sh` rebuilds `_site/` for redeployment. The Netlify proxy token is short-lived, so the
+deploy command itself has to be re-issued each time.
