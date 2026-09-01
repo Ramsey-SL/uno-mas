@@ -104,3 +104,25 @@ asset in the library. The single-bowl crop yields 720×540, enough for a 2in ele
 **Promos are illustrated. Menus are clean type on white.** This split was set 2026-08-27 when Ramsey
 stripped the Late Night menu to type on white. Both are correct — they are different jobs, and the
 two should not be judged against each other.
+
+## Print output
+
+`promo-overview.html` prints to **exactly 3 pages** on US Letter at 0.42in margins:
+
+| Page | Contains |
+|---|---|
+| 1 | Header, hero, the four photo tiles, the offer spec |
+| 2 | How it works, For the floor, what has to land this week |
+| 3 | The send plan, the two alternative allocations, footer |
+
+**Verified by rendering, not estimated.** `printcount.sh` drives headless Chrome
+`--print-to-pdf` and counts `/Type /Page` in the output. The count went 7 → 5 → 4 → 3 across
+four passes, with each group measured in isolation to find which one was overflowing.
+
+Two breaks are forced: `break-after` on `#offer`, and a `.pagebreak` marker before the first
+send block — the break sits *inside* the week section so page 2 absorbs the priorities and
+page 3 carries only the send plan. That rebalance is what got it from 4 to 3.
+
+**Print-only suppressions** (screen keeps everything): the Save-as-PDF button, the nav, the
+inline photo in the offer section, and the two paired photos under How It Works. Print still
+carries the four tiles and the floor photo.
