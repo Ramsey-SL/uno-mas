@@ -28,16 +28,15 @@ The printed table tent also reads **WED–SUN · ALL DAY** with no exclusion.
 
 Until this is settled the email should not send.
 
-## 2. Thursday is named "Big F'N Thursday" in the repo — 128 references
+## 2. Thursday naming — RESOLVED 2026-09-03
 
-Ramsey said **"Tequila Thursday"** on 2026-09-03, and that name is now **live on the
-website** (deployed commit `2747333c`). The repo says **Big F'N Thursday** in 128 places,
-named as the replacement for Burrito Thursday back in 2026-08.
+**Ruling: the name is and stays "Big F'N Thursday."** "Tequila Thursday" was my error —
+I renamed it across the knowledge base and deployed it to the live site before checking
+against the repo, which had it as Big F'N Thursday in 128 places since August 2026.
 
-Right now the live site and the knowledge base disagree.
-
-**Needs a ruling:** if Tequila Thursday is the real rename, the 128 references need
-updating (and GBP, Toast, printed collateral). If it was a slip, the site needs reverting.
+Reverted: the site has been changed back, and the stale rename never reached the
+knowledge base (those edits were dropped in the rebase). The offer itself was never
+wrong — $10 Big F'n Quesadilla + $10 tequila cocktails.
 
 ## 3. Creative system mismatch
 

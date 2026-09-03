@@ -158,7 +158,7 @@ Mostly fixed — flag anything wrong rather than rewriting.
 
 ## STILL OPEN — your call
 
-4. **No Tequila Thursday.** Deliberate: the email sends Friday, Thursday's already past.
+4. **No Big F'N Thursday.** Deliberate: the email sends Friday, Thursday's already past.
    Flagging in case you want a "next week" teaser at the bottom.
 5. **Send timing.** Playbook says no email and SMS on the same day. Thursday SMS →
    Friday email → Saturday SMS is clean. If the email slips to Saturday, it collides.
