@@ -1,0 +1,398 @@
+<title>The Monroe Street Partnership</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Antonio:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap">
+
+<style>
+:root{
+  --navy:#003366; --navy-deep:#00223F; --pink:#E22690; --pink-deep:#A81A6C;
+  --ink:#1C2620; --ink-2:#455049; --ink-3:#5B6961;
+  --paper:#F7F4EC; --card:#FFFFFF; --sunk:#EFE9DC;
+  --rule:#DED6C4; --rule-2:#C7BCA1;
+  --accent:var(--pink); --accent-txt:var(--pink-deep);
+  --accent-soft:rgba(226,38,144,.07); --accent-line:rgba(226,38,144,.32);
+  --struct:var(--navy); --struct-txt:#FFFFFF; --head:var(--navy);
+  --gold:#9C7A1E; --gold-soft:rgba(156,122,30,.13);
+  --shadow:0 2px 4px rgba(0,51,102,.05), 0 18px 40px -18px rgba(0,51,102,.20);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --ink:#EFEAE0; --ink-2:#BFC9C1; --ink-3:#8C9A92;
+    --paper:#0E1A16; --card:#152820; --sunk:#0A1B15;
+    --rule:rgba(255,255,255,.13); --rule-2:rgba(255,255,255,.24);
+    --accent:var(--pink); --accent-txt:#FF6EB2;
+    --accent-soft:rgba(226,38,144,.15); --accent-line:rgba(226,38,144,.5);
+    --struct:#18BCDC; --struct-txt:#00223F; --head:#EFEAE0;
+    --gold:#D9B657; --gold-soft:rgba(217,182,87,.14);
+    --shadow:0 2px 4px rgba(0,0,0,.4), 0 20px 44px -18px rgba(0,0,0,.65);
+  }
+}
+:root[data-theme="dark"]{
+  --ink:#EFEAE0; --ink-2:#BFC9C1; --ink-3:#8C9A92;
+  --paper:#0E1A16; --card:#152820; --sunk:#0A1B15;
+  --rule:rgba(255,255,255,.13); --rule-2:rgba(255,255,255,.24);
+  --accent:var(--pink); --accent-txt:#FF6EB2;
+  --accent-soft:rgba(226,38,144,.15); --accent-line:rgba(226,38,144,.5);
+  --struct:#18BCDC; --struct-txt:#00223F; --head:#EFEAE0;
+  --gold:#D9B657; --gold-soft:rgba(217,182,87,.14);
+  --shadow:0 2px 4px rgba(0,0,0,.4), 0 20px 44px -18px rgba(0,0,0,.65);
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);
+  font-family:"Montserrat",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased;font-variant-numeric:tabular-nums}
+.wrap{max-width:1020px;margin:0 auto;padding:0 clamp(18px,4vw,54px) 110px}
+.prose{max-width:66ch}
+
+header.mast{padding:clamp(48px,8vw,88px) 0 0}
+.kicker{font-size:12px;font-weight:700;letter-spacing:.26em;text-transform:uppercase;color:var(--accent-txt)}
+h1{font-family:"Antonio","Helvetica Neue",Arial,sans-serif;font-weight:600;
+  text-transform:uppercase;letter-spacing:.008em;line-height:.96;
+  font-size:clamp(2.5rem,7vw,4.4rem);margin:.26em 0 0;color:var(--head);text-wrap:balance}
+h1 em{font-style:normal;color:var(--accent)}
+.dek{font-size:clamp(1.04rem,2.1vw,1.28rem);font-weight:400;line-height:1.55;
+  color:var(--ink-2);max-width:58ch;margin:1.2em 0 0}
+.stamp{margin-top:2.4em;padding-top:1.05em;border-top:2px solid var(--accent-line);
+  display:flex;flex-wrap:wrap;gap:.5em 2.2em;font-size:11.5px;font-weight:600;
+  letter-spacing:.13em;text-transform:uppercase;color:var(--ink-3)}
+
+.thesis{margin:clamp(34px,5vw,52px) 0 0;padding:clamp(24px,3.6vw,36px) clamp(24px,4vw,40px);
+  background:var(--struct);color:var(--struct-txt);border-radius:16px;box-shadow:var(--shadow)}
+.thesis .t{font-size:10.5px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;
+  opacity:.72;margin-bottom:.7em}
+.thesis p{margin:0;font-size:clamp(1.05rem,2vw,1.22rem);line-height:1.55;
+  font-weight:500;max-width:62ch;text-wrap:balance}
+.thesis strong{font-weight:700}
+
+section{margin-top:clamp(58px,9vw,96px)}
+.shead{display:flex;gap:1.15em;align-items:baseline;border-bottom:2px solid var(--accent-line);padding-bottom:.6em}
+.snum{font-family:"Antonio",sans-serif;font-size:1.7rem;font-weight:700;color:var(--accent);line-height:1;flex:0 0 auto}
+h2{font-family:"Antonio","Helvetica Neue",Arial,sans-serif;font-weight:600;text-transform:uppercase;
+  letter-spacing:.008em;line-height:1.02;font-size:clamp(1.6rem,3.8vw,2.25rem);margin:0;
+  color:var(--head);text-wrap:balance}
+h3{font-weight:700;font-size:.85rem;letter-spacing:.15em;text-transform:uppercase;
+  color:var(--accent-txt);margin:2.5em 0 .85em}
+p{margin:1.05em 0}
+.shead + p, .shead + .prose > p:first-child{margin-top:1.55em}
+strong{font-weight:700}
+
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(215px,1fr));gap:14px;margin:2em 0}
+.c{padding:1.25em 1.35em;background:var(--card);border:1px solid var(--rule);border-radius:14px;
+  box-shadow:var(--shadow);border-top:4px solid var(--accent)}
+.c.gold{border-top-color:var(--gold)}
+.c .t{font-size:10.5px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--ink-3);margin-bottom:.5em}
+.c .v{font-family:"Antonio",sans-serif;font-weight:600;font-size:1.9rem;line-height:1;
+  letter-spacing:.008em;color:var(--accent-txt)}
+.c.gold .v{color:var(--gold)}
+.c p{margin:.55em 0 0;font-size:13px;color:var(--ink-2);line-height:1.48}
+
+.tw{overflow-x:auto;margin:1.9em 0;border:1px solid var(--rule);border-radius:14px;background:var(--card);box-shadow:var(--shadow)}
+table{width:100%;border-collapse:collapse;font-size:14px;min-width:480px}
+caption{text-align:left;padding:1.05em 1.2em .95em;border-bottom:1px solid var(--rule);
+  font-size:11px;font-weight:700;letter-spacing:.15em;text-transform:uppercase;
+  color:var(--accent-txt);background:var(--sunk)}
+th,td{padding:.58em 1em;text-align:right;border-bottom:1px solid var(--rule)}
+th:first-child,td:first-child{text-align:left;padding-left:1.2em}
+th:last-child,td:last-child{padding-right:1.2em}
+thead th{font-size:10.5px;font-weight:700;letter-spacing:.11em;text-transform:uppercase;
+  color:var(--ink-3);border-bottom:2px solid var(--rule-2);white-space:nowrap;vertical-align:bottom;
+  padding-top:.9em;padding-bottom:.7em}
+tbody tr:last-child td{border-bottom:0}
+td.n,th.n{font-variant-numeric:tabular-nums;font-weight:500;white-space:nowrap}
+tr.sub td{border-top:1px solid var(--rule-2);font-weight:700;background:var(--sunk)}
+tr.tot td{border-top:0;font-weight:700;background:var(--struct);color:var(--struct-txt)}
+tr.tot td.n{font-size:14.5px}
+tr.hl td{background:var(--accent-soft);font-weight:700}
+tr.hl td:first-child{box-shadow:inset 3px 0 0 var(--accent)}
+tr.hl td.n{color:var(--accent-txt)}
+tr.gold td{background:var(--gold-soft);font-weight:700}
+tr.gold td:first-child{box-shadow:inset 3px 0 0 var(--gold)}
+tr.gold td.n{color:var(--gold)}
+tr.grp td{background:var(--sunk);font-size:10.5px;font-weight:700;letter-spacing:.13em;
+  text-transform:uppercase;color:var(--ink-3);padding:.72em 1.2em}
+td.ind{padding-left:2.3em}
+.mut{color:var(--ink-3);font-weight:400}
+
+.note{margin:2em 0;padding:1.2em 1.4em;background:var(--card);border:1px solid var(--rule);
+  border-left:4px solid var(--gold);border-radius:14px;font-size:14.5px;box-shadow:var(--shadow)}
+.note .t{font-size:10.5px;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:var(--ink-3);margin-bottom:.55em}
+.note p{margin:.55em 0 0}.note p:first-of-type{margin-top:0}
+
+.timeline{display:flex;flex-direction:column;gap:0;margin:2em 0}
+.tl-row{display:grid;grid-template-columns:110px 1fr;gap:1.4em;padding:1.1em 0;border-bottom:1px solid var(--rule)}
+.tl-row:last-child{border-bottom:0}
+.tl-when{font-family:"Antonio",sans-serif;font-weight:600;font-size:1.05rem;color:var(--accent-txt);padding-top:.1em}
+.tl-body b{display:block;font-size:15px;margin-bottom:.25em}
+.tl-body span{color:var(--ink-2);font-size:13.5px;line-height:1.5}
+
+ul{margin:1.05em 0;padding-left:1.25em}
+li{margin:.5em 0}
+li::marker{color:var(--accent)}
+
+footer{margin-top:clamp(64px,10vw,104px);padding-top:1.3em;border-top:2px solid var(--accent-line);
+  font-size:11.5px;color:var(--ink-3);line-height:1.75}
+@media (max-width:620px){.shead{flex-direction:column;gap:.15em}.tl-row{grid-template-columns:1fr}}
+</style>
+
+<div class="wrap">
+
+<header class="mast">
+  <div class="kicker">A proposal for the North Monroe building &middot; Confidential</div>
+  <h1>The Monroe Street <em>Partnership</em></h1>
+  <p class="dek">One loan replaces six. One vacant room becomes a second business.
+  Uno M&aacute;s already has the kitchen, the staff, the licenses, and the marketing —
+  what's missing is the structure to put them to work for both of us.</p>
+  <div class="stamp">
+    <span>Prepared for discussion</span>
+    <span>2020 N Monroe St, Spokane WA</span>
+    <span>Indicative terms, subject to underwriting</span>
+  </div>
+</header>
+
+<div class="thesis">
+  <div class="t">The proposal in one sentence</div>
+  <p>Pledge the building as collateral on a single 10-year SBA loan that retires
+  <strong>every dollar of debt currently attached to Uno M&aacute;s</strong>, and become an
+  equal partner in turning the empty unit next door into a staffed, licensed, marketed
+  event venue — no hiring, no liquor license, no operating burden on your side.</p>
+</div>
+
+<!-- 01 -->
+<section>
+  <div class="shead"><div class="snum">01</div><h2>Where things stand today</h2></div>
+
+  <div class="prose">
+  <p>Uno M&aacute;s carries debt across six separate facilities — two SBA term loans, a
+  revolving line, two credit cards, and the tenant-improvement balance billed inside the
+  lease. Different rates, different maturities, different lenders. It works, but it's
+  fragile, and every one of those facilities is a separate point of risk for a tenant you
+  depend on for rent.</p>
+  <p>Separately, the adjoining unit has been difficult to lease as a standalone space.
+  Turning it into an event venue solves the vacancy — but running an event space means a
+  manager, a caterer, a bar program, liquor licensing, and a marketing engine to fill the
+  calendar. That's a business in itself, and not one either of us wants to build from
+  scratch.</p>
+  <p><strong>Uno M&aacute;s already has all of it</strong> — a kitchen with wholesale food
+  and beverage accounts, a liquor license, an operations team on-site every day, and a
+  marketing system already promoting the building. The event space isn't a new venture.
+  It's an extension of one that already exists next door.</p>
+  </div>
+</section>
+
+<!-- 02 -->
+<section>
+  <div class="shead"><div class="snum">02</div><h2>The structure</h2></div>
+
+  <h3>Part one — one loan, not six</h3>
+  <div class="tw"><table>
+    <caption>Debt retired by the consolidated SBA loan</caption>
+    <tbody>
+      <tr><td>Two SBA term notes</td><td class="n">323,082</td></tr>
+      <tr><td>Revolving line of credit</td><td class="n">43,628</td></tr>
+      <tr><td>Two business credit cards</td><td class="n">99,642</td></tr>
+      <tr><td>Tenant-improvement balance</td><td class="n">69,506</td></tr>
+      <tr><td>Working capital &amp; other business debt</td><td class="n">100,000</td></tr>
+      <tr class="tot"><td>New consolidated loan</td><td class="n">635,858</td></tr>
+    </tbody>
+  </table></div>
+
+  <div class="cards">
+    <div class="c"><div class="t">New terms</div><div class="v">8% &middot; 10yr</div>
+      <p>One rate, one lender, one payment — replacing a blended ~10&ndash;11% across five
+      separate facilities.</p></div>
+    <div class="c"><div class="t">Monthly payment</div><div class="v">$7,715</div>
+      <p>$92,577 a year, fully amortizing. No balloon, no renewal risk.</p></div>
+    <div class="c gold"><div class="t">What secures it</div><div class="v">Your building</div>
+      <p>In exchange, the building's collateral value replaces six scattered personal
+      guaranties with one clean facility.</p></div>
+  </div>
+
+  <h3>Part two — the event space, as a joint venture</h3>
+  <div class="prose">
+  <p>Uno M&aacute;s staffs, caters, and markets the space. You contribute the real estate.
+  <strong>Profits split 50/50</strong> — reflecting that you're carrying the collateral risk
+  on the full $635,858 consolidation, not just the event space itself.</p>
+  </div>
+</section>
+
+<!-- 03 -->
+<section>
+  <div class="shead"><div class="snum">03</div><h2>What closes on day one</h2></div>
+
+  <div class="prose">
+  <p>Before any projection, before any event is ever booked, the consolidation itself
+  produces an immediate result:</p>
+  </div>
+
+  <div class="tw"><table>
+    <caption>Cash at closing</caption>
+    <tbody>
+      <tr class="gold"><td>Tenant-improvement balance paid in full, in cash</td><td class="n">69,506</td></tr>
+      <tr><td>Six obligations become one</td><td class="n mut">&mdash;</td></tr>
+      <tr><td>Combined debt service falls from ~$14,000/mo to</td><td class="n">7,715</td></tr>
+    </tbody>
+  </table></div>
+
+  <div class="prose">
+  <p>The TI arrangement — years of a $2,174 monthly charge running inside the lease through
+  October 2029 — is resolved in full, in cash, at closing. That alone is worth having this
+  conversation.</p>
+  </div>
+</section>
+
+<!-- 04 -->
+<section>
+  <div class="shead"><div class="snum">04</div><h2>The event space, at scale</h2></div>
+
+  <div class="prose">
+  <p>Modeled at a conservative run rate — $1,000 flat rental plus $25 a head, roughly 3
+  events a month once established — the space reaches about <strong>$360,000 a year</strong>
+  in gross bookings. Food and beverage cost plus event labor run 50% of that revenue;
+  the rest is profit.</p>
+  </div>
+
+  <div class="tw"><table>
+    <caption>Event space P&amp;L at $360,000 annual revenue</caption>
+    <tbody>
+      <tr><td>Gross event revenue</td><td class="n">360,000</td></tr>
+      <tr><td class="ind">Food, beverage &amp; event labor (50%)</td><td class="n">(180,000)</td></tr>
+      <tr class="tot"><td>Event space contribution</td><td class="n">180,000</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<!-- 05 -->
+<section>
+  <div class="shead"><div class="snum">05</div><h2>The combined economics</h2></div>
+
+  <div class="prose">
+  <p>The restaurant, run conservatively at 60% of sales in food and labor combined —
+  including a fully-loaded executive chef — plus the event space above, less debt service
+  on the new consolidated loan, less compensation for the two managers running both
+  operations day to day:</p>
+  </div>
+
+  <div class="tw"><table>
+    <caption>Combined annual profit pool, before the 50/50 split</caption>
+    <tbody>
+      <tr><td>Restaurant contribution (60% prime, incl. chef)</td><td class="n">190,043</td></tr>
+      <tr><td>+ Event space contribution</td><td class="n">180,000</td></tr>
+      <tr><td>- Management compensation, both operations</td><td class="n">(88,400)</td></tr>
+      <tr><td>- Consolidated loan payment</td><td class="n">(92,577)</td></tr>
+      <tr class="tot"><td>Combined annual profit pool</td><td class="n">189,066</td></tr>
+    </tbody>
+  </table></div>
+
+  <div class="cards">
+    <div class="c"><div class="t">Your annual share</div><div class="v">$94,533</div>
+      <p>$7,878 a month, distributed from operations — on top of the $69,506 already in
+      hand at closing.</p></div>
+    <div class="c"><div class="t">Uno M&aacute;s annual share</div><div class="v">$94,533</div>
+      <p>Identical split, none of it drawn until the loan payment and both managers are
+      paid first.</p></div>
+  </div>
+</section>
+
+<!-- 06 -->
+<section>
+  <div class="shead"><div class="snum">06</div><h2>Twenty-four months out</h2></div>
+
+  <div class="prose">
+  <p>Uno M&aacute;s already has a broker relationship and a history of buyer interest in the
+  business. That gives both of us a standing, asset-based exit — available at any time,
+  independent of how this partnership performs — alongside the upside of building real
+  equity together.</p>
+  </div>
+
+  <div class="tw"><table>
+    <caption>Your total return at 24 months, by eventual sale price</caption>
+    <thead><tr><th>Sale price</th><th class="n">Cash collected to date</th><th class="n">Your share of sale proceeds</th><th class="n">Total to you</th></tr></thead>
+    <tbody>
+      <tr><td>$800,000</td><td class="n">258,572</td><td class="n">127,138</td><td class="n">385,711</td></tr>
+      <tr class="hl"><td>$900,000</td><td class="n">258,572</td><td class="n">177,138</td><td class="n">435,711</td></tr>
+      <tr><td>$1,000,000</td><td class="n">258,572</td><td class="n">227,138</td><td class="n">485,711</td></tr>
+      <tr class="hl"><td>$1,200,000</td><td class="n">258,572</td><td class="n">327,138</td><td class="n">585,711</td></tr>
+    </tbody>
+  </table></div>
+
+  <div class="prose">
+  <p>These figures assume the consolidated loan is serviced on schedule and the
+  remaining balance — roughly $546,000 at month 24 — is paid off from sale proceeds
+  before any split. <strong>Whatever a buyer's own bank finances is irrelevant to what we
+  each keep</strong> — the existing loan is retired at the closing table either way.</p>
+  </div>
+
+  <h3>What a sale means beyond the number</h3>
+  <ul>
+    <li><strong>A new, stronger tenant.</strong> Whoever buys the business signs a fresh
+    lease directly with you — a better-capitalized operator than the one paying rent
+    today, on terms you negotiate at that time.</li>
+    <li><strong>No debt follows the building.</strong> The consolidated loan is retired at
+    closing. You keep the real estate, free of the obligation you collateralized.</li>
+  </ul>
+</section>
+
+<!-- 07 -->
+<section>
+  <div class="shead"><div class="snum">07</div><h2>Why a buyer can actually pay this</h2></div>
+
+  <div class="prose">
+  <p>A price only matters if a bank will finance it. At $800,000&ndash;$1,200,000, a buyer
+  financing 90% through their own SBA loan clears the coverage a lender requires with
+  room to spare:</p>
+  </div>
+
+  <div class="tw"><table>
+    <caption>Buyer debt coverage at each price point</caption>
+    <thead><tr><th>Sale price</th><th class="n">Buyer's new loan payment</th><th class="n">Coverage ratio</th></tr></thead>
+    <tbody>
+      <tr><td>$800,000</td><td class="n">104,827/yr</td><td class="n">2.69&times;</td></tr>
+      <tr class="hl"><td>$900,000</td><td class="n">117,930/yr</td><td class="n">2.39&times;</td></tr>
+      <tr><td>$1,000,000</td><td class="n">131,034/yr</td><td class="n">2.15&times;</td></tr>
+      <tr><td>$1,200,000</td><td class="n">157,241/yr</td><td class="n">1.79&times;</td></tr>
+    </tbody>
+  </table></div>
+
+  <div class="prose">
+  <p>A typical SBA minimum is 1.25&times;. This business clears that threshold at prices up
+  to roughly <strong>$1.7 million</strong> — the $800,000&ndash;$1,200,000 target range isn't
+  a financing stretch, it's a valuation question, and a well-supported one.</p>
+  </div>
+</section>
+
+<!-- 08 -->
+<section>
+  <div class="shead"><div class="snum">08</div><h2>What this asks of each of us</h2></div>
+
+  <div class="tw"><table>
+    <caption>Contribution and return, side by side</caption>
+    <thead><tr><th>Partner</th><th>Contributes</th><th>Receives</th></tr></thead>
+    <tbody>
+      <tr><td><strong>You</strong></td><td>The building, as loan collateral. No cash.</td>
+        <td>$69,506 at closing &middot; $94,533/yr &middot; 50% of sale proceeds &middot; a new tenant at exit</td></tr>
+      <tr><td><strong>Uno M&aacute;s</strong></td><td>Operations, staff, licenses, wholesale
+        accounts, marketing — for both businesses.</td>
+        <td>$94,533/yr &middot; 50% of sale proceeds</td></tr>
+    </tbody>
+  </table></div>
+
+  <div class="note">
+    <div class="t">Read before the numbers above</div>
+    <p>The 60% restaurant and 50% event-space cost assumptions are operating targets, not
+    guarantees, and the $360,000 event-space revenue figure is a planning case, not a
+    booked calendar. Actual performance will move every number in this document. What
+    doesn't move: six obligations become one, the TI balance is resolved in cash at
+    closing, and the space next door finally has an operator.</p>
+  </div>
+</section>
+
+<footer>
+  Uno M&aacute;s Tacos &amp; Tequila LLC &middot; 2020 N Monroe St, Suite C, Spokane WA 99205<br>
+  Prepared for discussion purposes. Indicative terms only, subject to lender underwriting,
+  legal documentation, and mutual agreement. Not a binding offer or commitment by either
+  party. All figures are estimates derived from current operating data and stated
+  assumptions; actual results will vary. Confidential.
+</footer>
+
+</div>
