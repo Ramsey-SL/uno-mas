@@ -1,0 +1,5 @@
+# scratch URL lists used for link-checking during the build
+_urls*.txt
+# 4MB archival full-size PNG — regenerate from the HTML with Chrome headless
+# if ever needed. The optimised JPG + slices are committed instead.
+export/uno-mas-weekend-email_1200w_full.png
